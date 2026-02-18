@@ -8044,14 +8044,21 @@ sub received_login_token {
         );
     
     } elsif ($login_type == 400 || $login_type == 1000) {
-        die 'ERROR: otpSeed is not set in config.txt' unless $config{otpSeed};
+		
+		my $master = $masterServer = $masterServers{$config{'master'}};
+
+		if (grep { $master->{serverType} ne $_ } qw(ROla) ) {
+        	die 'ERROR: otpSeed is not set in config.txt' unless $config{otpSeed};
+		}
 
         my $otp;
-        Plugins::callHook('request_otp_login', { otp => \$otp, seed => $config{otpSeed} });
+        Plugins::callHook('request_otp_login', { otp => \$otp, seed => $config{otpSeed}, username => $config{username} });
+
     	unless (defined $otp && length $otp) { 
 			error "No Plugin returned a OTP code for account $config{username}\n", 'connection';
 			$otp = $interface->query(T(', please enter your OTP: ')); 
 		}
+		
         $messageSender->sendOtpToServer($otp);
 
 	} elsif ($login_type == 300) {

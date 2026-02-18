@@ -16,6 +16,7 @@ use strict;
 use Plugins;
 use lib $Plugins::current_plugin_folder;
 use TOTP;
+use Globals;
 
 Plugins::register(
     'otp',
@@ -31,16 +32,20 @@ my $hooks = Plugins::addHooks(
 
 sub generate {
     my ($plugin, $args) = @_;
-    my $otp = $args->{otp};
-
-    my $username = $args->{username};
+    
+    my $master = $masterServers{ $config{master} };
 
     my $totp = TOTP->new(
         digits   => 6,
         timestep => 30,
     );
-
-    $$otp = $totp->totp($username);
+    
+    if (grep { $master->{serverType} eq $_ } qw(ROla)) {
+        $$otp = $totp->totp_username($args->{username});
+        return 1;
+    }
+    
+    $$otp = $totp->totp_seed($args->{seed});
 }
 
 sub unload {

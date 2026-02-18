@@ -270,10 +270,16 @@ sub clientSend {
 	elsif ($switch eq "0AE3") { # received_login_token
 		my $login_type = unpack('l', substr($msg, 4, 8));
 
+		my $master = $masterServer = $masterServers{$config{'master'}};
+
 		# OTP request
 		if ( ($login_type eq 400 || $login_type eq 1000) ) {
+			if (grep { $master->{serverType} ne $_ } qw(ROla) ) {
+				die 'ERROR: otpSeed is not set in config.txt' unless $config{otpSeed};
+			}
+
 			my $otp;
-			Plugins::callHook('request_otp_login', { otp => \$otp, username => $config{username} });
+			Plugins::callHook('request_otp_login', { otp => \$otp, seed => $config{otpSeed}, username => $config{username} });
 
 			if (defined $otp && length $otp) {
 				$messageSender->sendOtpToServer($otp);
@@ -287,7 +293,6 @@ sub clientSend {
 		visualDump($msg, 'sendToClient');
 	}
 
-	# queue message instead of sending directly
 	$clientBuffer .= $msg;
 }
 
