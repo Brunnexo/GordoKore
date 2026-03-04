@@ -11711,8 +11711,13 @@ msgid ""
 "Make sure no other servers are running on port %s.\n"
 msgstr ""
 
-#: ../Network/XKore.pm:70 ../Network/XKoreProxy.pm:86
+#: ../Network/XKore.pm:78
 msgid "X-Kore mode intialized.\n"
+msgstr ""
+
+#: ../Network/XKore.pm:80
+#, perl-format
+msgid "Listening for the Ragnarok Online client at %s:%i\n"
 msgstr ""
 
 #: ../Network/XKore.pm:263

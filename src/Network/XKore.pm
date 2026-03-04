@@ -48,12 +48,15 @@ sub new {
 	my $self = bless {}, $class;
 
 	undef $@;
+	
 	$self->{server} = new IO::Socket::INET->new(
 		Listen		=> 5,
 		LocalAddr	=> $addr,
 		LocalPort	=> $port,
 		Proto		=> 'tcp'
 	);
+
+
 	if (!$self->{server}) {
 		Network::XKore::CannotStart->throw(error => TF("Unable to start the X-Kore server.\n" .
 			"Make sure no other servers are running on port %s.\n", $port));
@@ -71,7 +74,10 @@ sub new {
 	$self->{tokenizer} = new Network::MessageTokenizer($self->getRecvPackets());
 	$self->{kore_map_changed_hook} = Plugins::addHook('packet/map_changed', \&kore_map_changed, $self);
 
+	
 	message T("X-Kore mode intialized.\n"), "startup";
+
+	message TF("Listening for the Ragnarok Online client at %s:%s\n", $addr, $port), "startup";
 
 	return $self;
 }
