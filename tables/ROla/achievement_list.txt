@@ -4688,14 +4688,14 @@ achievement_tbl = {
 		group = "CHATTING",
 		major = 4,
 		minor = 0,
-		title = "Criador de Reis",
+		title = "Aquele que Fez o Rei",
 		content = {
 			summary = "Meu Rei que Eu Criei",
-			details = "Restaure a glória de Terra Gloria e coroe o herói que a reivindicou."
+			details = "Recupere a glória de Terra Gloria e coroe aquele que foi o protagonista dessa glória."
 		},
 		resource = {
 			[1] = {
-				text = "Assista à coroação do novo Rei de Rune-Midgarts."
+				text = "Assista à coroação em que nasce o novo rei de Rune-Midgarts."
 			}
 		},
 		reward = {

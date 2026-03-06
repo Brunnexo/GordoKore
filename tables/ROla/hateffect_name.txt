@@ -280,3 +280,5 @@ HAT_EF_C_S_Beelzebub_Wing C_S_Beelzebub_Wing
 FOOTPRINT_EF_feather FOOTPRINT_EF_feather
 HAT_EF_Solid_State_Recognition Solid_State_Recognition
 HAT_EF_C_Cursed_Serpent C_Cursed_Serpent
+FOOTPRINT_EF_phoenix FOOTPRINT_EF_phoenix
+HAT_EF_C_CLB_GAT_doc C_CLB_GAT_doc

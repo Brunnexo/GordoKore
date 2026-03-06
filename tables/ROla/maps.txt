@@ -11,6 +11,8 @@
 1@advs.rsw#Aposento Clerical#
 1@air1.rsw#Aeroplano#
 1@air2.rsw#Aeroplano#
+1@bamn.rsw#Jardim ao Entardecer#
+1@bamq.rsw#Depósito da Aeronave#
 1@begi.rsw#Vila dos Poring#
 1@cash.rsw#Caverna do Polvo#
 1@cata.rsw#Catacumbas#
@@ -35,10 +37,12 @@
 1@exsr.rsw#Mundo Interior#
 1@face.rsw#Covil de Vermes#
 1@ffp.rsw#Esconderijo Submarino#
+1@gat.rsw#Portal Suspeito#
 1@ge_sn.rsw#Torneio Noturno#
 1@ge_st.rsw#Torneio de Magia#
 1@gef.rsw#Geffen#
 1@gef_in.rsw#Interior de Geffen#
+1@ghg.rsw#Ortus Aqua#
 1@gl_he.rsw#Dimensão Contaminada#
 1@gl_k.rsw#Cavalaria de Glastheim (1)#
 1@gl_k2.rsw#Cavalaria de Glastheim (1)#
@@ -48,10 +52,12 @@
 1@gol1.rsw#Edda do Biolaboratório#
 1@gol2.rsw#Edda do Biolaboratório#
 1@halo.rsw#Evento de Halloween#
+1@herbs.rsw#Jardim Oculto#
 1@infi.rsw#Espaço Infinito#
 1@jtb.rsw#Pesadelo Musical#
 1@lab.rsw#Laboratório Central#
 1@lhz.rsw#Laboratório de Wolfchev#
+1@lost.rsw#Menageria Esquecida pelo Tempo#
 1@ma_b.rsw#Lago de Bakonawa#
 1@ma_c.rsw#Caverna Buwaya#
 1@ma_h.rsw#Hospital Abandonado (2)#
@@ -180,6 +186,18 @@ ayo_fild02.rsw#Arredores de Ayothaya (2)#
 ayo_in01.rsw#Interior de Ayothaya#
 ayo_in02.rsw#Castelo de Ayothaya#
 ayothaya.rsw#Ayothaya#
+ba_2whs01.rsw#Cofre Tártaro - Andar Superior#
+ba_2whs02.rsw#Cofre Tártaro - Andar Inferior#
+ba_bath.rsw#Grande Banho Meditatio#
+ba_chess.rsw#Jardim de Xadrez#
+ba_go.rsw#Campo de Batalha Aquático#
+ba_in01.rsw#Interior da Mansão Varmundt#
+ba_lib.rsw#Corredor da Biblioteca das Memórias#
+ba_lost.rsw#Menageria do Vale Perdido#
+ba_maison.rsw#Jardim da Mansão Varmundt#
+ba_pw01.rsw#Primeira Usina de Energia#
+ba_pw02.rsw#Estação de Tratamento de Esgoto#
+ba_pw03.rsw#Segunda Usina de Energia#
 bat_a01.rsw#Desfiladeiro Tierra#
 bat_a02.rsw#Desfiladeiro Tierra#
 bat_b01.rsw#Arena Flavius#

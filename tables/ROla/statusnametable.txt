@@ -527,6 +527,7 @@ EFST_ANCILLA Criar Ancilla
 EFST_WEAPONBLOCK_ON Reflexo
 EFST_ASSUMPTIO_BUFF Assumptio
 EFST_BASILICA_BUFF Basílica
+EFST_OVERLAPEXPUP2 Comida de Gato2
 EFST_SOULCURSE Assombração
 EFST_SOUND_OF_DESTRUCTION Prelúdio do Ragnarök
 EFST_HELPANGEL Sob Proteção
@@ -542,15 +543,15 @@ EFST_DEADLY_DEFEASANCE Deadly Projection
 EFST_CLIMAX_DES_HU Destructive Hurricane
 EFST_CLIMAX Climax
 EFST_LUXANIMA Luz da Alma
-EFST_BATH_FOAM_A Sal de Banho A
-EFST_BATH_FOAM_B Sal de Banho B
-EFST_BATH_FOAM_C Sal de Banho C
-EFST_AROMA_OIL Óleo de Aromaterapia
+EFST_BATH_FOAM_A Aditivo de Banho A
+EFST_BATH_FOAM_B Aditivo de Banho B
+EFST_BATH_FOAM_C Aditivo de Banho C
+EFST_AROMA_OIL ?leo Arom?tico
 EFST_POWERFUL_FAITH Powerful Faith
 EFST_SINCERE_FAITH Sincere Faith
 EFST_FIRM_FAITH Firm Faith
 EFST_HELLS_PLANT_ARMOR Planta Infernal
-EFST_LOCKON_LASER Seleciona o local de bombardeio
+EFST_LOCKON_LASER Definir Ponto de Bombardeio
 EFST_REF_T_POTION Poção X
 EFST_ADD_ATK_DAMAGE Elixir Vermelho
 EFST_ADD_MATK_DAMAGE Elixir Azul
@@ -690,6 +691,10 @@ EFST_RUSH_QUAKE1 Quake
 EFST_RUSH_QUAKE2 Rush
 EFST_C_BUFF_1 Force Booster
 EFST_C_BUFF_2 Speed Booster
+EFST_C_BUFF_3 Pluma Resistente
+EFST_C_BUFF_4 Pena Leve
+EFST_C_BUFF_5 Pena Glamurosa
+EFST_C_BUFF_6 Pena Maciça
 EFST_OVERSEA_BUFF_12 Escrituras
 EFST_OVERSEA_BUFF_30 Música de Samba
 EFST_OVERSEA_BUFF_31 Glitter de Carnaval

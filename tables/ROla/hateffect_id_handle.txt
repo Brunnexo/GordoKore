@@ -280,3 +280,5 @@
 280 FOOTPRINT_EF_feather
 281 HAT_EF_Solid_State_Recognition
 282 HAT_EF_C_Cursed_Serpent
+287 FOOTPRINT_EF_phoenix
+288 HAT_EF_C_CLB_GAT_doc
