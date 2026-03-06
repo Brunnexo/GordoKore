@@ -3,7 +3,7 @@
 # GordoKore
 _Ferramenta de automação para o Ragnarök Online_
 
->Este _fork_ foi atualizado para a versão LATAM (**Lat**im **Am**erica) do jogo! <br> Não é garantido o funcionamento em outras versões, apesar de ser possível.
+>Este _fork_ foi atualizado para a versão LATAM (**Lat**im **Am**erica) do jogo! <br> Não é garantido o funcionamento em outras versões, apesar de ser possível com algumas modificações.
 
 ## Pré-requisitos
 
@@ -20,14 +20,10 @@ Algumas dependências são necessárias para o OpenKore funcionar:
 git clone https://github.com/Brunnexo/GordoKore.git
 ```
 
-3. Configure o OpenKore: [documentação (em Inglês)](https://openkore.com/wiki/Category:control).
-4. Execute `openkore.pl` _(Você pode usar start.exe ou wxstart.exe se estiver usando Windows¹)_.
-5. Assumindo que você já tenha instalado Strawberry Perl: abra o `cmd` e execute o seguinte comando:
-```batch
-cpanm FFI::Platypus
-```
+2. Configure o OpenKore: [documentação (em Inglês)](https://openkore.com/wiki/Category:control).
+3. Execute `openkore.pl` _(Você pode usar start.exe ou wxstart.exe se estiver usando Windows¹)_.
 
-## Status do funcionamento do OpenKore nos servidores oficiais
+## Status do funcionamento do OpenKore nos servidores oficiais¹
 
 Principais servidores para o **público brasileiro**:
 
@@ -37,6 +33,7 @@ Principais servidores para o **público brasileiro**:
 | [ROla](https://www.gnjoylatam.com/) | Ragnarök Online LATAM | nProtect GameGuard | Funcional | ? |
 | [Landverse LATAM](https://rola.maxion.gg/) | Ragnarök Landverse LATAM | Proprietária | Funcional | ? |
 
+**¹A tabela acima refere-se ao status de funcionamento (capacidade de usar o OpenKore) e não ao funcionamento deste repositório nos servidores mencionados!**
 
 ## Contribua
 
