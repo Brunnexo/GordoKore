@@ -45,18 +45,19 @@ sub unload {
 sub calc_checksum {
 	my ( $data ) = @_;
 	
+	my $addr = $config{checksum_ip} || 'localhost';
+	my $port = $config{checksum_port} || 2349;
+
 	# Create socket connection
 	my $socket = IO::Socket::INET->new(
-		PeerHost => $config{ip_socket} || 'localhost',
-		PeerPort => $config{port_socket} || 2349,
+		PeerHost => $addr,
+		PeerPort => $port,
 		Proto    => 'tcp',
 		Timeout  => $TIMEOUT
 	);
 	
 	unless ($socket) {
-		error "LatamChecksum: Failed to connect to checksum server at " . 
-			  ($config{ip_socket} || 'localhost') . ":" . 
-			  ($config{port_socket} || 2349) . "!\n";
+		error "LatamChecksum: Failed to connect to checksum server at $addr:$port!\n";
 		return 0; # Return 0 as fallback checksum
 	}
 
@@ -64,7 +65,7 @@ sub calc_checksum {
 	my $packet = $data . pack("N", $counter); # Send data + counter in network byte order
 	
 	unless (print $socket $packet) {
-		error "LatamChecksum: Failed to send data to checksum server - $!\n";
+		error "LatamChecksum: Failed to send data to checksum server at $addr:$port - $!\n";
 		$socket->close();
 		return 0;
 	}
@@ -75,7 +76,7 @@ sub calc_checksum {
 	$socket->close();
 	
 	unless (defined $bytes_read && $bytes_read == 17) {
-		error "LatamChecksum: Failed to read complete response from server\n";
+		error "LatamChecksum: Failed to read complete response from server at $addr:$port\n";
 		return 0;
 	}
 	

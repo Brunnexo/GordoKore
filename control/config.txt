@@ -20,11 +20,18 @@ poseidonTimeout 5
 bindIp
 forceMapIP
 
-ip_socket
-port_socket
+# Checksum for LATAM server
+# Only appliable in Kore 0 and Kore 3
+checksum_ip
+checksum_port
 
-# 1 = hook into RO client, 2 = Act as stand-alone proxy, proxy = act as true proxy
+# 0 = full standalone console
+# 1 = hook into RO client
+# 2 = act as stand-alone proxy
+# 3 = act as true proxy
+
 # https://openkore.com/wiki/XKore
+
 XKore 0
 XKore_hookIp 127.0.0.1
 XKore_port 2350
