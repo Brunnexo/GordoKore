@@ -267,7 +267,7 @@ sub checkConnection {
 	my $pid;
 	# Wait until the RO client has started
 
-	my $loop = 1;
+	my $loop = $config{XKore_lookForProcess} ? 1 : 0;
 	my @list;
 
 	message TF("Please start the Ragnarok Online client (%s)\n", $config{XKore_exeName}), "startup";
