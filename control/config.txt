@@ -38,7 +38,10 @@ XKore_injectDLL 0
 
 # Get list of running processes of Ragnarok, only works with Windows
 XKore_lookForProcess 0
+
+# Also only works with Windows
 XKore_autoAttachIfOneExe 1
+
 XKore_silent 1
 XKore_bypassBotDetection 0
 XKore_exeName ragexe.exe
