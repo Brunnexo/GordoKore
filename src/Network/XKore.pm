@@ -19,19 +19,29 @@ use base qw(Exporter);
 use Exporter;
 use IO::Socket::INET;
 use Time::HiRes qw(time usleep);
-use Win32;
 use Exception::Class ('Network::XKore::CannotStart');
 
 use Modules 'register';
 use Globals;
 use Log qw(message error debug);
-use Utils::Win32;
+
 use Network;
 use Network::Send ();
 use Utils qw(dataWaiting timeOut);
 use Translation;
 use Misc qw(chatLog);
 use Network::MessageTokenizer;
+
+# Process listing only works in Windows, so we need to check before trying to use it.
+use constant IS_WINDOWS => ($^O eq 'MSWin32');
+BEGIN {
+    if (IS_WINDOWS) {
+        require Win32;
+        Win32->import();
+        require Utils::Win32;
+        Utils::Win32->import();
+    }
+}
 
 my $currentClientKey = 0;
 
@@ -272,7 +282,7 @@ sub checkConnection {
 
 	message TF("Please start the Ragnarok Online client (%s)\n", $config{XKore_exeName}), "startup";
 	Plugins::callHook('XKore_start');
-	while ($loop) {
+	while ($loop && IS_WINDOWS) {
 		undef @list;
 		my @z = Utils::Win32::listProcesses();
 
@@ -595,7 +605,7 @@ sub onClientData {
 	}
 	$self->decryptMessageID(\$msg);
 
-	$msg = $self->{tokenizer}->slicePacket($msg, \$additional_data); # slice packet if needed
+	$msg = $self->{tokenizer}->slicePacket($msg, \$additional_data);
 
 	$self->{tokenizer}->add($msg, 1);
 
@@ -633,7 +643,7 @@ sub decryptMessageID {
 	$$r_message = pack("v", $messageID) . substr($$r_message, 2);
 
 	# Debug Log
-	debug (sprintf("Decrypted MID : [%04X]->[%04X] / KEY : [0x%04X]->[0x%04X]\n", $oldMID, $messageID, $oldKey, ($currentClientKey >> 16) & 0x7FFF), "sendPacket", 0) if $config{debugPacket_sent};
+	debug (sprintf("Decrypted Message ID : [%04X]->[%04X] / KEY : [0x%04X]->[0x%04X]\n", $oldMID, $messageID, $oldKey, ($currentClientKey >> 16) & 0x7FFF), "sendPacket", 0) if $config{debugPacket_sent};
 }
 
 sub getRecvPackets {

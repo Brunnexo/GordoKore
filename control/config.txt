@@ -29,14 +29,14 @@ checksum_port
 # 1 = hook into RO client
 # 2 = act as stand-alone proxy
 # 3 = act as true proxy
-
 # https://openkore.com/wiki/XKore
-
 XKore 0
 XKore_hookIp 127.0.0.1
 XKore_port 2350
 XKore_dll NetRedirect.dll
 XKore_injectDLL 0
+
+# Get list of running processes of Ragnarok, only works with Windows
 XKore_lookForProcess 0
 XKore_autoAttachIfOneExe 1
 XKore_silent 1

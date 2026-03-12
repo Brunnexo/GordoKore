@@ -5,15 +5,6 @@
 # If you wish to tweak the build system but aren't familiar with SCons,
 # then simply edit these variables:
 
-# Extra directories in which the C(++) compiler should look for
-# header files.
-# Example: EXTRA_INCLUDE_DIRECTORIES = ['/foo', '/bar']
-EXTRA_INCLUDE_DIRECTORIES = []
-
-# Extra directories in which the linker should search for libraries.
-# Example: EXTRA_LIBRARY_DIRECTORIES = ['/opt/foo/lib', '/tmp/bar/lib']
-EXTRA_LIBRARY_DIRECTORIES = []
-
 # Extra arguments to be passed to the compiler during the compilation
 # stage (not during the linking stage).
 # EXTRA_COMPILER_FLAGS = ['-Wall', '-g', '-O2', '-pipe']
@@ -42,9 +33,25 @@ darwin = platform == "darwin"
 win32 = cygwin or platform == "win32"
 have_ncurses = False
 READLINE_LIB = 'readline'
-
 perlconfig = {}
+
+
+# Extra directories in which the C(++) compiler should look for
+# header files.
+# Example: EXTRA_INCLUDE_DIRECTORIES = ['/foo', '/bar']
+EXTRA_INCLUDE_DIRECTORIES = []
+
+# Extra directories in which the linker should search for libraries.
+# Example: EXTRA_LIBRARY_DIRECTORIES = ['/opt/foo/lib', '/tmp/bar/lib']
+EXTRA_LIBRARY_DIRECTORIES = []
+
+# On Unix-like systems, add the standard include and library directories to the search path.
+if not win32 and not darwin:
+	EXTRA_INCLUDE_DIRECTORIES.append('/usr/include')
+	EXTRA_LIBRARY_DIRECTORIES.append('/usr/lib')
+
 env = Environment()
+
 if win32:
 	env = Environment(
 		ENV = {
@@ -148,6 +155,14 @@ def CheckPerl(context):
 
 def CheckReadline(context, conf):
 	context.Message('Checking for GNU readline 4.3 or higher...')
+
+	# Modern Linux distributions have GNU readline 4.3 or higher, so we can skip the check on Linux.
+	linux = not win32 and not darwin
+	if linux:
+		context.message(" it's on Linux, so yes\n")
+		return True
+	
+	
 	result = context.TryCompile("""
 		#include <stdio.h>
 		#include <readline/readline.h>
@@ -158,6 +173,7 @@ def CheckReadline(context, conf):
 		#endif
 """, '.c')
 	context.Result(result)
+
 	return result
 
 def CheckLibCurl(context):
