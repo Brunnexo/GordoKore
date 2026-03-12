@@ -159,7 +159,7 @@ def CheckReadline(context, conf):
 	# Modern Linux distributions have GNU readline 4.3 or higher, so we can skip the check on Linux.
 	linux = not win32 and not darwin
 	if linux:
-		context.message(" it's on Linux, so yes\n")
+		context.Message(" it's on Linux, so yes\n")
 		return True
 	
 	
