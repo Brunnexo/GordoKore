@@ -10,9 +10,7 @@ achievement_tbl = {
 			summary = "Quem nunca comeu de madrugada?"
 		},
 		resource = {
-			{
-				text = "Traga a comida pedida."
-			}
+			{ text = "Traga a comida pedida." }
 		},
 		reward = {},
 		score = 10
@@ -28,27 +26,13 @@ achievement_tbl = {
 			summary = "Fale com os fãs do príncipe"
 		},
 		resource = {
-			{
-				text = "Mulher Elegante"
-			},
-			{
-				text = "Moça Bonita"
-			},
-			{
-				text = "Garota Romântica"
-			},
-			{
-				text = "Mulher Bonita"
-			},
-			{
-				text = "Estrangeiro"
-			},
-			{
-				text = "Menina Agitada"
-			},
-			{
-				text = "Rapaz Batalhador"
-			}
+			{ text = "Mulher Elegante" },
+			{ text = "Moça Bonita" },
+			{ text = "Garota Romântica" },
+			{ text = "Mulher Bonita" },
+			{ text = "Estrangeiro" },
+			{ text = "Menina Agitada" },
+			{ text = "Rapaz Batalhador" }
 		},
 		reward = {},
 		score = 10
@@ -59,18 +43,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Prontera (1)",
-		content = {
-			details = "Abrir o Baú no campo norte de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Prontera"
-			}
+			{ text = "Abrir o Baú no campo norte de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120002] = {
@@ -79,18 +56,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Prontera (2)",
-		content = {
-			details = "Abrir o Baú no campo norte de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Prontera"
-			}
+			{ text = "Abrir o Baú no campo norte de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120003] = {
@@ -99,18 +69,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Prontera (3)",
-		content = {
-			details = "Abrir o Baú no campo norte de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Prontera"
-			}
+			{ text = "Abrir o Baú no campo norte de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120004] = {
@@ -119,18 +82,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Oeste de Prontera (1)",
-		content = {
-			details = "Abrir o Baú no campo oeste de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo oeste de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo oeste de Prontera"
-			}
+			{ text = "Abrir o Baú no campo oeste de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120005] = {
@@ -139,18 +95,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Oeste de Prontera (2)",
-		content = {
-			details = "Abrir o Baú no campo oeste de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo oeste de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo oeste de Prontera"
-			}
+			{ text = "Abrir o Baú no campo oeste de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120006] = {
@@ -159,18 +108,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Leste de Prontera",
-		content = {
-			details = "Abrir o Baú no campo leste de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo leste de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo leste de Prontera"
-			}
+			{ text = "Abrir o Baú no campo leste de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120007] = {
@@ -179,18 +121,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Prontera (1)",
-		content = {
-			details = "Abrir o Baú no campo sul de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Prontera"
-			}
+			{ text = "Abrir o Baú no campo sul de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120008] = {
@@ -199,18 +134,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Prontera (2)",
-		content = {
-			details = "Abrir o Baú no campo sul de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Prontera"
-			}
+			{ text = "Abrir o Baú no campo sul de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120009] = {
@@ -219,18 +147,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Prontera (3)",
-		content = {
-			details = "Abrir o Baú no campo sul de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Prontera"
-			}
+			{ text = "Abrir o Baú no campo sul de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120010] = {
@@ -239,18 +160,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Prontera (4)",
-		content = {
-			details = "Abrir o Baú no campo sul de Prontera",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Prontera", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Prontera"
-			}
+			{ text = "Abrir o Baú no campo sul de Prontera" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120011] = {
@@ -259,18 +173,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Leste de Geffen",
-		content = {
-			details = "Abrir o Baú no campo leste de Geffen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo leste de Geffen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo leste de Geffen"
-			}
+			{ text = "Abrir o Baú no campo leste de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120012] = {
@@ -279,18 +186,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sudeste de Geffen",
-		content = {
-			details = "Abrir o Baú no campo sudeste de Geffen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sudeste de Geffen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sudeste de Geffen"
-			}
+			{ text = "Abrir o Baú no campo sudeste de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120013] = {
@@ -299,18 +199,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Noroeste de Geffen (1)",
-		content = {
-			details = "Abrir o Baú no campo noroeste de Geffen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo noroeste de Geffen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo noroeste de Geffen"
-			}
+			{ text = "Abrir o Baú no campo noroeste de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120014] = {
@@ -319,18 +212,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Noroeste de Geffen (2)",
-		content = {
-			details = "Abrir o Baú no campo noroeste de Geffen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo noroeste de Geffen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo noroeste de Geffen"
-			}
+			{ text = "Abrir o Baú no campo noroeste de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120015] = {
@@ -339,18 +225,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Noroeste de Geffen (3)",
-		content = {
-			details = "Abrir o Baú no campo noroeste de Geffen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo noroeste de Geffen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo noroeste de Geffen"
-			}
+			{ text = "Abrir o Baú no campo noroeste de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120016] = {
@@ -359,18 +238,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Geffen (1)",
-		content = {
-			details = "Abrir o Baú no campo sul de Geffen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Geffen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Geffen"
-			}
+			{ text = "Abrir o Baú no campo sul de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120017] = {
@@ -379,18 +251,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Geffen (2)",
-		content = {
-			details = "Abrir o Baú no campo sul de Geffen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Geffen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Geffen"
-			}
+			{ text = "Abrir o Baú no campo sul de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120018] = {
@@ -399,18 +264,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Deserto de Sograt (1)",
-		content = {
-			details = "Abrir o Baú no Deserto de Sograt",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Deserto de Sograt", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Deserto de Sograt"
-			}
+			{ text = "Abrir o Baú no Deserto de Sograt" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120019] = {
@@ -419,18 +277,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Deserto de Sograt (2)",
-		content = {
-			details = "Abrir o Baú no Deserto de Sograt",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Deserto de Sograt", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Deserto de Sograt"
-			}
+			{ text = "Abrir o Baú no Deserto de Sograt" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120020] = {
@@ -439,18 +290,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Deserto de Sograt (3)",
-		content = {
-			details = "Abrir o Baú no Deserto de Sograt",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Deserto de Sograt", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Deserto de Sograt"
-			}
+			{ text = "Abrir o Baú no Deserto de Sograt" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120021] = {
@@ -459,18 +303,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Deserto de Sograt (4)",
-		content = {
-			details = "Abrir o Baú no Deserto de Sograt",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Deserto de Sograt", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Deserto de Sograt"
-			}
+			{ text = "Abrir o Baú no Deserto de Sograt" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120022] = {
@@ -479,18 +316,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Deserto de Sograt (5)",
-		content = {
-			details = "Abrir o Baú no Deserto de Sograt",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Deserto de Sograt", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Deserto de Sograt"
-			}
+			{ text = "Abrir o Baú no Deserto de Sograt" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120023] = {
@@ -499,18 +329,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Deserto de Sograt (6)",
-		content = {
-			details = "Abrir o Baú no Deserto de Sograt",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Deserto de Sograt", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Deserto de Sograt"
-			}
+			{ text = "Abrir o Baú no Deserto de Sograt" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120024] = {
@@ -519,18 +342,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sudoeste de Payon (1)",
-		content = {
-			details = "Abrir o Baú no campo sudoeste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sudoeste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sudoeste de Payon"
-			}
+			{ text = "Abrir o Baú no campo sudoeste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120025] = {
@@ -539,18 +355,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sudoeste de Payon (2)",
-		content = {
-			details = "Abrir o Baú no campo sudoeste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sudoeste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sudoeste de Payon"
-			}
+			{ text = "Abrir o Baú no campo sudoeste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120026] = {
@@ -559,18 +368,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sudoeste de Payon (3)",
-		content = {
-			details = "Abrir o Baú no campo sudoeste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sudoeste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sudoeste de Payon"
-			}
+			{ text = "Abrir o Baú no campo sudoeste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120027] = {
@@ -579,18 +381,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sudoeste de Payon (4)",
-		content = {
-			details = "Abrir o Baú no campo sudoeste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sudoeste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sudoeste de Payon"
-			}
+			{ text = "Abrir o Baú no campo sudoeste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120028] = {
@@ -599,18 +394,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Leste de Payon (1)",
-		content = {
-			details = "Abrir o Baú no campo leste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo leste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo leste de Payon"
-			}
+			{ text = "Abrir o Baú no campo leste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120029] = {
@@ -619,18 +407,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Leste de Payon (2)",
-		content = {
-			details = "Abrir o Baú no campo leste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo leste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo leste de Payon"
-			}
+			{ text = "Abrir o Baú no campo leste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120030] = {
@@ -639,18 +420,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Leste de Payon (3)",
-		content = {
-			details = "Abrir o Baú no campo leste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo leste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo leste de Payon"
-			}
+			{ text = "Abrir o Baú no campo leste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120031] = {
@@ -659,18 +433,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Leste de Payon (4)",
-		content = {
-			details = "Abrir o Baú no campo leste de Payon",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo leste de Payon", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo leste de Payon"
-			}
+			{ text = "Abrir o Baú no campo leste de Payon" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120032] = {
@@ -679,18 +446,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Mjolnir (1)",
-		content = {
-			details = "Abrir o Baú no campo norte de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo norte de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120033] = {
@@ -699,18 +459,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Mjolnir (2)",
-		content = {
-			details = "Abrir o Baú no campo norte de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo norte de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120034] = {
@@ -719,18 +472,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Mjolnir (3)",
-		content = {
-			details = "Abrir o Baú no campo norte de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo norte de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120035] = {
@@ -739,18 +485,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Mjolnir (4)",
-		content = {
-			details = "Abrir o Baú no campo norte de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo norte de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120036] = {
@@ -759,18 +498,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Norte de Mjolnir (5)",
-		content = {
-			details = "Abrir o Baú no campo norte de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo norte de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo norte de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo norte de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120037] = {
@@ -779,18 +511,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Mjolnir (1)",
-		content = {
-			details = "Abrir o Baú no campo sul de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo sul de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120038] = {
@@ -799,18 +524,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Mjolnir (2)",
-		content = {
-			details = "Abrir o Baú no campo sul de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo sul de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120039] = {
@@ -819,18 +537,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Mjolnir (3)",
-		content = {
-			details = "Abrir o Baú no campo sul de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo sul de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120040] = {
@@ -839,18 +550,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Mjolnir (4)",
-		content = {
-			details = "Abrir o Baú no campo sul de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo sul de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120041] = {
@@ -859,18 +563,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Mjolnir (5)",
-		content = {
-			details = "Abrir o Baú no campo sul de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo sul de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120042] = {
@@ -879,18 +576,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Mjolnir (6)",
-		content = {
-			details = "Abrir o Baú no campo sul de Mjolnir",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Mjolnir", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Mjolnir"
-			}
+			{ text = "Abrir o Baú no campo sul de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120043] = {
@@ -899,18 +589,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Sul de Al De Baran",
-		content = {
-			details = "Abrir o Baú no campo sul de Al De Baran",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no campo sul de Al De Baran", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no campo sul de Al De Baran"
-			}
+			{ text = "Abrir o Baú no campo sul de Al De Baran" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120044] = {
@@ -919,18 +602,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120045] = {
@@ -939,18 +615,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (2)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120046] = {
@@ -959,18 +628,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (3)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120047] = {
@@ -979,18 +641,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (4)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120048] = {
@@ -999,18 +654,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (5)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120049] = {
@@ -1019,18 +667,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (6)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120050] = {
@@ -1039,18 +680,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (7)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120051] = {
@@ -1059,18 +693,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Explorar Comodo (8)",
-		content = {
-			details = "Abrir o Baú nos campos de Comodo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Comodo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Comodo"
-			}
+			{ text = "Abrir o Baú nos campos de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120052] = {
@@ -1084,13 +711,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú nas Fronterias de Al De Baran"
-			}
+			{ text = "Abrir o Baú nas Fronterias de Al De Baran" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120053] = {
@@ -1104,13 +727,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú nas Fronterias de Al De Baran"
-			}
+			{ text = "Abrir o Baú nas Fronterias de Al De Baran" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120054] = {
@@ -1124,13 +743,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú nos arredores da Cabana de Kiel"
-			}
+			{ text = "Abrir o Baú nos arredores da Cabana de Kiel" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120055] = {
@@ -1139,18 +754,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Planalto Elmes (1)",
-		content = {
-			details = "Abrir o Baú no Planalto El Mes",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Planalto El Mes", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Planalto El Mes"
-			}
+			{ text = "Abrir o Baú no Planalto El Mes" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120056] = {
@@ -1159,18 +767,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Planalto Elmes (2)",
-		content = {
-			details = "Abrir o Baú no Planalto El Mes",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Planalto El Mes", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Planalto El Mes"
-			}
+			{ text = "Abrir o Baú no Planalto El Mes" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120057] = {
@@ -1179,18 +780,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Planalto Elmes (3)",
-		content = {
-			details = "Abrir o Baú no Planalto El Mes",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Planalto El Mes", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Planalto El Mes"
-			}
+			{ text = "Abrir o Baú no Planalto El Mes" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120058] = {
@@ -1199,18 +793,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Desfiladeiro Elmes",
-		content = {
-			details = "Abrir o Baú no Desfiladeiro El Mes",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Desfiladeiro El Mes", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Desfiladeiro El Mes"
-			}
+			{ text = "Abrir o Baú no Desfiladeiro El Mes" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120059] = {
@@ -1219,18 +806,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Campus de Kiel Hyre",
-		content = {
-			details = "Abrir o Baú no Campus de Kiel Hyre",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Campus de Kiel Hyre", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Campus de Kiel Hyre"
-			}
+			{ text = "Abrir o Baú no Campus de Kiel Hyre" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120060] = {
@@ -1244,13 +824,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no Acampamento de Schwaltzwald"
-			}
+			{ text = "Abrir o Baú no Acampamento de Schwaltzwald" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120061] = {
@@ -1259,18 +835,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Juno",
-		content = {
-			details = "Abrir o Baú nos campos de Juno",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Juno", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Juno"
-			}
+			{ text = "Abrir o Baú nos campos de Juno" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120062] = {
@@ -1284,13 +853,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no campo da entrada de Thanatos"
-			}
+			{ text = "Abrir o Baú no campo da entrada de Thanatos" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120063] = {
@@ -1299,18 +864,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Hugel (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Hugel",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Hugel", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Hugel"
-			}
+			{ text = "Abrir o Baú nos campos de Hugel" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120064] = {
@@ -1319,18 +877,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Hugel (2)",
-		content = {
-			details = "Abrir o Baú nos campos de Hugel",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Hugel", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Hugel"
-			}
+			{ text = "Abrir o Baú nos campos de Hugel" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120065] = {
@@ -1339,18 +890,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Hugel (3)",
-		content = {
-			details = "Abrir o Baú nos campos de Hugel",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Hugel", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Hugel"
-			}
+			{ text = "Abrir o Baú nos campos de Hugel" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120066] = {
@@ -1359,18 +903,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Lago do Abismo (1)",
-		content = {
-			details = "Abrir o Baú na entrada do Lago do Abismo",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú na entrada do Lago do Abismo", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú na entrada do Lago do Abismo"
-			}
+			{ text = "Abrir o Baú na entrada do Lago do Abismo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120067] = {
@@ -1379,18 +916,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120068] = {
@@ -1399,18 +929,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (2)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120069] = {
@@ -1419,18 +942,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (3)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120070] = {
@@ -1439,18 +955,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (4)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120071] = {
@@ -1459,18 +968,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (5)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120072] = {
@@ -1479,18 +981,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (6)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120073] = {
@@ -1499,18 +994,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (7)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120074] = {
@@ -1519,18 +1007,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Einbroch (8)",
-		content = {
-			details = "Abrir o Baú nos campos de Einbroch",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Einbroch", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Einbroch"
-			}
+			{ text = "Abrir o Baú nos campos de Einbroch" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120075] = {
@@ -1539,18 +1020,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Lighthalzen (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Lighthalzen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Lighthalzen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Lighthalzen"
-			}
+			{ text = "Abrir o Baú nos campos de Lighthalzen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120076] = {
@@ -1559,18 +1033,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Lighthalzen (2)",
-		content = {
-			details = "Abrir o Baú nos campos de Lighthalzen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Lighthalzen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Lighthalzen"
-			}
+			{ text = "Abrir o Baú nos campos de Lighthalzen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120077] = {
@@ -1579,18 +1046,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Explorar Lighthalzen (3)",
-		content = {
-			details = "Abrir o Baú nos campos de Lighthalzen",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Lighthalzen", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Lighthalzen"
-			}
+			{ text = "Abrir o Baú nos campos de Lighthalzen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120078] = {
@@ -1599,18 +1059,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Pradaria de Audhumbla (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Audhumbla",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Audhumbla", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Audhumbla"
-			}
+			{ text = "Abrir o Baú nos campos de Audhumbla" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120079] = {
@@ -1619,18 +1072,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Planície de Ida (1)",
-		content = {
-			details = "Abrir o Baú nas Planícies de Ida",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Planícies de Ida", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Planícies de Ida"
-			}
+			{ text = "Abrir o Baú nas Planícies de Ida" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120080] = {
@@ -1639,18 +1085,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Planície de Ida (2)",
-		content = {
-			details = "Abrir o Baú nas Planícies de Ida",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Planícies de Ida", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Planícies de Ida"
-			}
+			{ text = "Abrir o Baú nas Planícies de Ida" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120081] = {
@@ -1659,18 +1098,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Planície de Ida (3)",
-		content = {
-			details = "Abrir o Baú nas Planícies de Ida",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Planícies de Ida", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Planícies de Ida"
-			}
+			{ text = "Abrir o Baú nas Planícies de Ida" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120082] = {
@@ -1679,18 +1111,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Pradaria de Audhumbla (2)",
-		content = {
-			details = "Abrir o Baú nas Pradarias de Audhumbla",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Pradarias de Audhumbla", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Pradarias de Audhumbla"
-			}
+			{ text = "Abrir o Baú nas Pradarias de Audhumbla" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120083] = {
@@ -1699,18 +1124,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Pradaria de Audhumbla (3)",
-		content = {
-			details = "Abrir o Baú nas Pradarias de Audhumbla",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Pradarias de Audhumbla", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Pradarias de Audhumbla"
-			}
+			{ text = "Abrir o Baú nas Pradarias de Audhumbla" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120084] = {
@@ -1719,18 +1137,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Portus Luna",
-		content = {
-			details = "Abrir o Baú em Portus Luna",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú em Portus Luna", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú em Portus Luna"
-			}
+			{ text = "Abrir o Baú em Portus Luna" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120085] = {
@@ -1739,18 +1150,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Veins (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Veins",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Veins", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Veins"
-			}
+			{ text = "Abrir o Baú nos campos de Veins" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120086] = {
@@ -1759,18 +1163,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Veins (2)",
-		content = {
-			details = "Abrir o Baú nos campos de Veins",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Veins", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Veins"
-			}
+			{ text = "Abrir o Baú nos campos de Veins" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120087] = {
@@ -1779,18 +1176,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Veins (3)",
-		content = {
-			details = "Abrir o Baú nos campos de Veins",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Veins", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Veins"
-			}
+			{ text = "Abrir o Baú nos campos de Veins" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120088] = {
@@ -1799,18 +1189,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Veins (4)",
-		content = {
-			details = "Abrir o Baú nos campos de Veins",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Veins", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Veins"
-			}
+			{ text = "Abrir o Baú nos campos de Veins" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120089] = {
@@ -1819,18 +1202,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Explorar Veins (5)",
-		content = {
-			details = "Abrir o Baú nos campos de Veins",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Veins", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Veins"
-			}
+			{ text = "Abrir o Baú nos campos de Veins" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120090] = {
@@ -1839,18 +1215,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Eclage",
-		content = {
-			details = "Abrir o baú nos campos de Eclage",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o baú nos campos de Eclage", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o baú nos campos de Eclage"
-			}
+			{ text = "Abrir o baú nos campos de Eclage" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120091] = {
@@ -1859,18 +1228,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Norte de Bifröst (1)",
-		content = {
-			details = "Abrir o Baú no norte de Bifröst",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no norte de Bifröst", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no norte de Bifröst"
-			}
+			{ text = "Abrir o Baú no norte de Bifröst" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120092] = {
@@ -1879,18 +1241,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Sul de Bifröst (1)",
-		content = {
-			details = "Abrir o Baú no sul de Bifröst",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no sul de Bifröst", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no sul de Bifröst"
-			}
+			{ text = "Abrir o Baú no sul de Bifröst" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120093] = {
@@ -1899,18 +1254,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Esplendor (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Esplendor",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Esplendor", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Esplendor"
-			}
+			{ text = "Abrir o Baú nos campos de Esplendor" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120094] = {
@@ -1919,18 +1267,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Esplendor (2)",
-		content = {
-			details = "Abrir o Baú nos campos de Esplendor",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Esplendor", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Esplendor"
-			}
+			{ text = "Abrir o Baú nos campos de Esplendor" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120095] = {
@@ -1939,18 +1280,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Esplendor (3)",
-		content = {
-			details = "Abrir o Baú nos campos de Esplendor",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Esplendor", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Esplendor"
-			}
+			{ text = "Abrir o Baú nos campos de Esplendor" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120096] = {
@@ -1959,18 +1293,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Manuk (1)",
-		content = {
-			details = "Abrir o Baú nas Montanhas de Manuk",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Montanhas de Manuk", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Montanhas de Manuk"
-			}
+			{ text = "Abrir o Baú nas Montanhas de Manuk" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120097] = {
@@ -1979,18 +1306,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Manuk (2)",
-		content = {
-			details = "Abrir o Baú nas Montanhas de Manuk",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Montanhas de Manuk", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Montanhas de Manuk"
-			}
+			{ text = "Abrir o Baú nas Montanhas de Manuk" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120098] = {
@@ -1999,18 +1319,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar Manuk (3)",
-		content = {
-			details = "Abrir o Baú nas Montanhas de Manuk",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nas Montanhas de Manuk", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nas Montanhas de Manuk"
-			}
+			{ text = "Abrir o Baú nas Montanhas de Manuk" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120099] = {
@@ -2019,18 +1332,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar El Dicastes (1)",
-		content = {
-			details = "Abrir o Baú nos campos de El Dicastes",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de El Dicastes", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de El Dicastes"
-			}
+			{ text = "Abrir o Baú nos campos de El Dicastes" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120100] = {
@@ -2039,18 +1345,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Explorar El Dicastes (2)",
-		content = {
-			details = "Abrir o Baú nos campos de El Dicastes",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de El Dicastes", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de El Dicastes"
-			}
+			{ text = "Abrir o Baú nos campos de El Dicastes" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120101] = {
@@ -2059,18 +1358,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Amatsu",
-		content = {
-			details = "Abrir o Baú nos campos de Amatsu",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Amatsu", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Amatsu"
-			}
+			{ text = "Abrir o Baú nos campos de Amatsu" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120102] = {
@@ -2079,18 +1371,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Kunlun",
-		content = {
-			details = "Abrir o Baú nos campos de Kunlun",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Kunlun", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Kunlun"
-			}
+			{ text = "Abrir o Baú nos campos de Kunlun" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120103] = {
@@ -2099,18 +1384,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Louyang",
-		content = {
-			details = "Abrir o Baú nos campos de Louyang",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Louyang", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Louyang"
-			}
+			{ text = "Abrir o Baú nos campos de Louyang" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120104] = {
@@ -2119,18 +1397,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Ayothaya",
-		content = {
-			details = "Abrir o Baú nos campos de Ayothaya",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Ayothaya", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Ayothaya"
-			}
+			{ text = "Abrir o Baú nos campos de Ayothaya" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120105] = {
@@ -2139,18 +1410,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Moscóvia",
-		content = {
-			details = "Abrir o Baú nos campos de Moscóvia",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Moscóvia", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Moscóvia"
-			}
+			{ text = "Abrir o Baú nos campos de Moscóvia" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120106] = {
@@ -2159,18 +1423,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Brasilis",
-		content = {
-			details = "Abrir o Baú nos campos de Brasilis",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Brasilis", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Brasilis"
-			}
+			{ text = "Abrir o Baú nos campos de Brasilis" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120107] = {
@@ -2179,18 +1436,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Dewata",
-		content = {
-			details = "Abrir o Baú nos campos de Dewata",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Dewata", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Dewata"
-			}
+			{ text = "Abrir o Baú nos campos de Dewata" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120108] = {
@@ -2199,18 +1449,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Porto Malaya (1)",
-		content = {
-			details = "Abrir o Baú nos campos de Malaya",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Malaya", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Malaya"
-			}
+			{ text = "Abrir o Baú nos campos de Malaya" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120109] = {
@@ -2219,18 +1462,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 4,
 		title = "Explorar Porto Malaya (2)",
-		content = {
-			details = "Abrir o Baú nos campos de Malaya",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos campos de Malaya", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos campos de Malaya"
-			}
+			{ text = "Abrir o Baú nos campos de Malaya" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 10
 	},
 	[120110] = {
@@ -2244,13 +1480,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do Monastério"
-			}
+			{ text = "Abrir o Baú no último andar do Monastério" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120111] = {
@@ -2264,13 +1496,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do Lago do Abismo"
-			}
+			{ text = "Abrir o Baú no último andar do Lago do Abismo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120112] = {
@@ -2279,18 +1507,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Torre do Relógio",
-		content = {
-			details = "Abrir o Baú no subterrâneo do Relógio",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no subterrâneo do Relógio", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no subterrâneo do Relógio"
-			}
+			{ text = "Abrir o Baú no subterrâneo do Relógio" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120113] = {
@@ -2304,13 +1525,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú o último andar do calabouço de Amatsu"
-			}
+			{ text = "Abrir o Baú o último andar do calabouço de Amatsu" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120114] = {
@@ -2319,18 +1536,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Formigueiro Infernal",
-		content = {
-			details = "Abrir o Baú no Formigueiro Infernal",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no Formigueiro Infernal", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no Formigueiro Infernal"
-			}
+			{ text = "Abrir o Baú no Formigueiro Infernal" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120115] = {
@@ -2344,13 +1554,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do calabouço de Ayothaya"
-			}
+			{ text = "Abrir o Baú no último andar do calabouço de Ayothaya" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120116] = {
@@ -2364,13 +1570,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú na caverna do leste de Comodo"
-			}
+			{ text = "Abrir o Baú na caverna do leste de Comodo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120117] = {
@@ -2384,13 +1586,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do calabouço de Brasilis"
-			}
+			{ text = "Abrir o Baú no último andar do calabouço de Brasilis" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120118] = {
@@ -2399,18 +1597,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Torre do Relógio",
-		content = {
-			details = "Abrir o Baú no topo da Torre Relógio",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no topo da Torre Relógio", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no topo da Torre do Relógio"
-			}
+			{ text = "Abrir o Baú no topo da Torre do Relógio" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120119] = {
@@ -2419,18 +1610,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Caverna Istana",
-		content = {
-			details = "Abrir o Baú na Caverna Istana",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú na Caverna Istana", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú na Caverna Istana"
-			}
+			{ text = "Abrir o Baú na Caverna Istana" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120120] = {
@@ -2444,13 +1628,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do Túnel Kamidal"
-			}
+			{ text = "Abrir o Baú no último andar do Túnel Kamidal" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120121] = {
@@ -2459,18 +1639,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Torre de Bifröst",
-		content = {
-			details = "Abrir o Baú no topo da Torre de Bifröst",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no topo da Torre de Bifröst", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no topo da Torre de Bifröstt"
-			}
+			{ text = "Abrir o Baú no topo da Torre de Bifröstt" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120122] = {
@@ -2484,13 +1657,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do Calabouço da Mina"
-			}
+			{ text = "Abrir o Baú no último andar do Calabouço da Mina" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120123] = {
@@ -2504,13 +1673,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último subsolo da Torre de Geffen"
-			}
+			{ text = "Abrir o Baú no último subsolo da Torre de Geffen" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120124] = {
@@ -2519,18 +1684,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Glastheim (1)",
-		content = {
-			details = "Abrir o Baú nos escombros de Glast Heim",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos escombros de Glast Heim", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos escombros de Glast Heim"
-			}
+			{ text = "Abrir o Baú nos escombros de Glast Heim" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120125] = {
@@ -2539,18 +1697,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Glastheim (2)",
-		content = {
-			details = "Abrir o Baú nos escombros de Glast Heim",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos escombros de Glast Heim", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos escombros de Glast Heim"
-			}
+			{ text = "Abrir o Baú nos escombros de Glast Heim" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120126] = {
@@ -2559,18 +1710,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Glastheim (3)",
-		content = {
-			details = "Abrir o Baú nos escombros de Glast Heim",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos escombros de Glast Heim", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos escombros de Glast Heim"
-			}
+			{ text = "Abrir o Baú nos escombros de Glast Heim" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120127] = {
@@ -2579,18 +1723,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Glastheim (4)",
-		content = {
-			details = "Abrir o Baú nos escombros de Glast Heim",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú nos escombros de Glast Heim", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú nos escombros de Glast Heim"
-			}
+			{ text = "Abrir o Baú nos escombros de Glast Heim" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120128] = {
@@ -2604,13 +1741,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do calabouço de Kunlun"
-			}
+			{ text = "Abrir o Baú no último andar do calabouço de Kunlun" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120129] = {
@@ -2624,13 +1757,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar da Caverna de Gelo"
-			}
+			{ text = "Abrir o Baú no último andar da Caverna de Gelo" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120130] = {
@@ -2639,18 +1768,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Esfinge",
-		content = {
-			details = "Abrir o Baú no quinto andar da Esfinge",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no quinto andar da Esfinge", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no quinto andar da Esfinge"
-			}
+			{ text = "Abrir o Baú no quinto andar da Esfinge" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120131] = {
@@ -2664,13 +1786,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar da Ilha Byalan"
-			}
+			{ text = "Abrir o Baú no último andar da Ilha Byalan" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120132] = {
@@ -2679,18 +1797,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Fábrica de Robôs",
-		content = {
-			details = "Abrir o Baú no último piso da Kiel Hyre",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no último piso da Kiel Hyre", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no último piso da Kiel Hyre"
-			}
+			{ text = "Abrir o Baú no último piso da Kiel Hyre" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120133] = {
@@ -2704,13 +1815,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no terceiro andar do Laboratório"
-			}
+			{ text = "Abrir o Baú no terceiro andar do Laboratório" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120134] = {
@@ -2724,13 +1831,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último andar do calabouço de Louyang"
-			}
+			{ text = "Abrir o Baú no último andar do calabouço de Louyang" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120135] = {
@@ -2744,13 +1847,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no segundo piso da Caverna de Magma"
-			}
+			{ text = "Abrir o Baú no segundo piso da Caverna de Magma" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120136] = {
@@ -2764,13 +1863,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no último piso da Mina de Mjolnir"
-			}
+			{ text = "Abrir o Baú no último piso da Mina de Mjolnir" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120137] = {
@@ -2779,18 +1874,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Pirâmide",
-		content = {
-			details = "Abrir o Baú no interior da Pirâmide",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no interior da Pirâmide", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no interior da Pirâmide"
-			}
+			{ text = "Abrir o Baú no interior da Pirâmide" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120138] = {
@@ -2799,18 +1887,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Caverna dos Orcs",
-		content = {
-			details = "Abrir o Baú no interior da Caverna",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no interior da Caverna", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no interior da Caverna"
-			}
+			{ text = "Abrir o Baú no interior da Caverna" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120139] = {
@@ -2819,18 +1900,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Caverna de Payon",
-		content = {
-			details = "Abrir o Baú no interior da Caverna",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no interior da Caverna", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no interior da Caverna"
-			}
+			{ text = "Abrir o Baú no interior da Caverna" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120140] = {
@@ -2839,18 +1913,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Labirinto da Floresta",
-		content = {
-			details = "Abrir o Baú no interior do Labirinto",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no interior do Labirinto", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no interior do Labirinto"
-			}
+			{ text = "Abrir o Baú no interior do Labirinto" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120141] = {
@@ -2859,18 +1926,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Esgotos de Prontera",
-		content = {
-			details = "Abrir o Baú no interior dos esgotos",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no interior dos esgotos", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no interior dos esgotos"
-			}
+			{ text = "Abrir o Baú no interior dos esgotos" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120142] = {
@@ -2884,13 +1944,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no interior da Torre de Thanatos"
-			}
+			{ text = "Abrir o Baú no interior da Torre de Thanatos" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120143] = {
@@ -2904,13 +1960,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no interior do Vulcão de Thor"
-			}
+			{ text = "Abrir o Baú no interior do Vulcão de Thor" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120144] = {
@@ -2924,13 +1976,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no interior do Navio Fantasma"
-			}
+			{ text = "Abrir o Baú no interior do Navio Fantasma" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120145] = {
@@ -2944,13 +1992,9 @@ achievement_tbl = {
 			summary = "Caça ao tesouro"
 		},
 		resource = {
-			{
-				text = "Abrir o Baú no interior da Ilha das Tartarugas"
-			}
+			{ text = "Abrir o Baú no interior da Ilha das Tartarugas" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[120146] = {
@@ -2959,18 +2003,11 @@ achievement_tbl = {
 		major = 2,
 		minor = 5,
 		title = "Explorar Fábrica de Brinquedos",
-		content = {
-			details = "Abrir o Baú no interior da Fábrica",
-			summary = "Caça ao tesouro"
-		},
+		content = { details = "Abrir o Baú no interior da Fábrica", summary = "Caça ao tesouro" },
 		resource = {
-			{
-				text = "Abrir o Baú no interior da Fábrica"
-			}
+			{ text = "Abrir o Baú no interior da Fábrica" }
 		},
-		reward = {
-			item = 22876
-		},
+		reward = { item = 22876 },
 		score = 20
 	},
 	[128000] = {
@@ -2979,15 +2016,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Penetra da Fábrica",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Celine Kimi"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Celine Kimi" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Celine Kimi 1 vez"
-			}
+			{ count = 1, text = "Elimine Celine Kimi 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -2998,15 +2029,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Operário da Fábrica",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Celine Kimi"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Celine Kimi" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Celine Kimi 10 vezes"
-			}
+			{ count = 10, text = "Elimine Celine Kimi 10 vezes" }
 		},
 		reward = {},
 		score = 10
@@ -3017,15 +2042,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Funcionário do Mês",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Celine Kimi"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Celine Kimi" },
 		resource = {
-			{
-				count = 25,
-				text = "Elimine Celine Kimi 25 vezes"
-			}
+			{ count = 25, text = "Elimine Celine Kimi 25 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3036,15 +2055,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Gerente da Fábrica",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Celine Kimi"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Celine Kimi" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Celine Kimi 50 vezes"
-			}
+			{ count = 50, text = "Elimine Celine Kimi 50 vezes" }
 		},
 		reward = {},
 		score = 30
@@ -3055,15 +2068,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Fã de Bonecas",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Celine Kimi"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Celine Kimi" },
 		resource = {
-			{
-				count = 100,
-				text = "Elimine Celine Kimi 100 vezes"
-			}
+			{ count = 100, text = "Elimine Celine Kimi 100 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3074,15 +2081,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 2,
 		title = "Pescaria Perigosa",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Bakonawa"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Bakonawa" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Bakonawa 1 vez"
-			}
+			{ count = 1, text = "Elimine Bakonawa 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3093,15 +2094,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 2,
 		title = "Imune a Meteoros",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Bakonawa"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Bakonawa" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Bakonawa 10 vezes"
-			}
+			{ count = 10, text = "Elimine Bakonawa 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3112,15 +2107,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 2,
 		title = "Mestre do Gongo",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Bakonawa"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Bakonawa" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Bakonawa 50 vezes"
-			}
+			{ count = 50, text = "Elimine Bakonawa 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3131,15 +2120,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Exorcista Excepcional",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Bafomé Selado"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Bafomé Selado" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Bafomé Selado 1 vez"
-			}
+			{ count = 1, text = "Elimine Bafomé Selado 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3150,15 +2133,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Integrante do Culto",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Bafomé Selado"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Bafomé Selado" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Bafomé Selado 10 vezes"
-			}
+			{ count = 10, text = "Elimine Bafomé Selado 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3169,15 +2146,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Rival de Bode",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Bafomé Selado"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Bafomé Selado" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Bafomé Selado 50 vezes"
-			}
+			{ count = 50, text = "Elimine Bafomé Selado 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3188,15 +2159,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Vigia da Manhã",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Ceifador Ankou"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Ceifador Ankou" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Ceifador Ankou 1 vez"
-			}
+			{ count = 1, text = "Elimine Ceifador Ankou 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3207,15 +2172,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Vigia da Tarde",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Ceifador Ankou"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Ceifador Ankou" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Ceifador Ankou 10 vezes"
-			}
+			{ count = 10, text = "Elimine Ceifador Ankou 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3226,15 +2185,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Vigia da Noite",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Ceifador Ankou"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Ceifador Ankou" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Ceifador Ankou 50 vezes"
-			}
+			{ count = 50, text = "Elimine Ceifador Ankou 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3245,15 +2198,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 2,
 		title = "Couraça de Crocodilo",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Buwaya"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Buwaya" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Buwaya 1 vez"
-			}
+			{ count = 1, text = "Elimine Buwaya 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3264,15 +2211,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 2,
 		title = "Turista de Baú",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Buwaya"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Buwaya" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Buwaya 10 vezes"
-			}
+			{ count = 10, text = "Elimine Buwaya 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3283,15 +2224,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 2,
 		title = "Bolsa de Crocodilo",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Buwaya"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Buwaya" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Buwaya 50 vezes"
-			}
+			{ count = 50, text = "Elimine Buwaya 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3302,15 +2237,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Salvou o Mundo",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Deus Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Deus Morroc" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Deus Morroc 1 vez"
-			}
+			{ count = 1, text = "Elimine Deus Morroc 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3321,15 +2250,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Hoje não, Satã!",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Deus Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Deus Morroc" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Deus Morroc 10 vezes"
-			}
+			{ count = 10, text = "Elimine Deus Morroc 10 vezes" }
 		},
 		reward = {},
 		score = 10
@@ -3340,15 +2263,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Luz da Esperança",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Deus Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Deus Morroc" },
 		resource = {
-			{
-				count = 25,
-				text = "Elimine Deus Morroc 25 vezes"
-			}
+			{ count = 25, text = "Elimine Deus Morroc 25 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3359,15 +2276,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Semideus",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Deus Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Deus Morroc" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Deus Morroc 50 vezes"
-			}
+			{ count = 50, text = "Elimine Deus Morroc 50 vezes" }
 		},
 		reward = {},
 		score = 30
@@ -3378,15 +2289,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Divindade",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Deus Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Deus Morroc" },
 		resource = {
-			{
-				count = 100,
-				text = "Elimine Deus Morroc 100 vezes"
-			}
+			{ count = 100, text = "Elimine Deus Morroc 100 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3397,15 +2302,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Necromancia",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Necromante de Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Necromante de Morroc" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Necromante de Morroc 1 vez"
-			}
+			{ count = 1, text = "Elimine Necromante de Morroc 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3416,15 +2315,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Inimigo Profano",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Necromante de Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Necromante de Morroc" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Necromante de Morroc 10 vezes"
-			}
+			{ count = 10, text = "Elimine Necromante de Morroc 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3435,15 +2328,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 1,
 		title = "Sem Alma",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Necromante de Morroc"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Necromante de Morroc" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Necromante de Morroc 50 vezes"
-			}
+			{ count = 50, text = "Elimine Necromante de Morroc 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3454,15 +2341,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Vossa Majestade",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Rainha Verme"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Rainha Verme" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Rainha Verme 1 vez"
-			}
+			{ count = 1, text = "Elimine Rainha Verme 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3473,15 +2354,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Minhoca Anabolizada",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine a Rainha Verme (Terra)"
-		},
+		content = { details = "Complete a instância", summary = "Elimine a Rainha Verme (Terra)" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine a Rainha Verme (Terra) 1 vez"
-			}
+			{ count = 1, text = "Elimine a Rainha Verme (Terra) 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3492,15 +2367,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Sobreviveu às Esferas D'água",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine a Rainha Verme (Água)"
-		},
+		content = { details = "Complete a instância", summary = "Elimine a Rainha Verme (Água)" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine a Rainha Verme (Água) 1 vez"
-			}
+			{ count = 1, text = "Elimine a Rainha Verme (Água) 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3511,15 +2380,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Ira da Rainha",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine a Rainha Verme (Vento)"
-		},
+		content = { details = "Complete a instância", summary = "Elimine a Rainha Verme (Vento)" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine a Rainha Verme (Vento) 1 vez"
-			}
+			{ count = 1, text = "Elimine a Rainha Verme (Vento) 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3530,15 +2393,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Testemunha da Maldição",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Amdarais"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Amdarais" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Amdarais 1 vez"
-			}
+			{ count = 1, text = "Elimine Amdarais 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3549,15 +2406,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Virou Passeio...",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Amdarais"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Amdarais" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Amdarais 10 vezes"
-			}
+			{ count = 10, text = "Elimine Amdarais 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3568,15 +2419,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Triunfo de Varmunt",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Amdarais"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Amdarais" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Amdarais 50 vezes"
-			}
+			{ count = 50, text = "Elimine Amdarais 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3587,15 +2432,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Vítima da Maldição",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Amdarais Sombrio"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Amdarais Sombrio" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Amdarais Sombrio 1 vez"
-			}
+			{ count = 1, text = "Elimine Amdarais Sombrio 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3606,15 +2445,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Esperança dos Cavaleiros",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Amdarais Sombrio"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Amdarais Sombrio" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Amdarais Sombrio 10 vezes"
-			}
+			{ count = 10, text = "Elimine Amdarais Sombrio 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3625,15 +2458,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Guarda do Castelo",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Amdarais Sombrio"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Amdarais Sombrio" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Amdarais Sombrio 50 vezes"
-			}
+			{ count = 50, text = "Elimine Amdarais Sombrio 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3644,15 +2471,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Viajante Temporal",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Sara Irine"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Sara Irine" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Sara Irine 1 vez"
-			}
+			{ count = 1, text = "Elimine Sara Irine 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3663,15 +2484,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Especialista em História",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Sara Irine"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Sara Irine" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Sara Irine 10 vezes"
-			}
+			{ count = 10, text = "Elimine Sara Irine 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3682,15 +2497,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Mestre das Relíquias",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Sara Irine"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Sara Irine" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Sara Irine 50 vezes"
-			}
+			{ count = 50, text = "Elimine Sara Irine 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3701,15 +2510,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Campeão do Torneio",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Fenrir"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Fenrir" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Fenrir 1 vez"
-			}
+			{ count = 1, text = "Elimine Fenrir 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3720,15 +2523,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Gladiador do Coliseu",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Fenrir"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Fenrir" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Fenrir 10 vezes"
-			}
+			{ count = 10, text = "Elimine Fenrir 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3739,15 +2536,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Desafiante Invencível",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Fenrir"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Fenrir" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Fenrir 50 vezes"
-			}
+			{ count = 50, text = "Elimine Fenrir 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3758,15 +2549,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Líder dos Demônios",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Naght Sieger"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Naght Sieger" },
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Naght Sieger 1 vez"
-			}
+			{ count = 1, text = "Elimine Naght Sieger 1 vez" }
 		},
 		reward = {},
 		score = 10
@@ -3777,15 +2562,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Subidor de Escadas",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Naght Sieger"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Naght Sieger" },
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Naght Sieger 10 vezes"
-			}
+			{ count = 10, text = "Elimine Naght Sieger 10 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -3796,15 +2575,9 @@ achievement_tbl = {
 		major = 5,
 		minor = 0,
 		title = "Monarca da Torre",
-		content = {
-			details = "Complete a instância",
-			summary = "Elimine Naght Sieger"
-		},
+		content = { details = "Complete a instância", summary = "Elimine Naght Sieger" },
 		resource = {
-			{
-				count = 50,
-				text = "Elimine Naght Sieger 50 vezes"
-			}
+			{ count = 50, text = "Elimine Naght Sieger 50 vezes" }
 		},
 		reward = {},
 		score = 50
@@ -3815,55 +2588,20 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Guia de Prontera",
-		content = {
-			details = "Conclua a exploração de Prontera",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Prontera", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120001,
-				text = "Complete Explorar Norte de Prontera (1)"
-			},
-			{
-				shortcut = 120002,
-				text = "Complete Explorar Norte de Prontera (2)"
-			},
-			{
-				shortcut = 120003,
-				text = "Complete Explorar Norte de Prontera (3)"
-			},
-			{
-				shortcut = 120004,
-				text = "Complete Explorar Oeste de Prontera (1)"
-			},
-			{
-				shortcut = 120005,
-				text = "Complete Explorar Oeste de Prontera (2)"
-			},
-			{
-				shortcut = 120006,
-				text = "Complete Explorar Leste de Prontera (1)"
-			},
-			{
-				shortcut = 120007,
-				text = "Complete Explorar Sul de Pronteran (1)"
-			},
-			{
-				shortcut = 120008,
-				text = "Complete Explorar Sul de Pronteran (2)"
-			},
-			{
-				shortcut = 120009,
-				text = "Complete Explorar Sul de Pronteran (3)"
-			},
-			{
-				shortcut = 120010,
-				text = "Complete Explorar Sul de Pronteran (4)"
-			}
+			{ shortcut = 120001, text = "Complete Explorar Norte de Prontera (1)" },
+			{ shortcut = 120002, text = "Complete Explorar Norte de Prontera (2)" },
+			{ shortcut = 120003, text = "Complete Explorar Norte de Prontera (3)" },
+			{ shortcut = 120004, text = "Complete Explorar Oeste de Prontera (1)" },
+			{ shortcut = 120005, text = "Complete Explorar Oeste de Prontera (2)" },
+			{ shortcut = 120006, text = "Complete Explorar Leste de Prontera (1)" },
+			{ shortcut = 120007, text = "Complete Explorar Sul de Pronteran (1)" },
+			{ shortcut = 120008, text = "Complete Explorar Sul de Pronteran (2)" },
+			{ shortcut = 120009, text = "Complete Explorar Sul de Pronteran (3)" },
+			{ shortcut = 120010, text = "Complete Explorar Sul de Pronteran (4)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129002] = {
@@ -3872,43 +2610,17 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Guia de Geffen",
-		content = {
-			details = "Conclua a exploração de Geffen",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Geffen", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120011,
-				text = "Complete Explorar Leste de Geffen (1)"
-			},
-			{
-				shortcut = 120012,
-				text = "Complete Explorar Sudeste de Geffen (1)"
-			},
-			{
-				shortcut = 120013,
-				text = "Complete Explorar Noroeste de Geffen (1)"
-			},
-			{
-				shortcut = 120014,
-				text = "Complete Explorar Noroeste de Geffen (2)"
-			},
-			{
-				shortcut = 120015,
-				text = "Complete Explorar Noroeste de Geffen (3)"
-			},
-			{
-				shortcut = 120016,
-				text = "Complete Explorar Sul de Geffen (1)"
-			},
-			{
-				shortcut = 120017,
-				text = "Complete Explorar Sul de Geffen (2)"
-			}
+			{ shortcut = 120011, text = "Complete Explorar Leste de Geffen (1)" },
+			{ shortcut = 120012, text = "Complete Explorar Sudeste de Geffen (1)" },
+			{ shortcut = 120013, text = "Complete Explorar Noroeste de Geffen (1)" },
+			{ shortcut = 120014, text = "Complete Explorar Noroeste de Geffen (2)" },
+			{ shortcut = 120015, text = "Complete Explorar Noroeste de Geffen (3)" },
+			{ shortcut = 120016, text = "Complete Explorar Sul de Geffen (1)" },
+			{ shortcut = 120017, text = "Complete Explorar Sul de Geffen (2)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129003] = {
@@ -3922,34 +2634,14 @@ achievement_tbl = {
 			summary = "Explorar todas áreas"
 		},
 		resource = {
-			{
-				shortcut = 120018,
-				text = "Complete Explorar Deserto de Sograt (1)"
-			},
-			{
-				shortcut = 120019,
-				text = "Complete Explorar Deserto de Sograt (2)"
-			},
-			{
-				shortcut = 120020,
-				text = "Complete Explorar Deserto de Sograt (3)"
-			},
-			{
-				shortcut = 120021,
-				text = "Complete Explorar Deserto de Sograt (4)"
-			},
-			{
-				shortcut = 120022,
-				text = "Complete Explorar Deserto de Sograt (5)"
-			},
-			{
-				shortcut = 120023,
-				text = "Complete Explorar Deserto de Sograt (6)"
-			}
+			{ shortcut = 120018, text = "Complete Explorar Deserto de Sograt (1)" },
+			{ shortcut = 120019, text = "Complete Explorar Deserto de Sograt (2)" },
+			{ shortcut = 120020, text = "Complete Explorar Deserto de Sograt (3)" },
+			{ shortcut = 120021, text = "Complete Explorar Deserto de Sograt (4)" },
+			{ shortcut = 120022, text = "Complete Explorar Deserto de Sograt (5)" },
+			{ shortcut = 120023, text = "Complete Explorar Deserto de Sograt (6)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129004] = {
@@ -3958,47 +2650,18 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Guia de Payon",
-		content = {
-			details = "Conclua a exploração de Payon",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Payon", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120024,
-				text = "Complete Explorar Sudoeste de Payon (1)"
-			},
-			{
-				shortcut = 120025,
-				text = "Complete Explorar Sudoeste de Payon (2)"
-			},
-			{
-				shortcut = 120026,
-				text = "Complete Explorar Sudoeste de Payon (3)"
-			},
-			{
-				shortcut = 120027,
-				text = "Complete Explorar Sudoeste de Payon (4)"
-			},
-			{
-				shortcut = 120028,
-				text = "Complete Explorar Leste de Payon (1)"
-			},
-			{
-				shortcut = 120029,
-				text = "Complete Explorar Leste de Payon (2)"
-			},
-			{
-				shortcut = 120030,
-				text = "Complete Explorar Leste de Payon (3)"
-			},
-			{
-				shortcut = 120031,
-				text = "Complete Explorar Leste de Payon (4)"
-			}
+			{ shortcut = 120024, text = "Complete Explorar Sudoeste de Payon (1)" },
+			{ shortcut = 120025, text = "Complete Explorar Sudoeste de Payon (2)" },
+			{ shortcut = 120026, text = "Complete Explorar Sudoeste de Payon (3)" },
+			{ shortcut = 120027, text = "Complete Explorar Sudoeste de Payon (4)" },
+			{ shortcut = 120028, text = "Complete Explorar Leste de Payon (1)" },
+			{ shortcut = 120029, text = "Complete Explorar Leste de Payon (2)" },
+			{ shortcut = 120030, text = "Complete Explorar Leste de Payon (3)" },
+			{ shortcut = 120031, text = "Complete Explorar Leste de Payon (4)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129005] = {
@@ -4012,30 +2675,13 @@ achievement_tbl = {
 			summary = "Explorar todas áreas"
 		},
 		resource = {
-			{
-				shortcut = 120032,
-				text = "Complete Explorar Norte de Mjolnir (1)"
-			},
-			{
-				shortcut = 120033,
-				text = "Complete Explorar Norte de Mjolnir (2)"
-			},
-			{
-				shortcut = 120034,
-				text = "Complete Explorar Norte de Mjolnir (3)"
-			},
-			{
-				shortcut = 120035,
-				text = "Complete Explorar Norte de Mjolnir (4)"
-			},
-			{
-				shortcut = 120036,
-				text = "Complete Explorar Norte de Mjolnir (5)"
-			}
+			{ shortcut = 120032, text = "Complete Explorar Norte de Mjolnir (1)" },
+			{ shortcut = 120033, text = "Complete Explorar Norte de Mjolnir (2)" },
+			{ shortcut = 120034, text = "Complete Explorar Norte de Mjolnir (3)" },
+			{ shortcut = 120035, text = "Complete Explorar Norte de Mjolnir (4)" },
+			{ shortcut = 120036, text = "Complete Explorar Norte de Mjolnir (5)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129006] = {
@@ -4049,38 +2695,15 @@ achievement_tbl = {
 			summary = "Explorar todas áreas"
 		},
 		resource = {
-			{
-				shortcut = 120037,
-				text = "Complete Explorar Sul de Mjolnir (1)"
-			},
-			{
-				shortcut = 120038,
-				text = "Complete Explorar Sul de Mjolnir (2)"
-			},
-			{
-				shortcut = 120039,
-				text = "Complete Explorar Sul de Mjolnir (3)"
-			},
-			{
-				shortcut = 120040,
-				text = "Complete Explorar Sul de Mjolnir (4)"
-			},
-			{
-				shortcut = 120041,
-				text = "Complete Explorar Sul de Mjolnir (5)"
-			},
-			{
-				shortcut = 120042,
-				text = "Complete Explorar Sul de Mjolnir (6)"
-			},
-			{
-				shortcut = 120043,
-				text = "Complete Explorar Sul de Al De Baran"
-			}
+			{ shortcut = 120037, text = "Complete Explorar Sul de Mjolnir (1)" },
+			{ shortcut = 120038, text = "Complete Explorar Sul de Mjolnir (2)" },
+			{ shortcut = 120039, text = "Complete Explorar Sul de Mjolnir (3)" },
+			{ shortcut = 120040, text = "Complete Explorar Sul de Mjolnir (4)" },
+			{ shortcut = 120041, text = "Complete Explorar Sul de Mjolnir (5)" },
+			{ shortcut = 120042, text = "Complete Explorar Sul de Mjolnir (6)" },
+			{ shortcut = 120043, text = "Complete Explorar Sul de Al De Baran" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129007] = {
@@ -4089,47 +2712,18 @@ achievement_tbl = {
 		major = 2,
 		minor = 0,
 		title = "Guia de Comodo",
-		content = {
-			details = "Conclua a exploração de Comodo",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Comodo", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120044,
-				text = "Complete Explorar Comodo (1)"
-			},
-			{
-				shortcut = 120045,
-				text = "Complete Explorar Comodo (2)"
-			},
-			{
-				shortcut = 120046,
-				text = "Complete Explorar Comodo (3)"
-			},
-			{
-				shortcut = 120047,
-				text = "Complete Explorar Comodo (4)"
-			},
-			{
-				shortcut = 120048,
-				text = "Complete Explorar Comodo (5)"
-			},
-			{
-				shortcut = 120049,
-				text = "Complete Explorar Comodo (6)"
-			},
-			{
-				shortcut = 120050,
-				text = "Complete Explorar Comodo (7)"
-			},
-			{
-				shortcut = 120051,
-				text = "Complete Explorar Comodo (8)"
-			}
+			{ shortcut = 120044, text = "Complete Explorar Comodo (1)" },
+			{ shortcut = 120045, text = "Complete Explorar Comodo (2)" },
+			{ shortcut = 120046, text = "Complete Explorar Comodo (3)" },
+			{ shortcut = 120047, text = "Complete Explorar Comodo (4)" },
+			{ shortcut = 120048, text = "Complete Explorar Comodo (5)" },
+			{ shortcut = 120049, text = "Complete Explorar Comodo (6)" },
+			{ shortcut = 120050, text = "Complete Explorar Comodo (7)" },
+			{ shortcut = 120051, text = "Complete Explorar Comodo (8)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129008] = {
@@ -4143,38 +2737,15 @@ achievement_tbl = {
 			summary = "Explorar todas áreas"
 		},
 		resource = {
-			{
-				shortcut = 129001,
-				text = "Guia de Prontera"
-			},
-			{
-				shortcut = 129002,
-				text = "Guia de Geffen"
-			},
-			{
-				shortcut = 129003,
-				text = "Guia de Sograt"
-			},
-			{
-				shortcut = 129004,
-				text = "Guia de Payon"
-			},
-			{
-				shortcut = 129005,
-				text = "Guia do Norte de Mjolnir"
-			},
-			{
-				shortcut = 129006,
-				text = "Guia do Sul de Mjolnir"
-			},
-			{
-				shortcut = 129007,
-				text = "Guia de Comodo"
-			}
+			{ shortcut = 129001, text = "Guia de Prontera" },
+			{ shortcut = 129002, text = "Guia de Geffen" },
+			{ shortcut = 129003, text = "Guia de Sograt" },
+			{ shortcut = 129004, text = "Guia de Payon" },
+			{ shortcut = 129005, text = "Guia do Norte de Mjolnir" },
+			{ shortcut = 129006, text = "Guia do Sul de Mjolnir" },
+			{ shortcut = 129007, text = "Guia de Comodo" }
 		},
-		reward = {
-			item = 617
-		},
+		reward = { item = 617 },
 		score = 50
 	},
 	[129009] = {
@@ -4183,55 +2754,20 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Guia de Juno",
-		content = {
-			details = "Conclua a exploração de Juno",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Juno", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120052,
-				text = "Complete Explorar Fronteira (1)"
-			},
-			{
-				shortcut = 120053,
-				text = "Complete Explorar Fronteira (2)"
-			},
-			{
-				shortcut = 120054,
-				text = "Complete Explorar Cabana de Kiel (1)"
-			},
-			{
-				shortcut = 120055,
-				text = "Complete Explorar Planalto El Mes (1)"
-			},
-			{
-				shortcut = 120056,
-				text = "Complete Explorar Planalto El Mes (2)"
-			},
-			{
-				shortcut = 120057,
-				text = "Complete Explorar Planalto El Mes (3)"
-			},
-			{
-				shortcut = 120058,
-				text = "Complete Explorar Desfiladeiro El Mes (1)"
-			},
-			{
-				shortcut = 120059,
-				text = "Complete Explorar Campus de Kiel Hyre (1)"
-			},
-			{
-				shortcut = 120060,
-				text = "Complete Explorar Acamp. dos Guardas (1)"
-			},
-			{
-				shortcut = 120061,
-				text = "Complete Explorar Juno (1)"
-			}
+			{ shortcut = 120052, text = "Complete Explorar Fronteira (1)" },
+			{ shortcut = 120053, text = "Complete Explorar Fronteira (2)" },
+			{ shortcut = 120054, text = "Complete Explorar Cabana de Kiel (1)" },
+			{ shortcut = 120055, text = "Complete Explorar Planalto El Mes (1)" },
+			{ shortcut = 120056, text = "Complete Explorar Planalto El Mes (2)" },
+			{ shortcut = 120057, text = "Complete Explorar Planalto El Mes (3)" },
+			{ shortcut = 120058, text = "Complete Explorar Desfiladeiro El Mes (1)" },
+			{ shortcut = 120059, text = "Complete Explorar Campus de Kiel Hyre (1)" },
+			{ shortcut = 120060, text = "Complete Explorar Acamp. dos Guardas (1)" },
+			{ shortcut = 120061, text = "Complete Explorar Juno (1)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129010] = {
@@ -4240,35 +2776,15 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Guia de Hugel",
-		content = {
-			details = "Conclua a exploração de Hugel",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Hugel", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120062,
-				text = "Complete Explorar Entrada de Thanatos (1)"
-			},
-			{
-				shortcut = 120063,
-				text = "Complete Explorar Hugel (1)"
-			},
-			{
-				shortcut = 120064,
-				text = "Complete Explorar Hugel (2)"
-			},
-			{
-				shortcut = 120065,
-				text = "Complete Explorar Hugel (3)"
-			},
-			{
-				shortcut = 120066,
-				text = "Complete Explorar Lago do Abismo (1)"
-			}
+			{ shortcut = 120062, text = "Complete Explorar Entrada de Thanatos (1)" },
+			{ shortcut = 120063, text = "Complete Explorar Hugel (1)" },
+			{ shortcut = 120064, text = "Complete Explorar Hugel (2)" },
+			{ shortcut = 120065, text = "Complete Explorar Hugel (3)" },
+			{ shortcut = 120066, text = "Complete Explorar Lago do Abismo (1)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129011] = {
@@ -4277,47 +2793,18 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Guia de Einbroch",
-		content = {
-			details = "Conclua a exploração de Einbroch",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Einbroch", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120067,
-				text = "Complete Explorar Einbroch (1)"
-			},
-			{
-				shortcut = 120068,
-				text = "Complete Explorar Einbroch (2)"
-			},
-			{
-				shortcut = 120069,
-				text = "Complete Explorar Einbroch (3)"
-			},
-			{
-				shortcut = 120070,
-				text = "Complete Explorar Einbroch (4)"
-			},
-			{
-				shortcut = 120071,
-				text = "Complete Explorar Einbroch (5)"
-			},
-			{
-				shortcut = 120072,
-				text = "Complete Explorar Einbroch (6)"
-			},
-			{
-				shortcut = 120073,
-				text = "Complete Explorar Einbroch (7)"
-			},
-			{
-				shortcut = 120074,
-				text = "Complete Explorar Einbroch (8)"
-			}
+			{ shortcut = 120067, text = "Complete Explorar Einbroch (1)" },
+			{ shortcut = 120068, text = "Complete Explorar Einbroch (2)" },
+			{ shortcut = 120069, text = "Complete Explorar Einbroch (3)" },
+			{ shortcut = 120070, text = "Complete Explorar Einbroch (4)" },
+			{ shortcut = 120071, text = "Complete Explorar Einbroch (5)" },
+			{ shortcut = 120072, text = "Complete Explorar Einbroch (6)" },
+			{ shortcut = 120073, text = "Complete Explorar Einbroch (7)" },
+			{ shortcut = 120074, text = "Complete Explorar Einbroch (8)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129012] = {
@@ -4326,27 +2813,13 @@ achievement_tbl = {
 		major = 2,
 		minor = 1,
 		title = "Guia de Lighthalzen",
-		content = {
-			details = "Conclua a exploração de Lighthalzen",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Lighthalzen", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120075,
-				text = "Complete Explorar Lighthalzen (1)"
-			},
-			{
-				shortcut = 120076,
-				text = "Complete Explorar Lighthalzen (2)"
-			},
-			{
-				shortcut = 120077,
-				text = "Complete Explorar Lighthalzen (3)"
-			}
+			{ shortcut = 120075, text = "Complete Explorar Lighthalzen (1)" },
+			{ shortcut = 120076, text = "Complete Explorar Lighthalzen (2)" },
+			{ shortcut = 120077, text = "Complete Explorar Lighthalzen (3)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129013] = {
@@ -4360,26 +2833,12 @@ achievement_tbl = {
 			summary = "Explorar todas áreas"
 		},
 		resource = {
-			{
-				shortcut = 129009,
-				text = "Guia de Juno"
-			},
-			{
-				shortcut = 129010,
-				text = "Guia de Hugel"
-			},
-			{
-				shortcut = 129011,
-				text = "Guia de Einbrochl"
-			},
-			{
-				shortcut = 129012,
-				text = "Guia de Lighthalzen"
-			}
+			{ shortcut = 129009, text = "Guia de Juno" },
+			{ shortcut = 129010, text = "Guia de Hugel" },
+			{ shortcut = 129011, text = "Guia de Einbrochl" },
+			{ shortcut = 129012, text = "Guia de Lighthalzen" }
 		},
-		reward = {
-			item = 617
-		},
+		reward = { item = 617 },
 		score = 50
 	},
 	[129014] = {
@@ -4388,43 +2847,17 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Guia de Rachel",
-		content = {
-			details = "Conclua a exploração de Rachel",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Rachel", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120078,
-				text = "Complete Explorar Pradaria de Audhumbla (1)"
-			},
-			{
-				shortcut = 120079,
-				text = "Complete Explorar Planície de Ida (1)"
-			},
-			{
-				shortcut = 120080,
-				text = "Complete Explorar Planície de Ida (2)"
-			},
-			{
-				shortcut = 120081,
-				text = "Complete Explorar Planície de Ida (3)"
-			},
-			{
-				shortcut = 120082,
-				text = "Complete Explorar Pradaria de Audhumbla (2)"
-			},
-			{
-				shortcut = 120083,
-				text = "Complete Explorar Pradaria de Audhumbla (3)"
-			},
-			{
-				shortcut = 120084,
-				text = "Complete Explorar Portus Luna (1)"
-			}
+			{ shortcut = 120078, text = "Complete Explorar Pradaria de Audhumbla (1)" },
+			{ shortcut = 120079, text = "Complete Explorar Planície de Ida (1)" },
+			{ shortcut = 120080, text = "Complete Explorar Planície de Ida (2)" },
+			{ shortcut = 120081, text = "Complete Explorar Planície de Ida (3)" },
+			{ shortcut = 120082, text = "Complete Explorar Pradaria de Audhumbla (2)" },
+			{ shortcut = 120083, text = "Complete Explorar Pradaria de Audhumbla (3)" },
+			{ shortcut = 120084, text = "Complete Explorar Portus Luna (1)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129015] = {
@@ -4433,35 +2866,15 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Guia de Veins",
-		content = {
-			details = "Conclua a exploração de Veins",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Veins", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120085,
-				text = "Complete Explorar Veins (1)"
-			},
-			{
-				shortcut = 120086,
-				text = "Complete Explorar Veins (2)"
-			},
-			{
-				shortcut = 120087,
-				text = "Complete Explorar Veins (3)"
-			},
-			{
-				shortcut = 120088,
-				text = "Complete Explorar Veins (4)"
-			},
-			{
-				shortcut = 120089,
-				text = "Complete Explorar Veins (5)"
-			}
+			{ shortcut = 120085, text = "Complete Explorar Veins (1)" },
+			{ shortcut = 120086, text = "Complete Explorar Veins (2)" },
+			{ shortcut = 120087, text = "Complete Explorar Veins (3)" },
+			{ shortcut = 120088, text = "Complete Explorar Veins (4)" },
+			{ shortcut = 120089, text = "Complete Explorar Veins (5)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129016] = {
@@ -4470,23 +2883,12 @@ achievement_tbl = {
 		major = 2,
 		minor = 2,
 		title = "Guia de Arunafeltz",
-		content = {
-			details = "Explore o Continente de Arunafeltz",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Explore o Continente de Arunafeltz", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 129014,
-				text = "Guia de Rachel"
-			},
-			{
-				shortcut = 129015,
-				text = "Guia de Veins"
-			}
+			{ shortcut = 129014, text = "Guia de Rachel" },
+			{ shortcut = 129015, text = "Guia de Veins" }
 		},
-		reward = {
-			item = 617
-		},
+		reward = { item = 617 },
 		score = 50
 	},
 	[129017] = {
@@ -4495,39 +2897,16 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Guia de Álfheim",
-		content = {
-			details = "Conclua a exploração de Álfheim",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Álfheim", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120090,
-				text = "Complete Explorar Eclage (1)"
-			},
-			{
-				shortcut = 120091,
-				text = "Complete Explorar Norte de Bifröst (1)"
-			},
-			{
-				shortcut = 120092,
-				text = "Complete Explorar Sul de Bifröst (1)"
-			},
-			{
-				shortcut = 120093,
-				text = "Complete Explorar Esplendor (1)"
-			},
-			{
-				shortcut = 120094,
-				text = "Complete Explorar Esplendor (2)"
-			},
-			{
-				shortcut = 120095,
-				text = "Complete Explorar Esplendor (3)"
-			}
+			{ shortcut = 120090, text = "Complete Explorar Eclage (1)" },
+			{ shortcut = 120091, text = "Complete Explorar Norte de Bifröst (1)" },
+			{ shortcut = 120092, text = "Complete Explorar Sul de Bifröst (1)" },
+			{ shortcut = 120093, text = "Complete Explorar Esplendor (1)" },
+			{ shortcut = 120094, text = "Complete Explorar Esplendor (2)" },
+			{ shortcut = 120095, text = "Complete Explorar Esplendor (3)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129018] = {
@@ -4536,35 +2915,15 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Guia de Jotunheim",
-		content = {
-			details = "Conclua a exploração de Jotunheim",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Jotunheim", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 120096,
-				text = "Complete Explorar Manuk (1)"
-			},
-			{
-				shortcut = 120097,
-				text = "Complete Explorar Manuk (2)"
-			},
-			{
-				shortcut = 120098,
-				text = "Complete Explorar Manuk (3)"
-			},
-			{
-				shortcut = 120099,
-				text = "Complete Explorar El Dicastes (1)"
-			},
-			{
-				shortcut = 120100,
-				text = "Complete Explorar El Dicastes (2)"
-			}
+			{ shortcut = 120096, text = "Complete Explorar Manuk (1)" },
+			{ shortcut = 120097, text = "Complete Explorar Manuk (2)" },
+			{ shortcut = 120098, text = "Complete Explorar Manuk (3)" },
+			{ shortcut = 120099, text = "Complete Explorar El Dicastes (1)" },
+			{ shortcut = 120100, text = "Complete Explorar El Dicastes (2)" }
 		},
-		reward = {
-			item = 644
-		},
+		reward = { item = 644 },
 		score = 20
 	},
 	[129019] = {
@@ -4573,23 +2932,12 @@ achievement_tbl = {
 		major = 2,
 		minor = 3,
 		title = "Guia de Ash Vacuum",
-		content = {
-			details = "Conclua a exploração de Ash Vacuum",
-			summary = "Explorar todas áreas"
-		},
+		content = { details = "Conclua a exploração de Ash Vacuum", summary = "Explorar todas áreas" },
 		resource = {
-			{
-				shortcut = 129017,
-				text = "Guia de Álfheim"
-			},
-			{
-				shortcut = 120918,
-				text = "Guia de Jotunheim"
-			}
+			{ shortcut = 129017, text = "Guia de Álfheim" },
+			{ shortcut = 120918, text = "Guia de Jotunheim" }
 		},
-		reward = {
-			item = 617
-		},
+		reward = { item = 617 },
 		score = 50
 	},
 	[129020] = {
@@ -4603,46 +2951,17 @@ achievement_tbl = {
 			summary = "Explorar todas áreas"
 		},
 		resource = {
-			{
-				shortcut = 120101,
-				text = "Complete Explorar Amatsu (1)"
-			},
-			{
-				shortcut = 120102,
-				text = "Complete Explorar Kunlun (1)"
-			},
-			{
-				shortcut = 120103,
-				text = "Complete Explorar Louyang (1)"
-			},
-			{
-				shortcut = 120104,
-				text = "Complete Explorar Ayothaya (1)"
-			},
-			{
-				shortcut = 120105,
-				text = "Complete Explorar Moscóvia (1)"
-			},
-			{
-				shortcut = 120106,
-				text = "Complete Explorar Brasilis (1)"
-			},
-			{
-				shortcut = 120107,
-				text = "Complete Explorar Dewata (1)"
-			},
-			{
-				shortcut = 120108,
-				text = "Complete Explorar Porto Malaya (1)"
-			},
-			{
-				shortcut = 120109,
-				text = "Complete Explorar Porto Malaya (2)"
-			}
+			{ shortcut = 120101, text = "Complete Explorar Amatsu (1)" },
+			{ shortcut = 120102, text = "Complete Explorar Kunlun (1)" },
+			{ shortcut = 120103, text = "Complete Explorar Louyang (1)" },
+			{ shortcut = 120104, text = "Complete Explorar Ayothaya (1)" },
+			{ shortcut = 120105, text = "Complete Explorar Moscóvia (1)" },
+			{ shortcut = 120106, text = "Complete Explorar Brasilis (1)" },
+			{ shortcut = 120107, text = "Complete Explorar Dewata (1)" },
+			{ shortcut = 120108, text = "Complete Explorar Porto Malaya (1)" },
+			{ shortcut = 120109, text = "Complete Explorar Porto Malaya (2)" }
 		},
-		reward = {
-			item = 617
-		},
+		reward = { item = 617 },
 		score = 50
 	},
 	[130000] = {
@@ -4656,31 +2975,15 @@ achievement_tbl = {
 			summary = "Visitar as 7 Famílias Reais"
 		},
 		resource = {
-			{
-				text = "Visite a Família Heine"
-			},
-			{
-				text = "Visite a Família Nerius"
-			},
-			{
-				text = "Visite a Família Walter"
-			},
-			{
-				text = "Visite a Família Wigner"
-			},
-			{
-				text = "Visite a Família Richard"
-			},
-			{
-				text = "Visite a Família Gaebolg"
-			},
-			{
-				text = "Visite a Família Lugenburg"
-			}
+			{ text = "Visite a Família Heine" },
+			{ text = "Visite a Família Nerius" },
+			{ text = "Visite a Família Walter" },
+			{ text = "Visite a Família Wigner" },
+			{ text = "Visite a Família Richard" },
+			{ text = "Visite a Família Gaebolg" },
+			{ text = "Visite a Família Lugenburg" }
 		},
-		reward = {
-			title = 1034
-		},
+		reward = { title = 1034 },
 		score = 10
 	},
 	[130005] = {
@@ -4688,19 +2991,17 @@ achievement_tbl = {
 		group = "CHATTING",
 		major = 4,
 		minor = 0,
-		title = "Aquele que Fez o Rei",
+		title = "Coroação",
 		content = {
-			summary = "Meu Rei que Eu Criei",
-			details = "Recupere a glória de Terra Gloria e coroe aquele que foi o protagonista dessa glória."
+			details = "Regain the glory of Terra Gloria and crown the one who was at the vanguard.",
+			summary = "The king I crowned myself"
 		},
 		resource = {
-			[1] = {
-				text = "Assista à coroação em que nasce o novo rei de Rune-Midgarts."
+			{
+				text = "Participate in the coronation of the new king of Rune-Midgarts Kingdom."
 			}
 		},
-		reward = {
-			title = 1046
-		},
+		reward = { title = 1046 },
 		score = 10
 	},
 	[170000] = {
@@ -4714,9 +3015,7 @@ achievement_tbl = {
 			summary = "Escute a Orquesta de Prontera"
 		},
 		resource = {
-			{
-				text = "Escute a música secreta da Orquestra de Prontera"
-			}
+			{ text = "Escute a música secreta da Orquestra de Prontera" }
 		},
 		reward = {},
 		score = 10
@@ -4727,20 +3026,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Primeira Aura!",
-		content = {
-			details = "Alcance o Nível Base 99.",
-			summary = "Obtenha o Nível Base 99!"
-		},
+		content = { details = "Alcance o Nível Base 99.", summary = "Obtenha o Nível Base 99!" },
 		resource = {
-			{
-				text = "Nv. Base 99"
-			}
+			{ text = "Nv. Base 99" }
 		},
-		reward = {
-			buff = 10,
-			item = 12549,
-			title = 1000
-		},
+		reward = { buff = 10, item = 12549, title = 1000 },
 		score = 50
 	},
 	[200001] = {
@@ -4749,20 +3039,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Quase lá!",
-		content = {
-			details = "Alcance o Nível Base 150.",
-			summary = "Obtenha o Nível Base 150!"
-		},
+		content = { details = "Alcance o Nível Base 150.", summary = "Obtenha o Nível Base 150!" },
 		resource = {
-			{
-				text = "Nv. Base 150"
-			}
+			{ text = "Nv. Base 150" }
 		},
-		reward = {
-			buff = 10,
-			item = 5364,
-			title = 1001
-		},
+		reward = { buff = 10, item = 5364, title = 1001 },
 		score = 60
 	},
 	[200002] = {
@@ -4771,20 +3052,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Esforço Incrível!",
-		content = {
-			details = "Alcance o Nível Base 175.",
-			summary = "Obtenha o Nível Base 175!"
-		},
+		content = { details = "Alcance o Nível Base 175.", summary = "Obtenha o Nível Base 175!" },
 		resource = {
-			{
-				text = "Nv. Base 175"
-			}
+			{ text = "Nv. Base 175" }
 		},
-		reward = {
-			buff = 10,
-			item = 18880,
-			title = 1002
-		},
+		reward = { buff = 10, item = 18880, title = 1002 },
 		score = 70
 	},
 	[200003] = {
@@ -4798,15 +3070,9 @@ achievement_tbl = {
 			summary = "Obtenha o Nível de Classe 50!"
 		},
 		resource = {
-			{
-				text = "Nv. de Classe 50"
-			}
+			{ text = "Nv. de Classe 50" }
 		},
-		reward = {
-			buff = 10,
-			item = 617,
-			title = 1003
-		},
+		reward = { buff = 10, item = 617, title = 1003 },
 		score = 30
 	},
 	[200004] = {
@@ -4820,15 +3086,9 @@ achievement_tbl = {
 			summary = "Obtenha o Nível de Classe 70!"
 		},
 		resource = {
-			{
-				text = "Nv. de Classe 70"
-			}
+			{ text = "Nv. de Classe 70" }
 		},
-		reward = {
-			buff = 10,
-			item = 12817,
-			title = 1004
-		},
+		reward = { buff = 10, item = 12817, title = 1004 },
 		score = 50
 	},
 	[200005] = {
@@ -4842,13 +3102,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 1-1"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 1-1"
-			}
+			{ text = "Vire uma Classe 1-1" }
 		},
-		reward = {
-			buff = 12
-		},
+		reward = { buff = 12 },
 		score = 10
 	},
 	[200006] = {
@@ -4862,13 +3118,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 1 Transcendental"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 1 Transcendental"
-			}
+			{ text = "Vire uma Classe 1 Transcendental" }
 		},
-		reward = {
-			buff = 12
-		},
+		reward = { buff = 12 },
 		score = 20
 	},
 	[200007] = {
@@ -4882,13 +3134,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 2-1"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 2-1"
-			}
+			{ text = "Vire uma Classe 2-1" }
 		},
-		reward = {
-			buff = 12
-		},
+		reward = { buff = 12 },
 		score = 25
 	},
 	[200008] = {
@@ -4902,13 +3150,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 2-2"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 2-2"
-			}
+			{ text = "Vire uma Classe 2-2" }
 		},
-		reward = {
-			buff = 12
-		},
+		reward = { buff = 12 },
 		score = 25
 	},
 	[200009] = {
@@ -4922,13 +3166,9 @@ achievement_tbl = {
 			summary = "Vire uma Transclasse 2-1"
 		},
 		resource = {
-			{
-				text = "Vire uma Transclasse 2-1"
-			}
+			{ text = "Vire uma Transclasse 2-1" }
 		},
-		reward = {
-			buff = 12
-		},
+		reward = { buff = 12 },
 		score = 30
 	},
 	[200010] = {
@@ -4942,13 +3182,9 @@ achievement_tbl = {
 			summary = "Vire uma Transclasse 2-2"
 		},
 		resource = {
-			{
-				text = "Vire uma Transclasse 2-2"
-			}
+			{ text = "Vire uma Transclasse 2-2" }
 		},
-		reward = {
-			buff = 12
-		},
+		reward = { buff = 12 },
 		score = 30
 	},
 	[200011] = {
@@ -4962,14 +3198,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 3-1"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 3-1"
-			}
+			{ text = "Vire uma Classe 3-1" }
 		},
-		reward = {
-			buff = 12,
-			item = 16483
-		},
+		reward = { buff = 12, item = 16483 },
 		score = 50
 	},
 	[200012] = {
@@ -4983,14 +3214,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 3-1 (T)"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 3-1 (T)"
-			}
+			{ text = "Vire uma Classe 3-1 (T)" }
 		},
-		reward = {
-			buff = 12,
-			item = 16483
-		},
+		reward = { buff = 12, item = 16483 },
 		score = 60
 	},
 	[200013] = {
@@ -5004,14 +3230,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 3-2"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 3-2"
-			}
+			{ text = "Vire uma Classe 3-2" }
 		},
-		reward = {
-			buff = 12,
-			item = 16483
-		},
+		reward = { buff = 12, item = 16483 },
 		score = 50
 	},
 	[200014] = {
@@ -5025,14 +3246,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe 3-2 (T)"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe 3-2 (T)"
-			}
+			{ text = "Vire uma Classe 3-2 (T)" }
 		},
-		reward = {
-			buff = 12,
-			item = 16483
-		},
+		reward = { buff = 12, item = 16483 },
 		score = 60
 	},
 	[200015] = {
@@ -5046,13 +3262,9 @@ achievement_tbl = {
 			summary = "Vire uma Classe Expandida"
 		},
 		resource = {
-			{
-				text = "Vire uma Classe Expandida"
-			}
+			{ text = "Vire uma Classe Expandida" }
 		},
-		reward = {
-			buff = 12
-		},
+		reward = { buff = 12 },
 		score = 10
 	},
 	[200016] = {
@@ -5066,14 +3278,9 @@ achievement_tbl = {
 			summary = "Vire uma 2a Classe Expandida"
 		},
 		resource = {
-			{
-				text = "Vire uma 2a Classe Expandida"
-			}
+			{ text = "Vire uma 2a Classe Expandida" }
 		},
-		reward = {
-			buff = 12,
-			item = 16483
-		},
+		reward = { buff = 12, item = 16483 },
 		score = 20
 	},
 	[200017] = {
@@ -5082,14 +3289,9 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Força Descomunal!",
-		content = {
-			details = "Invista 90 pontos de FOR.",
-			summary = "Tenha 90 de FOR Base"
-		},
+		content = { details = "Invista 90 pontos de FOR.", summary = "Tenha 90 de FOR Base" },
 		resource = {
-			{
-				text = "Tenha 90 de FOR Base"
-			}
+			{ text = "Tenha 90 de FOR Base" }
 		},
 		reward = {},
 		score = 10
@@ -5100,14 +3302,9 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Inteligência Incrível!",
-		content = {
-			details = "Invista 90 pontos de INT.",
-			summary = "Tenha 90 de INT Base"
-		},
+		content = { details = "Invista 90 pontos de INT.", summary = "Tenha 90 de INT Base" },
 		resource = {
-			{
-				text = "Tenha 90 de INT Base"
-			}
+			{ text = "Tenha 90 de INT Base" }
 		},
 		reward = {},
 		score = 10
@@ -5118,14 +3315,9 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Vitalidade Eterna!",
-		content = {
-			details = "Invista 90 pontos de VIT.",
-			summary = "Tenha 90 de VIT Base"
-		},
+		content = { details = "Invista 90 pontos de VIT.", summary = "Tenha 90 de VIT Base" },
 		resource = {
-			{
-				text = "Tenha 90 de VIT Base"
-			}
+			{ text = "Tenha 90 de VIT Base" }
 		},
 		reward = {},
 		score = 10
@@ -5136,14 +3328,9 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Agilidade Impecável",
-		content = {
-			details = "Invista 90 pontos de AGI.",
-			summary = "Tenha 90 de AGI Base."
-		},
+		content = { details = "Invista 90 pontos de AGI.", summary = "Tenha 90 de AGI Base." },
 		resource = {
-			{
-				text = "Tenha 90 de AGI Base."
-			}
+			{ text = "Tenha 90 de AGI Base." }
 		},
 		reward = {},
 		score = 10
@@ -5154,14 +3341,9 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Destreza Notável",
-		content = {
-			details = "RInvista 90 pontos de DES.",
-			summary = "Tenha 90 de DES Base"
-		},
+		content = { details = "RInvista 90 pontos de DES.", summary = "Tenha 90 de DES Base" },
 		resource = {
-			{
-				text = "Tenha 90 de DES Base"
-			}
+			{ text = "Tenha 90 de DES Base" }
 		},
 		reward = {},
 		score = 10
@@ -5172,14 +3354,9 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Sorte de Principante",
-		content = {
-			details = "Invista 90 pontos de SOR.",
-			summary = "Tenha 90 de SOR Base"
-		},
+		content = { details = "Invista 90 pontos de SOR.", summary = "Tenha 90 de SOR Base" },
 		resource = {
-			{
-				text = "Tenha 90 de SOR Base"
-			}
+			{ text = "Tenha 90 de SOR Base" }
 		},
 		reward = {},
 		score = 10
@@ -5190,18 +3367,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Poder Titânico!",
-		content = {
-			details = "Invista 125 pontos de FOR Base.",
-			summary = "Tenha 125 de FOR Base"
-		},
+		content = { details = "Invista 125 pontos de FOR Base.", summary = "Tenha 125 de FOR Base" },
 		resource = {
-			{
-				text = "Tenha 125 de FOR Base"
-			}
+			{ text = "Tenha 125 de FOR Base" }
 		},
-		reward = {
-			buff = 319
-		},
+		reward = { buff = 319 },
 		score = 20
 	},
 	[200024] = {
@@ -5210,18 +3380,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Mente Expandida",
-		content = {
-			details = "Invista 125 pontos de INT.",
-			summary = "Tenha 125 de INT Base"
-		},
+		content = { details = "Invista 125 pontos de INT.", summary = "Tenha 125 de INT Base" },
 		resource = {
-			{
-				text = "Tenha 125 de INT Base"
-			}
+			{ text = "Tenha 125 de INT Base" }
 		},
-		reward = {
-			buff = 611
-		},
+		reward = { buff = 611 },
 		score = 20
 	},
 	[200025] = {
@@ -5230,18 +3393,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Diamante Lapidado",
-		content = {
-			details = "Invista 125 pontos de VIT",
-			summary = "Tenha 125 de VIT Base"
-		},
+		content = { details = "Invista 125 pontos de VIT", summary = "Tenha 125 de VIT Base" },
 		resource = {
-			{
-				text = "Tenha 125 de VIT Base"
-			}
+			{ text = "Tenha 125 de VIT Base" }
 		},
-		reward = {
-			buff = 293
-		},
+		reward = { buff = 293 },
 		score = 20
 	},
 	[200026] = {
@@ -5250,18 +3406,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Velocidade da Luz",
-		content = {
-			details = "Invista 125 pontos de AGI",
-			summary = "Tenha 125 de AGI Base"
-		},
+		content = { details = "Invista 125 pontos de AGI", summary = "Tenha 125 de AGI Base" },
 		resource = {
-			{
-				text = "Tenha 125 de AGI Base"
-			}
+			{ text = "Tenha 125 de AGI Base" }
 		},
-		reward = {
-			buff = 296
-		},
+		reward = { buff = 296 },
 		score = 20
 	},
 	[200027] = {
@@ -5270,18 +3419,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Vista Apurada",
-		content = {
-			details = "Invista 125 pontos de DES.",
-			summary = "Tenha 125 de DES Base"
-		},
+		content = { details = "Invista 125 pontos de DES.", summary = "Tenha 125 de DES Base" },
 		resource = {
-			{
-				text = "Tenha 125 de DES Base"
-			}
+			{ text = "Tenha 125 de DES Base" }
 		},
-		reward = {
-			buff = 295
-		},
+		reward = { buff = 295 },
 		score = 20
 	},
 	[200028] = {
@@ -5290,18 +3432,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Bem Afortunado",
-		content = {
-			details = "Invista 125 pontos de SOR.",
-			summary = "Tenha 125 de SOR Base"
-		},
+		content = { details = "Invista 125 pontos de SOR.", summary = "Tenha 125 de SOR Base" },
 		resource = {
-			{
-				text = "Tenha 125 de SOR Base"
-			}
+			{ text = "Tenha 125 de SOR Base" }
 		},
-		reward = {
-			buff = 21
-		},
+		reward = { buff = 21 },
 		score = 20
 	},
 	[200029] = {
@@ -5315,14 +3450,9 @@ achievement_tbl = {
 			summary = "Alcance o Nv. Base 99 utilizando um Aprendiz."
 		},
 		resource = {
-			{
-				text = "Alcance o Nv. Base 99 utilizando um Aprendiz."
-			}
+			{ text = "Alcance o Nv. Base 99 utilizando um Aprendiz." }
 		},
-		reward = {
-			buff = 10,
-			item = 16483
-		},
+		reward = { buff = 10, item = 16483 },
 		score = 30
 	},
 	[200030] = {
@@ -5336,14 +3466,9 @@ achievement_tbl = {
 			summary = "Alcance o Nv. Base 99 utilizando uma Classe 1."
 		},
 		resource = {
-			{
-				text = "Alcance o Nv. Base 99 utilizando uma Classe 1."
-			}
+			{ text = "Alcance o Nv. Base 99 utilizando uma Classe 1." }
 		},
-		reward = {
-			buff = 10,
-			item = 101948
-		},
+		reward = { buff = 10, item = 101948 },
 		score = 30
 	},
 	[200031] = {
@@ -5352,19 +3477,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 0,
 		title = "Renasceu!",
-		content = {
-			details = "Mude de classe para Aprendiz T.",
-			summary = "Vire um Aprendiz T."
-		},
+		content = { details = "Mude de classe para Aprendiz T.", summary = "Vire um Aprendiz T." },
 		resource = {
-			{
-				text = "Vire um Aprendiz T."
-			}
+			{ text = "Vire um Aprendiz T." }
 		},
-		reward = {
-			buff = 12,
-			item = 23575
-		},
+		reward = { buff = 12, item = 23575 },
 		score = 10
 	},
 	[200033] = {
@@ -5372,19 +3489,15 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Com uma Nova Mentalidade! (1)",
+		title = "Novo estilo!(1)",
 		content = {
-			summary = "Alcance o Nível Base 170 como Classe 3-1!",
-			details = "Alcance o Nível Base 170 com uma Classe 3-1."
+			details = "Alcance o nível base 170 como classe 3-1.",
+			summary = "Nível base 170 e Classe 3-1!"
 		},
 		resource = {
-			[1] = {
-				text = "Nível Base 170"
-			}
+			{ text = "Classe 3 de nv. base 170" }
 		},
-		reward = {
-			item = 6959
-		},
+		reward = { item = 6959 },
 		score = 50
 	},
 	[200034] = {
@@ -5392,19 +3505,15 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Com uma Nova Mentalidade! (2)",
+		title = "Novo estilo!(2)",
 		content = {
-			summary = "Alcance o Nível Base 170 como Classe 3-2!",
-			details = "Alcance o Nível Base 170 com uma Classe 3-2."
+			details = "Alcance o nível base 170 como classe 3-2.",
+			summary = "Nível base 170 e Classe 3-2!"
 		},
 		resource = {
-			[1] = {
-				text = "Nível Base 170"
-			}
+			{ text = "Classe 3 de nv. base 170" }
 		},
-		reward = {
-			item = 6959
-		},
+		reward = { item = 6959 },
 		score = 50
 	},
 	[200035] = {
@@ -5412,20 +3521,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Alcance o Nível 200!",
-		content = {
-			summary = "Alcance o Nível Base 200!",
-			details = "Alcance o Nível Base 200."
-		},
+		title = "Nível 200",
+		content = { details = "Achieve Base Lv. 200.", summary = "Achieved Base Lv. 200!" },
 		resource = {
-			[1] = {
-				text = "Nível Base 200"
-			}
+			{ text = "Base Lv. 200" }
 		},
-		reward = {
-			buff = 10,
-			item = 400124
-		},
+		reward = { buff = 10, item = 400124 },
 		score = 100
 	},
 	[220000] = {
@@ -5439,9 +3540,7 @@ achievement_tbl = {
 			summary = "Abrir uma janela de chat"
 		},
 		resource = {
-			{
-				text = "Abrir uma janela de chat"
-			}
+			{ text = "Abrir uma janela de chat" }
 		},
 		reward = {},
 		score = 10
@@ -5457,9 +3556,7 @@ achievement_tbl = {
 			summary = "Abra um chat depois de morrer"
 		},
 		resource = {
-			{
-				text = "Abra um chat depois de morrer"
-			}
+			{ text = "Abra um chat depois de morrer" }
 		},
 		reward = {},
 		score = 10
@@ -5475,9 +3572,7 @@ achievement_tbl = {
 			summary = "Ter 20 pessoas em um chat"
 		},
 		resource = {
-			{
-				text = "Ter 20 pessoas em um chat"
-			}
+			{ text = "Ter 20 pessoas em um chat" }
 		},
 		reward = {},
 		score = 10
@@ -5493,9 +3588,7 @@ achievement_tbl = {
 			summary = "Adicionar 1 contato."
 		},
 		resource = {
-			{
-				text = "Adicionar 1 contato."
-			}
+			{ text = "Adicionar 1 contato." }
 		},
 		reward = {},
 		score = 10
@@ -5511,9 +3604,7 @@ achievement_tbl = {
 			summary = "Adicionar 10 pessoas."
 		},
 		resource = {
-			{
-				text = "Adicionar 10 pessoas."
-			}
+			{ text = "Adicionar 10 pessoas." }
 		},
 		reward = {},
 		score = 10
@@ -5529,9 +3620,7 @@ achievement_tbl = {
 			summary = "Participe de um grupo"
 		},
 		resource = {
-			{
-				text = "Participe de um grupo"
-			}
+			{ text = "Participe de um grupo" }
 		},
 		reward = {},
 		score = 10
@@ -5547,13 +3636,9 @@ achievement_tbl = {
 			summary = "Casar-se com alguém"
 		},
 		resource = {
-			{
-				text = "Casar-se com alguém"
-			}
+			{ text = "Casar-se com alguém" }
 		},
-		reward = {
-			title = 1022
-		},
+		reward = { title = 1022 },
 		score = 20
 	},
 	[220007] = {
@@ -5567,13 +3652,9 @@ achievement_tbl = {
 			summary = "Ser adotado por alguém"
 		},
 		resource = {
-			{
-				text = "Ser adotado por alguém"
-			}
+			{ text = "Ser adotado por alguém" }
 		},
-		reward = {
-			title = 1032
-		},
+		reward = { title = 1032 },
 		score = 20
 	},
 	[220008] = {
@@ -5587,13 +3668,9 @@ achievement_tbl = {
 			summary = "Adote uma criança"
 		},
 		resource = {
-			{
-				text = "Adote uma criança"
-			}
+			{ text = "Adote uma criança" }
 		},
-		reward = {
-			title = 1033
-		},
+		reward = { title = 1033 },
 		score = 20
 	},
 	[220009] = {
@@ -5607,10 +3684,7 @@ achievement_tbl = {
 			summary = "Gaste até 10.000 zenys"
 		},
 		resource = {
-			{
-				count = 10000,
-				text = "Gaste até 10.000 zenys"
-			}
+			{ count = 10000, text = "Gaste até 10.000 zenys" }
 		},
 		reward = {},
 		score = 10
@@ -5626,10 +3700,7 @@ achievement_tbl = {
 			summary = "Gaste até 1 milhão de zenys"
 		},
 		resource = {
-			{
-				count = 1000000,
-				text = "Gaste até 1 milhão de zenys"
-			}
+			{ count = 1000000, text = "Gaste até 1 milhão de zenys" }
 		},
 		reward = {},
 		score = 15
@@ -5645,10 +3716,7 @@ achievement_tbl = {
 			summary = "Gaste até 5 milhões de zenys"
 		},
 		resource = {
-			{
-				count = 5000000,
-				text = "Gaste até 5 milhões de zenys"
-			}
+			{ count = 5000000, text = "Gaste até 5 milhões de zenys" }
 		},
 		reward = {},
 		score = 20
@@ -5664,10 +3732,7 @@ achievement_tbl = {
 			summary = "Gaste até 100 milhões de zenys"
 		},
 		resource = {
-			{
-				count = 100000000,
-				text = "Gaste até 100 milhões de zenys"
-			}
+			{ count = 100000000, text = "Gaste até 100 milhões de zenys" }
 		},
 		reward = {},
 		score = 30
@@ -5683,10 +3748,7 @@ achievement_tbl = {
 			summary = "Gaste até 500 milhões de zenys"
 		},
 		resource = {
-			{
-				count = 500000000,
-				text = "Gaste até 500 milhões de zenys"
-			}
+			{ count = 500000000, text = "Gaste até 500 milhões de zenys" }
 		},
 		reward = {},
 		score = 50
@@ -5702,9 +3764,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 1 até o +7"
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 1 até o +7"
-			}
+			{ text = "Refinar uma arma nv. 1 até o +7" }
 		},
 		reward = {},
 		score = 10
@@ -5720,9 +3780,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 1 até o +12 "
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 1 até o +12 "
-			}
+			{ text = "Refinar uma arma nv. 1 até o +12 " }
 		},
 		reward = {},
 		score = 15
@@ -5738,9 +3796,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 2 até o +7"
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 2 até o +7"
-			}
+			{ text = "Refinar uma arma nv. 2 até o +7" }
 		},
 		reward = {},
 		score = 10
@@ -5756,9 +3812,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 2 até o +12 "
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 2 até o +12 "
-			}
+			{ text = "Refinar uma arma nv. 2 até o +12 " }
 		},
 		reward = {},
 		score = 15
@@ -5774,9 +3828,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 3 até o +7"
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 3 até o +7"
-			}
+			{ text = "Refinar uma arma nv. 3 até o +7" }
 		},
 		reward = {},
 		score = 15
@@ -5792,9 +3844,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 3 até o +12"
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 3 até o +12"
-			}
+			{ text = "Refinar uma arma nv. 3 até o +12" }
 		},
 		reward = {},
 		score = 20
@@ -5810,9 +3860,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 4 até o +7"
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 4 até o +7"
-			}
+			{ text = "Refinar uma arma nv. 4 até o +7" }
 		},
 		reward = {},
 		score = 20
@@ -5828,9 +3876,7 @@ achievement_tbl = {
 			summary = "Refinar uma arma nv. 4 até o +12"
 		},
 		resource = {
-			{
-				text = "Refinar uma arma nv. 4 até o +12"
-			}
+			{ text = "Refinar uma arma nv. 4 até o +12" }
 		},
 		reward = {},
 		score = 30
@@ -5846,9 +3892,7 @@ achievement_tbl = {
 			summary = "Falha ao refinar item"
 		},
 		resource = {
-			{
-				text = "Ter falhado ao refinar"
-			}
+			{ text = "Ter falhado ao refinar" }
 		},
 		reward = {},
 		score = 10
@@ -5864,9 +3908,7 @@ achievement_tbl = {
 			summary = "Item com valor de até 100 zenys"
 		},
 		resource = {
-			{
-				text = "Item com valor de até 100 zenys"
-			}
+			{ text = "Item com valor de até 100 zenys" }
 		},
 		reward = {},
 		score = 10
@@ -5882,9 +3924,7 @@ achievement_tbl = {
 			summary = "Item com valor de até 1.000 zenys"
 		},
 		resource = {
-			{
-				text = "Item com valor de até 1.000 zenys"
-			}
+			{ text = "Item com valor de até 1.000 zenys" }
 		},
 		reward = {},
 		score = 10
@@ -5900,9 +3940,7 @@ achievement_tbl = {
 			summary = "Item com valor de até 5.000 zenys"
 		},
 		resource = {
-			{
-				text = "Item com valor de até 5.000 zenys"
-			}
+			{ text = "Item com valor de até 5.000 zenys" }
 		},
 		reward = {},
 		score = 15
@@ -5918,9 +3956,7 @@ achievement_tbl = {
 			summary = "Item com valor de até 10.000 zenys"
 		},
 		resource = {
-			{
-				text = "Item com valor de até 10.000 zenys"
-			}
+			{ text = "Item com valor de até 10.000 zenys" }
 		},
 		reward = {},
 		score = 15
@@ -5936,9 +3972,7 @@ achievement_tbl = {
 			summary = "Item com valor de até 50.000 zenys"
 		},
 		resource = {
-			{
-				text = "Item com valor de até 50.000 zenys"
-			}
+			{ text = "Item com valor de até 50.000 zenys" }
 		},
 		reward = {},
 		score = 20
@@ -5954,9 +3988,7 @@ achievement_tbl = {
 			summary = "Item com valor de até 100.000 zenys"
 		},
 		resource = {
-			{
-				text = "Item com valor de até 100.000 zenys"
-			}
+			{ text = "Item com valor de até 100.000 zenys" }
 		},
 		reward = {},
 		score = 20
@@ -5972,9 +4004,7 @@ achievement_tbl = {
 			summary = "Item com valor de até 150.000 zenys"
 		},
 		resource = {
-			{
-				text = "Item com valor de até 150.000 zenys"
-			}
+			{ text = "Item com valor de até 150.000 zenys" }
 		},
 		reward = {},
 		score = 30
@@ -5985,14 +4015,9 @@ achievement_tbl = {
 		major = 1,
 		minor = 1,
 		title = "Poupança (1)",
-		content = {
-			details = "Tente poupar até 10.000 zenys.",
-			summary = "Acumular até 10.000 zenys"
-		},
+		content = { details = "Tente poupar até 10.000 zenys.", summary = "Acumular até 10.000 zenys" },
 		resource = {
-			{
-				text = "Acumular até 10.000 zenys"
-			}
+			{ text = "Acumular até 10.000 zenys" }
 		},
 		reward = {},
 		score = 10
@@ -6008,9 +4033,7 @@ achievement_tbl = {
 			summary = "Acumular até 100.000 zenys"
 		},
 		resource = {
-			{
-				text = "Acumular até 100.000 zenys"
-			}
+			{ text = "Acumular até 100.000 zenys" }
 		},
 		reward = {},
 		score = 15
@@ -6026,9 +4049,7 @@ achievement_tbl = {
 			summary = "Acumular até 1 milhão de zenys"
 		},
 		resource = {
-			{
-				text = "Acumular até 1 milhão de zenys"
-			}
+			{ text = "Acumular até 1 milhão de zenys" }
 		},
 		reward = {},
 		score = 20
@@ -6044,9 +4065,7 @@ achievement_tbl = {
 			summary = "Acumular até 10 milhões de zenys"
 		},
 		resource = {
-			{
-				text = "Acumular até 10 milhões de zenys"
-			}
+			{ text = "Acumular até 10 milhões de zenys" }
 		},
 		reward = {},
 		score = 25
@@ -6062,9 +4081,7 @@ achievement_tbl = {
 			summary = "Acumular até 100 milhões de zenys"
 		},
 		resource = {
-			{
-				text = "Acumular até 100 milhões de zenys"
-			}
+			{ text = "Acumular até 100 milhões de zenys" }
 		},
 		reward = {},
 		score = 30
@@ -6080,9 +4097,7 @@ achievement_tbl = {
 			summary = "Acumular até 1 bilhão de zenys"
 		},
 		resource = {
-			{
-				text = "Acumular até 1 bilhão de zenys"
-			}
+			{ text = "Acumular até 1 bilhão de zenys" }
 		},
 		reward = {},
 		score = 40
@@ -6098,27 +4113,12 @@ achievement_tbl = {
 			summary = "Concluir todas as Conquistas"
 		},
 		resource = {
-			{
-				shortcut = 230101,
-				text = "Concluir 'Poring - Mascote'"
-			},
-			{
-				shortcut = 230102,
-				text = "Concluir 'Drops - Mascote'"
-			},
-			{
-				shortcut = 230103,
-				text = "Concluir 'Poporing - Mascote'"
-			},
-			{
-				shortcut = 230104,
-				text = "Concluir 'Bebê Poring - Mascote'"
-			}
+			{ shortcut = 230101, text = "Concluir 'Poring - Mascote'" },
+			{ shortcut = 230102, text = "Concluir 'Drops - Mascote'" },
+			{ shortcut = 230103, text = "Concluir 'Poporing - Mascote'" },
+			{ shortcut = 230104, text = "Concluir 'Bebê Poring - Mascote'" }
 		},
-		reward = {
-			buff = 12,
-			title = 1025
-		},
+		reward = { buff = 12, title = 1025 },
 		score = 50
 	},
 	[230101] = {
@@ -6132,9 +4132,7 @@ achievement_tbl = {
 			summary = "Domesticar um Poring"
 		},
 		resource = {
-			{
-				text = "Domesticar um Poring"
-			}
+			{ text = "Domesticar um Poring" }
 		},
 		reward = {},
 		score = 10
@@ -6150,9 +4148,7 @@ achievement_tbl = {
 			summary = "Domesticar um Drops"
 		},
 		resource = {
-			{
-				text = "Domesticar um Drops"
-			}
+			{ text = "Domesticar um Drops" }
 		},
 		reward = {},
 		score = 10
@@ -6168,9 +4164,7 @@ achievement_tbl = {
 			summary = "Domesticar um Poporing"
 		},
 		resource = {
-			{
-				text = "Domesticar um Poporing"
-			}
+			{ text = "Domesticar um Poporing" }
 		},
 		reward = {},
 		score = 10
@@ -6186,9 +4180,7 @@ achievement_tbl = {
 			summary = "Domesticar um Bebê Poring"
 		},
 		resource = {
-			{
-				text = "Domesticar um Bebê Poring"
-			}
+			{ text = "Domesticar um Bebê Poring" }
 		},
 		reward = {},
 		score = 10
@@ -6204,35 +4196,14 @@ achievement_tbl = {
 			summary = "Concluir todas as Conquistas"
 		},
 		resource = {
-			{
-				shortcut = 230111,
-				text = "Concluir 'Chonchon - Mascote'"
-			},
-			{
-				shortcut = 230112,
-				text = "Concluir 'Chonchon de Aço - Mascote'"
-			},
-			{
-				shortcut = 230113,
-				text = "Concluir 'Mosca Caçadora - Mascote'"
-			},
-			{
-				shortcut = 230114,
-				text = "Concluir 'Rocker - Mascote'"
-			},
-			{
-				shortcut = 230115,
-				text = "Concluir 'Esporo - Mascote'"
-			},
-			{
-				shortcut = 230116,
-				text = "Concluir 'Esporo Venenoso - Mascote'"
-			}
+			{ shortcut = 230111, text = "Concluir 'Chonchon - Mascote'" },
+			{ shortcut = 230112, text = "Concluir 'Chonchon de Aço - Mascote'" },
+			{ shortcut = 230113, text = "Concluir 'Mosca Caçadora - Mascote'" },
+			{ shortcut = 230114, text = "Concluir 'Rocker - Mascote'" },
+			{ shortcut = 230115, text = "Concluir 'Esporo - Mascote'" },
+			{ shortcut = 230116, text = "Concluir 'Esporo Venenoso - Mascote'" }
 		},
-		reward = {
-			buff = 12,
-			title = 1026
-		},
+		reward = { buff = 12, title = 1026 },
 		score = 50
 	},
 	[230111] = {
@@ -6246,9 +4217,7 @@ achievement_tbl = {
 			summary = "Domesticar um Chonchon"
 		},
 		resource = {
-			{
-				text = "Domesticar um Chonchon"
-			}
+			{ text = "Domesticar um Chonchon" }
 		},
 		reward = {},
 		score = 10
@@ -6264,9 +4233,7 @@ achievement_tbl = {
 			summary = "Domesticar um Chonchon de Aço"
 		},
 		resource = {
-			{
-				text = "Domesticar um Chonchon de Aço"
-			}
+			{ text = "Domesticar um Chonchon de Aço" }
 		},
 		reward = {},
 		score = 10
@@ -6282,9 +4249,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Mosca Caçadora"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Mosca Caçadora"
-			}
+			{ text = "Domesticar uma Mosca Caçadora" }
 		},
 		reward = {},
 		score = 10
@@ -6300,9 +4265,7 @@ achievement_tbl = {
 			summary = "Domesticar um Rocker"
 		},
 		resource = {
-			{
-				text = "Domesticar um Rocker"
-			}
+			{ text = "Domesticar um Rocker" }
 		},
 		reward = {},
 		score = 10
@@ -6318,9 +4281,7 @@ achievement_tbl = {
 			summary = "Domesticar um Esporo"
 		},
 		resource = {
-			{
-				text = "Domesticar um Esporo"
-			}
+			{ text = "Domesticar um Esporo" }
 		},
 		reward = {},
 		score = 10
@@ -6336,9 +4297,7 @@ achievement_tbl = {
 			summary = "Domesticar um Esporo Venenoso"
 		},
 		resource = {
-			{
-				text = "Domesticar um Esporo Venenoso"
-			}
+			{ text = "Domesticar um Esporo Venenoso" }
 		},
 		reward = {},
 		score = 10
@@ -6354,43 +4313,16 @@ achievement_tbl = {
 			summary = "Concluir todas as Conquistas"
 		},
 		resource = {
-			{
-				shortcut = 230121,
-				text = "Concluir 'Lunático - Mascote'"
-			},
-			{
-				shortcut = 230122,
-				text = "Concluir 'Picky - Mascote'"
-			},
-			{
-				shortcut = 230123,
-				text = "Concluir 'Bebê Selvagem - Mascote'"
-			},
-			{
-				shortcut = 230124,
-				text = "Concluir 'Filhote de Lobo - Mascote'"
-			},
-			{
-				shortcut = 230125,
-				text = "Concluir 'Fumacento - Mascote'"
-			},
-			{
-				shortcut = 230126,
-				text = "Concluir 'Yoyo - Mascote'"
-			},
-			{
-				shortcut = 230127,
-				text = "Concluir 'PecoPeco - Mascote'"
-			},
-			{
-				shortcut = 230128,
-				text = "Concluir 'Petite Verde - Mascote'"
-			}
+			{ shortcut = 230121, text = "Concluir 'Lunático - Mascote'" },
+			{ shortcut = 230122, text = "Concluir 'Picky - Mascote'" },
+			{ shortcut = 230123, text = "Concluir 'Bebê Selvagem - Mascote'" },
+			{ shortcut = 230124, text = "Concluir 'Filhote de Lobo - Mascote'" },
+			{ shortcut = 230125, text = "Concluir 'Fumacento - Mascote'" },
+			{ shortcut = 230126, text = "Concluir 'Yoyo - Mascote'" },
+			{ shortcut = 230127, text = "Concluir 'PecoPeco - Mascote'" },
+			{ shortcut = 230128, text = "Concluir 'Petite Verde - Mascote'" }
 		},
-		reward = {
-			buff = 12,
-			title = 1027
-		},
+		reward = { buff = 12, title = 1027 },
 		score = 50
 	},
 	[230121] = {
@@ -6404,9 +4336,7 @@ achievement_tbl = {
 			summary = "Domesticar um Lunático"
 		},
 		resource = {
-			{
-				text = "Domesticar um Lunático"
-			}
+			{ text = "Domesticar um Lunático" }
 		},
 		reward = {},
 		score = 10
@@ -6422,9 +4352,7 @@ achievement_tbl = {
 			summary = "Domesticar um Picky"
 		},
 		resource = {
-			{
-				text = "Domesticar um Picky"
-			}
+			{ text = "Domesticar um Picky" }
 		},
 		reward = {},
 		score = 10
@@ -6440,9 +4368,7 @@ achievement_tbl = {
 			summary = "Domesticar um Bebê Selvagem"
 		},
 		resource = {
-			{
-				text = "Domesticar um Bebê Selvagem"
-			}
+			{ text = "Domesticar um Bebê Selvagem" }
 		},
 		reward = {},
 		score = 10
@@ -6458,9 +4384,7 @@ achievement_tbl = {
 			summary = "Domesticar um Filhote de Lobo"
 		},
 		resource = {
-			{
-				text = "Domesticar um Filhote de Lobo"
-			}
+			{ text = "Domesticar um Filhote de Lobo" }
 		},
 		reward = {},
 		score = 10
@@ -6476,9 +4400,7 @@ achievement_tbl = {
 			summary = "Domesticar um Fumacento"
 		},
 		resource = {
-			{
-				text = "Domesticar um Fumacento"
-			}
+			{ text = "Domesticar um Fumacento" }
 		},
 		reward = {},
 		score = 10
@@ -6494,9 +4416,7 @@ achievement_tbl = {
 			summary = "Domesticar um Yoyo"
 		},
 		resource = {
-			{
-				text = "Domesticar um Yoyo"
-			}
+			{ text = "Domesticar um Yoyo" }
 		},
 		reward = {},
 		score = 10
@@ -6512,9 +4432,7 @@ achievement_tbl = {
 			summary = "Domesticar um PecoPeco"
 		},
 		resource = {
-			{
-				text = "Domesticar um PecoPeco"
-			}
+			{ text = "Domesticar um PecoPeco" }
 		},
 		reward = {},
 		score = 10
@@ -6530,9 +4448,7 @@ achievement_tbl = {
 			summary = "Domesticar um Petite Verde"
 		},
 		resource = {
-			{
-				text = "Domesticar um Petite Verde"
-			}
+			{ text = "Domesticar um Petite Verde" }
 		},
 		reward = {},
 		score = 10
@@ -6548,39 +4464,15 @@ achievement_tbl = {
 			summary = "Concluir todas as Conquistas"
 		},
 		resource = {
-			{
-				shortcut = 230141,
-				text = "Concluir 'Munak - Mascote'"
-			},
-			{
-				shortcut = 230142,
-				text = "Concluir 'Isis - Mascote'"
-			},
-			{
-				shortcut = 230143,
-				text = "Concluir 'Sohee - Mascote'"
-			},
-			{
-				shortcut = 230144,
-				text = "Concluir 'Jirtas - Mascote'"
-			},
-			{
-				shortcut = 230145,
-				text = "Concluir 'Alice - Mascote'"
-			},
-			{
-				shortcut = 230146,
-				text = "Concluir 'Succubus - Mascote'"
-			},
-			{
-				shortcut = 230147,
-				text = "Concluir 'Loli Ruri - Mascote'"
-			}
+			{ shortcut = 230141, text = "Concluir 'Munak - Mascote'" },
+			{ shortcut = 230142, text = "Concluir 'Isis - Mascote'" },
+			{ shortcut = 230143, text = "Concluir 'Sohee - Mascote'" },
+			{ shortcut = 230144, text = "Concluir 'Jirtas - Mascote'" },
+			{ shortcut = 230145, text = "Concluir 'Alice - Mascote'" },
+			{ shortcut = 230146, text = "Concluir 'Succubus - Mascote'" },
+			{ shortcut = 230147, text = "Concluir 'Loli Ruri - Mascote'" }
 		},
-		reward = {
-			buff = 12,
-			title = 1029
-		},
+		reward = { buff = 12, title = 1029 },
 		score = 50
 	},
 	[230141] = {
@@ -6594,9 +4486,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Munak"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Munak"
-			}
+			{ text = "Domesticar uma Munak" }
 		},
 		reward = {},
 		score = 10
@@ -6612,9 +4502,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Isis"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Isis"
-			}
+			{ text = "Domesticar uma Isis" }
 		},
 		reward = {},
 		score = 10
@@ -6630,9 +4518,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Sohee"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Sohee"
-			}
+			{ text = "Domesticar uma Sohee" }
 		},
 		reward = {},
 		score = 10
@@ -6648,9 +4534,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Jirtas"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Jirtas"
-			}
+			{ text = "Domesticar uma Jirtas" }
 		},
 		reward = {},
 		score = 10
@@ -6666,9 +4550,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Alice"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Alice"
-			}
+			{ text = "Domesticar uma Alice" }
 		},
 		reward = {},
 		score = 10
@@ -6684,9 +4566,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Succubus"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Succubus"
-			}
+			{ text = "Domesticar uma Succubus" }
 		},
 		reward = {},
 		score = 10
@@ -6702,9 +4582,7 @@ achievement_tbl = {
 			summary = "Domesticar uma Loli Ruri"
 		},
 		resource = {
-			{
-				text = "Domesticar uma Loli Ruri"
-			}
+			{ text = "Domesticar uma Loli Ruri" }
 		},
 		reward = {},
 		score = 10
@@ -6720,18 +4598,9 @@ achievement_tbl = {
 			summary = "Concluir todas as Conquistas"
 		},
 		resource = {
-			{
-				shortcut = 230201,
-				text = "Concluir  'Pesquisa sobre Porings (1)'"
-			},
-			{
-				shortcut = 230202,
-				text = "Concluir  'Pesquisa sobre Porings (2)'"
-			},
-			{
-				shortcut = 230203,
-				text = "Concluir  'Pesquisa sobre Porings (3)'"
-			}
+			{ shortcut = 230201, text = "Concluir  'Pesquisa sobre Porings (1)'" },
+			{ shortcut = 230202, text = "Concluir  'Pesquisa sobre Porings (2)'" },
+			{ shortcut = 230203, text = "Concluir  'Pesquisa sobre Porings (3)'" }
 		},
 		reward = {},
 		score = 10
@@ -6747,26 +4616,11 @@ achievement_tbl = {
 			summary = "Elimine todos os alvos"
 		},
 		resource = {
-			{
-				count = 10,
-				text = "Elimine Poring 10 vezes"
-			},
-			{
-				count = 10,
-				text = "Elimine Bebê Poring 10 vezes"
-			},
-			{
-				count = 10,
-				text = "Elimine Drops 10 vezes"
-			},
-			{
-				count = 10,
-				text = "Elimine Poporing 10 vezes"
-			},
-			{
-				count = 10,
-				text = "Elimine Marin 10 vezes"
-			}
+			{ count = 10, text = "Elimine Poring 10 vezes" },
+			{ count = 10, text = "Elimine Bebê Poring 10 vezes" },
+			{ count = 10, text = "Elimine Drops 10 vezes" },
+			{ count = 10, text = "Elimine Poporing 10 vezes" },
+			{ count = 10, text = "Elimine Marin 10 vezes" }
 		},
 		reward = {},
 		score = 10
@@ -6782,26 +4636,11 @@ achievement_tbl = {
 			summary = "Elimine todos os alvos"
 		},
 		resource = {
-			{
-				count = 1,
-				text = "Elimine Mastering 1 vez"
-			},
-			{
-				count = 1,
-				text = "Elimine Deviling 1 vez"
-			},
-			{
-				count = 1,
-				text = "Elimine Angeling 1 vez"
-			},
-			{
-				count = 1,
-				text = "Elimine Archangeling 1 vez"
-			},
-			{
-				count = 1,
-				text = "Elimine Ghostring 1 vez"
-			}
+			{ count = 1, text = "Elimine Mastering 1 vez" },
+			{ count = 1, text = "Elimine Deviling 1 vez" },
+			{ count = 1, text = "Elimine Angeling 1 vez" },
+			{ count = 1, text = "Elimine Archangeling 1 vez" },
+			{ count = 1, text = "Elimine Ghostring 1 vez" }
 		},
 		reward = {},
 		score = 15
@@ -6817,18 +4656,9 @@ achievement_tbl = {
 			summary = "Elimine todos os alvos"
 		},
 		resource = {
-			{
-				count = 5,
-				text = "Elimine Metaling 5 vezes"
-			},
-			{
-				count = 5,
-				text = "Elimine Heavy Metaling 5 vezes"
-			},
-			{
-				count = 5,
-				text = "Elimine Magmaring 5 vezes"
-			}
+			{ count = 5, text = "Elimine Metaling 5 vezes" },
+			{ count = 5, text = "Elimine Heavy Metaling 5 vezes" },
+			{ count = 5, text = "Elimine Magmaring 5 vezes" }
 		},
 		reward = {},
 		score = 20
@@ -6844,9 +4674,7 @@ achievement_tbl = {
 			summary = "Acessar o jogo pela 1a vez"
 		},
 		resource = {
-			{
-				text = "Acesse o jogo pela 1a vez"
-			}
+			{ text = "Acesse o jogo pela 1a vez" }
 		},
 		reward = {},
 		score = 10
@@ -6857,19 +4685,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 1",
-		content = {
-			details = "Nv. de Conquista 1.",
-			summary = "Nv. de Conquista 1"
-		},
+		content = { details = "Nv. de Conquista 1.", summary = "Nv. de Conquista 1" },
 		resource = {
-			{
-				text = "Nv. de Conquista 1"
-			}
+			{ text = "Nv. de Conquista 1" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240002] = {
@@ -6878,19 +4698,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 2",
-		content = {
-			details = "Nv. de Conquista 2.",
-			summary = "Nv. de Conquista 2"
-		},
+		content = { details = "Nv. de Conquista 2.", summary = "Nv. de Conquista 2" },
 		resource = {
-			{
-				text = "Nv. de Conquista 2"
-			}
+			{ text = "Nv. de Conquista 2" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240003] = {
@@ -6899,19 +4711,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 3",
-		content = {
-			details = "Nv. de Conquista 3.",
-			summary = "Nv. de Conquista 3"
-		},
+		content = { details = "Nv. de Conquista 3.", summary = "Nv. de Conquista 3" },
 		resource = {
-			{
-				text = "Nv. de Conquista 3"
-			}
+			{ text = "Nv. de Conquista 3" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240004] = {
@@ -6920,19 +4724,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 4",
-		content = {
-			details = "Nv. de Conquista 4.",
-			summary = "Nv. de Conquista 4"
-		},
+		content = { details = "Nv. de Conquista 4.", summary = "Nv. de Conquista 4" },
 		resource = {
-			{
-				text = "Nv. de Conquista 4"
-			}
+			{ text = "Nv. de Conquista 4" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240005] = {
@@ -6941,19 +4737,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 5",
-		content = {
-			details = "Nv. de Conquista 5.",
-			summary = "Nv. de Conquista 5"
-		},
+		content = { details = "Nv. de Conquista 5.", summary = "Nv. de Conquista 5" },
 		resource = {
-			{
-				text = "Nv. de Conquista 5"
-			}
+			{ text = "Nv. de Conquista 5" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240006] = {
@@ -6962,19 +4750,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 6",
-		content = {
-			details = "Nv. de Conquista 6.",
-			summary = "Nv. de Conquista 6"
-		},
+		content = { details = "Nv. de Conquista 6.", summary = "Nv. de Conquista 6" },
 		resource = {
-			{
-				text = "Nv. de Conquista 6"
-			}
+			{ text = "Nv. de Conquista 6" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240007] = {
@@ -6983,19 +4763,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 7",
-		content = {
-			details = "Nv. de Conquista 7.",
-			summary = "Nv. de Conquista 7"
-		},
+		content = { details = "Nv. de Conquista 7.", summary = "Nv. de Conquista 7" },
 		resource = {
-			{
-				text = "Nv. de Conquista 7"
-			}
+			{ text = "Nv. de Conquista 7" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240008] = {
@@ -7004,19 +4776,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 8",
-		content = {
-			details = "Nv. de Conquista 8.",
-			summary = "Nv. de Conquista 8"
-		},
+		content = { details = "Nv. de Conquista 8.", summary = "Nv. de Conquista 8" },
 		resource = {
-			{
-				text = "Nv. de Conquista 8"
-			}
+			{ text = "Nv. de Conquista 8" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240009] = {
@@ -7025,19 +4789,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 9",
-		content = {
-			details = "Nv. de Conquista 9.",
-			summary = "Nv. de Conquista 9"
-		},
+		content = { details = "Nv. de Conquista 9.", summary = "Nv. de Conquista 9" },
 		resource = {
-			{
-				text = "Nv. de Conquista 9"
-			}
+			{ text = "Nv. de Conquista 9" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240010] = {
@@ -7051,15 +4807,9 @@ achievement_tbl = {
 			summary = "Nv. de Conquista 10"
 		},
 		resource = {
-			{
-				text = "Nv. de Conquista 10"
-			}
+			{ text = "Nv. de Conquista 10" }
 		},
-		reward = {
-			buff = 12,
-			item = 644,
-			title = 1023
-		},
+		reward = { buff = 12, item = 644, title = 1023 },
 		score = 10
 	},
 	[240011] = {
@@ -7068,19 +4818,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 11",
-		content = {
-			details = "Nv. de Conquista 11.",
-			summary = "Nv. de Conquista 11"
-		},
+		content = { details = "Nv. de Conquista 11.", summary = "Nv. de Conquista 11" },
 		resource = {
-			{
-				text = "Nv. de Conquista 11"
-			}
+			{ text = "Nv. de Conquista 11" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240012] = {
@@ -7089,19 +4831,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 12",
-		content = {
-			details = "Nv. de Conquista 12.",
-			summary = "Nv. de Conquista 12"
-		},
+		content = { details = "Nv. de Conquista 12.", summary = "Nv. de Conquista 12" },
 		resource = {
-			{
-				text = "Nv. de Conquista 12"
-			}
+			{ text = "Nv. de Conquista 12" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240013] = {
@@ -7110,19 +4844,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 13",
-		content = {
-			details = "Nv. de Conquista 13.",
-			summary = "Nv. de Conquista 13"
-		},
+		content = { details = "Nv. de Conquista 13.", summary = "Nv. de Conquista 13" },
 		resource = {
-			{
-				text = "Nv. de Conquista 13"
-			}
+			{ text = "Nv. de Conquista 13" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240014] = {
@@ -7131,19 +4857,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 14",
-		content = {
-			details = "Nv. de Conquista 14.",
-			summary = "Nv. de Conquista 14"
-		},
+		content = { details = "Nv. de Conquista 14.", summary = "Nv. de Conquista 14" },
 		resource = {
-			{
-				text = "Nv. de Conquista 14"
-			}
+			{ text = "Nv. de Conquista 14" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240015] = {
@@ -7152,19 +4870,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 15",
-		content = {
-			details = "Nv. de Conquista 15.",
-			summary = "Nv. de Conquista 15"
-		},
+		content = { details = "Nv. de Conquista 15.", summary = "Nv. de Conquista 15" },
 		resource = {
-			{
-				text = "Nv. de Conquista 15"
-			}
+			{ text = "Nv. de Conquista 15" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240016] = {
@@ -7173,19 +4883,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 16",
-		content = {
-			details = "Nv. de Conquista 16.",
-			summary = "Nv. de Conquista 16"
-		},
+		content = { details = "Nv. de Conquista 16.", summary = "Nv. de Conquista 16" },
 		resource = {
-			{
-				text = "Nv. de Conquista 16"
-			}
+			{ text = "Nv. de Conquista 16" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240017] = {
@@ -7194,19 +4896,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 17",
-		content = {
-			details = "Nv. de Conquista 17.",
-			summary = "Nv. de Conquista 17"
-		},
+		content = { details = "Nv. de Conquista 17.", summary = "Nv. de Conquista 17" },
 		resource = {
-			{
-				text = "Nv. de Conquista 17"
-			}
+			{ text = "Nv. de Conquista 17" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240018] = {
@@ -7215,19 +4909,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 18",
-		content = {
-			details = "Nv. de Conquista 18.",
-			summary = "Nv. de Conquista 18"
-		},
+		content = { details = "Nv. de Conquista 18.", summary = "Nv. de Conquista 18" },
 		resource = {
-			{
-				text = "Nv. de Conquista 18"
-			}
+			{ text = "Nv. de Conquista 18" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240019] = {
@@ -7236,19 +4922,11 @@ achievement_tbl = {
 		major = 6,
 		minor = 0,
 		title = "Nv. de Conquista 19",
-		content = {
-			details = "Nv. de Conquista 19.",
-			summary = "Nv. de Conquista 19"
-		},
+		content = { details = "Nv. de Conquista 19.", summary = "Nv. de Conquista 19" },
 		resource = {
-			{
-				text = "Nv. de Conquista 19"
-			}
+			{ text = "Nv. de Conquista 19" }
 		},
-		reward = {
-			buff = 12,
-			item = 644
-		},
+		reward = { buff = 12, item = 644 },
 		score = 10
 	},
 	[240020] = {
@@ -7262,15 +4940,9 @@ achievement_tbl = {
 			summary = "Nv. de Conquista 20"
 		},
 		resource = {
-			{
-				text = "Nv. de Conquista 20"
-			}
+			{ text = "Nv. de Conquista 20" }
 		},
-		reward = {
-			buff = 12,
-			item = 644,
-			title = 1024
-		},
+		reward = { buff = 12, item = 644, title = 1024 },
 		score = 10
 	},
 	[999968] = {
@@ -7284,14 +4956,9 @@ achievement_tbl = {
 			summary = "Hunt all targets"
 		},
 		resource = {
-			{
-				count = 20000,
-				text = "Hunt Ghoul 20,000 times"
-			}
+			{ count = 20000, text = "Hunt Ghoul 20,000 times" }
 		},
-		reward = {
-			item = 4110
-		},
+		reward = { item = 4110 },
 		score = 10
 	},
 	[999999] = {
@@ -7300,546 +4967,11 @@ achievement_tbl = {
 		major = 1,
 		minor = 3,
 		title = "Reservado para eventos",
-		content = {
-			details = "Win Ragnarok's Got Talent",
-			summary = "Win Ragnarok's Got Talent"
-		},
+		content = { details = "Win Ragnarok's Got Talent", summary = "Win Ragnarok's Got Talent" },
 		resource = {
-			{
-				text = "Win Ragnarok's Got Talent"
-			}
+			{ text = "Win Ragnarok's Got Talent" }
 		},
-		reward = {
-			title = 9999
-		},
+		reward = { title = 9999 },
 		score = 0
-	},
-	[128038] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 0,
-		title = "Mostre ao Capitão Quem Manda",
-		content = {
-			summary = "Derrote Pherlock",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote Pherlock uma vez.",
-				count = 1
-			}
-		},
-		reward = {},
-		score = 10
-	},
-	[128039] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 0,
-		title = "Mostre ao Capitão Fraco Quem Manda",
-		content = {
-			summary = "Derrote Pherlock",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote Pherlock uma vez.",
-				count = 1
-			}
-		},
-		reward = {},
-		score = 10
-	},
-	[128040] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 0,
-		title = "Motim a Bordo",
-		content = {
-			summary = "Derrote Pherlock",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote Pherlock 10 vezes.",
-				count = 10
-			}
-		},
-		reward = {},
-		score = 20
-	},
-	[128041] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 0,
-		title = "Confusão a Bordo",
-		content = {
-			summary = "Derrote Pherlock",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote Pherlock 10 vezes.",
-				count = 10
-			}
-		},
-		reward = {},
-		score = 20
-	},
-	[128042] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 0,
-		title = "Rebelião a Bordo",
-		content = {
-			summary = "Derrote Pherlock",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote Pherlock 50 vezes.",
-				count = 50
-			}
-		},
-		reward = {},
-		score = 50
-	},
-	[128043] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 0,
-		title = "Motim como uma Rebelião",
-		content = {
-			summary = "Derrote Pherlock",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote Pherlock 50 vezes.",
-				count = 50
-			}
-		},
-		reward = {},
-		score = 50
-	},
-	[128050] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 2,
-		title = "Exorcista Novato",
-		content = {
-			summary = "Derrote o Pilar das Almas em Bongunggot",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote o Pilar das Almas em Bongunggot uma vez.",
-				count = 1
-			}
-		},
-		reward = {},
-		score = 10
-	},
-	[128051] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 2,
-		title = "Exorcista Experiente",
-		content = {
-			summary = "Derrote o Pilar das Almas em Bongunggot",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote o Pilar das Almas em Bongunggot 10 vezes.",
-				count = 10
-			}
-		},
-		reward = {},
-		score = 20
-	},
-	[128052] = {
-		UI_Type = 1,
-		group = "BATTLE",
-		major = 5,
-		minor = 2,
-		title = "Exorcista Lendário",
-		content = {
-			summary = "Derrote o Pilar das Almas em Bongunggot",
-			details = "Complete a Masmorra Memorial até o fim."
-		},
-		resource = {
-			[1] = {
-				text = "Derrote o Pilar das Almas em Bongunggot 50 vezes.",
-				count = 50
-			}
-		},
-		reward = {},
-		score = 50
-	},
-	[200032] = {
-		UI_Type = 0,
-		group = "GOAL_LEVEL",
-		major = 1,
-		minor = 0,
-		title = "O Começo de Outra Aventura!",
-		content = {
-			summary = "Alcance o Nível Base 100!",
-			details = "Alcance o Nível Base 100."
-		},
-		resource = {
-			[1] = {
-				text = "Nível Base 100"
-			}
-		},
-		reward = {
-			item = 23585
-		},
-		score = 10
-	},
-	[127001] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Prontera",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Prontera"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127002] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Geffen",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Geffen"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127003] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Morroc",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Morroc"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127004] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Payon",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Payon"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127005] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Juno",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Juno"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127006] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Lighthalzen",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Lighthalzen"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127007] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Einbroch",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Einbroch"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127008] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Rachel",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Rachel"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[127009] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Fama em Veins",
-		content = {
-			summary = "Sindicato das Cidades",
-			details = "Sua Fama em Veins"
-		},
-		resource = {
-			[1] = {
-				text = "Indiferente",
-				count = 3000
-			},
-			[2] = {
-				text = "Iniciante",
-				count = 6000
-			},
-			[3] = {
-				text = "Residente",
-				count = 12000
-			},
-			[4] = {
-				text = "Celebridade",
-				count = 20000
-			},
-			[5] = {
-				text = "Autoridade",
-				count = 1000
-			}
-		},
-		score = 10
-	},
-	[190000] = {
-		UI_Type = 1,
-		group = "CHATTING",
-		major = 4,
-		minor = 1,
-		title = "Sindicato das Cidades",
-		content = {
-			summary = "Contribuições ao Sindicato",
-			details = "Deseja desafiar todas as cidades? Os sindicalistas trabalham duro! Trabalhar no sindicato não é tão fácil!"
-		},
-		resource = {
-			[1] = {
-				text = "Nível Ametista",
-				count = 1
-			},
-			[2] = {
-				text = "Nível Peridoto",
-				count = 10
-			},
-			[3] = {
-				text = "Nível Aquamarina",
-				count = 30
-			},
-			[4] = {
-				text = "Nível Diamante",
-				count = 100
-			}
-		},
-		reward = {},
-		score = 50
 	}
 }

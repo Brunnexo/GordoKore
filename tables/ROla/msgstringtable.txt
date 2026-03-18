@@ -2617,7 +2617,7 @@ Destinatário inexistente#
 EXP  : %.1f%% (Basic %.1f%% Premium %.1f%% + %s %.1f%%)#
 DROP : %.1f%% (Basic %.1f%% Premium %.1f%% + %s %.1f%%)#
 DEATH: %.1f%% (Basic %.1f%% Premium %.1f%% + %s %.1f%%)#
-É possível acumular até %d pontos de milhagem por tempo de conexão.#
+You can gather up to %d Gold PC cafe points.#
 This function unavailable in this server.#
 Using cart is restricted in this server.#
 Auction is restricted in this server.#
