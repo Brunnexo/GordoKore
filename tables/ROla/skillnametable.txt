@@ -651,6 +651,8 @@ NPC_WIDECONFUSE2#Toque de Insanidade#
 NPC_WIDEFREEZE2#Beijo do Inverno#
 NPC_EVILLAND2#Terra Amaldiçoada#
 NPC_HELLJUDGEMENT2#Julgamento Infernal#
+NPC_RAINOFMETEOR#RAIN OF METEOR#
+NPC_GROUNDDRIVE#GROUND DRIVE#
 NPC_DEADLYCURSE2#Praga Mortal#
 KN_CHARGEATK#Avanço Ofensivo#
 CR_SHRINK#Submissão#
@@ -750,7 +752,7 @@ WL_SUMMONWB#Invocar Esfera de Água#
 WL_SUMMONSTONE#Invocar Esfera de Terra#
 WL_RELEASE#Lançar Magia#
 WL_READING_SB#Memorizar#
-WL_FREEZE_SP#Estudo Arcano Avançado#
+WL_ENDMARK#Estudo Arcano Avançado#
 RA_ARROWSTORM#Tempestade de Flechas#
 RA_FEARBREEZE#Disparo Selvagem#
 RA_RANGERMAIN#Táticas de Sobrevivência#
@@ -802,7 +804,7 @@ NC_AXETORNADO#Fúria do Furacão #
 NC_SILVERSNIPER#Artilharia Caçadora#
 NC_MAGICDECOY#Artilharia Arcana#
 NC_DISJOINT#Remover Artilharia#
-SC_FATALMENACE#Ofensiva Fatal#
+SC_STARTMARK#Ofensiva Fatal#
 SC_REPRODUCE#Mimetismo#
 SC_AUTOSHADOWSPELL#Desejo das Sombras#
 SC_SHADOWFORM#Vínculo Sombrio#
@@ -1101,7 +1103,7 @@ SU_SPIRITOFSEA#Invocação das Marés#
 WE_CALLALLFAMILY#Em Família#
 WE_ONEFOREVER#Felizes Para Sempre#
 WE_CHEERUP#Animar#
-SKID_CG_SPECIALSINGER#Vocação Musical#
+CG_SPECIALSINGER#Vocação Musical#
 AB_VITUPERATUM#Vituperatum#
 AB_CONVENIO#Convenio#
 NV_BREAKTHROUGH#Crescimento#
@@ -1414,6 +1416,22 @@ MH_GRANITIC_ARMOR#Armadura de Granito#
 MH_LAVA_SLIDE#Derretimento com Lava#
 MH_PYROCLASTIC#Piroclástico#
 MH_VOLCANIC_ASH#Cinzas Vulcânicas#
+MH_BLAST_FORGE#Blast Forge#
+MH_TEMPERING#Tempering#
+MH_CLASSY_FLUTTER#Classy Flutter#
+MH_TWISTER_CUTTER#Twister Cutter#
+MH_ABSOLUTE_ZEPHYR#Absolute Zephyr#
+MH_BRUSHUP_CLAW#Brushup Claw#
+MH_BLAZING_AND_FURIOUS#Blazing And Furious#
+MH_THE_ONE_FIGHTER_RISES#The One Fighter Rises#
+MH_POLISHING_NEEDLE#Polishing Needle#
+MH_TOXIN_OF_MANDARA#Toxin Of Mandara#
+MH_NEEDLE_STINGER#Needle Stinger#
+MH_LICHT_GEHORN#Licht Gehorn#
+MH_GLANZEN_SPIES#Glanzen Spies#
+MH_HEILIGE_PFERD#Heilige Pferd#
+MH_GOLDENE_TONE#Goldene Tone#
+MH_BLAZING_LAVA#Blazing Lava#
 MS_BASH#Golpe Fulminante#
 MS_MAGNUM#Impacto Explosivo#
 MS_BOWLINGBASH#Impacto de Tyr#

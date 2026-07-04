@@ -1,13 +1,13 @@
 Você deseja assistir o Replay?#
 Não foi possível conectar-se ao servidor.#
 Desconectado do servidor.#
-Desconectado do servidor.#
+A conexão com o servidor foi perdida.#
 Servidor fechado.#
 Alguém já está utilizando esta conta.#
 Conta não registrada. Certifique-se de que registrou corretamente.#
 Senha incorreta. Tente novamente.#
 Esta conta expirou e não é mais válida.#
-MSI_ACCESS_DENIED#
+Acesso negado#
 Já existe um personagem com este nome.#
 Criação de personagem negada.#
 Tentativa de deletar personagem negada.#
@@ -129,7 +129,7 @@ Para retirar um personagem da sala#
 Para dar Autoridade Máxima#
 Para ver Informações#
 Sala de Chat#
-Pessoa#
+Pessoas#
 /sit:  Senta.  Se já estiver sentado, levanta.#
 /stand:  Levanta.  Se estiver levantado, senta.#
 /chat:  Cria uma Sala de Chat#
@@ -149,13 +149,13 @@ Você é o campeão, mas não pode receber sua recompensa porque está com exces
 Não há nenhum personagem que responda por este nome.#
 Este personagem optou por não receber mensagens suas agora. Por favor tente mais tarde..#
 Esta pessoa não pode falar com você neste momento, por favor, tente mais tarde.#
-Ataque Letal efetuado com sucesso.#
-Ataque Letal falhou.#
+Personagem desconectado com sucesso.#
+Falha ao desconectar o personagem.#
 Você obteve %s (%d).#
 [Alt] + [=]:  Estabeleça o intervalo de erro entre as cartas.#
 [F10]:  Para acertar a janela de Chat / [Alt] + [F10]:  Liga ou Desliga a janela de Chat#
 Como enviar mensagens:  Coloque o nome de um personagem no lado esquerdo da caixa de mensagens e digite a mensagem do lado direito.  A tecla TAB ajuda a alternar entre estas caixas.#
-/emo,/!,/?,/lala,/amor,/amor2,/gt,/ideia,/grr,/grr2,/$,/...,/vlw,/aiai,/desc,/heh,/gt2,/hmm,/ok,/n,/uau,/o,/x,/sos,/go,/snif,/mal,/bj,/bj2,/pif,/s: Emoticons correspondentes a Alt + (1~9) Ctrl + (-=\\)#
+/!,/?,/ho,/lv,/lv2,/swt,/ic,/an,/ag,/$,/¡¦.,/thx,/wah,/sry,/heh,/swt2,/hmm,/no1,/??,/omg,/oh,/X,/hp,/go,/sob,/gg,/kis,/kis2,/pif,/ok: Emoticons correspondentes a Alt + (1~9) Ctrl + (-=\\)#
 Como falar com o grupo : Adicione "%" na frente das mensagens ou pressione [CTRL] + [ENTER] após digitar a mensagem.#
 Você ainda não tem nível suficiente para realizar negociações.#
 Você ainda não tem nível suficiente para usar Emoticons.#
@@ -216,8 +216,8 @@ Nível de habilidade insuficiente#
 Não há locais memorizados.#
 Você não aprendeu a habilidade Portal.#
 Salvo como Ponto de Portal.#
-Voltar#
-Há um período de relaxamento após utilizar uma habilidade.#
+Cancelar#
+Há um período de recarga após utilizar uma habilidade.#
 Você não pode ter este item porque está com excesso de peso.#
 Acima do peso máximo#
 Carrinho#
@@ -330,7 +330,7 @@ Nome#
 Nível#
 Líder#
 Membros#
-Nv. médio dos Membros#
+Média de nv. dos Membros#
 Territórios#
 Tendência#
 EXP#
@@ -344,7 +344,7 @@ Cargos#
 Habil.#
 Expulsos#
 Avisos#
-Lista de Todo o Clã.#
+Lista de Todo o Clã#
 Lista de mensagens#
 Abrir janela de mensagens#
 Como abrir a janela de mensagens: Pressione [Alt] + [H]#
@@ -424,13 +424,13 @@ Fant.#
 Maldito#
 Você ainda não pode criar itens.#
 Lista de itens que você pode fazer#
-Criar#
-Materiais#
+ - Criação#
+ - Materiais#
 Falha ao criar item.#
 Item criado com sucesso.#
 Falha ao criar item.#
 Item criado com sucesso.#
-Você não possui o Nível necessário.#
+Você não possui o nível necessário.#
 Nível muito elevado para esta classe.#
 Classe inadequada para este tipo de trabalho.#
 Gravar mensagens na caixa de mensagens#
@@ -439,8 +439,8 @@ Enviar p/ Clã #
 Ocorreu um erro. Verifique a existência de créditos em sua conta em nosso site.#
 Não foi possível conectar. Por favor, tente novamente em alguns minutos.#
 O servidor ainda reconhece seu último log-in.  Tente novamente em alguns minutos.#
-Soltar Falcão#
-Desmontar de Peco Peco#
+Soltar Ave#
+Desmontar#
 Pequeno#
 Médio#
 Grande#
@@ -448,7 +448,7 @@ Bi#
 Trip#
 Quád#
 Seu acesso está bloqueado até %s. Acesse o site e consulte a lista de punidos para mais informações.#
-de#
+ de #
  Flamejante#
  Glacial#
  Trovejante#
@@ -456,10 +456,10 @@ de#
 210.14.27.200#
 6900#
 https://www.gnjoylatam.com/#
-Usar ataque letal em %s#
-Forte#
-Muito Forte#
-Fortíssima#
+Desconectar %s#
+ Forte#
+ Muito Forte#
+ Fortíssimo#
 Razão da expulsão#
 Velocidade de ataque aumentada.#
 Velocidade de ataque voltou ao normal.#
@@ -468,14 +468,14 @@ Dano da arma reduzido.#
 Conjuração variável reduzida.#
 Conjuração variável de volta ao normal.#
 Sua arma foi encantada com Veneno.#
-Sua arma foi abençoada com Força Sagrada.#
+Sua arma foi encantada com Sagrado.#
 Sua arma voltou ao normal.#
-Sua armadura foi encantada com Poder Sagrado.#
+Sua armadura foi encantada com Sagrado.#
 Sua armadura voltou ao normal.#
 Proteção formada.#
 Proteção desfeita.#
-Perícia em Armamento iniciada.#
-Perícia em Armamento cancelada.#
+Manejo Perfeito iniciado.#
+Manejo Perfeito cancelada.#
 Força Violenta iniciado.#
 Força Violenta cancelado.#
 Amplificação de Poder iniciada#
@@ -483,8 +483,8 @@ Amplificação de Poder cancelada.#
 [Novo Servidor]#
 (%d)#
 (Em Manutenção)#
-O companheiro de Clã %s conectou-se.#
-O companheiro de Clã %s saiu.#
+Membro do Clã %s conectou-se.#
+Membro do Clã %s saiu.#
 Você recebeu %s EXP de Base.#
 Você recebeu %s EXP de Classe.#
 Você deixou o Clã.#
@@ -516,7 +516,7 @@ Doar#
 Título#
 Conteúdo#
 Nome do Clã #
-Deixar Clã #
+Nv. do Clã#
 Membros do Clã #
 Nº #
 Identificação do Item#
@@ -526,7 +526,7 @@ Digite a razão da expulsão#
 Feche sua loja.#
 Nome da Habilidade#
 Nome do Item#
-MSI_SETTLE_WEB_URL#
+https://pay.ragnarok.co.kr#
 A capacidade de IP desta Lan-House está lotada. Você gostaria de pagar a base pessoal?#
 Ocorreu um erro. Verifique a existência de créditos em sua conta em nosso site.#
 Nome muito comprido.  Digite um nome com no máximo 23 caracteres.#
@@ -579,14 +579,14 @@ Sua conexão foi encerrada porque seu IP não coincide com o IP do servidor.#
 Sua conexão foi encerrada para prevenir que suas horas de crédito sejam utilizadas.#
 Você foi forçado a desconectar-se pela Equipe de Game Masters.#
 Você não pode usar esta habilidade porque está carregando coisas demais.#
-Anônimo#
+ Sem Nome#
 Parabéns! %s você subiu para %d.#
 Que pena! %s você caiu para %d.#
 Janela de Mascote#
 Fome#
-Leal#
+Lealdade #
 Evite abrir uma Sala de Chat enquanto estiver vendendo.#
-Un#
+un#
 Você foi derrubado %s.#
 Você foi derrubado por %s.#
 A comida [%s] não está disponível.#
@@ -612,19 +612,19 @@ Provocar iniciado.#
 Provocar cancelado.#
 Vigor iniciado.#
 Vigor cancelado.#
-Aprimorar Concentração iniciado.#
-Aprimorar Concentração cancelado.#
+Concentrar iniciado.#
+Concentrar cancelado.#
 Esconderijo iniciado.#
 Esconderijo cancelado.#
 Furtividade iniciada.#
 Furtividade cancelada.#
 Reflexão de Veneno iniciada.#
 Reflexão de Veneno cancelada.#
-Velocidade reduzida, Pântano dos Mortos em ação.#
+Pântano dos Mortos em ação.#
 Pântano dos Mortos cancelado.#
-Defesa melhorada por Angelus.#
+HP e DEF melhorados por Angelus.#
 Angelus cancelado.#
-Você foi abençoado(a).#
+Você recebeu uma Bênção.#
 A Benção acabou.#
 Signum Crucis iniciado.#
 Signum Crucis cancelado.#
@@ -632,7 +632,7 @@ Retardamento de Veneno iniciado.#
 Retardamento de Veneno cancelado.#
 Magnificat em ação, recuperação de SP melhorada.#
 Magnificat cancelado.#
-Glória em ação, sua sorte foi aumentada.#
+Glória em ação, sua SOR foi aumentada.#
 Glória cancelada.#
 Lex Eterna em ação, o dano recebido será dobrado.#
 Lex Eterna cancelado.#
@@ -649,20 +649,20 @@ FOR de volta ao normal.#
 Proteção Arcana iniciada.#
 Proteção Arcana cancelada.#
 Armadura destruída.#
-Armadura de volta ao normal.#
+...#
 Arma destruída.#
-Arma de volta ao normal.#
+...#
 Invisibilidade iniciada.#
 Invisibilidade cancelada.#
-MSI_REFUSE_BLOCK_TEMPORARY#
-Você deve desequipar as flechas/balas/shurikens primeiro.#
+A conexão está atrasada porque o processamento das informações de faturamento está demorando. Tente novamente mais tarde.#
+Você deve desequipar a munição primeiro.#
 Lista de Flechas#
 Lista do Carrinho#
 Você deve ter um carrinho.#
 Você não pode abrir uma janela de chat.#
 MSI_3DAY_FREE#
 Você não pode usar este item enquanto estiver sentado.#
-Você está sendo punido, não poderá usar habilidades e chat por %d minutos.#
+Você recebeu uma punição e não poderá usar habilidades e chat por %d minutos.#
 Você já pode usar habilidades e chat.#
 - [Não equipado]#
 Faminto#
@@ -681,7 +681,7 @@ Sem mensagens#
 Sem mensagens#
 Sem mensagens#
 O nome da mascote deve ter 23 caracteres ou menos#
-Você pode mudar o nome da mascote apenas 1 vez. O nome será ^0000ff^0000ff %s^000000^000000. Deseja continuar?#
+Você pode mudar o nome da mascote apenas 1 vez. O nome será ^0000ff%s^000000. Deseja continuar?#
 /font#
 Seu Clã não tem fundos para pagar por este risco.#
 O limite de Zeny do seu clã o impede disso.#
@@ -740,7 +740,7 @@ Divisão de itens#
 Individual#
 Coletivo#
 nProtect KeyCrypt#
-Driver de teclado detectado. \n\nVoc? deseja instalar um complemento para entrada de seguran?a do teclado?    \n\n(Ap?s instalar recursos adicionais, ? necess?rio reinicializar o sistema)#
+Driver de teclado detectado. \n\nVocê deseja instalar um complemento para entrada de segurança do teclado?    \n\n(Após instalar recursos adicionais, é necessário reinicializar o sistema)#
 Instalação concluída Reiniciando \n\n system#
 A instalação falhou.#
 Proceder sem ajustar o teclado de segurança#
@@ -787,7 +787,7 @@ Utilize o teclado para usar habilidades do atalho. [/bm ON]#
 Não utilize o teclado para usar habilidades do atalho. [/bm OFF]#
 /battlemode : Use as teclas Q ~ O para as habilidades da linha 2 de atalhos.#
                   Use as teclas A ~ L para as habilidades da linha 3 de atalhos.#
-Rodar outros programas junto com o bRO pode causar Lag ao jogo.#
+Rodar outros programas junto com o RO pode causar Lag ao jogo.#
 Anjo da Guarda, você pode me ouvir?#
 Eu sou#
 um Eterno Aprendiz!#
@@ -940,9 +940,9 @@ O nome do seu homunculus deve ter 23 caracteres ou menos.#
 Você pode mudar o nome apenas uma vez. O nome do seu homunculus será mudado para ^0000ff^0000ff %s^000000^000000. Deseja continuar?#
 Longe do teclado#
 [Mensagem Automática]#
-Ativar resposta automática quando você não estiver disponível.#
-Desativar resposta automática quando você não estiver disponível.#
-Por favor, digite sua resposta automática.#
+Resposta automática quando você não estiver disponível [ATIVADA]#
+Resposta automática quando você não estiver disponível [DESATIVADA]#
+Digite sua resposta automática.#
 /fsh#
 /spin#
 /sigh#
@@ -1021,8 +1021,8 @@ EXP#
 Você ganhou um prêmio do evento. Por favor receba um item no jogo como premiação.#
 Não amigável#
 Inimigo#
-Comportamento do Homunculus é controlado pelo Jogador.#
-Comportamento do Homunculus é controlado por ele mesmo.#
+Agora, o Homunculus está usando a IA personalizada do usuário.#
+Agora, o Homunculus está usando a IA padrão do jogo.#
 Caixa de mensagens#
 Criar mensagem#
 Ler mensagem#
@@ -1031,7 +1031,7 @@ O item foi adicionado a seu inventário.#
 O item 'Você é adoravel' não pode ser adicionado a seu inventário.#
 Sua mensagem foi enviada.#
 Entrega não foi efetuada. Destinatário desconhecido ou você está tentando enviar uma mensagem a si mesmo.#
-[Anjo do Sol, Lua e Estrela] Localizações e monstros registrados foram restaurados!#
+[Anjo do Sol, Lua e Estrela] Localizações e monstros registrados foram resetados!#
 Falha em listar item selecionado num leilão.#
 O item selecionado foi listado no leilão.#
 O leilão selecionado foi cancelado.#
@@ -1091,7 +1091,7 @@ Você não conseguiu dar um lance.#
 Você não tem Zenys suficientes.#
 Armadura#
 Carta#
-Variados#
+Etc#
 N° do Leilão#
 Pesquisa#
 O Leilão Selecionado foi fechado.#
@@ -1113,12 +1113,12 @@ Você não tem dinheiro para pagar a taxa de leilão.#
 Status#
 Alimentar#
 Aguardar#
-S. Aprendiz#
-S. Aprendiz#
+Superaprendiz#
+Superaprendiz#
 Taekwon#
 Taekwon#
 Mestre Taekwon#
-Mestre Taekwon#
+Mestra Taekwon#
 Espiritualista#
 Espiritualista#
 Por favor, verifique a conexão; mais de 2 contas estão conectadas ao Plano Internet Cafe Time.#
@@ -1173,19 +1173,19 @@ Você não pode listar um item consumível.#
 Você não pode listar um item desconhecido.#
 Por favor, feche a Janela de Compra para abrir a Janela de Correio.#
 Por favor, feche a Janela de Correio para abrir a Janela de Compra.#
-Munição foi equipada.#
+Munição equipada.#
 A mensagem foi retornada ao remetente.#
 A mensagem não existe.#
 Você tentou se conectar ao servidor por mais de 50 vezes seguidas em menos de uma hora. Seu acesso ao servidor foi bloqueado até a próxima manutenção semanal. Obrigado pela compreensão.#
 Você tentou se conectar ao servidor por mais de 50 vezes seguidas em menos de uma hora. Seu acesso ao servidor foi bloqueado até a próxima manutenção semanal. Obrigado pela compreensão.#
 Favor reiniciar o jogo.#
-Inf. Assistente - Arqueiro#
-Inf. Assistente - Soldado#
-Inf. Assistente - Lanceiro#
+Assistente - Amazona#
+Assistente - Soldado#
+Assistente - Lanceiro#
 Validade#
 Leal#
 Invocações#
-Venceu#
+Mortes#
 Você percebe o incômodo de seu bichinho de estimação por não alimentá-lo.#
 [PONTO] Você conquistou %d pontos no Ranking "Missões de Captura". O total é %d pontos.#
 [Missão de Captura] Monstro Alvo : %s#
@@ -1222,9 +1222,9 @@ Nome já utilizado por outro personagem. Por favor, escolha outro nome.#
 O membro do grupo não foi chamado, porque você não é o líder do grupo.#
 Não existem membros no grupo neste mapa para serem invocados.#
 Você não consegue encontrar rastros de MVP nesta área.#
-O MVP [%s] aparecerá em %02d hora(s) e %02d minuto(s)..#
+O MVP [%s] aparecerá em %02d hora(s) e %02d minuto(s).#
 A localização do MVP [%s] será indicada no minimapa.#
-Deseja abrir [%s]? ^ff0000Não haverá restituição.^000000.#
+Abrir [%s]? ^ff0000Não haverá restituição.^000000#
 O NPC não existe. A compra foi cancelada.#
 Sistema de JPs/JCs não está funcionando corretamente. A compra foi cancelada.#
 Você não pode comprar enquanto estiver em outra negociação.#
@@ -1245,13 +1245,13 @@ Informações do item não estão corretas. A compra foi cancelada.#
  A Esquiva voltou ao normal.#
  A Precisão foi aumentada.#
  A Precisão voltou ao normal.#
- A taxa de Crítico foi aumentada.#
- A taxa de Crítico voltou ao normal.#
+ CRIT foi aumentado.#
+ CRIT voltou ao normal.#
  A EXP de Base e Classe recebida foi aumentada temporariamente.#
- Seu personagem não perderá EXP se morrer uma vez.#
+ Seu personagem não perderá EXP se morrer.#
  A taxa de Drop dos monstros foi aumentada temporariamente.#
- A localização do 'Chefe' no mapa estará disponível por 10 minutos.#
-Você deseja comprar ? %d JCoins serão utilizados.#
+ A localização do MVP no mapa estará disponível por 10 minutos.#
+Você deseja comprar? %d JCoins serão usados.#
  Você não possui ^ff0000JoyPoints/JoyCoins^000000 o suficiente.#
  ^ff0000Validade: %s^000000#
 %s será deletado de seu inventário em %d minutos.#
@@ -1286,7 +1286,7 @@ Mensagem de Mudança de Status#
 (Grupo) Msg de Mudança de Status#
 Mensagem de Falha de Habilidade#
 (Grupo) Mensagem de Configuração#
-Mensagem de Equipamento quebrado#
+Mensagem de Equip. Quebrado#
 Mostruário de Mensagens de Batalha#
 JCs/JPs de [%s] : %d#
 Público#
@@ -1316,12 +1316,12 @@ Você deseja mesmo adquirir? %d JCoins e %d JPoints.#
 Favor parar o jogo. Experiência e outras características serão limitadas a 50%.#
 Você passou do limite de horas. Por favor, pare o jogo. Experiência e outras características serão limitadas a 0%.#
 Missões#
-Loja bRO#
-A instância '%s' foi criada.#
-Falha ao criar a instância, '%s'.#
+Loja RO#
+A reserva para a instância '%s' falhou por razões desconhecidas.#
+Falha ao criar a instância '%s'.#
 A instância '%s' já foi criada.#
-A instância '%s' foi criada.\n Por favor entre em até 5 minutos.#
-Falha ao criar a instância, '%s'.\n Por favor, tente novamente.#
+A instância '%s' já foi criada. Por favor entre em até 5 minutos.#
+Falha ao criar a instância, '%s'. Por favor, tente novamente.#
 O personagem bloqueou os pedidos de Grupo.#
 Bloqueia todos os pedidos de Grupo.#
 Permite todos os pedidos de Grupo.#
@@ -1329,7 +1329,7 @@ Este item ficará permanentemente unido ao personagem no momento em que for equi
 %s foi permanentemente unido a este personagem.#
 Você não tem Pontos de Crédito Kafra o suficiente. Por favor, entre quando tiver Pontos de Crédito livres.#
 Convidar para o Grupo#
-Exibir informações GdE#
+Anúncios de Castelo#
 A reserva de %s para a instância foi cancelada.#
 Falha ao criar a instância %s. Tente novamente.#
 Esta habilidade não pode ser utilizada nesta área.#
@@ -1379,7 +1379,7 @@ Os pontos de habilidade gastos não podem ser revertidos. Quer gastar o(s) ponto
 1ª #
 2ª - T#
 Esta conta foi usada por um programa ilegal ou de hacking.            Tempo de Bloqueio: %s#
-Foi detectada a possibilidade de exposição a programa ilegal, infecção por vírus de computador ou ferramenta de hacking. Por favor, execute o programa-cliente oficial. Nossa equipe está tentando criar o melhor ambiente para jogadores do bRO.#
+Foi detectada a possibilidade de exposição a programa ilegal, infecção por vírus de computador ou ferramenta de hacking. Por favor, execute o programa-cliente oficial. Nossa equipe está tentando criar o melhor ambiente para jogadores do RO.#
 Agora você está jogando no melhor ambiente de jogo. Aproveite Ragnarok Online.#
  A EXP de Classe recebida será aumentada temporariamente.#
  A EXP de Base e Classe recebida será aumentada em 25% temporariamente#
@@ -1413,7 +1413,7 @@ A habilidade não pode ser usada isoladamente.#
 A habilidade só pode ser usada em uma direção específica.#
 Não é mais possível convocar.#
 Não há nenhuma esfera convocada.#
-Não há habilidade de imitação para usar.#
+Não há habilidade copiada para usar.#
 A habilidade não pode ser repetida.#
 Não é possível usar a habilidade.#
 Você não pode carregar mais itens do que a quantidade máxima.#
@@ -1435,11 +1435,11 @@ Pode ser usado apenas para bloquear ataques#
 Necessita de uma arma envenenada com a toxina de um Sicário#
 Pode ser usado apenas no M.E.C.H.A.#
 Necessita de Cápsula Incandescente#
-Necessita de Combustível Diferenciado Leve#
+Necessita de Gasolina#
 Necessita de Cápsula de Nitrogênio Líquido#
 Carregue uma Bala de Canhão#
-Acopla o Acelerador#
-Acopla o Planador#
+Acople o Acelerador#
+Acople o Planador#
 Efeito de [Cicuta] aplicado à arma#
 Efeito de [Curare] aplicado à arma#
 Efeito de [Beladona] aplicado à arma#
@@ -1457,11 +1457,11 @@ Necessita de um Gerador de Magnetismo#
 Necessita de um Gerador de Barreira#
 Necessita de um Gerador de Camuflagem#
 Necessita de um Kit de Reparação#
-Necessita de uma Chave Inglesa#
+Necessita de uma Chave de Boca#
 [%s] não pode ser usada#
 Não é possível deletar acima do nível %d#
 Não pode ser usado com o M.E.C.H.A.#
-Desmonte do Ferus#
+Saia da Montaria#
 Saia do M.E.C.H.A.#
 Consumível#
 JCs/JPs#
@@ -1474,7 +1474,7 @@ A conexão foi encerrada porque o programa demorou a responder#
 Versão incorreta do arquivo do HackShield. Reinstale o programa#
 Necessita de um Grimório#
 Você sente sono, já que o Grimório é muito difícil de entender#
-Não possui pontos suficientes#
+Não possui Pontos Mágicos suficientes#
 Não pode ler mais Grimórios#
 Necessita de uma Tinta para Pele#
 Necessita de um Pincel de Maquiagem#
@@ -1482,19 +1482,19 @@ O tempo de espera encerrou. Tente novamente#
 A conta já está conectada. Por medida de segurança, troque sua senha#
 A conta já está conectada. Por medida de segurança, troque sua senha#
 Janela de Configurações#
-Configurações Gráficas#
-Configurações de som#
+Gráficos#
+Áudio#
 Mude nas teclas de atalho#
 Este atalho não pode ser uma tecla única#
 Esta tecla não pode ser utilizada#
 Tecla duplicada em uso por \'%s\. Você deseja alterar mesmo assim?#
-Combinação de atalhos será reiniciado. Deseja reiniciar?#
+Combinação de atalhos será reiniciada. Deseja reiniciar?#
 Habilidade#
 Interface#
 Emoticon#
 Janela de Atalhos#
-Som de fundo#
-Efeitos sonoros#
+Música#
+Som#
 Skin#
 Som de entrada de Bate-Papo LIGADO#
 Som de entrada de Bate-Papo DESLIGADO#
@@ -1517,7 +1517,7 @@ Som de entrada de Bate-Papo DESLIGADO#
 /panic#
 /whisp#
 vazio#
-Só pode ser utilizado quando estiver utilizando carrinho#
+Só pode ser usado quando estiver com carrinho#
 Será necessário o item [Semente de Planta Selvagem]#
 Será necessário o item [Semente Sanguessuga]#
 Não pode mais conjurar#
@@ -1527,20 +1527,20 @@ Será necessário o item [Garrafa com Óleo]#
 Será necessário o item [Pó Explosivo]#
 Será necessário o item [Gás de Fumaça]#
 Será necessário o item [Gás Lacrimogêneo]#
-Será necessário o item [Garrafa de Ácido]#
-Será necessário o item [Frasco de Planta Carnívora]#
+Será necessário o item [Frasco de Ácido]#
+Será necessário o item [Frasco de Plantaa]#
 Será necessário o item [Muda de Mandrágora]#
 Transferir a liderança#
 Você realmente deseja mudar a liderança do Grupo?#
 Não pode alterar a liderança do Grupo.#
 Não pode ser editado#
-[%s] necessário(a) %d#
+Precisa de [%s], %dx#
 Nível do refino caiu.#
 Precisa colocar [%s] para usar#
-Assistente das Batalhas Campais#
+Janela da Batalha Campal#
 % você está em uma condição que não permite entrar no Campo de Batalha, então o pedido de entrada foi cancelado#
 0#
-% Entrada em Campo de Batata adiada. Aguardando outros jogadores#
+% Entrada em Campo de Batalha adiada. Aguardando outros jogadores#
 0#
 clique em 'OK' para cancelar o pedido de entrada no Campo de Batalha. Clique no botão abaixo#
 A entrada no Campo de Batalha foi cancelada#
@@ -1571,7 +1571,7 @@ Item para converter#
 Combinação irregular#
 Muito peso no inventário#
 Libere espaço no inventário#
-Material não existente#
+Material não existe#
 Sucesso#
 Fracasso#
 Os materiais foram perdidos devido a falhas#
@@ -1582,7 +1582,7 @@ Verifique bot#
 Não pode usar o item não selecionado como material#
 Não pode acessar o IP#
 Não pode acessar devido a 6 erros na senha#
-Será usado na criação de itens. Você concorda?#
+Esses itens serão consumidos. Você concorda?#
 please insert letter and number on your left#
 Informação do Campo de Batalha#
 Fique de pé para entrar#
@@ -1747,7 +1747,7 @@ Impossível realizar a troca devido a dinheiro insuficiente#
 Você vendeu %s %dun no valor de %dz#
 $s item não foi vendido devido a excesso de itens desejados#
 Não há Elemental#
-This is restriction server unite war#
+Estas são as restrições para a Guerra entre Servidores.#
 OTP possui 6 caracteres.#
 there is no OTP information. contact administrator#
 fail to recognizing OTP#
@@ -1776,8 +1776,8 @@ Você não pode usar itens deste nível#
 Bate-papo#
 Não pode adicionar devido a limite de tamanho#
  - Configuração de aba#
-Ven.#
-Com.#
+Vender#
+Comprar#
 Buscar#
 Nome#
 Qtd#
@@ -1793,8 +1793,8 @@ Esta conta de jogo não existe#
 Disponível acima de 12#
 Bloqueada para análise#
 Bloqueada para análise#
- A EXP de Base e Classe recebida será aumentada temporariamente.#
- A EXP de Base e Classe recebida será aumentada temporariamente.#
+ A EXP de Base e Classe recebida aumentará em 75% temporariamente.#
+ A EXP de Base e Classe recebida aumentará em 50% temporariamente.#
 Sem informações sobre a venda#
 Não é possível realizar mais buscas#
 O item não existe#
@@ -1804,7 +1804,7 @@ Buscas restantes : %d#
 Nenhuma Loja encontrada#
 Fora do valor#
 Equip#
-Visuais#
+Visual#
 minutos#
 segundos#
 Insira o nome do item#
@@ -1933,14 +1933,14 @@ Você não pode utilizar este item de montaria enquanto estiver usando montaria.
 Você precisa de 1% de EXP para utilizar essa habilidade.#
 Taxa de E X P : #
 Taxa de DROP: #
-Pen. de Morte : #
+Pen. de Morte: #
 %d%% (PC cafe %d%% + TPLUS %d%% + premium %d%% + %s server %d%%)#
-Quantidade de SP dos membros do grupo não é suficiente para usar 'Canto de batalha'#
+Quantidade de SP insuficiente para fazer Duetos ou Corais.#
 Você não pode realizar a troca porque esse personagem possui muitos tipos de itens#
 Você não pode realizar a troca porque esse personagem atingiu o limite de itens.#
 Você já possui o limite desse item.#
 Aguarde o Registro do Anúncio.#
-Por favor, encaminhe um arquivo com as informa??es necess?rias para sua \r\n Central de Atendimento.\r\n#
+Por favor, encaminhe um arquivo com as informações necessárias para sua \r\n Central de Atendimento.\r\n#
 existe um erro no sistema de billing(%d)#
 Sua compra falhou. Você já possui muitas runas.#
 Sua compra falhou. O número de cada item excedeu o limite .#
@@ -1973,8 +1973,8 @@ Opções de Replay#
 Por favor, insira o nome do arquivo.#
 Salvar dados do Replay#
 Definir Opção de Gravação#
-%.1f %% Pos¢Ñ:%d:%d:%d#
-%.1f %% Pos¢Ñ:não pode se mover#
+%.1f %% Pos->:%d:%d:%d#
+%.1f %% Pos->:não pode se mover#
 Iniciar#
 Parar#
 inserir nome do arquivo -> Iniciar#
@@ -1993,8 +1993,8 @@ Início do registro#
 Peso : %3d / %3d#
 Total : %s JCs/JPs#
 Você precisa equipar [Shuriken] para usar essa habilidade.#
-Base Lv. %d#
-Classe Lv. %d#
+Nv base. %d#
+Nv. classe. %d#
 Zeny : %s#
 Trilinear#
 ataque#
@@ -2016,7 +2016,7 @@ Indisponível#
 [Anjo Guardião] Se você estiver no nível máximo, não poderá usar isso.#
 Você confirma a mudança de Slot?#
 Ocorreu um erro na mudança de Slot.#
-Character name is wrong.#
+O nome do personagem está errado.#
 Exibir Missões#
 The game will be limited to under 16 age during 0~6am by law.#
 By the Korean law, the under 16 age users will be^ff0000limited to play games until 0~6am^000000and game will be closed.#
@@ -2027,12 +2027,12 @@ Você já pode trocar o slot deste personagem. Vá até a tela de Seleção de P
 Você já está pronto para trocar o nome. Verifique a tela de Seleção de Personagens.(%d)#
 O novo nome está muito longo. A troca de nome não ocorreu.#
 Você não pode usar essa palavra no nome. A troca de nome não ocorreu.#
-O nome escolhido contém caractere(s) inválido(s), por favor, escolha outro.#
+O nome escolhido contém caracteres inválidos, por favor, escolha outro.#
 Completo#
 EXP %d%% aumentada por  %d mins.#
-Restam %02d segundos at? a invoca??o.#
-Party leader is summoning you to %s (%s). When you are summoned, %d zeny will be consumed.#
-summoning target#
+%02d segundos restantes até a convocação.#
+O líder do grupo está convocando você para %s (%s). Ao ser convocado, %d zeny serão consumidos.#
+Invocar o alvo#
 Lista de Bloqueados#
 In order to add Party advertisement %d zeny will be consumed.#
 You have not enough zeny to add Party advertisement.#
@@ -2047,7 +2047,7 @@ You have not enough zeny to be summoned from the party leader.#
 Please write the party ad in memo.#
 Only party leader can add party advertisement.#
 It is already added party advertisment.#
-Content#
+Conteúdo#
 Equipamento#
 Favoritos#
 Bloquear Drop#
@@ -2064,10 +2064,10 @@ It is already gathering parties.#
 it is the same condition as previous search.#
 Só pode ser usado após seu personagem sair do clã.#
 Só pode ser usado após seu personagem sair do grupo.#
-Summoned user is in the map you cannot summon.#
-It is not possible to summon in current party leader location.#
-Summoning is denied.#
-It is not possible to summon.#
+O usuário invocado está em um mapa onde você não pode invocar.#
+Não é possível invocar na localização atual do líder do grupo.#
+A invocação foi negada.#
+Não é possível invocar.#
 Apenas o líder pode convidar para o grupo.#
 Digite o nome do item que você está procurando :#
 Insira o nome do personagem.#
@@ -2080,8 +2080,8 @@ Dicas de criação de clã#
 O que é clã.#
 Digite um nome para o seu clã.#
 You have rejected from the party you applied.#
-Seleção de serviço#
-Área de escape possível#
+Escolha seu servidor#
+Mapas disponíveis#
 Lista de Replays#
 Informações do arquivo#
 Lista de arquivos#
@@ -2091,17 +2091,17 @@ Digite o nome do seu clã.#
 It is not logged in or unexist character.#
 Não é possível invocar a Ave de Rapina.#
 %d%% ( Premium %d%% + %s server %d%% )#
-The user is currently joining in the Siege.#
+O usuário está participando da GdE neste momento.#
 Não é possível alterar a liderança do grupo caso esteja em um mapa diferente do outro personagem.#
 Não é possível alterar a liderança do grupo nessa área atual.#
-dpwn the Gryphon#
+Desmontar do Grifo#
 %d Mês %d Dia %d Hora %d Min %d Seg#
 Você não pode convidar membros durante a Guerra.#
- - Você entrou na fila da Batalha Campal.#
+ na fila da Batalha Campal.#
 número máximo excedido.#
 Nome indefinido da Batalha Campal.#
 Tipo de solicitação indefinida.#
-O número de participantes já foi preenchido.#
+O número máximo de pessoas foi excedido.#
 Você não tem o nível necessário para entrar.#
 Solicitação duplicada.#
 Por favor, entre na fila novamente.#
@@ -2112,10 +2112,10 @@ Você saiu da fila de espera.#
 O nome da modalidade de Batalha Campal está incorreto.#
 Você não está na lista de espera para entrar na Batalha Campal.#
 A Batalha Campal não está disponível, então a fila será cancelada.#
- - Fila de espera da Batalha Campal cancelada.#
+ saiu da fila da Batalha Campal.#
 Deseja entrar na Batalha Campal?#
 Essa janela é sua assistente para entrar na fila das Batalhas Campais em qualquer lugar.#
-N?o ? poss?vel registrar a entrada e ir para o campo de batalha#
+Não é possível registrar a entrada e ir para o campo de batalha#
 1. Apenas uma fila por modalidade por vez.#
 2. Apenas uma fila para Solo, Grupo ou Clã por vez.#
 3. Apenas líder do Grupo pode entrar na fila das batalhas em Grupo.#
@@ -2132,7 +2132,7 @@ você voltará ao seu Ponto de Retorno#
 quando as batalhas acabarem.#
 Aguardando o resultado de outras solicitações.#
 Solicitar entrada na Batalha Campal#
-Tempo de espera:%d seg#
+Tempo de espera: %d seg#
 Fila de espera das Batalhas Campais#
 Mapa: %s#
 Participantes: %d#
@@ -2144,9 +2144,9 @@ Nv. mín.:#
 Vitória:#
 Empate:#
 Derrota:#
-Voc? se candidatou para a batalha como um solo. Isso est? correto?#
-Voc? se candidatou para a batalha como um grupo. Isso est? correto?#
-Voc? se candidatou para a batalha como uma guilda. Isso est? correto?#
+Você se candidatou para a batalha solo. Isso está correto?#
+Você se candidatou para a batalha com um grupo. Isso está correto?#
+Você se candidatou para a batalha com um clã. Isso está correto?#
 Modalidades#
 %d contra %d#
 Nv. Base %d-#
@@ -2171,30 +2171,30 @@ Unificar Itens#
 Selecione pelo menos 2 itens iguais.#
 Unificação dos itens realizada com sucesso.#
 Você deve unificar somente 1 tipo de item por vez.#
-The amount of the item is over 30000 pieces.#
+A quantidade do item é superior a 30.000 unidades.#
 Pra Esquerda#
 Pra Direita#
 See previous server info of (%s)#
 Previous server info#
 ^ff0000Previous server : ^0000ff#
 ^ff0000Previous character name : ^0000ff#
-O HP dos monstros atacados será mostrado.#
-O HP dos monstros atacados não será mostrado.#
+O HP dos monstros normais atacados será mostrado.#
+O HP dos monstros normais atacados não será mostrado.#
 Nenhum dos itens disponíveis podem ser unificados.#
 Nenhum dos itens disponíveis podem ser unificados.#
-Ativas#
-Inativas#
-Recomendadas#
-Episode#
+Ativa#
+Desativada#
+Info#
+Episódio#
 Local#
-Event#
-New#
-Hunting monsters#
+Evento#
+Novo#
+Caça#
 Reward items#
 Required items#
 Limited time#
-Retorne após#
-Busca#
+Tempo de espera#
+Buscar#
 Calcular rota#
 Indicação de Rota#
 Detalhes da Busca#
@@ -2333,7 +2333,7 @@ Card book#
 %d%% [ ( noraml 100%% + %s server %d%% ) * activation %.1f ]#
 %d%% [ normal 100%% + %s server %d%% ]#
 Here is the PK area. Minors are not allowed.#
-Fatigability#
+Fadiga#
 Your status is good and game profit is 100%.#
 You are tired status, game profit would drop to 50%. Please rest properly for your health.#
 You are not healty status, we would like you to log off the game now. The game profit would drop to 0%, and it would be recovered 5 hours after the offline.#
@@ -2344,7 +2344,7 @@ It has been %d hours and %d minutes since the game connection.#
 Pontos de habilidade: #
 No response from the authentication server. Please try again.#
 Please modify the password.#
-1#
+http://www.ragnarok.co.kr#
 You are in game connection ban period.#
 Your game would be shut off at %1.2d-%1.2d-%1.2d %1.2d:%1.2d:%1.2d by the game shut down system.#
 Game shut down system is applied on your accout, You have  %1.2d hour %1.2d minutes. Please enjoy the game for this period.#
@@ -2359,7 +2359,7 @@ Nome do Clã #
 Emblema#
 Alianças#
 Inimigos#
-Enviar Clã Real#
+Enviar p/ Clã Real#
 Líder#
 Membros#
 Base#
@@ -2372,14 +2372,14 @@ Enter the character name#
 Select the character gender#
 File modulation is detected.#
 The items from the box could not move to the storage. Please check your character one more time. Do you want to open the box?#
-Configurações do jogo#
+Configurações do Jogo#
 Game system#
 Game command#
 Game command ON/OFF#
 Macro#
-Trade is not allowed in this area.#
-Using cart is not allowed in this area.#
-The effect of The Sun, the Moon and the Stars would not be happened in this area.#
+Negociação não é permitida nesta área.#
+O uso de carrinhos não é permitido nesta área.#
+O efeito do Sol, da Lua e das Estrelas não ocorreria nesta área.#
 Ranking board#
 Rank#
 Nome#
@@ -2389,19 +2389,19 @@ Alquimistas#
 Taekwon#
 Killer#
 7 vs 7#
-RuneKnight#
-Warlock#
-Ranger#
-Mechanic#
-GuillotineCross#
-Archbishop#
-RoyalGuard#
-Sorcerer#
-Minstrel#
-Wanderer#
-Genetic#
-ShadowChaser#
-Sura#
+Cavaleiro Rúnico#
+Arcano#
+Sentinela#
+Mecânico#
+Sicário#
+Arcebispo#
+Guardião Real#
+Feiticeiro#
+Trovador#
+Musa#
+Bioquímico#
+Renegado#
+Shura#
 Kagerou#
 Oboro#
 Select Ranking Type#
@@ -2452,7 +2452,7 @@ muito#
 médio#
 pouco#
 raro#
-You cannot use the bank. Please try again.#
+Você não pode usar o banco. Tente mais tarde.#
 Bank Balance is not enough.#
 You cannot deposit because you have not enough Zeny.#
 You can put over1 Zeny.#
@@ -2460,7 +2460,7 @@ You can take out over 1 Zeny.#
 Você não pode ter mais de 2.100.000.000 de Zenys.#
 your account is lock by mobil otp#
 MOTP auth fail#
-JOB EXP from Monsters will increase %d%% for %dmins.#
+A EXP de classe obtida aumentará em %d%% por %d min.#
 Owned Zeny : %s Zeny#
 Zeny#
 You can keep up to 2,147,483,647 Zeny here.#
@@ -2477,22 +2477,22 @@ Preço unitário de %s\n#
 10000000#
 ^ff0000%d0 milhão^0000ff#
 ^0000ff zenys ou maior^000000.\nEstá correto?#
-Confir +10M zeny#
+Avisar +10M zeny#
 https://member.gnjoylatam.com/pt/charge#
 https://member.gnjoylatam.com/pt/charge#
 Uma enorme rachadura apareceu em Bifrost, a ponte que conecta Splandid, o fim da terra, e o continente flutuante Alfheim, e a Floresta Labirinto com uma fonte desconhecida.#
-Isso ? um sinal indicando o fim da jornada, ou um indicador da abertura de um novo mundo? O Guardi?o estava gradualmente perdendo sua alma para a tenta??o que soava como uma can??o.#
-Ao longo dos milhares de anos que se passaram, ele ficou confuso sobre o que ele havia protegido sozinho com todas as suas for?as, e se era ele quem havia sido selado e aprisionado por tanto tempo.#
-Quando a can??o tentadora atingiu seu pico, uma enorme rachadura apareceu em Bifrost, a ponte que conecta Splandid, o fim da terra, e o continente flutuante Alfheim, e como resultado, a viagem entre os dois mundos foi cortada, causando grande inconveni?ncia ?s pessoas.#
-A ?nica passagem para Bifrost era agora a Floresta Labirinto. Ningu?m jamais passou com seguran?a por aquele lugar, cuja fonte ? desconhecida.#
-A Floresta do Labirinto, um inferno ca?tico que havia engolido in?meros aventureiros, estava se expandindo mais profundamente e de forma mais ca?tica, como a mente de uma mulher desconhecida vagando por ali.#
+Isso é um sinal indicando o fim da jornada, ou um indicador da abertura de um novo mundo? O Guardião estava gradualmente perdendo sua alma para a tentação que soava como uma canção.#
+Ao longo dos milhares de anos que se passaram, ele ficou confuso sobre o que ele havia protegido sozinho com todas as suas forças, e se era ele quem havia sido selado e aprisionado por tanto tempo.#
+Quando a canção tentadora atingiu seu pico, uma enorme rachadura apareceu em Bifrost, a ponte que conecta Splandid, o fim da terra, e o continente flutuante Alfheim, e como resultado, a viagem entre os dois mundos foi cortada, causando grande inconveniência às pessoas.#
+A única passagem para Bifrost era agora a Floresta Labirinto. Ninguém jamais passou com segurança por aquele lugar, cuja fonte é desconhecida.#
+A Floresta do Labirinto, um inferno caótico que havia engolido inúmeros aventureiros, estava se expandindo mais profundamente e de forma mais caótica, como a mente de uma mulher desconhecida vagando por ali.#
 Only numbers can be input.#
 You cannot withdraw while exchange window and shop are activated.#
-Shortcut#
+Atalho#
 Item Comparison#
 Esta Arma não é adequada para o tipo de Projétil equipado.#
 Este Projétil não é adequado para o tipo de Arma equipada.#
-the item is not register to sell. Please register the item you want to sell#
+Você não cadastrou nenhum item para venda. Por favor, cadastre os itens que deseja vender.#
 ITEM#
 Você não pode utilizar o Armazém do Clã.#
 Você não faz parte de um Clã. Tente novamente após se juntar a um Clã.#
@@ -2500,49 +2500,49 @@ Outro membro do Clã está usando o sistema. Tente novamente mais tarde.#
 Armazém#
 Armazém do Clã#
 Você não possui autorização para usar o Armazém do Clã.#
-Limited item sales registration window#
+Período de registro de venda limitado#
 Item DB name#
 item DB no.#
-Sales count#
-Sales start time#
-Sales time#
-Please put the amount you want to sell#
-Please put sales start time#
-the sales start time range is not suitable.#
-Please put the sales time#
+Unidades vendidas#
+Início das vendas#
+Hora da venda#
+Por favor, insira a quantidade que deseja vender.#
+Por favor, insira o horário de início da venda.#
+O intervalo de horários de início das vendas não coincide.#
+Por favor, insira o horário da venda.#
 Please put the Item DB Name.#
-Item ID check has failed. Please try again.#
->> ItemName : %s / Price : %dc / Count : %d / sales periiod : %d:%d:%d:%d ~ %d:%d:%d:%d#
-It has succefully registered.#
-it has failed to register. Please tray later.#
-There is an item already registered. Please try again.#
-It has failed to remove the item. Please try again.#
-%s item has removed.#
-Special#
-Flash sale item count renew#
-Sales closed#
-item count should be renewed#
-There is not eoungh item, so %d item has purchased.#
-%s item's flash sale started.#
-%s item is out of stock or sale period is finished.#
-/limited sales#
+Não foi possível encontrar o ID do item. Verifique novamente e tente mais uma vez.#
+>> Nome : %s / Preço : %dc / Un. : %d / Período : %d:%d:%d:%d ~ %d:%d:%d:%d#
+Registrado com sucesso.#
+O cadastro falhou. Tente novamente.#
+Já existe um item registrado. Por favor, tente novamente.#
+Não foi possível excluir o item. Tente novamente.#
+O item %s foi excluído.#
+Especial#
+Renovar qtd. de itens da Flash Sale#
+Vendas encerradas#
+A quantidade precisa ser atualizada.#
+Devido à falta de estoque, você só pode comprar apenas %d unidades.#
+A promoção especial de %s começou.#
+A venda limitada do item %s foi encerrada devido ao esgotamento do estoque ou ao término do período de vendas.#
+/liquidação#
 http://www.ragnarokeurope.com/news/home-r70.html#
 http://www.ragnarokeurope.com/index.php?rubrique=70&Steam#
 Itens comprados com sucesso#
 Sua compra excedeu o estoque disponível.#
-the character name is not possible to invite.#
-The character name is not possbile to invite to the guild.#
+Não é possível convidar o personagem com esse nome.#
+Não é possível convidar o personagem com esse nome para o clã.#
 Compra falhou por falta de itens no estoque.#
-The warp spot cannot be memorized in current position.#
+O ponto de portal não pode ser memorizado na posição atual.#
 Item não pode ser comprado pelo excesso de peso.#
 No.#
 Item#
 Qtd#
-Jogador#
+Nome#
 Data#
 Ação#
 Não existe log nesse período.#
-Completo#
+Tudo#
 Adição#
 Remoção#
 Lista do Armazém do Clã#
@@ -2552,22 +2552,22 @@ Incorrect GameSamba ID. Please Try Again.#
 %s [%d BA] : %d #
 Moedas são necessárias.#
 %d Moedas(s) necessárias.#
-Uma metralhadora deve estar equipada.#
-Uma espingarda deve estar equipada.#
-Um rifle deve estar equipado.#
-Uma pistola deve estar equipada.#
-Um projétil sagrado deve estar equipado.#
+Equipe uma Metralhadora.#
+Equipe uma Espingarda.#
+Equipe um Rifle.#
+Equipe uma Pistola.#
+Equipe um Projétil Sagrado.#
 Histórico da Venda#
 Histórico da Compra#
-Um lança granada deve estar equipado.#
-Não pode ser usada junto com [Furor], [Proteção Platina] e [Pânico do Justiceiro].#
+Equipe um Lança-Granadas.#
+Não pode ser usada junto com [Furor] [Proteção Platina] e [Pânico do Justiceiro].#
 Essa habilidade não pode ser usada nesse mapa.#
-Todos os itens contido no Armazém de Clã serão excluídos e não podem ser recuperados.#
+Todos os itens contidos no Armazém de Clã serão excluídos e não podem ser recuperados.#
 MSI_AMERICA_CASHSHOP_URL_GAMESAMBA#
 Enter your password to log in#
-Evoluir#
-Evoluir - %s#
-Ingredientes#
+Evolução#
+Evoluir %s#
+Materiais#
 Gostaria de evoluir?#
 Erro desconhecido.#
 Você não tem uma mascote.#
@@ -2580,9 +2580,9 @@ Mascote alimentada com [%s], restam: %d un.#
 Alimentação automática de mascote ligada.#
 Alimentação automática de mascote desligada.#
 Renewed#
-%d mininutes ago#
-%d hours ago#
-%d days ago#
+%d minutos atrás#
+%d horas atrás#
+%d dias atrás#
 %d%% ( Premium %d%% + %s Server )#
 Enviando carta#
 Carta Enviada#
@@ -2606,18 +2606,18 @@ Você não pode abrir essa carta#
 Você já pertence a um Clã.#
 Gold PC cafe point information#
 Desequipe o acessório da mascote para poder evoluir.#
-In %d minutos#
-In %d horas#
-In %d dias#
+Em %d minutos#
+Em %d horas#
+Em %d dias#
 Clique no botão Conferir antes de Enviar a Carta.#
 Você poderá deletá-la após retirar todos os anexos.#
 Você não pode anexar mais Zenys do que possui#
-Charge: %s Zeny#
+Valor: %s Zeny#
 Destinatário inexistente#
 EXP  : %.1f%% (Basic %.1f%% Premium %.1f%% + %s %.1f%%)#
 DROP : %.1f%% (Basic %.1f%% Premium %.1f%% + %s %.1f%%)#
 DEATH: %.1f%% (Basic %.1f%% Premium %.1f%% + %s %.1f%%)#
-You can gather up to %d Gold PC cafe points.#
+Você pode acumular até %d pontos.#
 This function unavailable in this server.#
 Using cart is restricted in this server.#
 Auction is restricted in this server.#
@@ -2629,7 +2629,7 @@ Summonee is short of SP#
 Length of mail should be less than 1K#
 Falha na anexação do item.#
 Limite de Peso para Itens foi excedido.#
-Já existe uma Arca invocada neste mapa.#
+Esse NPC ainda está invocado neste mapa. Aguarde um momento.#
 You cannot open Lucky Roulette window.#
 You cannot close Lucky Roulette window.#
 You cannot start Lucky Roulette.#
@@ -2669,7 +2669,7 @@ Cavernas#
 Batalhas#
 PvP#
 Treino#
-Quest#
+Missões#
 Episódio#
 Outros#
 Instância#
@@ -2677,7 +2677,7 @@ Midgard#
 Ash Vacuum#
 Etc.#
 Nível#
-Conquistas desbloqueadas#
+Conquistas concluídas#
 Impossível adicionar mais#
 Conquista desbloqueada < %s >.#
 Only OTP users are allowed#
@@ -2685,13 +2685,13 @@ If you press this button, you will get the prize and the roulette will be initia
 If you press this button, the roulette will start from the line indicated by a blinking arrow.#
 Título#
 Remover Título#
-You cannot create the guild in this area.#
-You cannot disband the guild in this area.#
-You cannot join the guild in this area.#
-You cannot leave the guild in this area.#
-You cannot expel guild members in this area.#
-You cannot change guild position in this area.#
-Please make more than 5 item slots in the inventory.#
+Você não pode criar um clã neste mapa#
+Você não pode dissolver um clã neste mapa#
+Você não pode entrar em um clã neste mapa#
+Você não pode sair do clã neste mapa#
+Você não pode expulsar membros do clã neste mapa#
+Você não pode alterar a posição um membro do clã neste mapa#
+Por favor, tenha mais de 5 espaços para itens no inventário.#
 E X P: %.1f%% (Basic 100.0%% PC cafe %.1f%% + %s %.1f%%)#
 DROP : %.1f%% (Basic 100.0%% PC cafe %.1f%% + %s %.1f%%)#
 DEATH: %.1f%% (Basic 100.0%% PC cafe %.1f%% + %s %.1f%%)#
@@ -2731,27 +2731,27 @@ RECEBER#
 Feche a janela do Rodex, Por Favor.#
 Server access denied(A)#
 Server access denied(B)#
-You should disarm the equipped arrows/bullets.#
+Você deve remover as munições.#
 Você realizou uma ação com um item no inventário. A janela do Rodex foi fechada.#
 Você não tem uma Lupa.#
-Para dropar itens, por favor feche a janela do Rodex.#
+Para jogar itens fora, por favor feche a janela do Rodex.#
 The opponent has already requested you to be a friend.#
 SCRIPT ERROR AID#
 \nErrorfile : %s\nErrorLine : %d lines\nErrorContent: \n*Previous line: %s \n*Errorline : %s \n*Next line:\n %s#
 ^ff0000Do you want to purchase the item? %d points and %d Xianbei will be used.#
 Fechar#
-Procurar#
-Ativar ícones#
-Comodidades#
-Ativar Utilitários#
-Membro da Guilda/Membro do Grupo#
-Ativar Membros#
-Anotação#
+Missões#
+Ver NPCs de Missão#
+Utilitários#
+Ver NPCs de Utilidades#
+Membros#
+Ver membros de Grupo/Clã#
+Anotar#
 MVP#
 Você#
 Deseja deletar a anotação?#
 NPC de Quest#
-Anotar#
+Escreva uma nota#
 Salvar#
 Anotações#
 %s [%d BA] %d un#
@@ -2766,60 +2766,60 @@ Hairstyle#
 Dress color#
 Dress style#
 Unsupported map#
-Fill less than 2,147,483,647 Zeny.#
-Fill more than 1 Zeny.#
-You do not have Zeny.#
-Zeny stash#
+Coloque menos que 2,147,483,647 zeny.#
+Coloque mais que 1 zeny.#
+Você não tem zenys.#
+Janela de Banco#
+Depositado#
+Zeny atual#
 Depositar#
-Dinheiro na mão#
-Depósito#
 Sacar#
-1 z UP#
-1 z Down#
-Max#
-No input#
-Segure a tribo Zeny#
-Needs input#
-Cannot input characters#
-Over maximum input#
-Below minimum input#
-Short of Zeny in hand#
-Short of Zeny in stash#
-Exceeded maximum Zeny in hand#
-Jogado no chão? Não#
-Armazém? Não#
-Carrinho? Não#
-Rodex? Não#
-Negociação? Não#
-Leilão? Não#
-Armazém de Clã? Não#
-Vender em NPC? Não#
+Subir 1z#
+Reduzir 1z#
+Máximo#
+Nenhum valor digitado#
+Sem zeny#
+Digite o valor#
+Digite apenas números#
+Entrada acima do máximo#
+Entrada abaixo do mínimo#
+Falta de Zeny#
+Falta de Zeny em saldo#
+Excedência do limite máximo de Zeny#
+Não pode ser jogado no chão#
+Não vai ao armazém#
+Não vai ao carrinho#
+Não vai ao Rodex#
+Não pode ser negociado#
+Não pode ser leiloado#
+Não vai ao armazém de clã#
+Não pode vender a NPC#
 Limitações do item#
 Por favor, crie seu personagem.#
-You need to disarm the equipped projectiles.#
-You cannot enter the memorial dungeon due to excessive number of people.#
-Memorial dungeon enterance failed due to excessive number of people.#
+Você precisa retirar a munição equipadas.#
+Você não pode entrar na instância devido ao número excessivo de pessoas.#
+A entrada na instância falhou devido ao número excessivo de pessoas.#
 %.1f%% ( %s Server: %.1f%% + Premium:%.1f%% )#
 %.1f%% ( %s Server: %.1f%% + Premium:%.1f%% )#
-Unable to use due to the duplicated item.#
-Unable to use due to the duplicated effect.#
+Não é possível usar devido ao item ser duplicado.#
+Não é possível usar devido ao efeito ser duplicado.#
 Efeito de tremedeira da tela [Ligado]#
 Efeito de tremedeira da tela [Desligado]#
-An illegal program has been detected.#
+Foi detectado um programa ilegal.#
 Enviar RODEX#
 E X P: %.1f%% (Basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
 DROP : %.1f%% (Basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
 DEATH: %.1f%% (Basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
-Você não pode usar isso.#
-loja de estilo#
-Sem cupons. Por favor, compre itens na loja de Jpoints.#
+Não é possível usar a tag como nome.#
+Loja de Estilos#
+Sem cupons. Por favor, compre itens na loja de JoyPoints.#
 Abra a caixa de cupom do item no seu inventário.#
 Deseja excluir essas informações de estilo?#
 slot está cheio. Por favor, exclua o personagem do meu estilo e use-o.#
 Gostaria de pagar a taxa e aplicar o estilo atual?\n(A taxa não é reembolsável.)#
 O estilo atual foi salvo#
-Falta de posse de Zeny. Tenho Zeny suficiente no banco#
-moving...#
+Falta de zeny. Tenho Zeny suficiente no banco#
+movendo...#
 You are not allowed to fly over the sovereign airspace of the country.#
 Airship flight is temporarily unavailable due to atmospheric instability caused by Mana.#
 Private airship#
@@ -2829,28 +2829,28 @@ Not enough Cans to use the private airship.#
 You cannot meet the level to use the private airship.#
 You cannot move to the selected point by the private airship.#
 You cannot use the private airship where you are now.#
-acessórios#
-estilo padrão#
+Complementos#
+Roupa Alternativa#
 Favoritos#
-Este é um penteado que não pode ser tingido#
-Clique nas setas para escolher o estilo que você gosta.#
-Estilo alterado.\n(※Adere?os comprados ser?o enviados via RODEX.)#
-estilo padrão#
+Este cabelo não pode ser tingido#
+Use as setas para escolher o seu estilo.#
+Estilo alterado.\n(Equipamentos comprados foram enviados via RODEX.)#
+Roupa Padrão#
 Habilidade disponível somente a partir do nível base %d.#
 Você não pode usar símbolos especiais.#
-Not enough MHP to use the skill.#
-Not enough MSP to use the skill.#
+HP insuficiente para usar a habilidade.#
+SP insuficiente para usar a habilidade.#
 Comparar#
 Bloquear Inventário#
-Screenshot has NOT attached.#
+Screenshot NÃO FOI anexada.#
 Twitter#
 Mensagem#
 Aviso#
-Returned#
+Retornado#
 Atualizar#
-%dMinuto(s)#
-%dHora(s)#
-%dDia(s)#
+%d min.#
+%d hora(s)#
+%d dia(s)#
 Expirada#
 Deletar e-mails selecionados?#
 Exibir NPC#
@@ -2863,46 +2863,46 @@ Qtd. de itens#
 Exibir ícones embaixo do mini-mapa#
 Não exibir ícones embaixo do mini-mapa#
 Membros online primeiro#
-Lealdade: %s#
+Lealdade: ^777777%s^000000#
 ^777777Não confirmada^000000#
-Party Name#
-Party Leader#
-Exceed time limit. Shutting down client.#
-Invalid input. Client Shutting down.#
-Correct. Bonus buff will be rewarded.#
-Please input 4 characters at least.#
-Is [%s] correct?#
-There is no selected image.#
-Wrong input. (%d times remaining)#
-Report %d players?#
-Message has sent.#
-Necessary Data has not registered to crack down on illegal program.#
-Already registered on Macro watch list.#
-The Macro has registered.#
-Failed to register the image.#
-Failed to register the answer.#
+Nome do Grupo#
+Líder do Grupo#
+O tempo acabou. Encerrando o jogo.#
+Entrada inválida. Encerrando o jogo.#
+Correto. Você receberá um bônus.#
+Por favor, coloque 4 caracteres, no mínimo.#
+[%s] é a sua resposta?#
+Não há imagem selecionada.#
+Resposta errada. (Tempo restante %d)#
+Reportar %d jogadores?#
+Mensagem enviada.#
+Dados necessários não foram registrados.#
+Já está registrado na lista de monitoramento de macros.#
+Macro registrado.#
+Falha ao registrar a imagem.#
+Falha ao registrar a resposta.#
 Verificação de programa ilegal.#
 Digite o texto dentro do tempo.#
 Se falhar 6 vezes, terá punição.#
-Remaining Count : %d#
-Character#
-Range#
-Please use Left-click to select character.#
-Please use Right-click to select range.#
-Please use Enter key to set the range.#
+Resta : %d#
+Personagem#
+Alcance#
+Por favor, use o botão esquerdo para selecionar o personagem.#
+Por favor, use o botão direito para selecionar o alcance.#
+Por favor, use a tecla Enter para definir o alcance.#
 E X P : %.1f%% ( basic %.1f%% %s %.1f%%)#
 DROP  : %.1f%% ( basic %.1f%% %s %.1f%%)#
 DEATH : %.1f%% ( basic %.1f%% %s %.1f%%)#
-Destinatário da Carta teve o nome alterado. A carta foi enviada para : %s #
-Itens necessários#
+Destinatário teve o nome alterado. A carta foi enviada para : %s #
+Materiais#
 Faltam materiais.#
-Falta %d un. desse item.#
+Falta %d un.#
 Refino insuficiente.#
 Deseja se registrar na Agência de Aventura?#
 You can leave your comment.#
 Please enter the characters from the image.#
 %d second(s) remaining#
-Please enter 6 digit OTP numbers#
+Por favor, insira os números OTP de 6 dígitos.#
 Auth. No.#
 Not 6 digit numbers. Please check again#
 Atualize RODEX#
@@ -2911,25 +2911,25 @@ E X P : %d%% ( basic 100.0%% %s %d%%)#
 DROP  : %d%% ( basic 100.0%% %s %d%%)#
 DEATH : %d%% ( basic 100.0%% %s %d%%)#
 Moving to destination.#
-[%s] file is not existing. Activating default AI#
+O arquivo [%s] não existe. Ativando a IA padrão.#
 %.1f%% ( Normal 100.0%% + Bonus %.1f%% + %s %.1f%%)#
 Você deseja abrir sua loja na célula escolhida?#
-A ra?a Doram n?o pode usar o traje.#
+Doram não pode equipar isso.#
 O item será enviado pelo Rodex.#
 30,000 z#
 100 latas especiais Malangdo#
 Você não pode continuar com o peso superior a 80%.#
-Item n?o vendido foi enviado para RODEX.#
-Ver#
+Item não vendido foi enviado para RODEX.#
+Visualizar#
 Passar a Liderança#
-Deseja tornar %s como Líder do Clã? Após a mudança, você terá o antigo cargo de %s.#
+Deseja tornar %s como Líder do Clã? Após a mudança, você terá o cargo de %s.#
 Encerrar#
 Deseja encerrar a sua loja?#
 %02dd %02dhr %02dmin %02ds#
-Sem conex?o#
+Sem conexão#
 Não é possível conectar-se devido ao limite de pessoas ter excedido.#
 Escolha o local para abrir a loja#
-Nome da mascote alterado para ^0000ff%s^000000.#
+Nome alterado para ^0000ff%s^000000.#
 Hora da compra#
 Item#
 Quantidade#
@@ -2951,19 +2951,19 @@ Seu pedido chegou#
 Você comprou este item na Loja de Estilos, esperamos que goste.#
 Não vender em NPCs#
 Venda de itens bloqueada#
-N?o ? poss?vel encontrar um lugar para invocar nas proximidades.#
+Não foi possível encontrar um local para invocar nas proximidades.#
 Capturar tela cheia#
 Capturar parte da tela#
 Enviar#
 Tabeliã de Prontera#
 Mudança Familiar#
-Prezado a quem possa interessar. \r\n\r\n Hoje, \"%s\" e o filho/filha de \"%s\" \"%s\" se separaram completamente e se tornaram independentes de seu familiar.\r\n\r\nAqui, informamos por escrito.\r\n\r\nEntre em contato com o Prontera Family Affairs se tiver alguma d?vida.\r\n\r\nObrigado.#
+A quem possa interessar. \r\n\r\n Hoje, \"%s\" e o filho/filha de \"%s\" \"%s\" se separaram completamente e se tornaram independentes de seu familiar.\r\n\r\nAqui, informamos por escrito.\r\n\r\nEntre em contato com a Tabeliã de Prontera se tiver alguma dúvida.\r\n\r\nObrigada.#
 Janela de Visualização#
 Nenhuma imagem#
 [%s] está bloqueando a chamada.#
-MSI_IMPOSSIBLE_CHANGE_GUILD_MASTER_IN_SIEGE_TIME#
+Você não pode trocar de liderança no meio da Guerra. Tente novamente mais tarde.#
 Você deve aguardar 24 horas para trocar a liderança do clã de novo.#
-Quando você se torna mini, você não pode transcender, tem uma limitação nos status e o HP e SP são reduzidos. \nVocê gostaria de prosseguir mesmo com essas restrições?#
+Quando você se torna mini, você não pode renascer, tem uma limitação nos Atributos e o HP e SP são reduzidos. \nVocê gostaria de prosseguir mesmo com essas restrições?#
 Refinar#
 Bênção do Ferreiro em uso.#
 Falta zenys.#
@@ -2975,14 +2975,14 @@ Voltar#
 Sucesso#
 Remover#
 Sr.#
-Altere o nome do hom?nculo para ^0000ff^0000ff %s^000000^000000 . Voc? quer prosseguir?#
+Renomeando o homúnculo para ^0000ff %s^0000000. Deseja continuar?#
 Permitir ser chamado(a) por habilidades#
 Não permitir ser chamado(a) por habilidades#
 Exibir mensagem quando for chamado(a).#
 O personagem não pode ser excluído porque ainda possui uma loja aberta.#
 Você já tem uma loja ativa em outro lugar.#
 Não é possível criar uma loja aqui.#
-Não é possível criar uma loja aqui.#
+Não é possível criar uma loja perto de outro personagem.#
 Alimentação automática falhou. Por favor, feche o RODEX.#
 Autotroca#
 Equipar#
@@ -2996,24 +2996,24 @@ Efeito de aura normalizado. [Aura ligada]#
 Efeito de aura simplificado. [Aura desligada]#
 Aura está OFF. Por favor, ative, desative e tente novamente.#
 Você precisa de pelo menos %d Projéteis para usar essa habilidade.#
-MSI_SWAP_EQUIPITEM_DO_SWAP#
+Deseja alterar o conjunto de equipamentos?#
 Troca indisponível com o personagem morto.#
 Troca indisponível enquanto conjura.#
 Troca indisponível enquanto negocia.#
 Troca indisponível enquanto vende itens.#
 Troca indiponível enquanto fala com NPC.#
-Voc? n?o pode fazer isso enquanto estiver usando a sala de bate-papo#
-Party members are not connected.#
+Você não pode fazer isso enquanto estiver usando a sala de bate-papo#
+Os membros do grupo não estão conectados.#
 Você precisa de %d flecha(s) para usar a habilidade.#
 Alinhar itens#
-Por favor, feche a janela de configura??o de itens para despejar o item.#
-N?o h? itens para substituir.#
-Caractere exclu?do#
+Por favor, feche a janela de configuração de itens para despejar o item.#
+Não há itens para substituir.#
+Personagem deletado.#
 %d.%m.%Y#
 Login: %s#
 Não é possível usar o Banco enquanto Refina. A janela de Banco será fechada.#
 Não é possível usar o Banco enquanto Refina.#
-O item est? vinculado ao equipamento definido.#
+O item está vinculado ao sistema de autotroca#
 Humano#
 Espadachim, Mago, Mercador, Noviço, Gatuno, Arqueiro#
 Doram#
@@ -3027,11 +3027,11 @@ Fazendo outra atividade.#
 Superaquecimento : %d#
 Atenção : Novos convites não podem ser feitos após entrar na instância.#
 Palavrões não são permitidos.\nTente novamente.#
-MSI_MUST_ID_EXCEED_CHAR#
+Por favor, insira um ID com pelo menos %d caracteres. Se você não possui uma conta de usuário, clique no botão [Aplicar] no canto inferior esquerdo para criar uma.#
 Por favor, digite a senha com mais de %d caracteres.#
 Por favor, finalize a tarefa e tente novamente.#
-%.1f%% (Internet-Caf? %.1f%% + TPLUS %.1f%% + %sServidor %.1f%%)#
-Não é possível registrar esse item para a troca.#
+%.1f%% (Internet-Café %.1f%% + TPLUS %.1f%% + %sServidor %.1f%%)#
+Não é possível registrar esse item para a autotroca.#
 /300#
 /4000#
 https://member.gnjoy.com.tw/mRO_SecPwd.aspx#
@@ -3048,53 +3048,53 @@ Regra#
 Comprar 1x#
 Comprar 10x#
 Comprar 100x#
-Ganhe o 1º pr?mio#
-Ganhe o 2º pr?mio#
-Ganhe o 3º pr?mio#
+Ganhe o 1º prêmio#
+Ganhe o 2º prêmio#
+Ganhe o 3º prêmio#
 Atualmente fora de uso#
 Atualmente fora de uso#
 Vencedor da loteria Zeny#
 Valor da compra da loteria#
 Personagem participante#
-1º pre?o#
-2º pre?o#
-3º pre?o#
+1º preço#
+2º preço#
+3º preço#
 Comprar item de recompensa#
-^1a1a1a Voc? quer comprar ^b%d bilhetes de loteria por \n^4435b2%dZeny^1a1a1a?#
-Voc? comprou o bilhete de loteria com sucesso.#
-N?o h? Zeny suficiente para comprar o bilhete de loteria.#
-Voc? s? pode comprar os bilhetes at? 1000 vezes.#
+^1a1a1a Você quer comprar ^b%d bilhetes de loteria por \n^4435b2%dZeny^1a1a1a?#
+Você comprou o bilhete de loteria com sucesso.#
+Não há Zeny suficiente para comprar o bilhete de loteria.#
+Você só pode comprar os bilhetes até 1000 vezes.#
 Sim#
-N?o#
+Não#
 HP#
 SP#
-Nível#
-N?vel#
+Nv.#
+Nv. Classe#
 EXP#
 Tudo ligado#
-Jogar Replay Flie#
+Rodar Replay#
 P#
 Total#
-Informa??es b?sicas#
-Equipar#
+Básicos#
+Equip#
 Item#
 Habilidade#
-Guilda#
+Clã#
 Grupo#
-Conversando#
+Conversas#
 Atalho#
-Status#
-TODOS#
-Nome do arquivo definido pelo usu?rio#
-Verifica??o de arquivo repetida#
+Atributos#
+TUDO#
+Nome do arquivo definido pelo usuário#
+Verificação de arquivo repetida#
 ativado#
-<Skin Original>#
+Skin Original#
 Selecionar Skin#
 Não pode ser deletado. Você ainda está participando da loteria.#
 /achievement#
 Bilhete da Loteria Zeny#
-Recompensa do pr?mio %d da Loteria Zenyy#
-Recompensa do pr?mio %d: %s#
+Recompensa do prêmio %d da Loteria Zenyy#
+Recompensa do prêmio %d: %s#
 Recompensa cumulativa da compra da Loteria Zeny#
 Recompensa cumulativa %d vezes: %s#
 Reembolso da Loteria Zeny#
@@ -3103,30 +3103,30 @@ Adicionar mini-janela de grupo#
 Remover mini-janela de grupo#
 O sorteio da loteria terminou! Confira o ganhador!#
 Deleta mês %d, dia %d#
-Para o próximo nível#
-Completadas#
-Alfabética#
+Para o próximo nível #
+Total#
+Incompletas#
 (Realizado!)#
-(N?o Realizado)#
+(Não Realizado)#
 Definir Equipamentos#
 Trocar#
-Força\n   Aumenta o dano físico#
-Agilidade\n   Aumenta a Velocidade de ataque#
-Vitalidade\n   Aumenta o HP e a Defesa Física#
-Inteligência\n   Aumenta o SP e o dano mágico#
-Destreza\n   Melhora a conjuração variável#
-Sorte\n   Melhora a taxa de Crítico#
+Força\n         Aumenta o Ataque Físico e\n         Capacidade de carga#
+Agilidade\n         Aumenta a Esquiva e a \n         Velocidade de Ataque#
+Vitalidade\n         Aumenta o HP e\n         a Defesa Física#
+Inteligência\n         Aumenta o SP e\n          o Ataque Mágico#
+Destreza\n         Aumenta a Precisão e\n          Conjuração variável#
+Sorte\n         Aumenta o Crítico e\n          o Ataque Físico e Mágico#
 Ataque físico#
 Defesa física#
 Precisão#
 Crítico#
 Clã afiliado#
-Pontos para investir#
+Pontos para investir em Atributos#
 Ataque mágico#
 Defesa mágica#
 Esquiva#
 Velocidade de ataque#
-Informação de Atalho rápido#
+Atalhos Rápidos#
 Opções#
 Atalhos (F1 ~ F9)#
 Tirar Foto#
@@ -3139,25 +3139,25 @@ Loja Jcoins#
 Sentar#
 Mover#
 Rotação#
-MSI_CONNOT_LEAVE_MASTER#
-Voc? quer parar de assistir a este v?deo?#
+Só é possível deixar o grupo após o líder delegar a liderança para outro membro.#
+Você quer parar de assistir a este vídeo?#
  está em autotroca.#
  saiu da autotroca.#
 Mini-janela não pode ser movida#
 %.1f%% (Base 100%% + Premium %.1f%%+ %sServidor %.1f%% )#
 Ctrl#
-Config teclas abreviadas#
-Sua assinatura ser? encerrada em%s.#
+Teclas de atalho#
+Sua assinatura será encerrada em %s.#
 Arquivo de Replay não encontrado.#
-Visuais#
-Cabe?a#
+Calçado#
+Cabeça#
 Armadura#
-Ombros#
-Acess?rio#
-Traje#
-Ordem de classifica??o#
-Equip#
+Capa#
+Acessório#
 Visual#
+Ordem#
+Equip#
+Especial#
 Título#
 /quake : Liga/Desliga efeito de tremedeira da tela#
 /aura2 : Liga/Desliga todos os efeitos de Aura#
@@ -3168,24 +3168,24 @@ A configuração padrão será aplicada. Você concorda?#
 As alterações serão válidas ao reiniciar o jogo.#
 Será necessário reiniciar o jogo para aplicar as configurações, você aceita?#
 Neblina#
-Simplificação de aura#
-Aura ativada#
-Mostrar efeitos#
-Mostrar sombras#
+Aura Simples#
+Aura#
+Efeitos#
+Sombras#
 Sem Shift #
 Selecionar aceleração de hardware T&L#
 Selecionar dimensionamento do jogo#
 Tela cheia#
 Dedicado#
-Configurações de efeito#
-Configurações de controle#
+Gráfico#
+Controles#
 Placa Gráfica#
 Dimensões#
 Resolução#
 Mouse#
-Comiss?o:#
-Valor total da comiss?o:#
-Selecione o destinat?rio#
+Comissão:#
+Valor total da comissão:#
+Selecione o destinatário#
 Selecione o grupo de recebimento#
 Alterar tamanho (F10)#
 Carregando.\n^c92114Delete^000000 e-mails desnecessários.#
@@ -3207,12 +3207,12 @@ Rotas#
 Compartilhar localização#
 Resultados [0]#
 Pesquisa e Guia#
-Localiza??o n?o dispon?vel#
+Localização não disponível#
 Resultados#
 Direcional#
 Rota com teleporte#
 Abrir janela de navegação#
-Esta conta n?o est? ativada.#
+Esta conta não está ativada.#
 Clique em um ponto do mapa para compartilhar a coordenada no chat#
 4. Se você selecionar serviço de itens, será levada em consideração o zeny e aeroplano.#
 5. Botão [<-]: alterna entre Modo Navegação <-> Modo Pesquisa#
@@ -3227,13 +3227,13 @@ Abrir Chat#
 Nível insuficiente para entrar em um grupo.#
 Valor de EXP [%lld] de Classe#
 Ganhou [%lld] de EXP de classe#
-N?o ? poss?vel abrir uma barraca no local atual.#
+Não é possível abrir uma barraca no local atual.#
  segundos de recarga.#
 Nº.#
-Falha na transmiss?o do SNS (%d)#
-Falha de conex?o do servidor SNS#
-Dispon?vel ap?s efetuar login no SNS.#
-N?o h? endere?o dispon?vel para conex?o.#
+Falha na transmissão do SNS (%d)#
+Falha de conexão do servidor SNS#
+Disponível após efetuar login no SNS.#
+Não há endereço disponível para conexão.#
 A mini-janela de grupo está se sobrepondo e não pode ser usada#
 Minha Loja#
 Dica do dia#
@@ -3248,13 +3248,13 @@ O item foi perdido.#
 Todos os atributos reduzidos.#
 Efeitos que reduzem atributos foram cancelados.#
 Efeitos que reduzem atributos foram cancelados.#
-A senha OTP tem 8 d?gitos.#
+A senha OTP tem 8 dígitos.#
 Conta integrada#
 Ragnarok#
 Procurar#
 MOTP#
-N?mero de Certifica??o#
-Execute o GNJOY MOTP baixado no seu celular e digite o n?mero de autentica??o.#
+número de Certificação#
+Execute o GNJOY MOTP baixado no seu celular e digite o número de autenticação.#
 Você é líder desse grupo e não há ninguém online. Se sair, o grupo será desfeito. Deseja continuar?#
  - 18 anos de idade ou mais#
  - Servidor pago#
@@ -3264,25 +3264,25 @@ Normal#
 Cheio#
 Lotado#
 mapa#
-Apenas itens de invent?rio podem ser colocados dentro e fora do World Warehouse.#
-Ovos de estima??o n?o podem ser colocados no World Warehouse.#
-Itens criados n?o podem ser colocados no World Warehouse.#
-Itens que n?o podem ser colocados em %s#
+Apenas itens de inventário podem ser colocados dentro e fora do World Warehouse.#
+Ovos de estimação não podem ser colocados no World Warehouse.#
+Itens criados não podem ser colocados no World Warehouse.#
+Itens que não podem ser colocados em %s#
 Encerrar#
 [%s] conseguiu refinar [+%d %s].#
 [%s] não conseguiu refinar [+%d %s].#
 Você pode excluir após delegar um novo líder para o grupo.#
-Elevar#
-Cair#
-Básico#
+A-Z#
+Z-A#
+Padrão#
 Um arquivo adulterado foi encontrado. Reinicie o jogo.#
 %s tem restrições de negociação neste mapa.#
-Auto#
+Auto\nalimentar#
 O homunculus não pode comer se o RODEX estiver aberto.#
 Homunculus alimentado com [%s] restam: %d un.#
 Alimentação automática de Homunculus ligada.#
 Alimentação automática de Homunculus desligada.#
-Homunculus precisam de EXP para evoluir.#
+Homúnculos recebem \n10% de EXP do mestre.#
 Chance: %d%%#
 Por favor, selecione um alvo para o seu homunculus usando Alt + Botão direito do mouse.#
 Não existe um alvo para seu homunculus. Para um novo alvo, use Alt + Botão direito do mouse.#
@@ -3300,19 +3300,19 @@ Descontos#
 Recarga#
 Comprar#
 https://member.gnjoylatam.com/pt/charge#
-Pesquisa#
+Pesquisar#
 JoyPoints#
-JPs USADO#
+Use JoyPoints#
 JoyCoins#
 Atualizar#
-Imperador Estelar (Feminino)#
-Ceifador de Almas (Feminino)#
-Imperador Estelar (Masculino)#
-Ceifador de Almas (Masculino)#
-HP/SP não serão recuperados enquanto seu peso atual estiver acima do peso máximo.#
+Mestra Estelar#
+Ceifadora de Almas#
+Mestre Estelar#
+Ceifador de Almas#
+HP/SP não serão recuperados naturalmente enquanto seu peso estiver em %d.#
 Você só pode comprar 8 itens iguais de uma vez.#
 https://gnjoylatam.com/#
-Linha 3315#
+Erro desconhecido: %d#
 Usuário não encontrado#
 Conta bloqueada#
 País indisponível (Usuário indisponível)#
@@ -3329,30 +3329,30 @@ Sistema indisponível#
 Erro de sistema#
 Usar %s#
 Pague a taxa#
-Este mapa não pode ser ponto de partida.#
-Este mapa não pode ser ponto de chegada.#
+Impossível sair desse mapa.#
+Não é possível teleportar.#
 Não há itens suficientes.#
 Por favor, insira em uma linha sem quebras de linha.#
-Nomes que contenham palavras ruins n?o podem ser registrados.#
-Voc? ser? redirecionado para o site oficial para registro de membro.#
+Nomes que contenham palavras ruins não podem ser registrados.#
+Você será redirecionado para o site oficial para registro de membro.#
 Falha ao conectar ao servidor TokenAgency#
 Futuras Informações#
 Deletar Personagem#
 Cancelar#
 JOGAR#
 Deletar#
-Seleção de Personagem#
+Lista de personagens#
 Aviso#
 Criar#
 Tipo de Penteado#
 Cor do Cabelo#
 Cheque duplicado#
 %dh %dm %ds#
-Tempo limite de entrada MOTP esgotado. Por favor, fa?a login novamente desde o in?cio.#
-Voltar#
+Tempo limite de entrada MOTP esgotado. Por favor, faça login novamente desde o início.#
+Cancelar#
 O item não pode ser usado.#
 Você já está no mapa.#
-Mortos não se teleportam#
+Mortos não teleportam.#
 Criar Personagem#
 Registrar seu Grupo na Agência#
 Registrar Grupo#
@@ -3372,31 +3372,31 @@ Não insira objetivos que violem as regras de conduta.#
 Registrar#
 Contém palavra bloqueada#
 Entrar#
-PM#
+MP#
 Parar Recrutamento#
 Editar#
 Tudo#
-[%s] pediu para entrar no grupo#
+[%s] quer entrar.#
 Entrada#
 MSI_ACCOUNT#
 Fim#
 MSI_APPLY#
-Conexão#
-Confirmar#
+Conectar#
+OK#
 MSI_OTPWND_DESCRIPTION_1#
 MSI_OTPWND_DESCRIPTION_2#
 Não teleporta perto de NPC.#
 Taekwon#
-Status de recusa para todos os chats e sussurros.#
-A solicita??o para recusar todos os chats e sussurros falhou.#
-A solicita??o para recusar todos os chats e sussurros falhou (excedeu o n?mero de pessoas).#
-Status poss?vel para todos os chats e sussurros.#
-A solicita??o para habilitar todos os chats e sussurros falhou.#
-A solicita??o para habilitar todos os chats e sussurros falhou (excedeu o n?mero de pessoas).#
+Recusar todas as mensagens públicas e particulares.#
+Falha ao recusar mensagens públicas e particulares.#
+Falha ao recusar mensagens públicas e particulares (excedeu o número de pessoas).#
+Aceitar todas as mensagens públicas e particulares.#
+Falha ao aceitar mensagens públicas e particulares.#
+Falha ao aceitar mensagens públicas e particulares (excedeu o número de pessoas).#
 Sem lista de bloqueados#
 - Lista de Bloqueados -#
 Em andamento#
-Recomendado#
+Info#
 Pendente#
 Título#
 Conteúdo#
@@ -3425,45 +3425,45 @@ Defensor#
 /ex ou /block: lista de personagens com chats e sussurros bloqueados.#
 /exall ou /blockall: bloqueia todos os chats e sussurros para todos.#
 /inall ou /unblockall: permite todos os chats e sussurros para todos.#
-Status de recusa para todos os chats e sussurros para todos.#
-Falha na solicita??o para recusar todos os chats e sussurros para todos.#
-Status poss?vel para todos os chats e sussurros para todos.#
-Falha na solicita??o para habilitar todos os chats e sussurros para todos#
+Recusar todas as mensagens públicas e particulares de qualquer pessoa.#
+Falha na solicitação para recusar mensagens.#
+Permitir todas as mensagens públicas e particulares de qualquer pessoa.#
+Falha na solicitação para permitir mensagens.#
 Abertura#
 Você gostaria de retornar à tela de login?#
-Força e Ataque físico melhorados.#
-Força, Inteligência, Destreza e Precisão melhoradas.#
-Defesa e HP melhorados.#
+FOR e ATQ melhorados.#
+FOR, INT, DES e Precisão aumentados.#
+HP e DEF aumentados.#
 Estrela Gel#
 Buff de conta#
-Servi?o de taxa fixa#
-A conexão está lenta no momento. Tente reconectar-se mais tarde.#
-La conexión se está retrasando, intenta volver a conectarte en breve.#
-Nomes que contenham palavras impr?prias n?o podem ser pesquisados.#
+Serviço de taxa fixa#
+Conexão lenta no momento. Tente mais tarde.#
+Conexão lenta no momento. Tente dentro de alguns instantes.#
+Nomes que contenham palavras impróprias não podem ser pesquisados.#
 O líder do grupo não pode aceitar pedidos agora.#
 Nenhum grupo encontrado.#
 Atacante#
 https://gnjoylatam.com#
 +#
 -#
-J? ? amigo#
-N?o ? poss?vel encontrar um parceiro#
-Outro personagem j? est? solicitando um amigo#
-Exibir Invocações#
-Não exibir Invocações#
+Já é amigo#
+Não é possível encontrar um parceiro#
+Outro personagem já está solicitando um amigo#
+Exibir Espíritos#
+Não exibir Espíritos#
 Acesso restrito devido a uma senha secundária incorreta. \n A restrição será encerrará em %02d horas e %02d minutos.#
 Acesso restrito devido a uma senha secundária incorreta.#
-Gerenciamento#
+GM#
 %dº dia de Logue e Ganhe#
 Ocorreu um erro ao carregar os dados da conta. (Reinicie o jogo e tente novamente.)#
 Essa habilidade só pode ser usada dentro de um Grupo.#
 Recrutamento interrompido#
 A quantidade máxima de pontos de experiência que você pode doar para a guilda é %d%%.#
-Voc? n?o pode mais doar pontos de experi?ncia porque seu n?vel de guilda est? no m?ximo.#
+Você não pode mais doar pontos de experiência porque seu nível de guilda está no máximo.#
 Para segurança da conta, usuários não Google OTP só podem fazer login na página inicial. Por favor, tente fazer login na página inicial.#
-Ataque Físico e Mágico melhorados.#
-Ataque Físico e Mágico foram reduzidos.#
-Logue e Ganhe do servidor %s#
+ATQ e ATQM melhorados.#
+ATQ e ATQM reduzidos.#
+Logue e Ganhe em %s#
 Período: %02d.%02d ~ %02d.%02d até meia-noite#
 %dº dia#
 %dº dia de login! \nPegue seu item!#
@@ -3473,20 +3473,20 @@ dias#
 Logue e Ganhe falhou, tente novamente.#
 Logue e Ganhe#
 O evento de Logue e Ganhe não está ativo no momento.#
-A experi?ncia de tributo da guilda atingiu seu m?ximo, ent?o voc? n?o pode mais acumular experi?ncia de guilda.#
-Sua experi?ncia de tributo pessoal atingiu o m?ximo, ent?o voc? n?o pode mais acumular experi?ncia de guilda.#
+A doação de EXP para o clã atingiu o máximo. Você não pode mais acumular experiência.#
+Sua doação de EXP para o clã atingiu o máximo. Você não pode mais acumular experiência.#
 mensagem#
 Falha ao enviar mensagem para o Twitter.#
-Voc? deve inserir pelo menos 4 caracteres em ingl?s ou 2 caracteres coreanos.#
-Esta ? uma ?rea onde ? imposs?vel domar monstros.#
-Recuperando classifica??es...#
+Você deve inserir pelo menos 4 caracteres em inglês ou 2 caracteres coreanos.#
+Não é possível domesticar monstros aqui.#
+Recuperando classificações...#
 Essa habilidade só pode ser usada se você for Líder do grupo.#
 O SP do parceiro é insuficiente ou a habilidade não pode ser usada.#
 Aviso sobre a remoção da sua loja#
 Olá!\r\nSua loja foi fechada antes da hora porque percebemos que ela violava a política de conduta do jogo.\r\n Se precisar se mais informações, envie um ticket.\r\nAgradecemos a compreensão.#
 Você não pode colocar um valor maior que 50%.#
-O grupo ? registrado na Adventurer's Brokerage, ent?o o l?der do grupo n?o pode ser alterado.#
-O grupo n?o pode ser registrado na Adventurer's Brokerage.#
+O grupo está registrado na Agência de Aventura, então o líder do grupo não pode ser alterado.#
+O grupo não pode ser registrado na Agência de Aventura.#
 Aceitar#
 Recusar#
 Suporte#
@@ -3496,8 +3496,8 @@ Líder do Grupo não encontrado.#
 Nível de classe muito baixo para se juntar a um grupo.#
 O solicitante está em um mapa que impede entrar em um grupo.#
 Grupo cheio.#
-O líder do grupo [%s] aceitou seu pedido.#
-O líder do grupo [%s] recusou seu pedido.#
+[%s], líder do grupo, aceitou seu pedido.#
+[%s], líder do grupo, recusou seu pedido.#
 [%s] já está entrando no grupo.#
 Você aceitou [%s] no seu grupo.#
 [%s] entrada recusada#
@@ -3507,23 +3507,23 @@ Procurar por Grupos#
 Se você não é líder de grupo, não pode registrá-lo na Agência de Aventura.#
 Você não pode interromper o recrutamento.#
 Auxiliar#
-Diminuir zoom#
+Zoom#
 %s : reduzir ou ampliar o Zoom.#
 Zoom ampliado#
 Zoom desligado#
 /zoom#
 Agência de Aventura#
-Se voc? for o l?der do partido, n?o poder? solicitar ades?o.#
+Se você for o líder do grupo, não poderá solicitar adesão.#
 O nível máximo para entrar no grupo deve ser maior que nível mínimo ajustado.#
-Voc? n?o pode mais escolher sua profiss?o.#
+Você não pode mais escolher sua classe.#
 Durante o jogo, seus pedidos de grupo não serão aceitos até fechar o Client.#
 Tente abri-lo novamente mais tarde.#
-Esta fun??o n?o pode ser usada por %d minutos antes do cerco come?ar.#
-/visualizarlimpar#
-Edif?cio semitransparente ON#
-Edif?cio semitransparente OFF#
-Construindo transpar?ncia#
-Falha ao reverter para Alo. Feche a janela de cria??o do Rodex.#
+Esta função não pode ser usada por %d minutos antes da Guerra começar.#
+/viewclear#
+Edifício semitransparente ON#
+Edifício semitransparente OFF#
+Construindo transparência#
+Falha ao reverter para Alo. Feche a janela de criação do Rodex.#
 Fundo de Emblema#
 Exibir fundo do Emblema de Clã.#
 Não exibir fundo do Emblema de Clã.#
@@ -3533,10 +3533,10 @@ Contém uma habilidade (%s) que não pode ser aprendida.#
 /frame#
 Essa habilidade só pode ser usada durante o intervalo de Reflexo de Combate.#
 Usuário ou Senha incorretos.#
-E X P : %.1f%% (b?sico 100,0%% %s %.1f%%)#
-DROP : %.1f%% (b?sico 100,0%% %s %.1f%%)#
-DEATH : %.1f%% (b?sico 100,0%% %s %.1f%%)#
-Somente ingl?s ou russo podem ser usados.#
+E X P : %.1f%% (básico 100,0%% %s %.1f%%)#
+DROP : %.1f%% (básico 100,0%% %s %.1f%%)#
+DEATH : %.1f%% (básico 100,0%% %s %.1f%%)#
+Somente inglês ou russo podem ser usados.#
 Conta não possui passe de acesso ao Valhalla#
 Carregando Armazém.#
 CARREGANDO AGORA..#
@@ -3559,7 +3559,7 @@ Esse item já foi vendido e está fora de estoque.#
 Morte#
 PvP#
 Expandir inventário#
-Usar 1 ^0000ff%s^000000 para expandir de (^0000ff%d^000000) a (^0000ff%d^000000) itens? ^ff0000Não pode ser revertida^000000#
+Usar 1 ^0000FF%s^000000 para expandir de (^0000FF%d^000000) a (^0000FF%d^000000) itens? ^FF0000Ação não pode ser revertida.^000000#
 A expansão do inventário falhou.#
 Feche as janelas de diálogo antes de expandir o inventário.#
 Você não tem o item necessário para expandir o inventário.#
@@ -3568,21 +3568,21 @@ O inventário foi expandido com sucesso.#
 Você não pode ter mais de %d unidades do mesmo item.#
 Você não pode comprar por falta de espaço no inventário.#
 Você só pode comprar 1 desses itens por vez.#
-Imperador Estelar#
+Mestre Estelar#
 Ceifador de Almas#
 As configurações serão salvas quando o jogo for fechado normalmente.#
 Capture Monster#
 mensagem#
 Título#
-Expandir notação de dano#
-Notação de nome do mapa#
+Dano máx.#
+Mapa#
 Atualmente, o /showshop está %s.#
-Sincroniza??o Vertical#
+Sincronização Vertical#
 Dados#
 https://www.gnjoylatam.com/#
 Título#
-Limite de Quadros#
-Accessory#
+Limite de Frames#
+Você não pode colocar mais do que %d.#
 Destino#
 Por favor, tente novamente mais tarde.#
 Este emblema não pode ser registrado.#
@@ -3593,7 +3593,7 @@ Pegar#
 Pegar tudo#
 Gostaria de receber todos os anexos das mensagens selecionadas?#
 Gostaria de receber todos os anexos da aba [%s]?#
-Barra de Habilidade 2#
+Habilidade2#
 Trocar Barra de Habilidade#
 ←#
 ↑#
@@ -3601,31 +3601,31 @@ Trocar Barra de Habilidade#
 ↓#
 ▤#
 ←#
-Janela não pode ser fechada agora.#
-Função Hardware T&L Acceleration#
-Resolução#
-Tela cheia#
-Mouse dedicado#
+Não é possível fechar a janela enquanto ela estiver carregando.#
+Não há magias memorizadas.#
+Itens usados ​​durante o movimento não podem ser trocados novamente.#
+Você comprou um bilhete de movimento gratuito.#
+Ao usar um bilhete de movimento gratuito, os itens relacionados não são consumidos.#
 Aplicar#
-Comandos#
-Controle de vídeo#
-Resolução de vídeo#
-Controle de tela#
-Controle de mouse#
-Taxa: #
-Total commission amount : #
-Select receiver#
-Select receiving group#
-Change size(F10)#
-Abrindo...\n^c92114Delete^000000e-mails desnecessários!!#
-CARREGANDO...#
-Title#
-Sender#
-Resist?ncia M?gica#
-Quantidade de Cura do Talento#
-Taxa de Dano Cr?tico#
-Pontos usados ??para aumentar o n?vel do par?metro de talento#
-J.Lv#
+Parar#
+Passe Livre#
+%d horas usadas, %s %d#
+Passe Livre em uso#
+Talentos#
+Poder\n         Aumenta seu ataque físico\n         e o seu Poder de Ataque#
+Stamina\n         Aumenta a Tenacidade#
+Sabedoria\n         Maior Tenacidade Mágica#
+Feitiço\n         Aumenta seu ataque mágico\n         e seu Super Ataque Mágico#
+Concentração\n         Mais Precisão, Esquiva,\n         Poder de Ataque e\n         Super Ataque Mágico#
+Criatividade\n         Aumenta a Cura Mais e\n          a Taxa de Dano Crítico#
+Poder de Ataque#
+Super Ataque Mágico#
+Tenacidade#
+Tenacidade Mágica#
+Cura Mais#
+Taxa de Dano Crítico#
+Pontos para investir em Talentos#
+Nv.#
 AP#
 Mover para o Castelo#
 Ver Defesa/Economia#
@@ -3633,59 +3633,59 @@ Ir para \"%s\"?\nCusto do teleporte: %d zeny.\n(Durante a guerra, o preço é de
 \nCastelo \"%s\"\n\t\nDefesa: %d / %d\nEconomia: %d / %d#
 Indisponível durante a Guerra.#
 Esse personagem não tem as habilidades básicas.#
-O IP ao qual voc? se conectou n?o pode usar o Ragnarok Zero.\nEntre em contato com a central de atendimento ou com o site.#
+O IP ao qual Você se conectou não pode usar o Ragnarok Zero.\nEntre em contato com a central de atendimento ou com o site.#
 Decolar#
 Importar#
 Importa os preços registrados na loja anterior.#
 O login está sendo restringido por uma instabilidade no servidor.#
 Mensagem#
 +Somente maiores de 18 anos podem jogar.#
-N?o recomendado para mais de 3 horas de jogo.#
-O refino é muito alto, não é possível continuar.#
+Não recomendado para mais de 3 horas de jogo.#
+AP insuficiente.#
 Não pode ser combinado, pois o nível de refino é muito alto.#
 Esse item tem refino#
 Esse item tem cartas ou encantos#
 ∞#
 Z#
 Total : %s Zeny#
-Janela de registro das contas limitadas para venda#
-DB name do item#
+Registrar Venda Limitada na loja#
+DBname#
 ID do item#
-Itens vendidos#
-Hora de início da venda#
-Hora do fim da venda#
-Conta limitada#
+Quantidade#
+Início da Venda#
+Fim da Venda#
+Venda Limitada#
 Período: %dm %dh %dd %dm#
-Uma vez por Conta#
-%d un. disponíveis#
->> ItemName: %s / Quantidade: %d / Período de vendas: %d m?s:%d dia:%d hora:%d minuto ~ %d m?s:%d dia:%d hora:%d minuto#
+1 por conta#
+Limitado#
+>> ItemName: %s / Quantidade: %d / Período de vendas: %d mês:%d dia:%d hora:%d minuto ~ %d mês:%d dia:%d hora:%d minuto#
 Esgotado#
-[%s] est? atualmente em uma ?rea que n?o pode ser invocada.#
-~ %d m?s %d dia %d hora %d minuto#
+[%s] está atualmente em uma área que não pode teleportar.#
+~ %d mês %d dia %d hora %d minuto#
 Não é possível adicionar mais produtos#
 Itens equipados não podem ser trocados. Desequipe o item.#
-Voc? n?o pode ir para a tela de sele??o de personagem enquanto estiver usando o armaz?m da guilda.#
-Ele n?o pode ser usado porque cont?m uma tag de item.#
+Você não pode ir para a tela de seleção de personagem enquanto estiver usando o armazém da guilda.#
+Ele não pode ser usado porque contém uma tag de item.#
 Monstro#
 Desconhecido#
 Morto-vivo#
-Animal#
+Bruto#
 Planta#
 Inseto#
-Marinho#
-Diabo#
-Humano#
+Peixe#
+Demônio#
+Humanoide#
 Anjo#
-Drag?o#
+Dragão#
 Saldo: %s %c#
-^ff0000Voc? pode cancelar sua assinatura em at? 7 dias ap?s a compra deste item. No entanto, se 7 dias se passaram ou voc? abriu o item, voc? n?o ter? direito ao cancelamento. Al?m disso, o dinheiro gr?tis usado para a compra n?o ser? devolvido se voc? cancelar sua assinatura. ^000000 Tem certeza de que deseja comprar o item? Se fizer isso, %s dinheiro ser? deduzido.#
-^ff0000Voc? pode cancelar sua assinatura em at? 7 dias ap?s a compra deste item. Entretanto, se tiverem passado 7 dias ou o item tiver sido aberto, a assinatura ser? exclu?da do cancelamento. Al?m disso, o dinheiro gratuito usado na compra n?o ser? devolvido ap?s o cancelamento da assinatura. ^000000 Voc? realmente quer comprar o item? Quando voc? faz uma compra, %s Cash normal e %s Cash gratuito ser?o deduzidos.#
+O IP ao qual você se conectou não pode usar o Ragnarok Zero.\nEntre em contato com a central de atendimento ou com o site.#
+^ff0000Você pode cancelar sua assinatura em até 7 dias após a compra deste item. Entretanto, se tiverem passado 7 dias ou o item tiver sido aberto, a assinatura será excluída do cancelamento. Além disso, o dinheiro gratuito usado na compra não será devolvido após o cancelamento da assinatura. ^000000 Você realmente quer comprar o item? Quando Você faz uma compra, %s Cash normal e %s Cash gratuito serão deduzidos.#
 A chamada foi rejeitada.#
 O limite de compra não pode exceder a quantidade que você carrega.#
 Falha ao abrir barraca. Por favor, feche a abertura da barraca de compras.#
 Não pode ser combinado, pois o nível de refino é muito alto.#
 Os preços da loja de venda foram salvos.#
-Falha na autentica??o VTC.#
+Falha na autenticação VTC.#
 Não é possível equipar enquanto faz uma permuta.#
 Permuta#
 Por favor, aumente as habilidades do 1º, 2º e 3º trabalho em mais %d.#
@@ -3694,189 +3694,189 @@ Você pode trocar até %d unidades do mesmo item por vez. #
 O rodex correspondente pode ser aberto no \%s\"servidor".#
 Certeza que quer deletar TODAS as mensagens? \n(Apenas do servidor \%s\ são apagadas)#
 Certeza que quer receber TODOS os anexos? \n(Apenas do servidor \%s\ serão dados)#
-Este e-mail s? pode ser exclu?do do \%s\"servidor."#
-Este e-mail s? pode ser recebido do \%s\"servidor."#
-Este e-mail s? pode ser lido do \%s\"servidor."#
+Este e-mail só pode ser excluído do \%s\"servidor."#
+Este e-mail só pode ser recebido do \%s\"servidor."#
+Este e-mail só pode ser lido do \%s\"servidor."#
 Total: %d z#
 Aviso#
 Não pode comprar itens enquanto sua loja estiver aberta.#
-Grade upgrade was successful.#
-Grade upgrade failed.#
-The grade value has been adjusted downwards.#
-The equipment has been destroyed.#
-The equipment is being protected.#
-No materials selected.#
-Not enough materials.#
-Not enough money.#
-Not enough item space.#
-The equipment is being protected.#
-The equipment may be destroyed.#
-If the grade upgrade fails, the grade may decrease.#
-During grade enhancement, Rolex cannot be used. Rolex has been forcibly terminated.#
-Rolex cannot be used during grade enhancement.#
-The bank cannot be used during upgrade. The bank has been forcibly closed. #
-The bank cannot be used during upgrade.#
+Grau aumentado com sucesso.#
+Falha ao aumentar o grau.#
+O grau foi reduzido.#
+O equipamento foi destruído.#
+O equipamento foi protegido.#
+Nenhum material selecionado.#
+Materiais insuficientes.#
+Zeny insuficiente.#
+Verifique seu Espaço ou Peso.#
+O equipamento está protegido.#
+O item pode ser destruído.#
+Na falha: Grau é reduzido.#
+RODEX foi fechado para não estar aberto junto com a interface de Grau.#
+RODEX não pode ser aberto junto com a interface de Grau.#
+Banco foi fechado para não estar aberto junto com a interface de Grau.#
+Banco não pode ser aberto junto com a interface de Grau.#
 [%s] has successfully upgraded and obtained a [%s grade %s] item.#
 [%s] has failed to upgrade the [%s grade %s] item.#
-This equipment cannot be upgraded.#
+Não é possível aumentar o grau deste equipamento.#
 Alterar material#
-Ordenado alfabeticamente#
-※[%s] %d~%d pe?as produzidas#
+Ordem alfabética#
+× [%s] %d~%d peças produzidas#
 %d%%#
-As tags de itens s? podem ser marcadas com itens que voc? possui#
-O poder de ataque e o poder de ataque especial aumentaram.#
-O efeito de Strong Conviction foi removido.#
-HP e resist?ncia f?sica aumentaram.#
-O efeito de Steadfast Conviction foi removido.#
-A velocidade de ataque e a probabilidade de ataque guiado aumentaram.#
-O efeito de Faithful Conviction foi removido.#
-POW, CRT e CON aumentaram.#
-O efeito de Benedictum foi removido.#
-SPL, WIS e CRT aumentaram.#
-O efeito de Religio foi removido.#
-O poder de ataque especial e o poder de ataque m?gico especial aumentaram.#
-O efeito de Competentia foi removido.#
-A taxa de dano cr?tico aumentou.#
-O efeito de Presence Archis foi removido.#
-O efeito de Ignorar resist?ncia f?sica foi concedido.#
-O efeito de Argutus Tellum foi removido.#
-O efeito de Ignorar resist?ncia m?gica foi concedido.#
-O efeito de Argutus Vita foi removido.#
-Num: %d/%d Weight: %d/%d#
-O efeito de Servant Weapon foi removido.#
-O efeito de Charging Pierce foi removido.#
-O efeito de Vigor foi removido.#
-O poder de ataque aumentou e o poder de defesa diminuiu.#
-O efeito de Attack Stance foi removido.#
-O poder de defesa aumentou e o poder de ataque diminuiu.#
-O efeito de Guard Stance foi removido.#
-Uma barreira foi concedida.#
-O efeito de Guardian Shield foi removido.#
-O dano recebido pelo efeito Devotion foi reduzido.#
-O efeito de Rebound Shield foi removido.#
-O dano de magia sagrada e a resist?ncia ao atributo dark/fire foram aumentados.#
-O efeito de Holy Shield foi removido.#
-O efeito de ressurrei??o instant?nea foi concedido.#
-O efeito de Ultimate Sacrifice foi removido.#
-O efeito de certas habilidades foi alterado.#
-O efeito de Climax foi removido.#
-O efeito de certas habilidades foi alterado.#
-O efeito de Shadow Exceed foi removido.#
-O efeito de Ignore physical resistance foi concedido.#
-O efeito de Potent Venom foi removido.#
-Aumenta o dano recebido pelo alvo com uma certa probabilidade a cada ataque.#
-O efeito de Enchanting Shadow foi removido.#
-Contagem de Subjuga??o Ativa#
-Contagem de Subjuga??o Desativada#
-O AP do alvo est? no m?ximo#
-" ^ff0000 Voc? pode cancelar sua assinatura em at? 7 dias ap?s a compra deste item. No entanto, se 7 dias se passaram ou voc? abriu o item, voc? ser? exclu?do do cancelamento da assinatura. Al?m disso, o dinheiro gr?tis usado para a compra n?o ser? devolvido quando voc? cancelar sua assinatura. Alguns itens (do evento) podem ser exclu?dos quando o evento terminar, ent?o verifique o per?odo de exclus?o indicado na descri??o do item. ^000000 Tem certeza de que deseja comprar este item? Se voc? compr?-lo, %d dinheiro ser? deduzido."#
-" ^ff0000 Voc? pode cancelar sua assinatura em at? 7 dias ap?s a compra deste item. No entanto, se 7 dias se passaram ou voc? abriu o item, voc? ser? exclu?do do cancelamento da assinatura. Al?m disso, o dinheiro gr?tis usado para a compra n?o ser? devolvido quando voc? cancelar sua assinatura. Alguns itens (do evento) podem ser exclu?dos quando o evento terminar, ent?o verifique o per?odo de exclus?o indicado na descri??o do item. ^000000 Tem certeza de que deseja comprar este item? Se voc? compr?-lo, %d dinheiro normal e %d dinheiro gr?tis ser? deduzido."#
-%d Servant Weapons are required.#
+As tags de itens só podem ser marcadas com itens que Você possui#
+ATQ e P.ATQ aumentaram.#
+O efeito do [Mantra da Força] acabou.#
+HP e TEN aumentaram.#
+O efeito do [Mantra da Saúde] acabou.#
+Velocidade de ataque e Precisão perfeita aumentaram.#
+O efeito do [Mantra da Energia] acabou.#
+POD, CRV e CON aumentaram.#
+O efeito de [Benedictum] acabou.#
+FEI, SAB e STA aumentaram.#
+O efeito de [Religio] acabou.#
+P.ATQ e S.ATQM aumentaram.#
+O efeito de [Competentia] acabou.#
+T.CRÍT aumentado.#
+O efeito de [Presens Acies] acabou.#
+Argutus Telum ativo: Ataques físicos ignoram TEN.#
+O efeito de [Argutus Telum] acabou.#
+Argutus Vita ativo: Ataques mágicos ignoram TENM.#
+O efeito de [Argutus Vita] acabou.#
+Núm: %d/%d Peso: %d/%d#
+A duração de [Espada Alada] terminou.#
+A duração de [Acumular Poder] terminou.#
+O efeito de [Determinação] acabou.#
+Posição de Ataque em ação.#
+Posição de Ataque desativado.#
+Posição de Defesa em ação.#
+Posição de Defesa desativado.#
+Um Escudo Guardião foi concedido.#
+O Escudo Guardião foi removido.#
+Danos recebidos de alvos em Redenção serão reduzidos.#
+O efeito da [Remissão] acabou.#
+Escudo Divino iniciado, dano e resistências aumentadas.#
+Escudo Divino terminou, dano e resistências voltaram ao normal.#
+Um Ultimato foi dado. Você ressuscitará assim que morrer.#
+O efeito de [Ultimato] foi removido.#
+As catástrofes foram intensificadas.#
+O efeito de [Intensificação] foi removido.#
+Um carrasco foi convocado das sombras.#
+O efeito de [Carrasco Sombrio] foi removido.#
+O veneno foi adulterado, agora você ignora TEN.#
+O efeito de [Adulterar Veneno] acabou.#
+Arma profanada. Aumenta o dano contra alvos profanados.#
+O efeito de [Profanar Arma] terminou.#
+Missão de Caça ativa#
+Missão de Caça desativada#
+O AP do alvo já está no máximo.#
+ ^ff0000 Você pode cancelar sua assinatura em até 7 dias após a compra deste item. No entanto, se 7 dias se passaram ou Você abriu o item, Você será excluído do cancelamento da assinatura. Além disso, o dinheiro grátis usado para a compra não será devolvido quando Você cancelar sua assinatura. Alguns itens (do evento) podem ser excluídos quando o evento terminar, então verifique o período de exclusão indicado na descrição do item. ^000000 Tem certeza de que deseja comprar este item? Se Você comprá-lo, %d dinheiro será deduzido.#
+ ^ff0000 Você pode cancelar sua assinatura em até 7 dias após a compra deste item. No entanto, se 7 dias se passaram ou Você abriu o item, Você será excluído do cancelamento da assinatura. Além disso, o dinheiro grátis usado para a compra não será devolvido quando Você cancelar sua assinatura. Alguns itens (do evento) podem ser excluídos quando o evento terminar, então verifique o período de exclusão indicado na descrição do item. ^000000 Tem certeza de que deseja comprar este item? Se Você comprá-lo, %d dinheiro normal e %d dinheiro grátis será deduzido.#
+Você precisa de %d Espadas Aladas.#
 https://member.gnjoy.com.tw/billing.aspx#
-Reverter classifica??o#
-Insira os detalhes da pesquisa#
+Reordenar#
+Digite aqui#
 Pesquisar#
-Entra no estado do Relat?rio de Pesquisa.#
-Sai do estado do Relat?rio de Pesquisa.#
-A fabrica??o teve sucesso.#
-A fabrica??o falhou.#
-O equipamento de sombra ? protegido contra destrui??o e libera??o.#
-Prote??o total de sombra ? suspensa.#
-O dano causado a monstros vegetais e intang?veis ? aumentado.#
-O efeito P? de ?rvore do Inferno desaparece.#
-O dispositivo de ataque foi ativado.#
-O dispositivo de ataque foi desativado.#
-A defesa f?sica e a resist?ncia aumentaram.#
-O dispositivo de defesa foi desativado.#
+Eureka! Habilidades científicas aumentaram de dano.#
+O efeito de [Eureka] foi removido.#
+A manipulação foi um sucesso.#
+A manipulação falhou.#
+Equipamentos Sombrios protegidos contra Remoção.#
+O efeito de [Proteção Sombria Total] acabou.#
+Aroma Infernal: Dano contra Amorfo e Planta aumentado.#
+O efeito do [Aroma Infernal] acabou.#
+Robô Atacante acoplado.#
+Robô Atacante desacoplado.#
+Robô Defensor acoplado.#
+Robô Defensor desacoplado.#
 Pesquisar#
-O conjunto pode ser usado sozinho.#
-A sabedoria de Kubashir desaparece.#
-O efeito de Sinfonia M?stica ? concedido.#
-O efeito de Sinfonia M?stica desaparece.#
-A resist?ncia m?gica diminuiu.#
-O efeito de Gephennia Norton foi liberado.#
-A resist?ncia f?sica diminuiu.#
-O estado Raps?dia do Trabalhador da Mina foi liberado.#
-A resist?ncia f?sica aumentou.#
-O estado Interl?dio Musical foi liberado.#
-O poder de ataque m?gico especial e a velocidade de movimento aumentam.#
-O efeito de Serenata Noturna foi liberado.#
-O poder de ataque f?sico especial e a velocidade de movimento aumentam.#
-O efeito de Marcha de Protera foi liberado.#
-A ira do vento flui para o conjurador.#
-O estado de Calamity Gaile foi liberado.#
-Fraqueza e apar?ncia s?o reveladas pelo vento.#
-O efeito do sinal de vento desaparece.#
+Você pode apresentar um Dueto ou Coral sem ajuda.#
+A Sonata de Kvasir foi encerrada.#
+Uma Sinfonia Mística começou a tocar.#
+A Sinfonia Mística foi encerrada.#
+Sua TENM foi reduzida.#
+Sua TENM voltou ao normal.#
+Sua TEN foi reduzida.#
+Sua TEN voltou ao normal.#
+Sua TEN foi aumentada.#
+O Interlúdio foi encerrado.#
+Você está ouvindo a Serenata de Jawaii.#
+A Serenata de Jawaii acabou.#
+Você está ouvindo a Marcha de Prontera.#
+A Marcha de Prontera acabou.#
+Um Vento Sinistro começou a soprar.#
+O efeito de [Vento Sinistro] acabou.#
+O vento está revelando sua posição.#
+O sinal do vento foi embora.#
 E X P : %.1f%% ( basic 100.0%% %s %.1f%%)#
 DROP  : %.1f%% ( basic 100.0%% %s %.1f%%)#
 DEATH : %.1f%% ( basic 100.0%% %s %.1f%%)#
-Special magic attack power has increased.#
-The effect of Spell Enchanting has been released.#
-The effect of From the Abyss has been released.#
-Special physical attack power, special magic attack power, and accuracy have increased.#
-The Abyss Slayer effect has been released.#
+O S.ATQM foi aumentado.#
+O efeito de [Enfeitiçar] terminou.#
+As orbes invocadas do abismo desapareceram.#
+P.ATQ, S.ATQM e Precisão aumentados.#
+O efeito de [Sangue-Frio] acabou.#
 There may be restrictions on character creation.#
 The world is in a saturated state. Please use another world.#
-Unblock chat (remove receiver block).#
-Block chat (receiver block).#
-The refinement level cannot be enhanced.#
-The equipment is in an undamaged state.#
-No auxiliary material is applied. Would you like to continue with the reinforcement?#
+Desbloquear chat.#
+Bloquear chat.#
+Refino insuficiente para subir de Grau.#
+O item não será destruído.#
+A Bênção de Éter não está em uso. Deseja continuar mesmo assim?#
 Os arquivos do cliente foram adulterados.#
-mensagem#
-A quantidade total de itens a serem vendidos excede a quantidade de Zeny que voc? pode ter. \n Por favor, corrija a quantidade e o pre?o.#
-Reputa??o#
-%u / 1000 P#
-Todos#
+Mensagem#
+A quantidade total de itens a serem vendidos excede a quantidade de Zeny que você pode ter. \n Por favor, corrija a quantidade e o preço.#
+Reputação#
+%u / 1.000 P#
+Tudo#
 CARREGANDO AGORA..#
-A sele??o de material auxiliar ser? redefinida.#
+A escolha será resetada. Por favor, selecione novamente.#
 0#
 Normal#
-Incondicional#
-Aprimor?vel#
-Inicializar#
-O limite de peso atingiu mais de 70%. Esvazie seu invent?rio e tente novamente.#
+Perfeito#
+Evoluir#
+Reset#
+O limite de peso atingiu mais de 70%. Esvazie seu inventário e tente novamente.#
 Encantar#
 Encantar#
-Aprimor?vel#
-Inicializar#
-Voc? n?o pode usar Rodex durante o encantamento de itens. Rodex foi desativado.#
-Voc? n?o pode usar Rodex durante o encantamento de itens.#
-O banco n?o pode ser usado durante o encantamento. O banco foi encerrado ? for?a.#
-O banco n?o pode ser usado durante o encantamento.#
-Voc? quer realizar o encantamento?#
+Evoluir#
+Resetar#
+Você não pode usar Rodex durante o encantamento de itens. Rodex foi desativado.#
+Você não pode usar Rodex durante o encantamento de itens.#
+O banco não pode ser usado durante o encantamento. O banco foi encerrado à força.#
+O banco não pode ser usado durante o encantamento.#
+Você quer realizar o encantamento?#
 Criar#
-Materiais insuficientes para combina??o.#
-Itens de cartas equipadas e encantamentos concedidos ser?o perdidos.#
+Materiais insuficientes para combinação.#
+Itens de cartas equipadas e encantamentos concedidos serão perdidos.#
 Itens de cartas equipadas podem ser perdidos.#
 Encantamentos equipados podem ser perdidos.#
-Ocultar usu?rio na tela LIGADO#
-Ocultar usu?rio na tela DESLIGADO#
-Mais informa??es#
-Verifique Mais informa??es.#
-N?o h? itens que podem ser combinados.#
+Personagens aparecerão transparentes nas cidades.#
+Personagens aparecerão normalmente nas cidades.#
+Mais informações#
+Verifique Mais informações.#
+Não há itens que podem ser combinados.#
 Encantamento bem-sucedido!#
 Encantamento falhou!#
-Informa??es de encantamento n?o encontradas#
-Condi??es de encantamento n?o atendidas#
-Falha ao definir o status de recep??o para usu?rios aleat?rios.#
-Definir como Negar status de recebimento para usu?rios aleat?rios.#
-Todos os usu?rios est?o definidos para receber.#
-%s est? bloqueando a recep??o..#
-RODEX foi retornado.#
+informações de encantamento não encontradas#
+Condições de encantamento não atendidas#
+Falha ao definir o status de recepção para usuários aleatórios.#
+Definir como Negar status de recebimento para usuários aleatórios.#
+Todos os usuários estão definidos para receber.#
+%s está bloqueando a recepção..#
+RODEX retornou.#
 Falha no retorno de RODEX.#
-O remetente deste RODEX n?o ? um amigo ou membro da guilda. Tenha cuidado.#
-RODEX todos os usu?rios receberam#
-A dura??o do mesmo efeito excede o limite e n?o pode ser usada.#
-Se for bem-sucedido, o n?vel de refino ser? redefinido para 0!#
-Cartas, op??es aleat?rias e encantamentos ser?o preservados.#
-Se falhar, o n?vel de refino ser? mantido.#
+O remetente deste RODEX não é um amigo ou membro da guilda. Tenha cuidado.#
+RODEX todos os usuários receberam#
+A duração do mesmo efeito excede o limite e não pode ser usada.#
+Em sucesso: Refino resetado para zero.#
+Cartas, Encantos e BA são mantidos.#
+Na falha: Refino não alterado.#
 Resetar#
-Vers?o antiga#
-Base Lv. %d#
-Job Lv. %d#
-Lv. %d %s#
-Lista de miss?es#
+Versão antiga#
+Nv. base. %d#
+Nv. classe. %d#
+Nv. %d %s#
+Lista de missões#
 Loja de dinheiro#
 Guia de teclas de atalho#
 Adventurer's Brokerage#
@@ -3884,7 +3884,7 @@ Tema da IU#
 Antiga IU#
 Nova IU#
 Skin da IU#
-- Op??es adicionais -#
+- Bônus Aleatórios -#
 Amorfo#
 Morto-vivo#
 Bruto#
@@ -3903,197 +3903,197 @@ Vento#
 Veneno#
 Sagrado#
 Sombrio#
-Fantasma#
+Fant.#
 Maldito#
 Pequeno#
 Médio#
 Grande#
 DEF#
-O acesso ? restrito a menores.#
+O acesso é restrito a menores.#
 0Zeny (remoção de corante)#
 Selecionar tudo#
 UI Easy Quest#
 GRÁTIS!#
-Período de Aluguel#
-Pode ser alugado por até 14 dias.#
+Dias de Aluguel#
+O período máximo de aluguel é 14 dias.#
 Negociação não disponível#
 Abrir ao iniciar#
-Ocultar miss?es f?ceis#
-Adicionar ? janela de miss?es f?ceis#
-Excluir da janela de miss?es f?ceis#
-Ajuda de miss?es#
-1. Caixa de combina??o + janela de entrada de pesquisa: classificar miss?es, fun??o de pesquisa#
+Ocultar missões fáceis#
+Adicionar à janela de missões fáceis#
+Excluir da janela de missões fáceis#
+Ajuda de missões#
+1. Caixa de combinação + janela de entrada de pesquisa: classificar missões, função de pesquisa#
 #NOME?#
 MSI_ZEROQUEST_QUESTHELP_3#
 #NOME?#
-2. Interface de navega??o#
-- Abra a interface de navega??o:#
-?cone de menu → ?cone de navega??o (tecla de atalho: N)#
+2. Interface de Navegação#
+- Abra a interface de Navegação:#
+Ícone de menu → ícone de Navegação (tecla de atalho: N)#
 - Clique no hiperlink de texto ou na imagem do NPC (monstro):#
 MSI_ZEROQUEST_QUESTHELP_9#
-Exiba o caminho de navega??o e exiba as pegadas (setas) para o ponto de destino no ch?o do campo#
-3. Ao executar a navega??o, o caminho do movimento ? guiado na janela de bate-papo#
-4. Voc? pode usar o [Servi?o de movimento espacial] falando com a equipe do Kapra.#
-5. Interface de miss?o simples:#
-Uma fun??o que simplesmente exibe a interface de miss?o na tela do jogo#
-Clicar com o bot?o direito em cada t?tulo de miss?o chama a interface de informa??es da miss?o ou exclui a miss?o da lista#
-Abrir na inicialização#
-A sess?o de informa??es de pagamento expirou. Reinicie o cliente#
+Exiba o caminho de Navegação e exiba as pegadas (setas) para o ponto de destino no chão do campo#
+3. Ao executar a Navegação, o caminho do movimento é guiado na janela de bate-papo#
+4. Você pode usar o [Serviço de movimento espacial] falando com a equipe do Kapra.#
+5. Interface de missão simples:#
+Uma função que simplesmente exibe a interface de missão na tela do jogo#
+Clicar com o botão direito em cada título de missão chama a interface de informações da missão ou exclui a missão da lista#
+Abrir ao iniciar#
+A sessão de informações de pagamento expirou. Reinicie o cliente#
 Ocorreu um erro. Tente novamente#
 Redimensionar (%s)#
 Bloquear recurso#
 Desabilitar recurso#
 Habilitar entrada#
 Desabilitar entrada#
-Definir destinat?rio#
-Definir grupo de destinat?rios#
-Configura??es#
+Definir destinatário#
+Definir grupo de destinatários#
+Configurações#
 Dividir pop-up#
 Voltar para a aba#
 Adicionar aba#
 Excluir aba#
-Voc? pode come?ar a conversar pressionando Enter.#
+Você pode começar a conversar pressionando Enter.#
 Desequipar#
 Por favor, tente novamente em alguns minutos.#
-Dispon?vel apenas na Twinkling Galaxy Area.#
+Disponível apenas na Twinkling Galaxy Area.#
 Requer efeito Soul Collect.#
 Requer Charm/Talisman.#
 Deve estar equipado com uma arma de fogo do tipo Gatling ou Shotgun.#
 Deve estar equipado com uma arma de fogo do tipo Rifle ou Revolver.#
-Deve estar equipado com um lan?ador de granadas ou arma de fogo do tipo Rifle.#
-Voc? deve estar equipado com uma arma de fogo do tipo Gatling ou Revolver.#
-Voc? deve estar equipado com uma arma de fogo do tipo Shotgun ou Grenade launcher.#
+Deve estar equipado com um lançador de granadas ou arma de fogo do tipo Rifle.#
+Você deve estar equipado com uma arma de fogo do tipo Gatling ou Revolver.#
+Você deve estar equipado com uma arma de fogo do tipo Shotgun ou Grenade launcher.#
 Nenhum escudo equipado.#
-O banco n?o pode ser usado durante a troca m?ltipla. O banco foi fechado ? for?a.#
-O banco n?o pode ser usado durante a troca m?ltipla.#
-N?o h? espa?o para se mover na sombra do alvo.#
-Voc? deve estar em comunh?o com pelo menos um esp?rito.#
+O banco não pode ser usado durante a troca múltipla. O banco foi fechado à força.#
+O banco não pode ser usado durante a troca múltipla.#
+Não há espaço para se mover na sombra do alvo.#
+Você deve estar em comunhão com pelo menos um espírito.#
 Não pode ser usado no estado de Petrificação ou Sono.#
 Não pode ser usado no estado de Esconderijo.#
 Esse pacote não pode ser usado.#
 Falha ao definir item do Pacote!!#
 ^ff0000 Disponível por %d dia(s) e %d hora(s) ^000000#
 Você escolheu %s. Tem certeza dessa escolha?#
-Quantidade necess?ria por turno: %d#
-Imperial Guard#
-Abyss Chaser#
-Windhawk#
+Quantidade necessária por turno: %d#
+Guardião Imperial#
+Mandraque#
+Falcão do Vento#
 Falha ao registrar o emblema.#
 Falha ao registrar o servidor.#
 Falha ao registrar o arquivo.#
-Classificar janela do mini-grupo#
-Distribu?do uniformemente.\nO peso ou o tipo de membro do grupo excede o limite, ent?o voc? n?o pode obter o item.#
-[%s] obteve '+%d %s' de [%s].#
-Abra a caixa de correio novamente.#
-Voc? n?o pode invocar o Hom?nculo S em seu trabalho atual. Voc? precisa avan?ar para um trabalho superior.#
-Não há itens de equipamento que podem ser equipados com a carta.#
-Exibi??o de danos#
-Exibi??o de danos#
+Ordenar mini-janelas do grupo.#
+Distribuído uniformemente.\nO peso ou o tipo de membro do grupo excede o limite, então você não pode obter o item.#
+[%s] obteve '+%d %s' de [%d].#
+Por favor, abra o RODEX novamente.#
+Você não pode invocar um Homunculus S nessa classe atual. Você precisa avançar para uma classe superior.#
+Não há itens equipáveis por essa carta.#
+Dano#
+Exibir dano#
 ↖#
 ↑#
 ↗#
-Padr?o#
-J? existe um alvo rastreado.#
+Padrão#
+Já existe um alvo rastreado.#
 Iniciar rastreamento do alvo.#
-N?o h? alvos sendo rastreados.#
+Não há alvos sendo rastreados.#
 Fim do rastreamento.#
 Tempo expirou, fim do rastreamento.#
 O usuário não foi encontrado.#
-^0054FF[corre??o de habilidade] % d.%d %%^000000#
+^0054FF[Ajuste] % d.%d %%^000000#
 Não é possível invocar mais NPCs.#
-Se voc? cometer %d n?mero de erros, voc? ser? bloqueado permanentemente de acordo com a pol?tica operacional.#
-Voc? n?o pode invocar em seu trabalho atual. Voc? precisa mudar de trabalho para um trabalho superior.#
-Voc? n?o pode usar habilidades da s?rie Strip ou da s?rie Coating em pilotos de Magic Gear.#
+Se você cometer %d número de erros, você será bloqueado permanentemente de acordo com a política operacional.#
+Você não pode invocar um Homunculus S nessa classe atual. Você precisa avançar para uma classe superior.#
+Você não pode Revestir ou Remover um M.E.C.H.A.#
 Mapa#
 Quiz#
-Digite o mapa para o qual voc? enviar? o verificador no intervalo de texto abaixo.#
+Digite o mapa para o qual você enviará o verificador no intervalo de texto abaixo.#
 Digite o teste a ser exibido no verificador no intervalo de texto abaixo.#
-O nome do arquivo do mapa est? incorreto.#
-A combina??o de n?meros est? incorreta.#
+O nome do arquivo do mapa está incorreto.#
+A combinação de números está incorreta.#
 Escreva e pressione Enter para salvar.#
-O verificador foi enviado para %d usu?rios da lista negra.#
-Este ? o tempo de espera do verificador da lista negra.#
-H? um problema com o valor do Mapa.#
-H? um problema com o Quiz ou com o n?mero de respostas corretas.#
-H? um problema com o valor do Quiz.#
-H? um problema com o n?mero de Mapas.#
+O verificador foi enviado para %d usuários da lista negra.#
+Este é o tempo de espera do verificador da lista negra.#
+Há um problema com o valor do Mapa.#
+Há um problema com o Quiz ou com o número de respostas corretas.#
+Há um problema com o valor do Quiz.#
+Há um problema com o número de Mapas.#
 Tempo restante %02d : %02d : %02d#
-O modo de detec??o foi ativado. Insira o n?mero exibido no lado esquerdo da tela usando o teclado.#
-Uma penalidade ser? aplicada quando o tempo restante expirar ou voc? der uma resposta errada %d vezes.#
-Digite seu n?mero de seguran?a#
+O modo de detecção foi ativado. Insira o número exibido no lado esquerdo da tela usando o teclado.#
+Uma penalidade será aplicada quando o tempo restante expirar ou você der uma resposta errada %d vezes.#
+Digite seu número de segurança#
 Com %s#
 >> Item : %s / Un. : %d / Data : %dm:%dd:%dh:%m ~ %da:%dm:%dd:%dh:%m#
 ~ %dm %dh %dd %dm %da#
-Voc? n?o pode usar habilidades de ataque no mesmo membro do grupo na janela do grupo.#
-Tente novamente ap?s concluir o progresso ou o status do convite.#
-Exibir mensagem de pontos de experi?ncia m?ximos#
+Você não pode usar habilidades de ataque no mesmo membro do grupo na janela do grupo.#
+Tente novamente após concluir o progresso ou o status do convite.#
+Exibir mensagem de pontos de experiência máximos#
 Bônus de Equip#
-Exibir altera??o de habilidade ao equipar/desequipar equipamento#
-Exibir mensagem de bate-papo da alian?a#
-Enviado para a alian?a#
-^FF2931Used cat's-eye fruit items are not included in the subscription cancellation target, and re-exchange for cat's-eye fruit is also not possible.#
-Refin?vel#
-N?o refin?vel#
-Encant?vel#
-N?o encant?vel#
-Melhoria de n?vel poss?vel#
-Melhoria de n?vel imposs?vel#
-Voc? quer remover o equipamento?#
-As informa??es do item selecionado est?o incorretas.#
-T?bua de Runas: conjunto %s#
+Exibir alteração de bônus ao equipar/desequipar equipamento#
+Exibir mensagem de bate-papo dos aliados#
+Enviar p/ Aliados#
+^FF2931O MiauMiau usado ​​não está incluso na promoção de cancelamento de assinatura, e a troca por outros itens de MiauMiau também não é possível.#
+Refinável#
+Não refinável#
+Encantável#
+Não encantável#
+Grau possível#
+Grau impossível#
+Você quer remover o equipamento?#
+As informações do item selecionado estão incorretas.#
+Tábua de Runas: conjunto %s#
 Fragmento de runa de %s#
-Probabilidade de refor?o#
+Probabilidade de reforço#
 Se ocorrer falha, a probabilidade de sucesso aumenta em %.2f%%.#
-N?vel m?ximo de refor?o.#
-Esta fun??o n?o pode ser confirmada no estado desabilitado.#
-As informa??es de runas n?o existem.#
+Nível máximo de reforço.#
+Esta função não pode ser confirmada no estado desabilitado.#
+As informações de runas não existem.#
 Efeito do conjunto %d#
-Sistema de T?bua de Runas#
+Sistema de Tábua de Runas#
 Nenhum item equipado.#
 Remova o conjunto de runas equipado.#
-Guia de aventura#
-O Rodex n?o pode ser usado enquanto estiver usando o Sistema de Runas.#
-O Banking n?o pode ser usado enquanto estiver usando o Sistema de Runas.#
-O Rodex n?o pode ser usado enquanto estiver usando o Sistema de Runas. O Rodex foi encerrado ? for?a.#
-O Banking n?o pode ser usado enquanto estiver usando o Sistema de Runas. O Banking foi encerrado ? for?a.#
-H? uma solicita??o para entrar em uma guilda. Voc? pode confirmar a solicita??o ap?s fechar todas as janelas relacionadas a movimento. H? uma solicita??o de registro de alian?a. Voc? pode confirmar a solicita??o ap?s fechar todas as janelas relacionadas a movimento.#
-H? uma solicita??o de registro de alian?a. Voc? pode confirmar a solicita??o ap?s fechar todas as janelas relacionadas a movimento.#
-H? uma solicita??o de registro de amigo. Voc? pode confirmar a solicita??o ap?s fechar todas as janelas relacionadas a movimento.#
-H? uma solicita??o de entrada em grupo. Voc? pode confirmar a solicita??o ap?s fechar todas as janelas relacionadas a movimento.#
-H? uma solicita??o de troca 1:1. Voc? pode confirmar a solicita??o ap?s fechar todas as janelas relacionadas a movimento.#
+Guia da Aventura#
+O Rodex não pode ser usado enquanto estiver usando o Sistema de Runas.#
+O Banking não pode ser usado enquanto estiver usando o Sistema de Runas.#
+O Rodex não pode ser usado enquanto estiver usando o Sistema de Runas. O Rodex foi encerrado à força.#
+O Banking não pode ser usado enquanto estiver usando o Sistema de Runas. O Banking foi encerrado à força.#
+Há uma solicitação para entrar em uma guilda. Você pode confirmar a solicitação após fechar todas as janelas relacionadas a movimento. Há uma solicitação de registro de aliança. Você pode confirmar a solicitação após fechar todas as janelas relacionadas a movimento.#
+Há uma solicitação de registro de aliança. Você pode confirmar a solicitação após fechar todas as janelas relacionadas a movimento.#
+Há uma solicitação de registro de amigo. Você pode confirmar a solicitação após fechar todas as janelas relacionadas a movimento.#
+Há uma solicitação de entrada em grupo. Você pode confirmar a solicitação após fechar todas as janelas relacionadas a movimento.#
+Há uma solicitação de troca 1:1. Você pode confirmar a solicitação após fechar todas as janelas relacionadas a movimento.#
 Aviso#
-Seu invent?rio est? mais de 70% cheio ou voc? n?o tem mais de 8 espa?os livres em seu invent?rio.#
-Quadro de miss?es#
-Informa??es da miss?o#
+Seu inventário está mais de 70% cheio ou você não tem mais de 8 espaços livres em seu inventário.#
+Quadro de missões#
+informações da missão#
 Reportar Usuário#
 Você ultrapassou o limite diário de reportes e não pode mais reportar.#
 Você reportou %s.#
 Esse usuário já está sendo reportado por outro jogador.#
-Esse usuário está imune a reportes.#
-Este usuário ultrapassou o limite diário de reportes e não pode mais ser reportado.#
+Esse usuário já foi reportado.#
+Você ultrapassou o limite diário de reportes e não pode mais reportar.#
 Alguém reportou você.#
-Desmontar %d#
+Retirar %d#
 Erro desconhecido. Tente novamente.#
-N?o h? itens para desmontar.#
-N?o h? espa?o suficiente no invent?rio. Esvazie seu espa?o de invent?rio e tente novamente.#
-Seu personagem ? muito pesado. Abaixe o peso e tente novamente.#
-O n?mero m?ximo de itens (30000) foi excedido.#
-A IU n?o est? ativada.#
-N?o h? informa??es de desmontagem.#
-N?o h? itens suficientes para desmontar.#
-As informa??es de compra de emo??o foram redefinidas.#
-Voc? j? est? equipado com um conjunto de runas. A configura??o do Rune Tablet n?o est? completa.#
-Voc? n?o tem os itens necess?rios.#
-H? um Rune Set equipado. Tente novamente ap?s desequipar o Rune Set.#
-N?o h? Rune Set equipado.#
-Dados do Rune Tablet inv?lidos. Tente novamente mais tarde.#
-N?o pode ser melhorado mais.#
-Este ? o n?vel m?ximo de melhoria.#
-Dados inv?lidos do Rune Tablet. Tente novamente mais tarde.#
-Dados inv?lidos do Rune Tablet. Tente novamente mais tarde.#
-Dados do Rune Tablet est?o sendo carregados. Tente novamente mais tarde.#
-Dados inv?lidos do Rune Tablet. Tente novamente mais tarde.#
-A IU n?o est? ativada.#
+Não há itens para desmontar.#
+Não há espaço suficiente no inventário. Esvazie seu espaço de inventário e tente novamente.#
+Seu personagem está muito pesado. Abaixe o peso e tente novamente.#
+O número máximo de itens (30000) foi excedido.#
+A interface não está ativada.#
+Não há informações de desmontagem.#
+Não há itens suficientes para desmontar.#
+As informações de compra de emoticon foram redefinidas.#
+Você já está equipado com um conjunto de runas. A configuração do Rune Tablet não está completa.#
+Você não tem os itens necessários.#
+Há um Rune Set equipado. Tente novamente após desequipar o Rune Set.#
+Não há Rune Set equipado.#
+Dados do Rune Tablet inválidos. Tente novamente mais tarde.#
+Não pode ser melhorado mais.#
+Este é o nível máximo de melhoria.#
+Dados inválidos do Rune Tablet. Tente novamente mais tarde.#
+Dados inválidos do Rune Tablet. Tente novamente mais tarde.#
+Dados do Rune Tablet estão sendo carregados. Tente novamente mais tarde.#
+Dados inválidos do Rune Tablet. Tente novamente mais tarde.#
+A IU não está ativada.#
 Não é possível reportar nesse mapa.#
 API Gráfica#
 MSI_PAY_CONFIRM_BY_ITEM#
@@ -4101,184 +4101,184 @@ D#
 C#
 B#
 A#
-Ver fantasias#
-{0} Usar Lv {1} (Sp : {2}%)#
-{0} Usar Lv {1} (Sp : {2})#
-{0} Usar Lv {1} (Sp : {2}%, Ap : {3})#
-{0} Usar Lv {1} (Sp : {2}, Ap : {3})#
-{0} {1} Usar Lv {2} (Sp : {3}%)#
-{0} {1} Usar Lv {2} (Sp : {3})#
-{0} {1} Usar Lv {2} (Sp : {3}%, Ap : {4})#
-{0} {1} Usar Lv {2} (Sp : {3}, Ap : {4})#
-MISS?O :#
-Ver apenas minhas pegadas#
+Exibir visuais#
+{0} Usar nv.{1} (SP: {2}%)#
+{0} Usar nv.{1} (SP: {2})#
+{0} Usar nv.{1} (SP: {2}% - AP: {3})#
+{0} Usar nv.{1} (SP: {2} - AP: {3})#
+{0} {1} Usar nv.{2} (SP: {3}%)#
+{0} {1} Usar nv.{2} (SP: {3})#
+{0} {1} Usar nv.{2} (SP: {3}% - AP: {4})#
+{0} {1} Usar nv.{2} (SP: {3} - AP: {4})#
+MISSÃO:#
+Pegadas#
 Nenhum resultado de pesquisa encontrado.#
-Verificar probabilidade#
+Ver lista de chances#
 Aviso#
-Voc? ainda n?o aplicou a B?n??o do Ferreiro. Deseja continuar fortalecendo?#
-N?o veja este item novamente enquanto o refina#
+Sem Bênção do Ferreiro. Deseja continuar?#
+Não repetir#
 Ver chances#
-Buscar componentes#
-Probabilidade#
+Buscar itens#
+Chance#
 ({}Tempo)#
-https://ro.gnjoylatam.com/pt/news/probability#
-https://ro.gnjoylatam.com/pt/news/probability#
-Um novo espa?o para personagem foi criado.#
+https://ro.gnjoylatam.com/pt/news/probability/2#
+https://ro.gnjoylatam.com/pt/news/probability/27#
+Um novo slot para personagem foi criado.#
 Falha ao usar o item devido a um erro desconhecido.#
-Voc? n?o pode mais expandir seus espa?os de personagem.#
+Você não pode mais expandir seus slots de personagem.#
 https://ro.gnjoylatam.com/pt/news/probability#
 Clique em OK para abrir a página de divulgação de chances.#
-Esta profiss?o n?o pode usar itens.#
-Voc? n?o pode usar o item se estiver em um grupo ou guilda.#
-Os itens n?o podem ser usados ??durante o casamento.#
-Voc? n?o pode mudar de g?nero enquanto estiver no estado transformado.#
-Voc? gostaria de mudar o g?nero do seu personagem?#
-Iniciar mudan?a de g?nero#
+Esta classe não pode usar esse item.#
+Se você estiver em um grupo ou clã, não poderá usar esse item.#
+Você não pode usar esse item enquanto estiver casado(a).#
+Você não pode alterar o gênero durante a transformação.#
+Deseja alterar o gênero do personagem?#
+Alterar gênero#
 O uso do item foi cancelado.#
-O g?nero do personagem foi alterado.#
-Voc? n?o tem permiss?o para usar o comando.#
-Este mapa n?o permite a cria??o de verificadores de macro.#
-Voc? ainda n?o pode criar um verificador de macro.#
-Criei um verificador de macros para esse mapa.#
-Configura??es padr?o#
-Configura??es de efeito#
-Configura??es de controle#
-Configura??es gr?ficas#
-Borda do emblema#
+O gênero do personagem foi alterado.#
+Você não tem permissão para usar comandos.#
+Este é um mapa onde verificadores de macro não podem ser criados.#
+Você ainda não pode criar verificadores de macro.#
+Um verificador de macro foi criado neste mapa.#
+Padrão#
+Efeitos#
+Controles#
+Gráficos#
+Emblema#
 Ligar#
 Desligar#
 Mostrar#
 Esconder#
-Optar por n?o receber usu?rios aleat?rios#
-Todos os usu?rios recebem#
-Prioridade padr?o#
-alto#
+Rejeitar usuários aleatórios#
+Aceitar todos os usuários#
+Prioridade padrão#
+Alto#
 Aumente a prioridade dos processos do Ragnarok para acelerar o jogo.#
-comumente#
-Defina a prioridade do processo Ragnarok para a configura??o padr?o Normal.#
-baixeza#
-Reduza a prioridade do processo Ragnarok para facilitar sua execu??o junto com outros programas.#
-Exibi??o de aura#
-Express?o de aura#
+Normal#
+Defina a prioridade do processo Ragnarok para a configuração padrão Normal.#
+Baixo#
+Reduza a prioridade do processo Ragnarok para facilitar sua execução junto com outros programas.#
+Exibição de aura#
+Aura#
 Original#
 Mini aura#
-Exibi??o de dano#
-Expandir exibi??o#
-Visualiza??o padr?o#
-Ao mover para uma regi?o#
-Mostrar nome do mapa#
-N?o mostrar nome do mapa#
-Efeito de n?voa#
-Efeito de pegada#
+Dano#
+Expandir exibição#
+Padrão#
+Ao mover para uma região#
+Anúncio#
+Não mostrar nome do mapa#
+Neblina#
+Pegadas#
 Ver tudo#
 Mouse snap#
 Alvo do monstro#
 Alvo da habilidade#
 Pegar item#
 Sem Ctrl#
-Ao atacar continuamente um monstro, n?o pressione Ctrl#
+Ao atacar continuamente um monstro, não pressione Ctrl#
 Sem Shift#
-Ao atacar um monstro com uma habilidade de recupera??o, n?o pressione Shift#
-Ao diminuir o zoom, a tela ? exibida um pouco mais ampla#
-Quando no modo janela, o cursor do mouse n?o sai da janela#
+Ao atacar um monstro com uma habilidade de recuperação, não pressione Shift#
+Ao diminuir o zoom, a tela é exibida um pouco mais ampla#
+Quando no modo janela, o cursor do mouse não sai da janela#
 Modo tela#
 Modo tela cheia#
 Modo tela janela#
-Filtragem de tr?ade#
-A ?rea de uso do comando est? incorreta.#
+Trilinear#
+A área de uso do comando está incorreta.#
 Ocorreu um erro de interface. Tente novamente mais tarde.#
-Ocorreu um erro de interface. A transmiss?o foi interrompida.#
-A autentica??o das informa??es de login do SDK falhou, tente novamente mais tarde.#
-Confirmar exclus?o do personagem#
-A conta est? restrita de acessar o jogo devido a uma senha secund?ria incorreta. \n {2:02}/{1:02}/{0:04} {3:02}:{4:02}, as restri??es de acesso ser?o suspensas. Para suspender as restri??es de acesso, v? para P?gina inicial -> Alterar informa??es pessoais -> Segunda senha e autentique-se.#
-Voc? deve estar equipado com uma espingarda, metralhadora ou lan?ador de granadas.#
->> O local onde a tag ser? usada n?o foi especificado.#
-Navega??o >: N?o suporta pesquisa no mapa do ambiente interno.#
-c?digo de erro - %08d#
-Por favor, tire uma captura de tela do c?digo de erro e entre em contato com o Suporte ao Cliente.#
-Voc? est? fora da rota. Por favor, volte.#
-Por favor, fa?a a pr?-coleta.#
-A recompensa da coleta foi conclu?da.#
-A recompensa da coleta n?o existe.#
+Ocorreu um erro de interface. A transmissão foi interrompida.#
+A autenticação das informações de login do SDK falhou, tente novamente mais tarde.#
+Confirmar exclusão do personagem#
+A conta está restrita de acessar o jogo devido a uma senha secundária incorreta. \n {2:02}/{1:02}/{0:04} {3:02}:{4:02}, as restrições de acesso serão suspensas. Para suspender as restrições de acesso, vá para Página inicial -> Alterar informações pessoais -> Segunda senha e autentique-se.#
+Você deve estar equipado com uma espingarda, metralhadora ou lançador de granadas.#
+>> O local onde a tag será usada não foi especificado.#
+Navegação >: não suporta pesquisa no mapa do ambiente interno.#
+código de erro - %08d#
+Por favor, tire uma captura de tela do código de erro e entre em contato com o Suporte ao Cliente.#
+Você está fora da rota. Por favor, volte.#
+Por favor, faça a pré-coleta.#
+A recompensa da coleta foi concluída.#
+A recompensa da coleta não existe.#
 A recompensa da coleta falhou.#
 A recompensa da coleta do conjunto de runas#
-Senha do dep?sito de itens#
+Senha do depósito de itens#
 Senha da loja de dinheiro#
 Clique para usar a senha#
-Remo??o de tinta#
-Voc? n?o pode usar itens de mudan?a de g?nero enquanto estiver a bordo.#
-Voc? n?o pode usar itens consum?veis em seu estado atual.#
-As informa??es anteriores n?o correspondem#
-Espa?o de invent?rio insuficiente.#
-O invent?rio est? pesado.#
-O n?mero m?ximo de itens foi excedido.#
-A IU n?o est? aberta.#
-As informa??es n?o est?o na tabela.#
->> ItemName: {0} / {1} ea / Período de vendas. {3}/{2} {4:02}:{5:02} ~ {8}/{7}/{6} {9:02}:{10:02}#
-   Período de vendas:{1}/{0} {2:02}:{3:02}#
+Remoção de tinta#
+Você não pode usar itens de mudança de gênero enquanto estiver a bordo.#
+Você não pode usar consumíveis nesse estado.#
+As informações anteriores não correspondem#
+Espaço de inventário insuficiente.#
+O inventário está pesado.#
+O número máximo de itens foi excedido.#
+A IU não está aberta.#
+As informações não estão na tabela.#
+>> ItemName: {0} / {1} un / Período. {3}/{2} {4:02}:{5:02} ~ {8}/{7}/{6} {9:02}:{10:02}#
+   Período: {1}/{0} {2:02}:{3:02}#
     ~ {1}/{0}/{2} {3:02}:{4:02}#
-Ser? poss?vel em poucos segundos.#
+Será possível em poucos segundos.#
 C#
-Notifica??o de login#
-Outras configura??es#
+Ver Logins#
+    Outros#
 Neblina Ligada#
 Neblina Desligada#
-Emblema da Guilda Ligado#
-Emblema da Guilda Desligado#
+Emblema do Clã Ligado#
+Emblema do Clã Desligado#
 Rota ideal#
 Alterar automaticamente para IU simples#
-Navega??o simples#
-Mostrar/ocultar instala??es#
+Navegação simples#
+Mostrar/ocultar instalações#
 Minimapa expandido#
-Op??es (ESC)#
-Sele??o de miss?es#
-Efeitos sonoros de intera??o da IU#
-Efeitos sonoros de intera??o da IU Ligados#
-Efeitos sonoros de intera??o da IU Desligados#
-Os efeitos sonoros est?o Desligados. Desligue-os e tente novamente.#
-/uisound : Efeitos sonoros de intera??o da IU Ligados Desligados#
+Opções (ESC)#
+Selecionar Missões#
+Efeitos sonoros de interação da IU#
+Efeitos sonoros de interação da IU Ligados#
+Efeitos sonoros de interação da IU Desligados#
+Os efeitos sonoros estão desligados. Desligue-os e tente novamente.#
+/uisound : Efeitos sonoros de interação da IU Ligados Desligados#
 Fragmento de Runa de %s#
-A Masmorra Memorial ser? destru?da em %d segundos. Saia da masmorra#
-Movimento imediato interno n?o ? suportado.#
-*Produtos comprados no web mall n?o podem ser recebidos no servidor correspondente.#
+A instância será destruída em %d segundos. Por favor, saia da instância.#
+Não é possível mover para mapas internos.#
+*Produtos comprados no web mall não podem ser recebidos no servidor correspondente.#
 Manter#
 Solo#
-Grupo#
-Clã#
+Em Grupo#
+Com Clã#
 O nome do personagem só pode ser alterado uma vez#
 Troca#
 Editar#
-Equipamento para canhotos#
-Equipamento para a m?o direita#
+Equipamento para Mão Esquerda#
+Equipamento para Mão Direita#
 Comprar#
 Vender#
-Informa??es de conjura??o#
-Conjura??o fixa#
-Conjura??o vari?vel#
-Resfriamento global#
-Resfriamento de habilidade#
-Conjura??o especial#
-%.3gsec#
-Recuperar#
-Olhar#
-Tdo#
+Informação de Conjuração#
+Conj. Fixa#
+Conj. Var.#
+Pós-Conj.#
+Recarga#
+Conj. Esp.#
+%.3gseg#
+Resgatar#
+Ver#
+Tud#
 Atb#
-Bns#
-Blh#
-Eft#
-Rça#
+Bon#
+Bat#
+Efe#
+Raç#
 Hab#
 Etc#
-Seleção de personagem#
-Saia do jogo#
-De volta ao jogo#
-Ressuscitado no lugar#
-Vá para a área salva#
+Selecionar personagem#
+Fechar jogo#
+Retornar ao jogo#
+Ressuscitar#
+Voltar ao Ponto de Retorno#
 Dispensar#
 Hab#
 Usar#
 Buscar#
-Name#
+Nome#
 P#
 Em Espera#
 FOR#
@@ -4297,31 +4297,31 @@ ESQV#
 VelAtq#
 Pts de Atributo#
 Clã#
-O arremessador#
+Conjurador#
 Peso %d%%#
 Idioma#
-Dica#
-Elenco#
-CoolTime#
-N?vel#
+Ajuda#
+Conjuração#
+Recarga#
+Nv.#
 Loja de estilo#
-Concordo#
+Concordar#
 Sair#
 Sair#
-Repetir#
+Replay#
 NOME#
-TRANCAR#
-Comp.#
-Enctr.#
-MOVER#
+TRANCADO#
+Cmp#
+Achar#
+Teleportar #
 Título:#
 Limite:#
 Tipo:#
-MSI_ROOM_RESTRICT#
+Acesso:#
 Senha:#
-Peso Max.: %3d#
+Peso máx.: %3d#
 Mudar#
-Deleta em dia {1}, mês {0}#
+Deleta no dia {1}, mês {0}#
 às {0}h {1}m {2}s#
 Cancelar#
 Lotado#
@@ -4347,10 +4347,27 @@ Andando#
 Atacando#
 Esperando#
 Morto#
-Pegando#
-[%s] obteve %s de [%s].#
-Parabéns, %s! Você conseguiu conseguiu %s!#
-[%s] refinou o item %s.#
-[%s] não refinou o item %s.#
-[%s] subiu o rank do item %s.#
-[%s] não subiu o rank do item %s.#
+Coletando#
+[{0}] obteve {2} de [{1}].#
+Parabéns, {0}! Você conseguiu conseguiu {1}!#
+[{0}] refinou o item {1}.#
+[{0}] não refinou o item {1}.#
+[{0}] elevou o grau do item {1}.#
+[{0}] não elevou o grau do item {1}.#
+POD#
+STA#
+SAB#
+FEI#
+CON#
+CRV#
+P.ATQ#
+S.ATQM#
+C.MAIS#
+T.CRÍT#
+TEN#
+TENM#
+Pts de Talento#
+Sorteio#
+Enquanto estiver sob penalidade por denúncia, você não poderá entrar ou criar grupos, obter EXP de monstros nem adquirir itens.#
+Você deve ir diretamente até o NPC que remove efeitos negativos, indicado no minimapa. A localização deixará de ser exibida caso você se teletransporte.#
+Remover efeito negativo#

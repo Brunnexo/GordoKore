@@ -83,7 +83,7 @@ BODY_ATTR_SAINT#Propriedade Sagrado#
 BODY_ATTR_DARKNESS#Propriedade Sombrio#
 BODY_ATTR_TELEKINESIS#Propriedade Fantasma#
 BODY_ATTR_UNDEAD#Propriedade Maldito#
-BODY_ATTR_ALL#None#
+BODY_ATTR_ALL#BODY_ATTR_ALL#
 RACE_TOLERACE_NOTHING#Resistência a Amorfo +%d%%#
 RACE_TOLERACE_UNDEAD#Resistência a Morto-Vivo +%d%%#
 RACE_TOLERACE_ANIMAL#Resistência a Bruto +%d%%#
@@ -170,8 +170,8 @@ HEAL_MODIFY_PERCENT#Cura Receb. e Recup. de HP por itens +%d%%#
 DEC_SPELL_CAST_TIME#Conjuração variável -%d%%#
 DEC_SPELL_DELAY_TIME#Pós-conjuração -%d%%#
 DEC_SP_CONSUMPTION#Custo de SP das habilidades -%d%%#
-HP_DRAIN#None#
-SP_DRAIN#None#
+HP_DRAIN#HP_DRAIN#
+SP_DRAIN#SP_DRAIN#
 WEAPON_ATTR_NOTHING#Propriedade Neutro#
 WEAPON_ATTR_WATER#Propriedade Água#
 WEAPON_ATTR_GROUND#Propriedade Terra#
