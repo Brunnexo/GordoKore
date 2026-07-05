@@ -59,13 +59,22 @@ sub new {
 
 	undef $@;
 	
-	$self->{server} = new IO::Socket::INET->new(
-		Listen		=> 5,
-		LocalAddr	=> $addr,
-		LocalPort	=> $port,
-		Proto		=> 'tcp'
-	);
+	for (my $i = 0; $i < 50; $i++) {
+		$port += $i;
 
+		$self->{server} = new IO::Socket::INET->new(
+			Listen		=> 5,
+			LocalAddr	=> $addr,
+			LocalPort	=> $port,
+			Proto		=> 'tcp'
+		);
+
+		if ($self->{server} || !$config{XKore_autoIncrementPort}) {
+			last;
+		}
+
+		sleep 1;
+	}
 
 	if (!$self->{server}) {
 		Network::XKore::CannotStart->throw(error => TF("Unable to start the X-Kore server.\n" .

@@ -33,6 +33,10 @@ checksum_port
 XKore 0
 XKore_hookIp 127.0.0.1
 XKore_port 2350
+
+# If the current port is in use, the next available port is used
+XKore_autoIncrementPort 1
+
 XKore_dll NetRedirect.dll
 XKore_injectDLL 0
 
