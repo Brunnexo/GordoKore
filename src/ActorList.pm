@@ -79,6 +79,13 @@ sub new {
 	return $self;
 }
 
+# overloaded
+sub doClear {
+	my ($self) = @_;
+	$self->SUPER::doClear();
+	$self->{IDmap} = {};
+}
+
 ##
 # int $ActorList->add(Actor actor)
 # Requires:

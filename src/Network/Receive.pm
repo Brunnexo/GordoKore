@@ -3945,13 +3945,17 @@ sub vender_items_list {
 	my $msg = TF("%s\n" .
 		"#  Name                                      Type                           Price Amount\n",
 		center(' Vender: ' . $player->nameIdx . ' ', 88, '-'));
+	my $item_index = 0;
 	for (my $i = 0; $i < $item_list_len; $i+=$item_len) {
 		my $item = Actor::Item->new;
 
  		@$item{qw( price amount ID type nameID identified broken upgrade cards options location sprite_id )} = unpack $item_pack, substr $args->{itemList}, $i, $item_len;
 
 		$item->{name} = itemName($item);
+		# Ensure unique ID for vendor items by using item index as ID
+		$item->{ID} = pack('N', $item_index);
 		$venderItemList->add($item);
+		$item_index++;
 
 		debug("Item added to Vender Store: $item->{name} - $item->{price} z\n", "vending", 2);
 
