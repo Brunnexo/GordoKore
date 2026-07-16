@@ -58,7 +58,11 @@ define_alias("Arabic"				=> "cp1256");
 #
 # This symbol is exportable.
 sub bytesToString {
-	return decode($masterServer->{serverEncoding} || "Western", $_[0]);
+  eval {
+    return decode($masterServer->{serverEncoding} || "Western", $_[0]);
+  } or do {
+    return $_[0];
+  };
 }
 
 ##
