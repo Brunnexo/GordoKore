@@ -76,13 +76,15 @@ use enum qw(CONTROL_FILE_TYPE TABLE_FILE_TYPE);
 
 # Translation Comment: Strings for the name and version of the application
 our $NAME = 'GordoKore';
+
+
 our $VERSION = 'v1.0';
 # Translation Comment: Version String
 #our $SVN = T(" (SVN Version) ");
 our $WEBSITE = 'https://discord.gg/HyJjHK5zB2';
 # Translation Comment: Version String
 our $versionText = "*** $NAME ${VERSION} ( ver. " . getRevisionString() . ' ) - ' . T("Cliente automatizado de Ragnarök Online") . " ***\n***   $WEBSITE   ***\n";
-our $welcomeText = TF("Welcome to %s.", $NAME);
+our $welcomeText = TF("Boas-vindas ao %s.", $NAME);
 
 
 # Data file folders.
