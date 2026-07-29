@@ -15,6 +15,7 @@ use Text::ParseWords;
 use Carp::Assert;
 use Config;
 use utf8;
+use feature 'unicode_strings';
 
 use Globals;
 use Modules;
@@ -34,7 +35,6 @@ use ChatQueue;
 use I18N;
 use Utils::Benchmark;
 use Utils::HttpReader;
-
 
 #######################################
 # PROGRAM INITIALIZATION
@@ -383,6 +383,7 @@ sub loadDataFiles {
 		loader => [\&parseAchievementFile, \%achievements], mustExist => 0);
 
 	use utf8;
+	use open ':std', ':encoding(UTF-8)';
 
 	Plugins::callHook('start2');
 	eval {
@@ -415,6 +416,28 @@ sub loadDataFiles {
 		Log::message(T("\nGenerating session Admin Password...\n"));
 		configModify("adminPassword", vocalString(8));
 	}
+
+	my $LIVE_PIX = '' .
+	'█▀▀▀▀▀█ █▀ ▄█  ▀█▀▀▄▄ █▀▀▀▀▀█' . "\n" .
+	'█ ███ █ ▀█▀▄   ▀█▄▀   █ ███ █' . "\n" .
+	'█ ▀▀▀ █ ▀█ ██ ▀████▀▄ █ ▀▀▀ █' . "\n" .
+	'▀▀▀▀▀▀▀ ▀ █ █▄▀▄█ ▀ ▀ ▀▀▀▀▀▀▀' . "\n" .
+	'▀  ▀▀█▀▀▀█▀█▄█  ██▄▄ █ ▄█ ██▀' . "\n" .
+	'█ ▄▀█▄▀ ▄▄█▄▄█ ██▄ ▄▄▀▄ █▄▀ ▄' . "\n" .
+	'█ ▄  ▀▀██ █▀▄█▄█▄  ▀▀ ██▄▄▄▄█' . "\n" .
+	'▀▄█▀▀▄▀  █   ▀ ▀▄ ██▀█▄▄▄ █ █' . "\n" .
+	'█▄▀▄▄▀▀▄▄▄█ █▄██ ▄ █▀▄  ▄▀▄▄ ' . "\n" .
+	'██▄█ █▀ ▄▀ ▄▀ ▄▀▄ █▀ ▀  ▀█▄ ▀' . "\n" .
+	'▀▀▀▀▀ ▀▀▄▄▀  ▀█▄▀█▄▀█▀▀▀██▀▀ ' . "\n" .
+	'█▀▀▀▀▀█ █▀▀▄█ █▀█▄ ██ ▀ █▀   ' . "\n" .
+	'█ ███ █ █▀ ▀▀▀▀██ ▄▀▀▀▀▀▀▀ ▀█' . "\n" .
+	'█ ▀▀▀ █  ██ █▀ ██▀   █ ▀█▄█▀█' . "\n" .
+	'▀▀▀▀▀▀▀ ▀▀  ▀▀▀▀▀  ▀▀▀▀      ' . "\n";
+
+	message("\n\n" . '**Quer me pagar um café?**' . "\n" . 'Acesse o QR-Code do LivePix abaixo!' . "\n\n");
+	message($LIVE_PIX . "\n");
+	message("Ou acesse: https://livepix.gg/gordaoprogramas" . "\n\n");
+
 	#} elsif ($config{'adminPassword'} eq '') {
 	#	# This is where we protect the stupid from having a blank admin password
 	#	Log::message(T("\nAuto-generating Admin Password due to blank...\n"));

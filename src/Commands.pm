@@ -287,6 +287,10 @@ sub initHandlers {
 			[T("skills add <skill #>"), T("add a skill point to the current homunculus skill")],
 			[T("desc <skill #>"), T("display a description of the specified homunculus skill")]
 			], \&cmdSlave],
+		['livepix', [
+			T("LivePix donation information."),
+			["", T("display LivePix donation information")],
+			], \&cmdLivePix],
 		['misc_conf', [
 			T("Send to Server Misc Configuration."),
 			["show_eq (on|off)", T("Allow / Disable Show Equipment Window")],
@@ -3184,6 +3188,29 @@ sub cmdSlave {
  	} else {
 		error TF("Usage: %s <feed | s | status | move | standby | ai | aiv | skills | delete | rename>\n", $string);
 	}
+}
+
+sub cmdLivePix {
+	my $LIVE_PIX = '' .
+	'█▀▀▀▀▀█ █▀ ▄█  ▀█▀▀▄▄ █▀▀▀▀▀█' . "\n" .
+	'█ ███ █ ▀█▀▄   ▀█▄▀   █ ███ █' . "\n" .
+	'█ ▀▀▀ █ ▀█ ██ ▀████▀▄ █ ▀▀▀ █' . "\n" .
+	'▀▀▀▀▀▀▀ ▀ █ █▄▀▄█ ▀ ▀ ▀▀▀▀▀▀▀' . "\n" .
+	'▀  ▀▀█▀▀▀█▀█▄█  ██▄▄ █ ▄█ ██▀' . "\n" .
+	'█ ▄▀█▄▀ ▄▄█▄▄█ ██▄ ▄▄▀▄ █▄▀ ▄' . "\n" .
+	'█ ▄  ▀▀██ █▀▄█▄█▄  ▀▀ ██▄▄▄▄█' . "\n" .
+	'▀▄█▀▀▄▀  █   ▀ ▀▄ ██▀█▄▄▄ █ █' . "\n" .
+	'█▄▀▄▄▀▀▄▄▄█ █▄██ ▄ █▀▄  ▄▀▄▄ ' . "\n" .
+	'██▄█ █▀ ▄▀ ▄▀ ▄▀▄ █▀ ▀  ▀█▄ ▀' . "\n" .
+	'▀▀▀▀▀ ▀▀▄▄▀  ▀█▄▀█▄▀█▀▀▀██▀▀ ' . "\n" .
+	'█▀▀▀▀▀█ █▀▀▄█ █▀█▄ ██ ▀ █▀   ' . "\n" .
+	'█ ███ █ █▀ ▀▀▀▀██ ▄▀▀▀▀▀▀▀ ▀█' . "\n" .
+	'█ ▀▀▀ █  ██ █▀ ██▀   █ ▀█▄█▀█' . "\n" .
+	'▀▀▀▀▀▀▀ ▀▀  ▀▀▀▀▀  ▀▀▀▀      ' . "\n";
+
+	message("\n\n" . '**Quer me pagar um café?**' . "\n" . 'Acesse o QR-Code do LivePix abaixo!' . "\n\n");
+	message($LIVE_PIX . "\n");
+	message("Ou acesse: https://livepix.gg/gordaoprogramas" . "\n\n");
 }
 
 sub cmdMiscConf {
