@@ -2145,3 +2145,70 @@ prt_mk_a.rws#prt_mk.rws#
 1@tcamp.rsw#1@tcamp.rsw#
 유저인터페이스\map\1@tcamp.bmp#유저인터페이스\map\1@tcamp.bmp#
 //2026.06.23 EP18 end
+
+//2026.07.07 성좌의 탑 75층
+//성좌의 탑 
+1@ch_t.gnd#1@ch_t.gnd#
+1@ch_t.gat#1@ch_t.gat#
+1@ch_t.rsw#1@ch_t.rsw#
+유저인터페이스\map\1@ch_t.bmp#유저인터페이스\map\1@ch_t.bmp#
+2@ch_t.gnd#2@ch_t.gnd#
+2@ch_t.gat#2@ch_t.gat#
+2@ch_t.rsw#2@ch_t.rsw#
+유저인터페이스\map\2@ch_t.bmp#유저인터페이스\map\2@ch_t.bmp#
+3@ch_t.gnd#3@ch_t.gnd#
+3@ch_t.gat#3@ch_t.gat#
+3@ch_t.rsw#3@ch_t.rsw#
+유저인터페이스\map\3@ch_t.bmp#유저인터페이스\map\3@ch_t.bmp#
+//2026.07.07 성좌의 탑 75층 end
+
+//2026.07.07 가라앉은 탑
+// 가라앉은 탑
+1@ch_u.gnd#1@ch_u.gnd#
+1@ch_u.gat#1@ch_u.gat#
+1@ch_u.rsw#1@ch_u.rsw#
+유저인터페이스\map\1@ch_u.bmp#유저인터페이스\map\1@ch_u.bmp#
+
+//2026.07.07 회한의 무덤
+// 영웅의 흔적 외전 회한의 무덤
+1@spa2.gnd#1@spa2.gnd#
+1@spa2.gat#1@spa2.gat#
+1@spa2.rsw#1@spa2.rsw#
+유저인터페이스\map\1@spa2.bmp#유저인터페이스\map\1@spa2.bmp#
+
+//2026.07.21 차상위 확장 직업군
+// 나이트워치
+1@exnw.gnd#1@exnw.gnd#
+1@exnw.gat#1@exnw.gat#
+1@exnw.rsw#1@exnw.rsw#
+유저인터페이스\map\1@exnw.bmp#유저인터페이스\map\1@exnw.bmp#
+// 신키로_시라누이
+1@exsr.gnd#1@exsr.gnd#
+1@exsr.gat#1@exsr.gat#
+1@exsr.rsw#1@exsr.rsw#
+유저인터페이스\map\1@exsr.bmp#유저인터페이스\map\1@exsr.bmp#
+// 영도사
+1@exds.gnd#1@exds.gnd#
+1@exds.gat#1@exds.gat#
+1@exds.rsw#1@exds.rsw#
+유저인터페이스\map\1@exds.bmp#유저인터페이스\map\1@exds.bmp#
+2@exds.gnd#2@exds.gnd#
+2@exds.gat#2@exds.gat#
+2@exds.rsw#2@exds.rsw#
+유저인터페이스\map\2@exds.bmp#유저인터페이스\map\2@exds.bmp#
+// 천제
+1@exse.gnd#1@exse.gnd#
+1@exse.gat#1@exse.gat#
+1@exse.rsw#1@exse.rsw#
+유저인터페이스\map\1@exse.bmp#유저인터페이스\map\1@exse.bmp#
+// 하이퍼노비스
+1@exhn.gnd#1@exhn.gnd#
+1@exhn.gat#1@exhn.gat#
+1@exhn.rsw#1@exhn.rsw#
+유저인터페이스\map\1@exhn.bmp#유저인터페이스\map\1@exhn.bmp#
+// 혼령사
+1@exsh.gnd#1@exsh.gnd#
+1@exsh.gat#1@exsh.gat#
+1@exsh.rsw#1@exsh.rsw#
+유저인터페이스\map\1@exsh.bmp#유저인터페이스\map\1@exsh.bmp#
+//2026.07.21 차상위 확장 직업군 end

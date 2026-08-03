@@ -3835,36 +3835,36 @@ Elimine 3x Imp Morno e 3x Estrondo Morno e volte para a <NAVI>[Dra. Korn]<INFO>c
 Festa da Pipoca#
 
 3338#[Espera] Milho Dourado###
-N?o esque?a de repetir a miss?o com a <NAVI>[Dra. Korn]<INFO>comodo,159,196,0,101,0</INFO></NAVI>.#
-Volte amanh?.#
+Não esqueça de repetir a missão com a <NAVI>[Dra. Korn]<INFO>comodo,159,196,0,101,0</INFO></NAVI>.#
+Volte amanhã.#
 
 3339#Festa da Pipoca###
 Registre-se na Festa da Pipoca trazendo ^4d4dff30 Piroclastos^000000 para <NAVI>[Kerline]<INFO>comodo,262,126,0,101,0</INFO></NAVI>.#
 30 Piroclastos#
 
-3340#Vulc?o Korodo###
-Entre na inst?ncia falando com <NAVI>[Palquia]<INFO>comodo,264,123,0,101,0</INFO></NAVI>.#
-Explore o Vulc?o#
+3340#Vulcão Korodo###
+Entre na instância falando com <NAVI>[Palquia]<INFO>comodo,264,123,0,101,0</INFO></NAVI>.#
+Explore o Vulcão#
 
-3341#Vulc?o Korodo###
-Entre na inst?ncia falando com <NAVI>[Palquia]<INFO>comodo,264,123,0,101,0</INFO></NAVI>.#
-Explore o Vulc?o#
+3341#Vulcão Korodo###
+Entre na instância falando com <NAVI>[Palquia]<INFO>comodo,264,123,0,101,0</INFO></NAVI>.#
+Explore o Vulcão#
 
-3342#[Espera] Vulc?o Korodo###
-N?o esque?a de repetir a miss?o com <NAVI>[Palquia]<INFO>comodo,264,123,0,101,0</INFO></NAVI>.#
-Volte amanh?.#
+3342#[Espera] Vulcão Korodo###
+Não esqueça de repetir a missão com <NAVI>[Palquia]<INFO>comodo,264,123,0,101,0</INFO></NAVI>.#
+Volte amanhã.#
 
-3343#Ervas Saud?veis###
-Elimine 3 Ervas M?gicas para <NAVI>[Yerba]<INFO>comodo,225,187,0,101,0</INFO></NAVI.#
+3343#Ervas Saudáveis###
+Elimine 3 Ervas Mágicas para <NAVI>[Yerba]<INFO>comodo,225,187,0,101,0</INFO></NAVI.#
 Festa da Pipoca#
 
-3344#Ervas Saud?veis###
-Elimine 3 Ervas M?gicas para <NAVI>[Yerba]<INFO>comodo,225,187,0,101,0</INFO></NAVI.#
+3344#Ervas Saudáveis###
+Elimine 3 Ervas Mágicas para <NAVI>[Yerba]<INFO>comodo,225,187,0,101,0</INFO></NAVI.#
 Festa da Pipoca#
 
-3345#[Espera] Ervas Saud?veis###
-N?o esque?a de repetir a miss?o com a <NAVI>[Yerba]<INFO>comodo,225,187,0,101,0</INFO></NAVI>.#
-Volte amanh?.#
+3345#[Espera] Ervas Saudáveis###
+Não esqueça de repetir a missão com a <NAVI>[Yerba]<INFO>comodo,225,187,0,101,0</INFO></NAVI>.#
+Volte amanhã.#
 
 3346#Festa da Pipoca###
 A melhor pipoca de Midgard.#
@@ -4459,7 +4459,7 @@ Derrote 100 monstros de qualquer tipo no <NAVI>[Santuário Subterrâneo de Amats
 Caçar 100 monstros#
 
 3522#Traços de Yeongwi###
-Vamos procurar vestígios de Yeongwi em algum lugar em <NAVI>[Amatsu Underground Forest Battleground]<INFO>ama_dun02.gat,121,47,0,101,0</INFO></NAVI>.#
+Vamos procurar vestígios de Yeongwi em algum lugar em <NAVI>[Campo de Batalha da Floresta Subterrânea de Amatsu]<INFO>ama_dun02.gat,121,47,0,101,0</INFO></NAVI>.#
 Localizar rastros#
 
 3523#Encontro com um antigo ninja###
@@ -6814,9 +6814,9 @@ Você ajudou o casal Ellie e Eryus, que parecem estar profundamente apaixonados.
 Não há novas missões de [Procura-se] no Sindicato. Será reiniciado às 4 da manhã de Quarta-Feira.#
 #
 
-5471#[Procura-se]###
-Elimine Entweihen Crothen na Torre sem Fim.#
-Moeda Sindical: 300#
+5471#(Procurado)###
+A família real de Prontera oferece uma recompensa a quem derrotar Entweihen Crothen, chefe da Torre das Constelações.#
+300 Emblemas da União de Recompensas#
 
 5472#[Procura-se]###
 Elimine Bafomé Selado no Altar do Selo.#
@@ -8898,131 +8898,131 @@ Faça 300 zenys#
 Derrote 5 Salgueiros com a ajuda da habilidade 'Ataque Duplo'.#
 Derrote 5 Salgueiros#
 
-7128#[É] Conhecer o Deserto###
+7128#Conhecer o Deserto###
 Você iniciou seu treinamento com o Grupo do Éden. Procure o <NAVI>[Cão Falante]<INFO>moc_fild11,180,253,0,101,0</INFO></NAVI> em Sograt e diga ^4d4dffA Boya é incrível^000000.#
 Fale com Mutt#
 
-7129#[É] Conhecer o Deserto###
+7129#Conhecer o Deserto###
 Derrote 10 Condores à pedido de <NAVI>[Mutt]<INFO>moc_fild11,180,253,0,101,0</INFO></NAVI> no deserto de Sograt.#
 10 Condor#
 
-7130#[É] Conhecer o Deserto###
+7130#Conhecer o Deserto###
 Derrote 10 Filhotes de Lobo do Deserto à pedido de <NAVI>[Mutt]<INFO>moc_fild11,180,253,0,101,0</INFO></NAVI> no deserto de Sograt.#
 10 Filhotes de Lobo#
 
-7131#[É] Conhecer o Deserto###
+7131#Conhecer o Deserto###
 Derrote 5 Escorpiões à pedido de <NAVI>[Mutt]<INFO>moc_fild11,180,253,0,101,0</INFO></NAVI> no deserto de Sograt#
 5 Escorpiões#
 
-7132#[É] Conhecer o Deserto###
+7132#Conhecer o Deserto###
 Você completou todas as tarefas. Fale com a <NAVI>[Instrutora Boya]<INFO>moc_para01,25,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Boya#
 
-7133#[É] Conhecer os Esgotos###
+7133#Conhecer os Esgotos###
 Você iniciou seu treinamento com o Grupo do Éden. Procure o <NAVI>[Gato Falante]<INFO>prt_sewb1,131,262,0,101,0</INFO></NAVI> nos Esgotos de Prontera e diga ^4d4dffUm belo atum^000000.#
 Fale com Perrault#
 
-7134#[É] Conhecer os Esgotos###
+7134#Conhecer os Esgotos###
 Derrote 10 Besouros-Ladrões à pedido de <NAVI>[Perrault]<INFO>prt_sewb1,131,262,0,101,0</INFO></NAVI> nos esgotos.#
 10 Besouros-Ladrões#
 
-7135#[É] Conhecer os Esgotos###
+7135#Conhecer os Esgotos###
 Derrote 10 Tarous à pedido de <NAVI>[Perrault]<INFO>prt_sewb1,131,262,0,101,0</INFO></NAVI> nos esgotos.#
 10 Tarou#
 
-7136#[É] Conhecer os Esgotos###
+7136#Conhecer os Esgotos###
 Derrote 5 Familiares à pedido de <NAVI>[Perrault]<INFO>prt_sewb1,131,262,0,101,0</INFO></NAVI> nos esgotos.#
 5 Familiar#
 
-7137#[É] Conhecer os Esgotos###
+7137#Conhecer os Esgotos###
 Você completou todas as tarefas. Fale com a <NAVI>[Instrutora Boya]<INFO>moc_para01,25,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Boya#
 
-7138#[É] Conhecer a Caverna###
+7138#Conhecer a Caverna###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Coral]<INFO>pay_arche,41,136,0,101,0</INFO></NAVI> na Vila dos Arqueiros.#
 Fale com Coral#
 
-7139#[É] Conhecer a Caverna###
+7139#Conhecer a Caverna###
 Há muitos monstros perigosos nessa caverna e um deles é o Skeletons.#
 Caçar 15 esqueletos#
 
-7140#[É] Conhecer a Caverna###
+7140#Conhecer a Caverna###
 Derrote 10 Poporings à pedido de <NAVI>[Coral]<INFO>pay_arche,41,136,0,101,0</INFO></NAVI> na Vila dos Arqueiros.#
 Caçar 10 Poporings#
 
-7141#[É] Conhecer a Caverna###
+7141#Conhecer a Caverna###
 Você completou todas as tarefas. Fale com a <NAVI>[Instrutora Boya]<INFO>moc_para01,25,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Boya#
 
-7142#[É] Conhecer o Formigueiro###
+7142#Conhecer o Formigueiro###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Clod]<INFO>anthell01,29,264,0,101,0</INFO></NAVI> no Formigueiro Infernal.#
 Fale com Clod#
 
-7143#[É] Conhecer o Formigueiro###
+7143#Conhecer o Formigueiro###
 Derrote 15 Pierres à pedido de <NAVI>[Clod]<INFO>anthell01,29,264,0,101,0</INFO></NAVI> no Formigueiro Infernal.#
 15 Pierres#
 
-7144#[É] Conhecer o Formigueiro###
+7144#Conhecer o Formigueiro###
 Derrote 15 Andres à pedido de <NAVI>[Clod]<INFO>anthell01,29,264,0,101,0</INFO></NAVI> no Formigueiro Infernal.#
 15 Andres#
 
-7145#[É] Conhecer o Formigueiro###
+7145#Conhecer o Formigueiro###
 Derrote 10 Vitatas à pedido de <NAVI>[Clod]<INFO>anthell01,29,264,0,101,0</INFO></NAVI> no Formigueiro Infernal.#
 10 Vitatas#
 
-7146#[É] Conhecer o Formigueiro###
+7146#Conhecer o Formigueiro###
 Você completou todas as tarefas. Fale com a <NAVI>[Instrutora Boya]<INFO>moc_para01,25,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Boya#
 
-7147#[É] Conhecer a Vila dos Orcs###
+7147#Conhecer a Vila dos Orcs###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Absalom]<INFO>in_orcs01,38,175,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 Fale com Absalom#
 
-7148#[É] Conhecer a Vila dos Orcs###
+7148#Conhecer a Vila dos Orcs###
 Derrote 10 Filhotes de Orc à pedido de <NAVI>[Absalom]<INFO>in_orcs01,38,175,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 10 Filhotes de Orc#
 
-7149#[É] Conhecer a Vila dos Orcs###
+7149#Conhecer a Vila dos Orcs###
 Derrote 10 Guerreiros Orc à pedido de <NAVI>[Absalom]<INFO>in_orcs01,38,175,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 10 Guerreiros Orc#
 
-7150#[É] Conhecer a Vila dos Orcs###
+7150#Conhecer a Vila dos Orcs###
 Derrote 10 Senhoras Orc à pedido de <NAVI>[Absalom]<INFO>in_orcs01,38,175,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 10 Senhoras Orc#
 
-7151#[É] Conhecer a Vila dos Orcs###
+7151#Conhecer a Vila dos Orcs###
 Você completou todas as tarefas. Fale com a <NAVI>[Instrutora Boya]<INFO>moc_para01,25,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Boya#
 
-7152#[É] Conhecer a Caverna Orc###
+7152#Conhecer a Caverna Orc###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Absalom]<INFO>in_orcs01,38,175,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 Fale com Absalom#
 
-7153#[É] Conhecer a Caverna Orc###
+7153#Conhecer a Caverna Orc###
 Derrote 20 Orcs Zumbis à pedido de <NAVI>[Absalom]<INFO>in_orcs01,38,175,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 20 Orcs Zumbis#
 
-7154#[É] Conhecer a Caverna Orc###
+7154#Conhecer a Caverna Orc###
 Derrote 20 Orcs Esqueletos à pedido de <NAVI>[Absalom]<INFO>in_orcs01,38,175,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 20 Orcs Esqueletos#
 
-7155#[É] Conhecer a Caverna Orc###
+7155#Conhecer a Caverna Orc###
 Você completou todas as tarefas. Fale com a <NAVI>[Instrutora Boya]<INFO>moc_para01,25,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Boya#
 
-7156#[É] Conhecer Byalan###
+7156#Conhecer Byalan###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Callandiva]<INFO>iz_dun04,43,46,0,101,0</INFO></NAVI> no Túnel Submarino da ilha Byalan.#
 Fale com Callandiva#
 
-7157#[É] Conhecer Byalan###
+7157#Conhecer Byalan###
 Derrote 15 Tritões à pedido de <NAVI>[Callandiva]<INFO>iz_dun04,43,46,0,101,0</INFO></NAVI> no Túnel Submarino da ilha Byalan.#
 15 Tritões#
 
-7158#[É] Conhecer Byalan###
+7158#Conhecer Byalan###
 Derrote 10 Stroufs à pedido de <NAVI>[Callandiva]<INFO>iz_dun04,43,46,0,101,0</INFO></NAVI> no Túnel Submarino da ilha Byalan.#
 10 Stroufs#
 
-7159#[É] Conhecer Byalan###
+7159#Conhecer Byalan###
 Você completou todas as tarefas. Fale com a <NAVI>[Instrutora Boya]<INFO>moc_para01,25,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Boya#
 
@@ -9238,115 +9238,115 @@ Por acaso, você conhece alguém chamado Loki na floresta. Ele está procurando 
 Loki estava procurando o Guardião Niddhog que estava andando sem rumo por entre a névoa. Você concordou em se encontrar com ele na Vila de Mora assim que sair da floresta.#
 #
 
-7214#[É] Treino em Comodo###
+7214#Treino em Comodo###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Romeo]<INFO>comodo,173,354,0,101,0</INFO></NAVI> na entrada da caverna norte de Comodo.#
 Fale com Romeo#
 
-7215#[É] Treino em Comodo###
+7215#Treino em Comodo###
 <NAVI>[Romeo]<INFO>comodo,173,354,0,101,0</INFO></NAVI> pediu para que você derrotasse Golens Estalactíticos.#
 3 Golem Estalactítico#
 
-7216#[É] Treino em Comodo###
+7216#Treino em Comodo###
 Agora que você já sabe como é, derrote mais 10 Golens Estalactíticos e encontre Romeo na <NAVI>[Floresta de Luluka]<INFO>um_fild01,34,280,0,101,0</INFO></NAVI>.#
 À Floresta de Luluka#
 
-7217#[É] Treino em Comodo###
+7217#Treino em Comodo###
 <NAVI>[Romeo]<INFO>um_fild01,34,280,0,101,0</INFO></NAVI> te passou uma última missão. Derrote Guerreiros Wootan e Dríades para conseguir alguns 5 Ombreiras e 7 Folhas Afiadas.#
 5 Ombreira, 7 Folha Afiada#
 
-7218#[É] Treino em Comodo###
+7218#Treino em Comodo###
 Você completou todas as tarefas. Fale com o <NAVI>[Instrutor Ur]<INFO>moc_para01,23,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Ur#
 
-7219#[É] Treino em Glastheim###
+7219#Treino em Glastheim###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Johan]<INFO>glast_01,195,131,0,101,0</INFO></NAVI> na entrada da Abadia de Glastheim.#
 Encontre Johan#
 
-7220#[É] Treino em Glastheim###
+7220#Treino em Glastheim###
 <NAVI>[Johan]<INFO>glast_01,195,131,0,101,0</INFO></NAVI> pediu para você derrotar algumas 'Almas Penadas' no primeiro andar da Abadia de Glastheim.#
 20 Almas Penadas#
 
-7221#[É] Treino em Glastheim###
+7221#Treino em Glastheim###
 Há alguns druidas na Abadia. Entretanto, eles foram corrompidos e não salvam pessoas. Vamos atender o pedido de <NAVI>[Johan]<INFO>glast_01,195,131,0,101,0</INFO></NAVI>.#
 10 Druida Maligno#
 
-7222#[É] Treino em Glastheim###
+7222#Treino em Glastheim###
 Você completou todas as tarefas. Fale com o <NAVI>[Instrutor Ur]<INFO>moc_para01,23,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Ur#
 
-7223#[É] Treino em Einbroch###
+7223#Treino em Einbroch###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Girhen]<INFO>ein_fild08,172,359,0,101,0</INFO></NAVI> ao sul de Einbroch.#
 Fale com Girhen#
 
-7224#[É] Treino em Einbroch###
+7224#Treino em Einbroch###
 <NAVI>[Girhen]<INFO>ein_fild08,172,359,0,101,0</INFO></NAVI>, um cara muito relaxado, pediu para você caçar alguns Porcellios.#
 30 Porcellios#
 
-7225#[É] Treino em Einbroch###
+7225#Treino em Einbroch###
 Os cidadãos de Einbroch pediram para derrotar Nuvens Tóxicas, mas <NAVI>[Girhen]<INFO>ein_fild08,172,359,0,101,0</INFO></NAVI> não deu a mínima.#
 Ignore a Nuvem Tóxica#
 
-7226#[É] Treino em Einbroch###
+7226#Treino em Einbroch###
 Essa missão é um pedido de 100% dos cidadãos de Einbroch, mas reporte para <NAVI>[Girhen]<INFO>ein_fild08,172,359,0,101,0</INFO></NAVI> quando terminar.#
 30 Nuvens Venenosas#
 
-7227#[É] Treino em Einbroch###
+7227#Treino em Einbroch###
 Um cidadão pediu e é muito importante. Alguns Ursinhos podem causar o caos. <NAVI>[Girhen]<INFO>ein_fild08,172,359,0,101,0</INFO></NAVI> pediu para ter cuidado com esse poderoso inimigo.#
 5 Ursinhos#
 
-7228#[É] Treino em Einbroch###
+7228#Treino em Einbroch###
 Você completou todas as tarefas. Fale com o <NAVI>[Instrutor Ur]<INFO>moc_para01,23,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Ur#
 
-7229#[É] Treino na Caverna de Gelo###
+7229#Treino na Caverna de Gelo###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Neomi]<INFO>ice_dun01,154,13,0,101,0</INFO></NAVI> na Caverna de Gelo.#
 Fale com Neomi#
 
-7230#[É] Treino na Caverna de Gelo###
+7230#Treino na Caverna de Gelo###
 Esta é uma missão de <NAVI>[Neomi]<INFO>ice_dun01,154,13,0,101,0</INFO></NAVI>. Vamos derrotar alguns Siromas que estão atrapalhando a coleta de gelo.#
 30 Siromas#
 
-7231#[É] Treino na Caverna de Gelo###
+7231#Treino na Caverna de Gelo###
 Você precisa derrotar Siromas novamente para <NAVI>[Neomi]<INFO>ice_dun01,154,13,0,101,0</INFO></NAVI>. Ela também precisa de 30 Cubos de Gelo, 1 Molho Doce e 1 Leite.#
 Cubos de Gelo, Molho Doce e Leite#
 
-7232#[É] Treino na Caverna de Gelo###
+7232#Treino na Caverna de Gelo###
 Você completou todas as tarefas. Fale com o <NAVI>[Instrutor Ur]<INFO>moc_para01,23,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Ur#
 
-7233#[É] Treino em Ash Vacuum###
+7233#Treino em Ash Vacuum###
 Você iniciou seu treinamento para conseguir Equipamentos do Éden. Procure <NAVI>[Magret]<INFO>mid_camp,212,229,0,101,0</INFO></NAVI> no Acampamento em Ash Vacuum.#
 Fale com Magret#
 
-7234#[É] Treino em Ash Vacuum###
+7234#Treino em Ash Vacuum###
 <NAVI>[Magret]<INFO>mid_camp,212,229,0,101,0</INFO></NAVI> precisa encontrar seus colegas Miru e Mineh. Encontre Miru a oeste e Mine a leste do acampamento. Vá primeiro até <NAVI>[Miru]<INFO>man_fild01,43,234,0,101,0</INFO></NAVI>.#
 Fale com Miru#
 
-7235#[É] Treino em Ash Vacuum###
+7235#Treino em Ash Vacuum###
 Os gêmeos Miru e Mineh estão brigado e querem provar que estão certos ao seu modo. <NAVI>[Miru]<INFO>man_fild01,43,234,0,101,0</INFO></NAVI> pediu para que você derrotasse uma Nephentes.#
 1 Nephentes#
 
-7236#[É] Treino em Ash Vacuum###
+7236#Treino em Ash Vacuum###
 <NAVI>[Mineh]<INFO>spl_fild02,377,149,0,101,0</INFO></NAVI> pediu ajuda pra derrotar Pinguiculas. Você precisará derrotar 5 delas.#
 5 Pinguiculas#
 
-7237#[É] Treino em Ash Vacuum###
+7237#Treino em Ash Vacuum###
 Você completou todas as tarefas. Fale com o <NAVI>[Instrutor Ur]<INFO>moc_para01,23,35,0,101,0</INFO></NAVI> no Grupo do Éden.#
 Fale com Ur#
 
-7238#[É] Pedido Fácil de Torhen###
+7238#Pedido Fácil de Torhen###
 O <NAVI>[Ferreiro Torhen]<INFO>moc_para01,111,83,0,101,0</INFO></NAVI> só encantará seus equipamentos se trouxer 20 Minérios de Ferro e 10 Ferros. Esse pedido é fácil porque seu nível está entre 60 a 79.#
 10 Ferro, 20 Minério de Ferro#
 
-7239#[É] Pedido Difícil de Torhen###
+7239#Pedido Difícil de Torhen###
 O <NAVI>[Ferreiro Torhen]<INFO>moc_para01,111,83,0,101,0</INFO></NAVI> só encantará seus equipamentos se trouxer 20 Placas de Ferro Usada. Esse pedido é difícil porque seu nível acima do 80.#
 20 Placa de Ferro Usada#
 
-7240#[É] Pedido de Torhen###
+7240#Pedido de Torhen###
 Como recompensa pela missão, <NAVI>[Ferreiro Torhen]<INFO>moc_para01,111,83,0,101,0</INFO></NAVI> prometeu encantar um dos seus Equipamentos do Grupo Éden. O encantamento será aleatório.#
 Fale com Torhen#
 
-7241#[É] Pedido de Torhen###
+7241#Pedido de Torhen###
 Thorn parece não precisar de mais nada. Visite-o amanhã.#
 Volte amanhã#
 
@@ -15115,19 +15115,19 @@ Volte ao Profeta K, conte toda a situação e receba sua recompensa#
 Volte ao Profeta K#
 
 9374#As Profecias de K###
-Vá para o 3º nível do Labirinto de Prontera e cace Bafomés Jr. para coletar 100 Fragmento de Alma de Carneiro.#
-100 Fragmento de Alma de Carneiro#
+Vá para o 3º nível do Labirinto de Prontera e cace Bafomés Jr. para coletar 100 Fragmento de Alma de Cabra.#
+100 Fragmento de Alma de Cabra#
 
 9375#As Profecias de K###
-Cace Bodes no Campo de Juno para coletar 150 Fragmento de Alma de Carneiro#
-150 Fragmento de Alma de Carneiro#
+Cace Bodes no Campo de Juno para coletar 150 Fragmento de Alma de Cabra#
+150 Fragmento de Alma de Cabra#
 
 9376#As Profecias de K###
-Vá para Juno e encontre a pessoa com a energia do Carneiro#
-Alguém com Fragmento de Alma de Carneiro#
+Vá para Juno e encontre a pessoa com a energia do Cabra#
+Alguém com energia da Cabra#
 
 9377#As Profecias de K###
-Cace Planta Carnívora no Campo de Juno e Salgueiro na Floresta de Payon, e leve 20 Raízes de Planta Carnívora e 20 Raízes para Michael Tail#
+Cace Planta Carnívora no Campo de Juno e Salgueiro na Floresta de Payon, e leve 20 Raízes de Planta Carnívora e 20 Raízes de Árvore para Michael Tail#
 Conquiste Michael Tail#
 
 9378#As Profecias de K###
@@ -20566,6 +20566,34 @@ A Arena recomeça às 4:00 (UTC-3) 3 dias depois#
 Se você ainda estiver de pé na arena. E se estiver olhando para este passe, é uma prova de que está vivo.#
 Ainda não morreu.#
 
+12513#Causa da destruição da torre###
+Parece que o responsável por toda essa confusão se instalou dentro da torre parcialmente destruída. Vamos verificar que tipo de ser ele é.#
+Novo dono da torre#
+
+12514#Sequelas de entrar na torre###
+Entrar e sair deste lugar consome muita energia mental. Mesmo que ainda haja assuntos pendentes, é melhor voltar depois de 3 dias.#
+Reentrada às 4h da manhã após 3 dias#
+
+12515#Encontro com o novo dono da torre###
+O novo dono da torre não matou todos os habitantes dela. É realmente generoso, mas, ao ver os monstros sendo expulsos, fica impossível imaginar o quanto ele é forte.#
+Vamos nos preservar.#
+
+12516#Segredo da fonte 1###
+Vença após amplificar o poder de Betelgeuse em 300% ou mais. Será adicionada uma função que usa <ITEM>Pó de Meteorito<INFO>1000372</INFO></ITEM> para elevar uma dificuldade específica até o limite.#
+Fortalecer atributo designado#
+
+12517#Segredo da fonte 1###
+Vença após amplificar o poder de Betelgeuse em 600% ou mais. Será adicionada uma função que usa <ITEM>Pó de Meteorito<INFO>1000372</INFO></ITEM> para selar uma dificuldade específica em 0.#
+Selar atributo designado#
+
+12518#Ser expulso###
+Certamente houve uma grande mudança no ecossistema da torre. Antes de confirmar quem é o dono do trono alterado, será necessário fazer uma boa limpeza.#
+Está na hora de sair.#
+
+12519#Paradeiro do dono original###
+Se a torre ficou assim, é provável que o ser que originalmente dominava este lugar também não esteja ileso.#
+Talvez não haja mais nada de especial.#
+
 12520#Mansão da Desilusão###
 Dizem que as formas de seres já derrotados ainda podem ser vistas na mansão do Sumo Sacerdote Yus. Aira espera que essas presenças sinistras sejam eliminadas pelas mãos dos viajantes antes que a Fúria divina seja invocada.#
 Derrote Demi Freya#
@@ -20613,6 +20641,18 @@ Recolha mercadorias#
 12539#Carga Espalhada (Sul)###
 Pode haver carga em algum lugar ao sul da Floresta do Lobo Cinzento. Procure e recolha-a. <NAVI>[Local estimado]<INFO>gw_fild01,228,59,0,101,0</INFO></NAVI>#
 Recolha mercadorias#
+
+12540#Torre Submersa###
+Necessitamos urgentemente de alguém que possa eliminar as criaturas distorcidas que infestaram o subsolo da torre destruída por Betelgeuse.#
+Purificação Subterrânea#
+
+12541#[Espera] Período de Maré Alta###
+Durante o período em que a maré está subindo, não é possível entrar na Torre Submersa.#
+Reentrada às 4h da manhã após 3 dias#
+
+12542#Bênção da Deusa###
+A bênção da deusa está com você. Alcançar um certo ponto portando essa bênção ajudará no seu crescimento.#
+Vamos descer logo.#
 
 12543####
 #
@@ -23259,75 +23299,75 @@ A troca de cartões do alfabeto é feita uma vez por dia. Está bem? Então, por
 Tempo de espera#
 
 14958#O guardião da caverna Nyail###
-<NAVI>[Festa Receptionist]<INFO>malangdo,133,170,0,101,0,</INFO></NAVI>Vá encontrá-los e parta para a Nyail Cave!#
-Para a Recepcionista da Festa#
+<NAVI>[Recepcionista do Festival]<INFO>malangdo,133,170,0,101,0,</INFO></NAVI>Vá encontrá-los e parta para a Caverna Nyail do Mar de Lasagna!#
+Para a Recepcionista do Festival#
 
 14959#O início do festival###
-Traga um Spaghetti, Ribbon Noodle e Meatball, que são ingredientes para fazer macarrão delicioso. - <NAVI>[Gerente da Festa]<INFO>malangdo,133,170,0,101,0,</INFO></NAVI>#
+Traga un Macarrão Espaguete, Macarrão Gravatinha e Almôndega, que são ingredientes para fazer macarrão delicioso. - <NAVI>[Gerente do Festival]<INFO>malangdo,133,170,0,101,0,</INFO></NAVI>#
 Almôndegas, ingredientes do macarrão#
 
-14960#Artesão de macarrão###
-Se você vier à Noodle Festa, deve experimentar o macarrão. Você pode provar o melhor macarrão visitando <NAVI>[Noodle Master Orzo]<INFO>malangdo,165,133,0,101,0,</INFO></NAVI>.#
-Noodle Master Orzo#
+14960#Mestre Macarrão###
+Se você vier à Noodle Festa, deve experimentar o macarrão. Você pode provar o melhor macarrão visitando <NAVI>[Mestre Macarrão Orzo]<INFO>malangdo,165,133,0,101,0,</INFO></NAVI>.#
+Mestre Macarrão Orzo#
 
 14961#Sobremesa de melancia###
-Lembra-me uma sobremesa fresca e doce em um dia quente de verão? <NAVI>[Helper Lami]<INFO>malangdo, 196,217,0,101,0,</INFO></INFO></NAVI> o guiará pelo evento onde você pode obter o Watermelon Pudding (Pudim de melancia).#
+Lembra-me uma sobremesa fresca e doce em um dia quente de verão? <NAVI>[Ajudante Rami]<INFO>malangdo, 196,217,0,101,0,</INFO></INFO></NAVI> o guiará pelo evento onde você pode obter o Watermelon Pudding (Pudim de melancia).#
 Ajudante Lami#
 
 14962#Caça aos Vermes do Mar###
-Você já ouviu falar de minhocas do mar? Visite <NAVI>[Helper Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI>para obter orientações sobre como caçar Sea Worms.#
+Você já ouviu falar de Macarrão Estragado? Visite <NAVI>[Ajudante Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI>para obter orientações sobre como caçar Macarrão Estragado.#
 Ajudante Domi#
 
-14963#Sorvete legal###
-No verão, o sorvete doce e fresco vem à mente. Você pode convidar <NAVI>[The Merchant Borame]<INFO>malangdo, 155,183,0,101,0,</INFO></NAVI> e também saborear sorvete aqui.#
+14963#Sorvete refrescante###
+No verão, o sorvete doce e fresco vem à mente. Você pode convidar <NAVI>[Comerciante Borame]<INFO>malangdo, 155,183,0,101,0,</INFO></NAVI> e também saborear sorvete aqui.#
 O Mercador Borame#
 
 14964#Ingredientes do macarrão###
-<NAVI>[Noodle Master Orzo]<INFO>malangdo,165,133,0,101,0,</INFO></NAVI>Leve a ele 5 espaguetes que andam no redemoinho, 5 noodles de fita que crescem na Dandy Star e 3 almôndegas.#
-Ingredientes de almôndegas e macarrão#
+<NAVI>[Mestre Macarrão Orzo]<INFO>malangdo,165,133,0,101,0,</INFO></NAVI>Leve a ele 5 Macarrão Espaguete dos Torvelinhos, 5 Macarrão Gravatinha das Estrelitas e 3 Almôndegas.#
+Almôndegas e macarrão#
 
-14965#Esperando: Today's Noodles (macarrão de hoje)###
-O evento de hoje está sendo preparado. Depois do amanhecer, você pode visitar <NAVI>[Noodle Maker Orzo]<INFO>malangdo, 165,133,0,101,0,</INFO></NAVI>.#
-Tempo de inicialização 04:00#
+14965#[Espera] Macarrão de hoje###
+O evento de hoje está sendo preparado. Depois do amanhecer, você pode visitar <NAVI>[Mestre Macarrão Orzo]<INFO>malangdo, 165,133,0,101,0,</INFO></NAVI>.#
+Renicia às 04:00#
 
 14966#Fãs de melancia###
-Quebre as melancias maduras enterradas no canteiro de melancias e encontre o leque promocional! Colete 10 e leve-os para <NAVI>[Helper Lami]<INFO>malangdo,196,217,0,101,0,</INFO></NAVI>.#
-10 ventiladores promocionais#
+Quebre as melancias maduras enterradas no canteiro de melancias e encontre o leques do festival! Colete 10 e leve-os para <NAVI>[Ajudante Rami]<INFO>malangdo,196,217,0,101,0,</INFO></NAVI>.#
+10 Leques do Festival#
 
-14967#Esperando: Fãs de melancia###
-O evento de hoje terminou. Depois do amanhecer, você poderá participar novamente visitando <NAVI>[Helper Lami]<INFO>malangdo,196,217,0,101,0,</INFO></NAVI>.#
-Tempo de inicialização 04:00#
+14967#[Espera] Fãs de melancia###
+O evento de hoje terminou. Depois do amanhecer, você poderá participar novamente visitando <NAVI>[Ajudante Rami]<INFO>malangdo,196,217,0,101,0,</INFO></NAVI>.#
+Reinicia às 04:00#
 
-14968#Caça aos Vermes do Mar###
-Pegue 10 vermes marinhos e traga 10 peles de macarrão duro para mim, <NAVI>[Ajudante Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI>.#
-10 Peles de Macarrão Duro#
+14968#Caça ao Macarrão Estragado###
+Cace 10 Macarrão Estragado e traga 10 peles de Macarrão Podre para mim, <NAVI>[Ajudante Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI>.#
+10 Peles de Macarrão Podre#
 
-14969#Em espera: Caça aos Vermes do Mar###
-Você deve estar cansado tentando pegar os fortes Vermes do Mar, mas, por favor, descanse hoje e aproveite o festival novamente depois do amanhecer! - <NAVI>[Helper Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI>#
+14969#[Espera] Caça ao Macarrão Estragado###
+Você deve estar cansado tentando pegar os fortes Macarrões Estragados, mas, por favor, descanse hoje e aproveite o festival novamente depois do amanhecer! - <NAVI>[Ajudante Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI>#
 Tempo de inicialização 04:00#
 
 14970#Sorvete fresco e doce###
-Pegue 5 redemoinhos pequenos e 5 Dandy Stars cada e me traga 5 Noodle Sap. - <NAVI>[The Merchant Borame]<INFO>malangdo,155,183,0,101,0,</INFO></NAVI>#
+Cace 5 Torvelinho os e 5 Estrelitas cada e me traga 5 Noodle Sap. - <NAVI>[The Merchant Borame]<INFO>malangdo,155,183,0,101,0,</INFO></NAVI>#
 5 Noodle Sap#
 
-14971#Esperando: Sorvete fresco e doce###
+14971#[Espera] Sorvete fresco e doce###
 Você participou recentemente de um evento? A regra é uma vez por dia, portanto, faça uma pausa e volte. Está bem? - <NAVI>[O Mercador Borame]<INFO>malangdo,155,183,0,101,0,</INFO></NAVI>#
 Tempo de inicialização 04:00#
 
-14972#Cupom: Evento Complete Noodle###
-Como foi o macarrão de hoje? Depois de concluir todos os eventos de hoje, vá para <NAVI>[Coupon Reception]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
-Confira o Noodle Maker Orzo#
+14972#Cupom: Evento de Macarrão Completo###
+Como foi o macarrão de hoje? Depois de concluir todos os eventos de hoje, vá para <NAVI>[Recepção de Cupons]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
+Confira o Mestre Macarrão Orzo#
 
 14973#Cupom: Sobremesa Completa de Melancia###
-Você terminou o Watermelon Crushing Event (Evento de esmagamento de melancia). Depois de concluir todos os quatro eventos de hoje, vá para <NAVI>[Coupon Reception]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
-Confira o Helper Lami#
+Você terminou o Watermelon Crushing Event (Evento de esmagamento de melancia). Depois de concluir todos os quatro eventos de hoje, vá para <NAVI>[Recepção de Cupons]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
+Confira o Ajudante Rami#
 
-14974#Cupom: Vermes do Mar Completo###
-Você pegou todos os Vermes do Mar. Depois de concluir todos os quatro eventos de hoje, vá para <NAVI>[Coupon Reception]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
-Confira o Helper Domi#
+14974#Cupom: Macarrão Estragado Completo###
+Você pegou todos os Macarrões Estragados. Depois de concluir todos os quatro eventos de hoje, vá para <NAVI>[Recepção de Cupons]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
+Confira o Ajudante Domi#
 
 14975#Cupom: Sorvete Completo###
-Como estava o sorvete gelado? Depois de concluir todos os quatro eventos de hoje, vá para <NAVI>[Coupon Reception]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
+Como estava o sorvete gelado? Depois de concluir todos os quatro eventos de hoje, vá para <NAVI>[Recepção de Cupons]<INFO>malangdo, 141,155,0,101,0,</INFO>e carimbe o cupom!#
 Confira O Mercador Borame#
 
 15000#Vivência de status anormais###
@@ -25026,53 +25066,53 @@ Decidi fazer o teste para me tornar um Inquisidor. Devo entrar na ala subterrân
 Finalmente, posso me tornar um Inquisidor! Devo me preparar para minha cerimônia de nomeação e voltar para <NAVI>[Einhar]<INFO>prt_monk,97,214,0,101,0</INFO></NAVI>.#
 Mudança para Inquisidor#
 
-16461#Túmulo do Remorso###
-A <NAVI>[Princesa]<INFO>dali,124,88,0,101,0</INFO></NAVI> de um reino estranho parece ter um favor a pedir ao aventureiro.#
-Fale com a Princesa#
+16461#Túmulo do Arrependimento###
+A <NAVI>[princesa]<INFO>dali,124,88,0,101,0</INFO></NAVI> de um reino desconhecido parece querer pedir algo ao aventureiro.#
+Fale com Princesa do Arrependimento#
 
-16462#Túmulo do Remorso###
-Para ouvir mais sobre a história da princesa, vamos seguir <NAVI>[her]<INFO>dali,79,112,0,101,0</INFO></NAVI>.#
-Fale com a Princesa#
+16462#Túmulo do Arrependimento###
+Para ouvir mais da história da princesa, vamos segui-la <NAVI>[por trás]<INFO>dali,79,112,0,101,0</INFO></NAVI>.#
+Fale com Princesa do Arrependimento#
 
-16463#Túmulo do Remorso###
-Depois de ouvir a história de <NAVI>[Princess]<INFO>dali02,78,116,0,101,0</INFO></NAVI>, vamos para a Tumba do Remorso.#
-Fale com a Princesa#
+16463#Túmulo do Arrependimento###
+Depois de ouvir a história da <NAVI>[princesa]<INFO>dali02,78,116,0,101,0</INFO></NAVI>, siga para Túmulo do Arrependimento.#
+Fale com Princesa do Arrependimento#
 
-16464#[Espera] Túmulo do Remorso###
-Essa missão pode ser aceita novamente quando o tempo de espera expirar. A missão pode ser aceita por meio de <NAVI>[Princess of Sorrow]<INFO>dali02,78,116,0,101,0</INFO></NAVI>.#
-Reseta 4 da manhã#
+16464#Túmulo do Arrependimento###
+Esta missão é diária e pode ser aceita e realizada novamente quando o tempo de espera terminar. A missão pode ser aceita por meio de <NAVI>[Princesa do Arrependimento]<INFO>dali02,78,116,0,101,0</INFO></NAVI>.#
+Reinicia às 04h#
 
-16465#O fio condutor de um relacionamento quebrado###
-<NAVI>[Marquês]<INFO>dali02,78,112,0,101,0</INFO></NAVI> espera enviar o Espadachim Mágico Sakray, que não tem nenhum relacionamento com a princesa, para fora do palácio.#
+16465#Fio de Laço Rompido###
+<NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI> deseja expulsar do palácio Espadachim Mágico Sakray, que já não possui nenhum laço restante com a princesa.#
 #
 
-16466#[Espera] O fio de um relacionamento quebrado###
-Essa missão pode ser aceita novamente quando o tempo de espera expirar. A missão pode ser aceita por meio de <NAVI>[Marquis]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
-Reseta 4 da manhã#
+16466#Fio de Laço Rompido-Aguardando###
+Esta missão é diária e pode ser aceita e realizada novamente quando o tempo de espera terminar. A missão pode ser aceita por meio de <NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
+Reinicia às 04h#
 
-16467#Lament of the Princess (Lamento da Princesa)###
-<NAVI>[Marquês]<INFO>dali02,78,112,0,101,0</INFO></NAVI> quer que você dê um descanso à princesa que já perdeu a cabeça.#
+16467#Corte em Lágrimas###
+<NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI>, seguindo a ordem da princesa, deseja que você acalme a princesa que perdeu a razão e está atacando.#
 #
 
-16468#[Espera] Lament of the Princess###
-Essa missão pode ser aceita novamente quando o tempo de espera expirar. A missão pode ser aceita por meio de <NAVI>[Marquis]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
-Reseta 4 da manhã#
+16468#Corte em Lágrimas-Aguardando###
+Esta missão é diária e pode ser aceita e realizada novamente quando o tempo de espera terminar. A missão pode ser aceita por meio de <NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
+Reinicia às 04h#
 
-16469#Memórias Fragmentadas###
-<NAVI>[Marquis]<INFO>dali02,78,112,0,101,0</INFO></NAVI> quer que você colete 3 Memórias para descobrir a história completa do incidente.#
+16469#Memória Estilhaçada###
+<NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI> deseja que você reúna 3 fragmentos de memória para descobrir toda a verdade sobre o incidente.#
 #
 
-16470#[Espera] Memórias Fragmentadas###
-Essa missão pode ser aceita novamente quando o tempo de espera expirar. A missão pode ser aceita por meio de <NAVI>[Marquis]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
-Reseta às 04:00 manhã#
+16470#Memória Estilhaçada-Aguardando###
+Esta missão é diária e pode ser aceita e realizada novamente quando o tempo de espera terminar. A missão pode ser aceita por meio de <NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
+Reinicia às 04h#
 
-16471#Passado fragmentado###
-<NAVI>[Marquês]<INFO>dali02,78,112,0,101,0</INFO></NAVI> quer que você colete 10 Fragmentos do Passado para que a presença deles não seja esquecida.#
+16471#Passado em Fragmentos###
+<NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI> deseja que você reúna 10 fragmentos do passado para que o fato de que eles existiram não seja esquecido.#
 #
 
-16472#[Espera] Passado Fragmentado###
-Essa missão pode ser aceita novamente quando o tempo de espera expirar. A missão pode ser aceita por meio de <NAVI>[Marquis]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
-Reseta às 04:00 manhã#
+16472#Passado em Fragmentos-Aguardando###
+Esta missão é diária e pode ser aceita e realizada novamente quando o tempo de espera terminar. A missão pode ser aceita por meio de <NAVI>[Marquês do Arrependimento]<INFO>dali02,78,112,0,101,0</INFO></NAVI>.#
+Reinicia às 04h#
 
 16473#Fragmento de Memória###
 #
@@ -25623,108 +25663,108 @@ Você pode usar a água benta que trouxe para cultivar os flocos de neve mágico
 Tempo de espera#
 
 17307#Festival do Macarrão###
-<NAVI>[Diretor do Festival]<INFO>malangdo,133,168,0,101,0,</INFO></NAVI> levará seu personagem para a caverna do mar de Lasagna!#
-Fale com o Oceanógrafo#
+O [<NAVI>Gerente do Festival<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>] levará seu personagem para a caverna do mar de Lasagna!#
+Fale com o Gerente do Festival#
 
 17308#Festival do Macarrão###
-Traga 1 Almôndega, 1 Macarrão Gravatinha, 1 Macarrão Parafuso e 1 Macarrão Espaguete para o <NAVI>[Diretor do Festival]<INFO>malangdo,133,168,0,101,0,</INFO></NAVI>#
+Traga 1 Almôndega, 1 Macarrão Gravatinha, 1 Macarrão Parafuso e 1 Macarrão Espaguete para o <NAVI>[Gerente do Festival]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>#
 Traga os itens#
 
 17309#Cozinhar Macarrão###
-Encontre o <NAVI>[Chef Orochi]<INFO>malangdo,165,133,0,101,0,</INFO></NAVI> no Festival do Macarrão.#
-Chef Orochi#
+Encontre o [<NAVI>Mestre Macarrão Orzo<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>] no Festival do Macarrão.#
+Mestre Macarrão Orzo#
 
 17310#Colheita de Melancia###
-Encontre o <NAVI>[Fazendeiro Rami]<INFO>malangdo,196,217,0,101,0,</INFO></NAVI> no Festival do Macarrão.#
-Fazendeiro Rami#
+Encontre o [<NAVI>Ajudante Rami<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>] no Festival do Macarrão.#
+Ajudante Rami#
 
 17311#Macarrão Estragado###
-Encontre o <NAVI>[Marinheiro Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI> no Festival do Macarrão.#
-Marinheiro Domi#
+Encontre o [<NAVI>Ajudante Domi<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>] no Festival do Macarrão.#
+Ajudante Domi#
 
-17312#Festival do Macarr?o###
-Se voc? estiver interesse em outro macarr?o, recomendo o <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>. Voc? n?o vai se decepcionar.#
+17312#Festival do Macarrão###
+Se você tiver interesse em outro macarrão, recomendo falar com <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>.#
 Fale com Nike#
 
 17313#Cozinhar Macarrão###
-<NAVI>[Chef Orochi]<INFO>malangdo,165,133,0,101,0,</INFO></NAVI> pediu 5 Macarrão Gravatinha, 5 Macarrão Espaguete, 5 Macarrão Parafuso e 3 Almôndegas.#
+Traga 5 Macarrão Gravatinha, 5 Macarrão Espaguete, 5 Macarrão Parafuso e 3 Almôndegas para o <NAVI>[Mestre Macarrão Orzo]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>.#
 Traga os itens#
 
 17314#[Espera] Cozinhar Macarrão###
-Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar <NAVI>[Chef Orochi]<INFO>malangdo,165,133,0,101,0,</INFO></NAVI> novamente.#
-Reinicio às 04:00 (UTC-3)#
+Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar o <NAVI>[Mestre Macarrão Orzo]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>.#
+Reinicia às 04:00#
 
 17315#Colheita de Melancia###
-<NAVI>[Fazendeiro Rami]<INFO>malangdo,196,217,0,101,0,</INFO></NAVI> pediu a caça de algumas Melancias e trazer 10 Leques do Festival.#
+Elimine Melancias e traga 10 Leques do Festival para o <NAVI>[Ajudante Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>.#
 10 Leques do Festival#
 
 17316#[Espera] Colheita de Melancia###
-Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar <NAVI>[Fazendeiro Rami]<INFO>malangdo,196,217,0,101,0,</INFO></NAVI> novamente.#
-Reinicio às 04:00 (UTC-3)#
+Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar o <NAVI>[Ajudante Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>.#
+Reinicia às 04:00.#
 
 17317#Macarrão Estragado###
-<NAVI>[Marinheiro Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI> pediu que você traga 10 Macarrões Podres.#
+Traga 10 Macarrão Podre para o <NAVI>[Ajudante Domi]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>.#
 10 Macarrão Podre#
 
 17318#[Espera] Macarrão Estragado###
-Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar <NAVI>[Marinheiro Domi]<INFO>malangdo,183,221,0,101,0,</INFO></NAVI> novamente.#
-Reinicio às 04:00 (UTC-3)#
+Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar o <NAVI>[Ajudante Domi]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>#
+Reinicia às 04:00#
 
 17319#Festival do Macarrão###
-Voc? poderia perguntar ao <NAVI>[meu amigo]<INFO>lasagna,150,98,0,101,0,</INFO></NAVI>, que mora ao meu lado, como chegar ? Caverna?#
+Vamos conversar com <NAVI>[Chipol]<INFO>lasagna,150,98,0,101,0,</INFO></NAVI>.#
 Fale com Chipol#
 
 17320#Festival do Macarrão###
-Encontre o <NAVI>[Pescador]<INFO>malangdo,209,110,0,101,0,</INFO></NAVI>.#
+Encontre o <NAVI>[Pescador]<INFO>lasagna,213,254,0,101,0,</INFO></NAVI>.#
 Fale com o Pescador#
 
 17321#Festival do Macarrão###
-O pescador pediu que você se encontre com <NAVI>[Nike]<INFO>malangdo,162,218,0,101,0,</INFO></NAVI>.#
+O pescador pediu que você se encontre com <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>.#
 Fale com Nike#
 
 17322#Festival do Macarrão###
-Vamos reportar a situação ao <NAVI>[Diretor do Festival]<INFO>malangdo,140,164,0,101,0,</INFO></NAVI>.#
-Fale com o Diretor#
+Vamos entrar na Caverna Nyail do Mar de Lasagna falando com o <NAVI>[Gerente do Festival]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>·Î!!#
+Fale com o Gerente do Festival#
 
 17323#Festival do Macarrão###
-Traga 1x Cauda de Peixe, 1x Tinta de Polvo, 1x Macarrão Espaguete e 1x Almôndega. - <NAVI>[Nike]<INFO>malangdo,162,218,0,101,0,</INFO></NAVI>#
+Traga 1x Cauda de Peixe, 1x Tinta de Polvo, 1x Macarrão Espaguete e 1x Almôndega. para <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>#
 Colete os itens#
 
 17324#Festival do Macarrão###
-Viajante, por favor, entregue esse macarrão <NAVI>[nesse local]<INFO>malangdo,168,219,101,0,</INFO></NAVI>.#
+Viajante, por favor, entregue esse macarrão <NAVI>[aqui]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>.#
 Fale com Po#
 
 17325#Festival do Macarrão###
-Agora que terminamos, vamos voltara falar com <NAVI>[Nike]<INFO>malangdo,162,218,0,101,0,</INFO></NAVI>.#
+Agora que terminamos, vamos voltar a falar com <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>.#
 Fale com Nike#
 
 17326#Especial da Casa###
-Traga 1x Cauda de Peixe, 5x Tinta de Polvo, 5x Macarrão Espaguete e 5x Almôndega. - <NAVI>[Nike]<INFO>malangdo,162,218,0,101,0,</INFO></NAVI>#
+Traga 1x Cauda de Peixe, 5x Tinta de Polvo, 5x Macarrão Espaguete e 5x Almôndega para <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>#
 Colete os itens#
 
 17327#[Espera] Especial da Casa###
-Você já ajudou muito por hoje! Por favor, venha com a mesma energia altruísta amanhã! - <NAVI>[Nike]<INFO>malangdo,162,218,0,101,0,</INFO></NAVI>#
-Volte amanhã.­#
+Você já ajudou muito por hoje! Por favor, venha com a mesma energia altruísta amanhã! - <NAVI>[Nike]<INFO>lasagna,227,110,0,101,0,</INFO></NAVI>#
+Reinicia às 04:00#
 
 17328#[Feito] Cozinhar Macarrão###
-Se você completou todas as atividades de hoje, encontre o <NAVI>[Organizador]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI> para confirar sua presença no festival!#
-Fale com o Organizador#
+Se você completou todas as atividades de hoje, encontre o [<NAVI>Organizador<INFO>lasagna,83,206,0,101,0,</INFO></NAVI>] para confirmar sua presença no festival!#
+Missão Completa!#
 
 17329#[Feito] Colheita de Melancia###
-Se você completou todas as atividades de hoje, encontre o <NAVI>[Organizador]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI> para confirar sua presença no festival!#
-Fale com o Organizador#
+Se você completou todas as atividades de hoje, encontre o [<NAVI>Organizador<INFO>lasagna,83,206,0,101,0,</INFO></NAVI>] para confirmar sua presença no festival!#
+Missão Completa!#
 
 17330#[Feito] Macarrão Estragado###
-Se você completou todas as atividades de hoje, encontre o <NAVI>[Organizador]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI> para confirar sua presença no festival!#
-Fale com o Organizador#
+Se você completou todas as atividades de hoje, encontre o [<NAVI>Organizador<INFO>lasagna,83,206,0,101,0,</INFO></NAVI>] para confirmar sua presença no festival!#
+Missão Completa!#
 
 17331#Festival do Macarrão###
-Se você completou todas as atividades de hoje, encontre o <NAVI>[Organizador do Festival]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI>.#
+Se você completou todas as atividades de hoje, encontre o <NAVI>[Organizador]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI>#
 Ao Organizador#
 
 17332#Visual do Macarrão###
+Você recebeu o visual desse ano!#
 Feliz festival!#
-Você recebeu o visual desse ano#
 
 17333#O Legado do Sábio###
 Parece que houve um problema ao compartilhar a lista de convidados pela rede interna da mansão. Vamos verificar com a <NAVI>[Gerente Alpha]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>.#
@@ -26291,11 +26331,11 @@ Aqueles que pensam que são melhores e têm mais habilidades do que os outros de
 Vá para o local mencionado#
 
 17539#Caminho do Céu: 1º Bom Karma###
-Se você ajudar os outros, eu também o ajudarei. Há uma <NAVI>[pessoa]<INFO>veias,238,110,0,101,0,</INFO></NAVI> que fez um desejo para mim, vamos visitá-la lá.#
+Se você ajudar os outros, eu também o ajudarei. Há uma <NAVI>[pessoa]<INFO>veins,238,110,0,101,0,</INFO></NAVI> que fez um desejo para mim, vamos visitá-la lá.#
 Visite a pessoa necessitada#
 
 17540#Caminho do Céu: 1º Bom Karma###
-Ajude a pessoa necessitada. Traga 3 Sticky Poison, 20 Maneater Blossom, 3 Maneater Root para <NAVI>[Veil]<INFO>veins,238,110,0,101,0,</INFO></NAVI>.#
+Ajude a pessoa necessitada. Traga 3 Veneno Pegajoso, 20 Flor de Planta Carnívora, 3 Raiz de Planta Carnívora para <NAVI>[Veil]<INFO>veins,238,110,0,101,0</INFO></NAVI>.#
 Reunir os materiais#
 
 17541#Caminho do Céu: 2º Bom Karma###
@@ -26319,7 +26359,7 @@ Finalmente encontrei a agulha no deserto. Vamos voltar para <NAVI>[M]<INFO>moroc
 Fale com M#
 
 17546#Caminho do Céu: 4º Bom Karma###
-O último... vamos ajudar aquele <NAVI>[person]<INFO>payon,215,201,0,101,0,</INFO></NAVI> que vimos em Payon.#
+O último... vamos ajudar aquele <NAVI>[pessoa]<INFO>payon,215,201,0,101,0,</INFO></NAVI> que vimos em Payon.#
 Ir para Payon#
 
 17547#Caminho do Céu: 4º Bom Karma###
@@ -26345,6 +26385,62 @@ Falar com Banyak#
 17552#Caminho do asceta: treinamento severo###
 'Tudo o que <NAVI>[ I ]<INFO>payon,197,122,0,101,0,</INFO></NAVI> pode fazer é ensinar. O aprendizado e o domínio dependem inteiramente do aluno.'#
 Concluir o treinamento#
+
+17554#Pato Perdido###
+Em Lasagna, há um [<NAVI>Pato<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>] perto do local de pesca ao sul. Se o proprietário não vier buscá-lo, leve-o ao Centro de Achados e Perdidos.#
+Ao Pato#
+
+17555#Cozinhar Macarrão###
+<NAVI>[Mestre Macarrão Orzo]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>, em Lasagna, pediu 5 Macarrão Gravatinha, 5 Macarrão Espaguete, 5 Macarrão Parafuso e 3 Almôndegas.#
+Traga os itens#
+
+17556#Festival Completado!###
+Ajudei os patos. Como você completou todos os 4 eventos, vá para <NAVI>[Malangdo]<INFO>malangdo,141,155,0,101,0,</INFO></NAVI>.#
+Fale com o Pato#
+
+17557#Botão de Estrela?!###
+Vá para a <NAVI>[Caverna Nyail]<INFO>lasa_sea,21,144,0,101,0,</INFO></NAVI>! Lá, colete botões que se parecem com uma estrela.#
+Para a Caverna#
+
+17558#Botão de Estrela?!###
+Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,74,202,0,101,0,</INFO></NAVI>.#
+Encontre Patos#
+
+17559#Botão de Estrela?!###
+Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,135,70,0,101,0,</INFO></NAVI>.#
+Encontre Patos#
+
+17560#Botão de Estrela?!###
+Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,18,51,0,101,0,</INFO></NAVI>.#
+Encontre Patos#
+
+17561#Botão de Estrela?!###
+Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,197,67,0,101,0,</INFO></NAVI>.#
+Encontre Patos#
+
+17562#Botão de Estrela?!###
+Vamos voltar para <NAVI>[Lasagna]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+Encontre Patos#
+
+17563#Botão de Estrela?!###
+Parece confuso, vamos aguardar o Pato em­ <NAVI>[Lasagna]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+Aguarde#
+
+17564#Botão de Estrela?!###
+Converse com o <NAVI>[Pato]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+Fale com Pato­#
+
+17565#Botão de Estrela?!###
+Vá para a Caverna, elimine Estrelitas para conseguir 20 Botões de Estrela e entregue-as para <NAVI>[mim]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+20 Botões de Estrela#
+
+17566#[Espera] Botão de Estrela?!###
+Vamos esperar o dia seguinte para mais. - <NAVI>[Pato]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>#
+Reinicia às 04:00#
+
+17567#Botão de Estrela?!###
+Vá para a Caverna, elimine Estrelitas para conseguir 20 Botões de Estrela e entregue-as para <NAVI>[mim]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+20 Botões de Estrela#
 
 17568#Caminho do Céu: Ponto Marcado###
 A busca na área marcada foi concluída.#
@@ -27362,7 +27458,7 @@ Encontre Leno#
 Derrote 5 Zumbis para acalmar <NAVI>[Leno]<INFO>pay_dun00,155,174,0,101,0</INFO></NAVI>#
 Ajudando Leno#
 
-21015#[É] Guerra aos Mortos###
+21015#Guerra aos Mortos###
 Na Vila dos Arqueiros, e elimine 20 Esqueletos e 10 Zumbis de dentro da <NAVI>[Caverna de Payon]<INFO>pay_dun00,155,174,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Elimine os monstros#
 
@@ -27370,7 +27466,7 @@ Elimine os monstros#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda]<INFO>pay_arche,41,133,0,101,0</INFO></NAVI> na Vila dos Arqueiros.#
 Reseta 4 da manhã#
 
-21017#[É] Ritual de Exorcismo###
+21017#Ritual de Exorcismo###
 No 3º subsolo da Caverna de Payon, elimine 15 Munaks e 15 Bonguns. Ao derrotá-los, haverá uma chance de conseguir <ITEM>[Amuleto]<INFO>609</INFO></ITEM> direto para o seu inventário. Traga 15 deles. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 15 Amuletos#
 
@@ -27378,7 +27474,7 @@ No 3º subsolo da Caverna de Payon, elimine 15 Munaks e 15 Bonguns. Ao derrotá-
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda]<INFO>pay_arche,41,133,0,101,0</INFO></NAVI> na Vila dos Arqueiros.#
 Reseta 4 da manhã#
 
-21019#[É] Oferenda aos Espíritos###
+21019#Oferenda aos Espíritos###
 Colete 10 <ITEM>[Últimos Suspiros]<INFO>25079</INFO></ITEM>. Pegue o Licor de Lotus com o <NAVI>[Aldeão]<INFO>payon,192,109,0,101,0</INFO></NAVI>, vá na Caverna de Payon e encontre os Espíritos Malignos até conseguir o item Último Suspiro. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 10 Últimos Suspiros#
 
@@ -27386,7 +27482,7 @@ Colete 10 <ITEM>[Últimos Suspiros]<INFO>25079</INFO></ITEM>. Pegue o Licor de L
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Aldeão]<INFO>payon,192,109,0,101,0</INFO></NAVI> na Caverna de Payon.#
 Reseta 4 da manhã#
 
-21021#[É] Cheiro de Magia###
+21021#Cheiro de Magia###
 O <NAVI>[Pesquisador]<INFO>payon,198,111,0,101,0</INFO></NAVI> encontrou vestígios de magia nas Lenços de Menina da Sohee. Elimine algumas delas e traga 3 unidades de <ITEM>[Lenço de Menina]<INFO>25188</INFO></ITEM> para ele. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 3 Lenços de Menina#
 
@@ -27414,7 +27510,7 @@ Encontre Ricardo#
 Elimine o monstro Salgueiro, que fica nos arredores de Payon, e traga 2 unidades de <ITEM>[Tronco Estéril]<INFO>1068</INFO></ITEM> para <NAVI>[Ricardo]<INFO>pay_fild01,328,351,0,101,0</INFO></NAVI>.#
 2 Tronco Estéril#
 
-21028#[É] Trabalho Braçal###
+21028#Trabalho Braçal###
 Ricardo, o filho de um Pai Nervoso, que você faça o trabalho para ele. Elimine Salgueiros e colete <ITEM>[Tronco Estéril]<INFO>1068</INFO></ITEM>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 3 Tronco Estéril#
 
@@ -27426,7 +27522,7 @@ Reseta 4 da manhã#
 As Jiboias tem a mesma cor dos arbustos da Floresta de Payon, por isso, as crianças se confundem e podem pisar nelas sem querer. Uma <NAVI>[Moça Assustada]<INFO>payon,217,94,0,101,0</INFO></NAVI> pediu que você elimine 5 Jiboias.#
 Caçar Jiboia#
 
-21031#[É] Medo de Cobras###
+21031#Medo de Cobras###
 Uma <NAVI>[Moça Assustada]<INFO>payon,217,94,0,101,0</INFO></NAVI> pediu que você elimine 5 Jiboias na floresta próxima a Payon. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Jiboia#
 
@@ -27438,7 +27534,7 @@ Reseta 4 da manhã#
 A <NAVI>[Vovozinha]<INFO>payon,237,64,0,101,0</INFO></NAVI> de Payon disse que viu cebolas na floresta. Elimine o Rabo de Verme e traga 1 <ITEM>[Escama Afiada]<INFO>906</INFO></ITEM>.#
 1 Escama Afiada#
 
-21034#[É] Não é uma Cebola###
+21034#Não é uma Cebola###
 Na floresta próxima de Payon, elimine os Rabos de Verme, que se parecem com uma cebola verde. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Rabo de Verme#
 
@@ -27450,7 +27546,7 @@ Reseta 4 da manhã#
 O <NAVI>[Vovozinho]<INFO>payon,239,64,0,101,0</INFO></NAVI> de Payon disse que viu um cogumelo suspeito na floresta. Já que é claramente um monstro, você deve eliminar o cogumelo chamado 'Esporo'.#
 Caçar Esporos#
 
-21037#[É] Cogumelo Estranho###
+21037#Cogumelo Estranho###
 O <NAVI>[Vovozinho]<INFO>payon,239,64,0,101,0</INFO></NAVI> de Payon parece surpreso com a fertilidade do Esporo. Ele quer que você o elimine antes que a floresta fique coberta de esporos. Vamos caçar Esporos! Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Esporo#
 
@@ -27462,7 +27558,7 @@ Reseta 4 da manhã#
 Eu fiz o trabalho de Ricardo. Agora vamos até o <NAVI>[Pai Nervoso]<INFO>payon,173,77,0,101,0</INFO></NAVI>, que está esperando por notícias.#
 Fale com o Pai Nervoso#
 
-21040#[É] Fugitivos da Prisão###
+21040#Fugitivos da Prisão###
 Na prisão de Glastheim, um prisioneiro que já havia morrido foi revivido como um morto-vivo e está caminhando. Elimine o Esqueleto Prisioneiro e o Zumbi Prisioneiro para <NAVI>[Karon]<INFO>glast_01,206,291,0,101,0</INFO></NAVI> em Glastheim. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Prisioneiros#
 
@@ -27470,7 +27566,7 @@ Caçar Prisioneiros#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Karon]<INFO>glast_01,206,291,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta 4 da manhã#
 
-21042#[É] Torturador Sádico###
+21042#Torturador Sádico###
 Dizem que na Prisão de Glastheim, há demônios torturadores. <NAVI>[Nadir]<INFO>glast_01,204,291,0,101,0</INFO></NAVI> tentou ajudar <NAVI>[Karon]<INFO>glast_01,206,291,0,101,0</INFO></NAVI>, mas não foi o suficiente. <NAVI>[Nadir]<INFO>glast_01,204,291,0,101,0</INFO></NAVI> pediu para você derrotar Rybio. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Rybio#
 
@@ -27478,7 +27574,7 @@ Caçar Rybio#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Nadir]<INFO>glast_01,204,291,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta 4 da manhã#
 
-21044#[É] Gosto da Vingança###
+21044#Gosto da Vingança###
 Dizem que na Prisão de Glastheim, há demônios torturados. <NAVI>[Nadir]<INFO>glast_01,204,291,0,101,0</INFO></NAVI> tentou ajudar <NAVI>[Karon]<INFO>glast_01,206,291,0,101,0</INFO></NAVI>, mas não foi o suficiente. <NAVI>[Nadir]<INFO>glast_01,204,291,0,101,0</INFO></NAVI> pediu para você derrotar Injustiçados. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Injustiçado#
 
@@ -27490,7 +27586,7 @@ Reseta 4 da manhã#
 O jeito que o <NAVI>[Pesquisador]<INFO>payon,198,111,0,101,0</INFO></NAVI> trabalha parece estranho, mas acho que o verei com mais frequência.#
 #
 
-21047#[É] Pesadelo Soviético###
+21047#Pesadelo Soviético###
 Elimine Kikimoras na ^4d4dffFloresta Encantada de Moscóvia^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Kikimora#
 
@@ -27498,7 +27594,7 @@ Caçar Kikimora#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21049#[É] Bonecas Delicadas###
+21049#Bonecas Delicadas###
 Elimine Miyabi Ningyo no ^4d4dffLabirinto de Tatames em Amatsu^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Miyabi Ningyo#
 
@@ -27506,7 +27602,7 @@ Caçar Miyabi Ningyo#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21051#[É] Areias Atacam?###
+21051#Areias Atacam?###
 Elimine Mi Gao nos ^4d4dffarredores de Louyang^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Mi Gao#
 
@@ -27514,7 +27610,7 @@ Caçar Mi Gao#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21053#[É] Lenda do Folclore###
+21053#Lenda do Folclore###
 Elimine Mula sem Cabeça na ^4d4dffFloresta de Brasilis^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Mula sem Cabeça#
 
@@ -27522,7 +27618,7 @@ Caçar Mula sem Cabeça#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21055#[É] Arauto do Templo###
+21055#Arauto do Templo###
 Elimine Tamruan no ^4d4dffSantuário Ancestral de Ayothaya^000000. A cidade pode ser acessada pelo barco em Alberta. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Tamruan#
 
@@ -27530,7 +27626,7 @@ Caçar Tamruan#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21057#[É] Pássaro Colorido###
+21057#Pássaro Colorido###
 Elimine Espírito do Vento na ^4d4dffFloresta de Brasilis^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Espírito do Vento#
 
@@ -27538,7 +27634,7 @@ Caçar Espírito do Vento#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21059#[É] Vovó Vidente###
+21059#Vovó Vidente###
 Elimine Baba-Yaga na ^4d4dffFloresta Encantada de Moscóvia^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Baba Yaga#
 
@@ -27546,7 +27642,7 @@ Caçar Baba Yaga#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21061#[É] Vigia Morto-Vivo###
+21061#Vigia Morto-Vivo###
 Elimine Zumbi Atirador no ^4d4dffLabirinto de Tatames em Amatsu^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Zumbi Atirador#
 
@@ -27554,7 +27650,7 @@ Caçar Zumbi Atirador#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21063#[É] Donzela Celestial###
+21063#Donzela Celestial###
 Elimine Ninfa Perversa na ^4d4dffTerra das Fadas em Kunlun^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Ninfa Perversa#
 
@@ -27562,7 +27658,7 @@ Caçar Ninfa Perversa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21065#[É] Tumba de Segredos###
+21065#Tumba de Segredos###
 Elimine Yao Jun e Mao Guai na ^4d4dffTumba Real de Louyang^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caça em Louyang#
 
@@ -27570,7 +27666,7 @@ Caça em Louyang#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21067#[É] Alguém à Espreita###
+21067#Alguém à Espreita###
 Elimine Shinobi no ^4d4dffLabirinto de Tatames em Amatsu^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Shinobi#
 
@@ -27578,7 +27674,7 @@ Caçar Shinobi#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21069#[É] Pêssegos e Yoyos###
+21069#Pêssegos e Yoyos###
 Elimine Pessegueira Encantada no ^4d4dffSantuário de Xi Wang Mu de Kunlun^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Pessegueiras#
 
@@ -27586,7 +27682,7 @@ Caçar Pessegueiras#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do quadro no Grupo do Éden.#
 Reseta 4 da manhã#
 
-21071#[É] Homem nas Nuvens###
+21071#Homem nas Nuvens###
 Elimine Ermitão Maligno no ^4d4dffTabuleiro de Go em Kunlun^000000. A cidade pode ser acessada pelo barco em Alberta.#
 Caçar Ermitão Maligno#
 
@@ -27706,7 +27802,7 @@ Você fez uma nova conexão com os aldeões!#
 Você fez uma nova conexão com os aldeões!#
 #
 
-21101#[É] Caça à Caçadora###
+21101#Caça à Caçadora###
 Na <NAVI>[Torre de Geffen]<INFO>gef_dun00,104,99,0,101,0</INFO></NAVI>, elimine aqueles monstros que estão proliferando rapidamente. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Moscas Caçadoras#
 
@@ -27714,11 +27810,11 @@ Caçar Moscas Caçadoras#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Estudante de Magia]<INFO>geffen,126,113,0,101,0</INFO></NAVI> em Geffen.#
 Reseta 4 da manhã#
 
-21103#[É] Caça à Caçadora###
+21103#Caça à Caçadora###
 Na <NAVI>[Torre de Geffen]<INFO>gef_dun00,104,99,0,101,0</INFO></NAVI>, elimine aqueles monstros que estão proliferando rapidamente. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Moscas Caçadoras#
 
-21104#[É] Magia Maligna###
+21104#Magia Maligna###
 Na <NAVI>[Torre de Geffen]<INFO>gef_dun01,115,236,0,101,0</INFO></NAVI>, elimine aqueles monstros que estão proliferando rapidamente. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caça na Torre#
 
@@ -27726,11 +27822,11 @@ Caça na Torre#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Estudante de Magia]<INFO>geffen,126,113,0,101,0</INFO></NAVI> em Geffen.#
 Reseta 4 da manhã#
 
-21106#[É] Magia Maligna###
+21106#Magia Maligna###
 Na <NAVI>[Torre de Geffen]<INFO>gef_dun01,115,236,0,101,0</INFO></NAVI>, elimine aqueles monstros que estão proliferando rapidamente. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caça na Torre#
 
-21107#[É] Seres Demoníacos###
+21107#Seres Demoníacos###
 Na <NAVI>[Torre de Geffen]<INFO>gef_dun02,106,132,0,101,0</INFO></NAVI>, elimine aqueles monstros que estão proliferando rapidamente. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Demônios#
 
@@ -27738,11 +27834,11 @@ Caçar Demônios#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Estudante de Magia]<INFO>geffen,126,113,0,101,0</INFO></NAVI> em Geffen.#
 Reseta 4 da manhã#
 
-21109#[É] Seres Demoníacos###
+21109#Seres Demoníacos###
 Na <NAVI>[Torre de Geffen]<INFO>gef_dun02,106,132,0,101,0</INFO></NAVI>, elimine aqueles monstros que estão proliferando rapidamente. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Demônios#
 
-21110#[É] Cavalos Sinistros###
+21110#Cavalos Sinistros###
 O <NAVI>[Homem Cansado]<INFO>gef_tower,48,140,0,101,0</INFO></NAVI> afirma que não consegue dormir porque tem pesadelos no subterrâneo da Torre de Geffen.#
 Caçar 10 Pesadelos#
 
@@ -27750,11 +27846,11 @@ Caçar 10 Pesadelos#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Homem Cansado]<INFO>gef_tower,48,140,0,101,0</INFO></NAVI> em Geffen.#
 Reseta 4 da manhã#
 
-21112#[É] Cavalos Sinistros###
+21112#Cavalos Sinistros###
 O <NAVI>[Homem Cansado]<INFO>gef_tower,48,140,0,101,0</INFO></NAVI> disse que teve um pesadelo. O Pesadelo é realmente o problema? Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar 10 Pesadelos#
 
-21113#[É] Dragões Fofinhos###
+21113#Dragões Fofinhos###
 <NAVI>[Petito]<INFO>geffen,40,113,0,101,0</INFO></NAVI> diz que Petites são muito violentos para se aproximar. Vá até o <NAVI>[campo dos petites]<INFO>gef_fild08,357,187,0,101,0</INFO></NAVI> verificar.#
 Caçar Petite Voador#
 
@@ -27762,11 +27858,11 @@ Caçar Petite Voador#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Petito]<INFO>geffen,40,113,0,101,0</INFO></NAVI> em Geffen.#
 Reseta 4 da manhã#
 
-21115#[É] Dragões Fofinhos###
+21115#Dragões Fofinhos###
 <NAVI>[Petito]<INFO>geffen,40,113,0,101,0</INFO></NAVI> diz que Petites são muito violentos para se aproximar. Vá até o <NAVI>[campo dos petites]<INFO>gef_fild08,357,187,0,101,0</INFO></NAVI> verificar.#
 Caçar Petite Voador#
 
-21116#[É] Dragões Fortinhos###
+21116#Dragões Fortinhos###
 O Petite Verde pode servir, então <NAVI>[Petito]<INFO>geffen,40,113,0,101,0</INFO></NAVI> quer que você vá até o <NAVI>[habitat]<INFO>gef_fild06,218,20,0,101,0</INFO></NAVI> deles. Quantos Petites você tem que lutar para encontrar um que não ataque? Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Petite Verde#
 
@@ -27774,7 +27870,7 @@ Caçar Petite Verde#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Petito]<INFO>geffen,40,113,0,101,0</INFO></NAVI> em Geffen.#
 Reseta 4 da manhã#
 
-21118#[É] Dragões Fortinhos###
+21118#Dragões Fortinhos###
 Vamos abordar Petites Verdes em seu <NAVI>[habitat]<INFO>gef_fild06,218,20,0,101,0</INFO></NAVI>. Se um Petite atacar, revide! Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Petite Verde#
 
@@ -27786,7 +27882,7 @@ Caçar Esqueleto Pirata#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Timothy]<INFO>alberta,154,224,0,101,0</INFO></NAVI> em Alberta.#
 Reseta 4 da manhã#
 
-21122#[É] Resgatar Amigos###
+21122#Resgatar Amigos###
 Elimine 20 Esqueletos Piratas no <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Esqueleto Pirata#
 
@@ -27806,7 +27902,7 @@ Caçar Kukre#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com Amora, a <NAVI>[Auxiliar da Zonda]<INFO>alberta_in,71,182,0,101,0</INFO></NAVI> em Alberta.#
 Reseta 4 da manhã#
 
-21127#[É] Barata do Mar###
+21127#Barata do Mar###
 Elimine Kukres no <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI> para encontrar algum tesouro que pode ter sido comido por ele. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Kukre#
 
@@ -27818,7 +27914,7 @@ Esconder 10 Dobrões#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com Amora, a <NAVI>[Auxiliar da Zonda]<INFO>alberta_in,71,182,0,101,0</INFO></NAVI> em Alberta.#
 Reseta 4 da manhã#
 
-21130#[É] Tesouro do Mar###
+21130#Tesouro do Mar###
 Vamos esconder <ITEM>[Dobrão]<INFO>25074</INFO></ITEM> para motivar os aventureiros no <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Esconder 10 Dobrões#
 
@@ -27842,7 +27938,7 @@ Reseta 4 da manhã#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com Amora, a <NAVI>[Auxiliar da Zonda]<INFO>alberta_in,71,182,0,101,0</INFO></NAVI> em Alberta.#
 Reseta 4 da manhã#
 
-21136#[É] Limpando o Navio###
+21136#Limpando o Navio###
 Para manter a promessa com o fantasma de Drake, elimine Hidras e colete 10 <ITEM>[Ossos]<INFO>932</INFO></ITEM>, 5 <ITEM>[Peles de Verme]<INFO>955</INFO></ITEM> e 5 <ITEM>[Tentáculos]<INFO>962</INFO></ITEM> no <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Colete os itens#
 
@@ -27850,11 +27946,11 @@ Colete os itens#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com Amora, a <NAVI>[Auxiliar da Zonda]<INFO>alberta_in,71,182,0,101,0</INFO></NAVI> em Alberta.#
 Reseta 4 da manhã#
 
-21138#[É] Navio Assombrado###
+21138#Navio Assombrado###
 Para manter a promessa com o fantasma de Drake, vamos eliminar os monstros no <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>. O Marinheiro Ágil é um monstro campeão que aparece raramente no 1º andar do Navio. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçada no Navio#
 
-21140#[É] Peregrinação Pacífica###
+21140#Peregrinação Pacífica###
 Para proteger os peregrinos e aventureiros que vêm e vão para o <NAVI>[Aeroporto de Rachel]<INFO>ra_fild12,296,200,0,101,0</INFO></NAVI>, vamos caçar Roween.#
 Caçar Roween#
 
@@ -27862,11 +27958,11 @@ Caçar Roween#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda Aeroportuário]<INFO>ra_fild12,296,200,0,101,0</INFO></NAVI> nas Planícies de Ida.#
 Reseta 4 da manhã#
 
-21142#[É] Peregrinação Pacífica###
+21142#Peregrinação Pacífica###
 Vamos caçar 30 Roweens para que o <NAVI>[Guarda Aeroportuário]<INFO>ra_fild12,296,200,0,101,0</INFO></NAVI> e os peregrinos fracos não se machuquem. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar 30 Roween#
 
-21143#[É] Guardião da Beleza###
+21143#Guardião da Beleza###
 Vingue-se do Jovem que ficou com o rosto desconfigurado. Vá até a <NAVI>[Caverna de Gelo]<INFO>ice_dun01,158,16,0,101,0</INFO></NAVI> e elimine Siromas.#
 Caçar Siroma#
 
@@ -27874,11 +27970,11 @@ Caçar Siroma#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Leonardo]<INFO>rachel,192,138,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21145#[É] Guardião da Beleza###
+21145#Guardião da Beleza###
 Não sei se é algo para ficar com raiva, mas de qualquer maneira, aqueles que pregam peças ruins precisam ser repreendidos. Vamos pegar 30 Siromas na <NAVI>[Caverna de Gelo]<INFO>ice_dun01,158,16,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Siroma#
 
-21146#[É] Pedra sobre Pedra###
+21146#Pedra sobre Pedra###
 Para ajudar os aldeões a ganhar a vida coletando minerais, elimine 30 <NAVI>[Stapos]<INFO>STAPO,0,0,3,-222,1</INFO></NAVI> para que eles possam coletar minerais.#
 Caçar Stapo#
 
@@ -27886,11 +27982,11 @@ Caçar Stapo#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Caetano]<INFO>veins,182,130,0,101,0</INFO></NAVI>, em Veins.#
 Reseta 4 da manhã#
 
-21148#[É] Pedra sobre Pedra###
+21148#Pedra sobre Pedra###
 Para que os aldeões possam pegar minerais, vamos caçar 30 <NAVI>[Stapos]<INFO>STAPO,0,0,3,-222,1</INFO></NAVI>, pedras que vão engolir qualquer coisa. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Stapo#
 
-21149#[É] Passeio pela Ilha###
+21149#Passeio pela Ilha###
 Vamos eliminar Lavadeiras e Coelhos na <NAVI>[Ilha da Tartaruga]<INFO>tur_dun01,157,39,0,101,0</INFO></NAVI>. Você pode acessá-la pelo barco em Alberta. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Ilha da Tartaruga#
 
@@ -27898,23 +27994,23 @@ Ilha da Tartaruga#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o Soldado <NAVI>[Tibalto]<INFO>alberta,210,120,0,101,0</INFO></NAVI> em Alberta.#
 Reseta 4 da manhã#
 
-21151#[É] Passeio pela Ilha###
+21151#Passeio pela Ilha###
 Vamos eliminar Lavadeiras e Coelhos na <NAVI>[Ilha da Tartaruga]<INFO>tur_dun01,157,39,0,101,0</INFO></NAVI>. Você pode acessá-la pelo barco em Alberta. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Ilha da Tartaruga#
 
-21152#[É] Nativos da Ilha 1###
+21152#Nativos da Ilha 1###
 Para que quem explora o <NAVI>[subterrâneo]<INFO>tur_dun02,148,264,0,101,0</INFO></NAVI> não caia em perigo, vamos caçar Solidificadores e Batedores. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Tartarugas#
 
-21153#[É] Nativos da Ilha 1###
+21153#Nativos da Ilha 1###
 Para que quem explora o <NAVI>[subterrâneo]<INFO>tur_dun02,148,264,0,101,0</INFO></NAVI> não caia em perigo, vamos caçar Solidificadores e Batedores. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Tartarugas#
 
-21154#[É] Nativos da Ilha 2###
+21154#Nativos da Ilha 2###
 Vamos caçar Congeladores e Aquecedores na <NAVI>[Vila das Boas Tartarugas]<INFO>tur_dun03,132,189,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Tartarugas#
 
-21155#[É] Nativos da Ilha 2###
+21155#Nativos da Ilha 2###
 Vamos caçar Congeladores e Aquecedores na <NAVI>[Vila das Boas Tartarugas]<INFO>tur_dun03,132,189,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Tartarugas#
 
@@ -27926,7 +28022,7 @@ Reseta 4 da manhã#
 Vá até a <NAVI>[Vila das Boas Tartarugas]<INFO>tur_dun03,132,189,0,101,0</INFO></NAVI> e procure por um membro da Brigada de Segurança de Alberta.#
 Fale com Expedito#
 
-21158#[É] Tartaruga Ninja###
+21158#Tartaruga Ninja###
 Vamos eliminar 10 Agressores na <NAVI>[Vila das Boas Tartarugas]<INFO>tur_dun03,132,189,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Agressor#
 
@@ -27934,7 +28030,7 @@ Caçar Agressor#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Capitão Expedito]<INFO>tur_dun03,108,74,0,101,0</INFO></NAVI>, na Vila das Boas Tartarugas.#
 Reseta 4 da manhã#
 
-21160#[É] Tartaruga Ninja###
+21160#Tartaruga Ninja###
 Vamos eliminar 10 Agressores na <NAVI>[Vila das Boas Tartarugas]<INFO>tur_dun03,132,189,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Agressor#
 
@@ -27942,23 +28038,23 @@ Caçar Agressor#
 Vamos voltar para Alberta e informar para o Soldado <NAVI>[Tibalto]<INFO>alberta,210,120,0,101,0</INFO></NAVI> sobre a decisão do Capitão Expedito.#
 Fale com Tibalto#
 
-21162#[É] Tesouro do Mar###
+21162#Tesouro do Mar###
 Dentro do <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>, clique na Caixa Antiga. Elas estão espalhadas por todo o lugar.#
 Caixa Antiga#
 
-21163#[É] Tesouro do Mar novamente###
+21163#Tesouro do Mar novamente###
 Dentro do <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>, clique na Caixa Antiga. Elas estão espalhadas por todo o lugar.#
 Caixa Antiga#
 
-21164#[É] Tesouro do Mar###
+21164#Tesouro do Mar###
 Dentro do <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>, clique na Caixa Antiga. Elas estão espalhadas por todo o lugar.#
 Caixa Antiga#
 
-21165#[É] Tesouro do Mar###
+21165#Tesouro do Mar###
 Dentro do <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>, clique na Caixa Antiga. Elas estão espalhadas por todo o lugar.#
 Caixa Antiga#
 
-21166#[É] Tesouro do Mar###
+21166#Tesouro do Mar###
 Dentro do <NAVI>[Navio Fantasma]<INFO>treasure01,69,24,0,101,0</INFO></NAVI>, clique na Caixa Antiga. Elas estão espalhadas por todo o lugar.#
 Caixa Antiga#
 
@@ -28062,7 +28158,7 @@ Encontrei uma passagem secreta que leva ao Santuário!#
 Um velho estudioso que conheci em Morroc me pediu para encontrar um <NAVI>[Jovem Andarilho]<INFO>moc_fild17,358,277,0,101,0</INFO></NAVI> que havia saído sozinho para encontrar a Guilda dos Mercenários. Vamos para o deserto a sudeste de Morroc, onde fica a Guilda dos Mercenários.#
 Ao Jovem Andarilho#
 
-21202#[É] Areia Movediça###
+21202#Areia Movediça###
 O <NAVI>[Jovem Andarilho]<INFO>moc_fild17,358,277,0,101,0</INFO></NAVI> diz que não pode ir mais longe por causa do Arenoso. Ele pede para você eliminar Arenosos e coletar 5 <ITEM>[Torrões de Areia]<INFO>1056</INFO></ITEM>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 5 Torrões de Areia#
 
@@ -28074,7 +28170,7 @@ Reseta 4 da manhã#
 O <NAVI>[Velho Professor]<INFO>moc_ruins,104,122,0,101,0</INFO></NAVI> pede para você encontrar a <ITEM>[Pá de Campo]<INFO>6381</INFO></ITEM> que Verit pegou. Ao derrotar Verit e Minorous, você terá uma chance de conseguir uma Pá de Campo direto no seu inventário.#
 1 Pá de Campo#
 
-21205#[É] Preciso Dormir!###
+21205#Preciso Dormir!###
 Um pedido de <NAVI>[Rumin]<INFO>moc_ruins,105,124,0,101,0</INFO></NAVI> que vive na Guilda dos Gatunos. Os membros da guilda estão desconfortáveis por causa de Verit e Minorous morando no porão da guilda. Vamos derrotar Verit e Minorous. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caça na Pirâmide#
 
@@ -28106,7 +28202,7 @@ Elimine os Pedreiros#
 Você deve investigar ^4d4dffMarduk e Pasana^000000 que aparecem na Esfinge. Ao derrotar Marduk, haverá uma chance de adquirir um <ITEM>[Antigo Papiro]<INFO>25073</INFO></ITEM> direto no seu inventário.#
 1 Antigo Papiro#
 
-21213#[É] Metade Cobra###
+21213#Metade Cobra###
 Elimine Ísis no segundo piso da Pirâmide. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Ísis#
 
@@ -28114,7 +28210,7 @@ Caçar Ísis#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Ernesto]<INFO>moc_ruins,101,124,0,101,0</INFO></NAVI> nas Ruínas de Morroc.#
 Reseta 4 da manhã#
 
-21215#[É] Pedreiros###
+21215#Pedreiros###
 Devo eliminar Zerom e Réquiem, que estão interferindo na investigação interna da Esfinge. Zerom e Réquiem aparecem principalmente no 1º e 2º andares da Esfinge. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçada na Esfinge#
 
@@ -28122,7 +28218,7 @@ Caçada na Esfinge#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Ernesto]<INFO>moc_ruins,101,124,0,101,0</INFO></NAVI> nas Ruínas de Morroc.#
 Reseta 4 da manhã#
 
-21217#[É] Enigma da Esfinge###
+21217#Enigma da Esfinge###
 Elimine Marduk e Pasana na Esfinge. Ao derrotar Marduk, haverá uma chance de conseguir <ITEM>[Antigo Papiro]<INFO>25073</INFO></ITEM> direto no seu inventário. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 10 Antigos Papiros#
 
@@ -28130,7 +28226,7 @@ Elimine Marduk e Pasana na Esfinge. Ao derrotar Marduk, haverá uma chance de co
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Ernesto]<INFO>moc_ruins,101,124,0,101,0</INFO></NAVI> nas Ruínas de Morroc.#
 Reseta 4 da manhã#
 
-21219#[É] A Caixa da Múmia###
+21219#A Caixa da Múmia###
 A pedido do <NAVI>[Líder Maximus]<INFO>moc_pryd01,20,192,0,101,0</INFO></NAVI>, devo eliminar ^4d4dff10 Múmias e pegar 1 Espólio^000000. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 1 Espólio#
 
@@ -28142,7 +28238,7 @@ Reseta 4 da manhã#
 Elimine ^4d4dffPecoPeco^000000 e ^4d4dffMuka^000000 no <NAVI>[deserto de Sograt]<INFO>moc_fild01,253,357,0,101,0</INFO></NAVI> e volte a falar com a <NAVI>[Instrutora Pontis]<INFO>izlude,132,207,0,101,0</INFO></NAVI>.#
 Caça no Deserto#
 
-21222#[É] Bichos Barulhentos###
+21222#Bichos Barulhentos###
 Elimine PecoPeco e Muka no <NAVI>[deserto de Sograt]<INFO>moc_fild01,253,357,0,101,0</INFO></NAVI>. As reclamações dizem que são 'muito ruidosos'. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caça no Deserto#
 
@@ -28154,7 +28250,7 @@ Reseta 4 da manhã#
 Solicitação da <NAVI>[Instrutora Pontis]<INFO>izlude,132,207,0,101,0</INFO></NAVI> para treinamento. Elimine os monstros no <NAVI>[deserto de Sograt]<INFO>prt_fild09,380,237,0,101,0</INFO></NAVI>.#
 Caçada em Sograt#
 
-21225#[É] Estranhos do Deserto###
+21225#Estranhos do Deserto###
 Solicitação da <NAVI>[Instrutora Pontis]<INFO>izlude,132,207,0,101,0</INFO></NAVI> para treinamento. Elimine os monstros no <NAVI>[deserto de Sograt]<INFO>prt_fild09,380,237,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçada em Sograt#
 
@@ -28166,7 +28262,7 @@ Reseta 4 da manhã#
 Procure pelo <NAVI>[Biólogo Helder]<INFO>izlu2dun,105,68,0,101,0</INFO></NAVI> na ilha Byalan. Você pode acessá-la pegando um barco em Izlude.#
 Fale com o Biólogo#
 
-21228#[É] Biologia Marinha###
+21228#Biologia Marinha###
 O <NAVI>[Biólogo Helder]<INFO>izlu2dun,105,68,0,101,0</INFO></NAVI> diz que precisa de uma amostra. Entre no <NAVI>[Túnel Submarino]<INFO>iz_dun00,168,166,0,101,0</INFO></NAVI> e consiga 10 <ITEM>[Células Únicas]<INFO>1052</INFO></ITEM> caçando Marina ou Plâncton. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 10 Células Únicas#
 
@@ -28178,7 +28274,7 @@ Reseta 4 da manhã#
 O <NAVI>[Ambulante]<INFO>izlu2dun,108,68,0,101,0</INFO></NAVI> disse que iria lhe recompensar se você obtivesse 5 <ITEM>[Garras de Crustáceo]<INFO>960</INFO></ITEM> que podem ser obtidas ao derrotar <NAVI>[Vadon]<INFO>iz_dun00,168,166,0,101,0</INFO></NAVI>.#
 5 Garras de Crustáceo#
 
-21231#[É] Amuleto de Caranguejo###
+21231#Amuleto de Caranguejo###
 O <NAVI>[Ambulante]<INFO>izlu2dun,108,68,0,101,0</INFO></NAVI> disse que iria lhe recompensar se você obtivesse 5 <ITEM>[Garras de Crustáceo]<INFO>960</INFO></ITEM> que podem ser obtidas ao derrotar <NAVI>[Vadon]<INFO>iz_dun00,168,166,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 5 Garras de Crustáceo#
 
@@ -28194,7 +28290,7 @@ Fale com o Líder Maximus#
 O jovem <NAVI>[Kysekili]<INFO>iz_dun02,228,229,0,101,0</INFO></NAVI> está cheio de pensamentos sobre cozinhar. Derrote Martes e traga <ITEM>[Tinta de Polvo]<INFO>1024</INFO></ITEM>.#
 10 Tintas de Polvo#
 
-21235#[É] Sereia Encantadora###
+21235#Sereia Encantadora###
 O pobre <NAVI>[Ankana]<INFO>iz_dun02,231,230,0,101,0</INFO></NAVI> continua falando sobre uma certa mulher que conheceu, ele duvida que seja uma sereia. Derrote Obeaune e pegue 1 <ITEM>[Coração de Sereia]<INFO>950</INFO></ITEM> como prova. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 1 Coração de Sereia#
 
@@ -28202,7 +28298,7 @@ O pobre <NAVI>[Ankana]<INFO>iz_dun02,231,230,0,101,0</INFO></NAVI> continua fala
 Vá até <NAVI>[Ernesto]<INFO>iz_dun01,121,158,0,101,0</INFO></NAVI> e entregue a Sopa de Lula e Sapo feita por Kysekili para mostrar que o grupo ainda se importa com ele.#
 Leve a Sopa para Ernesto#
 
-21237#[É] Cuidando do Grupo###
+21237#Cuidando do Grupo###
 <NAVI>[Ernesto]<INFO>iz_dun01,121,158,0,101,0</INFO></NAVI> parece estar de alguma forma comovido com a maneira como os membros do grupo cuidam dele. Como gratidão, ele quer que você elimine alguns monstros no <NAVI>[Túnel Submarino]<INFO>iz_dun03,37,64,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Túnel Submarino#
 
@@ -28210,7 +28306,7 @@ Túnel Submarino#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Ernesto]<INFO>iz_dun01,121,158,0,101,0</INFO></NAVI> no Túnel Submarino.#
 Reseta 4 da manhã#
 
-21239#[É] Ingredientes Culinários###
+21239#Ingredientes Culinários###
 O jovem <NAVI>[Kysekili]<INFO>iz_dun02,228,229,0,101,0</INFO></NAVI> está cheio de pensamentos sobre cozinhar. Derrote Martes e traga <ITEM>[Tinta de Polvo]<INFO>1024</INFO></ITEM>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 10 Tintas de Polvo#
 
@@ -28222,7 +28318,7 @@ Reseta 4 da manhã#
 O <NAVI>[Líder Maximus]<INFO>iz_dun02,229,231,0,101,0</INFO></NAVI> acredita ter visto Poseidon, o Deus do mar, no <NAVI>[Túnel Submarino]<INFO>iz_dun04,28,35,0,101,0</INFO></NAVI>. No entanto, eles são apenas monstros chamados Strouf e Tritão. Vamos provar isso trazendo 1 <ITEM>[Nadadeira]<INFO>951</INFO></ITEM> e 1 <ITEM>[Lábio Fossilizado]<INFO>1054</INFO></ITEM>.#
 1 Nadadeira e 1 Lábio#
 
-21242#[É] Deus dos Oceanos###
+21242#Deus dos Oceanos###
 O <NAVI>[Líder Maximus]<INFO>iz_dun02,229,231,0,101,0</INFO></NAVI> descobriu que Strouf e Tritão não eram Deuses do mar, mas ele pediu que fossem eliminados no <NAVI>[Túnel Submarino]<INFO>iz_dun04,28,35,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçada Submarina#
 
@@ -28246,15 +28342,15 @@ Caçar Rocker#
 A pequena <NAVI>[Aninha]<INFO>prt_fild05,351,220,0,101,0</INFO></NAVI> acha que Ambernites são cavaleiros de armadura redonda. Vamos até o <NAVI>[habitat]<INFO>prt_fild04,380,160,0,101,0</INFO></NAVI> deles e eliminar alguns para tranquilizar essas crianças.#
 Caçar Ambernite#
 
-21249#[É] Salvando o Parquinho###
+21249#Salvando o Parquinho###
 O pequeno <NAVI>[Paulinho]<INFO>prt_fild05,353,221,0,101,0</INFO></NAVI> quer que você elimine os Zangões do campo à esquerda de Prontera. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Zangão#
 
-21250#[É] Insetos Musicais###
+21250#Insetos Musicais###
 O pequeno <NAVI>[Paulinho]<INFO>prt_fild05,353,221,0,101,0</INFO></NAVI> quer que você elimine os Rockers do <NAVI>[campo ao sul]<INFO>prt_fild07,251,364,0,101,0</INFO></NAVI> do parquinho. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Rocker#
 
-21251#[É] Problema Pegajoso###
+21251#Problema Pegajoso###
 A pequena <NAVI>[Aninha]<INFO>prt_fild05,351,220,0,101,0</INFO></NAVI> acha que Ambernites são cavaleiros de armadura redonda. Vamos até o <NAVI>[habitat]<INFO>prt_fild04,380,160,0,101,0</INFO></NAVI> deles e eliminar alguns para tranquilizar essas crianças. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Ambernite#
 
@@ -28274,7 +28370,7 @@ Reseta 4 da manhã#
 A Cavalaria de Prontera está vigiando os ^4d4dffOrcs e Goblins^000000 nos vilarejos para evitar a expansão do território. Fale com a Escrivã da Cavalaria para mais detalhes.#
 Fale com a Escrivã#
 
-21256#[É] Família Orc###
+21256#Família Orc###
 Atendendo ao pedido do <NAVI>[Líder da Tropa]<INFO>gef_fild10,78,340,0,101,0</INFO></NAVI>, vamos eliminar ^4d4dffGuerreiro Orc, Senhora Orc e Filhote de Orc^000000! Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Orcs#
 
@@ -28282,7 +28378,7 @@ Caçar Orcs#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Líder da Tropa]<INFO>gef_fild10,78,340,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 Reseta 4 da manhã#
 
-21258#[É] Orcs Infernais###
+21258#Orcs Infernais###
 Atendendo ao pedido do <NAVI>[Líder da Tropa]<INFO>gef_fild10,78,340,0,101,0</INFO></NAVI>, vamos eliminar ^4d4dffOrc Zumbi e Orc Esqueleto^000000 na caverna subterrânea. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caverna dos Orcs#
 
@@ -28290,7 +28386,7 @@ Caverna dos Orcs#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Líder da Tropa]<INFO>gef_fild10,78,340,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 Reseta 4 da manhã#
 
-21260#[É] Ganancioso###
+21260#Ganancioso###
 Atendendo ao pedido do <NAVI>[Líder da Tropa]<INFO>gef_fild10,78,340,0,101,0</INFO></NAVI>, vamos eliminar ^4d4dffZenorc^000000 na caverna subterrânea. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Zenorc#
 
@@ -28298,7 +28394,7 @@ Caçar Zenorc#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Líder da Tropa]<INFO>gef_fild10,78,340,0,101,0</INFO></NAVI> na Vila dos Orcs.#
 Reseta 4 da manhã#
 
-21262#[É] Goblins Ferozes###
+21262#Goblins Ferozes###
 O <NAVI>[Vice-Líder]<INFO>gef_fild11,128,351,0,101,0</INFO></NAVI> da tropa na Vila Goblin quer que você elimine Goblins específicos. Preste atenção: são Goblins carregando Machado e Mangual. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Machado e Mangual#
 
@@ -28306,7 +28402,7 @@ Machado e Mangual#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Vice-Líder]<INFO>gef_fild11,128,351,0,101,0</INFO></NAVI> na Vila Goblin.#
 Reseta 4 da manhã#
 
-21264#[É] Goblins Velozes###
+21264#Goblins Velozes###
 O <NAVI>[Vice-Líder]<INFO>gef_fild11,128,351,0,101,0</INFO></NAVI> da tropa na Vila Goblin quer que você elimine Goblins específicos. Preste atenção: são Goblins carregando Martelo e Adaga. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Martelo e Adaga#
 
@@ -28326,7 +28422,7 @@ Ao Vice-Líder#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através da <NAVI>[Escrivã da Cavalaria]<INFO>prontera,62,339,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21269#[É] Goblins Atrozes###
+21269#Goblins Atrozes###
 O <NAVI>[Vice-Líder]<INFO>gef_fild11,128,351,0,101,0</INFO></NAVI> da tropa na Vila Goblin quer que você elimine Goblins específicos. Preste atenção: são Goblins carregando Maça e Arco. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Maça e Arco#
 
@@ -28338,7 +28434,7 @@ Reseta 4 da manhã#
 Laerte, da Catedral de Prontera está preocupado com a falta de notícias de <NAVI>[Cláudio]<INFO>glast_01,205,131,0,101,0</INFO></NAVI>, que partiu para purificar a Abadia de Glastheim.#
 Encontre Cláudio#
 
-21272#[É] Purificando o Lugar###
+21272#Purificando o Lugar###
 <NAVI>[Cláudio]<INFO>glast_01,205,131,0,101,0</INFO></NAVI> pediu para lidar com mortos-vivos na Abadia. Se você encontrar outras meninas da Catedral de Prontera, elas poderão lhe ajudar.#
 Abadia de Glastheim#
 
@@ -28346,7 +28442,7 @@ Abadia de Glastheim#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Cláudio]<INFO>glast_01,205,131,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta 4 da manhã#
 
-21274#[É] Cemitério de Sacerdotes###
+21274#Cemitério de Sacerdotes###
 Derrote o Sacerdote Maldito e sua versão campeã, o Sacerdote Maldito Feroz, para o monge <NAVI>[Cláudio]<INFO>glast_01,205,131,0,101,0</INFO></NAVI>.#
 Em Glastheim#
 
@@ -28358,7 +28454,7 @@ Reseta 4 da manhã#
 A senhora que conheci em Al De Baran pediu que eu entregasse uma marmita para o filho que trabalha no <NAVI>[posto da fronteira]<INFO>yuno_fild01,196,154,0,101,0</INFO></NAVI> ao norte de Al De Baran.#
 Fale com o Guarda#
 
-21277#[É] Problema na Fronteira###
+21277#Problema na Fronteira###
 O Capitão <NAVI>[César]<INFO>yuno_fild01,193,158,0,101,0</INFO></NAVI> solicitou a caçada aos monstros ao redor da fronteira. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Fronteira de Juno#
 
@@ -28370,7 +28466,7 @@ Reseta 4 da manhã#
 Um pedido de uma garota que conheci no posto de fronteira. Ela revelou que era aluna da Academia Kiel Hyre e pediu ^4d4dff5 Pele de Bode e 5 Pena de Grand Peco^000000 para fazer um cobertor macio. Entregue para ela na <NAVI>[Academia Kiel Hyre]<INFO>yuno_fild08,179,200,0,101,0</INFO></NAVI>.#
 Pele de Bode e Pena de Peco#
 
-21280#[É] Proteger a Academia###
+21280#Proteger a Academia###
 O <NAVI>[Guarda da Academia]<INFO>yuno_fild08,198,200,0,101,0</INFO></NAVI> encarregado da segurança disse que muitas pessoas foram atacadas por Harpias e Rochosos no campus. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar no Campus#
 
@@ -28378,7 +28474,7 @@ Caçar no Campus#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda]<INFO>yuno_fild08,198,200,0,101,0</INFO></NAVI> da Academia Kiel Hyre.#
 Reseta 4 da manhã#
 
-21282#[É] Itens Valiosos###
+21282#Itens Valiosos###
 O <NAVI>[Ambulante]<INFO>yuno_fild08,172,198,0,101,0</INFO></NAVI> solicitou ^4d4dff10 Peles de Bode e 10 Penas de GrandPeco^000000. Ele parece estar vendendo cobertores e travesseiros para os estudantes. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Pele de Bode, Pena de Peco#
 
@@ -28386,7 +28482,7 @@ Pele de Bode, Pena de Peco#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Ambulante]<INFO>yuno_fild08,172,198,0,101,0</INFO></NAVI> na Academia Kiel Hyre.#
 Reseta 4 da manhã#
 
-21284#[É] Animais no Campus###
+21284#Animais no Campus###
 A <NAVI>[Aluna da Academia]<INFO>yuno_fild08,179,200,0,101,0</INFO></NAVI> fez um pedido adicional de eliminar Grand Pecos e Bodes. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caça em Kiel Hyre#
 
@@ -28394,7 +28490,7 @@ Caça em Kiel Hyre#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com a <NAVI>[Aluna da Academia]<INFO>yuno_fild08,179,200,0,101,0</INFO></NAVI> Kiel Hyre.#
 Reseta 4 da manhã#
 
-21286#[É] Faxina na Torre###
+21286#Faxina na Torre###
 O <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> pediu para eliminar os monstros na <NAVI>[Torre do Relógio]<INFO>c_tower1,200,192,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Rideword e Punk#
 
@@ -28402,7 +28498,7 @@ Caçar Rideword e Punk#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> em Al De Baran.#
 Reseta 4 da manhã#
 
-21288#[É] Objeto Animado###
+21288#Objeto Animado###
 O <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> pediu para eliminar os monstros na <NAVI>[Sala do Pêndulo]<INFO>c_tower2,263,26,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Relógio#
 
@@ -28410,7 +28506,7 @@ Caçar Relógio#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> em Al De Baran.#
 Reseta 4 da manhã#
 
-21290#[É] Objeto Vivo###
+21290#Objeto Vivo###
 O <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> pediu para eliminar os monstros no <NAVI>[andar superior]<INFO>c_tower3,66,145,0,101,0</INFO></NAVI> da Torre do Relógio. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Alarme#
 
@@ -28418,7 +28514,7 @@ Caçar Alarme#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> em Al De Baran.#
 Reseta 4 da manhã#
 
-21292#[É] Risadas no Subsolo###
+21292#Risadas no Subsolo###
 O <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> conta que ouve barulhos sinistros vindo do <NAVI>[subsolo]<INFO>alde_dun04,80,265,0,101,0</INFO></NAVI> da Torre do Relógio. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Bathory#
 
@@ -28426,15 +28522,15 @@ Caçar Bathory#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Zelador]<INFO>aldebaran,143,132,0,101,0</INFO></NAVI> em Al De Baran.#
 Reseta 4 da manhã#
 
-21294#[É] Guerra na Praia###
+21294#Guerra na Praia###
 O pescador <NAVI>[Raimundo]<INFO>hugel,100,149,0,101,0</INFO></NAVI> pediu para você se livrar dos Caranguejos e Estrelas do Mar afim de evitar que as redes de pesca fossem danificadas. Vamos fazer uma limpa na <NAVI>[praia]<INFO>hu_fild06,200,364,0,101,0</INFO></NAVI> sul de Hugel. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caça na Praia#
 
-21295#[É] Catador de Ostras###
+21295#Catador de Ostras###
 O pescador <NAVI>[Raimundo]<INFO>hugel,100,149,0,101,0</INFO></NAVI> um prato delicioso para você usando <ITEM>[Carne de Ostra]<INFO>966</INFO></ITEM>, dos <NAVI>[Moluscos]<INFO>hu_fild06,200,364,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 5 Carnes de Ostra#
 
-21296#[É] Um Grande Lago###
+21296#Um Grande Lago###
 <NAVI>[Hudson]<INFO>hugel,91,142,0,101,0</INFO></NAVI>, responsável pelo abastecimento de água de Hugel, solicitou que os Novus fossem eliminados. Eles estão quebrando o cano de água conectado ao <NAVI>[Lago do Abismo]<INFO>hu_fild05,335,153,0,101,0</INFO></NAVI> todas as vezes. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Novus#
 
@@ -28458,7 +28554,7 @@ Reseta 4 da manhã#
 Enrico Schumacher gostaria que você mandasse notícias ao irmão dele, Fred Schumacher. Ele está trabalhando na <NAVI>[Usina]<INFO>ein_fild06,163,173,0,101,0</INFO></NAVI> depois do Vale do Abismo.#
 Fale com Fred#
 
-21302#[É] Patrulhamento###
+21302#Patrulhamento###
 A pedido de <NAVI>[Fred]<INFO>ein_fild06,163,173,0,101,0</INFO></NAVI>, decidi eliminar os Metallings e Holdens que comem e danificam a Usina. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caça na Usina#
 
@@ -28470,7 +28566,7 @@ Reseta 4 da manhã#
 Usei a passagem de Friedrich, que me permite ir para Einbech imediatamente.#
 Fale com Aiden#
 
-21305#[É] Trabalhadores da Mina###
+21305#Trabalhadores da Mina###
 Devo eliminar os Mineiros que está causando problemas nas <NAVI>[Minas de Einbech]<INFO>ein_dun01,22,23,0,101,0</INFO></NAVI>. Vamos nos concentrar no primeiro andar da mina de carvão. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Mineiros#
 
@@ -28478,7 +28574,7 @@ Caçar Mineiros#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda Aiden]<INFO>einbech,156,200,0,101,0</INFO></NAVI> em Einbech.#
 Reseta 4 da manhã#
 
-21307#[É] Como isso se move?###
+21307#Como isso se move?###
 Dizem que a Fornalha Velha, que era usada pelos Mineiros na <NAVI>[Mina de Einbech]<INFO>ein_dun02,291,292,0,101,0</INFO></NAVI>, começou a apresentar defeito e atacar os viajantes. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Fornalha Velha#
 
@@ -28486,7 +28582,7 @@ Caçar Fornalha Velha#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda Aiden]<INFO>einbech,156,200,0,101,0</INFO></NAVI> em Einbech.#
 Reseta 4 da manhã#
 
-21309#[É] Minérios Saltitantes###
+21309#Minérios Saltitantes###
 Os Mineiros estão tendo problemas com Minerais e Obsidianas no segundo andar da <NAVI>[Mina de Einbech]<INFO>ein_dun02,291,292,0,101,0</INFO></NAVI>. Vamos lidar com isso. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Minerais#
 
@@ -28498,7 +28594,7 @@ Reseta 4 da manhã#
 Eu ouvi sobre a relação entre Einbroch e Einbech e a situação atual.#
 Fale com Aisen#
 
-21312#[É] Gases Venenosos###
+21312#Gases Venenosos###
 A poluição do ar na cidade de Einbroch não pode se espalhar para outras áreas. Elimine Nuvens Venenosas nos <NAVI>[arredores]<INFO>ein_fild04,183,40,0,101,0</INFO></NAVI> de Einbroch. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Nuvem Venenosa#
 
@@ -28506,7 +28602,7 @@ Caçar Nuvem Venenosa#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda Aisen]<INFO>einbroch,220,254,0,101,0</INFO></NAVI> em Einbroch.#
 Reseta 4 da manhã#
 
-21314#[É] Gases Tóxicos###
+21314#Gases Tóxicos###
 A poluição do ar na cidade de Einbroch não pode se espalhar para outras áreas. Elimine Nuvens Tóxicas nos <NAVI>[arredores]<INFO>ein_fild04,183,40,0,101,0</INFO></NAVI> de Einbroch. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Nuvem Tóxica#
 
@@ -28514,7 +28610,7 @@ Caçar Nuvem Tóxica#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Guarda Aisen]<INFO>einbroch,220,254,0,101,0</INFO></NAVI> em Einbroch.#
 Reseta 4 da manhã#
 
-21316#[É] Boneco Assassino###
+21316#Boneco Assassino###
 Nos <NAVI>[campos de Einbroch]<INFO>ein_fild03,159,279,0,101,0</INFO></NAVI> há muitos Ursinhos atacando aventureiros. Não se deixe enganar pela aparência fofa deles. O <NAVI>[Guarda Aisen]<INFO>einbroch,220,254,0,101,0</INFO></NAVI> pediu para você derrotar o Ursinho. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Ursinho#
 
@@ -28526,7 +28622,7 @@ Reseta 4 da manhã#
 O Guarda Aisen está esperando Carlos para a troca de turno. Vá até o <NAVI>[Aeroporto]<INFO>airport,133,42,0,101,0</INFO></NAVI> lembrar Carlos.#
 Fale com Carlos#
 
-21319#[É] Uma Grande Piscina###
+21319#Uma Grande Piscina###
 Amy, moradora de Lighthalzen, reclama sobre não poder usar a <NAVI>[Piscina Pública]<INFO>lhz_fild01,231,104,0,101,0</INFO></NAVI>. Por isso, <NAVI>[Teodoro]<INFO>lighthalzen,200,314,0,101,0</INFO></NAVI> quer que você elimine as Rafflesias do local. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Rafflesia#
 
@@ -28534,7 +28630,7 @@ Caçar Rafflesia#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Teodoro]<INFO>lighthalzen,200,314,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta 4 da manhã#
 
-21321#[É] Bate no Tornozelo###
+21321#Bate no Tornozelo###
 <NAVI>[Teodoro]<INFO>lighthalzen,200,314,0,101,0</INFO></NAVI> ouviu que Miya foi atacada no tornozelo por Talos de Verme na <NAVI>[Piscina Pública]<INFO>lhz_fild01,207,75,0,101,0</INFO></NAVI>. Vamos revidar contra esses monstros. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Talo de Verme#
 
@@ -28542,7 +28638,7 @@ Caçar Talo de Verme#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Teodoro]<INFO>lighthalzen,200,314,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta 4 da manhã#
 
-21323#[É] Brisa Desagradável###
+21323#Brisa Desagradável###
 O Cavaleiro <NAVI>[Leno]<INFO>lighthalzen,208,314,0,101,0</INFO></NAVI> está com medo de um lugar chamado <NAVI>[Vale da Morte]<INFO>lhz_fild02,36,221,0,101,0</INFO></NAVI>, mas ele precisa cumprir sua missão de eliminar Breezes. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Breeze#
 
@@ -28654,7 +28750,7 @@ Você fez uma nova conexão com os aldeões!#
 Pediram-me para procurar os intercambistas que haviam saído para investigar Juperos. Vamos encontrar o <NAVI>[Líder Maximus]<INFO>yuno_fild07,228,172,0,101,0</INFO></NAVI> e ouvir sua história.#
 Fale com o Líder Maximus#
 
-21351#[É] Formigas de Aço###
+21351#Formigas de Aço###
 <NAVI>[Ernesto]<INFO>yuno_fild07,232,176,0,101,0</INFO></NAVI> encarregou você de exterminar Venatu (Laranja) e Venatu (Verde), que estão interferindo na exploração de Juperos.#
 Verde e Laranja#
 
@@ -28662,7 +28758,7 @@ Verde e Laranja#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas por meio de <NAVI>[Ernesto]<INFO>yuno_fild07,232,176,0,101,0</INFO></NAVI> na entrada de Juperos.#
 Reseta 4 da manhã#
 
-21353#[É] Formigas de Ferro###
+21353#Formigas de Ferro###
 <NAVI>[Ernesto]<INFO>yuno_fild07,232,176,0,101,0</INFO></NAVI> encarregou você de exterminar Venatu (Vermelho) e Venatu (Azul), que estão interferindo na exploração de Juperos.#
 Vermelho e Azul#
 
@@ -28670,7 +28766,7 @@ Vermelho e Azul#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas por meio de <NAVI>[Ernesto]<INFO>yuno_fild07,232,176,0,101,0</INFO></NAVI> na entrada de Juperos.#
 Reseta 4 da manhã#
 
-21355#[É] Robôs Coloridos###
+21355#Robôs Coloridos###
 <NAVI>[Maximus]<INFO>yuno_fild07,228,172,0,101,0</INFO></NAVI> pediu para você eliminar Dimik (Verde) e Dimik (Azul) que estão interferindo na exploração de Juperos.#
 Verde e Azul#
 
@@ -28678,7 +28774,7 @@ Verde e Azul#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Missões podem ser aceitas através de <NAVI>[Maximus]<INFO>yuno_fild07,228,172,0,101,0</INFO></NAVI> na entrada de Juperos.#
 Reseta 4 da manhã#
 
-21357#[É] Robôs Multicoloridos###
+21357#Robôs Multicoloridos###
 <NAVI>[Maximus]<INFO>yuno_fild07,228,172,0,101,0</INFO></NAVI> pediu para você eliminar Dimik (Laranja) e Dimik (Vermelho) que estão interferindo na exploração de Juperos.#
 Laranja e Vermelho#
 
@@ -28702,7 +28798,7 @@ Você fez uma nova conexão!#
 Você fez uma nova conexão!#
 #
 
-21363#[É] Irmãos Zumbis###
+21363#Irmãos Zumbis###
 <NAVI>[Rotert]<INFO>nameless_n,243,237,0,101,0</INFO></NAVI> pediu para você eliminar ^4d4dffMassacres e Zumbis Dilacerados^000000 na ilha Esquecida.#
 Caçar Zumbis#
 
@@ -28710,7 +28806,7 @@ Caçar Zumbis#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Missões podem ser aceitas através de <NAVI>[Rotert]<INFO>nameless_n,243,237,0,101,0</INFO></NAVI> na ilha Esquecida.#
 Reseta 4 da manhã#
 
-21365#[É] Gritos e mais Gritos###
+21365#Gritos e mais Gritos###
 <NAVI>[Rotert]<INFO>nameless_n,243,237,0,101,0</INFO></NAVI> solicitou que você matasse ^4d4dffBanshee^000000 para purificar a ilha Esquecida.#
 Caçar Banshee#
 
@@ -28718,7 +28814,7 @@ Caçar Banshee#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Missões podem ser aceitas através de <NAVI>[Rotert]<INFO>nameless_n,243,237,0,101,0</INFO></NAVI> na ilha Esquecida.#
 Reseta 4 da manhã#
 
-21367#[É] Controle dos Mortos###
+21367#Controle dos Mortos###
 <NAVI>[Rotert]<INFO>nameless_n,243,237,0,101,0</INFO></NAVI> solicitou que você derrotasse ^4d4dffNecromante^000000 para purificar a ilha Esquecida.#
 Caçar Necromante#
 
@@ -28726,7 +28822,7 @@ Caçar Necromante#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Missões podem ser aceitas através de <NAVI>[Rotert]<INFO>nameless_n,243,237,0,101,0</INFO></NAVI> na ilha Esquecida.#
 Reseta 4 da manhã#
 
-21369#[É] Limpe a Ala Oeste###
+21369#Limpe a Ala Oeste###
 A <NAVI>[Noviça Thelma]<INFO>rachel,161,243,0,101,0</INFO></NAVI> solicita que você elimine ^4d4dffVanberk e Isilla^000000 no Santuário de Rachel. Se você não em acesso ao santuário, fale com <NAVI>[Eduardo]<INFO>ra_temple,168,169,0,101,0</INFO></NAVI>.#
 Caçar Vanberk e Isilla#
 
@@ -28734,7 +28830,7 @@ Caçar Vanberk e Isilla#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através da <NAVI>[Noviça Thelma]<INFO>rachel,161,243,0,101,0</INFO></NAVI> em Rachel.#
 Reseta 4 da manhã#
 
-21371#[É] Limpe a Ala Leste###
+21371#Limpe a Ala Leste###
 A <NAVI>[Noviça Thelma]<INFO>rachel,161,243,0,101,0</INFO></NAVI> solicita que você elimine ^4d4dffHodremlin^000000 no Santuário de Rachel. Se você não em acesso ao santuário, fale com <NAVI>[Eduardo]<INFO>ra_temple,168,169,0,101,0</INFO></NAVI>.#
 Caçar Hodremlin#
 
@@ -28742,7 +28838,7 @@ Caçar Hodremlin#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através da <NAVI>[Noviça Thelma]<INFO>rachel,161,243,0,101,0</INFO></NAVI> em Rachel.#
 Reseta 4 da manhã#
 
-21373#[É] Limpe a Ala Sul###
+21373#Limpe a Ala Sul###
 A <NAVI>[Noviça Thelma]<INFO>rachel,161,243,0,101,0</INFO></NAVI> solicita que você elimine ^4d4dffAgav e Echio^000000 no Santuário de Rachel. Se você não em acesso ao santuário, fale com <NAVI>[Eduardo]<INFO>ra_temple,168,169,0,101,0</INFO></NAVI>.#
 Caçar Agav e Echio#
 
@@ -28750,7 +28846,7 @@ Caçar Agav e Echio#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através da <NAVI>[Noviça Thelma]<INFO>rachel,161,243,0,101,0</INFO></NAVI> em Rachel.#
 Reseta 4 da manhã#
 
-21375#[É] Vilarejo dos Kobolds###
+21375#Vilarejo dos Kobolds###
 Recebi um pedido de <NAVI>[Harim]<INFO>ra_fild08,274,252,0,101,0</INFO></NAVI>, um caçador na Planície de Ida, para caçar Kobolds de qualquer tipo.#
 Caçar Kobold#
 
@@ -28758,7 +28854,7 @@ Caçar Kobold#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o Caçador <NAVI>[Harim]<INFO>ra_fild08,274,252,0,101,0</INFO></NAVI> na Planície de Ida.#
 Reseta 4 da manhã#
 
-21377#[É] Vila da Colina###
+21377#Vila da Colina###
 Recebi um pedido de <NAVI>[Harim]<INFO>ra_fild08,274,252,0,101,0</INFO></NAVI>, um caçador na Planície de Ida, para caçar Vento da Colina.#
 Caçar Vento da Colina#
 
@@ -28766,7 +28862,7 @@ Caçar Vento da Colina#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o Caçador <NAVI>[Harim]<INFO>ra_fild08,274,252,0,101,0</INFO></NAVI> na Planície de Ida.#
 Reseta 4 da manhã#
 
-21379#[É] Pelos de Cachorro###
+21379#Pelos de Cachorro###
 O fazendeiro <NAVI>[Cheda]<INFO>rachel,247,120,0,101,0</INFO></NAVI>, de Rachel, solicitou 20 <ITEM>[Cabelos Azuis]<INFO>1034</INFO></ITEM> dos Kobolds.#
 20 Cabelos Azuis#
 
@@ -28774,7 +28870,7 @@ O fazendeiro <NAVI>[Cheda]<INFO>rachel,247,120,0,101,0</INFO></NAVI>, de Rachel,
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do Fazendeiro <NAVI>[Cheda]<INFO>rachel,247,120,0,101,0</INFO></NAVI> em Rachel.#
 Reseta 4 da manhã#
 
-21381#[É] Guerra contra as Plantas###
+21381#Guerra contra as Plantas###
 A jardineira <NAVI>[Minne]<INFO>veins,183,91,0,101,0</INFO></NAVI> solicitou que você corte ^4d4dffDrosera e Muscipular^000000 por serem ervas daninhas.#
 Caçar Drosera e Muscipular#
 
@@ -28782,7 +28878,7 @@ Caçar Drosera e Muscipular#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Missões podem ser aceitas através da jardineira <NAVI>[Minne]<INFO>veins,183,91,0,101,0</INFO></NAVI> em Veins.#
 Reseta 4 da manhã#
 
-21383#[É] Mutação Vulcânica###
+21383#Mutação Vulcânica###
 O <NAVI>[Vigia de Veins]<INFO>veins,157,29,0,101,0</INFO></NAVI> encomendou a caça dos ^4d4dffMagmarings^000000 gerados a partir de um vulcão próximo. Dizem que se eles proliferarem, a vegetação vai queimar.#
 Caçar Magmaring#
 
@@ -28790,7 +28886,7 @@ Caçar Magmaring#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do <NAVI>[Vigia de Veins]<INFO>veins,157,29,0,101,0</INFO></NAVI> próximo ao Vulcão de Thor.#
 Reseta 4 da manhã#
 
-21385#[É] Alcateia no Deserto###
+21385#Alcateia no Deserto###
 <NAVI>[Sarim]<INFO>ra_fild01,225,325,0,101,0</INFO></NAVI>, o caçador na frente da Caverna de Gelo, pediu para você derrotar 30 ^4d4dffLobos do Deserto^000000.#
 Caçar Lobo do Deserto#
 
@@ -28798,7 +28894,7 @@ Caçar Lobo do Deserto#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do caçador <NAVI>[Sarim]<INFO>ra_fild01,225,325,0,101,0</INFO></NAVI> na frente da Caverna de Gelo.#
 Reseta 4 da manhã#
 
-21387#[É] Minhas Bebidas Geladas###
+21387#Minhas Bebidas Geladas###
 A Barista de Rachel, <NAVI>[Tarim]<INFO>rachel,91,134,0,101,0</INFO></NAVI>, pediu para você pegar 20 <ITEM>[Corações Glaciais]<INFO>7561</INFO></ITEM> na <NAVI>[Caverna de Gelo]<INFO>ice_dun01,157,18,0,101,0</INFO></NAVI>.#
 20 Corações Glaciais#
 
@@ -28806,7 +28902,7 @@ A Barista de Rachel, <NAVI>[Tarim]<INFO>rachel,91,134,0,101,0</INFO></NAVI>, ped
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas por meio de <NAVI>[Tarim]<INFO>rachel,91,134,0,101,0</INFO></NAVI>, a Barista de Rachel.#
 Reseta 4 da manhã#
 
-21389#[É] Monstro das Neves###
+21389#Monstro das Neves###
 O <NAVI>[Amigo do Mago]<INFO>ice_dun01,149,168,0,101,0</INFO></NAVI> da Caverna de Gelo me pediu para se livrar de ^4d4dffYetis^000000 no caminho.#
 Caçar Yeti#
 
@@ -28814,7 +28910,7 @@ Caçar Yeti#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do <NAVI>[Amigo do Mago]<INFO>ice_dun01,149,168,0,101,0</INFO></NAVI> dentro da Caverna de Gelo.#
 Reseta 4 da manhã#
 
-21391#[É] Cristais são Duros?###
+21391#Cristais são Duros?###
 O <NAVI>[Amigo do Mago]<INFO>ice_dun01,149,168,0,101,0</INFO></NAVI> da Caverna de Gelo me pediu para derrotar ^4d4dffTitãs de Gelo e Gazetis^000000.#
 Caçar Titã e Gazeti#
 
@@ -28822,7 +28918,7 @@ Caçar Titã e Gazeti#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. As missões podem ser aceitas através do <NAVI>[Amigo do Mago]<INFO>ice_dun01,149,168,0,101,0</INFO></NAVI> dentro da Caverna de Gelo.#
 Reseta 4 da manhã#
 
-21393#[É] Demônios dos Sonhos###
+21393#Demônios dos Sonhos###
 Em Geffen, <NAVI>[Mingmin]<INFO>geffen,129,46,0,101,0</INFO></NAVI> permitirá que você entre em Geffenia se ajudá-la a lidar com ^4d4dffIncubus e Succubus^000000 para sua pesquisa.#
 Acesso a Geffenia#
 
@@ -28866,7 +28962,7 @@ O <NAVI>[Churrasqueiro]<INFO>comodo,206,304,0,101,0</INFO></NAVI> me pediu 10 <I
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Churrasqueiro]<INFO>comodo,206,304,0,101,0</INFO></NAVI> em Comodo.#
 Reseta 4 da manhã#
 
-21411#[É] Churrasco Ruim###
+21411#Churrasco Ruim###
 O <NAVI>[Churrasqueiro]<INFO>comodo,206,304,0,101,0</INFO></NAVI> me pediu 10 <ITEM>[Patas Pegajosas]<INFO>918</INFO></ITEM> dos Sapos de Thara. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 10 Patas Pegajosas#
 
@@ -28874,7 +28970,7 @@ O <NAVI>[Churrasqueiro]<INFO>comodo,206,304,0,101,0</INFO></NAVI> me pediu 10 <I
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Bunny]<INFO>comodo,249,300,0,101,0</INFO></NAVI> em Comodo.#
 Reseta 4 da manhã#
 
-21413#[É] Tratamento de Pele###
+21413#Tratamento de Pele###
 Traga 5 <ITEM>[Tentáculos]<INFO>962</INFO></ITEM> obtidos ao eliminar 10 <NAVI>[Hidras]<INFO>beach_dun3,23,260,0,101,0</INFO></NAVI> para <NAVI>[Bunny]<INFO>comodo,249,300,0,101,0</INFO></NAVI>, que está sofrendo os efeitos colaterais da aplicação do Korasera. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 5 Tentáculos#
 
@@ -28882,11 +28978,11 @@ Traga 5 <ITEM>[Tentáculos]<INFO>962</INFO></ITEM> obtidos ao eliminar 10 <NAVI>
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Seravi]<INFO>comodo,166,137,0,101,0</INFO></NAVI> em Comodo.#
 Reseta 4 da manhã#
 
-21415#[É] Tempero Korasera###
+21415#Tempero Korasera###
 Para ajudar <NAVI>[Seravi]<INFO>comodo,166,137,0,101,0</INFO></NAVI> a crescer Korasera, elimine 10 Megalodons. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caçar Megalodon#
 
-21416#[É] Amigos na Praia###
+21416#Amigos na Praia###
 O <NAVI>[Soldado]<INFO>comodo,326,215,5,0,0</INFO></NAVI> na Fortaleza de Sanderman quer que você elimine Focas e Lontras na <NAVI>[Praia de Kokomo]<INFO>cmd_fild02,220,365,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Praia de Kokomo#
 
@@ -28894,7 +28990,7 @@ Praia de Kokomo#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Soldado]<INFO>cmd_fild07,126,139,0,101,0</INFO></NAVI> na Fortaleza de Sanderman.#
 Reseta 4 da manhã#
 
-21418#[É] Duro como Pedra###
+21418#Duro como Pedra###
 O <NAVI>[Soldado]<INFO>comodo,170,347,0,101,0</INFO></NAVI> solicita a eliminação de monstros na <NAVI>[caverna norte]<INFO>beach_dun2,153,38,0,101,0</INFO></NAVI> afim de abrir caminho para Umbala. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Caverna de Comodo#
 
@@ -28902,7 +28998,7 @@ Caverna de Comodo#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Soldado]<INFO>comodo,170,347,0,101,0</INFO></NAVI> em Comodo.#
 Reseta 4 da manhã#
 
-21420#[É] A Cor Verde###
+21420#A Cor Verde###
 Elimine 15 Groves e 10 Crocodilos para o <NAVI>[Explorador]<INFO>cmd_fild01,40,320,0,101,0</INFO></NAVI> que está pesquisando a ecologia da <NAVI>[Floresta Papuchica]<INFO>cmd_fild01,82,250,0,101,0</INFO></NAVI> e do <NAVI>[Mangue Zenhai]<INFO>cmd_fild03,79,188,0,101,0</INFO></NAVI>. Se você conseguiu esta missão no Grupo do Éden, reporte-a ao Quadro.#
 Pedido do Explorador#
 
@@ -29002,7 +29098,7 @@ Se você visitar o cliente diretamente, poderá receber mais recompensas apenas 
 Se você visitar o cliente diretamente, poderá receber mais recompensas apenas uma vez.#
 #
 
-21501#[É] Zangão Fugaz###
+21501#Zangão Fugaz###
 Vamos caçar uma Zangão Fugaz no campo a oeste de Prontera.#
 Caçar 1 Zangão Fugaz#
 
@@ -29010,7 +29106,7 @@ Caçar 1 Zangão Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21503#[É] Rocker Fugaz###
+21503#Rocker Fugaz###
 Vamos caçar um Rocker Fugaz no campo a sudoeste de Prontera.#
 Caçar 1 Rocker Fugaz#
 
@@ -29018,7 +29114,7 @@ Caçar 1 Rocker Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21505#[É] Ambernite Fugaz###
+21505#Ambernite Fugaz###
 Vamos caçar Ambernite Fugaz no campo a oeste de Prontera.#
 Caçar 1 Ambernite Fugaz#
 
@@ -29026,7 +29122,7 @@ Caçar 1 Ambernite Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21507#[É] Muka Alfa###
+21507#Muka Alfa###
 Vamos caçar um Muka Alfa no campo a sudoeste de Izlude.#
 Caçar 1 Muka Alfa#
 
@@ -29034,7 +29130,7 @@ Caçar 1 Muka Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21509#[É] Pé-Grande Alfa###
+21509#Pé-Grande Alfa###
 Vamos caçar um Pé-Grande Alfa no campo a sudeste de Payon.#
 Caçar 1 Pé-Grande Alfa#
 
@@ -29042,7 +29138,7 @@ Caçar 1 Pé-Grande Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21511#[É] Besouro-Chifre Brutal###
+21511#Besouro-Chifre Brutal###
 Vamos caçar um Besouro-Chifre Brutal no campo a leste de Payon.#
 Caçar 1 Besouro-Chifre Brutal#
 
@@ -29050,7 +29146,7 @@ Caçar 1 Besouro-Chifre Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21513#[É] Salgueiro Ancião Ágil###
+21513#Salgueiro Ancião Ágil###
 Cace um Salgueiro Ancião Ágil no campo a sudeste de Oak Village.#
 Caçar 1 Salgueiro Ancião Ágil#
 
@@ -29058,7 +29154,7 @@ Caçar 1 Salgueiro Ancião Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21515#[É] Koko Brutal###
+21515#Koko Brutal###
 Cace um Koko Brutal no campo sudoeste de Prontera.#
 Caçar 1 Koko Brutal#
 
@@ -29066,7 +29162,7 @@ Caçar 1 Koko Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21517#[É] Yoyo Ágil###
+21517#Yoyo Ágil###
 Vamos caçar um Yoyo Ágil no campo a nordeste de Prontera.#
 Caçar 1 Yoyo Ágil#
 
@@ -29074,7 +29170,7 @@ Caçar 1 Yoyo Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21519#[É] Magnólia Fugaz###
+21519#Magnólia Fugaz###
 Vamos caçar uma Magnólia Fugaz no campo ao sul de Izlude.#
 Caçar 1 Magnólia Fugaz#
 
@@ -29082,7 +29178,7 @@ Caçar 1 Magnólia Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21521#[É] Guerreiro Orc Feroz###
+21521#Guerreiro Orc Feroz###
 Vamos caçar um Guerreiro Orc Feroz em uma Orc Village.#
 Caçar 1 Guerreiro Orc Feroz#
 
@@ -29090,7 +29186,7 @@ Caçar 1 Guerreiro Orc Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21523#[É] Goblin Ágil###
+21523#Goblin Ágil###
 Cace um Goblin Ágil no campo ao sul da Vila Orc.#
 Caçar 1 Goblin Ágil#
 
@@ -29098,7 +29194,7 @@ Caçar 1 Goblin Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21525#[É] Goblin Fugaz###
+21525#Goblin Fugaz###
 Vamos caçar um Goblin Fugaz no campo a sudeste da Vila Orc.#
 Caçar 1 Goblin Fugaz#
 
@@ -29106,7 +29202,7 @@ Caçar 1 Goblin Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21527#[É] Petite Ágil###
+21527#Petite Ágil###
 Vamos caçar um Petite Ágil no campo a oeste de Geffen.#
 Caçar 1 Petite Ágil#
 
@@ -29114,7 +29210,7 @@ Caçar 1 Petite Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21529#[É] Petite Brutal###
+21529#Petite Brutal###
 Vamos caçar um Petite Brutal no campo ao norte de Geffen West.#
 Caçar 1 Petite Brutal#
 
@@ -29122,7 +29218,7 @@ Caçar 1 Petite Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21531#[É] Arenoso Feroz###
+21531#Arenoso Feroz###
 Vamos caçar um Arenoso Feroz no campo sul-sudeste de Morroc.#
 Caçar 1 Arenoso Feroz#
 
@@ -29130,7 +29226,7 @@ Caçar 1 Arenoso Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21533#[É] Foca Ágil###
+21533#Foca Ágil###
 Vamos caçar uma Foca Ágil no campo a sudeste de Comodo.#
 Caçar 1 Foca Ágil#
 
@@ -29138,7 +29234,7 @@ Caçar 1 Foca Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21535#[É] Grove Fugaz###
+21535#Grove Fugaz###
 Vamos caçar um Grove Fugaz no campo a leste de Comodo.#
 Caçar 1 Grove Fugaz#
 
@@ -29146,7 +29242,7 @@ Caçar 1 Grove Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21537#[É] Crocodilo Brutal###
+21537#Crocodilo Brutal###
 Vamos caçar um Crocodilo Brutal no campo a leste de Comodo.#
 Caçar 1 Crocodilo Brutal#
 
@@ -29154,7 +29250,7 @@ Caçar 1 Crocodilo Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21539#[É] Guerreiro Wootan Feroz###
+21539#Guerreiro Wootan Feroz###
 Vamos caçar um Guerreiro Wootan Feroz no campo oeste de Umbala.#
 Caçar 1 Guerreiro Wootan Feroz#
 
@@ -29162,7 +29258,7 @@ Caçar 1 Guerreiro Wootan Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21541#[É] Dríade Ágil###
+21541#Dríade Ágil###
 Cace uma Dríade Ágil nos campos a noroeste de Comodo.#
 Caçar 1 Dríade Ágil#
 
@@ -29170,7 +29266,7 @@ Caçar 1 Dríade Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21543#[É] Molusco Ágil###
+21543#Molusco Ágil###
 Vamos caçar um Molusco Ágil no campo ao sul de Huigel.#
 Caçar 1 Molusco Ágil#
 
@@ -29178,7 +29274,7 @@ Caçar 1 Molusco Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21545#[É] Planta Carnívora Brutal###
+21545#Planta Carnívora Brutal###
 Cace uma Planta Carnívora Brutal nos campos ao norte de Al De Baran.#
 Caçar 1 Planta Carnívora Brutal#
 
@@ -29186,7 +29282,7 @@ Caçar 1 Planta Carnívora Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21547#[É] Grand Peco Alfa###
+21547#Grand Peco Alfa###
 Vamos caçar o Grand Peco Alfa no campo norte-noroeste de Al De Baran.#
 Caçar 1 Grand Peco Alfa#
 
@@ -29194,7 +29290,7 @@ Caçar 1 Grand Peco Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21549#[É] Bode Alfa###
+21549#Bode Alfa###
 Vamos caçar um Bode Alfa no campo sul-sudeste de Juno.#
 Caçar 1 Bode Alfa#
 
@@ -29202,7 +29298,7 @@ Caçar 1 Bode Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21551#[É] Rochoso Ágil###
+21551#Rochoso Ágil###
 Vamos caçar um Rochoso Ágil no campo sul-sudeste de Juno.#
 Caçar 1 Rochoso Ágil#
 
@@ -29210,7 +29306,7 @@ Caçar 1 Rochoso Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21553#[É] Talo de Verme Ágil###
+21553#Talo de Verme Ágil###
 Vamos caçar um Talo de Verme Ágil no campo a nordeste de Lighthalzen.#
 Caçar 1 Talo de Verme Ágil#
 
@@ -29218,7 +29314,7 @@ Caçar 1 Talo de Verme Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21555#[É] Holden Brutal###
+21555#Holden Brutal###
 Vamos caçar um Holden Brutal no campo a nordeste de Einbroch.#
 Caçar 1 Holden Brutal#
 
@@ -29226,7 +29322,7 @@ Caçar 1 Holden Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21557#[É] Rafflesia Ágil###
+21557#Rafflesia Ágil###
 Vamos caçar uma Rafflesia Ágil no campo ao norte de Lighthalzen.#
 Caçar 1 Rafflesia Ágil#
 
@@ -29234,7 +29330,7 @@ Caçar 1 Rafflesia Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21559#[É] Nuvem Venenosa Alfa###
+21559#Nuvem Venenosa Alfa###
 Vamos caçar uma Nuvem Venenosa Alfa no campo ao norte de Einbroch.#
 Caçar 1 Nuvem Venenosa Alfa#
 
@@ -29242,7 +29338,7 @@ Caçar 1 Nuvem Venenosa Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21561#[É] Nuvem Tóxica Feroz###
+21561#Nuvem Tóxica Feroz###
 Vamos caçar uma Nuvem Tóxica Feroz no campo a nordeste de Einbroch.#
 Caçar 1 Nuvem Tóxica Feroz#
 
@@ -29250,7 +29346,7 @@ Caçar 1 Nuvem Tóxica Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21563#[É] Novus Fugaz###
+21563#Novus Fugaz###
 Vamos caçar um Novus Fugaz no campo a sudoeste de Hugel.#
 Caçar 1 Novus Fugaz#
 
@@ -29258,7 +29354,7 @@ Caçar 1 Novus Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21565#[É] Roween Brutal###
+21565#Roween Brutal###
 Vamos caçar um Roween Brutal no campo a leste de Rachel.#
 Caçar 1 Roween Brutal#
 
@@ -29266,7 +29362,7 @@ Caçar 1 Roween Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21567#[É] Stapo Alfa###
+21567#Stapo Alfa###
 Vamos caçar um Stapo Alfa no campo ao sul de Veins.#
 Caçar 1 Stapo Alfa#
 
@@ -29274,7 +29370,7 @@ Caçar 1 Stapo Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21569#[É] Fumacento Feroz###
+21569#Fumacento Feroz###
 Vamos caçar um Fumacento Feroz em Ayothaya Field.#
 Caçar 1 Fumacento Feroz#
 
@@ -29282,7 +29378,7 @@ Caçar 1 Fumacento Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21571#[É] Pirralho Alfa###
+21571#Pirralho Alfa###
 Vamos caçar um Pirralho Alfa em Kunlun Field.#
 Caçar 1 Pirralho Alfa#
 
@@ -29290,7 +29386,7 @@ Caçar 1 Pirralho Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21573#[É] Espírito do Vento Feroz###
+21573#Espírito do Vento Feroz###
 Vamos caçar um Espírito do Vento Feroz no Campo Brasilis.#
 Caçar 1 Espírito do Vento Feroz#
 
@@ -29298,7 +29394,7 @@ Caçar 1 Espírito do Vento Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21575#[É] Sorrateiro Brutal###
+21575#Sorrateiro Brutal###
 Cace um Sorrateiro Brutal no Campo Moscovia.#
 Caçar 1 Sorrateiro Brutal#
 
@@ -29306,7 +29402,7 @@ Caçar 1 Sorrateiro Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21577#[É] Karakasa Ágil###
+21577#Karakasa Ágil###
 Vamos caçar um Karakasa Ágil no Campo de Amatsu.#
 Caçar 1 Karakasa Ágil#
 
@@ -29314,7 +29410,7 @@ Caçar 1 Karakasa Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21579#[É] Mi Gao Fugaz###
+21579#Mi Gao Fugaz###
 Vamos caçar um Mi Gao Fugaz no campo do Castelo de Papel.#
 Caçar 1 Mi Gao Fugaz#
 
@@ -29326,7 +29422,7 @@ Reseta 4 da manhã#
 Recebi um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. Vamos ao templo de Odin para caçar monstros.#
 Ao Templo de Odin#
 
-21582#[É] Menina Gótica###
+21582#Menina Gótica###
 Esse é um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. Vamos caçar 20 Skogul que supostamente se comunicam com demônios.#
 Caçar Skogul#
 
@@ -29334,11 +29430,11 @@ Caçar Skogul#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI> em Hugel.#
 Reseta 4 da manhã#
 
-21584#[É] Menina Gótica###
+21584#Menina Gótica###
 Esse é um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. Vamos caçar 20 Skogul que supostamente se comunicam com demônios.#
 20 Skogul#
 
-21585#[É] Purificar o Mal###
+21585#Purificar o Mal###
 Esse é um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. Vamos caçar 20 Frus cujos movimentos bizarros são assustadores.#
 20 Frus#
 
@@ -29346,11 +29442,11 @@ Esse é um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. V
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI> em Hugel.#
 Reseta 4 da manhã#
 
-21587#[É] Purificar o Mal###
+21587#Purificar o Mal###
 Esse é um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. Vamos caçar 20 Frus cujos movimentos bizarros são assustadores.#
 20 Frus#
 
-21588#[É] Seres Gelatinosos###
+21588#Seres Gelatinosos###
 Esse é um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. Vamos caçar 5 Skeggiold marrons e 5 azuis, que parecem fofos, mas são monstros assustadores.#
 Caçar Skeggiold#
 
@@ -29358,7 +29454,7 @@ Caçar Skeggiold#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI> em Hugel.#
 Reseta 4 da manhã#
 
-21590#[É] Seres Gelatinosos###
+21590#Seres Gelatinosos###
 Esse é um pedido de <NAVI>[Morband]<INFO>hugel,209,109,0,101,0</INFO></NAVI>. Vamos caçar 5 Skeggiold marrons e 5 azuis, que parecem fofos, mas são monstros assustadores.#
 Caçar Skeggiold#
 
@@ -29366,7 +29462,7 @@ Caçar Skeggiold#
 Recebi um pedido de uma pessoa desconhecida. Vamos para o Laboratório de Somatologia.#
 Ao Laboratório#
 
-21592#[É] Cobaia Espadachim###
+21592#Cobaia Espadachim###
 Elimine Egnigem Cenia. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Egnigem Cenia#
 
@@ -29374,11 +29470,11 @@ Elimine Egnigem Cenia. Se não tiver a missão de acesso, você pode entrar no L
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta 4 da manhã#
 
-21594#[É] Cobaia Espadachim###
+21594#Cobaia Espadachim###
 Elimine Egnigem Cenia. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Egnigem Cenia#
 
-21595#[É] Cobaia Mercadora###
+21595#Cobaia Mercadora###
 Elimine Armeyer Dinze. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Armeyer Dinze#
 
@@ -29386,11 +29482,11 @@ Elimine Armeyer Dinze. Se não tiver a missão de acesso, você pode entrar no L
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta 4 da manhã#
 
-21597#[É] Cobaia Mercadora###
+21597#Cobaia Mercadora###
 Elimine Armeyer Dinze. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Armeyer Dinze#
 
-21598#[É] Cobaia Gatuna###
+21598#Cobaia Gatuna###
 Elimine Wickebine Tres. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Wickebine Tres#
 
@@ -29398,11 +29494,11 @@ Elimine Wickebine Tres. Se não tiver a missão de acesso, você pode entrar no 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta 4 da manhã#
 
-21600#[É] Cobaia Gatuna###
+21600#Cobaia Gatuna###
 Elimine Wickebine Tres. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Wickebine Tres#
 
-21601#[É] Cobaia Arqueiro###
+21601#Cobaia Arqueiro###
 Elimine Kavach Ícaro. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Kavach Ícaro#
 
@@ -29410,11 +29506,11 @@ Elimine Kavach Ícaro. Se não tiver a missão de acesso, você pode entrar no L
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta 4 da manhã#
 
-21603#[É] Cobaia Arqueiro###
+21603#Cobaia Arqueiro###
 Elimine Kavach Ícaro. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Kavach Ícaro#
 
-21604#[É] Cobaia Noviço###
+21604#Cobaia Noviço###
 Elimine Errende Ebecee. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Errende Ebecee#
 
@@ -29422,11 +29518,11 @@ Elimine Errende Ebecee. Se não tiver a missão de acesso, você pode entrar no 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta às 4 da manhã#
 
-21606#[É] Cobaia Noviço###
+21606#Cobaia Noviço###
 Elimine Errende Ebecee. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Errende Ebecee#
 
-21607#[É] Cobaia Mago###
+21607#Cobaia Mago###
 Elimine Laurell Weinder. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Laurell Weinder#
 
@@ -29434,11 +29530,11 @@ Elimine Laurell Weinder. Se não tiver a missão de acesso, você pode entrar no
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta às 4 da manhã#
 
-21609#[É] Cobaia Mago###
+21609#Cobaia Mago###
 Elimine Laurell Weinder. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 30 Laurell Weinder#
 
-21610#[É] Cobaia Atiradora###
+21610#Cobaia Atiradora###
 Elimine Cecil Damon. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Cecil Damon#
 
@@ -29446,11 +29542,11 @@ Elimine Cecil Damon. Se não tiver a missão de acesso, você pode entrar no Lab
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta às 4 da manhã#
 
-21612#[É] Cobaia Atiradora###
+21612#Cobaia Atiradora###
 Elimine Cecil Damon. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Cecil Damon#
 
-21613#[É] Cobaia Arquimaga###
+21613#Cobaia Arquimaga###
 Elimine Kathryne Keyron. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Kathryne Keyron#
 
@@ -29458,11 +29554,11 @@ Elimine Kathryne Keyron. Se não tiver a missão de acesso, você pode entrar no
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta às 4 da manhã#
 
-21615#[É] Cobaia Arquimaga###
+21615#Cobaia Arquimaga###
 Elimine Kathryne Keyron. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Kathryne Keyron#
 
-21616#[É] Cobaia Sacerdotisa###
+21616#Cobaia Sacerdotisa###
 Elimine Margaretha Sorin. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Margaretha Sorin#
 
@@ -29470,11 +29566,11 @@ Elimine Margaretha Sorin. Se não tiver a missão de acesso, você pode entrar n
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta 4 da manhã#
 
-21618#[É] Cobaia Sacerdotisa###
+21618#Cobaia Sacerdotisa###
 Elimine Margaretha Sorin. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Margaretha Sorin#
 
-21619#[É] Cobaia Lorde###
+21619#Cobaia Lorde###
 Elimine Seyren Windsor. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Seyren Windsor#
 
@@ -29482,11 +29578,11 @@ Elimine Seyren Windsor. Se não tiver a missão de acesso, você pode entrar no 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta às 4 da manhã#
 
-21621#[É] Cobaia Lorde###
+21621#Cobaia Lorde###
 Elimine Seyren Windsor. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Seyren Windsor#
 
-21622#[É] Cobaia Algoz###
+21622#Cobaia Algoz###
 Elimine Eremes Guile. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Eremes Guile#
 
@@ -29494,11 +29590,11 @@ Elimine Eremes Guile. Se não tiver a missão de acesso, você pode entrar no La
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta às 4 da manhã#
 
-21624#[É] Cobaia Algoz###
+21624#Cobaia Algoz###
 Elimine Eremes Guile. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Eremes Guile#
 
-21625#[É] Cobaia Ferreiro###
+21625#Cobaia Ferreiro###
 Elimine para Howard Alteisen. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Howard Alteisen#
 
@@ -29506,7 +29602,7 @@ Elimine para Howard Alteisen. Se não tiver a missão de acesso, você pode entr
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com os <NAVI>[Vestígios]<INFO>lighthalzen,328,202,0,101,0</INFO></NAVI> em Lighthalzen.#
 Reseta às 4 da manhã#
 
-21627#[É] Cobaia Ferreiro###
+21627#Cobaia Ferreiro###
 Elimine Howard Alteisen. Se não tiver a missão de acesso, você pode entrar no Laboratório de Somatologia falando com <NAVI>[Laura]<INFO>lighthalzen,310,306,0,101,0</INFO></NAVI> em Lighthalzen.#
 2 Howard Alteisen#
 
@@ -29514,7 +29610,7 @@ Elimine Howard Alteisen. Se não tiver a missão de acesso, você pode entrar no
 Fui questionado pela equipe do Museu dos Monstros. Vamos para Caverna de Magma.#
 Para a Caverna de Magma#
 
-21629#[É] Filtro dos Sonhos###
+21629#Filtro dos Sonhos###
 Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, elimine 30 Pesadelos Sombrios em nome do Museu de Monstros de Juno.#
 30 Pesadelos Sombrios#
 
@@ -29522,11 +29618,11 @@ Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, elimine
 Você pode repetir a missão no quadro do Grupo do Éden ou falando o <NAVI>[Diligente do Museu]<INFO>yuno,273,292,0,101,0</INFO></NAVI> em Juno ou na <NAVI>[entrada]<INFO>yuno_fild03,40,150,0,101,0</INFO></NAVI> na Caverna de Magma.#
 Reseta às 4 da manhã#
 
-21631#[É] Filtro dos Sonhos###
+21631#Filtro dos Sonhos###
 Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, elimine 30 Pesadelos Sombrios em nome do Museu de Monstros de Juno.#
 30 Pesadelos Sombrios#
 
-21632#[É] Dragões de Fogo###
+21632#Dragões de Fogo###
 Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, elimine 30 Exterminadores e 30 Deletérios em nome do Museu de Monstros de Juno.#
 Caçar Dragões#
 
@@ -29534,11 +29630,11 @@ Caçar Dragões#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando o <NAVI>[Diligente do Museu]<INFO>yuno,273,292,0,101,0</INFO></NAVI> em Juno ou na <NAVI>[entrada]<INFO>yuno_fild03,40,150,0,101,0</INFO></NAVI> na Caverna de Magma.#
 Reseta 4 da manhã#
 
-21634#[É] Dragões de Fogo###
+21634#Dragões de Fogo###
 Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, elimine 30 Exterminadores e 30 Deletérios em nome do Museu de Monstros de Juno.#
 Caçar Dragões#
 
-21635#[É] Estudo Geológico###
+21635#Estudo Geológico###
 Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, colete 10 <ITEM>[Pedras Pomes]<INFO>7096</INFO></ITEM> em nome do Museu de Monstros de Juno.#
 10 Pedras Pomes#
 
@@ -29546,7 +29642,7 @@ Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, colete 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando o <NAVI>[Diligente do Museu]<INFO>yuno,273,292,0,101,0</INFO></NAVI> em Juno ou na <NAVI>[entrada]<INFO>yuno_fild03,40,150,0,101,0</INFO></NAVI> na Caverna de Magma.#
 Reseta às 4 da manhã#
 
-21637#[É] Estudo Geológico###
+21637#Estudo Geológico###
 Na <NAVI>[Caverna de Magma]<INFO>mag_dun01,126,73,0,101,0</INFO></NAVI>, colete 10 <ITEM>[Pedras Pomes]<INFO>7096</INFO></ITEM> em nome do Museu de Monstros de Juno.#
 10 Pedras Pomes#
 
@@ -29558,7 +29654,7 @@ Ferus Escarlate#
 Nahadan resgatou a viajante ferida. Vamos voltar para <NAVI>[Hugel]<INFO>hugel,95,37,0,101,0</INFO></NAVI> e avaliar a situação.#
 Volte para Hugel#
 
-21640#[É] Dragões do Lago###
+21640#Dragões do Lago###
 Para a segurança dos viajantes, vamos caçar 30 Ferus Escarlate e 30 Ferus Verdes no <NAVI>[Lago do Abismo]<INFO>hu_fild05,196,210,0,101,0</INFO></NAVI>.#
 Caçar Ferus#
 
@@ -29566,11 +29662,11 @@ Caçar Ferus#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Nahadan]<INFO>hugel,69,121,0,101,0</INFO></NAVI> em Hugel.#
 Reseta às 4 da manhã#
 
-21642#[É] Dragões do Lago###
+21642#Dragões do Lago###
 Para a segurança dos viajantes, vamos caçar 30 Ferus Escarlate e 30 Ferus Verdes no <NAVI>[Lago do Abismo]<INFO>hu_fild05,196,210,0,101,0</INFO></NAVI>.#
 Caçar Ferus#
 
-21643#[É] Dragões do Subsolo###
+21643#Dragões do Subsolo###
 Para a segurança dos viajantes, vamos caçar 30 Acidus Dourados e 30 Acidus Azuis no <NAVI>[Lago do Abismo]<INFO>hu_fild05,196,210,0,101,0</INFO></NAVI>.#
 Caçar Acidus#
 
@@ -29578,11 +29674,11 @@ Caçar Acidus#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Nahadan]<INFO>hugel,69,121,0,101,0</INFO></NAVI> em Hugel.#
 Reseta às 4 da manhã#
 
-21645#[É] Dragões do Subsolo###
+21645#Dragões do Subsolo###
 Para a segurança dos viajantes, vamos caçar 30 Acidus Dourados e 30 Acidus Azuis no <NAVI>[Lago do Abismo]<INFO>hu_fild05,196,210,0,101,0</INFO></NAVI>.#
 Caçar Acidus#
 
-21646#[É] Dragão do Tesouro###
+21646#Dragão do Tesouro###
 Para a segurança dos viajantes, vamos caçar 1 Hydrolancer no <NAVI>[Lago do Abismo]<INFO>hu_fild05,196,210,0,101,0</INFO></NAVI>.#
 Caçar Hydrolancer#
 
@@ -29590,7 +29686,7 @@ Caçar Hydrolancer#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Nahadan]<INFO>hugel,69,121,0,101,0</INFO></NAVI> em Hugel.#
 Reseta às 4 da manhã#
 
-21648#[É] Dragão do Tesouro###
+21648#Dragão do Tesouro###
 Para a segurança dos viajantes, vamos caçar 1 Hydrolancer no <NAVI>[Lago do Abismo]<INFO>hu_fild05,196,210,0,101,0</INFO></NAVI>.#
 Caçar Hydrolancer#
 
@@ -29602,7 +29698,7 @@ Pedido de Felícia#
 Aceitei o pedido de Talita para caçar os monstros no andar superior da Torre de Thanatos.#
 Pedido de Talita#
 
-21651#[É] Uma Caixa Viva###
+21651#Uma Caixa Viva###
 Este é um pedido da Felícia, que parece estar mais interessada no conteúdo do que nos monstros. Cace 30 Mímicos Anciões na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>.#
 30 Mímicos Anciões#
 
@@ -29610,11 +29706,11 @@ Este é um pedido da Felícia, que parece estar mais interessada no conteúdo do
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Felícia]<INFO>tha_t01,160,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21653#[É] Uma Caixa Viva###
+21653#Uma Caixa Viva###
 Este é um pedido da Felícia, que parece estar mais interessada no conteúdo do que nos monstros. Cace 30 Mímicos Anciões na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>.#
 30 Mímicos Anciões#
 
-21654#[É] Palavras ao Vento###
+21654#Palavras ao Vento###
 Elimine 30 Palavras Mortas na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>.#
 30 Palavras Mortas#
 
@@ -29622,11 +29718,11 @@ Elimine 30 Palavras Mortas na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,1
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Felícia]<INFO>tha_t01,160,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21656#[É] Palavras ao Vento###
+21656#Palavras ao Vento###
 Elimine 30 Palavras Mortas na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>.#
 30 Palavras Mortas#
 
-21657#[É] Barão do Reino###
+21657#Barão do Reino###
 Elimine 20 Barões Coruja na <NAVI>[Torre de Thanatos]<INFO>tha_t04,60,142,0,101,0</INFO></NAVI>.#
 20 Barões Coruja#
 
@@ -29634,11 +29730,11 @@ Elimine 20 Barões Coruja na <NAVI>[Torre de Thanatos]<INFO>tha_t04,60,142,0,101
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Felícia]<INFO>tha_t01,160,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21659#[É] Barão do Reino###
+21659#Barão do Reino###
 Elimine 20 Barões Coruja na <NAVI>[Torre de Thanatos]<INFO>tha_t04,60,142,0,101,0</INFO></NAVI>.#
 20 Barões Coruja#
 
-21660#[É] Páginas de um Livro###
+21660#Páginas de um Livro###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>, algumas Palavras Mortas derrubam <ITEM>[Página Sangrenta]<INFO>7449</INFO></ITEM>. Vamos coletar 10 unidades.#
 10 Páginas Sangrentas#
 
@@ -29646,11 +29742,11 @@ Na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>, algumas
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Felícia]<INFO>tha_t01,160,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21662#[É] Páginas de um Livro###
+21662#Páginas de um Livro###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>, algumas Palavras Mortas derrubam <ITEM>[Página Sangrenta]<INFO>7449</INFO></ITEM>. Vamos coletar 10 unidades.#
 10 Páginas Sangrentas#
 
-21663#[É] Manuscritos Mágicos###
+21663#Manuscritos Mágicos###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>, alguns Anciões derrubam <ITEM>[Pergaminho Antigo]<INFO>7099</INFO></ITEM>. Vamos coletar 10 unidades.#
 10 Pergaminhos Antigos#
 
@@ -29658,11 +29754,11 @@ Na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>, alguns 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Felícia]<INFO>tha_t01,160,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21665#[É] Manuscritos Mágicos###
+21665#Manuscritos Mágicos###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t02,149,130,0,101,0</INFO></NAVI>, alguns Anciões derrubam <ITEM>[Pergaminho Antigo]<INFO>7099</INFO></ITEM>. Vamos coletar 10 unidades.#
 10 Pergaminhos Antigos#
 
-21666#[É] Aula de Reciclagem###
+21666#Aula de Reciclagem###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t04,60,142,0,101,0</INFO></NAVI>, alguns Duques e Barões Corujas derrubam <ITEM>[Farrapos]<INFO>7071</INFO></ITEM>. Vamos coletar 30 unidades.#
 30 Farrapos#
 
@@ -29670,11 +29766,11 @@ Na <NAVI>[Torre de Thanatos]<INFO>tha_t04,60,142,0,101,0</INFO></NAVI>, alguns D
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Felícia]<INFO>tha_t01,160,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21668#[É] Aula de Reciclagem###
+21668#Aula de Reciclagem###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t04,60,142,0,101,0</INFO></NAVI>, alguns Duques e Barões Corujas derrubam <ITEM>[Farrapos]<INFO>7071</INFO></ITEM>. Vamos coletar 30 unidades.#
 30 Farrapos#
 
-21669#[É] Punição Angelical###
+21669#Punição Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Retribuições.#
 30 Retribuições#
 
@@ -29682,11 +29778,11 @@ Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Talita]<INFO>tha_t01,162,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21671#[É] Punição Angelical###
+21671#Punição Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Retribuições.#
 30 Retribuições#
 
-21672#[É] Som Angelical###
+21672#Som Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Confortos.#
 30 Confortos#
 
@@ -29694,11 +29790,11 @@ Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Talita]<INFO>tha_t01,162,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21674#[É] Som Angelical###
+21674#Som Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Confortos.#
 30 Confortos#
 
-21675#[É] Descanso Angelical###
+21675#Descanso Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Abrigos.#
 30 Abrigos#
 
@@ -29706,11 +29802,11 @@ Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Talita]<INFO>tha_t01,162,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21677#[É] Descanso Angelical###
+21677#Descanso Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Abrigos.#
 30 Abrigos#
 
-21678#[É] Vigia Angelical###
+21678#Vigia Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Observações.#
 30 Observações#
 
@@ -29718,7 +29814,7 @@ Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Talita]<INFO>tha_t01,162,84,0,101,0</INFO></NAVI> na Torre de Thanatos.#
 Reseta às 4 da manhã#
 
-21680#[É] Vigia Angelical###
+21680#Vigia Angelical###
 Na <NAVI>[Torre de Thanatos]<INFO>tha_t07,30,166,0,101,0</INFO></NAVI>, elimine 30 Observações.#
 30 Observações#
 
@@ -29730,7 +29826,7 @@ Acesso a Glastheim#
 Aceite o pedido de Thiago e vá até a Cavalaria de Glastheim.#
 Acesso Glastheim#
 
-21683#[É] Pobre Palhaço###
+21683#Pobre Palhaço###
 No <NAVI>[Castelo de Glastheim]<INFO>gl_cas01,199,29,0,101,0</INFO></NAVI>, elimine 30 Carats.#
 30 Carats#
 
@@ -29738,11 +29834,11 @@ No <NAVI>[Castelo de Glastheim]<INFO>gl_cas01,199,29,0,101,0</INFO></NAVI>, elim
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Padre Lúcifer]<INFO>glast_01,198,273,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21685#[É] Pobre Palhaço###
+21685#Pobre Palhaço###
 No <NAVI>[Castelo de Glastheim]<INFO>gl_cas01,199,29,0,101,0</INFO></NAVI>, elimine 30 Carats.#
 30 Carats#
 
-21686#[É] O MVP mais Forte###
+21686#O MVP mais Forte###
 Na <NAVI>[Caverna de Glastheim]<INFO>gl_dun01,133,271,0,101,0</INFO></NAVI>, elimine 30 Arclouses e envie-os para o Deus que cuida até desses pequenos insetos.#
 30 Arclouses#
 
@@ -29750,11 +29846,11 @@ Na <NAVI>[Caverna de Glastheim]<INFO>gl_dun01,133,271,0,101,0</INFO></NAVI>, eli
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Padre Lúcifer]<INFO>glast_01,198,273,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21688#[É] O MVP mais Forte###
+21688#O MVP mais Forte###
 Na <NAVI>[Caverna de Glastheim]<INFO>gl_dun01,133,271,0,101,0</INFO></NAVI>, elimine 30 Arclouses e envie-os para o Deus que cuida até desses pequenos insetos.#
 30 Arclouses#
 
-21689#[É] Limpeza de Esgoto###
+21689#Limpeza de Esgoto###
 Nos <NAVI>[Aquedutos de Glastheim]<INFO>gl_sew04,68,277,0,101,0</INFO></NAVI>, elimine 30 Anolians.#
 30 Anolians#
 
@@ -29762,11 +29858,11 @@ Nos <NAVI>[Aquedutos de Glastheim]<INFO>gl_sew04,68,277,0,101,0</INFO></NAVI>, e
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Padre Lúcifer]<INFO>glast_01,198,273,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21691#[É] Limpeza de Esgoto###
+21691#Limpeza de Esgoto###
 Nos <NAVI>[Aquedutos de Glastheim]<INFO>gl_sew04,68,277,0,101,0</INFO></NAVI>, elimine 30 Anolians.#
 30 Anolians#
 
-21692#[É] Mão Inimiga###
+21692#Mão Inimiga###
 Nos <NAVI>[Esgotos de Glastheim]<INFO>gl_sew03,171,283,0,101,0</INFO></NAVI>, elimine 30 Stings.#
 30 Stings#
 
@@ -29774,11 +29870,11 @@ Nos <NAVI>[Esgotos de Glastheim]<INFO>gl_sew03,171,283,0,101,0</INFO></NAVI>, el
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Padre Lúcifer]<INFO>glast_01,198,273,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21694#[É] Mão Inimiga###
+21694#Mão Inimiga###
 Nos <NAVI>[Esgotos de Glastheim]<INFO>gl_sew03,171,283,0,101,0</INFO></NAVI>, elimine 30 Stings.#
 30 Stings#
 
-21695#[É] Touro Valente###
+21695#Touro Valente###
 Nas <NAVI>[Profundezas de Glastheim]<INFO>gl_dun02,224,266,0,101,0</INFO></NAVI>, elimine 30 Majoruros.#
 30 Majorous#
 
@@ -29786,11 +29882,11 @@ Nas <NAVI>[Profundezas de Glastheim]<INFO>gl_dun02,224,266,0,101,0</INFO></NAVI>
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com o <NAVI>[Padre Lúcifer]<INFO>glast_01,198,273,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21697#[É] Touro Valente###
+21697#Touro Valente###
 Nas <NAVI>[Profundezas de Glastheim]<INFO>gl_dun02,224,266,0,101,0</INFO></NAVI>, elimine 30 Majorous.#
 30 Majorous#
 
-21698#[É] Armadura Vazia###
+21698#Armadura Vazia###
 Na <NAVI>[Cavalaria de Glastheim]<INFO>gl_knt01,150,15,0,101,0</INFO></NAVI>, elimine 30 Raydrics para ajudar Thiago.#
 30 Raydrics#
 
@@ -29798,11 +29894,11 @@ Na <NAVI>[Cavalaria de Glastheim]<INFO>gl_knt01,150,15,0,101,0</INFO></NAVI>, el
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Thiago]<INFO>glast_01,67,193,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21700#[É] Armadura Vazia###
+21700#Armadura Vazia###
 Na <NAVI>[Cavalaria de Glastheim]<INFO>gl_knt01,150,15,0,101,0</INFO></NAVI>, elimine 30 Raydrics para ajudar Thiago.#
 30 Raydrics#
 
-21701#[É] Ajeite a Postura###
+21701#Ajeite a Postura###
 Na <NAVI>[Cavalaria de Glastheim]<INFO>gl_knt01,150,15,0,101,0</INFO></NAVI>, elimine 30 Khalitzburgs para ajudar Thiago.#
 30 Khalitzburgs#
 
@@ -29810,11 +29906,11 @@ Na <NAVI>[Cavalaria de Glastheim]<INFO>gl_knt01,150,15,0,101,0</INFO></NAVI>, el
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Thiago]<INFO>glast_01,67,193,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21703#[É] Ajeite a Postura###
+21703#Ajeite a Postura###
 Na <NAVI>[Cavalaria de Glastheim]<INFO>gl_knt01,150,15,0,101,0</INFO></NAVI>, elimine 30 Khalitzburgs para ajudar Thiago.#
 30 Khalitzburgs#
 
-21704#[É] Viajante sem Rumo###
+21704#Viajante sem Rumo###
 No<NAVI>[Castelo de Glastheim]<INFO>gl_cas02,104,33,0,101,0</INFO></NAVI>, elimine 30 Andarilhos para ajudar Thiago.#
 30 Andarilhos#
 
@@ -29822,11 +29918,11 @@ No<NAVI>[Castelo de Glastheim]<INFO>gl_cas02,104,33,0,101,0</INFO></NAVI>, elimi
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Thiago]<INFO>glast_01,67,193,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21706#[É] Viajante sem Rumo###
+21706#Viajante sem Rumo###
 No<NAVI>[Castelo de Glastheim]<INFO>gl_cas02,104,33,0,101,0</INFO></NAVI>, elimine 30 Andarilhos para ajudar Thiago.#
 30 Andarilhos#
 
-21707#[É] Inimigo à Altura###
+21707#Inimigo à Altura###
 No<NAVI>[Castelo de Glastheim]<INFO>gl_cas02,104,33,0,101,0</INFO></NAVI>, elimine 10 Cavaleiros do Abismo para ajudar Thiago.#
 10 Cavaleiros do Abismo#
 
@@ -29834,7 +29930,7 @@ No<NAVI>[Castelo de Glastheim]<INFO>gl_cas02,104,33,0,101,0</INFO></NAVI>, elimi
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Thiago]<INFO>glast_01,67,193,0,101,0</INFO></NAVI> em Glastheim.#
 Reseta às 4 da manhã#
 
-21709#[É] Inimigo à Altura###
+21709#Inimigo à Altura###
 No<NAVI>[Castelo de Glastheim]<INFO>gl_cas02,104,33,0,101,0</INFO></NAVI>, elimine 10 Cavaleiros do Abismo para ajudar Thiago.#
 10 Cavaleiros do Abismo#
 
@@ -29850,7 +29946,7 @@ Acesso ao Outro Mundo#
 Aceite o pedido de Lulu e cace monstros ao redor da Vila Mora.#
 Vila Mora#
 
-21713#[É] Menina das Flores###
+21713#Menina das Flores###
 Nos <NAVI>[campos esplêndidos]<INFO>spl_fild02,376,143,0,101,0</INFO></NAVI>, elimine 30 Pinguiculas.#
 30 Pinguiculas#
 
@@ -29858,11 +29954,11 @@ Nos <NAVI>[campos esplêndidos]<INFO>spl_fild02,376,143,0,101,0</INFO></NAVI>, e
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21715#[É] Menina das Flores###
+21715#Menina das Flores###
 Nos <NAVI>[campos esplêndidos]<INFO>spl_fild02,376,143,0,101,0</INFO></NAVI>, elimine 30 Pinguiculas.#
 30 Pinguiculas#
 
-21716#[É] Brilho Fatal###
+21716#Brilho Fatal###
 Nos <NAVI>[campos esplêndidos]<INFO>spl_fild02,376,143,0,101,0</INFO></NAVI>, elimine 30 Vespas Vagalume.#
 30 Vespas Vagalume#
 
@@ -29870,11 +29966,11 @@ Nos <NAVI>[campos esplêndidos]<INFO>spl_fild02,376,143,0,101,0</INFO></NAVI>, e
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21718#[É] Brilho Fatal###
+21718#Brilho Fatal###
 Nos <NAVI>[campos esplêndidos]<INFO>spl_fild02,376,143,0,101,0</INFO></NAVI>, elimine 30 Vespas Vagalume.#
 30 Vespas Vagalume#
 
-21719#[É] Rei do Novo Mundo###
+21719#Rei do Novo Mundo###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, elimine 1 Leão de Vinhas.#
 1 Leão de Vinhas#
 
@@ -29882,11 +29978,11 @@ No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndi
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21721#[É] Rei do Novo Mundo###
+21721#Rei do Novo Mundo###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, elimine 1 Leão de Vinhas.#
 1 Leão de Vinhas#
 
-21722#[É] Menina Veneno###
+21722#Menina Veneno###
 No <NAVI>[campo norte]<INFO>spl_fild01,289,32,0,101,0</INFO></NAVI> dos esplêndidos, elimine 30 Pinguiculas Sombrias.#
 30 Pinguiculas Sombrias#
 
@@ -29894,11 +29990,11 @@ No <NAVI>[campo norte]<INFO>spl_fild01,289,32,0,101,0</INFO></NAVI> dos esplênd
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21724#[É] Menina Veneno###
+21724#Menina Veneno###
 No <NAVI>[campo norte]<INFO>spl_fild01,289,32,0,101,0</INFO></NAVI> dos esplêndidos, elimine 30 Pinguiculas Sombrias.#
 30 Pinguiculas Sombrias#
 
-21725#[É] Marcador de Páginas###
+21725#Marcador de Páginas###
 Nos <NAVI>[arredores de Manuk]<INFO>man_fild01,35,238,0,101,0</INFO></NAVI>, elimine 30 Nepenthes com lindas flores.#
 30 Nepenthes#
 
@@ -29906,11 +30002,11 @@ Nos <NAVI>[arredores de Manuk]<INFO>man_fild01,35,238,0,101,0</INFO></NAVI>, eli
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21727#[É] Marcador de Páginas###
+21727#Marcador de Páginas###
 Nos <NAVI>[arredores de Manuk]<INFO>man_fild01,35,238,0,101,0</INFO></NAVI>, elimine 30 Nepenthes com lindas flores.#
 30 Nepenthes#
 
-21728#[É] Belos Músculos!###
+21728#Belos Músculos!###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, elimine 30 Nagas com grandes músculos.#
 30 Nagas#
 
@@ -29918,11 +30014,11 @@ No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndi
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21730#[É] Belos Músculos!###
+21730#Belos Músculos!###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, elimine 30 Nagas com grandes músculos.#
 30 Nagas#
 
-21731#[É] Conto de Fadas###
+21731#Conto de Fadas###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, elimine 30 Cornus que parecem estar em um conto de fadas.#
 30 Cornus#
 
@@ -29930,11 +30026,11 @@ No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndi
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21733#[É] Conto de Fadas###
+21733#Conto de Fadas###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, elimine 30 Cornus que parecem estar em um conto de fadas.#
 30 Cornus#
 
-21734#[É] Espinhos Perigosos###
+21734#Espinhos Perigosos###
 Nos <NAVI>[arredores de Manuk]<INFO>man_fild01,35,238,0,101,0</INFO></NAVI>, elimine 20 Larvas de Centopéia que são tão fofas.#
 20 Larvas de Centopéia#
 
@@ -29942,11 +30038,11 @@ Nos <NAVI>[arredores de Manuk]<INFO>man_fild01,35,238,0,101,0</INFO></NAVI>, eli
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21736#[É] Espinhos Perigosos###
+21736#Espinhos Perigosos###
 Nos <NAVI>[arredores de Manuk]<INFO>man_fild01,35,238,0,101,0</INFO></NAVI>, elimine 20 Larvas de Centopéia que são tão fofas.#
 20 Larvas de Centopéia#
 
-21737#[É] Poder do Chifre###
+21737#Poder do Chifre###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, vamos coletar 20 <ITEM>[Chifres Místicos]<INFO>6023</INFO></ITEM> contendo o poder mágico de Cornus.#
 20 Chifres Místicos#
 
@@ -29954,11 +30050,11 @@ No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndi
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Zeca]<INFO>mid_camp,271,244,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta 4 da manhã#
 
-21739#[É] Poder do Chifre###
+21739#Poder do Chifre###
 No <NAVI>[campo sul]<INFO>spl_fild03,306,376,0,101,0</INFO></NAVI> dos esplêndidos, vamos coletar 20 <ITEM>[Chifres Místicos]<INFO>6023</INFO></ITEM> contendo o poder mágico de Cornus.#
 20 Chifres Místicos#
 
-21740#[É] Alerta Venenoso###
+21740#Alerta Venenoso###
 Nos <NAVI>[campos de Manuk]<INFO>man_fild02,38,264,0,101,0</INFO></NAVI>, elimine 20 Centopéias.#
 20 Centopéias#
 
@@ -29966,11 +30062,11 @@ Nos <NAVI>[campos de Manuk]<INFO>man_fild02,38,264,0,101,0</INFO></NAVI>, elimin
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21742#[É] Alerta Venenoso###
+21742#Alerta Venenoso###
 Nos <NAVI>[campos de Manuk]<INFO>man_fild02,38,264,0,101,0</INFO></NAVI>, elimine 20 Centopéias.#
 20 Centopéias#
 
-21743#[É] Animal Pateta###
+21743#Animal Pateta###
 Nos <NAVI>[campos de Manuk]<INFO>man_fild02,38,264,0,101,0</INFO></NAVI>, elimine 20 Tatachos.#
 20 Tatachos#
 
@@ -29978,11 +30074,11 @@ Nos <NAVI>[campos de Manuk]<INFO>man_fild02,38,264,0,101,0</INFO></NAVI>, elimin
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21745#[É] Animal Pateta###
+21745#Animal Pateta###
 Nos <NAVI>[campos de Manuk]<INFO>man_fild02,38,264,0,101,0</INFO></NAVI>, elimine 20 Tatachos.#
 20 Tatachos#
 
-21746#[É] Parece uma Joia###
+21746#Parece uma Joia###
 No <NAVI>[Monte Kamidal]<INFO>dic_fild02,238,34,0,101,0</INFO></NAVI>, elimine 30 Dolomedes para que os tolos não sejam seduzidos pela aparência.#
 30 Dolomedes#
 
@@ -29990,11 +30086,11 @@ No <NAVI>[Monte Kamidal]<INFO>dic_fild02,238,34,0,101,0</INFO></NAVI>, elimine 3
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21748#[É] Parece uma Joia###
+21748#Parece uma Joia###
 No <NAVI>[Monte Kamidal]<INFO>dic_fild02,238,34,0,101,0</INFO></NAVI>, elimine 30 Dolomedes para que os tolos não sejam seduzidos pela aparência.#
 30 Dolomedes#
 
-21749#[É] Um Único Chifre###
+21749#Um Único Chifre###
 Dentro do <NAVI>[Túnel Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scarabas Chifre. São os Scarabas que carregam uma lança.#
 30 Scarabas Chifre#
 
@@ -30002,11 +30098,11 @@ Dentro do <NAVI>[Túnel Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, e
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21751#[É] Um Único Chifre###
+21751#Um Único Chifre###
 Dentro do <NAVI>[Túnel Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scarabas Chifre. São os Scarabas que carregam uma lança.#
 30 Scarabas Chifre#
 
-21752#[É] São Dois Chifres###
+21752#São Dois Chifres###
 Dentro do <NAVI>[Túnel Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scaraba Chifres Duplos. São os Scarabas que carregam uma adaga.#
 30 Chifres Duplos#
 
@@ -30014,11 +30110,11 @@ Dentro do <NAVI>[Túnel Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, e
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21754#[É] São Dois Chifres###
+21754#São Dois Chifres###
 Dentro do <NAVI>[Túnel Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scarabas Chifres Duplos. São os Scarabas que carregam uma adaga.#
 30 Chifres Duplos#
 
-21755#[É] Chifres de Galho###
+21755#Chifres de Galho###
 Dentro da <NAVI>[Caverna Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scarabas Galhados.#
 30 Scarabas Galhados#
 
@@ -30026,11 +30122,11 @@ Dentro da <NAVI>[Caverna Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21757#[É] Chifres de Galho###
+21757#Chifres de Galho###
 Dentro da <NAVI>[Caverna Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scarabas Galhados.#
 30 Scarabas Galhados#
 
-21758#[É] Chifres de Pinça###
+21758#Chifres de Pinça###
 Dentro da <NAVI>[Caverna Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scarabas Ancinho.#
 30 Scarabas Ancinho#
 
@@ -30038,11 +30134,11 @@ Dentro da <NAVI>[Caverna Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, 
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21760#[É] Chifres de Pinça###
+21760#Chifres de Pinça###
 Dentro da <NAVI>[Caverna Kamidal]<INFO>dic_dun01,290,104,0,101,0</INFO></NAVI>, elimine 30 Scarabas Ancinho.#
 30 Scarabas Ancinho#
 
-21761#[É] Animais de Fogo###
+21761#Animais de Fogo###
 No <NAVI>[Círculo de Fogo]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI>, elimine 15 Condores de Fogo e 15 Frilldoras de Fogo.#
 No Círculo de Fogo#
 
@@ -30050,11 +30146,11 @@ No Círculo de Fogo#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta 4 da manhã#
 
-21763#[É] Animais de Fogo###
+21763#Animais de Fogo###
 No <NAVI>[Círculo de Fogo]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI>, elimine 15 Condores de Fogo e 15 Frilldoras de Fogo.#
 No Círculo de Fogo#
 
-21764#[É] Criaturas de Fogo###
+21764#Criaturas de Fogo###
 No <NAVI>[Círculo de Fogo]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI>, elimine 15 Arenosos de Fogo e 15 Golens de Fogo.#
 No Círculo de Fogo#
 
@@ -30062,11 +30158,11 @@ No Círculo de Fogo#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Téo]<INFO>mid_camp,273,242,0,101,0</INFO></NAVI> no Acampamento da Aliança, em Ash Vacuum.#
 Reseta às 4 da manhã#
 
-21766#[É] Criaturas de Fogo###
+21766#Criaturas de Fogo###
 No <NAVI>[Círculo de Fogo]<INFO>moro_vol,131,103,0,101,0</INFO></NAVI>, elimine 15 Arenosos de Fogo e 15 Golens de Fogo.#
 No Círculo de Fogo#
 
-21767#[É] Carinha Felpudo###
+21767#Carinha Felpudo###
 Ajude Lulu caçando 20 Plagiadores em <NAVI>[Bifröst]<INFO>bif_fild02,286,327,0,101,0</INFO></NAVI>.#
 20 Plagiadores#
 
@@ -30074,11 +30170,11 @@ Ajude Lulu caçando 20 Plagiadores em <NAVI>[Bifröst]<INFO>bif_fild02,286,327,0
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Lulu]<INFO>mora,101,53,0,101,0</INFO></NAVI> em Mora.#
 Reseta às 4 da manhã#
 
-21769#[É] Carinha Felpudo###
+21769#Carinha Felpudo###
 Ajude Lulu caçando 20 Plagiadores em <NAVI>[Bifröst]<INFO>bif_fild02,286,327,0,101,0</INFO></NAVI>.#
 20 Plagiadores#
 
-21770#[É] Fada Travessa###
+21770#Fada Travessa###
 Ajude Lulu caçando 20 Pequenos Fatum em <NAVI>[Bifröst]<INFO>bif_fild02,286,327,0,101,0</INFO></NAVI>.#
 20 Pequenos Fatum#
 
@@ -30086,7 +30182,7 @@ Ajude Lulu caçando 20 Pequenos Fatum em <NAVI>[Bifröst]<INFO>bif_fild02,286,32
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Lulu]<INFO>mora,101,53,0,101,0</INFO></NAVI> em Mora.#
 Reseta às 4 da manhã#
 
-21772#[É] Fada Travessa###
+21772#Fada Travessa###
 Ajude Lulu caçando 20 Pequenos Fatum em <NAVI>[Bifröst]<INFO>bif_fild02,286,327,0,101,0</INFO></NAVI>.#
 20 Pequenos Fatum#
 
@@ -30094,7 +30190,7 @@ Ajude Lulu caçando 20 Pequenos Fatum em <NAVI>[Bifröst]<INFO>bif_fild02,286,32
 Aceite o pedido de Lartal e acumule a energia da encarnação de Morroc.#
 Os Pecados de Morroc#
 
-21774#[É] Forma de Anjo###
+21774#Forma de Anjo###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Inveja.#
 30 Sombras da Inveja#
 
@@ -30102,11 +30198,11 @@ Os Pecados de Morroc#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Lartal]<INFO>morocc,228,104,0,101,0</INFO></NAVI> em Morroc.#
 Reseta às 4 da manhã#
 
-21776#[É] Forma de Anjo###
+21776#Forma de Anjo###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Inveja.#
 30 Sombras da Inveja#
 
-21777#[É] Forma de Lama###
+21777#Forma de Lama###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Gula.#
 30 Sombras da Gula#
 
@@ -30114,11 +30210,11 @@ Reseta às 4 da manhã#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Lartal]<INFO>morocc,228,104,0,101,0</INFO></NAVI> em Morroc.#
 Reseta às 4 da manhã#
 
-21779#[É] Forma de Lama###
+21779#Forma de Lama###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Gula.#
 30 Sombras da Gula#
 
-21780#[É] Forma Humana###
+21780#Forma Humana###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Vaidade.#
 30 Sombras da Vaidade#
 
@@ -30126,11 +30222,11 @@ Reseta às 4 da manhã#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Lartal]<INFO>morocc,228,104,0,101,0</INFO></NAVI> em Morroc.#
 Reseta às 4 da manhã#
 
-21782#[É] Forma Humana###
+21782#Forma Humana###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Vaidade.#
 30 Sombras da Vaidade#
 
-21783#[É] Forma Fantasma###
+21783#Forma Fantasma###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Ira.#
 30 Sombras da Ira#
 
@@ -30138,11 +30234,11 @@ Reseta às 4 da manhã#
 Você pode repetir a missão no quadro do Grupo do Éden ou falando com <NAVI>[Lartal]<INFO>morocc,228,104,0,101,0</INFO></NAVI> em Morroc.#
 Reseta às 4 da manhã#
 
-21785#[É] Forma Fantasma###
+21785#Forma Fantasma###
 À pedido de Lartal, vamos para a <NAVI>[Fenda Dimensional]<INFO>dali02,46,96,0,101,0</INFO></NAVI> caçar 30 Sombras da Ira.#
 30 Sombras da Ira#
 
-21786#[É] Carat Fugaz###
+21786#Carat Fugaz###
 Vamos caçar um Carat Fugaz no primeiro andar do Castelo de Glastheim.#
 Caçar 1 Carat Fugaz#
 
@@ -30150,7 +30246,7 @@ Caçar 1 Carat Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21788#[É] Majoruros Feroz###
+21788#Majoruros Feroz###
 Vamos caçar um Majoruros Feroz no 2º andar da caverna subterrânea em Glastheim.#
 Caçar 1 Majoruros Feroz#
 
@@ -30158,7 +30254,7 @@ Caçar 1 Majoruros Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21790#[É] Raydric Brutal###
+21790#Raydric Brutal###
 Vamos caçar um Raydric Brutal no 1º andar da Cavalaria de Glastheim.#
 Caçar 1 Raydric Brutal#
 
@@ -30166,7 +30262,7 @@ Caçar 1 Raydric Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21792#[É] Raydric Ágil###
+21792#Raydric Ágil###
 Cace um Raydric Ágil no 2º andar da Cavalaria de Glastheim.#
 Caçar 1 Raydric Ágil#
 
@@ -30174,7 +30270,7 @@ Caçar 1 Raydric Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21794#[É] Andarilho Feroz###
+21794#Andarilho Feroz###
 Vamos caçar um Andarilho Feroz no 2º andar do Castelo de Glastheim.#
 Caçar 1 Andarilho Feroz#
 
@@ -30182,7 +30278,7 @@ Caçar 1 Andarilho Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21796#[É] Massacre Ágil###
+21796#Massacre Ágil###
 Vamos caçar um Massacre Ágil no 1º andar do Monastério da Ilha Esquecida.#
 Caçar 1 Massacre Ágil#
 
@@ -30190,7 +30286,7 @@ Caçar 1 Massacre Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21798#[É] Banshee Ágil###
+21798#Banshee Ágil###
 Cace uma Banshee Ágil no primeiro andar do Monastério na Ilha Esquecida.#
 Caçar 1 Banshee Ágil#
 
@@ -30198,7 +30294,7 @@ Caçar 1 Banshee Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21800#[É] Necromante Alfa###
+21800#Necromante Alfa###
 Vamos caçar um Necromante Alfa no 2º nível do Monastério da Ilha Esquecida.#
 Caçar 1 Necromante Alfa#
 
@@ -30206,7 +30302,7 @@ Caçar 1 Necromante Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21802#[É] Pesadelo Sombrio Feroz###
+21802#Pesadelo Sombrio Feroz###
 Cace um Pesadelo Sombrio Feroz no 2º andar da Caverna de Magma.#
 Caçar 1 Terror do Pesadelo Furioso#
 
@@ -30214,7 +30310,7 @@ Caçar 1 Terror do Pesadelo Furioso#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21804#[É] Mímico Ancião Alfa###
+21804#Mímico Ancião Alfa###
 Vamos caçar um Mímico Ancião Alfa no museu no nível inferior da Torre de Thanatos.#
 Caçar 1 Mímico Ancião Alfa#
 
@@ -30222,7 +30318,7 @@ Caçar 1 Mímico Ancião Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21806#[É] Palavra Morta Brutal###
+21806#Palavra Morta Brutal###
 Vamos caçar uma Palavra Morta Brutal no espaço abandonado na parte inferior da Torre de Thanatos.#
 Caçar 1 Palavra Morta Brutal#
 
@@ -30230,7 +30326,7 @@ Caçar 1 Palavra Morta Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21808#[É] Venatu Feroz###
+21808#Venatu Feroz###
 Cace um Venatu Feroz nas Ruínas de Juperos.#
 Caçar 1 Venatu Feroz#
 
@@ -30238,7 +30334,7 @@ Caçar 1 Venatu Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21810#[É] Dimik Ágil###
+21810#Dimik Ágil###
 Vamos caçar um Dimik Ágil no centro de Juperos.#
 Caçar 1 Dimik Ágil#
 
@@ -30246,7 +30342,7 @@ Caçar 1 Dimik Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21812#[É] Ferus Feroz###
+21812#Ferus Feroz###
 Vamos caçar um Ferus Feroz no 1º andar da caverna subterrânea do Lago do Abismo.#
 Caçar 1 Ferus Feroz#
 
@@ -30254,7 +30350,7 @@ Caçar 1 Ferus Feroz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21814#[É] Acidus Brutal###
+21814#Acidus Brutal###
 Vamos caçar um Acidus Brutal no 2º andar da caverna subterrânea do Lago do Abismo.#
 Caçar 1 Acidus Brutal#
 
@@ -30262,7 +30358,7 @@ Caçar 1 Acidus Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21816#[É] Senhora Fugaz###
+21816#Senhora Fugaz###
 Vamos caçar uma Senhora Fugaz na Torre de Thanatos.#
 Caçar 1 Senhora Fugaz#
 
@@ -30270,7 +30366,7 @@ Caçar 1 Senhora Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21818#[É] Dama da Guarda Alfa###
+21818#Dama da Guarda Alfa###
 Vamos caçar Dama da Guarda Alfa na Torre de Thanatos.#
 Caçar 1 Dama da Guarda Alfa#
 
@@ -30278,7 +30374,7 @@ Caçar 1 Dama da Guarda Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-21820#[É] Laurell Weinder Alfa###
+21820#Laurell Weinder Alfa###
 Vamos caçar Laurell Weinder Alfa no 2º andar do Biolaboratório.#
 Caçar 1 Laurell Weinder Alfa#
 
@@ -30286,7 +30382,7 @@ Caçar 1 Laurell Weinder Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21822#[É] Cecil Damon Brutal###
+21822#Cecil Damon Brutal###
 Vamos caçar Cecil Damon Brutal no 3º andar do Biolaboratório.#
 Caçar 1 Cecil Damon Brutal#
 
@@ -30294,7 +30390,7 @@ Caçar 1 Cecil Damon Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21824#[É] Vento da Colina Ágil###
+21824#Vento da Colina Ágil###
 Vamos caçar um Vento da Colina Ágil nos campos nordeste e noroeste de Rachel.#
 Caçar 1 Vento da Colina Ágil#
 
@@ -30302,7 +30398,7 @@ Caçar 1 Vento da Colina Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21826#[É] Kobold Brutal###
+21826#Kobold Brutal###
 Vamos caçar um Kobold Brutal no campo norte-noroeste de Lighthalzen.#
 Caçar 1 Kobold Brutal#
 
@@ -30310,7 +30406,7 @@ Caçar 1 Kobold Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21828#[É] Kobold Arqueiro Ágil###
+21828#Kobold Arqueiro Ágil###
 Vamos caçar um Kobold Arqueiro Ágil no campo ao norte de Lighthalzen.#
 Caçar 1 Kobold Arqueiro Ágil#
 
@@ -30318,7 +30414,7 @@ Caçar 1 Kobold Arqueiro Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21830#[É] Yeti Brutal###
+21830#Yeti Brutal###
 Vamos caçar um Yeti Brutal no segundo andar da caverna de gelo.#
 Caçar 1 Yeti Brutal#
 
@@ -30326,7 +30422,7 @@ Caçar 1 Yeti Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21832#[É] Titã de Gelo Ágil###
+21832#Titã de Gelo Ágil###
 Cace um Titã de Gelo Ágil no 3º andar da caverna de gelo.#
 Caçar 1 Titã de Gelo Ágil#
 
@@ -30334,7 +30430,7 @@ Caçar 1 Titã de Gelo Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21834#[É] Isilla Alfa###
+21834#Isilla Alfa###
 Vamos caçar Isilla Alfa no primeiro andar do santuário de Rachel.#
 Caçar 1 Isilla Alfa#
 
@@ -30342,7 +30438,7 @@ Caçar 1 Isilla Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21836#[É] Echio Alfa###
+21836#Echio Alfa###
 Vamos caçar Echio Alfa na área sul do 1º andar do santuário de Rachel.#
 Caçar 1 Echio Alfa#
 
@@ -30350,7 +30446,7 @@ Caçar 1 Echio Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21838#[É] Agav Ágil###
+21838#Agav Ágil###
 Vamos caçar um Agav Ágil na área central do 2º andar do santuário de Rachel.#
 Caçar 1 Agav Ágil#
 
@@ -30358,7 +30454,7 @@ Caçar 1 Agav Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21840#[É] Vespa Vagalume Fugaz###
+21840#Vespa Vagalume Fugaz###
 Vamos caçar uma Vespa Vagalume Fugaz no Campo Esplêndido.#
 Caçar 1 Vespa Vagalume Fugaz#
 
@@ -30366,7 +30462,7 @@ Caçar 1 Vespa Vagalume Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21842#[É] Pinguicula Brutal###
+21842#Pinguicula Brutal###
 Vamos caçar uma Pinguicula Brutal no Campo Esplêndido.#
 Caçar 1 Pinguicula Brutal#
 
@@ -30374,7 +30470,7 @@ Caçar 1 Pinguicula Brutal#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21844#[É] Centopéia Ágil###
+21844#Centopéia Ágil###
 Vamos caçar uma Centopéia Ágil no sopé da Montanha Kamidal.#
 Caçar 1 Centopéia Ágil#
 
@@ -30382,7 +30478,7 @@ Caçar 1 Centopéia Ágil#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21846#[É] Dolomedes Alfa###
+21846#Dolomedes Alfa###
 Vamos caçar Dolomedes Alfa no sopé da Montanha Kamidal.#
 Caçar 1 Dolomedes Alfa#
 
@@ -30390,7 +30486,7 @@ Caçar 1 Dolomedes Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21848#[É] Scaraba Galhado Fugaz###
+21848#Scaraba Galhado Fugaz###
 Vamos caçar um Scaraba Galhado Fugaz no 1º andar do Túnel Kamidal.#
 Caçar 1 Scaraba Galhado Fugaz#
 
@@ -30398,7 +30494,7 @@ Caçar 1 Scaraba Galhado Fugaz#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21850#[É] Plagiador Alfa###
+21850#Plagiador Alfa###
 Vamos caçar um Plagiador Alfa no sul de Bifröst.#
 Caçar 1 Plagiador Alfa#
 
@@ -30406,7 +30502,7 @@ Caçar 1 Plagiador Alfa#
 Essa missão pode ser repetida diariamente após o tempo de espera terminar. Repita a missão no Grupo do Éden falando com o quadro <NAVI>[Missões Especiais]<INFO>moc_para01,16,33,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã#
 
-21852#[É] Pequeno Fatum Feroz###
+21852#Pequeno Fatum Feroz###
 Vamos caçar um Pequeno Fatum Feroz no norte de Bifröst.#
 Caçar 1 Pequeno Fatum Feroz#
 
@@ -30503,7 +30599,7 @@ As pistas de Leno foram comidas por um Rocker próximo. Vamos tentar pegar o "Ro
 Elimine Rocker#
 
 21922#Explorando o Mundo###
-Leno diz que há um rastro suspeito de movimento que vai para o leste. Vamos segui-lo.#
+Leno diz que há um rastro suspeito de movimento que vai para o sul. Vamos segui-lo.#
 Fale com o soldado#
 
 21923#Explorando o Mundo###
@@ -40677,6 +40773,130 @@ Alcance o nível 185#
 295272#[Conclúida] Passe de Batalha - Missão Especial###
 Alcance o nível 185 / Apenas 1 vez durante este evento#
 Missão da Temporada 1 do Passe de Batalha concluída.#
+
+295490#Passe de Batalha Diário 1-1###
+Derrote 40 Pitayas Vermelhas e 40 Pitayas Amarelas em <NAVI>[Estufa de Pitayas]<INFO>ba_lost,160,60,0,101,0</INFO></NAVI>.#
+Derrote 40 Pitayas Vermelhas e 40 Pitayas Amarelas#
+
+295491#[Espera] Passe de Batalha: Derrotar Pitaya###
+Esta missão é uma missão diária. Após o término do tempo de espera, você poderá recebê-la novamente. Você também pode aceitar a missão no <NAVI>[Quadro de Missões]<INFO>prontera,165,252,0,101,0</INFO></NAVI>, da atividade Passe de Batalha 5.#
+Reinicia às 04:00#
+
+295492#Passe de Batalha Diário 1-2###
+Derrote 40 Pitayas Azuis e 40 Pitayas Violetas em <NAVI>[Estufa de Pitayas]<INFO>ba_lost,160,60,0,101,0</INFO></NAVI>.#
+Derrote 40 Pitayas Azuis e 40 Pitayas Violetas#
+
+295493#[Espera] Passe de Batalha: Coletar Fragmentos de Memória###
+Esta missão é uma missão diária. Após o término do tempo de espera, você poderá recebê-la novamente. Você também pode aceitar a missão no <NAVI>[Quadro de Missões]<INFO>prontera,165,252,0,101,0</INFO></NAVI>, da atividade Passe de Batalha 5.#
+Reinicia às 04:00#
+
+295494#Passe de Batalha Diário 1-3###
+Derrote 40 Pitayas Verdes e 10 cada das outras cores (Vermelha, Amarela, Azul e Violeta) em <NAVI>[Estufa de Pitayas]<INFO>ba_lost,160,60,0,101,0</INFO></NAVI>#
+Derrote 40 Pitayas Verdes e 10 cada das outras cores#
+
+295495#[Espera] Passe de Batalha: Exploração da Instância 17.2###
+Esta missão é uma missão diária. Após o término do tempo de espera, você poderá recebê-la novamente. Você também pode aceitar a missão no <NAVI>[Quadro de Missões]<INFO>prontera,165,252,0,101,0</INFO></NAVI>, da atividade Passe de Batalha 5.#
+Reinicia às 04:00#
+
+295496#Passe de Batalha Diário 3-1###
+Derrote 1 Sweety em <NAVI>[Sweety]<INFO>ba_in01,32,250,0,101,0</INFO></NAVI>.#
+Derrote 1 Sweety#
+
+295497#[Espera] Passe de Batalha: Derrotar Monstros na Torre de Thanatos###
+Esta missão é uma missão diária. Após o término do tempo de espera, você poderá recebê-la novamente. Você também pode aceitar a missão no <NAVI>[Quadro de Missões]<INFO>prontera,165,252,0,101,0</INFO></NAVI>, da atividade Passe de Batalha 5.#
+Reinicia às 04:00#
+
+295498#Passe de Batalha Diário 3-2###
+Derrote 1 Papilia Violeta em <NAVI>[Harad]<INFO>ba_maison,238,44,0,101,0</INFO></NAVI>#
+Derrote 1 Papilia Violeta#
+
+295499#[Espera] Passe de Batalha: Derrotar Pimentão###
+Esta missão é uma missão diária. Após o término do tempo de espera, você poderá recebê-la novamente. Você também pode aceitar a missão no <NAVI>[Quadro de Missões]<INFO>prontera,165,252,0,101,0</INFO></NAVI>, da atividade Passe de Batalha 5.#
+Reinicia às 04:00#
+
+295500#Passe de Batalha Diário 3-3###
+Derrote 1 Chefe Pitaya em <NAVI>[Luynan]<INFO>ba_maison,311,206,0,101,0</INFO></NAVI>#
+Derrote 1 Chefe Pitaya#
+
+295501#[Espera] Passe de Batalha: Derrotar Thanatos ou Fragmento de Thanatos###
+Esta missão é uma missão diária. Após o término do tempo de espera, você poderá recebê-la novamente. Você também pode aceitar a missão no <NAVI>[Quadro de Missões]<INFO>prontera,165,252,0,101,0</INFO></NAVI>, da atividade Passe de Batalha 5.#
+Reinicia às 04:00#
+
+295502#Passe de Batalha Diário 4-1###
+Derrote 5 Mímicos do Vazio e 5 Livros da Morte em <NAVI>[Torre de Thanatos - Sala da Agonia]<INFO>tha_t09,20,99,0,101,0</INFO></NAVI>.#
+Derrote 5 Mímicos do Vazio e 5 Livros da Morte#
+
+295503#Missão Sazonal do Passe de Batalha 5 - Concluída###
+Você completou um total de 444 missões diárias.#
+Parabéns. Você é um jogador muito dedicado.#
+
+295504#Passe de Batalha Diário 4-2###
+Derrote 5 Anciões Primitivos e 10 Duques Corvos em <NAVI>[Torre de Thanatos - Sala da Agonia]<INFO>tha_t09,20,99,0,101,0</INFO></NAVI>.#
+Derrote 5 Anciões Primitivos e 10 Duques Corvos#
+
+295506#Passe de Batalha Diário 4-3###
+Derrote 15 Barões Corvos em <NAVI>[Torre de Thanatos - Sala da Agonia]<INFO>tha_t09,20,99,0,101,0</INFO></NAVI>.#
+Derrote 15 Barões Corvos#
+
+295508#Passe de Batalha Diário 5###
+Derrote 1 Pimentão em [Lamda (Difícil)]ba_maison,120,321,0,101,0#
+Derrote 1 Pimentão#
+
+295510#Passe de Batalha Diário 6-1###
+Derrote 1 Thanatos em <NAVI>[Memórias de Thanatos]<INFO>thana_step,154,367,0,101,0</INFO></NAVI>.#
+Derrote 1 Thanatos#
+
+295511#Passe de Batalha Diário 6-1###
+Derrote 1 Fragmento de Thanatos em <NAVI>[Memórias de Thanatos]<INFO>thana_step,154,367,0,101,0</INFO></NAVI>.#
+Derrote 1 Fragmento de Thanatos#
+
+295512#Passe de Batalha Diário 2###
+Colete 3 Fragmentos de Memória de cada cor em <NAVI>[Torre de Thanatos - Sala do Ódio]<INFO>tha_t12,129,51,0,101,0</INFO></NAVI>.#
+Colete 3 Fragmentos de Memória de cada cor#
+
+295513#Missão Sazonal do Passe de Batalha 5###
+Após completar um total de 444 missões diárias, você pode verificar seu progresso no <NAVI>[Quadro de Missões]<INFO>prontera,165,252,0,101,0</INFO></NAVI>, da atividade Passe de Batalha 5.#
+Complete um total de 444 missões diárias#
+
+295520#[Espera] Loja da Máquina Tlim-tlim###
+A lista da loja diária de hoje foi atualizada. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295521#[Espera] 1º Item da Máquina Tlim-tlim###
+Você comprou o 1º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295522#[Espera] 2º Item da Máquina Tlim-tlim###
+Você comprou o 2º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295523#[Espera] 3º Item da Máquina Tlim-tlim###
+Você comprou o 3º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295524#[Espera] 4º Item da Máquina Tlim-tlim###
+Você comprou o 4º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295525#[Espera] 5º Item da Máquina Tlim-tlim###
+Você comprou o 5º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295526#[Espera] 6º Item da Máquina Tlim-tlim###
+Você comprou o 6º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295527#[Espera] 7º Item da Máquina Tlim-tlim###
+Você comprou o 7º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295528#[Espera] 8º Item da Máquina Tlim-tlim###
+Você comprou o 8º item da loja diária. Você pode redefinir a lista através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295529#[Espera] Loja da Máquina Tlim-tlim###
+Você usou todas as redefinições da loja diária. Você poderá usá-la novamente após às 04:00 através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
 
 297001#Fale com o Soldado Woods Goofus###
 Fale com <NAVI>[Pvt. Woods Goofus]<INFO>hu_fild05,329,165,0,101,0</INFO></NAVI> no Campo de Hugel 5.#

@@ -17,7 +17,7 @@
 1@cash.rsw#Caverna do Polvo#
 1@cata.rsw#Catacumbas#
 1@ch_t.rsw#Torre da Constelação#
-1@ch_u.rsw#Torre Submersa#
+1@ch_u.rsw#Torre Afundada#
 1@cor.rsw#Memorial COR#
 1@crd.rsw#Vulcão de Comodo#
 1@def01.rsw#Memorial das Ondas - Floresta#
@@ -84,12 +84,12 @@
 1@slw.rsw#Laboratório Werner#
 1@soul.rsw#Limbo#
 1@spa.rsw#Palácio das Mágoas#
-1@spa2.rsw#Mausoléu Maldito#
+1@spa2.rsw#Túmulo do Arrependimento#
 1@sthb.rsw#Sussurro Sombrio#
 1@sthc.rsw#Sala Secreta#
 1@sthd.rsw#Topo da Fortaleza#
 1@swat.rsw#Base Militar#
-1@tcamp.rsw#Campo Militar do Vulcão#
+1@tcamp.rsw#Base Militar do Vulcão Thor#
 1@thts.rsw#Memória de Thanatos#
 1@tnm1.rsw#Torre do Demônio#
 1@tnm2.rsw#Torre do Demônio#
@@ -388,8 +388,8 @@ guild_vs2.rsw#Batalha de Guildas#
 guild_vs3.rsw#Batalha de Guildas#
 guild_vs4.rsw#Batalha de Guildas#
 guild_vs5.rsw#Batalha de Guildas#
-gw_fild01.rsw#Bosque do Lobo Cinzento (1)#
-gw_fild02.rsw#Bosque do Lobo Cinzento (2)#
+gw_fild01.rsw#Floresta do Lobo Cinzento (1)#
+gw_fild02.rsw#Floresta do Lobo Cinzento (2)#
 har_in01.rsw#Interior de Rockridge#
 harboro1.rsw#Rockridge#
 harboro2.rsw#Esgotos de Rockridge#
@@ -694,8 +694,8 @@ ordeal_3-1.rsw#Batalha de Provação#
 ordeal_3-2.rsw#Batalha de Provação#
 ordeal_3-3.rsw#Batalha de Provação#
 ordeal_3-4.rsw#Batalha de Provação#
-oz_dun01.rsw#Labirinto Oz (1)#
-oz_dun02.rsw#Labirinto Oz (2)#
+oz_dun01.rsw#Labirinto de Oz (1)#
+oz_dun02.rsw#Labirinto de Oz (2)#
 p_track01.rsw#Corrida de Monstros#
 p_track02.rsw#Corrida de Monstros#
 paramk.rsw#Mercado Paralelo do Éden#
@@ -900,15 +900,15 @@ quiz_01.rsw#Sala do Quiz#
 quiz_02.rsw#Sala do Quiz#
 quiz_test.rsw#Sala do Quiz#
 ra_fild01.rsw#Pradaria Audhumbla#
-ra_fild02.rsw#Cânion de Oz#
+ra_fild02.rsw#Desfiladeiro de Oz#
 ra_fild03.rsw#Planície de Ida#
 ra_fild04.rsw#Pradaria Audhumbla#
 ra_fild05.rsw#Pradaria Audhumbla#
 ra_fild06.rsw#Portus Luna#
-ra_fild07.rsw#Cânion de Oz#
+ra_fild07.rsw#Desfiladeiro de Oz#
 ra_fild08.rsw#Planície de Ida#
 ra_fild09.rsw#Pradaria Audhumbla#
-ra_fild10.rsw#Cânion de Oz#
+ra_fild10.rsw#Desfiladeiro de Oz#
 ra_fild11.rsw#Planície de Ida#
 ra_fild12.rsw#Planície de Ida#
 ra_fild12a.rsw#Plan?cie de Ida#

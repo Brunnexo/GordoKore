@@ -2712,7 +2712,7 @@ Total: %d Xianbei#
     %s:  %s  Xianbei#
 %10s Xianbei#
 Total: %s Xianbei#
-※Charge 3% / Charging At least 1 Xianbei#
+*Charge 3% / Charging At least 1 Xianbei#
 Xianbei#
 ^0000ff Xianbei^000000.\n Correct?#
 Over 1 billion Xianbei confirmation#
@@ -2846,7 +2846,7 @@ Screenshot NÃO FOI anexada.#
 Twitter#
 Mensagem#
 Aviso#
-Retornado#
+Devolver#
 Atualizar#
 %d min.#
 %d hora(s)#
@@ -3828,41 +3828,41 @@ A quantidade total de itens a serem vendidos excede a quantidade de Zeny que voc
 Reputação#
 %u / 1.000 P#
 Tudo#
-CARREGANDO AGORA..#
-A escolha será resetada. Por favor, selecione novamente.#
+CARREGANDO AGORA...#
+A escolha será redefinida. Por favor, selecione novamente.#
 0#
 Normal#
-Perfeito#
-Evoluir#
-Reset#
+Escolher Encanto#
+Melhorar#
+Redefinir#
 O limite de peso atingiu mais de 70%. Esvazie seu inventário e tente novamente.#
 Encantar#
 Encantar#
-Evoluir#
-Resetar#
-Você não pode usar Rodex durante o encantamento de itens. Rodex foi desativado.#
-Você não pode usar Rodex durante o encantamento de itens.#
-O banco não pode ser usado durante o encantamento. O banco foi encerrado à força.#
-O banco não pode ser usado durante o encantamento.#
-Você quer realizar o encantamento?#
+Melhorar#
+Redefinir#
+Você não pode usar o RODEX durante o encanto. A janela foi fechada.#
+Você não pode usar o RODEX durante o encanto.#
+O banco não pode ser usado durante o encanto. O banco foi fechada.#
+O banco não pode ser usado durante o encanto.#
+Deseja encantar?#
 Criar#
-Materiais insuficientes para combinação.#
-Itens de cartas equipadas e encantamentos concedidos serão perdidos.#
-Itens de cartas equipadas podem ser perdidos.#
-Encantamentos equipados podem ser perdidos.#
+Materiais insuficientes.#
+Cartas e encantos serão perdidos.#
+Cartas podem ser perdidas.#
+Encantos podem ser perdidos.#
 Personagens aparecerão transparentes nas cidades.#
 Personagens aparecerão normalmente nas cidades.#
-Mais informações#
-Verifique Mais informações.#
-Não há itens que podem ser combinados.#
+Informações#
+Primeiro, leia as informações#
+Não há itens reformáveis.#
 Encantamento bem-sucedido!#
 Encantamento falhou!#
-informações de encantamento não encontradas#
-Condições de encantamento não atendidas#
+Não há informações#
+Condições não atendidas#
 Falha ao definir o status de recepção para usuários aleatórios.#
 Definir como Negar status de recebimento para usuários aleatórios.#
 Todos os usuários estão definidos para receber.#
-%s está bloqueando a recepção..#
+%s está bloqueando a recepção.#
 RODEX retornou.#
 Falha no retorno de RODEX.#
 O remetente deste RODEX não é um amigo ou membro da guilda. Tenha cuidado.#
@@ -3988,7 +3988,7 @@ Por favor, abra o RODEX novamente.#
 Você não pode invocar um Homunculus S nessa classe atual. Você precisa avançar para uma classe superior.#
 Não há itens equipáveis por essa carta.#
 Dano#
-Exibir dano#
+Exibição de Dano#
 ↖#
 ↑#
 ↗#
@@ -4021,7 +4021,7 @@ Tempo restante %02d : %02d : %02d#
 O modo de detecção foi ativado. Insira o número exibido no lado esquerdo da tela usando o teclado.#
 Uma penalidade será aplicada quando o tempo restante expirar ou você der uma resposta errada %d vezes.#
 Digite seu número de segurança#
-Com %s#
+ de %s#
 >> Item : %s / Un. : %d / Data : %dm:%dd:%dh:%m ~ %da:%dm:%dd:%dh:%m#
 ~ %dm %dh %dd %dm %da#
 Você não pode usar habilidades de ataque no mesmo membro do grupo na janela do grupo.#
@@ -4367,7 +4367,8 @@ T.CRÍT#
 TEN#
 TENM#
 Pts de Talento#
-Sorteio#
-Enquanto estiver sob penalidade por denúncia, você não poderá entrar ou criar grupos, obter EXP de monstros nem adquirir itens.#
-Você deve ir diretamente até o NPC que remove efeitos negativos, indicado no minimapa. A localização deixará de ser exibida caso você se teletransporte.#
-Remover efeito negativo#
+Encanto aleatório#
+Enquanto estiver sob penalidade, você não poderá entrar ou criar grupos, obter EXP de monstros nem adquirir itens.#
+Para remover a penalidade, você deve ir até a NPC indicada no seu minimapa. A localização deixará de ser exibida caso você se teletransporte.#
+Remover Penalidade#
+Devolver ao Remetente#

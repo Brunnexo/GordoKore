@@ -530,8 +530,8 @@ EFST_HELPANGEL Sob Proteção
 EFST_SWEETSFAIR_ATK Festividade
 EFST_SWEETSFAIR_MATK Solenidade
 EFST_FLOWER_LEAF2 Comemoração
-EFST_FLOWER_LEAF3 Poder Físico
-EFST_FLOWER_LEAF4 Poder Mágico
+EFST_FLOWER_LEAF3 Poder Mágico
+EFST_FLOWER_LEAF4 Poder Físico
 EFST_MISTY_FROST Calafrio
 EFST_MAGIC_POISON Vício Mágico
 EFST_JPNONLY_TACTICS Influência da Fauna
@@ -627,65 +627,72 @@ EFST_CLOUD_POISON Infecção
 EFST_SPORE_EXPLOSION_DEBUFF Esporão
 EFST_DEFSCROLL Perg. de Defesa
 EFST_MASSIVE_F_BLASTER Fervor Espiritual
-EFST_NOEQUIPWEAPON2 Remover Arma Sombria
-EFST_NOEQUIPARMOR2 Remover Armadura Sombria
-EFST_NOEQUIPSHIELD2 Remover Escudo Sombrio
-EFST_NOEQUIPSHOES2 Remover Greva Sombria
-EFST_NOEQUIPPENDANT2 Remover Colar Sombrio
-EFST_NOEQUIPEARING2 Remover Brinco Sombrio
+EFST_NOEQUIPWEAPON2 Remoção Sombria Total
+EFST_NOEQUIPARMOR2 Remoção Sombria Total
+EFST_NOEQUIPSHIELD2 Remoção Sombria Total
+EFST_NOEQUIPSHOES2 Remoção Sombria Total
+EFST_NOEQUIPPENDANT2 Remoção Sombria Total
+EFST_NOEQUIPEARING2 Remoção Sombria Total
 EFST_NOEQUIPFULL2 Remoção Sombria Total
+EFST_CURSE_R_CUBE Maldição Vermelha
+EFST_CURSE_B_CUBE Maldição Azul
 EFST_TOXIN_OF_MANDARA Neurotoxina
 EFST_GOLDENE_TONE Couro Dourado
 EFST_TEMPERING Têmpera
-EFST_INTENSIVE_AIM Mira Concentrada Ativa
+EFST_INTENSIVE_AIM Em Foco!
 EFST_GRENADE_FRAGMENT_1 Fragmentação
 EFST_GRENADE_FRAGMENT_2 Fragmentação
 EFST_GRENADE_FRAGMENT_3 Fragmentação
 EFST_GRENADE_FRAGMENT_4 Fragmentação
 EFST_GRENADE_FRAGMENT_5 Fragmentação
 EFST_GRENADE_FRAGMENT_6 Fragmentação
-EFST_AUTO_FIRING_LAUNCHEREFST Lançador de Disparo Automático
+EFST_AUTO_FIRING_LAUNCHEREFST Automático
 EFST_HIDDEN_CARD Carta na Manga
-EFST_NW_GRENADE_MASTERY Maestria em Granada
+EFST_NW_GRENADE_MASTERY Perícia com Explosivos
 EFST_TALISMAN_OF_PROTECTION Talismã do Protetor
 EFST_TALISMAN_OF_WARRIOR Talismã do Guerreiro
-EFST_TALISMAN_OF_MAGICIAN Talismã do Mágico
+EFST_TALISMAN_OF_MAGICIAN Talismã do Mago
 EFST_TALISMAN_OF_FIVE_ELEMENTS Talismã dos Elementos
-EFST_T_FIRST_GOD Bênção do Leste
-EFST_T_SECOND_GOD Bênção do Oeste
-EFST_T_THIRD_GOD Bênção do Sul
-EFST_T_FOURTH_GOD Bênção do Norte
-EFST_T_FIVETH_GOD Bênção dos Quatro Pontos Cardeais e Cinco Elementos
-EFST_HEAVEN_AND_EARTH Reencarnação das Almas
-EFST_HOGOGONG Patada
+EFST_T_FIRST_GOD Bênção do Dragão
+EFST_T_SECOND_GOD Bênção do Tigre
+EFST_T_THIRD_GOD Bênção da Fênix
+EFST_T_FOURTH_GOD Bênção do Jabuti
+EFST_T_FIVETH_GOD Mandala das Feras
+EFST_HEAVEN_AND_EARTH Alma Reencarnada
+EFST_HOGOGONG Zonzeira
 EFST_MARINE_FESTIVAL Festival Marinho
 EFST_SANDY_FESTIVAL Luau nas Areias
 EFST_KI_SUL_RAMPAGE Ira da Tartaruga
-EFST_COLORS_OF_HYUN_ROK_1 Cores do Arco-Íris
-EFST_COLORS_OF_HYUN_ROK_2 Cores do Arco-Íris
-EFST_COLORS_OF_HYUN_ROK_3 Cores do Arco-Íris
-EFST_COLORS_OF_HYUN_ROK_4 Cores do Arco-Íris
-EFST_COLORS_OF_HYUN_ROK_5 Cores do Arco-Íris
-EFST_COLORS_OF_HYUN_ROK_6 Cores do Arco-Íris
+EFST_COLORS_OF_HYUN_ROK_1 Cor Azul
+EFST_COLORS_OF_HYUN_ROK_2 Cor Amarela
+EFST_COLORS_OF_HYUN_ROK_3 Cor Verde
+EFST_COLORS_OF_HYUN_ROK_4 Cor Vermelha
+EFST_COLORS_OF_HYUN_ROK_5 Cor Violeta
+EFST_COLORS_OF_HYUN_ROK_6 Cor Laranja
 EFST_COLORS_OF_HYUN_ROK_BUFF Cores do Arco-Íris
 EFST_TEMPORARY_COMMUNION Aliança Animal
-EFST_BLESSING_OF_M_CREATURES Bênção do Espírito Animal
-EFST_BLESSING_OF_M_C_DEBUFF Efeito colateral da bênção do espírito animal
-EFST_SHIELDCHAINRUSH Choque Violento
-EFST_MISTYFROST Frio Extremo
-EFST_GROUNDGRAVITY Zona Gravitacional
-EFST_BREAKINGLIMIT Anjo da Prosperidade
-EFST_RULEBREAK Anjo da Libertação
+EFST_BLESSING_OF_M_CREATURES Bênção da Natureza
+EFST_BLESSING_OF_M_C_DEBUFF Equilíbrio
+EFST_SHIELDCHAINRUSH Em Choque
+EFST_MISTYFROST Geladinho
+EFST_GROUNDGRAVITY Gravitação
+EFST_BREAKINGLIMIT Bênção do Anjo
+EFST_RULEBREAK Bênção do Anjo
 EFST_RISING_SUN Nascer do Sol
-EFST_NOON_SUN Meio-dia
+EFST_NOON_SUN Meio-Dia
 EFST_SUNSET_SUN Pôr do Sol
 EFST_RISING_MOON Nascer da Lua
-EFST_MIDNIGHT_MOON Meia-noite
+EFST_MIDNIGHT_MOON Meia-Noite
 EFST_DAWN_MOON Pôr da Lua
 EFST_STAR_BURST Colapso Estelar
-EFST_SKY_ENCHANT União Celestial
-EFST_SHADOW_CLOCK Furtividade Sombria
-EFST_NIGHTMARE Pedra do Pesadelo
+EFST_SKY_ENCHANT Elo Celestial
+EFST_SHADOW_CLOCK Sombra
+EFST_NIGHTMARE Pesadelo
+EFST_NOODLE_FES_1 Que Gostoso!
+EFST_NOODLE_FES_2 Saboroso!
+EFST_NOODLE_FES_3 Sabor Inigualável!
+EFST_NOODLE_FES_4 Comida Boa!
+EFST_NOODLE_FES_5 Sensacional!
 EFST_RUSH_QUAKE1 Sismo
 EFST_RUSH_QUAKE2 Avanço
 EFST_C_BUFF_1 Estimulante
@@ -694,9 +701,9 @@ EFST_C_BUFF_3 Pluma Resistente
 EFST_C_BUFF_4 Pena Leve
 EFST_C_BUFF_5 Pena Glamurosa
 EFST_C_BUFF_6 Pena Maciça
-EFST_C_BUFF_16 Buff Saboroso
-EFST_C_BUFF_17 Buff Fresco
+EFST_C_BUFF_16 Que sabor!
+EFST_C_BUFF_17 Fresquinho!
 EFST_OVERSEA_BUFF_12 Escrituras
 EFST_OVERSEA_BUFF_30 Música de Samba
 EFST_OVERSEA_BUFF_31 Glitter de Carnaval
-EFST_BLOCK Blocked
+EFST_BLOCK Punição
