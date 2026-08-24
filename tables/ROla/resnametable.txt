@@ -2212,3 +2212,21 @@ prt_mk_a.rws#prt_mk.rws#
 1@exsh.rsw#1@exsh.rsw#
 유저인터페이스\map\1@exsh.bmp#유저인터페이스\map\1@exsh.bmp#
 //2026.07.21 차상위 확장 직업군 end
+
+// 게펜 야간 투기장
+1@ge_sn.gnd#1@ge_sn.gnd#
+1@ge_sn.gat#1@ge_sn.gat#
+1@ge_sn.rsw#1@ge_sn.rsw#
+유저인터페이스\map\1@ge_sn.bmp#유저인터페이스\map\1@ge_sn.bmp#
+
+// 묘르닐산맥 비공정추락지
+1@mjo1.gnd#1@mjo1.gnd#
+1@mjo1.gat#1@mjo1.gat#
+1@mjo1.rsw#1@mjo1.rsw#
+유저인터페이스\map\1@mjo1.bmp#유저인터페이스\map\1@mjo1.bmp#
+
+// 묘르닐산맥 잊혀진 공동
+1@mjo2.gnd#1@mjo2.gnd#
+1@mjo2.gat#1@mjo2.gat#
+1@mjo2.rsw#1@mjo2.rsw#
+유저인터페이스\map\1@mjo2.bmp#유저인터페이스\map\1@mjo2.bmp#

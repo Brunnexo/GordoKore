@@ -8050,36 +8050,36 @@ Fora da Floresta Profunda de Luluka#
 O proprietário da cabana sugeriu que eu me tornasse um Falcão dos Ventos. Eu deveria falar com ele.  ^FF0000Para mudar a classe...^000000 ^FF0000Por favor, use todos os seus pontos de habilidade restantes.^000000 ^FF0000Por favor, remova seu falcão ou warg.^000000 ^FF0000Por favor, desça de sua montaria.^000000#
 Fale com o proprietário da cabine#
 
-5908#Local da queda do dirigível###
-Vamos ouvir o Dr. Dry Circle Strong falar sobre o incidente do Airship Crash.#
+5908#Local da Queda do Aeroplano###
+Vamos ouvir o Dr. Serafit falar sobre o incidente da Queda do Aeroplano#
 #
 
-5909#[Espera] Local da queda do dirigível###
-Você pode entrar no local do acidente do dirigível uma vez a cada 3 dias. Fale com <NAVI>[Dr. Dry Circle Strong]<INFO>dali02,137,86,0,101,0</INFO></NAVI> para acessar o local novamente mais tarde.#
-Reseta 4 da manhã após 3 dias#
+5909#[Espera] Local da Queda do Aeroplano###
+Você pode entrar no Local da Queda do Aeroplano uma vez a cada 3 dias. Fale com [<NAVI>Dr. Serafit<INFO>dali02,137,86,0,101,0</INFO></NAVI>] para acessar o local novamente.#
+Reinicia às 04:00 após 3 dias#
 
 5910#Pesquisa colaborativa esquecida (1)###
-O professor Daeguto pediu ao aluno de pós-graduação Maratha que explicasse o assunto.#
+O professor Daeguto pediu ao Pós-graduando Marata, também conhecido como *oo*, que explicasse o assunto.#
 #
 
 5911#Pesquisa colaborativa esquecida (2)###
-Acho que a última explicação deve ser ouvida pelo aluno de pós-graduação Saseong. Vamos ouvir a explicação final.#
+Acho que a última explicação deve ser ouvida pelo Pós-graduando Saseong, também conhecido como ****. Vamos ouvir a explicação final.#
 #
 
 5912#Solicitação de caça aos monstros (50)###
-Recebemos uma solicitação para caçar 50 monstros comuns.  Se o número de membros do grupo registrados no Professor e o número de pessoas dentro do grupo não forem os mesmos, você não poderá receber uma compensação justa. ^FF0000Esta é uma missão que pode ser repetida.^000000#
+Recebemos uma solicitação para caçar 50 monstros comuns.  Se o número de pessoas dentro do grupo for diferente da informada ao Professor, as recompensas poderão não ser justas.  ^FF0000Esta é uma missão que pode ser repetida.^000000#
 #
 
 5913#Solicitação de caça aos monstros (100)###
-Recebemos uma solicitação para caçar 100 monstros comuns.  Se o número de membros do grupo registrados no Professor e o número de pessoas dentro do grupo não forem os mesmos, você não poderá receber uma compensação justa. ^FF0000Esta é uma missão que pode ser repetida.^000000#
+Recebemos uma solicitação para caçar 100 monstros comuns.  Se o número de pessoas dentro do grupo for diferente da informada ao Professor, as recompensas poderão não ser justas.  ^FF0000Esta é uma missão que pode ser repetida.^000000#
 #
 
 5914#Solicitação de caça aos monstros (150)###
-Recebemos uma solicitação para caçar 150 monstros comuns.  Se o número de membros do grupo registrados no Professor e o número de pessoas dentro do grupo não forem os mesmos, você não poderá receber uma compensação justa. ^FF0000Esta é uma missão que pode ser repetida.^000000#
+Recebemos uma solicitação para caçar 150 monstros comuns.  Se o número de pessoas dentro do grupo for diferente da informada ao Professor, as recompensas poderão não ser justas.  ^FF0000Esta é uma missão que pode ser repetida.^000000#
 #
 
 5915#Recompensas por ajudar os feridos###
-Pelloch recebeu uma indenização por sua ajuda na descoberta dos ferimentos causados pelo acidente com o dirigível.#
+Recebi uma recompensa de Ferlock por ajudar a localizar as pessoas feridas no acidente do aeroplano.#
 #
 
 5916#[SJM] Einbroch-1###
@@ -17563,8 +17563,8 @@ Segundo teste. Fale com Tali, que fica no lado noroeste da aldeia.#
 Fale com Tali#
 
 11444#Vigilante Corp###
-Vá para a Raviol Forest, derrote alguns Sweet Roda Frogs e colete 2 [Luxurious Cloth].#
-Colete 2 panos de luxo#
+Vá para a Raviol Forest, derrote alguns Sweet Roda Frogs e colete 2x [Tecido Peculiar].#
+Colete 2 Tecidos Peculiares#
 
 11445#Vigilante Corp###
 Fale com Peperoncino no [Adventurer's Club].#
@@ -20554,45 +20554,45 @@ Torne-se um companheiro do dragão#
 Minha cabeça dói de tanto me concentrar. É melhor eu fazer uma pausa por enquanto.#
 Descanse por 30 minutos.#
 
-12510#Sobre a arena oculta###
-Descobri que a arena está sendo operada de forma ilegal além da fenda dimensional. Não sei como eles conseguem realizar o Torneio ilegal, mas com certeza é muito divertido.#
-Regras Covardes#
+12510#Sobre a Arena Clandestina###
+Descobri que uma arena está sendo operada de forma ilegal no Espaço Dimensional. Não sei como conseguiram organizar algo assim, mas parece muito interessante.#
+Regras dos Covardes#
 
-12511#Resfriamento - Sem Arena hoje###
-A arena abre uma vez a cada 3 dias. É melhor fazer uma pausa quando não houver jogo.#
-A Arena recomeça às 4:00 (UTC-3) 3 dias depois#
+12511#[Espera] Não há partidas hoje.###
+Dizem que a arena abre uma vez a cada 3 dias. Enquanto não houver partidas, é melhor descansar.#
+A Arena se reinicia às 04:00 após 3 dias#
 
-12512#Evidência de sobrevivência###
-Se você ainda estiver de pé na arena. E se estiver olhando para este passe, é uma prova de que está vivo.#
-Ainda não morreu.#
+12512#Prova de Sobrevivência###
+Se você ainda está de pé dentro da arena, e se está vendo este passe de entrada, isso é prova de que você está vivo.#
+Ainda não morri.#
 
-12513#Causa da destruição da torre###
-Parece que o responsável por toda essa confusão se instalou dentro da torre parcialmente destruída. Vamos verificar que tipo de ser ele é.#
-Novo dono da torre#
+12513#Causa da Destruição da Torre###
+Parece que o responsável por esta comoção se instalou dentro da torre parcialmente destruída. Vamos verificar quem ele é.#
+Novo Dono da Torre#
 
-12514#Sequelas de entrar na torre###
-Entrar e sair deste lugar consome muita energia mental. Mesmo que ainda haja assuntos pendentes, é melhor voltar depois de 3 dias.#
-Reentrada às 4h da manhã após 3 dias#
+12514#Efeitos por entrar na Torre###
+Entrar e sair deste lugar consome muita energia mental. Mesmo que ainda tenha coisas para fazer, é melhor melhor voltar só depois de 3 dias.#
+Reinicia às 04:00 após 3 dias#
 
-12515#Encontro com o novo dono da torre###
-O novo dono da torre não matou todos os habitantes dela. É realmente generoso, mas, ao ver os monstros sendo expulsos, fica impossível imaginar o quanto ele é forte.#
-Vamos nos preservar.#
+12515#Encontrando o novo Dono da Torre###
+O novo dono da torre não matou todos os moradores da torre. Isso foi algo generoso, mas ao ver os monstros vindo de cima, é impossível imaginar o quão forte ele é.#
+Vamos tomar cuidado.#
 
-12516#Segredo da fonte 1###
-Vença após amplificar o poder de Betelgeuse em 300% ou mais. Será adicionada uma função que usa <ITEM>Pó de Meteorito<INFO>1000372</INFO></ITEM> para elevar uma dificuldade específica até o limite.#
-Fortalecer atributo designado#
+12516#Segredo da Fonte 1###
+Aumente o poder de Betelgeuse em 300% ou mais e vença-o. Será adicionada a função de usar <ITEM>Pó de Meteorito<INFO>1000372</INFO></ITEM> para aumentar uma dificuldade específica até o limite.#
+Aumentar atributo específico#
 
-12517#Segredo da fonte 1###
-Vença após amplificar o poder de Betelgeuse em 600% ou mais. Será adicionada uma função que usa <ITEM>Pó de Meteorito<INFO>1000372</INFO></ITEM> para selar uma dificuldade específica em 0.#
-Selar atributo designado#
+12517#Segredo da Fonte 1###
+Aumente o poder de Betelgeuse em 600% ou mais e vença-o. Será adicionada a função de usar <ITEM>Pó de Meteorito<INFO>1000372</INFO></ITEM> para selar uma dificuldade específica em 0.#
+Selar atributo específico#
 
-12518#Ser expulso###
-Certamente houve uma grande mudança no ecossistema da torre. Antes de confirmar quem é o dono do trono alterado, será necessário fazer uma boa limpeza.#
-Está na hora de sair.#
+12518#O ser expulso###
+Uma mudança drástica no ecossistema da torre ocorreu. Antes de verificar quem é o novo dono da torre, uma limpeza se faz necessária.#
+É hora de sair.#
 
 12519#Paradeiro do dono original###
-Se a torre ficou assim, é provável que o ser que originalmente dominava este lugar também não esteja ileso.#
-Talvez não haja mais nada de especial.#
+Pelo estado em que a torre se encontra, o ser que originalmente dominava este lugar não deve ter saído ileso.#
+Não há muito a se ver por aqui.#
 
 12520#Mansão da Desilusão###
 Dizem que as formas de seres já derrotados ainda podem ser vistas na mansão do Sumo Sacerdote Yus. Aira espera que essas presenças sinistras sejam eliminadas pelas mãos dos viajantes antes que a Fúria divina seja invocada.#
@@ -25667,7 +25667,7 @@ O [<NAVI>Gerente do Festival<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>] levará
 Fale com o Gerente do Festival#
 
 17308#Festival do Macarrão###
-Traga 1 Almôndega, 1 Macarrão Gravatinha, 1 Macarrão Parafuso e 1 Macarrão Espaguete para o <NAVI>[Gerente do Festival]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>#
+Traga 1x Almôndega, 1x Macarrão Gravatinha, 1x Macarrão Parafuso e 1x Macarrão Espaguete para o <NAVI>[Gerente do Festival]<INFO>lasagna,81,201,0,101,0,</INFO></NAVI>#
 Traga os itens#
 
 17309#Cozinhar Macarrão###
@@ -25695,16 +25695,16 @@ Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar 
 Reinicia às 04:00#
 
 17315#Colheita de Melancia###
-Elimine Melancias e traga 10 Leques do Festival para o <NAVI>[Ajudante Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>.#
-10 Leques do Festival#
+Elimine Melancias e traga 10x Leque do Festival para o <NAVI>[Ajudante Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>.#
+10x Leque do Festival#
 
 17316#[Espera] Colheita de Melancia###
 Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar o <NAVI>[Ajudante Rami]<INFO>lasagna,101,120,0,101,0,</INFO></NAVI>.#
 Reinicia às 04:00.#
 
-17317#Macarrão Estragado###
-Traga 10 Macarrão Podre para o <NAVI>[Ajudante Domi]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>.#
-10 Macarrão Podre#
+17317#Caça ao Macarrão Estragado###
+Traga 10x Macarrão Podre para o <NAVI>[Ajudante Domi]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>.#
+10x Macarrão Podre#
 
 17318#[Espera] Macarrão Estragado###
 Você concluiu a missão diária de hoje. Após o amanhecer, você pode visitar o <NAVI>[Ajudante Domi]<INFO>lasagna,90,202,0,101,0,</INFO></NAVI>#
@@ -25764,7 +25764,7 @@ Ao Organizador#
 
 17332#Visual do Macarrão###
 Você recebeu o visual desse ano!#
-Feliz festival!#
+Aproveite o festival!#
 
 17333#O Legado do Sábio###
 Parece que houve um problema ao compartilhar a lista de convidados pela rede interna da mansão. Vamos verificar com a <NAVI>[Gerente Alpha]<INFO>ba_maison,74,150,0,101,0</INFO></NAVI>.#
@@ -26386,12 +26386,12 @@ Falar com Banyak#
 'Tudo o que <NAVI>[ I ]<INFO>payon,197,122,0,101,0,</INFO></NAVI> pode fazer é ensinar. O aprendizado e o domínio dependem inteiramente do aluno.'#
 Concluir o treinamento#
 
-17554#Pato Perdido###
-Em Lasagna, há um [<NAVI>Pato<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>] perto do local de pesca ao sul. Se o proprietário não vier buscá-lo, leve-o ao Centro de Achados e Perdidos.#
-Ao Pato#
+17554#Patolindo Perdido###
+Em Lasagna, há um [<NAVI>Patolindo<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>] perto do local de pesca ao sul. Se o proprietário não vier buscá-lo, leve-o ao Centro de Achados e Perdidos.#
+Ao Patolindo#
 
 17555#Cozinhar Macarrão###
-<NAVI>[Mestre Macarrão Orzo]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>, em Lasagna, pediu 5 Macarrão Gravatinha, 5 Macarrão Espaguete, 5 Macarrão Parafuso e 3 Almôndegas.#
+<NAVI>[Mestre Macarrão Orzo]<INFO>lasagna,289,285,0,101,0,</INFO></NAVI>, em Lasagna, pediu 5x Macarrão Gravatinha, 5x Macarrão Espaguete, 5x Macarrão Parafuso e 1x Almôndega.#
 Traga os itens#
 
 17556#Festival Completado!###
@@ -26403,35 +26403,35 @@ Vá para a <NAVI>[Caverna Nyail]<INFO>lasa_sea,21,144,0,101,0,</INFO></NAVI>! L�
 Para a Caverna#
 
 17558#Botão de Estrela?!###
-Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,74,202,0,101,0,</INFO></NAVI>.#
-Encontre Patos#
+Em algum lugar da caverna, há patolindos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,74,202,0,101,0,</INFO></NAVI>.#
+Encontre Patolindos#
 
 17559#Botão de Estrela?!###
-Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,135,70,0,101,0,</INFO></NAVI>.#
-Encontre Patos#
+Em algum lugar da caverna, há patolindos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,135,70,0,101,0,</INFO></NAVI>.#
+Encontre Patolindos#
 
 17560#Botão de Estrela?!###
-Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,18,51,0,101,0,</INFO></NAVI>.#
-Encontre Patos#
+Em algum lugar da caverna, há patolindos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,18,51,0,101,0,</INFO></NAVI>.#
+Encontre Patolindos#
 
 17561#Botão de Estrela?!###
-Em algum lugar da caverna, há patos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,197,67,0,101,0,</INFO></NAVI>.#
-Encontre Patos#
+Em algum lugar da caverna, há patolindos escondidos. Vamos procurá-los <NAVI>[aqui]<INFO>lasa_sea,197,67,0,101,0,</INFO></NAVI>.#
+Encontre Patolindos#
 
 17562#Botão de Estrela?!###
 Vamos voltar para <NAVI>[Lasagna]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
-Encontre Patos#
+Encontre Patolindos#
 
 17563#Botão de Estrela?!###
-Parece confuso, vamos aguardar o Pato em­ <NAVI>[Lasagna]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+Parece confuso, vamos aguardar o Patolindo em­ <NAVI>[Lasagna]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
 Aguarde#
 
 17564#Botão de Estrela?!###
-Converse com o <NAVI>[Pato]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
-Fale com Pato­#
+Converse com o <NAVI>[Patolindo]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+Fale com Pato­lindo#
 
 17565#Botão de Estrela?!###
-Vá para a Caverna, elimine Estrelitas para conseguir 20 Botões de Estrela e entregue-as para <NAVI>[mim]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
+Vá para a Caverna, elimine Estrelitas para conseguir 20x Botão de Estrela e entregue-as para <NAVI>[mim]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
 20 Botões de Estrela#
 
 17566#[Espera] Botão de Estrela?!###
@@ -26440,7 +26440,7 @@ Reinicia às 04:00#
 
 17567#Botão de Estrela?!###
 Vá para a Caverna, elimine Estrelitas para conseguir 20 Botões de Estrela e entregue-as para <NAVI>[mim]<INFO>lasagna,224,111,0,101,0,</INFO></NAVI>.#
-20 Botões de Estrela#
+20x Botão de Estrela#
 
 17568#Caminho do Céu: Ponto Marcado###
 A busca na área marcada foi concluída.#
@@ -40839,7 +40839,7 @@ Derrote 15 Barões Corvos em <NAVI>[Torre de Thanatos - Sala da Agonia]<INFO>tha
 Derrote 15 Barões Corvos#
 
 295508#Passe de Batalha Diário 5###
-Derrote 1 Pimentão em [Lamda (Difícil)]ba_maison,120,321,0,101,0#
+Derrote 1 Pimentão em <NAVI>[Lamda (Difícil)]<INFO>ba_maison,120,321,0,101,0</INFO></NAVI>#
 Derrote 1 Pimentão#
 
 295510#Passe de Batalha Diário 6-1###

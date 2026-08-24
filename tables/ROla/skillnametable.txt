@@ -264,7 +264,7 @@ BD_RAGNAROK#Ragnarök#
 BA_MUSICALLESSON#Lições de Música#
 BA_MUSICALSTRIKE#Flecha Melódica#
 BA_DISSONANCE#Dissonância#
-BA_FROSTJOKE#Piada Infame#
+BA_FROSTJOKER#Piada Infame#
 BA_WHISTLE#Assovio#
 BA_ASSASSINCROSS#Crepúsculo Sangrento#
 BA_POEMBRAGI#Poema de Bragi#
@@ -1400,7 +1400,7 @@ MH_ERASER_CUTTER#Choque Supersônico#
 MH_XENO_SLASHER#Onda Supersônica#
 MH_SILENT_BREEZE#Brisa da Calmaria#
 MH_STYLE_CHANGE#Estilo de Luta#
-MH_SONIC_CRAW#Garra Supersônica#
+MH_SONIC_CLAW#Garra Supersônica#
 MH_SILVERVEIN_RUSH#Rastro Brilhante#
 MH_MIDNIGHT_FRENZY#Delírio Noturno#
 MH_STAHL_HORN#Impacto Preciso#

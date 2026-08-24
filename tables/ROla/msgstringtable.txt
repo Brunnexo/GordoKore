@@ -1805,8 +1805,8 @@ Nenhuma Loja encontrada#
 Fora do valor#
 Equip#
 Visual#
-minutos#
-segundos#
+min#
+s#
 Insira o nome do item#
 O item não existe#
 Mapa não disponível#
@@ -3595,12 +3595,12 @@ Gostaria de receber todos os anexos das mensagens selecionadas?#
 Gostaria de receber todos os anexos da aba [%s]?#
 Habilidade2#
 Trocar Barra de Habilidade#
-←#
-↑#
-→#
-↓#
+<#
+^#
+>#
+v#
 ▤#
-←#
+<-#
 Não é possível fechar a janela enquanto ela estiver carregando.#
 Não há magias memorizadas.#
 Itens usados ​​durante o movimento não podem ser trocados novamente.#
@@ -3613,7 +3613,7 @@ Passe Livre#
 Passe Livre em uso#
 Talentos#
 Poder\n         Aumenta seu ataque físico\n         e o seu Poder de Ataque#
-Stamina\n         Aumenta a Tenacidade#
+Estâmina\n         Aumenta a Tenacidade#
 Sabedoria\n         Maior Tenacidade Mágica#
 Feitiço\n         Aumenta seu ataque mágico\n         e seu Super Ataque Mágico#
 Concentração\n         Mais Precisão, Esquiva,\n         Poder de Ataque e\n         Super Ataque Mágico#
@@ -3989,9 +3989,9 @@ Você não pode invocar um Homunculus S nessa classe atual. Você precisa avanç
 Não há itens equipáveis por essa carta.#
 Dano#
 Exibição de Dano#
-↖#
-↑#
-↗#
+<#
+^#
+>#
 Padrão#
 Já existe um alvo rastreado.#
 Iniciar rastreamento do alvo.#
@@ -4253,9 +4253,9 @@ Equipamento para Mão Direita#
 Comprar#
 Vender#
 Informação de Conjuração#
-Conj. Fixa#
-Conj. Var.#
-Pós-Conj.#
+Fixa#
+Variável#
+Pós#
 Recarga#
 Conj. Esp.#
 %.3gseg#
@@ -4302,7 +4302,7 @@ Peso %d%%#
 Idioma#
 Ajuda#
 Conjuração#
-Recarga#
+Espera#
 Nv.#
 Loja de estilo#
 Concordar#
@@ -4372,3 +4372,6 @@ Enquanto estiver sob penalidade, você não poderá entrar ou criar grupos, obte
 Para remover a penalidade, você deve ir até a NPC indicada no seu minimapa. A localização deixará de ser exibida caso você se teletransporte.#
 Remover Penalidade#
 Devolver ao Remetente#
+*A conjuração fixa desta habilidade não é afetada pelos efeitos de redução da conjuração fixa de itens ou habilidades.#
+*A conjuração variável desta habilidade não é reduzida por atributos\ne não é afetada pelos efeitos de redução da conjuração variável de itens ou habilidades.#
+O tempo de recarga da habilidade será igual ao nível do elemental invocado × 3 segundos.#
