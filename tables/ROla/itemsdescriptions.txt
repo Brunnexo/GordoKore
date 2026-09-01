@@ -42,7 +42,7 @@ Peso: ^77777715^000000
 Poção feita de ervas verdes.
 Dê um clique duplo no item para usar.
 -------------------------
-^0000ffRemove Envenenamento, Silêncio, Caos e Cegueira.^000000
+^0000FFRemove Envenenamento, Silêncio, Caos, Cegueira e Alucinação.^000000
 -------------------------
 Peso: ^7777777^000000
 #
@@ -897,9 +897,9 @@ Tipo: ^777777Isca^000000
 Peso: ^7777775^000000
 #
 633#
-Uma batata doce e bem assada.
+Uma batata-doce e bem assada.
 -------------------------
-^0000ffTem 10% de chance de capturar um [Fumacento] como mascote.^000000
+^0000FFTem 10% de chance de capturar um [Fumacento] como mascote.^000000
 -------------------------
 <TIPBOX>[Dicas sobre Mascotes]<INFO>10188</INFO></TIPBOX>
 -------------------------
@@ -7357,11 +7357,11 @@ Classes: ^777777Noviços e evoluções^000000
 1523#
 Uma maça com espinhos que podem causar morte instantânea.
 -------------------------
-^0000ffCRIT +40.^000000
-^0000ffDEF -66%.^000000
+^0000FFCRIT +40.^000000
+^0000FFDEF ^FF0000-66%.^000000
 -------------------------
 Tipo: ^777777Maça^000000
-ATQ: ^77777770^000000 ATQM: ^7777770^000000
+ATQ: ^77777785^000000 ATQM: ^7777770^000000
 Nota: ^777777Indestrutível em batalha^000000
 Peso: ^77777770^000000
 Nível da arma: ^7777774^000000
@@ -7525,8 +7525,8 @@ Classes: ^777777Espadachins, Noviços, Mercadores e evoluções^000000
 1538#
 Uma maça com espinhos que podem causar morte instantânea.
 -------------------------
-^0000ffCRIT +40.^000000
-^0000ffDEF -66%.^000000
+^0000FFCRIT +40.^000000
+^0000FFDEF ^FF0000-66%.^000000
 -------------------------
 Tipo: ^777777Maça^000000
 ATQ: ^77777785^000000 ATQM: ^7777770^000000
@@ -24586,7 +24586,7 @@ Peso: ^7777771^000000
 #
 4391#
 Ao derrotar monstros da raça Anjo:
-^0000ff0,5% de chance de derrubar Batata Doce Frita.^000000
+^0000FF0,5% de chance de derrubar Batata-doce Frita.^000000
 -------------------------
 Tipo: ^777777Carta^000000
 Equipa em: ^777777Acessório^000000
@@ -26144,11 +26144,13 @@ Peso ^7777771^000000
 #
 4581#
 Ao receber danos físicos:
-^0000ff3% de chance de drenar 40 de SP para ativar um [efeito] por 3 segundos.^000000
-^CD3278Efeito:^000000
-^0000ffAGI +44.^000000
-^0000ffAtiva [Vigor].^000000
-^0000ffAumenta a velocidade de movimento.^000000
+^0000FF3% de chance de drenar 40 de SP para ativar um [efeito] por 3 segundos.^000000
+-------------------------
+[^CD3278Efeito^000000]
+^0000FFAGI +44.^000000
+^0000FFAtiva [Vigor].^000000
+^0000FFAumenta a velocidade de movimento.^000000
+-------------------------
 Tipo: ^777777Carta^000000
 Equipa em: ^777777Calçado^000000
 Peso ^7777771^000000
@@ -36448,7 +36450,8 @@ Peso:^7777770^000000
 #
 6828#
 Um dispositivo gravitacional criado por Fruit. Se você entregá-lo para 'aquela pessoa' você poderá chegar até a última sala do abrigo subterrâneo sem problemas... mas mesmo assim dá medo.
-Peso:^77777710^000000
+--------------------------
+Peso: ^77777710^000000
 #
 6831#
 ^ff0000Este item não pode ser negociado, derrubado no chão ou colocado na kafra.^000000
@@ -39405,13 +39408,13 @@ Peso: ^7777771^000000
 7474#
 Livro de receitas culinárias de nível 3.
 -------------------------
-[^ff0000Receitas^000000]
+[^FF0000Receitas^000000]
 Bife Bombástico
 Chá de Ervas e Mel
 Salada de Frutas
 Tentáculos Gratinados
 Sopa de Ostra
-Batata Doce Frita
+Batata-doce Frita
 -------------------------
 Peso: ^7777771^000000
 #
@@ -41390,11 +41393,6 @@ Peso: ^7777770^000000
 9068#
 Ovo contendo um Unicórnio de estimação. Deve ser chocado por uma Incubadora.
 --------------------------
-[^CD3278Durante o Evento^000000]
-Ao derrotar monstros com qualquer ataque:
-^0000FFRegenera 500 de HP e 50 de SP.^000000
---------------------------
-[^CD3278Após o Evento^000000]
 Na Lealdade Alta:
 ^0000FFAo derrotar monstros com qualquer ataque, Regenera 150 de HP e 15 de SP.^000000
 --------------------------
@@ -42653,24 +42651,24 @@ Duração: ^77777715 minutos^000000
 Peso: ^7777770^000000
 #
 9582#
-Belíssimo exemplar de um ramo de flores. Seu cheiro ativa sensações revigorantes.
+Belíssimo exemplar de um ramo de flores. Seu cheiro desperta sensações revigorantes.
 -------------------------
-^0000ffEsquiva +30.^000000
-^0000ffEsquiva perfeita +2.^000000
-^0000ffConjuração variável -5%.^000000
-^0000ffVelocidade de ataque +5%.^000000
+^0000FFEsquiva +30.^000000
+^0000FFEsquiva perfeita +2.^000000
+^0000FFConjuração variável -5%.^000000
+^0000FFVelocidade de ataque +5%.^000000
 -------------------------
-^ff0000Será deletado no final do evento.^000000
+^FF0000Será deletado no final do evento.^000000
 -------------------------
 Duração: ^77777730 minutos^000000
 Peso: ^77777710^000000
 #
 9585#
-Pequeno ramo com algumas flores desabrochando. Seu cheiro ativa sensações nostálgicas.
+Pequeno ramo com algumas flores desabrochando. Seu cheiro desperta sensações nostálgicas.
 -------------------------
-^0000ffHP e SP máx. +3%.^000000
+^0000FFHP e SP máx. +3%.^000000
 -------------------------
-^ff0000Será deletado no final do evento.^000000
+^FF0000Será deletado no final do evento.^000000
 -------------------------
 Duração: ^77777710 minutos^000000
 Peso: ^7777775^000000
@@ -45503,37 +45501,51 @@ Peso: ^7777775^000000
 #
 12202#
 Um excelente prato originário de Louyang. Tirando o fato de que é muito caro, o gosto é maravilhoso.
-^0000ffFOR +10 durante 30 minutos.^000000
+-------------------------
+^0000FFFOR +10 por 30 minutos.^000000
+-------------------------
 Peso: ^7777771^000000
 #
 12203#
 Um dos quatro melhores pratos do Deserto de Sograt, essa sopa de escorpião foi cozida com o calor das areias do deserto.
-^0000ffAGI +10 durante 30 minutos.^000000
+-------------------------
+^0000FFAGI +10 por 30 minutos.^000000
+-------------------------
 Peso: ^7777771^000000
 #
 12204#
 Um coquetel com um inesquecível aroma de bafo de dragão.
-^0000ffINT +10 durante 30 minutos.^000000
+-------------------------
+^0000FFINT +10 por 30 minutos.^000000
+-------------------------
 Peso: ^7777771^000000
 #
 12205#
 Recebeu este nome por causa de uma lendária fonte que se acreditava ser a nascente de todos os rios do mundo. Este Tônico é famoso por seu sabor delicioso.
-^0000ffDES +10 durante 30 minutos.^000000
+-------------------------
+^0000FFDES +10 por 30 minutos.^000000
+-------------------------
 Peso: ^7777771^000000
 #
 12206#
 Uma rara especialidade de Payon que traz sorte aos felizardos que podem comê-la.
-^0000ffSOR +10 durante 30 minutos.^000000
+-------------------------
+^0000FFSOR +10 por 30 minutos.^000000
+-------------------------
 Peso: ^7777771^000000
 #
 12207#
 Um cozido com um aroma estranho, suspeito até, mas que dá a quem o ingere a sensação de imortalidade.
-^0000ffVIT +10 durante 30 minutos.^000000
+-------------------------
+^0000FFVIT +10 por 30 minutos.^000000
+-------------------------
 Peso: ^7777771^000000
 #
 12208#
 Um livro com mais de 500 páginas, trazendo descrições detalhadas de como maximizar seus treinamentos no campo de batalha.
-^0000ffEXP adquirida +50%.^000000
+--------------------------
+^0000FFEXP adquirida +50%.^000000
+--------------------------
 Duração: ^77777730 minutos^000000
 Peso: ^7777771^000000
 #
@@ -45744,43 +45756,43 @@ Peso: ^77777710^000000
 #
 12250#
 Um excelente prato originário de Louyang. Tirando o fato de que é muito caro, o gosto é maravilhoso.
-^ff0000FOR + 10 durante 1 hora.^000000
-O efeito do item se mantém mesmo se o personagem for nocauteado.
+-------------------------
+^0000FFFOR +10 por 60 minutos.^000000
 -------------------------
 Peso: ^7777771^000000
 #
 12251#
 Um dos quatro melhores pratos do Deserto de Sograt, essa sopa de escorpião foi cozida com o calor das areias do deserto.
-^ff0000AGI + 10 durante 1 hora.^000000
-O efeito do item se mantém mesmo se o personagem for nocauteado.
+-------------------------
+^0000FFAGI +10 por 60 minutos.^000000
 -------------------------
 Peso: ^7777771^000000
 #
 12252#
-Um coquetel com um inesquecível sabor de  bafo de dragão.
-^ff0000INT + 10 durante 1 hora.^000000
-O efeito do item se mantém mesmo se o personagem for nocauteado.
+Um coquetel com um inesquecível aroma de bafo de dragão.
+-------------------------
+^0000FFINT +10 por 60 minutos.^000000
 -------------------------
 Peso: ^7777771^000000
 #
 12253#
 Recebeu este nome por causa de uma lendária fonte que se acreditava ser a nascente de todos os rios do mundo. Este Tônico é famoso por seu sabor delicioso.
-^ff0000DES + 10 durante 1 hora.^000000
-O efeito do item se mantém mesmo se o personagem for nocauteado.
+-------------------------
+^0000FFDES +10 por 60 minutos.^000000
 -------------------------
 Peso: ^7777771^000000
 #
 12254#
-Uma rara especialidade  de Payon que traz sorte aos felizardos que podem comê-la.
-^ff0000SOR + 10 durante 1 hora.^000000
-O efeito do item se mantém mesmo se o personagem for nocauteado.
+Uma rara especialidade de Payon que traz sorte aos felizardos que podem comê-la.
+-------------------------
+^0000FFSOR +10 por 60 minutos.^000000
 -------------------------
 Peso: ^7777771^000000
 #
 12255#
 Um cozido com um aroma estranho, suspeito até, mas que dá a quem o ingere a sensação de imortalidade.
-^ff0000VIT + 10 durante 1 hora.^000000
-O efeito do item se mantém mesmo se o personagem for nocauteado.
+-------------------------
+^0000FFVIT +10 por 60 minutos.^000000
 -------------------------
 Peso: ^7777771^000000
 #
@@ -45971,12 +45983,16 @@ Peso: ^77777710^000000
 #
 12292#
 Um Fruto de Yggdrasil que ainda não amadureceu. Algumas pessoas gostam do sabor amargo da fruta que ainda verde, mas sua eficácia em recuperação é parecida com seu sabor.
-^0000ffRecupera 20% HP.^000000
+--------------------------
+^0000FFRecupera 20% HP.^000000
+--------------------------
 Peso: ^77777720^000000
 #
 12293#
 Um pequeno pedaço de uma Fruto de Yggdrasil que foi desidratada que facilita o consumo e armazenamento. O aroma delicado é resultado do lento processo de desidratação.
-^0000ffRecupera 20% SP.^000000
+--------------------------
+^0000FFRecupera 20% SP.^000000
+--------------------------
 Peso: ^77777720^000000
 #
 12298#
@@ -46604,9 +46620,10 @@ Duração: ^77777715 minutos^000000
 Peso: ^7777771^000000
 #
 12412#
-Um chicle muito saboroso e macio.
-^0000ffTaxa de DROP +200%.^000000
+Um chiclete muito saboroso e macio.
+^0000FFTaxa de DROP +200%.^000000
 Duração: ^77777715 minutos^000000
+-------------------------
 Peso: ^7777771^000000
 #
 12413#
@@ -46985,33 +47002,45 @@ Peso: ^7777771^000000
 #
 12530#
 Uma caixa contendo 200 Mastelas. Uma fruta roxa, muito bela.
+--------------------------
+^FF0000Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso do personagem!^000000
+--------------------------
 Peso: ^77777710^000000
-"^ff0000 Cuidado - Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso de seu personagem!^000000"
 #
 12531#
-Uma caixa contendo 100 Poções Brancas
+Uma caixa contendo 100 Poções Brancas.
+--------------------------
+^FF0000Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso do personagem!^000000
+--------------------------
 Peso: ^7777770^000000
-^ff0000 Cuidado - Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso de seu personagem!^000000
 #
 12532#
-Uma caixa contendo 100 Geleias Real.
+Uma caixa contendo 100 Geleias Reais.
+--------------------------
+^FF0000Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso do personagem!^000000
+--------------------------
 Peso: ^7777770^000000
-"^ff0000 Cuidado - Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso de seu personagem!^000000"
 #
 12533#
 Uma caixa contendo 100 Ervas Azuis.
+--------------------------
+^FF0000Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso do personagem!^000000
+--------------------------
 Peso: ^7777770^000000
-"^ff0000 Cuidado - Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso de seu personagem!^000000"
 #
 12534#
 Uma caixa que contém 30 Sementes de Yggdrasil.
-Peso: 0
-"^ff0000 Cuidado - Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso de seu personagem!^000000"
+--------------------------
+^FF0000Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso do personagem!^000000
+--------------------------
+Peso: ^7777770^000000
 #
 12535#
-Uma caixa contendo 15 Frutos de Yggdrasil
+Uma caixa que contém 15 Frutos de Yggdrasil.
+--------------------------
+^FF0000Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso do personagem!^000000
+--------------------------
 Peso: ^7777770^000000
-"^ff0000 Cuidado - Se você estiver acima do peso e abrir a caixa, os itens poderão não ser recebidos. Verifique o peso de seu personagem!^000000"
 #
 12536#
 Ensopado feito de arroz e polvo. O aroma pode ser sentido a metros!
@@ -47839,9 +47868,10 @@ Peso: ^7777771^000000
 #
 12766#
 Manual que explica a maneira mais eficiente de batalhar. É um exemplo bem detalhado de um manual.
-^0000ffEXP de classe adquirida +25%.^000000
+--------------------------
+^0000FFEXP de classe adquirida +25%.^000000
+--------------------------
 Duração: ^77777730 minutos^000000
-Negociação: ^777777Não pode ser derrubado ou negociado, mas pode ser colocado no armazém.^000000
 Peso: ^7777770^000000
 #
 12767#
@@ -54881,6 +54911,13 @@ Peso: ^7777771^000000
 Caixa misteriosa encontrada no ninho da Creamy.
 --------------------------
 ^0000ffConcede aleatoriamente 1 Equipamento Sombrio de Teleporte.^000000
+--------------------------
+Peso: ^7777771^000000
+#
+14732#
+Caixa misteriosa da Guilda dos Gatunos.
+--------------------------
+^0000ffConcede aleatoriamente 1 Equipamento Sombrio de Furto.^000000
 --------------------------
 Peso: ^7777771^000000
 #
@@ -62641,7 +62678,26 @@ Nível necessário: ^77777730^000000
 Classes: ^777777Todas^000000
 #
 18551#
-
+^ff0000Preso na Conta.^000000
+Pequeno diadema que contém poder enfraquecido.
+--------------------------
+^0000ffHabilita [Para Glastheim] nv.1.^000000
+--------------------------
+A cada refino:
+^0000ffHP máx. +100.^000000
+^0000ffSP máx. +20.^000000
+--------------------------
+Refino +9 ou mais:
+^0000ffConjuração fixa -0,5 segundos.^000000
+Refino +11 ou mais:
+^0000ffPós-conjuração -15%.^000000
+--------------------------
+Tipo: ^777777Equip. para Cabeça^000000
+Equipa em: ^777777Topo^000000
+DEF: ^7777770^000000 DEFM: ^7777770^000000
+Peso: ^77777710^000000
+Nível necessário: ^7777771^000000
+Classes: ^777777Todas^000000
 #
 18553#
 
@@ -66454,24 +66510,24 @@ Classes: ^777777Todas^000000
 Antigas lendas relatam que os Fumacentos usam folhas mágicas na cabeça para ficarem invisíveis ou mesmo se disfarçarem, assumindo até mesmo formas humanas.
 -------------------------
 A cada refino:
-^0000ffDano mágico de todas as propriedades +1%.^000000
+^0000FFDano mágico de todas as propriedades +1%.^000000
 -------------------------
 Ao realizar ataques físicos:
-^0000ff3% de chance de se transformar em Fumacento por 5 segundos.^000000
+^0000FF3% de chance de se transformar em Fumacento por 5 segundos.^000000
 -------------------------
 ^CD3278Durante a transformação:^000000
 Ao realizar ataques físicos corpo a corpo:
-^0000ff5% de chance de autoconjurar [Lanças de Fogo], [Lanças de Gelo], [Relâmpago] e [Coluna de Pedra] nv.2.^000000
+^0000FF5% de chance de autoconjurar [Lanças de Fogo], [Lanças de Gelo], [Relâmpago] e [Coluna de Pedra] nv.2.^000000
 Refino +7 ou mais:
-^0000ff4% de chance de autoconjurar [Congelar] nv.5.^000000
+^0000FF4% de chance de autoconjurar [Congelar] nv.5.^000000
 Refino +8 ou mais:
-^0000ff3% de chance de autoconjurar [Tempestade de Raios] nv.5.^000000
+^0000FF3% de chance de autoconjurar [Tempestade de Raios] nv.5.^000000
 Refino +9 ou mais:
 Nv. base 100 ou mais:
-^0000ff2% de chance de autoconjurar [Chamas de Hela] nv.5.^000000
+^0000FF2% de chance de autoconjurar [Chamas de Hela] nv.5.^000000
 Refino +10 ou mais e
 Nv. base 100 ou mais:
-^0000ff1% de chance de autoconjurar [Corrente Elétrica] nv.5.^000000
+^0000FF1% de chance de autoconjurar [Corrente Elétrica] nv.3.^000000
 -------------------------
 Tipo: ^777777Equip. para Cabeça^000000
 Equipa em: ^777777Topo^000000
@@ -68441,7 +68497,7 @@ Classes: ^777777Todas^000000
 19537#
 Este filhotinho de Grifo ainda está aprendendo a voar, mas se você o treinar com muita dedicação, ele poderá servir de montaria para algum Guardião Real bebê.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual ^000000
 Equipa em: ^777777Topo^000000
@@ -72737,7 +72793,7 @@ Classes: ^777777Todas^000000
 20299#
 Uma bela de uma torta de baunilha que vai ficar enfiada na sua cara até você decidir que não tem mais graça. Uma coisa é certa: não vai dar pra brincar de “torta na cara” se você já estiver usando uma dessas!
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Meio e Baixo^000000
@@ -82633,7 +82689,7 @@ Peso: ^7777775^000000
 #
 23556#
 Consumível de NPC.
-Poder de cura da Carne e Batata Doce +2.000%.
+Poder de cura da Carne e Batata-doce +2.000%.
 Duração: 6 horas
 #
 23575#
@@ -83295,15 +83351,15 @@ Vestimenta Magmática
 Peso: ^7777775^000000
 #
 23898#
-^ff0000Intransferível.^000000
-Poção Ilimitada que te garante poderes inimagináveis. Tem gosto de mirtilo com um leve toque de cítrico de laranja.
+^FF0000Intransferível.^000000
+Poção Ilimitada que te garante poderes inimagináveis. Tem gosto de mirtilo com um leve toque cítrico de laranja.
 -------------------------
-^0000ffATQ e ATQM +30.^000000
-^0000ffConjuração fixa -30%.^000000
-^0000ffPrecisão e Esquiva +30.^000000
-^0000ffDano físico e mágico +1%.^000000
-^0000ffVelocidade de ataque +1.^000000
-^0000ffCusto de SP das habilidades -5%.^000000
+^0000FFATQ e ATQM +30.^000000
+^0000FFConjuração fixa -30%.^000000
+^0000FFPrecisão e Esquiva +30.^000000
+^0000FFDano físico e mágico +1%.^000000
+^0000FFVelocidade de ataque +1.^000000
+^0000FFCusto de SP das habilidades -5%.^000000
 -------------------------
 ^008080Perde o efeito ao morrer.^000000
 -------------------------
@@ -85559,6 +85615,36 @@ Posição: ^777777Armadura^000000
 Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
 Classes: ^777777Todas^000000
 #
+24127#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Esconderijo] nv.1.^000000
+^0000ffCusto de SP de [Esconderijo]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Esconderijo] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Calçado^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+24128#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Esconderijo] nv.1.^000000
+^0000ffCusto de SP de [Esconderijo]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Esconderijo] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Escudo^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
 24129#
 Luvas usadas como complemento para o manejo de armas convencionais.
 -------------------------
@@ -85571,6 +85657,36 @@ A cada refino:
 -------------------------
 Tipo: ^777777Equip. Sombrio^000000
 Posição: ^777777Arma^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+24130#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Esconderijo] nv.1.^000000
+^0000ffCusto de SP de [Esconderijo]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Esconderijo] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Aces. Direito^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+24131#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Esconderijo] nv.1.^000000
+^0000ffCusto de SP de [Esconderijo]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Esconderijo] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Aces. Esquerdo^000000
 Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
 Classes: ^777777Todas^000000
 #
@@ -85769,6 +85885,36 @@ Posição: ^777777Armadura^000000
 Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
 Classes: ^777777Todas^000000
 #
+24145#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Furto] nv.1.^000000
+^0000ffCusto de SP de [Furto]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Furto] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Calçado^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+24146#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Furto] nv.1.^000000
+^0000ffCusto de SP de [Furto]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Furto] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Escudo^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
 24147#
 Luvas usadas como complemento para o manejo de armas convencionais.
 -------------------------
@@ -85781,6 +85927,36 @@ A cada refino:
 -------------------------
 Tipo: ^777777Equip. Sombrio^000000
 Posição: ^777777Arma^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+24148#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Furto] nv.1.^000000
+^0000ffCusto de SP de [Furto]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Furto] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Aces. Direito^000000
+Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+24149#
+Equipamento nascido das sombras.
+--------------------------
+^0000ffHP máx. +10 por refino.^000000
+--------------------------
+^0000ffHabilita [Furto] nv.1.^000000
+^0000ffCusto de SP de [Furto]^000000 ^ff0000+50.^000000
+A cada refino:
+^0000ffCusto de SP de [Furto] -5.^000000
+--------------------------
+Tipo: ^777777Equip. Sombrio^000000
+Posição: ^777777Aces. Esquerdo^000000
 Peso: ^7777770^000000 Nv. mín.: ^7777771^000000
 Classes: ^777777Todas^000000
 #
@@ -94417,24 +94593,24 @@ Classes: ^777777Justiceiros e evoluções^000000
 24610#
 Equipamento nascido das sombras.
 --------------------------
-^0000ffHP máx. +10 por refino.^000000
+^0000FFHP máx. +10 por refino.^000000
 --------------------------
-^0000ffSP máx. +5%.^000000
+^0000FFSP máx. +5%.^000000
 Refino +7 ou mais:
-^0000ffDano físico a distância +7%.^000000
+^0000FFDano físico a distância +7%.^000000
 Refino +9 ou mais:
-^0000ffCusto de SP de [Tiro Neutralizante] -15%.^000000
+^0000FFCusto de SP de [Tiro Neutralizante] -15%.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09Greva Sombria de Estilhaçante^000000
-^fa4e09Colar Sombrio de Estilhaçante^000000
-^0000ffDano de [Rajada Estilhaçante] e [Tiro Neutralizante] +(soma dos refinos ÷2)%.^000000
+^FA4E09Conjunto^000000
+^FA4E09Greva Sombria Estilhaçante^000000
+^FA4E09Colar Sombrio Estilhaçante^000000
+^0000FFDano de [Rajada Estilhaçante] e [Tiro Neutralizante] +(soma dos refinos ÷2)%.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09Malha Sombria de Insurgente^000000
-^0000ffIgnora 40% da DEF de todas as raças de monstros.^000000
+^FA4E09Conjunto^000000
+^FA4E09Malha Sombria de Insurgente^000000
+^0000FFIgnora 40% da DEF de todas as raças de monstros.^000000
 A cada refino de cada peça:
-^0000ffIgnora +1% de DEF adicional.^000000
+^0000FFIgnora +1% de DEF adicional.^000000
 --------------------------
 Tipo: ^777777Equip. Sombrio^000000
 Posição: ^777777Aces. Direito^000000
@@ -104963,31 +105139,32 @@ Classes: ^777777Justiceiros e evoluções^000000
 28255#
 Use a lente certa, compense a queda do projétil, mire e puxe o gatilho. Se o tiro foi bem dado, será difícil seu alvo peitá-lo e continuar de pé!
 -------------------------
+^0000FFATQM +210.^000000
 A cada 2 refinos:
-^0000ffATQM +10.^000000
+^0000FFATQM +10.^000000
 A cada 3 refinos:
-^0000ffVelocidade de ataque +3%.^000000
+^0000FFVelocidade de ataque +3%.^000000
 -------------------------
 Refino +7 ou mais:
-^0000ffDano mágico +5%.^000000
-^0000ffVelocidade de ataque +1.^000000
+^0000FFDano mágico +5%.^000000
+^0000FFVelocidade de ataque +1.^000000
 Refino +9 ou mais:
-^0000ffAo realizar ataques físicos a distância, 4% de chance de autoconjurar [Espíritos Anciões] nv. 10.^000000
+^0000FFAo realizar ataques físicos a distância, 4% de chance de autoconjurar [Espíritos Anciões] nv. 10.^000000
 Refino +11 ou mais:
-^0000ffChance de autoconjurar [Espíritos Anciões] +8% adicional.^000000
-^0000ffAo realizar ataques físicos a distância, 4% de chance de autoconjurar [Impacto Espiritual] nv. 3.^000000
+^0000FFChance de autoconjurar [Espíritos Anciões] +8% adicional.^000000
+^0000FFAo realizar ataques físicos a distância, 4% de chance de autoconjurar [Impacto Espiritual] nv. 3.^000000
 -------------------------
 ^FA4E09Conjunto^000000
 ^FA4E09[Botas Ancestrais]^000000
 Ao realizar ataques físicos:
-^0000ff3% de chance de ativar um [efeito] por 7 segundos.^000000
+^0000FF3% de chance de ativar um [efeito] por 7 segundos.^000000
 -------------------------
 ^CD3278Efeito:^000000
-^0000ffINT +20.^000000
-^0000ffDano mágico de propriedade Fantasma +10%.^000000
+^0000FFINT +20.^000000
+^0000FFDano mágico de propriedade Fantasma +10%.^000000
 -------------------------
 Tipo: ^777777Rifle^000000
-ATQ: ^777777150^000000 ATQM: ^777777210^000000
+ATQ: ^777777150^000000 ATQM: ^7777770^000000
 Peso: ^777777100^000000
 Nível da arma: ^7777774^000000
 Nível necessário: ^777777100^000000
@@ -109199,7 +109376,8 @@ Peso: ^7777770^000000
 Conjuração fixa -0,3 segundos
 #
 29155#
-Ao realizar ataques físicos, 1% de chance de autoconjurar [Lex Aeterna] nv.1.
+Ao realizar ataques físicos:
+^0000FF1% de chance de autoconjurar [Lex Aeterna] nv.1.^000000
 #
 29156#
 Conjuração variável -3%.
@@ -112385,7 +112563,7 @@ Quando uma Rainha Scaraba renuncia de seu cargo, sua coroa é enterrada nos cant
 -------------------------
 ^008080Exibe efeito gráfico que pode ser desligado com /effect.^000000
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Topo e Baixo^000000
@@ -112399,7 +112577,7 @@ Classes: ^777777Todas^000000
 31327#
 Use isso e você vai ficar a cara daquele menino de madeira que contava várias mentiras. Aquele mesmo que todo mundo é fã!
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Meio^000000
@@ -112432,7 +112610,7 @@ Classes: ^777777Todas^000000
 31331#
 Um delicado acessório de algodão, utilizado para prender os cabelos em coques durante as batalhas, e evitar que eles fiquem caindo no seu rosto. Este Bao Bao é uma réplica do mesmo acessório para coques de cabelo que a Chung E utiliza. Muito útil e superestiloso!
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Topo^000000
@@ -112859,7 +113037,7 @@ Marcas de alguém que parece ter bebido todas. Cuidado com o exagero e se beber,
 ^0000FFTrocável pelo Baú de Pedras Visuais 24 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 --------------------------
 Tipo: ^777777Visual^000000
-Equipa em: ^777777Meio^000000
+Equipa em: ^777777Baixo^000000
 Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
 Classes: ^777777Todas^000000
@@ -112871,7 +113049,14 @@ Classes: ^777777Todas^000000
 
 #
 31476#
-Além de proteger as lindas cabeleiras, o Chapéu do Desabrochar floresce mais e mais a cada raio de Sol que recebe. Sem nem perceber, você vai estar com um jardim inteiro na cabeça, sem exagero! Ok... talvez um pouquinho.
+Além de proteger suas lindas madeixas, o Chapéu do Desabrochar floresce mais e mais a cada raio de Sol que recebe. Sem nem perceber, você vai estar com um jardim inteiro na cabeça, sem exagero! Ok... talvez um pouquinho.
+-------------------------
+[^CD3278Durante o Evento^000000]
+Ao realizar ataques físicos ou mágicos:
+^0000FF3% de chance de ativar um [Efeito] por 5 segundos.^000000
+-------------------------
+[^CD3278Efeito^000000]
+^0000FFRegenera 600 de HP e 50 de SP a cada 1 segundo.^000000
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Topo^000000
@@ -112888,7 +113073,7 @@ Um Gioia que te acompanha aonde quer que você vá enquanto dorme tranquilamente
 ^0000FFTrocável pelo Baú de Pedras Visuais 24 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 --------------------------
 Tipo: ^777777Visual^000000
-Equipa em: ^777777Baixo^000000
+Equipa em: ^777777Meio^000000
 Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
 Classes: ^777777Todas^000000
@@ -113258,7 +113443,7 @@ Nível necessário: ^7777771^000000
 Classes: ^777777Todas^000000
 #
 31580#
-Dois espetinhos de Milho e Batata Doce que combinam muito bem com o Fogaréu.
+Dois espetinhos de Milho e Batata-doce que combinam muito bem com o Fogaréu.
 --------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Meio^000000
@@ -113558,7 +113743,7 @@ Classes: ^777777Todas^000000
 31664#
 Um lindo lobinho que faz todo mundo suspirar de fofura... até ele começar a latir por várias horas sem parar.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual ^000000
 Equipa em: ^777777Topo^000000
@@ -113842,7 +114027,7 @@ Classes: ^777777Todas^000000
 31784#
 Criado no Laboratório Werner, esse Amistr deixou de ser uma simples cobaia e se tornou um bichinho de estimação dos cientistas.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Topo^000000
@@ -118520,9 +118705,11 @@ Peso: ^7777770^000000
 100460#
 Poção que fortalece o crescimento do usuário.
 --------------------------
-^0000FFFornece pontos de EXP base.^000000
+^0000FFFornece 40.000.000 de EXP base.^000000
 Nível de base 231 ou mais:
-^0000FFA quantia fornecida de EXP será menor.^000000
+^0000FFFornece 7.000.000 de EXP base.^000000
+Nível de base 241 ou mais:
+^0000FFFornece 3.500.000 de EXP base.^000000
 --------------------------
 Nível mínimo: ^777777200^000000
 Peso: ^7777770^000000
@@ -118980,12 +119167,13 @@ Peso: ^7777771^000000
 100619#
 Martelo encontrado no Palácio das Mágoas.
 --------------------------
-^0000ffPermite adicionar +1 de refino em um item de Cinzas entre +9 e +11.^000000
-^0000ffCada adição custa 14x Bênção do Ferreiro.^000000
+^0000FFPermite adicionar +1 de refino em um item de Cinzas entre +9 e +11.^000000
+^0000FFCada adição custa 14x Bênção do Ferreiro.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Armas de Cinzas-AD
-Gálea de Cinzas-LT
+Gáleas de Cinzas
+Gáleas de Cinzas-LT
 --------------------------
 Peso: ^7777771^000000
 #
@@ -119163,7 +119351,9 @@ Peso: ^7777771^000000
 #
 100680#
 Um livro cujas páginas foram escritas por Sábios antigos. Contém um encantamento que amplifica seu aprendizado em batalha.
-^0000ffEXP adquirida +100%.^000000
+--------------------------
+^0000FFEXP adquirida +100%.^000000
+--------------------------
 Duração: ^77777730 minutos^000000
 Peso: ^7777771^000000
 #
@@ -119358,6 +119548,94 @@ Caixa que guarda o poder das Armas Primordiais.
 --------------------------
 Peso: ^777777200^000000
 #
+100744#
+Dispositivo que adiciona 2 bônus aleatórios de poder físico nas Armas Primordiais-LT.
+-------------------------
+[^FF0000Itens Afetados^000000]
+Adaga Primordial-LT
+Arco Primordial-LT
+Báculo Primordial-LT
+Balista Primordial-LT
+Bastão Primordial-LT
+Bastarda Primordial-LT
+Cajado Primordial-LT
+Cauda de Gato Primordial-LT
+Cetro Primordial-LT
+Clava Primordial-LT
+Concertina Primordial-LT
+Cutelo Primordial-LT
+Enciclopédia Primordial-LT
+Escopeta Primordial-LT
+Espada Primordial-LT
+Faca Primordial-LT
+Feitiço Primordial-LT
+Gakkung Primordial-LT
+Garra Primordial-LT
+Gatling Primordial-LT
+Jur Primordial-LT
+Katar Primordial-LT
+Lâmina Primordial-LT
+Lança Primordial-LT
+Lança-Granadas Primordial-LT
+Maça Primordial-LT
+Ocarina Primordial-LT
+Pêndulo Primordial-LT
+Punhal Primordial-LT
+Revólver Primordial-LT
+Rifle Primordial-LT
+Sabre Primordial-LT
+Shuriken Huuma Primordial-LT
+Soqueira Primordial-LT
+Tomo Primordial-LT
+Vingadora Primordial-LT
+Wakizashi Primordial-LT
+-------------------------
+Peso: ^7777771^000000
+#
+100745#
+Dispositivo que adiciona 2 bônus aleatórios de poder mágico nas Armas Primordiais-LT.
+-------------------------
+[^FF0000Itens Afetados^000000]
+Adaga Primordial-LT
+Arco Primordial-LT
+Báculo Primordial-LT
+Balista Primordial-LT
+Bastão Primordial-LT
+Bastarda Primordial-LT
+Cajado Primordial-LT
+Cauda de Gato Primordial-LT
+Cetro Primordial-LT
+Clava Primordial-LT
+Concertina Primordial-LT
+Cutelo Primordial-LT
+Enciclopédia Primordial-LT
+Escopeta Primordial-LT
+Espada Primordial-LT
+Faca Primordial-LT
+Feitiço Primordial-LT
+Gakkung Primordial-LT
+Garra Primordial-LT
+Gatling Primordial-LT
+Jur Primordial-LT
+Katar Primordial-LT
+Lâmina Primordial-LT
+Lança Primordial-LT
+Lança-Granadas Primordial-LT
+Maça Primordial-LT
+Ocarina Primordial-LT
+Pêndulo Primordial-LT
+Punhal Primordial-LT
+Revólver Primordial-LT
+Rifle Primordial-LT
+Sabre Primordial-LT
+Shuriken Huuma Primordial-LT
+Soqueira Primordial-LT
+Tomo Primordial-LT
+Vingadora Primordial-LT
+Wakizashi Primordial-LT
+-------------------------
+Peso: ^7777771^000000
+#
 100750#
 Envelope que guarda o poder de Hugo Hollgrehenn.
 --------------------------
@@ -119388,10 +119666,13 @@ Cubo de Refino de Diademas
 Peso: ^7777771^000000
 #
 100753#
-A versão aprimorada de todos os cubos reforçados em um só lugar!
+A versão reformada de todos os cubos reforçados em um só lugar!
 --------------------------
-^0000FFTransforma qualquer Arma/Bota Ancestral com refino +7 ou superior em uma Arma/Bota Primordial (2 níveis de refino serão perdidos no processo).^000000
-^FF0000Você perderá cartas e bônus aleatórios.^000000
+^0000FFTransforma qualquer Arma ou Bota Ancestral com refino +7 ou mais em uma Arma ou Bota Primordial.^000000
+--------------------------
+[^FF0000Observações^000000]
+1. O item perderá 2 refinos após a troca.
+2. Cartas e Bônus Aleatórios são mantidos.
 --------------------------
 Peso: ^7777771^000000
 #
@@ -120717,7 +120998,7 @@ Uma caixa contendo Equipamentos Sombrios de Classe.
 --------------------------
 [^CD3278Contém^000000]
 Escudo Sombrio de Superaprendiz
-Manopla Sombria de Superaprendiz 
+Manopla Sombria de Superaprendiz
 --------------------------
 Peso: ^7777770^000000
 #
@@ -121103,9 +121384,9 @@ Escudo Sombrio da Recarga
 Peso: ^7777771^000000
 #
 101179#
-Caderno contendo textos mágicos de encantamento.
+Caderno que contém textos mágicos de encantamento.
 --------------------------
-^0000ffAdiciona até 2 bônus aleatórios.^000000
+^0000FFAdiciona até 2 bônus aleatórios.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Malha Sombria dos Feitiços
@@ -121181,12 +121462,25 @@ Martelo criado pela Equipe-LT.
 ^0000FFCada adição custa 14x Bênção do Ferreiro.^000000
 -------------------------
 [^CD3278Itens afetados^000000]
+Shuriken Huuma Primordial-LT
+Wakizashi Primordial-LT
+Revólver Primordial-LT
+Rifle Primordial-LT
+Escopeta Primordial-LT
+Gatling Primordial-LT
+Lança-Granadas Primordial-LT
+Cauda de Gato Primordial-LT
+Enciclopédia Primordial-LT
+Pêndulo Primordial-LT
+Bastão Primordial-LT
+Faca Primordial-LT
+-------------------------
 Peso : ^7777771^000000
 #
 101190#
 Caixa feita pela Equipe-LT.
 --------------------------
-^0000ffPermite reformar Armas Primordiais independente do refino e do material.^000000
+^0000FFPermite reformar Armas Primordiais independentemente do refino e do material.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Shuriken Huuma Primordial
@@ -121197,10 +121491,36 @@ Rifle Primordial
 Escopeta Primordial
 Cauda de Gato Primordial
 Wakizashi Primordial
+Enciclopédia Primordial
 Pêndulo Primordial
 Bastão Primordial
 Faca Primordial
 --------------------------
+Peso: ^7777771^000000
+#
+101194#
+Um pacote que gera um pingente para um cordão aleatório.
+-------------------------
+[^CD3278Aleatório^000000]
+Cordão do Magus
+Cordão do Elementalista
+Cordão do Draconiano
+Cordão do Guardião
+Cordão do Cardeal
+Cordão do Inquisidor
+Cordão do Artista
+Cordão do Falcão do Vento
+Cordão do Executor
+Cordão do Mandraque
+Cordão do Engenheiro
+Cordão do Cientista
+Cordão do Ninja
+Cordão do Rebelde
+Cordão do Imperador
+Cordão do Asceta
+Cordão do Hiperaprendiz
+Cordão do Animista
+-------------------------
 Peso: ^7777771^000000
 #
 101238#
@@ -121272,9 +121592,9 @@ Marionete de Thanatos-LT
 Peso: ^7777771^000000
 #
 101260#
-Caderno contendo textos mágicos de encantamento.
+Caderno que contém textos mágicos de encantamento.
 --------------------------
-^0000ffAdiciona até 2 bônus aleatórios.^000000
+^0000FFAdiciona até 2 bônus aleatórios.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Greva Sombria do Portador
@@ -121367,9 +121687,9 @@ Manopla Sombria de EXP
 Peso: ^7777771^000000
 #
 101310#
-Caderno contendo textos mágicos de encantamento.
+Caderno que contém textos mágicos de encantamento.
 --------------------------
-^0000ffAdiciona até 2 bônus aleatórios.^000000
+^0000FFAdiciona até 2 bônus aleatórios.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Manopla Sombria Pontual
@@ -121423,9 +121743,9 @@ Por 7 dias, permite invocar uma Kafra para abrir seus Armazéns.
 Peso: ^7777771^000000
 #
 101359#
-Caderno contendo textos mágicos de encantamento.
+Caderno que contém textos mágicos de encantamento.
 --------------------------
-^0000ffAdiciona até 2 bônus aleatórios.^000000
+^0000FFAdiciona até 2 bônus aleatórios.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Malha Sombria de Automagia
@@ -121436,9 +121756,9 @@ Colar Sombrio de Automagia
 Peso: ^7777771^000000
 #
 101360#
-Caderno contendo textos mágicos de encantamento.
+Caderno que contém textos mágicos de encantamento.
 --------------------------
-^0000ffAdiciona até 2 bônus aleatórios.^000000
+^0000FFAdiciona até 2 bônus aleatórios.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Manopla Sombria Fugaz
@@ -121447,9 +121767,9 @@ Escudo Sombrio Fugaz
 Peso: ^7777771^000000
 #
 101361#
-Caderno contendo textos mágicos de encantamento.
+Caderno que contém textos mágicos de encantamento.
 --------------------------
-^0000ffAdiciona até 2 bônus aleatórios.^000000
+^0000FFAdiciona até 2 bônus aleatórios.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
 Manopla Sombria Durável
@@ -121640,7 +121960,7 @@ Dispositivo que combina 5 Materiais refinados no +7 para gerar 1 Resultado sem r
 Peso: ^7777771^000000
 #
 101666#
-Caixa contendo 1 Caderno Sombrio.
+Caixa que contém 1 Caderno Sombrio.
 --------------------------
 [^CD3278Aleatório^000000]
 Caderno Tempeste Penetrante
@@ -121734,7 +122054,7 @@ Caixa contendo 10x [Conquista] Gomas de Mascar.
 Peso: ^7777770^000000
 #
 102067#
-Cubo contendo 12 Equipamentos Sombrios de Caça já refinados.
+Cubo que contém 12 Equipamentos Sombrios de Caça já refinados.
 --------------------------
 [^CD3278Contém^000000]
 +7 Manopla Sombria Caça-Humanoide
@@ -121766,7 +122086,7 @@ Colar Sombrio Autoportante
 Peso: ^7777770^000000
 #
 102069#
-Cubo contendo 12 Equipamentos Sombrios de Anti-Raça já refinados.
+Cubo que contém 12 Equipamentos Sombrios de Anti-Raça já refinados.
 --------------------------
 [^CD3278Contém^000000]
 +7 Manopla Sombria Anti-Humanoide
@@ -121783,6 +122103,19 @@ Cubo contendo 12 Equipamentos Sombrios de Anti-Raça já refinados.
 +9 Colar Sombrio Tempeste
 --------------------------
 Peso: ^7777770^000000
+#
+102213#
+Algo aqui dentro parece gerar um Reformador de Arma Primordial.
+-------------------------
+[^CD3278Aleatório^000000]
+Reformador Primordial I
+Reformador Primordial II
+Reformador Primordial III
+Reformador Primordial IV
+Reformador Primordial V
+Reformador Primordial VI
+-------------------------
+Peso: ^7777771^000000
 #
 102214#
 Um martelo maleável, capaz de se transformar em um Martelo de Refino à sua escolha.
@@ -123346,12 +123679,12 @@ Peso: ^7777770^000000
 104518#
 Caixa contendo 1 Asa de Mosca Infinita com duração de 1 dia.
 -------------------------
-^0000ffItem de aluguel^000000
-^ff0000Este item não pode ser trocado com outras contas.^000000
-Asas de aves encantadas com magia. ^0000ffPermite teleporte para local aleatório no mapa.^000000
+[^CD3278Descrição do Item^000000]
+^0000FFItem de aluguel^000000
+Asas de Mosca encantadas com magia.
+^0000FFPermite teleporte para local aleatório no mapa.^000000
 Peso: ^7777770^000000
 -------------------------
-^ff0000Este item não pode ser trocado com outras contas.^000000
 Peso: ^7777771^000000
 #
 104574#
@@ -123817,22 +124150,23 @@ Peso: ^7777770^000000
 Caixa que contém uma lista de Armas Dínamo para escolher.
 Você pode escolher um dos itens abaixo.
 -------------------------
-Espada Dínamo
+Claymore Dínamo
 Lança Dínamo
 Machado Dínamo
-Lâmina Dínamo
+Espada Dínamo
 Katar Dínamo
 Arco Dínamo
 Cajado Dínamo
-Bastão Dínamo
 Cetro Dínamo
-Soqueira Dínamo
-Besta Dínamo
+Báculo Dínamo
+Punho Dínamo
+Balista Dínamo
 Violino Dínamo
 Chicote Dínamo
-Shuriken Dínamo
+Huuma Dínamo
 Metralhadora Dínamo
 Rabo-de-Gato Dínamo
+Varinha Dínamo
 -------------------------
 Peso: ^7777770^000000
 #
@@ -127714,48 +128048,62 @@ Ovo especial para celebrar a Noite.
 Peso: ^7777771^000000
 #
 107913#
-^ff0000Intransferível.^000000
+^FF0000Intransferível.^000000
 Uma sacola que contém 1x Artefato Oval Noturno.
+--------------------------
 Peso: ^7777770^000000
 #
 107914#
-^ff0000Intransferível.^000000
-Aqui dentro tem um Cupom de Transferência para você usar.
+^FF0000Intransferível.^000000
+Aqui dentro tem um Transferidor de Encanto para você usar no <NAVI>[Transferigato]<INFO>mal_in01,60,112,0,100,0,0</INFO></NAVI>
+--------------------------
+[^FF0000Observações^000000]
+1. Transfere Encantos de um Visual para outro Visual de mesma posição.
+Isso significa que um encanto em um Visual 'Topo-Meio' não será transferido para um Visual 'Meio', apenas para outro Visual 'Topo-Meio'.
+2. Transfere todos os encantos, Dual, Gráfico e Pegadas.
+3. O usuário deve estar com o Visual desejado equipado para a transferência.
+4. O usuário pode cancelar a transferência falando com o NPC.
+5. Alguns Visuais podem não estar elegíveis para a transferência.
 --------------------------
 Peso: ^7777771^000000
 #
 107915#
-^ff0000Preso na conta.^000000
+^FF0000Preso na conta.^000000
 Uma caixa com 11x Artefato Oval.
+--------------------------
 Peso: ^7777771^000000
 #
 107916#
-^ff0000Preso na conta.^000000
+^FF0000Preso na conta.^000000
 Experimente essa caixa repleta de Manuais e alguns Artefatos Ovais!
+--------------------------
 Peso: ^7777771^000000
 #
 107926#
-^ff0000Preso na Conta.^000000
+^FF0000Preso na Conta.^000000
 
-Caixa contendo Bênção do Ferreiro e alguns minérios de refino.
+Caixa que contém Bênção do Ferreiro e alguns minérios de refino.
+--------------------------
 Peso: ^7777771^000000
 #
 107927#
-^ff0000Preso na Conta.^000000
+^FF0000Preso na Conta.^000000
 
-Caixa contendo Bênção do Ferreiro e alguns minérios de refino.
+Caixa que contém Bênção do Ferreiro e alguns minérios de refino.
+--------------------------
 Peso: ^7777771^000000
 #
 107928#
-^ff0000Preso na Conta.^000000
+^FF0000Preso na Conta.^000000
 
-Caixa contendo Bênção do Ferreiro e alguns minérios de refino.
+Caixa que contém Bênção do Ferreiro e alguns minérios de refino.
+--------------------------
 Peso: ^7777771^000000
 #
 107929#
-^ff0000Preso na Conta.^000000
+^FF0000Preso na Conta.^000000
 Vamos jogar juntos! Esse pacote contém tudo o que você precisa para se aventurar em Ragnarök Online.
-
+--------------------------
 Peso: ^7777771^000000
 #
 107937#
@@ -127827,6 +128175,95 @@ Peso: ^7777770^000000
 Recompensa número 10 da Roleta de Setembro de 2026.
 
 Peso: ^7777770^000000
+#
+107996#
+Ovo especial para celebrar coisas do passado.
+--------------------------
+<URL>[Concede 1 item aleatório]<INFO>https://ro.gnjoylatam.com/news/probability</INFO></URL>
+--------------------------
+Peso: ^7777771^000000
+#
+107997#
+Ovo especial para celebrar coisas do passado.
+--------------------------
+<URL>[Concede 1 item aleatório]<INFO>https://ro.gnjoylatam.com/news/probability</INFO></URL>
+--------------------------
+Peso: ^7777771^000000
+#
+107998#
+^ff0000Intransferível.^000000
+Uma sacola que contém 1x Artefato Oval da loja atual.
+Peso: ^7777770^000000
+#
+107999#
+Uma caixa desconhecida encontrada na Gruta de Mjolnir.
+--------------------------
+^0000ffConcede aleatoriamente 1 Capa Desconhecida.^000000
+-------------------------
+[^ff0000Itens afetados^000000]
+Capa Desconhecida FOR
+Capa Desconhecida AGI
+Capa Desconhecida VIT
+Capa Desconhecida INT
+Capa Desconhecida DES
+Capa Desconhecida SOR
+--------------------------
+Peso: ^77777710^000000
+#
+108007#
+Agulha e linha usados para costurar efeitos poderosos em um manto.
+-------------------------
+^0000ffAdiciona 1 bônus aleatório nas Capas Desconhecidas.^000000
+-------------------------
+[^ff0000Itens afetados^000000]
+Capa Desconhecida FOR
+Capa Desconhecida AGI
+Capa Desconhecida VIT
+Capa Desconhecida INT
+Capa Desconhecida DES
+Capa Desconhecida SOR
+-------------------------
+Peso: ^7777770^000000
+#
+108021#
+^ff0000Preso na Conta.^000000
+
+Caixa contendo Bênção do Ferreiro e alguns minérios de refino.
+Peso: ^7777771^000000
+#
+108022#
+^ff0000Preso na Conta.^000000
+
+Caixa contendo Bênção do Ferreiro e alguns minérios de refino.
+Peso: ^7777771^000000
+#
+108023#
+^ff0000Preso na Conta.^000000
+
+Caixa contendo Bênção do Ferreiro e alguns minérios de refino.
+Peso: ^7777771^000000
+#
+108024#
+^ff0000Preso na Conta.^000000
+
+Experimente essa caixa cheia de Poções de Vida e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+108040#
+^ff0000Intransferível.^000000
+Um pacote especial para os leitores da nossa Newsletter de Agosto!
+Peso: ^7777771^000000
+#
+108042#
+^ff0000Intransferível.^000000
+Um pacote especial dado especialmente como uma surpresa!
+Peso: ^7777771^000000
+#
+108043#
+^ff0000Intransferível.^000000
+Pacote Especial para o evento Sakura GeekRoad.
+Peso: ^7777771^000000
 #
 200001#
 ^ff0000Intransferível.^000000
@@ -128914,26 +129351,100 @@ Experimente essa caixa cheia de Poções de Vida e alguns Artefatos Ovais!
 Peso: ^7777771^000000
 #
 201051#
-^ff0000Preso na conta.^000000
+^FF0000Preso na conta.^000000
 Uma caixa com 40x Artefato Oval.
+--------------------------
 Peso: ^7777771^000000
 #
 201052#
-^ff0000Preso na conta.^000000
+^FF0000Preso na conta.^000000
 Uma caixa com 85x Artefato Oval.
+--------------------------
 Peso: ^7777771^000000
 #
 201053#
-^ff0000Preso na conta.^000000
+^FF0000Preso na conta.^000000
 
 Que tal experimentar um visual novo? Leve os itens desta caixa para a <NAVI>[Loja Fashion]<INFO>mal_in01,23,113,0,101,0</INFO></NAVI>
+--------------------------
 Peso: ^7777771^000000
 #
 201054#
-^ff0000Preso na conta.^000000
+^FF0000Preso na conta.^000000
 
 Que tal experimentar um visual novo? Leve os itens desta caixa para a <NAVI>[Loja Fashion]<INFO>mal_in01,23,113,0,101,0</INFO></NAVI>
+--------------------------
 Peso: ^7777771^000000
+#
+201063#
+^ff0000Preso na Conta.^000000
+Aproveite esse combo de Sinos da Kafra e do Ambulante! Tem uma Caixa VIP embutida!
+Peso: ^7777771^000000
+#
+201064#
+^ff0000Preso na Conta.^000000
+Experimente essa caixa cheia de consumíveis e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+201065#
+^ff0000Preso na Conta.^000000
+Pacote especial com minérios de refino e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+201066#
+^ff0000Preso na Conta.^000000
+Pacote especial com minérios de refino e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+201067#
+^ff0000Preso na Conta.^000000
+Pacote especial com minérios de refino e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+201068#
+^ff0000Preso na Conta.^000000
+Pacote especial com minérios de refino e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+201069#
+^ff0000Preso na Conta.^000000
+Pacote especial com minérios de refino e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+201070#
+^ff0000Preso na Conta.^000000
+Pacote especial com minérios de refino e alguns Artefatos Ovais!
+
+Peso: ^7777771^000000
+#
+201071#
+^ff0000Preso na Conta.^000000
+Pacote de refinamento especial!
+Peso: ^7777771^000000
+#
+201072#
+^ff0000Preso na Conta.^000000
+Pacote de refinamento especial!
+Peso: ^7777771^000000
+#
+201073#
+^ff0000Preso na Conta.^000000
+Pacote de refinamento especial!
+Peso: ^7777771^000000
+#
+201074#
+Pacote contendo minérios de refino e Artefatos Ovais
+Peso: ^7777770^000000
+#
+201075#
+Pacote contendo minérios de refino e Artefatos Ovais
+Peso: ^7777770^000000
 #
 300001#
 ^0000FFDano físico contra oponentes de propriedade Veneno +25%.^000000
@@ -130044,7 +130555,7 @@ Peso: ^7777771^000000
 300172#
 ^0000FFHP máx.^000000 ^FF0000-15%^000000
 ^0000FFDrena 2 de SP a cada ataque básico.^000000
-^0000FF1% de chance de converter 20% do dano físico causado em SP.^000000
+^0000FF1% de chance de converter 20% do dano físico causado em HP.^000000
 --------------------------
 Tipo: ^777777Carta^000000
 Equipa em: ^777777Arma^000000
@@ -132294,1006 +132805,1006 @@ Exibe corações voadores ao redor do personagem.
 #
 310478#
 ^0000FFFOR +1.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFFOR +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFFOR +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFFOR +1 adicional.^000000
 #
 310479#
 ^0000FFDES +1.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDES +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDES +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDES +1 adicional.^000000
 #
 310480#
 ^0000FFAGI +1.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFAGI +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFAGI +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFAGI +1 adicional.^000000
 #
 310481#
 ^0000FFINT +1.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFINT +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFINT +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFINT +1 adicional.^000000
 #
 310482#
 ^0000FFVIT +1.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFVIT +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFVIT +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFVIT +1 adicional.^000000
 #
 310483#
 ^0000FFSOR +1.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFSOR +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFSOR +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFSOR +1 adicional.^000000
 #
 310484#
 ^0000FFFOR +2.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFFOR +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFFOR +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFFOR +2 adicional.
 Dano físico corpo a corpo +1%.^000000
 #
 310485#
 ^0000FFDES +2.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDES +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDES +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDES +2 adicional.
 Dano físico a distância +1%.^000000
 #
 310486#
 ^0000FFAGI +2.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFAGI +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFAGI +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFAGI +2 adicional.
 Precisão perfeita +1.^000000
 #
 310487#
 ^0000FFINT +2.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFINT +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFINT +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFINT +2 adicional.
 Dano mágico de todas as propriedades +1%.^000000
 #
 310488#
 ^0000FFVIT +2.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFVIT +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFVIT +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFVIT +2 adicional.
 Pós-conjuração -1%.^000000
 #
 310489#
 ^0000FFSOR +2.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFSOR +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFSOR +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFSOR +2 adicional.
 Dano crítico +1%.^000000
 #
 310490#
 ^0000FFFOR +3.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFFOR +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFFOR +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFFOR +2 adicional.
 Dano físico corpo a corpo +3%.^000000
 #
 310491#
 ^0000FFDES +3.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDES +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDES +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDES +2 adicional.
 Dano físico a distância +3%.^000000
 #
 310492#
 ^0000FFAGI +3.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFAGI +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFAGI +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFAGI +2 adicional.
 Precisão perfeita +3.^000000
 #
 310493#
 ^0000FFINT +3.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFINT +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFINT +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFINT +2 adicional.
 Dano mágico de todas as propriedades +3%.^000000
 #
 310494#
 ^0000FFVIT +3.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFVIT +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFVIT +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFVIT +2 adicional.
 Pós-conjuração -3%.^000000
 #
 310495#
 ^0000FFSOR +3.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFSOR +1 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFSOR +1 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFSOR +2 adicional.
 Dano crítico +3%.^000000
 #
 310496#
 ^0000FFDEF +150.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDEF +75 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDEF +75 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDEF +75 adicional.^000000
 #
 310497#
 ^0000FFDEFM +15.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDEFM +7 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDEFM +7 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDEFM +7 adicional.^000000
 #
 310498#
 ^0000FFDEF +200.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDEF +75 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDEF +75 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDEF +100 adicional.^000000
 #
 310499#
 ^0000FFDEFM +20.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDEFM +7 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDEFM +7 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDEFM +10 adicional.^000000
 #
 310500#
 ^0000FFDEF +250.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDEF +75 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDEF +100 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDEF +100 adicional.^000000
 #
 310501#
 ^0000FFDEFM +25.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDEFM +7 adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDEFM +10 adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDEFM +10 adicional.^000000
 #
 310502#
 ^0000FFDano físico a distância +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico a distância +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico a distância +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico a distância +3% adicional.^000000
 #
 310503#
 ^0000FFATQ +25.
 Dano físico contra monstros Normais e Chefes + 2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico corpo a corpo +3%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico corpo a corpo +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico corpo a corpo +3% adicional.^000000
 #
 310504#
 ^0000FFATQM +25.
 Dano mágico +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano mágico de todas as propriedades +3%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano mágico de todas as propriedades +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano mágico de todas as propriedades +3% adicional.^000000
 #
 310505#
 ^0000FFDano físico a distância +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico a distância +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico a distância +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico a distância +5% adicional.^000000
 #
 310506#
 ^0000FFATQ +50.
 Dano físico contra monstros Normais e Chefes + 4%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico corpo a corpo +3%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico corpo a corpo +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico corpo a corpo +5% adicional.^000000
 #
 310507#
 ^0000FFATQM +50.
 Dano mágico +4%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano mágico de todas as propriedades +3%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano mágico de todas as propriedades +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano mágico de todas as propriedades +5% adicional.^000000
 #
 310508#
 ^0000FFDano físico a distância +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico a distância +5% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico a distância +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico a distância +5% adicional.^000000
 #
 310509#
 ^0000FFATQ +100.
 Dano físico contra monstros Normais e Chefes + 6%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico corpo a corpo +5%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico corpo a corpo +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico corpo a corpo +5% adicional.^000000
 #
 310510#
 ^0000FFATQM +100.
 Dano mágico +6%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano mágico de todas as propriedades +5%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano mágico de todas as propriedades +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano mágico de todas as propriedades +5% adicional.^000000
 #
 310511#
 ^0000FFResistência a danos refletidos +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a danos refletidos +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a danos refletidos +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a danos refletidos +2% adicional.^000000
 #
 310512#
 ^0000FFResistência a danos refletidos +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a danos refletidos +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a danos refletidos +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a danos refletidos +3% adicional.^000000
 #
 310513#
 ^0000FFResistência a danos refletidos +4%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a danos refletidos +4% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a danos refletidos +4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a danos refletidos +4% adicional.^000000
 #
 310514#
 ^0000FFDano físico e mágico +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico e mágico +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico e mágico +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico e mágico +4% adicional.^000000
 #
 310515#
 ^0000FFPós-conjuração -4%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFPós-conjuração -4% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFPós-conjuração -4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFPós-conjuração -4% adicional.^000000
 #
 310516#
 ^0000FFDano de [Sopro do Dragão] e [Bafo do Dragão] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Sopro do Dragão] e [Bafo do Dragão] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Sopro do Dragão] e [Bafo do Dragão] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Sopro do Dragão] e [Bafo do Dragão] +15% adicional.^000000
 #
 310517#
 ^0000FFDano de [Vento Cortante] e [Impacto Flamejante] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Vento Cortante] e [Impacto Flamejante] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Vento Cortante] e [Impacto Flamejante] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Vento Cortante] +15% adicional.
 Recarga de Impacto [Flamejante] -0,3 segundos.^000000
 #
 310518#
 ^0000FFDano de [Onda de Choque] e [Lança das Mil Pontas] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Onda de Choque] e [Lança das Mil Pontas] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Onda de Choque] e [Lança das Mil Pontas] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Onda de Choque] +15% adicional.
 Recarga de [Lança das Mil Pontas] -0,5 segundos.^000000
 #
 310519#
 ^0000FFDano de [Lança do Destino] e [Aegis Inferi] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Lança do Destino] e [Aegis Inferi] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Lança do Destino] e [Aegis Inferi] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Lança do Destino] +15% adicional.
 Recarga de [Aegis Inferi] -1 segundo.^000000
 #
 310520#
 ^0000FFDano de [Toque do Oblívio] e [Disparo Perfurante] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Toque do Oblívio] e [Disparo Perfurante] +15%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Toque do Oblívio] e [Disparo Perfurante] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Toque do Oblívio] e [Disparo Perfurante] +15% adicional.^000000
 #
 310521#
 ^0000FFDano de [Gloria Domini] e [Luz da Criação] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Gloria Domini] e [Luz da Criação] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Gloria Domini] e [Luz da Criação] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Gloria Domini] e [Luz da Criação] +15% adicional.^000000
 #
 310522#
 ^0000FFDano de [Punho Foguete] e [Canhão] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Punho Foguete] e [Canhão] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Punho Foguete] e [Canhão] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Punho Foguete] e [Canhão] +15% adicional.^000000
 #
 310523#
 ^0000FFDano de [Metralhadora] e [Arremesso de Machado] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Metralhadora] e [Arremesso de Machado] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Metralhadora] e [Arremesso de Machado] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Metralhadora] +15% adicional.
 Recarga de [Arremesso de Machado] -2 segundos.^000000
 #
 310524#
 ^0000FFDano de [Fúria do Furacão] e [Brandir Machado] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Fúria do Furacão] e [Brandir Machado] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Fúria do Furacão] e [Brandir Machado] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Fúria do Furacão] e [Brandir Machado] +15% adicional.^000000
 #
 310525#
 ^0000FFDano de [Tornado de Carrinho] e [Planta Infernal] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Tornado de Carrinho] e [Planta Infernal] +15%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Tornado de Carrinho] e [Planta Infernal] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Tornado de Carrinho] e [Planta Infernal] +15% adicional.^000000
 #
 310526#
 ^0000FFDano de [Erva Daninha] e [Canhão de Prótons] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Erva Daninha] e [Canhão de Prótons] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Erva Daninha] e [Canhão de Prótons] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Canhão de Prótons] +15% adicional.
 Recarga de [Erva Daninha] -1 segundo.^000000
 #
 310527#
 ^0000FFDano de [Bomba Ácida] e [Esporo Explosivo] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Bomba Ácida] e [Esporo Explosivo] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Bomba Ácida] e [Esporo Explosivo] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Bomba Ácida] e [Esporo Explosivo] +15% adicional.^000000
 #
 310528#
 ^0000FFDano de [Lâminas Destruidoras] e [Lâminas Retalhadoras] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Lâminas Destruidoras] e [Lâminas Retalhadoras] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Lâminas Destruidoras] e [Lâminas Retalhadoras] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Lâminas Destruidoras] e [Lâminas Retalhadoras] +15% adicional.^000000
 #
 310529#
 ^0000FFDano de [Castigo de Loki] e [Lâminas de Loki] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Castigo de Loki] e [Lâminas de Loki] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Castigo de Loki] e [Lâminas de Loki] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Castigo de Loki] e [Lâminas de Loki] +15% adicional.^000000
 #
 310530#
 ^0000FFDano de [Destruidor de Almas] e [Retaliação] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Destruidor de Almas] e [Retaliação] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Destruidor de Almas] e [Retaliação] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Destruidor de Almas] e [Retaliação] +15% adicional.^000000
 #
 310531#
 ^0000FFDano de [Ofensiva Fatal] e [Ataque Surpresa] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Ofensiva Fatal] e [Ataque Surpresa] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Ofensiva Fatal] e [Ataque Surpresa] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Ofensiva Fatal] e [Ataque Surpresa] +15% adicional.^000000
 #
 310532#
 ^0000FFDano mágico de todas as propriedades +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano mágico de todas as propriedades +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano mágico de todas as propriedades +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano mágico de todas as propriedades +15% adicional.^000000
 #
 310533#
 ^0000FFDano de [Disparo Triplo] +15%.
 Dano físico a distância +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Disparo Triplo] +15% adicional.
 Dano físico a distância +10% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Disparo Triplo] +15% adicional.
 Dano físico a distância +10% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de Disparo Triplo +15% adicional.
 Dano físico a distância +15% adicional.^000000
 #
 310534#
 ^0000FFDano de [Meteoro Escarlate] e [Abalo Sísmico] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Meteoro Escarlate] e [Abalo Sísmico] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Meteoro Escarlate] e [Abalo Sísmico] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Meteoro Escarlate] e [Abalo Sísmico] +15% adicional.^000000
 #
 310535#
 ^0000FFDano de [Esquife de Gelo] e [Corrente Elétrica] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Esquife de Gelo] e [Corrente Elétrica] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Esquife de Gelo] e [Corrente Elétrica] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Esquife de Gelo] e [Corrente Elétrica] +15% adicional.^000000
 #
 310536#
 ^0000FFDano de [Cometa] e [Tetra Vortex] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Cometa] e [Tetra Vortex] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Cometa] e [Tetra Vortex] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Cometa] e [Tetra Vortex] +15% adicional.^000000
 #
 310537#
 ^0000FFDano de [Maldição de Jormungand] e [Implosão Tóxica] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Maldição de Jormungand] e [Implosão Tóxica] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Maldição de Jormungand] e [Implosão Tóxica] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Maldição de Jormungand] e [Implosão Tóxica] +15% adicional.^000000
 #
 310538#
 ^0000FFDano de [Onda Psíquica] e [Lanças dos Aesir] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Onda Psíquica] e [Lanças dos Aesir] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Onda Psíquica] e [Lanças dos Aesir] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Onda Psíquica] e [Lanças dos Aesir] +15% adicional.^000000
 #
 310539#
 ^0000FFDano de [Pó de Diamante] e [Castigo de Nerthus] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Pó de Diamante] e [Castigo de Nerthus] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Pó de Diamante] e [Castigo de Nerthus] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Pó de Diamante] e [Castigo de Nerthus] +15% adicional.^000000
 #
 310540#
 ^0000FFDano de [Magnus Exorcismus] e [Adoramus] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Magnus Exorcismus] e [Adoramus] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Magnus Exorcismus] e [Adoramus] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Magnus Exorcismus] e [Adoramus] +15% adicional.^000000
 #
 310541#
 ^0000FFDano de [Judex] +15%.
 Dano mágico de propriedade Sagrado +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Judex] +15% adicional.
 Dano mágico de propriedade Sagrado +10% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Judex] +15% adicional.
 Dano mágico de propriedade Sagrado +10% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Judex] +15% adicional.
 Dano mágico de propriedade Sagrado +15% adicional.^000000
 #
 310542#
 ^0000FFDano de [Gemini Lumen] +15%.
 Dano físico corpo a corpo +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Gemini Lumen] +15% adicional.
 Dano físico corpo a corpo +10% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Gemini Lumen] +15% adicional.
 Dano físico corpo a corpo +10% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Gemini Lumen] +15% adicional.
 Dano físico corpo a corpo +15% adicional.^000000
 #
 310543#
 ^0000FFDano de [Garra de Tigre] e [Ruína] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Garra de Tigre] e [Ruína] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Garra de Tigre] e [Ruína] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Garra de Tigre] e [Ruína] +15% adicional.^000000
 #
 310544#
 ^0000FFDano de [Explosão Espiritual] e [Tempestade Espiritual] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Explosão Espiritual] e [Tempestade Espiritual] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Explosão Espiritual] e [Tempestade Espiritual] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Tempestade Espiritual]] +15% adicional.
 Recarga de [Explosão Espiritual] -0,5 segundos.^000000
 #
 310545#
 ^0000FFDano de [Portões do Inferno] e [Pancada Corporal] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Portões do Inferno] e [Pancada Corporal] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Portões do Inferno] e [Pancada Corporal] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Portões do Inferno] e [Pancada Corporal] +15% adicional.^000000
 #
 310546#
 ^0000FFDano de [Bomba Relógio] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Bomba Relógio] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Bomba Relógio] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Bomba Relógio] +15% adicional.^000000
 #
 310547#
 ^0000FFDano de [Tiro Preciso] +15%.
 Dano crítico +10%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Tiro Preciso] +15% adicional.
 Dano crítico +10% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Tiro Preciso] +15% adicional.
 Dano crítico +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Tiro Preciso] +15% adicional.
 Dano crítico +15% adicional.^000000
 #
 310548#
 ^0000FFDano de [Disparo Certeiro] e [Tempestade de Flechas] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Disparo Certeiro] e [Tempestade de Flechas] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Disparo Certeiro] e [Tempestade de Flechas] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Disparo Certeiro] e [Tempestade de Flechas] +15% adicional.^000000
 #
 310549#
 ^0000FFDano de [Ruído Estridente] +5%.
 Dano mágico de propriedade Neutro +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Ruído Estridente] +10% adicional.
 Dano mágico de propriedade Neutro +10% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Ruído Estridente] +10% adicional.
 Dano mágico de propriedade Neutro +10% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Ruído Estridente] +15% adicional.
 Dano mágico de propriedade Neutro +15% adicional.^000000
 #
 310550#
 ^0000FFDano de [Ressonância] +15%.
 Dano mágico de todas as propriedades +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Ressonância] +15% adicional.
 Dano mágico de todas as propriedades +5% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Ressonância] +15% adicional.
 Dano mágico de todas as propriedades +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Ressonância] +15% adicional.
 Dano mágico de todas as propriedades +10% adicional.^000000
 #
 310551#
 ^0000FFDano de [Vulcão de Flechas] e [Temporal de Flechas] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Vulcão de Flechas] e [Temporal de Flechas] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Vulcão de Flechas] e [Temporal de Flechas] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Vulcão de Flechas] e [Temporal de Flechas] +15% adicional.^000000
 #
 310552#
 ^0000FFDano de [Chute Solar] e [Explosão Solar] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Chute Solar] e [Explosão Solar] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Chute Solar] e [Explosão Solar] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Chute Solar] e [Explosão Solar] +15% adicional.^000000
 #
 310553#
 ^0000FFDano de [Eclipse Lunar] e [Chute Lunar] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Eclipse Lunar] e [Chute Lunar] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Eclipse Lunar] e [Chute Lunar] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Eclipse Lunar] e [Chute Lunar] +15% adicional.^000000
 #
 310554#
 ^0000FFDano de [Chute Estelar] e [Chuva Estelar] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Chute Estelar] e [Chuva Estelar] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Chute Estelar] e [Chuva Estelar] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Chute Estelar] e [Chuva Estelar] +15% adicional.^000000
 #
 310555#
 ^0000FFDano de [Esma] e [Eswhoo] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Esma] e [Eswhoo] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Esma] e [Eswhoo] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Esma] e [Eswhoo] +15% adicional.^000000
 #
 310556#
 ^0000FFDano de [Espa] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Espa] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Espa] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Espa] +15% adicional.^000000
 #
 310557#
 ^0000FFDano de [Necroexplosão] +15%.
 Dano mágico de propriedade Sombrio +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Necroexplosão] +15% adicional.
 Dano mágico de propriedade Sombrio +10% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Necroexplosão] +15% adicional.
 Dano mágico de propriedade Sombrio +10% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Necroexplosão] +15% adicional.
 Dano mágico de propriedade Sombrio +15% adicional.^000000
 #
 310558#
 ^0000FFDano de [Desperado] [Descarregar Tambor] e [Execução] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Desperado] [Descarregar Tambor] e [Execução] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Desperado] [Descarregar Tambor] e [Execução] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Desperado] [Descarregar Tambor] e [Execução] +15% adicional.^000000
 #
 310559#
 ^0000FFDano de [Disparo Labareda] [Arremessar Granada] e [Lançar Míssil] +15%.
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Disparo Labareda] [Arremessar Granada] e [Lançar Míssil]  +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Disparo Labareda] [Arremessar Granada] e [Lançar Míssil]  +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Disparo Labareda] [Arremessar Granada] e [Lançar Míssil]  +15% adicional.^000000
 #
 310560#
 ^0000FFDano de [Rajada Estilhaçante] [Tiro Neutralizante] e [Expurgar] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de Rajada [Rajada Estilhaçante] [Tiro Neutralizante] e [Expurgar] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de Rajada [Rajada Estilhaçante] [Tiro Neutralizante] e [Expurgar] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de Rajada [Rajada Estilhaçante] [Tiro Neutralizante] e [Expurgar] +15% adicional.^000000
 #
 310561#
 ^0000FFDano de [Pétalas Flamejantes] [Lança Congelante] e [Lâmina de Vento] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Pétalas Flamejantes] [Lança Congelante] e [Lâmina de Vento] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Pétalas Flamejantes] [Lança Congelante] e [Lâmina de Vento] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Pétalas Flamejantes] [Lança Congelante] e [Lâmina de Vento] +15% adicional.^000000
 #
 310562#
 ^0000FFDano de [Impacto Cruzado] e [Turbilhão de Pétalas] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Impacto Cruzado] e [Turbilhão de Pétalas] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Impacto Cruzado] e [Turbilhão de Pétalas] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Impacto Cruzado] e [Turbilhão de Pétalas] +15% adicional.^000000
 #
 310563#
 ^0000FFDano de [Dragão Explosivo] [Grande Floco de Neve] e [Brisa Cortante] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Dragão Explosivo] [Grande Floco de Neve] e [Brisa Cortante] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Dragão Explosivo] [Grande Floco de Neve] e [Brisa Cortante] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Dragão Explosivo] [Grande Floco de Neve] e [Brisa Cortante] +15% adicional.^000000
 #
 310564#
 ^0000FFRecarga de [Proteção da Orla] e [Festa do Camarão] -1 segundo.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFRecarga de [Proteção da Orla] e [Festa do Camarão] -1 segundo adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFRecarga de [Proteção da Orla] e [Festa do Camarão] -2 segundos adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFRecarga de [Proteção da Orla] e [Festa do Camarão] -2 segundos adicional.^000000
 #
 310565#
 ^0000FFDano de [Lança Gateira] e [Meteoros de Nepeta] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Lança Gateira] e [Meteoros de Nepeta] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Lança Gateira] e [Meteoros de Nepeta] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Lança Gateira] e [Meteoros de Nepeta] +15% adicional.^000000
 #
 310566#
 ^0000FFDano de [Chilique de Picky] e [Cometas Lunáticos] +15%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano de [Chilique de Picky] e [Cometas Lunáticos] +15% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano de [Chilique de Picky] e [Cometas Lunáticos] +15% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano de [Chilique de Picky] e [Cometas Lunáticos] +15% adicional.^000000
 #
 310567#
 ^0000FFEsquiva +10.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFVelocidade de ataque +6%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFVelocidade de ataque +6% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFVelocidade de ataque +8% adicional.^000000
 #
 310568#
 ^0000FFConjuração variável -6%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
 #
 310569#
 ^0000FFCRIT +10.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano crítico +6%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano crítico +6% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano crítico +8% adicional.^000000
 #
 310570#
 ^0000FFPrecisão +20.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFPrecisão perfeita +6.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFPrecisão perfeita +6.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFPrecisão perfeita +8.^000000
 #
 310571#
 ^0000FFEsquiva +20.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFVelocidade de ataque +6%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFVelocidade de ataque +8% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFVelocidade de ataque +8% adicional.^000000
 #
 310572#
 ^0000FFConjuração variável -8%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
 #
 310573#
 ^0000FFCRIT +10.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano crítico +6%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano crítico +8% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano crítico +8% adicional.^000000
 #
 310574#
 ^0000FFPrecisão +20.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFPrecisão perfeita +6.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFPrecisão perfeita +8.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFPrecisão perfeita +8.^000000
 #
 310575#
 ^0000FFEsquiva +30.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFVelocidade de ataque +8%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFVelocidade de ataque +8% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFVelocidade de ataque +8% adicional.^000000
 #
 310576#
 ^0000FFATQM +30.
 Conjuração variável -8%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFConjuração variável -8% adicional.^000000
 #
 310577#
 ^0000FFCRIT +15.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano crítico +8%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano crítico +8% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano crítico +8% adicional.^000000
 #
 310578#
 ^0000FFPrecisão +30.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFPrecisão perfeita +8.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFPrecisão perfeita +8.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFPrecisão perfeita +8.^000000
 #
 310579#
 ^0000FFResistência a monstros Normais e Chefes +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a oponentes de todas as propriedades +3%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a oponentes de todos os tamanhos +3%.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a monstros de todas as raças +3%.^000000
 #
 310580#
 ^0000FFResistência a monstros Normais e Chefes +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a oponentes de todas as propriedades +5%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a oponentes de todos os tamanhos +5%.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a monstros de todas as raças +5%.^000000
 #
 310581#
 ^0000FFResistência a monstros Normais e Chefes +7%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a oponentes de todas as propriedades +7%.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a oponentes de todos os tamanhos +7%.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a monstros de todas as raças +7%.^000000
 #
 310582#
 ^0000FFDano físico a distância +2%.
 Dano físico corpo a corpo +2%.
 Dano mágico de todas as propriedades +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico a distância +2% adicional.
 Dano físico corpo a corpo +2% adicional.
 Dano mágico de todas as propriedades +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico a distância +2% adicional.
 Dano físico corpo a corpo +2% adicional.
 Dano mágico de todas as propriedades +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico a distância +2% adicional.
 Dano físico corpo a corpo +2% adicional.
 Dano mágico de todas as propriedades +2% adicional.^000000
@@ -133302,15 +133813,15 @@ Dano mágico de todas as propriedades +2% adicional.^000000
 ^0000FFDano físico a distância +2%.
 Dano físico corpo a corpo +2%.
 Dano mágico de todas as propriedades +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico a distância +2% adicional.
 Dano físico corpo a corpo +2% adicional.
 Dano mágico de todas as propriedades +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico a distância +3% adicional.
 Dano físico corpo a corpo +3% adicional.
 Dano mágico de todas as propriedades +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico a distância +3% adicional.
 Dano físico corpo a corpo +3% adicional.
 Dano mágico de todas as propriedades +3% adicional.^000000
@@ -133319,164 +133830,164 @@ Dano mágico de todas as propriedades +3% adicional.^000000
 ^0000FFDano físico a distância +3%.
 Dano físico corpo a corpo +3%.
 Dano mágico de todas as propriedades +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico a distância +3% adicional.
 Dano físico corpo a corpo +3% adicional.
 Dano mágico de todas as propriedades +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico a distância +3% adicional.
 Dano físico corpo a corpo +3% adicional.
 Dano mágico de todas as propriedades +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico a distância +3% adicional.
 Dano físico corpo a corpo +3% adicional.
 Dano mágico de todas as propriedades +3% adicional.^000000
 #
 310585#
 ^0000FFResistência a danos refletidos +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a danos refletidos +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a danos refletidos +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a danos refletidos +3% adicional.^000000
 #
 310586#
 ^0000FFResistência a danos refletidos +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a danos refletidos +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a danos refletidos +4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a danos refletidos +4% adicional.^000000
 #
 310587#
 ^0000FFResistência a danos refletidos +4%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFResistência a danos refletidos +4% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFResistência a danos refletidos +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFResistência a danos refletidos +5% adicional.^000000
 #
 310588#
 ^0000FFHP máx. +5%.
 HP máx. +1.500.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFHP máx. +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFHP máx. +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFHP máx. +3% adicional.^000000
 #
 310589#
 ^0000FFSP máx. +5%.
 SP máx. +300.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFSP máx. +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFSP máx. +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFSP máx. +3% adicional.^000000
 #
 310590#
 ^0000FFEfetividade de cura +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFEficiência de cura +4% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFEficiência de cura +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFEficiência de cura +5% adicional.^000000
 #
 310591#
 ^0000FFHP máx. +5%.
 HP máx. +2.000.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFHP máx. +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFHP máx. +4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFHP máx. +5% adicional.^000000
 #
 310592#
 ^0000FFSP máx. +5%.
 SP máx. +400.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFSP máx. +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFSP máx. +4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFSP máx. +5% adicional.^000000
 #
 310593#
 ^0000FFEfetividade de cura +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFEfetividade de cura +5% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFEfetividade de cura +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFEfetividade de cura +5% adicional.^000000
 #
 310594#
 ^0000FFHP máx. +5%.
 HP máx. +2.500.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFHP máx. +5% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFHP máx. +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFHP máx. +5% adicional.^000000
 #
 310595#
 ^0000FFSP máx. +5%.
 SP máx. +450.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFSP máx. +5% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFSP máx. +5% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFSP máx. +5% adicional.^000000
 #
 310596#
 ^0000FFEfetividade de cura +5%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFEfetividade de cura +5% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFEfetividade de cura +7% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFEfetividade de cura +7% adicional.^000000
 #
 310597#
 ^0000FFHP e SP máx. +5%.
 HP máx. +1.200.
 SP máx. +250.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFHP e SP máx. +1% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFHP e SP máx. +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFHP e SP máx. +2% adicional.^000000
 #
 310598#
 ^0000FFHP e SP máx. +5%.
 HP máx. +1.500.
 SP máx. +300.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFHP e SP máx. +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFHP e SP máx. +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFHP e SP máx. +4% adicional.^000000
 #
 310599#
 ^0000FFHP e SP máx. +5%.
 HP máx. +2.000.
 SP máx. +350.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFHP e SP máx. +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFHP e SP máx. +4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFHP e SP máx. +5% adicional.^000000
 #
 310600#
@@ -133490,56 +134001,56 @@ No refino +11:
 #
 310603#
 ^0000FFDano mágico contra todos os tamanhos +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +2% adicional.^000000
 #
 310604#
 ^0000FFDano físico contra todos os tamanhos +2%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico contra todos os tamanhos +2% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico contra todos os tamanhos +2% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico contra todos os tamanhos +2% adicional.^000000
 #
 310605#
 ^0000FFDano mágico contra todos os tamanhos +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +3% adicional.^000000
 #
 310606#
 ^0000FFDano físico contra todos os tamanhos +3%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico contra todos os tamanhos +3% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico contra todos os tamanhos +3% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico contra todos os tamanhos +3% adicional.^000000
 #
 310607#
 ^0000FFDano mágico contra todos os tamanhos +4%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +4% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano mágico contra todos os tamanhos +4% adicional.^000000
 #
 310608#
 ^0000FFDano físico contra todos os tamanhos +4%.^000000
-No refino +7:
+Refino +7 ou mais:
 ^0000FFDano físico contra todos os tamanhos +4% adicional.^000000
-No refino +9:
+Refino +9 ou mais:
 ^0000FFDano físico contra todos os tamanhos +4% adicional.^000000
-No refino +11:
+Refino +11 ou mais:
 ^0000FFDano físico contra todos os tamanhos +4% adicional.^000000
 #
 310609#
@@ -133725,24 +134236,24 @@ Dano mágico de todas as propriedades +7%.^000000
 310658#
 ^000000Conjuração fixa -0,1 segundo.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09Fixa -0,3^000000
-^000000Conjuração fixa -0,3 segundos adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Fixa -0,3]^000000
+^0000FFConjuração fixa -0,3 segundos adicional.^000000
 #
 310660#
-^000000Dano físico a distância +4%.^000000
+^0000FFDano físico a distância +4%.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09Alcance (Topo)^000000
-^000000Dano físico a distância +2% adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Alcance (Topo)]^000000
+^0000FFDano físico a distância +2% adicional.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09Alcance (Meio)^000000
-^000000Dano físico a distância +2% adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Alcance (Meio)]^000000
+^0000FFDano físico a distância +2% adicional.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09Alcance (Baixo)^000000
-^000000Dano físico a distância +2% adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Alcance (Baixo)]^000000
+^0000FFDano físico a distância +2% adicional.^000000
 #
 310662#
 ^0000ff1% de chance de converter 1% do dano físico causado em HP.^000000
@@ -134642,7 +135153,7 @@ A cada nível de [Encantar Lâmina]:
 --------------------------
 ^FA4E09Conjunto^000000
 ^FA4E09Cavaleiro Rúnico (Capa)^000000
-^000000HP e SP máx. +10%.^000000
+^0000FFHP e SP máx. +10%.^000000
 --------------------------
 ^FA4E09Conjunto^000000
 ^FA4E09Cavaleiro Rúnico II (Capa)^000000
@@ -135484,6 +135995,70 @@ Grau B ou mais:
 Grau A ou mais:
 ^0000FFDano de [Huuma Aderente] +6%.^000000
 #
+311384#
+Dano físico corpo a corpo +2%.
+#
+311385#
+Dano físico corpo a corpo +4%.
+#
+311386#
+Dano físico corpo a corpo +6%.
+#
+311387#
+Dano físico corpo a corpo +8%.
+#
+311388#
+Dano físico corpo a corpo +10%.
+#
+311389#
+Dano mágico de todas as propriedades +2%.
+#
+311390#
+Dano mágico de todas as propriedades +4%.
+#
+311391#
+Dano mágico de todas as propriedades +6%.
+#
+311392#
+Dano mágico de todas as propriedades +8%.
+#
+311393#
+Dano mágico de todas as propriedades +10%.
+#
+311395#
+Precisão +5.
+Precisão perfeita +3.
+#
+311396#
+Precisão +10.
+Precisão perfeita +6.
+#
+311397#
+Precisão +15.
+Precisão perfeita +9.
+#
+311398#
+Precisão +20.
+Precisão perfeita +12.
+#
+311399#
+Precisão +25. Precisão perfeita +15.
+#
+311400#
+Conjuração variável -2%.
+#
+311401#
+Conjuração variável -4%.
+#
+311402#
+Conjuração variável -6%.
+#
+311403#
+Conjuração variável -8%.
+#
+311404#
+Conjuração variável -10%.
+#
 311926#
 Exibe flores de rosa ao redor do personagem.
 --------------------------
@@ -136060,7 +136635,7 @@ A cada 2 refinos da arma:
 ^FA4E09[Virtual-OS]^000000
 ^0000FFRecarga de [Tempestade de Flechas] -2,5 segundos.^000000
 A cada 2 refinos da arma:
-^0000FFEm armas do tipo Arco, dano físico a distância +7%.^000000
+^0000FFDano físico a distância +7%.^000000
 --------------------------
 Tipo: ^777777Equip. para Cabeça^000000
 Equipa em: ^777777Topo^000000
@@ -137184,6 +137759,51 @@ Peso: ^77777710^000000
 Nível necessário: ^777777190^000000
 Classes: ^777777Todas^000000
 #
+400135#
+Um elmo reformado a partir de fragmentos de cinzas.
+--------------------------
+A cada 3 refinos:
+^0000ffDano físico +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000ffVelocidade de ataque +15%.^000000
+Refino +9 ou mais:
+^0000ffDano físico corpo a corpo +15%.^000000
+Refino +11 ou mais:
+^0000ffConjuração fixa -0,2 segundos.^000000
+^0000ffDano físico contra oponentes de todas as propriedades +15%.^000000
+--------------------------
+Grau D ou mais:
+^0000ffDano físico corpo a corpo +5% adicional.^000000
+Grau C ou mais:
+^0000ffPOD e P.ATQ +2.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Machado de Cinzas-AD]^000000
+^0000ffDano físico contra todas as raças +15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Fúria do Furacão] +12%.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Lança de Cinzas-AD]^000000
+^0000ffPós-conjuração -15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Trindade] +12%.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Grande Espada de Cinzas-AD]^000000
+^0000ffDano físico contra todos os tamanhos +15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Vento Cortante] +12%.^000000
+--------------------------
+Tipo: ^777777Equip. para Cabeça^000000
+Equipa em: ^777777Topo^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777710^000000
+Nível do Equip.: ^7777772^000000
+Nível necessário: ^777777190^000000
+Classes: ^777777Todas^000000
+#
 400141#
 Um elmo forjado a partir de fragmentos de cinzas.
 --------------------------
@@ -137223,12 +137843,103 @@ Peso: ^77777710^000000
 Nível necessário: ^777777190^000000
 Classes: ^777777Todas^000000
 #
+400142#
+Um elmo reformado a partir de fragmentos de cinzas.
+--------------------------
+A cada 3 refinos:
+^0000ffDano físico +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000ffVelocidade de ataque +15%.^000000
+Refino +9 ou mais:
+^0000ffDano físico a distância +15%.^000000
+Refino +11 ou mais:
+^0000ffConjuração fixa -0,2 segundos.^000000
+^0000ffDano físico contra oponentes de todas as propriedades +15%.^000000
+--------------------------
+Grau D ou mais:
+^0000ffDano físico a distância +5% adicional.^000000
+Grau C ou mais:
+^0000ffPOD e P.ATQ +2.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Arco de Cinzas-AD]^000000
+^0000ffDano físico contra todas as raças +15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Tiro Preciso] +12%.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Espada de Cinzas-AD]^000000
+^0000ffDano físico contra todos os tamanhos +15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Canhão de Prótons] +12%.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Violino de Cinzas-AD]^000000 ou
+^fa4e09[Chicote de Cinzas-AD]^000000
+^0000ffDano físico a distância +15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Temporal de Flechas] +12%.^000000
+--------------------------
+Tipo: ^777777Equip. para Cabeça^000000
+Equipa em: ^777777Topo^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777710^000000
+Nível do Equip.: ^7777772^000000
+Nível necessário: ^777777190^000000
+Classes: ^777777Todas^000000
+#
 400143#
 Uma tiara alada que pode ser usada para voar para o distante reino de Asgard. Ou para voar por ai e economizar no aeroplano.
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Topo^000000
 Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+400145#
+Um elmo reformado a partir de fragmentos de cinzas.
+--------------------------
+A cada 3 refinos:
+^0000FFDano mágico +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000FFConjuração variável -15%.^000000
+Refino +9 ou mais:
+^0000FFDano mágico de todas as propriedades +15%.^000000
+Refino +11 ou mais:
+^0000ffConjuração fixa -0,2 segundos.^000000
+^0000FFDano mágico contra oponentes de todas as propriedades +15%.^000000
+--------------------------
+Grau D ou mais:
+^0000ffDano mágico de todas as propriedades +5% adicional.^000000
+Grau C ou mais:
+^0000ffFEI e S.ATQM +2.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Cajado Duplo Cinzas-AD]^000000
+^0000FFDano mágico contra todos os tamanhos +15%.^000000
+A cada 2 refinos da arma:
+^0000FFDano de [Meteoro Escarlate] +12%.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Cajado de Cinzas-AD]^000000
+^0000FFDano mágico contra todas as raças +15%.^000000
+A cada 2 refinos da arma:
+^0000FFDano de [Lanças dos Aesir] +12%.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Adaga de Cinzas-AD]^000000
+^0000FFDano mágico de todas as propriedades +15%.^000000
+A cada 2 refinos da arma:
+^0000FFDano de [Onda Psíquica] +12%.^000000
+--------------------------
+Tipo: ^777777Equip. para Cabeça^000000
+Equipa em: ^777777Topo^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777710^000000
+Nível do Equip.: ^7777772^000000
+Nível necessário: ^777777190^000000
 Classes: ^777777Todas^000000
 #
 400146#
@@ -137336,6 +138047,72 @@ DEF: ^77777710^000000 DEFM: ^7777770^000000
 Peso: ^77777710^000000
 Nível necessário: ^777777190^000000
 Classes: ^777777Todas^000000
+#
+400151#
+Um elmo reformado a partir de fragmentos de cinzas.
+--------------------------
+A cada 3 refinos:
+^0000ffDano físico +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000ffVelocidade de ataque +15%.^000000
+Refino +9 ou mais:
+^0000ffDano físico corpo a corpo +15%.^000000
+Refino +11 ou mais:
+^0000ffConjuração fixa -0,2 segundos.^000000
+^0000ffDano físico contra oponentes de todas as propriedades +15%.^000000
+--------------------------
+Grau D ou mais:
+^0000ffDano físico corpo a corpo +5% adicional.^000000
+Grau C ou mais:
+^0000ffPOD e P.ATQ +2.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Maça de Cinzas-AD]^000000
+^0000ffDano físico e mágico contra todos os tamanhos +15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Gemini Lumen] +12%.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Punho de Cinzas-AD]^000000
+^0000ffHP máx. +15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Garra de Tigre] +12%.^000000
+--------------------------
+^fa4e09Conjunto^000000
+^fa4e09[Katar de Cinzas-AD]^000000
+^0000ffPós-conjuração -15%.^000000
+A cada 2 refinos da arma:
+^0000ffDano de [Lâminas de Loki] +12%.^000000
+--------------------------
+Tipo: ^777777Equip. para Cabeça^000000
+Equipa em: ^777777Topo^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777710^000000
+Nível do Equip.: ^7777772^000000
+Nível necessário: ^777777190^000000
+Classes: ^777777Todas^000000
+#
+400152#
+Antigas lendas relatam que os Fumacentos usam folhas mágicas na cabeça para ficarem invisíveis ou mesmo se disfarçarem, assumindo até mesmo formas humanas.
+#
+400153#
+Orelhinhas de coelho usada por uma mercenária muito famosa da Guilda dos Mercenários. Hoje em dia ela já deve ter se tornado uma Algoz ou uma Sicária... Ou quem sabe... uma Executora.
+Refino +7 ou mais:
+^0000ffDano crítico +10%.^000000
+Refino +9 ou mais:
+^0000ffDano físico e mágico +5%.^000000
+Refino +11 ou mais:
+^0000ffPós-conjuração -5%.^000000
+#
+400154#
+Um diadema desenvolvido pelo esforço conjunto da Guilda dos Magos e da Catedral de Prontera. Foi feito para ajudar no treinamento.
+#
+400155#
+Um peixe dourado que foi capturado e virou um chapéu de cor... dourada.
+#
+400156#
+Um boneco de Imp que produz chamas genuínas. Só não se espante se começar a sentir cheiro de cabelo queimado.
 #
 400157#
 Asa de morcego, pelo de gato, com o meu chapéu mágico eu te transformo em um sapo.
@@ -139235,6 +140012,12 @@ Nível do Equip.: ^7777772^000000
 Nível necessário: ^777777180^000000
 Classes: ^777777Invocadores e evoluções^000000
 #
+400245#
+Um boneco feito à imagem do famoso Eddga, o tigre MVP cabeça quente das florestas de Payon. Conhecido por seu temperamento irritadiço e grande vigor, o chapéu é capaz de fazer você liberar o tigre que há em você (especialmente após comer cereais), aumentando também sua força.
+#
+400246#
+Uma boneca feita à imagem da poderosa Lady Branca, a Fada-Serpente que ousou contrariar as regras celestiais em nome do amor. Usá-la deixará você magnífico e com uma aura de serena sabedoria.
+#
 400253#
 Um chapéu fofo com orelhas de coelho e cheio de docinhos para enfeitar, só cuidado para não grudar no cabelo, hein.
 Tipo: ^777777Visual^000000
@@ -139262,6 +140045,27 @@ Equipa em: ^777777Baixo^000000
 Peso: ^7777770^000000
 Nível Necessário: ^7777771 ^000000
 Classes: ^777777Todas ^000000
+#
+400261#
+Tiara que percencia ao maior Oráculo de todos os tempos. Ele conseguia ver o futuro graças à joia no centro desta tiara.
+#
+400262#
+Tiara que simboliza o Escorpião, um animal invertebrado de 8 pernas.
+#
+400263#
+Uma coroa mágica que pertencia à uma Feiticeira do oriente.
+#
+400264#
+Uma boina com tons diferentes, complementando o estilo simples e irreverente do chapéu.
+#
+400265#
+Misteriosa cartola que pertenceu à um fantasma mascarado.
+#
+400266#
+Chapéu moldado em uma forja quente. Possui a inscrição 'IGNIS', mas ninguém sabe quem é essa pessoa.
+#
+400267#
+Chapéu usado por um dos fundadores da Torre do Relógio. Ainda há uma chave pendurada nele.
 #
 400271#
 Ferramentas perfeitas para você começar sua vida na jardinagem! Despete o espírito do pequeno agricultor em você!
@@ -139345,7 +140149,7 @@ Classes: ^777777Todas^000000
 400347#
 Esse Capuz é usado pelos maiores mestres das artes das trevas. Algumas pessoas podem te achar um pouco estranho com ele, mas não se sinta incomodado, humanos “normais” nunca entendem seu estilo sombrio.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Topo^000000
@@ -139426,6 +140230,9 @@ Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
 Classes: ^777777Todas^000000
 #
+400445#
+Mostre que você está prezando pela segurança de todos e botando ordem em Rune-Midgard. Com você por perto, nunca ninguém vai ser assaltado por dois caras montados num Peco Peco!
+#
 400450#
 Coroa adornada com pequenas orelhas de um Leão, o rei da selva. O conceito desse visual é fazer você se sentir parte da realeza animalesca, podendo participar de cerimônias com outros nobres, como o Leão de Vinhas.
 -------------------------
@@ -139465,6 +140272,9 @@ Equipa em: ^777777Topo^000000
 Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
 Classes: ^777777Todas^000000
+#
+400465#
+É só pedir um aumento de danos que essa marionete concede. Assustadoramente eficaz contra os inimigos.
 #
 400480#
 Forte aliado para proteção dos raios ultra-violenta, esse chapéu será seu companheiro igual aos 15 gatos que você tem em casa.
@@ -140639,7 +141449,7 @@ Classes: ^777777Todas^000000
 410029#
 A melhor coisa dessa cesta é que você não tem que especificar o que vem dentro. Ela transborda felicidade, união e tudo que há de bom no mundo em que vivemos. Você encontra, literalmente, todas as mil maravilhas!
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Meio^000000
@@ -140855,7 +141665,7 @@ Classes: ^777777Todas^000000
 410061#
 Imagina ter um avental que come instantaneamente qualquer migalha que você derruba? Com o Avental de Deviruchi, não há sujeira que sobreviva! Fofinho, meio sombrio e amigo da limpeza!
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Meio^000000
@@ -141583,7 +142393,7 @@ Classes: ^777777Todas^000000
 410318#
 Um elmo feito com a semelhança do utilizado pelo Senhor dos Mortos.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Meio^000000
@@ -141594,7 +142404,7 @@ Classes: ^777777Todas ^000000
 410319#
 Máscara que representa a desgraça da Torre de Thanatos.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Meio^000000
@@ -141982,7 +142792,7 @@ Classes: ^777777Todas^000000
 420010#
 Seja o maior trevoso de Rune-Midgard ao ficar envolto em uma escuridão constante. Separe suas roupas pretas, calce suas botas e mostre que isso não é moda, é um estilo de vida.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Baixo^000000
@@ -142314,6 +143124,9 @@ Equipa em: ^777777Baixo^000000
 Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
 Classes: ^777777Todas^000000
+#
+420066#
+Orbes desenvolvidas pelo esforço conjunto da Guilda dos Magos e da Catedral de Prontera. Foram feitas para ajudar no treinamento.
 #
 420067#
 Penteado estiloso feito com tranças de cabelo humano e pelo de coelho falso!
@@ -142784,7 +143597,7 @@ Classes: ^777777Todas^000000
 420333#
 Peruca que imita o esvoaçante cabelo da Valquíria Randgris.
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Baixo^000000
@@ -143469,8 +144282,9 @@ Nível necessário: ^777777100^000000
 Classes: ^777777Todas^000000
 #
 420842#
-Essa divindade, cultuada em várias regiões, é protetora das águas e daqueles que a preservam.]
+Essa divindade, cultuada em várias regiões, é protetora das águas e daqueles que a preservam.
 --------------------------
+Feito por: ^A400CDShinji^000000
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Baixo^000000
 Peso: ^7777770^000000
@@ -143720,6 +144534,7 @@ Imitação do rosto de um Espírito que habita em Amatsu. Dizem que usá-la por 
 --------------------------
 ^008080Exibe o visual nas costas do personagem.^000000
 --------------------------
+Criado por: ^A400CDGoblin Tengu^000000
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Topo, Meio e Baixo^000000
 Peso: ^7777770^000000
@@ -148250,6 +149065,9 @@ Peso: ^77777730^000000
 Nível necessário: ^777777120^000000
 Classes: ^777777Todas^000000
 #
+460020#
+A aparência meio esquisita e remendada desse coelho mostra que a própria Piamette o confeccionou.
+#
 460023#
 
 #
@@ -149182,7 +150000,7 @@ Grau A ou mais:
 ^0000FFP.ATQ e S.ATQM +5.^000000
 -------------------------
 Grau A e refino +13 ou mais:
-^0000FFConjuração fixa -0,1 segundo adicional.^000000
+^0000FFConjuração fixa -0,2 segundo adicional.^000000
 -------------------------
 Tipo: ^777777Calçado^000000
 DEF: ^77777715^000000 DEFM: ^7777770^000000
@@ -150959,14 +151777,22 @@ Além de ser extremamente fofa, essa mochila pode ser usada como travesseiro dur
 -------------------------
 ^008080Exibe o visual nas costas do personagem.^000000
 -------------------------
-Tipo: ^7777777Visual^000000
-Equipa em: ^7777777Capa^000000
-Peso: ^77777770^000000
-Nível necessário: ^77777771^000000
-Classes: ^7777777Todas^000000
+Tipo: ^777777Visual^000000
+Equipa em: ^777777Capa^000000
+Peso: ^7777770^000000
+Nível necessário: ^7777771^000000
+Classes: ^777777Todas^000000
 #
 480252#
-
+Grandiosas asas de arcanjo que irradiam as cores do arco-íris quando expostas ao sol. O tom místico que esse par de asas emana é curiosamente assustador.
+--------------------------
+^008080Exibe o visual nas costas do personagem.^000000
+--------------------------
+Tipo: ^777777Visual^000000
+Equipa em: ^777777Capa^000000
+Peso: ^7777770^000000
+Nível necessário: ^7777771^000000
+Classes: ^777777Todas^000000
 #
 480272#
 
@@ -150982,7 +151808,7 @@ A cada 4 refinos:
 Refino +7 ou mais:
 ^0000FFDano físico e mágico +4%.^000000
 Refino +9 ou mais:
-^0000FFDano físico a distância +7%.^000000
+^0000FFDano físico à distância +7%.^000000
 ^0000FFDano físico corpo a corpo +7%.^000000
 ^0000FFDano mágico de todas as propriedades +7%.^000000
 Refino +13 ou mais:
@@ -151097,7 +151923,7 @@ Refino +11 ou mais:
 ^0000FFVelocidade de ataque +15%.^000000
 --------------------------
 ^FA4E09Conjunto^000000
-^FA4E09[Carta Livro Antiquado]^000000
+^FA4E09[Carta Antigo Livro Danificado]^000000
 ^0000FFFEI +4.^000000
 ^0000FFDano mágico contra oponentes de todas as propriedades +15%.^000000
 --------------------------
@@ -151188,6 +152014,9 @@ Equipa em: ^777777Capa^000000
 Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
 Classes: ^777777Todas^000000
+#
+480324#
+Uma espada que dizem ter sido usada por um poderoso espadachim mágico no passado. Parte desse poder ainda está dentro dela.
 #
 480335#
 Prancha de Surf encontrada na ilha do coração em Jawaii. Parece ser de um casal de Porings, pois há um desenho de Poring nela.
@@ -151435,7 +152264,7 @@ Quando usar essa famosa foice, você será seguido por vários capetinhas jr! En
 --------------------------
 ^008080Exibe o visual nas costas do personagem.^000000
 -------------------------
-^0000FFTrocável pelo Baú de Pedras Visuais 18 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
+^0000FFTrocável pelo Baú de Pedras Visuais 19 na^000000 <NAVI>[Loja Fashion]<INFO>mal_in01,20,124,0,100,0,0</INFO></NAVI>
 -------------------------
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Capa^000000
@@ -152024,6 +152853,7 @@ Criada por Arqueiros experientes de Payon, essa aljava é útil para armazenar f
 --------------------------
 ^008080Exibe o visual nas costas do personagem.^000000
 --------------------------
+Criado por: ^A400CDMariana Amery^000000
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Capa^000000
 Peso: ^7777770^000000
@@ -152035,10 +152865,181 @@ Seja para uma aventura na floresta de Luluka, um acampamento no vulcão de Thor 
 --------------------------
 ^008080Exibe o visual nas costas do personagem.^000000
 --------------------------
+Criado por: ^A400CDBrenno^000000
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Capa^000000
 Peso: ^7777770^000000
 Nível necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+480926#
+Capa feita de couro e plantas encontradas em uma Gruta desconhecida de Mjolnir.
+--------------------------
+A cada 2 refinos:
+^0000FFATQ +10.^000000
+^0000FFDano físico +2%.^000000
+A cada 4 refinos:
+^0000FFDano físico contra todos os tamanhos +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000FFPrecisão perfeita +30.^000000
+Refino +9 ou mais:
+^0000FFIgnora 20% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+Refino +11 ou mais:
+^0000FFIgnora 10% da DEF e DEFM das raças Amorfo e Humanoide adicional.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Bota Desconhecida FOR]^000000
+^0000FFATQ +50. POD +7.^000000
+Bota com refino +10 ou mais:
+^0000FFConjuração fixa -0,5 segundos.^000000
+--------------------------
+Tipo: ^777777Capa^000000
+DEF: ^77777740^000000 DEFM: ^7777770^000000
+Peso: ^77777750^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Todas^000000
+#
+480927#
+Capa feita de couro e plantas encontradas em uma Gruta desconhecida de Mjolnir.
+--------------------------
+A cada 2 refinos:
+^0000FFATQ +10.^000000
+^0000FFDano físico corpo a corpo +1%.^000000
+A cada 4 refinos:
+^0000FFDano físico contra todos os tamanhos +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000FFDano físico +7%.^000000
+Refino +9 ou mais:
+^0000FFIgnora 20% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+Refino +11 ou mais:
+^0000FFIgnora 10% da DEF e DEFM das raças Amorfo e Humanoide adicional.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Bota Desconhecida AGI]^000000
+^0000FFSTA +7.^000000
+^0000FFVelocidade de ataque +1.^000000
+Bota com refino +10 ou mais:
+^0000FFConjuração fixa -0,5 segundos.^000000
+--------------------------
+Tipo: ^777777Capa^000000
+DEF: ^77777740^000000 DEFM: ^7777770^000000
+Peso: ^77777750^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Todas^000000
+#
+480928#
+Capa feita de couro e plantas encontradas em uma Gruta desconhecida de Mjolnir.
+--------------------------
+A cada 2 refinos:
+^0000FFATQ e ATQM +10.^000000
+A cada 4 refinos:
+^0000FFDano físico e mágico contra todos os tamanhos +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000FFAo receber danos físicos ou mágicos, 5% de chance de autoconjurar [Curar] nv.5.^000000
+Refino +9 ou mais:
+^0000FFIgnora 20% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+Refino +11 ou mais:
+^0000FFIgnora 10% da DEF e DEFM das raças Amorfo e Humanoide adicional.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Bota Desconhecida VIT]^000000
+^0000FFSAB +7.^000000
+Ao realizar ataques mágicos:
+^0000FF1% de chance de autoconjurar [Maestria Arcana] nv.1.^000000
+Bota com refino +10 ou mais:
+^0000FFConjuração fixa -0,5 segundos.^000000
+--------------------------
+Tipo: ^777777Capa^000000
+DEF: ^77777740^000000 DEFM: ^7777770^000000
+Peso: ^77777750^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Todas^000000
+#
+480929#
+Capa feita de couro e plantas encontradas em uma Gruta desconhecida de Mjolnir.
+--------------------------
+A cada 2 refinos:
+^0000FFATQM +10.^000000
+^0000FFDano mágico +2%.^000000
+A cada 4 refinos:
+^0000FFDano mágico contra todos os tamanhos +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000FFConjuração variável -10%.^000000
+Refino +9 ou mais:
+^0000FFIgnora 20% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+Refino +11 ou mais:
+^0000FFIgnora 10% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Bota Desconhecida INT]^000000
+^0000FFATQM +50. FEI +7.^000000
+Bota com refino +10 ou mais:
+^0000FFConjuração fixa -0,5 segundos.^000000
+--------------------------
+Tipo: ^777777Capa^000000
+DEF: ^77777740^000000 DEFM: ^7777770^000000
+Peso: ^77777750^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Todas^000000
+#
+480930#
+Capa feita de couro e plantas encontradas em uma Gruta desconhecida de Mjolnir.
+--------------------------
+A cada 2 refinos:
+^0000FFATQ +10.^000000
+^0000FFDano físico a distância +1%.^000000
+A cada 4 refinos:
+^0000FFDano físico contra todos os tamanhos +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000FFCusto de SP das habilidades -10%.^000000
+Refino +9 ou mais:
+^0000FFIgnora 20% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+Refino +11 ou mais:
+^0000FFIgnora 10% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Bota Desconhecida DES]^000000
+^0000FFATQ +50. CON +7.^000000
+Bota com refino +10 ou mais:
+^0000FFConjuração fixa -0,5 segundos.^000000
+--------------------------
+Tipo: ^777777Capa^000000
+DEF: ^77777740^000000 DEFM: ^7777770^000000
+Peso: ^77777750^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Todas^000000
+#
+480931#
+Capa feita de couro e plantas encontradas em uma Gruta desconhecida de Mjolnir.
+--------------------------
+A cada 2 refinos:
+^0000FFATQ +10.^000000
+^0000FFDano crítico +3%.^000000
+A cada 4 refinos:
+^0000FFDano físico contra todos os tamanhos +5%.^000000
+--------------------------
+Refino +7 ou mais:
+^0000FFVelocidade de ataque +10%.^000000
+Refino +9 ou mais:
+^0000FFIgnora 20% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+Refino +11 ou mais:
+^0000FFIgnora 10% da DEF e DEFM das raças Amorfo e Humanoide.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Bota Desconhecida SOR]^000000
+^0000FFT.CRÍT +5. CRV +7.^000000
+Bota com refino +10 ou mais:
+^0000FFConjuração fixa -0,5 segundos.^000000
+--------------------------
+Tipo: ^777777Capa^000000
+DEF: ^77777740^000000 DEFM: ^7777770^000000
+Peso: ^77777750^000000
+Nível necessário: ^777777100^000000
 Classes: ^777777Todas^000000
 #
 490004#
@@ -153898,11 +154899,212 @@ Classes: ^777777Inquisidores e evoluções^000000
 490183#
 
 #
+490184#
+Misterioso cordão que contém um pingente cheio de poderes de um antigo herói.
+-------------------------
+^0000FFDano físico e mágico +10%.^000000
+^0000FFConjuração variável -10%.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Kodachi Ancestral]^000000 e
+^FA4E09[Wakizashi Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico à distância +10%.^000000
+^0000FFDano de [Kunai Distorcida] e [Kunai Rotatória] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Kunai Distorcida] e [Kunai Rotatória] +10% adicional.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Shuriken Huuma Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico à distância +10%.^000000
+^0000FFDano de [Huuma Aderente] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Huuma Aderente] +10% adicional.^000000
+-------------------------
+Tipo: ^777777Acessório^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777720^000000
+Nível do equip.: ^7777772^000000
+Nível necessário: ^777777205^000000
+Classes: ^777777Shinkiro, Shiranui e evoluções^000000
+#
+490185#
+Misterioso cordão que contém um pingente cheio de poderes de um antigo herói.
+-------------------------
+^0000FFDano físico e mágico +10%.^000000
+^0000FFConjuração variável -10%.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Revólver Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano crítico +10%.^000000
+^0000FFDano de [Artilharia Pesada] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Artilharia Pesada] +10% adicional.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Escopeta Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico à distância +10%.^000000
+^0000FFDano de [Fogo de Supressão] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Fogo de Supressão] +10% adicional.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Lança-Granadas Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico à distância +10%.^000000
+^0000FFDano de [Atirar em Espiral] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Atirar em Espiral] +10% adicional.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Rifle Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFVelocidade de ataque +10%.^000000
+^0000FFDano de [Arremessar Explosivo] e [Explosão Gradual] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Arremessar Explosivo] e [Explosão Gradual] +10% adicional.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Gatling Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico à distância +10%.^000000
+^0000FFDano de [Vigília Noturna] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Vigília Noturna] +10% adicional.^000000
+-------------------------
+Tipo: ^777777Acessório^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777720^000000
+Nível do equip.: ^7777772^000000
+Nível necessário: ^777777205^000000
+Classes: ^777777Guerrilheiros e evoluções^000000
+#
+490186#
+Misterioso cordão que contém um pingente cheio de poderes de um antigo herói.
+-------------------------
+^0000FFDano físico e mágico +10%.^000000
+^0000FFConjuração variável -10%.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Pêndulo Primordial-LT]^000000
+^0000FFDano mágico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano mágico de todas as propriedades +10%.^000000
+^0000FFDano de [Talismã do Dragão] e [Talismã do Tigre] +10%.^000000
+Arma Grau C ou mais:
+^0000FFFEI e S.ATQM +5.^000000
+^0000FFDano de [Talismã do Dragão] e [Talismã do Tigre] +10% adicional.^000000
+-------------------------
+Tipo: ^777777Acessório^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777720^000000
+Nível do equip.: ^7777772^000000
+Nível necessário: ^777777205^000000
+Classes: ^777777Ascetas das Almas e evoluções^000000
+#
+490187#
+Misterioso cordão que contém um pingente cheio de poderes de um antigo herói.
+-------------------------
+^0000FFDano físico e mágico +10%.^000000
+^0000FFConjuração variável -10%.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Enciclopédia Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico corpo a corpo +10%.^000000
+^0000FFDano de [Entardecer] e [Explosão Crepuscular] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Entardecer] e [Explosão Crepuscular] +10% adicional.^000000
+-------------------------
+Tipo: ^777777Acessório^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777720^000000
+Nível do equip.: ^7777772^000000
+Nível necessário: ^777777205^000000
+Classes: ^777777Mestres Celestiais e evoluções^000000
+#
+490188#
+Misterioso cordão que contém um pingente cheio de poderes de um antigo herói.
+-------------------------
+^0000FFDano físico e mágico +10%.^000000
+^0000FFConjuração variável -10%.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Cauda de Gato Primordial-LT]^000000
+^0000FFDano físico e mágico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico à distância +10%.^000000
+^0000FFDano mágico de todas as propriedades +10%.^000000
+^0000FFDano de [Patada Felina] e [Brisa Silvestre] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFFEI e S.ATQM +5.^000000
+^0000FFDano de [Fogueira Espiritual] e [Brisa Silvestre] +10% adicional.^000000
+-------------------------
+Tipo: ^777777Acessório^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777720^000000
+Nível do equip.: ^7777772^000000
+Nível necessário: ^777777205^000000
+Classes: ^777777Animistas e evoluções^000000
+#
 490193#
 
 #
 490206#
 
+#
+490220#
+Misterioso cordão que contém um pingente cheio de poderes de um antigo herói.
+-------------------------
+^0000FFDano físico e mágico +10%.^000000
+^0000FFConjuração variável -10%.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Faca Primordial-LT]^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano físico corpo a corpo +10%.^000000
+^0000FFDano de [Golpe de Tyr] +10%.^000000
+Arma Grau C ou mais:
+^0000FFPOD e P.ATQ +5.^000000
+^0000FFDano de [Golpe de Tyr] +10% adicional.^000000
+-------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Bastão Primordial-LT]^000000
+^0000FFDano mágico contra todos os tamanhos +15%.^000000
+Arma com refino +10 ou mais:
+^0000FFDano mágico de todas as propriedades +10%.^000000
+^0000FFDano de [Ira da Terra] e [Zona Gravitacional] +10%.^000000
+Arma Grau C ou mais:
+^0000FFFEI e S.ATQM +5.^000000
+^0000FFDano de [Ira da Terra] e [Zona Gravitacional] +10% adicional.^000000
+-------------------------
+Tipo: ^777777Acessório^000000
+DEF: ^77777710^000000 DEFM: ^7777770^000000
+Peso: ^77777720^000000
+Nível do equip.: ^7777772^000000
+Nível necessário: ^777777205^000000
+Classes: ^777777Hiperaprendizes e evoluções^000000
 #
 490242#
 Peruca com fios de cabelo reais inspirada na mais bela valquíria já conhecida entre os aventureiros.
@@ -153925,8 +155127,20 @@ Classes: ^777777Todas^000000
 490337#
 
 #
+490374#
+Um mini ventilador com a imagem da Lontra que vive na Praia de Kokomo.
+#
+490375#
+Apesar de quebrado, esse ventilador ainda funciona se você der 3 tapinhas nele. Sim, 3 tapinhas, mais que isso o ventilador para de funcionar de vez.
+#
 490381#
 
+#
+490382#
+Pingente rústico, usado por aqueles que atropelam qualquer obstáculo pelo caminho.
+#
+490383#
+Pingente reflexivo, usado por aqueles que pensam antes de tomar qualquer ação.
 #
 490397#
 Anel que reage com uma Arma Primordial.
@@ -157537,37 +158751,35 @@ Classes: ^777777Mestres Celestiais e evoluções^000000
 540048#
 Arma de um antigo herói que foi reformada.
 --------------------------
-^0000ffDano físico +5%.^000000
---------------------------
 A cada 2 refinos:
-^0000ffATQ +15.^000000
+^0000FFATQ +15.^000000
 A cada 3 refinos:
-^0000ffDano físico corpo a corpo +4%.^000000
+^0000FFDano físico corpo a corpo +4%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffVelocidade de ataque +10%.^000000
-^0000ffDano de [Chute Solar] e [Explosão Solar] +20%.^000000
+^0000FFVelocidade de ataque +10%.^000000
+^0000FFDano de [Chute Solar] e [Explosão Solar] +20%.^000000
 Refino +9 ou mais:
-^0000ffDano de [Chute Solar] e [Explosão Solar] +25% adicional.^000000
+^0000FFDano de [Chute Solar] e [Explosão Solar] +25% adicional.^000000
 Refino +11 ou mais:
-^0000ffDano físico corpo a corpo +15%.^000000
-^0000ffDano físico contra todos os tamanhos +15%.^000000
+^0000FFDano físico corpo a corpo +15%.^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico +3% adicional.^000000
+^0000FFDano físico +3% adicional.^000000
 Grau C ou mais:
-^0000ffP.ATQ +1.^000000
-^0000ffDano corpo a corpo +15% adicional.^000000
+^0000FFP.ATQ +1.^000000
+^0000FFDano corpo a corpo +15% adicional.^000000
 Grau B ou mais:
-^0000ffPOD +3. P.ATQ +2.^000000
+^0000FFPOD +3. P.ATQ +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffPOD +2. P.ATQ +1.^000000
+^0000FFPOD +2. P.ATQ +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffP.ATQ +2.^000000
-^0000ffDano físico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFP.ATQ +2.^000000
+^0000FFDano físico +10%.^000000
 --------------------------
 Tipo: ^777777Livro^000000
 ATQ: ^777777200^000000 ATQM: ^7777770^000000
@@ -157596,6 +158808,42 @@ Peso: ^777777120^000000
 Nível da arma: ^7777775^000000
 Nível necessário: ^777777170^000000
 Classes: ^777777Sacerdotes, Sábios, Mestres Taekwons e evoluções^000000
+#
+540053#
+Arma criada por um anjo caído. Parece instigar o usuário a cometer um pecado.
+--------------------------
+^0000ffPOD +2.^000000
+^0000ffDano físico +5%.^000000
+^0000ffDano de [Petitio] +5%.^000000
+--------------------------
+Refino +5 ou mais:
+^0000ffDano de [Petitio] +10% adicional.^000000
+Refino +7 ou mais:
+^0000ffDano físico corpo a corpo +5%.^000000
+Refino +9 ou mais:
+^0000ffDano de [Petitio] +10% adicional.^000000
+Refino +10 ou mais:
+^0000ffCRIT +10.^000000
+Refino +11 ou mais:
+^0000ffDano crítico +20%.^000000
+^0000ffDano de [Petitio] +5% adicional.^000000
+--------------------------
+Grau D ou mais:
+^0000ffDano físico corpo a corpo +10% adicional.^000000
+Grau C ou mais:
+^0000ffDano físico contra todos os tamanhos +10%.^000000
+Grau B ou mais:
+^0000ffDano físico contra todas as raças +10%.^000000
+Grau A ou mais:
+^0000ffDano físico contra todas as propriedades +10%.^000000
+--------------------------
+Tipo: ^777777Livro^000000
+ATQ: ^777777210^000000 ATQM: ^7777770^000000
+Nota: ^777777Indestrutível em batalha^000000
+Peso: ^777777100^000000
+Nível da arma: ^7777775^000000
+Nível necessário: ^777777215^000000
+Classes: ^777777Cardeais e evoluções^000000
 #
 540057#
 
@@ -158822,35 +160070,35 @@ Classes: ^777777Animistas e evoluções^000000
 Arma de um antigo herói que foi reformada.
 --------------------------
 A cada 2 refinos:
-^0000ffATQ e ATQM +15.^000000
+^0000FFATQ e ATQM +15.^000000
 A cada 3 refinos:
-^0000ffDano físico e mágico +2%.^000000
+^0000FFDano físico e mágico +2%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffDano de [Lança Gateira] e [Chilique de Picky] +40%.^000000
+^0000FFDano de [Lança Gateira] e [Chilique de Picky] +40%.^000000
 Refino +9 ou mais:
-^0000ffConjuração variável -10%.^000000
-^0000ffRecarga de [Meteoros de Nepeta] -2 segundos.^000000
+^0000FFConjuração variável -10%.^000000
+^0000FFRecarga de [Meteoros de Nepeta] -2 segundos.^000000
 Refino +11 ou mais:
-^0000ffDano físico e mágico contra todos os tamanhos +15%.^000000
-^0000ffDano de [Meteoros de Nepeta] e [Cometas Lunáticos] +50%.^000000
+^0000FFDano físico e mágico contra todos os tamanhos +15%.^000000
+^0000FFDano de [Meteoros de Nepeta] e [Cometas Lunáticos] +50%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico mágico +3%.^000000
+^0000FFDano físico mágico +3%.^000000
 Grau C ou mais:
-^0000ffP.ATQ e S.ATQM +1.^000000
-^0000ffDano físico a distância +15%.^000000
-^0000ffDano mágico de todas as propriedades +15%.^000000
+^0000FFP.ATQ e S.ATQM +1.^000000
+^0000FFDano físico à distância +15%.^000000
+^0000FFDano mágico de todas as propriedades +15%.^000000
 Grau B ou mais:
-^0000ffPOD e FEI +3. P.ATQ e S.ATQM +2.^000000
+^0000FFPOD e FEI +3. P.ATQ e S.ATQM +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffPOD e FEI +2. P.ATQ e S.ATQM +1.^000000
+^0000FFPOD e FEI +2. P.ATQ e S.ATQM +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffPOD e S.ATQM +2.^000000
-^0000ffDano físico e mágico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFP.ATQ e S.ATQM +2.^000000
+^0000FFDano físico e mágico +10%.^000000
 --------------------------
 Tipo: ^777777Cajado^000000
 ATQ: ^777777350^000000 ATQM: ^777777350^000000
@@ -159010,37 +160258,39 @@ Classes: ^777777Superaprendizes e evoluções^000000
 550082#
 Arma de um antigo herói que foi reformada.
 --------------------------
-^0000ffATQM +210.^000000
+^0000FFATQM +210.^000000
+^0000FFDano mágico +5%.^000000
+--------------------------
 A cada 2 refinos:
-^0000ffATQM +15.^000000
+^0000FFATQM +15.^000000
 A cada 3 refinos:
-^0000ffDano de [Fúria da Terra] +30%.^000000
+^0000FFDano de [Fúria da Terra] +30%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffHabilita [Onda Psíquica] nv.5.^000000
-^0000ffDano mágico contra oponentes de todas as propriedades +15%.^000000
+^0000FFHabilita [Onda Psíquica] nv.5.^000000
+^0000FFDano mágico contra oponentes de todas as propriedades +15%.^000000
 Refino +9 ou mais:
-^0000ffConjuração variável -15%.^000000
-^0000ffDano de [Onda Psíquica] +20%.^000000
+^0000FFConjuração variável -15%.^000000
+^0000FFDano de [Onda Psíquica] +20%.^000000
 Refino +11 ou mais:
-^0000ffConjuração variável -5% adicional.^000000
-^0000ffDano mágico de propriedade Neutro e Terra +20%.^000000
+^0000FFConjuração variável -5% adicional.^000000
+^0000FFDano mágico de propriedade Neutro e Terra +20%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano mágico +3%.^000000
+^0000FFDano mágico +3%.^000000
 Grau C ou mais:
-^0000ffS.ATQM +1.^000000
-^0000ffDano mágico de propriedade Neutro e Terra +15% adicional.^000000
+^0000FFS.ATQM +1.^000000
+^0000FFDano mágico de propriedade Neutro e Terra +15% adicional.^000000
 Grau B ou mais:
-^0000ffFEI +3. S.ATQM +2.^000000
+^0000FFFEI +3. S.ATQM +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffFEI +2. S.ATQM +1.^000000
+^0000FFFEI +2. S.ATQM +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffS.ATQM +2.^000000
-^0000ffDano mágico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFS.ATQM +2.^000000
+^0000FFDano mágico +10%.^000000
 --------------------------
 Tipo: ^777777Cajado^000000
 ATQ: ^777777100^000000 ATQM: ^7777770^000000
@@ -160154,6 +161404,41 @@ Nível da arma: ^7777775^000000
 Nível necessário: ^777777220^000000
 Classes: ^777777Maestros e evoluções^000000
 #
+570037#
+Arma criada por um anjo de luz. Parece instigar o usuário a fazer uma bondade.
+--------------------------
+^0000ffCON +2.^000000
+^0000ffDano físico +5%.^000000
+^0000ffDano de [Disparo Rítmico] +5%.^000000
+--------------------------
+Refino +5 ou mais:
+^0000ffDano de [Disparo Rítmico] +10% adicional.^000000
+Refino +7 ou mais:
+^0000ffDano físico a distância +5%.^000000
+Refino +9 ou mais:
+^0000ffDano de [Disparo Rítmico] +10% adicional.^000000
+Refino +10 ou mais:
+^0000ffConjuração variável -10%.^000000
+Refino +11 ou mais:
+^0000ffDano de [Atirar Rosas] +15%.^000000
+^0000ffDano de [Disparo Rítmico] +5% adicional.^000000
+--------------------------
+Grau D ou mais:
+^0000ffDano físico a distância +10% adicional.^000000
+Grau C ou mais:
+^0000ffDano físico contra todos os tamanhos +10%.^000000
+Grau B ou mais:
+^0000ffDano físico contra todas as raças +10%.^000000
+Grau A ou mais:
+^0000ffDano físico contra todas as propriedades +10%.^000000
+--------------------------
+Tipo: ^777777Instrumento Musical^000000
+ATQ: ^777777200^000000 ATQM: ^7777770^000000
+Peso: ^777777200^000000
+Nível da arma: ^7777775^000000
+Nível necessário: ^777777215^000000
+Classes: ^777777Maestros e evoluções^000000
+#
 570079#
 ^A400CDNão pode ser refinada normalmente.^000000
 Arma feita para auxiliar no combate
@@ -160604,6 +161889,41 @@ ATQ: ^777777220^000000 ATQM: ^7777770^000000
 Peso: ^777777140^000000
 Nível da arma: ^7777775^000000
 Nível necessário: ^777777220^000000
+Classes: ^777777Divas e evoluções^000000
+#
+580038#
+Arma criada por um anjo de luz. Parece instigar o usuário a fazer uma bondade.
+--------------------------
+^0000ffCON +2.^000000
+^0000ffDano físico +5%.^000000
+^0000ffDano de [Disparo Rítmico] +5%.^000000
+--------------------------
+Refino +5 ou mais:
+^0000ffDano de [Disparo Rítmico] +10% adicional.^000000
+Refino +7 ou mais:
+^0000ffDano físico a distância +5%.^000000
+Refino +9 ou mais:
+^0000ffDano de [Disparo Rítmico] +10% adicional.^000000
+Refino +10 ou mais:
+^0000ffConjuração variável -10%.^000000
+Refino +11 ou mais:
+^0000ffDano de [Atirar Rosas] +15%.^000000
+^0000ffDano de [Disparo Rítmico] +5% adicional.^000000
+--------------------------
+Grau D ou mais:
+^0000ffDano físico a distância +10% adicional.^000000
+Grau C ou mais:
+^0000ffDano físico contra todos os tamanhos +10%.^000000
+Grau B ou mais:
+^0000ffDano físico contra todas as raças +10%.^000000
+Grau A ou mais:
+^0000ffDano físico contra todas as propriedades +10%.^000000
+--------------------------
+Tipo: ^777777Chicote^000000
+ATQ: ^777777200^000000 ATQM: ^7777770^000000
+Peso: ^777777200^000000
+Nível da arma: ^7777775^000000
+Nível necessário: ^777777215^000000
 Classes: ^777777Divas e evoluções^000000
 #
 580080#
@@ -161118,44 +162438,6 @@ Classes: ^777777Cientistas e evoluções^000000
 #
 590030#
 Arma de um antigo herói que foi reformada.
--------------------------
-^0000FFDano mágico +5%.^000000
-A cada 2 refinos:
-^0000FFDano mágico de propriedade Sagrado +1%.^000000
-A cada 3 refinos:
-^0000FFDano de [Adoramus] +3%.^000000
--------------------------
-Refino +7 ou mais:
-^0000FFConjuração variável -10%.^000000
-^0000FFDano mágico de propriedade Sagrado +10%.^000000
-Refino +9 ou mais:
-^0000FFDano mágico contra todas as raças de monstros +15%.^000000
-Refino +11 ou mais:
-^0000FFDano de [Adoramus] +30%^000000
--------------------------
-Grau D ou mais:
-^0000FFDano mágico +3% adicional.^000000
-Grau C ou mais:
-^0000FFS.ATQM +1.^000000
-^0000FFDano mágico de propriedade Sagrado e Neutro +15%.^000000
-Grau B ou mais:
-^0000FFFEI +3. S.ATQM +2.^000000
--------------------------
-Nv. base 210 ou mais:
-^0000FFFEI +2. S.ATQM +1.^000000
--------------------------
-^FA4E09Conjunto^000000
-^FA4E09[Bota Primordial-LT]^000000
-^0000FFS.ATQM +2.^000000
-^0000FFDano mágico +10%.^000000
--------------------------
-Tipo: ^777777Maça^000000
-ATQ: ^777777190^000000 ATQM: ^777777200^000000
-Nota: ^777777Indestrutível em batalha^000000
-Peso: ^777777100^000000
-Nível da arma: ^7777775^000000
-Nível necessário: ^777777190^000000
-Classes: ^777777Arcebispos e evoluções^000000
 #
 590034#
 Arma de um antigo herói que foi reformada.
@@ -163563,35 +164845,35 @@ Classes: ^777777Shinkiro, Shiranui e evoluções^000000
 Arma de um antigo herói que foi reformada.
 --------------------------
 A cada 2 refinos:
-^0000ffATQ +15.^000000
+^0000FFATQ +15.^000000
 A cada 3 refinos:
-^0000ffDano físico a distância +4%.^000000
+^0000FFDano físico a distância +4%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffConjuração variável -10%.^000000
-^0000ffDano de [Turbilhão de Pétalas] +30%.^000000
+^0000FFConjuração variável -10%.^000000
+^0000FFDano de [Turbilhão de Pétalas] +30%.^000000
 Refino +9 ou mais:
-^0000ffRecarga de [Turbilhão de Pétalas] -2 segundos.^000000
-^0000ffDano de [Turbilhão de Pétalas] +15% adicional.^000000
+^0000FFRecarga de [Turbilhão de Pétalas] -2 segundos.^000000
+^0000FFDano de [Turbilhão de Pétalas] +15% adicional.^000000
 Refino +11 ou mais:
-^0000ffDano físico contra as raças Dragão, Morto-Vivo, Anjo e Demônio +25%.^000000
-^0000ffDano físico contra as propriedades Fogo, Sombrio, Sagrado e Maldito +25%.^000000
+^0000FFDano físico contra as raças Dragão, Morto-Vivo, Anjo e Demônio +25%.^000000
+^0000FFDano físico contra as propriedades Fogo, Sombrio, Sagrado e Maldito +25%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico +3%.^000000
+^0000FFDano físico +3%.^000000
 Grau C ou mais:
-^0000ffP.ATQ +1.^000000
-^0000ffDano físico a distância +15%.^000000
+^0000FFP.ATQ +1.^000000
+^0000FFDano físico à distância +15%.^000000
 Grau B ou mais:
-^0000ffPOD +3. P.ATQ +2.^000000
+^0000FFPOD +3. P.ATQ +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffPOD +2. P.ATQ +1.^000000
+^0000FFPOD +2. P.ATQ +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffP.ATQ +2.^000000
-^0000ffDano físico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFP.ATQ +2.^000000
+^0000FFDano físico +10%.^000000
 --------------------------
 Tipo: ^777777Shuriken Huuma^000000
 ATQ: ^777777290^000000 ATQM: ^7777770^000000
@@ -164481,30 +165763,30 @@ Classes: ^777777Renegados e evoluções^000000
 700066#
 Arma criada por um anjo caído. Parece instigar o usuário a cometer um pecado.
 --------------------------
-^0000ffCON +2.^000000
-^0000ffDano físico +5%.^000000
-^0000ffDano de [Disparo em Cadeia] +5%.^000000
+^0000FFCON +2.^000000
+^0000FFDano físico +5%.^000000
+^0000FFDano de [Disparo em Cadeia] +5%.^000000
 --------------------------
 Refino +5 ou mais:
-^0000ffDano de [Disparo em Cadeia] +10% adicional.^000000
+^0000FFDano de [Disparo em Cadeia] +10% adicional.^000000
 Refino +7 ou mais:
-^0000ffDano físico a distância +5%.^000000
+^0000FFDano físico à distância +5%.^000000
 Refino +9 ou mais:
-^0000ffDano de [Disparo em Cadeia] +10% adicional.^000000
+^0000FFDano de [Disparo em Cadeia] +10% adicional.^000000
 Refino +10 ou mais:
-^0000ffCRIT +10.^000000
+^0000FFCRÍT +10.^000000
 Refino +11 ou mais:
-^0000ffDano de [Rajada Frenética] +15%.^000000
-^0000ffDano de [Disparo em Cadeia] +5% adicional.^000000
+^0000FFDano de [Rajada Frenética] +15%.^000000
+^0000FFDano de [Disparo em Cadeia] +5% adicional.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico a distância +10% adicional.^000000
+^0000FFDano físico à distância +10% adicional.^000000
 Grau C ou mais:
-^0000ffDano físico contra todos os tamanhos +10%.^000000
+^0000FFDano físico contra todos os tamanhos +10%.^000000
 Grau B ou mais:
-^0000ffDano físico contra todas as raças +10%.^000000
+^0000FFDano físico contra todas as raças +10%.^000000
 Grau A ou mais:
-^0000ffDano físico contra todas as propriedades +10%.^000000
+^0000FFDano físico contra todas as propriedades +10%.^000000
 --------------------------
 Tipo: ^777777Arco^000000
 ATQ: ^777777280^000000 ATQM: ^7777770^000000
@@ -164797,36 +166079,35 @@ Classes: ^777777Guerrilheiros e evoluções^000000
 Arma de um antigo herói que foi reformada.
 --------------------------
 A cada 2 refinos:
-^0000ffATQ +15.^000000
+^0000FFATQ +15.^000000
 A cada 3 refinos:
-^0000ffDano físico a distância +4%.^000000
+^0000FFDano físico à distância +4%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffDano físico +5%.^000000
-^0000ffDano de [Descarregar Tambor] +25%.^000000
-^0000ffResistência a todos os tamanhos +20%.^000000
+^0000FFDano de [Descarregar Tambor] +25%.^000000
+^0000FFResistência a todos os tamanhos +20%.^000000
 Refino +9 ou mais:
-^0000ffDano físico +7% adicional.^000000
-^0000ffDano de [Descarregar Tambor] +35% adicional.^000000
+^0000FFDano físico +7% adicional.^000000
+^0000FFDano de [Descarregar Tambor] +35% adicional.^000000
 Refino +11 ou mais:
-^0000ffPós-conjuração -10%.^000000
-^0000ffDano físico contra todos os tamanhos +15%.^000000
+^0000FFPós-conjuração -10%.^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico +3%.^000000
+^0000FFDano físico +3%.^000000
 Grau C ou mais:
-^0000ffP.ATQ +1.^000000
-^0000ffDano físico a distância +15%.^000000
+^0000FFP.ATQ +1.^000000
+^0000FFDano físico à distância +15%.^000000
 Grau B ou mais:
-^0000ffPOD +3. P.ATQ +2.^000000
+^0000FFPOD +3. P.ATQ +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffPOD +2. P.ATQ +1.^000000
+^0000FFPOD +2. P.ATQ +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffP.ATQ +2.^000000
-^0000ffDano físico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFP.ATQ +2.^000000
+^0000FFDano físico +10%.^000000
 --------------------------
 Tipo: ^777777Pistola^000000
 ATQ: ^777777200^000000 ATQM: ^7777770^000000
@@ -164864,26 +166145,27 @@ Classes: ^777777Insurgentes e evoluções^000000
 810001#
 Arma purificada dos poderes ancestrais e que agora emana energia mais jovem.
 --------------------------
+^0000FFATQM +250.^000000
 A cada 2 refinos:
-^0000ffATQM +15.^000000
+^0000FFATQM +15.^000000
 A cada 3 refinos:
-^0000ffDano de [Vulcão Napalm] e [Espíritos Anciões] +15%.^000000
+^0000FFDano de [Vulcão Napalm] e [Espíritos Anciões] +15%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffDano de [Impacto Espiritual] +20%.^000000
-^0000ffDano mágico de propriedade Fantasma +15%.^000000
+^0000FFDano de [Impacto Espiritual] +20%.^000000
+^0000FFDano mágico de propriedade Fantasma +15%.^000000
 Refino +9 ou mais:
-^0000ffAo realizar ataques físicos à distância, 15% de chance de autoconjurar [Espíritos Anciões] nv.10.^000000
+^0000FFAo realizar ataques físicos à distância, 15% de chance de autoconjurar [Espíritos Anciões] nv.10.^000000
 Refino +11 ou mais:
-^0000ffAo realizar ataques físicos à distância, 7% de chance de autoconjurar [Vulcão Napalm] e [Impacto Espiritual] nv.3.^000000
+^0000FFAo realizar ataques físicos à distância, 7% de chance de autoconjurar [Vulcão Napalm] e [Impacto Espiritual] nv.3.^000000
 --------------------------
 ^FA4E09Conjunto^000000
 ^FA4E09[Botas Primordiais]^000000
-^0000ffINT +10.^000000
-^0000ffDano mágico de propriedade Fantasma +5% adicional.^000000
+^0000FFINT +10.^000000
+^0000FFDano mágico de propriedade Fantasma +5% adicional.^000000
 --------------------------
 Tipo: ^777777Rifle^000000
-ATQ: ^777777200^000000 ATQM: ^777777250^000000
+ATQ: ^777777200^000000 ATQM: ^7777770^000000
 Peso: ^777777100^000000
 Nível da arma: ^7777774^000000
 Nível necessário: ^777777150^000000
@@ -165252,36 +166534,36 @@ Arma de um antigo herói que foi reformada.
 ^CD3278Mantém [Espalhar Dano] ativo.^000000
 --------------------------
 A cada 2 refinos:
-^0000ffATQ +15.^000000
+^0000FFATQ +15.^000000
 A cada 3 refinos:
-^0000ffDano físico a distância +4%.^000000
+^0000FFDano físico à distância +4%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffDano físico a distância +10%.^000000
-^0000ffDano de [Tiro Neutralizante] e [Rajada Estilhaçante] +30%.^000000
+^0000FFDano físico a distância +10%.^000000
+^0000FFDano de [Tiro Neutralizante] e [Rajada Estilhaçante] +30%.^000000
 Refino +9 ou mais:
-^0000ffRecarga de [Rajada Estilhaçante] -1 segundo.^000000
-^0000ffDano de [Tiro Neutralizante] e [Rajada Estilhaçante] +25% adicional.^000000
+^0000FFRecarga de [Rajada Estilhaçante] -1 segundo.^000000
+^0000FFDano de [Tiro Neutralizante] e [Rajada Estilhaçante] +25% adicional.^000000
 Refino +11 ou mais:
-^0000ffDano físico contra Chefes +15%.^000000
-^0000ffDano físico contra todos os tamanhos +15%.^000000
-^0000ffDano físico contra as raças Demônio e Morto-Vivo +15%.^000000
+^0000FFDano físico contra Chefes +15%.^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+^0000FFDano físico contra as raças Demônio e Morto-Vivo +15%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico +3%.^000000
+^0000FFDano físico +3%.^000000
 Grau C ou mais:
-^0000ffP.ATQ +1.^000000
-^0000ffDano físico a distância +15%.^000000
+^0000FFP.ATQ +1.^000000
+^0000FFDano físico à distância +15%.^000000
 Grau B ou mais:
-^0000ffPOD +3. P.ATQ +2.^000000
+^0000FFPOD +3. P.ATQ +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffPOD +2. P.ATQ +1.^000000
+^0000FFPOD +2. P.ATQ +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffP.ATQ +2.^000000
-^0000ffDano físico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFP.ATQ +2.^000000
+^0000FFDano físico +10%.^000000
 --------------------------
 Tipo: ^777777Espingarda^000000
 ATQ: ^777777295^000000 ATQM: ^7777770^000000
@@ -165485,40 +166767,38 @@ Classes: ^777777Guerrilheiros e evoluções^000000
 830012#
 Arma de um antigo herói que foi reformada.
 --------------------------
-^CD3278Mantém [Espalhar Dano] ativo.^000000
---------------------------
 A cada 2 refinos:
-^0000ffATQ +15.^000000
+^0000FFATQ +15.^000000
 A cada 3 refinos:
-^0000ffDano físico a distância +4%.^000000
+^0000FFDano físico a distância +4%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffATQ +50.^000000
-^0000ffDano de [Expurgar] +25%.^000000
+^0000FFATQ +50.^000000
+^0000FFDano de [Expurgar] +25%.^000000
 Refino +9 ou mais:
-^0000ffDano físico a distância +15%.^000000
-^0000ffDano de [Expurgar] +25% adicional.^000000
+^0000FFDano físico à distância +15%.^000000
+^0000FFDano de [Expurgar] +25% adicional.^000000
 Refino +11 ou mais:
-^0000ffResistência a todos os tamanhos +20%.^000000
-^0000ffDano físico contra todos os tamanhos +15%.^000000
+^0000FFResistência a todos os tamanhos +20%.^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico +3%.^000000
+^0000FFDano físico +3%.^000000
 Grau C ou mais:
-^0000ffP.ATQ +1.^000000
-^0000ffDano físico a distância +15%.^000000
+^0000FFP.ATQ +1.^000000
+^0000FFDano físico à distância +15%.^000000
 Grau B ou mais:
-^0000ffPOD +3. P.ATQ +2.^000000
+^0000FFPOD +3. P.ATQ +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffPOD +2. P.ATQ +1.^000000
+^0000FFPOD +2. P.ATQ +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffP.ATQ +2.^000000
-^0000ffDano físico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFP.ATQ +2.^000000
+^0000FFDano físico +10%.^000000
 --------------------------
-Tipo: ^777777Espingarda^000000
+Tipo: ^777777Gatling Gun^000000
 ATQ: ^777777225^000000 ATQM: ^7777770^000000
 Peso: ^777777300^000000
 Nível da arma: ^7777775^000000
@@ -165732,35 +167012,35 @@ Classes: ^777777Guerrilheiros e evoluções^000000
 Arma de um antigo herói que foi reformada.
 --------------------------
 A cada 2 refinos:
-^0000ffATQ +15.^000000
+^0000FFATQ +15.^000000
 A cada 3 refinos:
-^0000ffDano físico a distância +4%.^000000
+^0000FFDano físico à distância +4%.^000000
 --------------------------
 Refino +7 ou mais:
-^0000ffDano de [Lançar Míssil] +20%.^000000
-^0000ffRecarga de [Lançar Míssil] -1 segundo.^000000
+^0000FFDano de [Lançar Míssil] +20%.^000000
+^0000FFRecarga de [Lançar Míssil] -1 segundo.^000000
 Refino +9 ou mais:
-^0000ffDano físico a distância +15%.^000000
-^0000ffDano de [Lançar Míssil] +35% adicional.^000000
+^0000FFDano físico a distância +15%.^000000
+^0000FFDano de [Lançar Míssil] +35% adicional.^000000
 Refino +11 ou mais:
-^0000ffDano físico contra todos os tamanhos +15%.^000000
-^0000ffDano físico contra oponentes de todas as propriedades +15%.^000000
+^0000FFDano físico contra todos os tamanhos +15%.^000000
+^0000FFDano físico contra oponentes de todas as propriedades +15%.^000000
 --------------------------
 Grau D ou mais:
-^0000ffDano físico +3%.^000000
+^0000FFDano físico +3%.^000000
 Grau C ou mais:
-^0000ffP.ATQ +1.^000000
-^0000ffDano físico a distância +15%.^000000
+^0000FFP.ATQ +1.^000000
+^0000FFDano físico à distância +15%.^000000
 Grau B ou mais:
-^0000ffPOD +3. P.ATQ +2.^000000
+^0000FFPOD +3. P.ATQ +2.^000000
 --------------------------
 Nv. base 210 ou mais:
-^0000ffPOD +2. P.ATQ +1.^000000
+^0000FFPOD +2. P.ATQ +1.^000000
 --------------------------
-^fa4e09Conjunto^000000
-^fa4e09[Bota Primordial-LT]^000000
-^0000ffP.ATQ +2.^000000
-^0000ffDano físico +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Bota Primordial-LT]^000000
+^0000FFP.ATQ +2.^000000
+^0000FFDano físico +10%.^000000
 --------------------------
 Tipo: ^777777Lança-Granadas^000000
 ATQ: ^777777350^000000 ATQM: ^7777770^000000
@@ -166503,8 +167783,8 @@ Modulador Automático que garante o efeito abaixo quando encantado em um Automat
 ^0000FF1% de chance de converter 2% do dano físico causado em SP.^000000
 --------------------------
 [^CD3278Itens afetados^000000]
-Turbina Automatron A
-Soquete Automatron A
+Turbina Automatron B
+Soquete Automatron B
 --------------------------
 Peso: ^7777771^000000
 #
@@ -169090,6 +170370,10 @@ Leve essa pedra para a <NAVI>[Loja Fashion]<INFO>mal_in01,20,107,0,100,0,0</INFO
 --------------------------
 [^CD3278Efeito^000000]
 ^000000Conjuração fixa -0,1 segundo.^000000
+-
+^FA4E09Conjunto^000000
+^FA4E09[Fixa -0,3]^000000
+^0000FFConjuração fixa -0,3 segundos adicional.^000000
 --------------------------
 Peso: ^77777710^000000
 #
@@ -169109,19 +170393,19 @@ Peso: ^77777710^000000
 Leve essa pedra para a <NAVI>[Loja Fashion]<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>
 --------------------------
 [^CD3278Efeito^000000]
-^000000Dano físico a distância +4%.^000000
+^0000FFDano físico a distância +4%.^000000
 -
-^fa4e09Conjunto^000000
-^fa4e09Alcance (Topo)^000000
-^000000Dano físico a distância +2% adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Alcance (Topo)]^000000
+^0000FFDano físico a distância +2% adicional.^000000
 -
-^fa4e09Conjunto^000000
-^fa4e09Alcance (Meio)^000000
-^000000Dano físico a distância +2% adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Alcance (Meio)]^000000
+^0000FFDano físico a distância +2% adicional.^000000
 -
-^fa4e09Conjunto^000000
-^fa4e09Alcance (Baixo)^000000
-^000000Dano físico a distância +2% adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Alcance (Baixo)]^000000
+^0000FFDano físico a distância +2% adicional.^000000
 --------------------------
 Peso: ^77777710^000000
 #
@@ -169149,7 +170433,7 @@ Peso: ^77777710^000000
 Leve essa pedra para a <NAVI>[Loja Fashion]<INFO>mal_in01,20,107,0,100,0,0</INFO></NAVI>
 --------------------------
 [^CD3278Efeito^000000]
-^0000001% de chance de converter 1% do dano físico causado em SP.^000000
+^0000FF1% de chance de converter 1% do dano físico causado em SP.^000000
 --------------------------
 Peso: ^77777710^000000
 #
@@ -169965,6 +171249,16 @@ Um ticket que pode ser trocado por um Ovo de Gerente com a <NAVI>[Gerente de Mas
 --------------------------
 Peso: ^7777770^000000
 #
+1001860#
+Uma lágrima vermelha tomada por uma fúria intensa.
+Pode ser usada no NPC Temporal Circlet Trade (glast_01 142 279) para realizar Encantamento Avançado em Diademas Temporais.
+Peso : ^7777771^000000
+#
+1001861#
+Uma lágrima vermelha tomada por uma fúria intensa.
+Pode ser usada no NPC Temporal Circlet Trade (glast_01 142 279) para realizar Encantamento Intermediário em Diademas Temporais.
+Peso : ^7777771^000000
+#
 1001886#
 ^ff0000Será deletado no final do evento.^000000
 Uma moeda comemorativa dada a você como recompensa por seu treinamento.
@@ -170134,9 +171428,17 @@ Leve essa pedra para a <NAVI>[Loja Fashion]<INFO>mal_in01,20,107,0,100,0,0</INFO
 Peso: ^77777710^000000
 #
 1002727#
-Um cupom que permite transferir um Encanto Visual para outro Visual.
+Um cupom que permite transferir um Encanto Visual para um outro Visual.
 --------------------------
 <NAVI>[Transferigato]<INFO>mal_in01,60,112,0,100,0,0</INFO></NAVI>
+--------------------------
+[^FF0000Obsevações^000000]
+1. Transfere Encantos de um Visual para outro Visual de mesma posição.
+Isso significa que um encanto em um Visual 'Topo-Meio' não será transferido para um Visual 'Meio', apenas para outro Visual 'Topo-Meio'.
+2. Transfere todos os encantos, Dual, Gráfico e Pegadas.
+3. O usuário deve estar com o Visual desejado equipado para a transferência.
+4. O usuário pode cancelar a transferência falando com o NPC.
+5. Alguns Visuais podem não estar elegíveis para a transferência.
 --------------------------
 Peso: ^7777771^000000
 #

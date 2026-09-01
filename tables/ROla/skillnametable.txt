@@ -1049,6 +1049,7 @@ BA_POEMBRAGI2#Poema de Bragi#
 DC_FORTUNEKISS2#Beijo da Sorte#
 ALL_NIFLHEIM_RECALL#Para Nifflheim#
 ALL_PRONTERA_RECALL#Para Prontera#
+ALL_GLASTHEIM_RECALL#Para Glastheim#
 ALL_THANATOS_RECALL#Para Thanatos#
 ALL_LIGHTHALZEN_RECALL#Para Lighthalzen#
 GC_DARKCROW#Garra Sombria#
