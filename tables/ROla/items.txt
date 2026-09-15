@@ -5196,7 +5196,7 @@
 12084#Sopa de Dragão#
 12085#Cozido Imortal#
 12086#Gratinado de Chilli#
-12087#Crocodilo com Vegetais#
+12087#Crocodilo com Legumes#
 12088#Curry Picante#
 12089#Cozidão de Carne#
 12090#Escorpiões no Vapor#
@@ -6600,7 +6600,7 @@
 15888#Garra do Dragão Demoníaco#
 15889#Chapéu de Boitata#
 15905#Capacete Ecoante#
-15952#Naga Tailandesa#
+15952#[Visual] Naga de Ayothaya#
 15953#Carrinho do Zé#
 15954#Espaguete & Lasanha#
 16000#Erde#
@@ -9583,6 +9583,35 @@
 24683#Escudo Sombrio de EXP#
 24685#Escudo Sombrio de Absorção#
 24686#Manopla Sombria de Absorção#
+24687#Grupo do Éden Arma Sombria#
+24688#Grupo do Éden Escudo Sombrio#
+24689#Grupo do Éden Armadura Sombria#
+24690#Grupo do Éden Sapatos Sombrios#
+24691#Grupo do Éden Brinco Sombrio#
+24692#Grupo do Éden Pingente Sombrio#
+24693#Grupo do Éden Avançado Escudo Sombrio#
+24694#Grupo do Éden Avançado Armadura Sombria#
+24695#Grupo do Éden Avançado Sapatos Sombrios#
+24696#Grupo do Éden Avançado Brinco Sombrio#
+24697#Grupo do Éden Avançado Pingente Sombrio#
+24698#Arma Sombria Avançada do Grupo do Éden - Cavaleiro Rúnico#
+24699#Arma Sombria Avançada do Grupo do Éden - Guarda Real#
+24700#Arma Sombria Avançada do Grupo do Éden - Mecânico#
+24701#Arma Sombria Avançada do Grupo do Éden - Bioquímico#
+24702#Arma Sombria Avançada do Grupo do Éden - Sicário#
+24703#Arma Sombria Avançada do Grupo do Éden - Renegado#
+24704#Arma Sombria Avançada do Grupo do Éden - Arcano#
+24705#Arma Sombria Avançada do Grupo do Éden - Feiticeiro#
+24706#Arma Sombria Avançada do Grupo do Éden - Arcebispo#
+24707#Arma Sombria Avançada do Grupo do Éden - Shura#
+24708#Arma Sombria Avançada do Grupo do Éden - Sentinela#
+24709#Arma Sombria Avançada do Grupo do Éden - Musa&Trovador#
+24710#Arma Sombria Avançada do Grupo do Éden - Kagerou&Oboro#
+24711#Arma Sombria Avançada do Grupo do Éden - Insurgente#
+24712#Arma Sombria Avançada do Grupo do Éden - Mestre Estelar#
+24713#Arma Sombria Avançada do Grupo do Éden - Ceifador de Almas#
+24714#Arma Sombria Avançada do Grupo do Éden - Doram#
+24715#Arma Sombria Avançada do Grupo do Éden - Superaprendiz#
 24722#Escudo Sombrio da Autoconjuração#
 24723#Malha Sombria da Autoconjuração#
 24724#Greva Sombria da Autoconjuração#
@@ -11837,8 +11866,8 @@
 100470#Coleção de Chapéus#
 100475#Armazenadora de EXP#
 100476#Contas de Ymir#
-100477#Conjunto Pænitentia Mágico#
-100478#Conjunto Pænitentia Físico#
+100477#Conjunto Paenitentia Mágico#
+100478#Conjunto Paenitentia Físico#
 100479#Fúria de Sakray#
 100480#Ira de Sakray#
 100481#Bateria JET-01#
@@ -12058,7 +12087,7 @@
 101077#Martelo de Refino Vivatus#
 101078#Reformador de Fides#
 101099#Chave de Corda#
-101100#Conjunto Pænitentia Ninja#
+101100#Conjunto Paenitentia Ninja#
 101101#Conjunto Pœnitentia Arsenal#
 101107#Pacote Gélido#
 101108#Pacote Elétrico#
@@ -12095,7 +12124,7 @@
 101262#Caderno de Absorção#
 101264#Caderno do Mastodonte#
 101304#Registro dos Esquecidos#
-101306#Martelo de Refino Pænitentia#
+101306#Martelo de Refino Paenitentia#
 101308#Caderno de Pedras Preciosas#
 101309#Caderno de EXP#
 101310#Caderno Pontual#
@@ -12120,6 +12149,12 @@
 101482#Cubo Reforçado do Bastão#
 101483#Cubo Reforçado da Faca#
 101484#Favor Divino#
+101552#Durável Selecionável#
+101553#Caixa de Manopla Durável#
+101554#Caixa de Escudo Durável#
+101555#Pontual Selecionável#
+101556#Caixa de Manopla Pontual#
+101557#Caixa de Escudo Pontual#
 101564#Caderno de Atributos#
 101565#Caixa de Fascículos Selecionáveis#
 101665#Combinador de EXP II#
@@ -12135,7 +12170,7 @@
 102067#Cubo Sombrio Caça-Racial#
 102068#Cubo Sombrio Autoportante#
 102069#Cubo Sombrio Anti-Racial#
-102213#Baú de Reforma Primordial#
+102213#Reformador Primordial Selecionável#
 102214#Martelos Primordiais Selecionáveis#
 102224#Reformador Ancestral#
 102246#Cartão VIP Premium#
@@ -12810,6 +12845,9 @@
 107236#Pacote de Pedra Visual XI#
 107237#Grande Pacote de Pedra Visual XI#
 107238#[Abr] Caixa de Experiência#
+107316#[Colab] Selecionáveis Mochila Baby Shark#
+107317#[Colab] Selecionáveis Capuz Baby Shark#
+107318#[Colab] Selecionáveis Mini Baby Shark#
 107331#Artefato Oval Retrô#
 107332#[Evento] Artefato Oval Retrô#
 107333#Sacola de Ovo Retrô#
@@ -12923,6 +12961,19 @@
 108040#[Ago] Pacote da Newsletter#
 108042#[Ago] Pacote Surpresa#
 108043#Pacote Sakura GeekRoad#
+108060#Artefato Oval da Independência#
+108061#[Evento] Artefato Oval da Independência#
+108062#Sacola de Artefato da Independência#
+108063#Caixa de Armaduras Desconhecidas#
+108086#Pedra Desconhecida#
+108089#[Colab] Pacote Mini Baby Shark I#
+108090#[Colab] Pacote Mochila Baby Shark#
+108091#[Colab] Pacote Mini Baby Shark II#
+108092#[Colab] Pacote Capuz Baby Shark I#
+108093#[Colab] Pacote Capuz Baby Shark II#
+108094#[Set] Caixa Pequena de Ovos#
+108095#[Set] Caixa de Combate#
+108152#[Colab] Pacote Bolsa Baby Shark#
 200001#Cx. Expansor de Inventário (10)#
 200031#[Edição Limitada] Pacote MiauMiau I#
 200074#[Edição Limitada] Pacote de Combate#
@@ -13013,6 +13064,10 @@
 200965#Caixa de Refino Kumamon 2#
 200966#Caixa de Refino Kumamon 3#
 200967#Caixa de Combate Kumamon#
+200968#[Colab] Caixa de Visual Capuz Baby Shark#
+200969#[Colab] Caixa de Visual Mochila Baby Shark#
+200970#[Colab] Pacote Mini Baby Shark#
+200971#[Colab] Pacote Bolsa Baby Shark#
 200972#[Jul] Caixa Pequena de Ovos#
 200973#[Jul] Caixa Média de Ovos#
 200974#[Jul] Caixa Grande de Ovos#
@@ -13044,6 +13099,7 @@
 201052#[Ago] Caixa Grande de Artefato Oval#
 201053#Combo Miau Visual 10#
 201054#Combo Miau Visual 11#
+201056#[Colab] Pacote Bolsa Baby Shark II#
 201063#[Set] Caixa de Sinos#
 201064#[Set] Caixa de Consumíveis#
 201065#Combo Elunium Perfeito 2#
@@ -13057,6 +13113,8 @@
 201073#Arca de Bradium P. 2#
 201074#Combo Minério de Armadura#
 201075#Combo Minério de Arma 2#
+201101#[Set] Caixa Média de Ovos#
+201102#[Set] Caixa Grande de Ovos#
 300001#Carta Nuvem Nociva#
 300002#Carta Nuvem Perigosa#
 300003#Carta Porcellio Albino#
@@ -13249,6 +13307,8 @@
 300732#Carta Ninja Team#
 300733#Carta Galactor#
 300734#Carta Míssil Ave#
+300834#Carta Baby Shark#
+300835#Carta Família Tubarão#
 310000#Atirador de Elite II (Topo)#
 310001#Atirador de Elite II (Meio)#
 310002#Atirador de Elite II (Baixo)#
@@ -13759,6 +13819,24 @@
 310917#INT Primordial#
 310918#VIT Primordial#
 310919#AGI Primordial#
+310920#Poder de Varmundt Nv.1#
+310921#Poder de Varmundt Nv.2#
+310922#Poder de Varmundt Nv.3#
+310923#Sabedoria de Varmundt Nv.1#
+310924#Sabedoria de Varmundt Nv.2#
+310925#Sabedoria de Varmundt Nv.3#
+310926#Concentração de Varmundt Nv.1#
+310927#Concentração de Varmundt Nv.2#
+310928#Concentração de Varmundt Nv.3#
+310929#Fatalidade de Varmundt Nv.1#
+310930#Fatalidade de Varmundt Nv.2#
+310932#Fatalidade de Varmundt Nv.3#
+310933#Recuperação de Varmundt Nv.1#
+310934#Recuperação de Varmundt Nv.2#
+310935#Recuperação de Varmundt Nv.3#
+310936#Vigor de Varmundt Nv.1#
+310937#Vigor de Varmundt Nv.2#
+310938#Vigor de Varmundt Nv.3#
 310982#P.ATQ +1#
 310983#P.ATQ +2#
 310984#S.ATQM +1#
@@ -13847,6 +13925,18 @@
 311089#T.CRÍT +2#
 311090#C.Mais +1#
 311091#C.Mais +2#
+311367#Magia Cinzenta (Guerreiro) Nv. 1#
+311368#Magia Cinzenta (Guerreiro) Nv. 2#
+311369#Magia Cinzenta (Guerreiro) Nv. 3#
+311370#Magia Cinzenta (Atirador) Nv. 1#
+311371#Magia Cinzenta (Atirador) Nv. 2#
+311372#Magia Cinzenta (Atirador) Nv. 3#
+311373#Magia Cinzenta (Magia) Nv. 1#
+311374#Magia Cinzenta (Magia) Nv. 2#
+311375#Magia Cinzenta (Magia) Nv. 3#
+311376#Magia Cinzenta (Lutador) Nv. 1#
+311377#Magia Cinzenta (Lutador) Nv. 2#
+311378#Magia Cinzenta (Lutador) Nv. 3#
 311379#Maquinário - Vigília#
 311380#Maquinário - Artilharia#
 311381#Maquinário - Supressão#
@@ -13861,6 +13951,7 @@
 311391#Pedra do Mágico 3#
 311392#Pedra do Mágico 4#
 311393#Pedra do Mágico 5#
+311394#Atraso pós-ataque Nv. 5#
 311395#Pedra da Precisão 1#
 311396#Pedra da Precisão 2#
 311397#Pedra da Precisão 3#
@@ -13964,6 +14055,10 @@
 400133#Visual do Éden#
 400134#Gálea Guerreira de Cinzas#
 400135#Gálea Guerreira de Cinzas-LT#
+400137#Grupo do Éden Boné#
+400138#Grupo do Éden Chapéu#
+400139#Grupo do Éden Avançado Boné#
+400140#Grupo do Éden Avançado Chapéu#
 400141#Gálea Afiada de Cinzas#
 400142#Gálea Afiada de Cinzas-LT#
 400143#Asas de Asgard#
@@ -14120,6 +14215,12 @@
 401254#Elmo Cobiçado de Cinzas#
 401255#Elmo Bravio de Cinzas#
 401256#Elmo Certeiro de Cinzas#
+401367#[Visual] Cabeça do Baby Shark#
+401372#[Visual] Capuz do Baby Shark#
+401373#[Visual] Capuz da Mamãe Tubarão#
+401374#[Visual] Capuz do Papai Tubarão#
+401375#[Visual] Capuz da Vovó Tubarão#
+401376#[Visual] Capuz do Vovô Tubarão#
 401433#Capacete Decadente#
 401434#Capacete Fortificado#
 401435#Capacete Descartado#
@@ -14222,6 +14323,7 @@
 410276#[Visual] Orelhas das Chamas Espirituais#
 410277#[Visual] Gato Gigante#
 410278#[Visual] Piscadela Sangrenta#
+410286#[Visual] Cetros do Mau-Olhado#
 410289#[Visual] Pesarinho#
 410295#[Visual] Sensação de Inverno#
 410316#[Visual] Quiosque do Ursinho#
@@ -14239,10 +14341,14 @@
 410458#[Visual] Brilho Divino#
 410491#[Visual] Estrela Cadente Violeta#
 410574#[Visual] Piscadela Chocolate#
+410582#[Visual] Poring Enfermeiro#
 410599#Cesta de Mascotes#
+410609#[Visual] Demônio de Nove Caudas#
 410612#Asa Dracônica#
 410613#Asa Angelical#
 410614#Óculos de Segurança#
+410636#[Visual] Peixe-Piloto#
+410637#[Visual] Mini Baby Shark#
 410642#Elmo Real#
 410705#Amigo Gioia#
 410706#Bebê Lobo#
@@ -14265,7 +14371,7 @@
 420028#Ombreiras da Glória#
 420029#[Visual] Ombreiras Prateadas#
 420030#Pena de Águia#
-420031#Mascara Azulada#
+420031#Máscara Azulada#
 420046#Manta Digníssima#
 420047#[Visual] Capa de Cavaleiro#
 420050#[Visual] Peruca com Bao-Bao#
@@ -14354,7 +14460,9 @@
 420820#Competidor Poring#
 420821#Competidor Bebê Selvagem#
 420822#Competidor Lunático#
+420826#[Visual] Armas Primordiais#
 420842#[Visual] Deidade das Águas#
+420875#[Visual] Peruca do Luar#
 430005#[Visual] Óculos do Tigre Branco#
 430025#[Visual] Líder da Galactor#
 430026#[Visual] G-1 Ken, o Águia#
@@ -14524,26 +14632,45 @@
 450179#Vestido da Celine#
 450181#[MEGA] Vestimenta de Seda#
 450182#Malha Corredora Ilusional#
+450183#Grupo do Éden Traje#
+450184#Grupo do Éden Túnica#
+450185#Grupo do Éden Avançado Traje#
+450186#Grupo do Éden Avançado Túnica#
+450191#Uniforme de Orleans Gravado#
+450192#Armadura de Escamas de Naga Gravada#
 450198#Camiseta de Algodão#
+450199#Armadura Rúnica de Varmundt#
+450200#Armadura Rúnica da Chama de Varmundt#
+450201#Armadura Rúnica da Planície de Varmundt#
+450202#Manto Rúnico da Morte de Varmundt#
+450203#Armadura Rúnica do Gelo de Varmundt#
 450217#Traje de Freeoni#
 450405#Exoesqueleto Físico#
 450406#Exoesqueleto Mágico#
 450407#Exoesqueleto Crítico#
 450445#Cota Evolutiva Física#
 450446#Cota Evolutiva Mágica#
+450595#Armadura Desconhecida FOR#
+450596#Armadura Desconhecida AGI#
+450597#Armadura Desconhecida VIT#
+450598#Armadura Desconhecida INT#
+450599#Armadura Desconhecida DES#
+450600#Armadura Desconhecida SOR#
 460000#Égide das Divindades#
 460004#Escudo Ilusión A#
 460005#Absorvedor Mágico#
 460006#Enciclopédia Editada#
 460012#Vembrassa para Testes#
-460013#Pænitentia Aegis#
+460013#Paenitentia Aegis#
 460014#Escudo Ilusión B#
 460017#Vembrassa Ilusional#
 460018#Prateada Ilusional#
 460020#Coelho Macabro-LT#
+460021#Bandeja de Orleans Gravada#
+460022#Escudo de Escamas de Naga Gravado#
 460157#Escudo Automatron A#
 460158#Escudo Automatron B#
-460181#Protetor Pænitentia#
+460181#Protetor Paenitentia#
 470000#Bota de Apoio#
 470001#Sapato de Apoio#
 470002#Sapatilha de Apoio#
@@ -14570,6 +14697,9 @@
 470060#Botas de Teste#
 470061#Botas de Teste#
 470066#Sapato Corredor Ilusional#
+470067#Grupo do Éden Botas#
+470068#Grupo do Éden Sapatos#
+470069#Grupo do Éden Avançado Botas#
 470070#Coturnos das Marés#
 470071#Bota Desconhecida FOR#
 470072#Bota Desconhecida DES#
@@ -14581,7 +14711,13 @@
 470084#Grevas de Platina#
 470087#Botas do Lobo Cinzento#
 470088#Sapatos do Lobo Cinzento#
+470093#Grupo do Éden Avançado Sapatos#
 470094#Bota Primordial-LT#
+470107#Grevas Rúnicas de Varmundt#
+470108#Botas Rúnicas da Planície de Varmundt#
+470109#Botas Rúnicas da Chama de Varmundt#
+470110#Botas Rúnicas da Morte de Varmundt#
+470111#Botas Rúnicas do Gelo de Varmundt#
 470122#Botas das Chamas#
 470204#Botas Decadentes#
 470346#Bota Evolutiva Física#
@@ -14637,9 +14773,13 @@
 480095#Mochila de Coelho#
 480096#[Visual] Casaco de Camurça com Lã#
 480097#[Visual] Aura Nevada#
+480103#Grupo do Éden Manto#
+480104#Grupo do Éden Cachecol#
+480105#Grupo do Éden Avançado Manto#
+480106#Grupo do Éden Avançado Cachecol#
 480107#[Visual] Espadas do Monarca#
 480108#Cesta de Porings#
-480110#Mochila do Doram Aventureiro#
+480110#[Visual] Mochila do Doram Aventureiro#
 480111#Buquê de Asas#
 480118#[Visual] Espada do General#
 480119#Chave de Nifflheim#
@@ -14655,6 +14795,12 @@
 480131#[Visual] Chama Circular#
 480136#Espada Mágica de Thanatos#
 480137#Mochila de Filir#
+480138#Manto da Sobrevivência Gravado#
+480144#Manto Rúnico de Varmundt#
+480145#Manto Rúnico da Planície de Varmundt#
+480146#Manto Rúnico da Chama de Varmundt#
+480147#Manto Rúnico da Morte de Varmundt#
+480148#Manto Rúnico do Gelo de Varmundt#
 480152#Talheres do Comilão#
 480158#Mochila Lunática#
 480167#[Visual] Pirulito de Chocolate#
@@ -14665,7 +14811,7 @@
 480177#Buquê Gigantesco#
 480181#[Visual] Cesta de Pitaya Verde#
 480187#Laçarote de Casamento#
-480189#Asas Amaldiçoadas de Valquíria#
+480189#[Visual] Asas Amaldiçoadas de Valquíria#
 480197#Jetpack Crítico#
 480198#[Visual] Asas Laureadas#
 480221#[Visual] Caudas de Raposa#
@@ -14683,7 +14829,7 @@
 480310#Macabro Gigante#
 480315#Láctea#
 480316#[Visual] Lábris#
-480318#Fênix Gloriosa#
+480318#[Visual] Fênix Gloriosa#
 480320#Manto de Iemanjá#
 480321#Prancha de Surf Azul#
 480324#Espada Mágica de Thanatos-FA#
@@ -14722,6 +14868,7 @@
 480503#[Visual] Stella Gratia#
 480517#[Visual] Manto do Dragão Guerreiro#
 480524#[Visual] Mochila de Ursão#
+480525#[Visual] Parfait Gigante de Pitaya#
 480541#[Visual] Asas Caídas de Freya#
 480544#[Visual] Rabo de Rata#
 480555#[Visual] Asas de Laphine#
@@ -14736,12 +14883,19 @@
 480617#[Visual] Espada Lendária II#
 480618#[Visual] Espada Lendária III#
 480658#[Visual] Arcanum Corvus Corax#
+480659#[Visual] Pipoqueira Ornamental#
 480683#Foice da Malícia#
 480801#[Visual] Mochila de Hatii#
 480802#[Visual] Tao Gunka Flutuante#
 480807#[Visual] Escudo Petulante#
 480812#Manto Branco Físico#
 480813#Manto Branco Mágico#
+480818#[Visual] Mochila do Baby Shark#
+480819#[Visual] Mochila da Mamãe Tubarão#
+480820#[Visual] Mochila do Papai Tubarão#
+480821#[Visual] Mochila da Vovó Tubarão#
+480822#[Visual] Mochila do Vovô Tubarão#
+480824#Bolsa do Baby Shark#
 480828#[Visual] Aljava de Flechas#
 480829#[Visual] Mochila de Exploração#
 480926#Capa Desconhecida FOR#
@@ -14823,6 +14977,14 @@
 490109#Colar do Lobo Cinzento#
 490120#Anel Corredor Ilusional#
 490121#Luva Corredora Ilusional#
+490122#Grupo do Éden Anel#
+490123#Grupo do Éden Luva#
+490124#Grupo do Éden Anel Mágico#
+490125#Grupo do Éden Colar#
+490126#Grupo do Éden Avançado Anel#
+490127#Grupo do Éden Avançado Luva#
+490128#Grupo do Éden Avançado Anel Mágico#
+490129#Grupo do Éden Avançado Colar#
 490130#Pulseira de Ferro Trançado#
 490131#Sinete Estelar#
 490132#Sinete Estelar POD#
@@ -14840,6 +15002,9 @@
 490155#Cordão do Guardião#
 490156#Cordão do Cardeal#
 490159#Núcleo Concentrado#
+490160#Luvas de Orleans Gravadas#
+490161#Corsage de Pinguicula Gravado#
+490162#Broche de Gota d'Água Gravado#
 490163#Broche Primordial#
 490164#Cordão do Executor#
 490165#Cordão do Mandraque#
@@ -14901,20 +15066,26 @@
 500016#Espada de Apoio Botânico#
 500017#Vingadora Primordial#
 500018#Espada Decadente#
-500019#Pænitentia Gladius#
-500020#Pænitentia Rigula#
+500019#Paenitentia Gladius#
+500020#Paenitentia Rigula#
 500024#Espada de Cinzas-AD#
 500025#Espada Adulter Fides#
 500026#Rapieira Adulter Fides#
 500027#Espada Vivatus Fides#
 500028#Rapieira Vivatus Fides#
 500030#Excalibur Ilusional#
+500032#Grupo do Éden Espada#
+500033#Grupo do Éden Templário Espada#
+500034#Grupo do Éden Alquimista Espada#
+500035#Grupo do Éden Superaprendiz Espada#
+500036#Grupo do Éden Guarda Real Espada#
+500037#Grupo do Éden Bioquímico Espada#
 500038#Vingadora Primordial-LT#
 500039#Sabre Primordial-LT#
 500040#Lâmina Primordial-LT#
 500044#Gume Solidificado#
 500045#Espada Malevolente#
-500046#Pænitentia Orbis#
+500046#Paenitentia Orbis#
 500051#Rapieira-OSAD#
 500109#Espada Dínamo#
 510006#Adaga Ancestral#
@@ -14926,12 +15097,17 @@
 510021#Faca para Testes#
 510022#Wakizashi Primordial#
 510026#Adaga Decadente#
-510027#Pænitentia Mucro#
-510028#Pænitentia Dilacero#
+510027#Paenitentia Mucro#
+510028#Paenitentia Dilacero#
 510030#Adaga de Cinzas-AD#
 510032#Adaga Adulter Fides#
 510033#Adaga Vivatus Fides#
 510034#Ritualística Ilusional#
+510035#Grupo do Éden Adaga#
+510036#Grupo do Éden Arruaceiro Adaga#
+510037#Grupo do Éden Soul Linker Adaga#
+510038#Grupo do Éden Renegado Adaga#
+510039#Grupo do Éden Superaprendiz Adaga#
 510040#Punhal Primordial-LT#
 510041#Adaga Primordial-LT#
 510049#Punhal Enferrujado#
@@ -14941,8 +15117,8 @@
 510053#Punhal Fortificado#
 510054#Gume Fortificado#
 510055#Lâmina Decadente#
-510056#Pænitentia Sol#
-510057#Pænitentia Yana#
+510056#Paenitentia Sol#
+510057#Paenitentia Yana#
 510060#Wakizashi Primordial-LT#
 510066#Kuroiro-OSAD#
 510070#Faca Ancestral#
@@ -14955,18 +15131,24 @@
 520003#Foice de Fogo Vivo#
 520008#Lábris Adulter Fides#
 520009#Lábris Vivatus Fides#
+520010#Grupo do Éden Machado#
+520011#Grupo do Éden Ferreiro Machado#
+520012#Grupo do Éden Mecânico Machado#
 530002#Arpão Glutonia#
 530005#Lança de Apoio Hoplita#
 530006#Lança Primordial#
 530009#Pique Fortificado#
-530010#Pænitentia Hasta#
+530010#Paenitentia Hasta#
 530012#Lança de Cinzas-AD#
 530013#Lança Adulter Fides#
 530014#Lança Vivatus Fides#
 530015#Gelerdria Ilusional#
+530017#Grupo do Éden Templário Lança#
+530018#Grupo do Éden Guarda Real Lança#
 530019#Lança Primordial-LT#
 530023#Pique Solidificado#
 530031#Propulsora-OSAD#
+530045#Lança Celestial#
 530067#Lança Dínamo#
 540004#Caderno Acedia#
 540005#Livro Acedia#
@@ -14974,8 +15156,8 @@
 540010#Enciclopédia Primordial#
 540011#Tomo Primordial#
 540013#Grimório Fortificado#
-540014#Pænitentia Codex#
-540015#Pænitentia Liber#
+540014#Paenitentia Codex#
+540015#Paenitentia Liber#
 540019#Grimório Adulter Fides#
 540020#Livro Adulter Fides#
 540021#Bíblia Adulter Fides#
@@ -14984,16 +15166,25 @@
 540024#Grimório Vivatus Fides#
 540025#Livro Vivatus Fides#
 540026#Bíblia Vivatus Fides#
+540027#Grupo do Éden Sábio Mágico Livro#
+540028#Grupo do Éden Sábio Livro de Feitiços#
+540029#Grupo do Éden Taekwon Master Livro de Combate#
+540030#Grupo do Éden Taekwon Master Manual de Combate#
+540031#Grupo do Éden Feiticeiro Mágico Livro#
+540032#Grupo do Éden Feiticeiro Livro de Feitiços#
+540033#Grupo do Éden Mestre Estelar Livro Solar#
+540034#Grupo do Éden Mestre Estelar Livro Lunar#
 540035#Tomo Primordial-LT#
 540041#Grimório Solidificado#
 540042#Livro Malevolente#
 540043#Livro Decadente#
-540044#Pænitentia Radius#
+540044#Paenitentia Radius#
 540045#Compêndio Vivatus Fides#
 540046#Manual Vivatus Fides#
 540048#Enciclopédia Primordial-LT#
 540051#Placa-Mãe-OSAD#
 540053#Bíblia Infernal#
+540059#Livro Infernal#
 540099#Caderno Dínamo#
 540127#Livro Muscular#
 550006#Cabo de Aço#
@@ -15007,8 +15198,8 @@
 550014#Cauda de Gato Primordial#
 550015#Pêndulo Primordial#
 550017#Cauda de Gato Reluzente#
-550019#Pænitentia Scipio#
-550020#Pænitentia Crystallum#
+550019#Paenitentia Scipio#
+550020#Paenitentia Crystallum#
 550023#Cajado de Cinzas-AD#
 550024#Cetro Adulter Fides#
 550025#Cajado Adulter Fides#
@@ -15018,6 +15209,19 @@
 550029#Cetro Vivatus Fides#
 550030#Espinho Ilusional#
 550031#Dea Ilusional#
+550032#Grupo do Éden Cetro#
+550033#Grupo do Éden Rabo-de-Gato#
+550034#Grupo do Éden Bruxo Cajado#
+550035#Grupo do Éden Bruxo Varinha#
+550036#Grupo do Éden Sacerdote Cajado#
+550037#Grupo do Éden Soul Linker Cajado#
+550038#Grupo do Éden Doram Rabo-de-Gato#
+550039#Grupo do Éden Doram Modelo de Rabo-de-Gato#
+550040#Grupo do Éden Superaprendiz Cajado#
+550041#Grupo do Éden Arcebispo Cajado#
+550042#Grupo do Éden Summoner Rabo-de-Gato#
+550043#Grupo do Éden Summoner Modelo de Rabo-de-Gato#
+550044#Grupo do Éden Superaprendiz Varinha#
 550045#Cajado Primordial-LT#
 550046#Feitiço Primordial-LT#
 550050#Cauda de Gato de Apoio Animal#
@@ -15028,9 +15232,9 @@
 550057#Bastão Fortificado#
 550058#Planta Decadente#
 550059#Cajado Fortificado#
-550060#Pænitentia Planta#
-550061#Pænitentia Ramus#
-550062#Pænitentia Ferum#
+550060#Paenitentia Planta#
+550061#Paenitentia Ramus#
+550062#Paenitentia Ferum#
 550063#Varinha Vivatus Fides#
 550064#Cajado Vivatus Fides#
 550065#Rabo-de-Gato Vivatus Fides#
@@ -15042,6 +15246,7 @@
 550080#Bastão Ancestral#
 550081#Bastão Primordial#
 550082#Bastão Primordial-LT#
+550115#Cauda de Gato Infernal#
 550160#Cetro Dínamo#
 550161#Báculo Dínamo#
 550166#Varinha Dínamo#
@@ -15056,13 +15261,17 @@
 560008#Garra Primordial#
 560009#Soqueira Primordial#
 560011#Punho Descartado#
-560012#Pænitentia Caestus#
-560013#Pænitentia Ungula#
+560012#Paenitentia Caestus#
+560013#Paenitentia Ungula#
 560017#Punho de Cinzas-AD#
 560018#Manopla Adulter Fides#
 560019#Garra Adulter Fides#
 560020#Manopla Vivatus Fides#
 560021#Garra Vivatus Fides#
+560022#Grupo do Éden Monge Soqueira#
+560023#Grupo do Éden Monge Garra#
+560024#Grupo do Éden Shura Soqueira#
+560025#Grupo do Éden Shura Garra#
 560026#Garra Primordial-LT#
 560027#Soqueira Primordial-LT#
 560030#Punho Consertado#
@@ -15074,12 +15283,15 @@
 570009#Ocarina Primordial#
 570010#Violino de Apoio Musical#
 570012#Violino Descartado#
-570013#Pænitentia Chorda#
+570013#Paenitentia Chorda#
 570016#Violino de Cinzas-AD#
 570017#Violino Adulter Fides#
 570018#Harpa Adulter Fides#
 570019#Violino Vivatus Fides#
 570020#Harpa Vivatus Fides#
+570021#Grupo do Éden Bardo Violino#
+570022#Grupo do Éden Trovador Violino#
+570023#Grupo do Éden Trovador Harpa#
 570027#Ocarina Primordial-LT#
 570028#Violino Consertado#
 570037#Harpa Celestial#
@@ -15091,12 +15303,15 @@
 580009#Concertina Primordial#
 580010#Chicote de Apoio Musical#
 580012#Chicote Descartado#
-580013#Pænitentia Flagellum#
+580013#Paenitentia Flagellum#
 580016#Chicote de Cinzas-AD#
 580017#Açoite Adulter Fides#
 580018#Chicote Adulter Fides#
 580019#Açoite Vivatus Fides#
 580020#Chicote Vivatus Fides#
+580021#Grupo do Éden Odalisca Corda#
+580022#Grupo do Éden Musa Chicote#
+580023#Grupo do Éden Musa Corda#
 580027#Concertina Primordial-LT#
 580028#Chicote Consertado#
 580038#Chicote Celestial#
@@ -15111,13 +15326,18 @@
 590011#Maça Primordial#
 590012#Clava Primordial#
 590015#Cruz Decadente#
-590016#Pænitentia Clava#
-590017#Pænitentia Pendulus#
+590016#Paenitentia Clava#
+590017#Paenitentia Pendulus#
 590020#Maça de Cinzas-AD#
 590021#Clava Adulter Fides#
 590022#Maça Adulter Fides#
 590023#Clava Vivatus Fides#
 590024#Maça Vivatus Fides#
+590025#Grupo do Éden Maça#
+590026#Grupo do Éden Alquimista Maça#
+590027#Grupo do Éden Sacerdote Maça#
+590028#Grupo do Éden Bioquímico Maça#
+590029#Grupo do Éden Arcebispo Maça#
 590030#Clava Primordial-LT#
 590034#Maça Primordial-LT#
 590036#Cruz Malevolente#
@@ -15130,10 +15350,12 @@
 600011#Guia Ilusional#
 600012#Espada de Apoio Crítico#
 600013#Florete Fortificado#
-600014#Pænitentia Ensis#
+600014#Paenitentia Ensis#
 600016#Grande Espada de Cinzas-AD#
 600017#Bastarda Adulter Fides#
 600018#Bastarda Vivatus Fides#
+600020#Grupo do Éden Cavaleiro Espada de Duas Mãos#
+600021#Grupo do Éden Cavaleiro Rúnico Espada de Duas Mãos#
 600023#Espada Primordial-LT#
 600024#Bastarda Primordial-LT#
 600028#Claymore-OSAD#
@@ -15145,12 +15367,16 @@
 610012#Gélida Ilusional#
 610013#Katar de Apoio Crítico#
 610015#Katar Decadente#
-610016#Pænitentia Manus#
+610016#Paenitentia Manus#
 610019#Katar de Cinzas-AD#
 610020#Chakram Adulter Fides#
 610021#Katar Adulter Fides#
 610022#Chakram Vivatus Fides#
 610023#Katar Vivatus Fides#
+610024#Grupo do Éden Assassin Chakram#
+610025#Grupo do Éden Assassin Katar#
+610026#Grupo do Éden Sicário Chakram#
+610027#Grupo do Éden Sicário Katar#
 610028#Katar de Apoio Corporal#
 610033#Katar Primordial-LT#
 610034#Jur Primordial-LT#
@@ -15160,9 +15386,11 @@
 620003#Machado de Apoio Corporal#
 620004#Cutelo Primordial#
 620005#Machado Decadente#
-620006#Pænitentia Axia#
+620006#Paenitentia Axia#
 620009#Machado de Cinzas-AD#
 620010#Apocalíptico Ilusional#
+620011#Grupo do Éden Ferreiro de Duas Mãos Machado#
+620012#Grupo do Éden Mecânico de Duas Mãos Machado#
 620015#Cutelo Primordial-LT#
 620016#Machado Malevolente#
 620018#Blasti-OSAD#
@@ -15171,9 +15399,11 @@
 630006#Brionac Ilusional#
 630007#Zéfiro Ilusional#
 630008#Lança de Apoio Draconiano#
-630009#Pænitentia Catapulta#
+630009#Paenitentia Catapulta#
 630012#Arpão Adulter Fides#
 630013#Arpão Vivatus Fides#
+630014#Grupo do Éden Cavaleiro Lança#
+630015#Grupo do Éden Cavaleiro Rúnico Lança#
 630027#Tridente Celestial#
 640004#Báculo Ancestral#
 640005#Báculo Superbia#
@@ -15182,13 +15412,17 @@
 640011#Cetro Primordial#
 640012#Báculo Primordial#
 640013#Báculo Fortificado#
-640014#Pænitentia Termes#
-640015#Pænitentia Virga#
+640014#Paenitentia Termes#
+640015#Paenitentia Virga#
 640017#Cajado Duplo Cinzas-AD#
 640019#Bastão Adulter Fides#
 640020#Báculo Adulter Fides#
 640021#Bastão Vivatus Fides#
 640022#Báculo Vivatus Fides#
+640023#Grupo do Éden Arcano Cajado#
+640024#Grupo do Éden Arcano Varinha#
+640025#Grupo do Éden Ceifador de Almas Cajado#
+640026#Grupo do Éden Ceifador de Almas Soul Stick#
 640027#Cetro Primordial-LT#
 640028#Báculo Primordial-LT#
 640031#Báculo Solidificado#
@@ -15197,6 +15431,10 @@
 650004#Shuriken Huuma Primordial#
 650008#Huuma Adulter Fides#
 650009#Shuriken Adulter Fides#
+650010#Grupo do Éden Ninja Huuma Shuriken#
+650011#Grupo do Éden Ninja Cruz Huuma Shuriken#
+650012#Grupo do Éden Kagerou&Oboro Huuma Shuriken#
+650013#Grupo do Éden Kagerou&Oboro Cruz  Huuma Shuriken#
 650019#Triturador Consertado#
 650020#Triturador Descartado#
 650021#Shuriken Vivatus Fides#
@@ -15215,10 +15453,10 @@
 700018#Balista Primordial#
 700019#Gakkung Primordial#
 700021#Arco Descartado#
-700022#Pænitentia Tenon#
-700023#Pænitentia Nerus#
-700024#Pænitentia Attendo#
-700025#Pænitentia Vatia#
+700022#Paenitentia Tenon#
+700023#Paenitentia Nerus#
+700024#Paenitentia Attendo#
+700025#Paenitentia Vatia#
 700029#Arco de Cinzas-AD#
 700030#Besta Adulter Fides#
 700031#Balista Adulter Fides#
@@ -15226,6 +15464,14 @@
 700033#Besta Vivatus Fides#
 700034#Balista Vivatus Fides#
 700035#Arco Vivatus Fides#
+700036#Grupo do Éden Arco#
+700037#Grupo do Éden Arruaceiro Arco#
+700038#Grupo do Éden Caçador Arco#
+700039#Grupo do Éden Caçador Besta#
+700040#Grupo do Éden Bardo&Odalisca Arco#
+700041#Grupo do Éden Renegado Arco#
+700042#Grupo do Éden Sentinela Arco#
+700043#Grupo do Éden Sentinela Besta#
 700045#Balista Primordial-LT#
 700046#Gakkung Primordial-LT#
 700049#Arco Primordial-LT#
@@ -15240,17 +15486,21 @@
 800000#IDTest_ÃÑ#
 800002#Revólver Primordial#
 800003#Revólver Adulter Fides#
+800004#Grupo do Éden Revólver#
+800005#Grupo do Éden Justiceiro Revólver#
+800006#Grupo do Éden Insurgente Revólver#
 800009#Revólver Consertado#
 800010#Revólver Descartado#
-800011#Pænitentia Flama#
+800011#Paenitentia Flama#
 800012#Revólver Vivatus Fides#
 800013#Revólver Primordial-LT#
 810000#Rifle Luxuriae#
 810001#Rifle Primordial#
 810002#Rifle Adulter Fides#
+810003#Grupo do Éden Justiceiro Rifle#
 810005#Atirador Consertado#
 810006#Atirador Descartado#
-810007#Pænitentia Penet#
+810007#Paenitentia Penet#
 810008#Rifle Vivatus Fides#
 810009#Rifle Primordial-LT#
 810013#HR-S55-OSAD#
@@ -15264,9 +15514,10 @@
 830001#Metralhadora Luxuriae#
 830002#Gatling Primordial#
 830003#Metralhadora Adulter Fides#
+830004#Grupo do Éden Insurgente Metralhadora Gatling#
 830008#Aspersor Consertado#
 830009#Aspersor Descartado#
-830010#Pænitentia Veloci#
+830010#Paenitentia Veloci#
 830011#Metralhadora Vivatus Fides#
 830012#Gatling Primordial-LT#
 830042#Metralhadora Dínamo#
@@ -15275,7 +15526,7 @@
 840002#Granadeira Adulter Fides#
 840004#Bombardeador Consertado#
 840005#Bombardeador Descartado#
-840006#Pænitentia Ruina#
+840006#Paenitentia Ruina#
 840007#Granadeira Vivatus Fides#
 840008#Lança-Granadas Primordial-LT#
 1000000#IDTest_ÀâÅÛ#
@@ -15640,6 +15891,14 @@
 1000629#Ticket de Mascote Alicel#
 1000631#Ticket de Mascote Kiel D-01#
 1000632#Ticket de Mascote Andarilho Poluto#
+1000636#Fragmento de Runa da Planície#
+1000637#Fragmento de Runa da Chama#
+1000638#Fragmento de Runa do Gelo#
+1000639#Fragmento de Runa da Morte#
+1000640#Runa da Planície#
+1000641#Runa da Chama#
+1000642#Runa do Gelo#
+1000643#Runa da Morte#
 1000657#Novelo de Almas#
 1000675#Pedra de Pós (Dual)#
 1000676#Pedra de CRV (Dual)#
@@ -15716,8 +15975,8 @@
 1001778#Ticket de Mascote Skeggiold#
 1001782#Ticket de Mascote Vigia do Tempo#
 1001783#Ticket de Mascote Gerente#
-1001860#Lágrima da Fúria (Avançada)#
-1001861#Lágrima da Fúria (Intermediária)#
+1001860#Lágrima Temporal Forte#
+1001861#Lágrima Temporal Fraca#
 1001886#Moeda Kung Fu Panda#
 1001907#Pedra de Pegada: Bolinhos (Capa)#
 1001908#Pedra de Pegada: Pandas (Capa)#
@@ -15746,6 +16005,7 @@
 1002875#Ticket de Mascote Bebê Poring#
 1002876#Ticket de Mascote Familiar#
 1002877#Ticket de Mascote Lobo do Deserto#
+1002959#Moeda Baby Shark#
 1003095#Ticket de Mascote Eddga#
 1100000#IDTest_ÀâÅÛ#
 1100003#Elixir Vermelho#
@@ -15754,6 +16014,8 @@
 1100028#Macarrão Delicioso#
 1100029#Bao Delicioso#
 1100036#Peixe Compartilhado#
+1100060#Pão Baby Shark#
+1100061#Pirulito Cantante Baby Shark#
 1220001#Kunai#
 1220002#Kunai Imaterial#
 1220003#Kunai Sombria#

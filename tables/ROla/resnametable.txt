@@ -2230,3 +2230,14 @@ prt_mk_a.rws#prt_mk.rws#
 1@mjo2.gat#1@mjo2.gat#
 1@mjo2.rsw#1@mjo2.rsw#
 유저인터페이스\map\1@mjo2.bmp#유저인터페이스\map\1@mjo2.bmp#
+
+// 아기상어 콜라보
+1@pbs.gnd#1@pbs.gnd#
+1@pbs.gat#1@pbs.gat#
+1@pbs.rsw#1@pbs.rsw#
+유저인터페이스\map\1@pbs.bmp#유저인터페이스\map\1@pbs.bmp#
+
+pbse.gnd#cmd_bhole.gnd#
+pbse.gat#cmd_bhole.gat#
+pbse.rsw#cmd_bhole.rsw#
+유저인터페이스\map\pbse.bmp#유저인터페이스\map\cmd_bhole.bmp#

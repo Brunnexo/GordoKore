@@ -3656,7 +3656,7 @@ Início da Venda#
 Fim da Venda#
 Venda Limitada#
 Período: %dm %dh %dd %dm#
-1 por conta#
+Limite por conta:#
 Limitado#
 >> ItemName: %s / Quantidade: %d / Período de vendas: %d mês:%d dia:%d hora:%d minuto ~ %d mês:%d dia:%d hora:%d minuto#
 Esgotado#
@@ -4375,3 +4375,11 @@ Devolver ao Remetente#
 *A conjuração fixa desta habilidade não é afetada pelos efeitos de redução da conjuração fixa de itens ou habilidades.#
 *A conjuração variável desta habilidade não é reduzida por atributos\ne não é afetada pelos efeitos de redução da conjuração variável de itens ou habilidades.#
 O tempo de recarga da habilidade será igual ao nível do elemental invocado × 3 segundos.#
+Armazém da Kafra#
+Armazém da Mão de Gato#
+Armazém aberto com sucesso.#
+Aguardando....#
+Falha ao abrir o armazém.#
+Este armazém já está em uso.#
+Aguarde um momento.#
+Número de armazém inválido.#

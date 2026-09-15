@@ -3822,9 +3822,9 @@ Caça ao Quinding#
 Você já entregou seus doces hoje. Quando a missão resetar, volte a falar com <NAVI>[Chocolai]<INFO>prontera,163,98,0,101,0</INFO></NAVI> se deseja repetir.#
 Reseta 4 da manhã#
 
-3335#Criar um chapéu flor de cerejeira não é fácil###
-<NAVI>[Arles]<INFO>prontera,167,291,0,101,0</INFO></NAVI> pediu que você trouxesse os materiais necessários para fazer a fantasia. Traga 10 Raminhos de Flores Pequenas e 5 Ervas Amarelas.#
-Entregar materiais para Arles#
+3335#Fabricar um Chapéu Florido###
+<NAVI>[Arles]<INFO>prontera,167,291,0,101,0</INFO></NAVI>, em Prontera, pediu para que você trouxesse os materiais necessários para fazer o visual. Traga 10x Raminho de Flores e 5x Erva Amarela.#
+Entregar materiais para o Arles#
 
 3336#Milho Dourado###
 Elimine 3x Imp Morno e 3x Estrondo Morno e volte para a <NAVI>[Dra. Korn]<INFO>comodo,159,196,0,101,0</INFO></NAVI>.#
@@ -4446,29 +4446,29 @@ Traga ^4d4dff10 Piroclastos^000000 para Kerlin, em Comodo.#
 Para fazer o ^4d4dffVisual da Festa da Pipoca desse ano^000000, voc? deve coletar ^4d4dff20 Piroclastos^000000 e levá-los para Kerlin, em Comodo.#
 20x Piroclasto#
 
-3519#Julgamento de Seoyeon (1)###
-Derrote 100 monstros de qualquer tipo no <NAVI>[Labirinto de Amatsu Tatami]<INFO>ama_dun01.gat,156,192,0,101,0</INFO></NAVI>.#
-Caçar 100 monstros#
+3519#Shinkiro & Shiranui###
+Derrote 100 monstros de qualquer tipo no <NAVI>[Labirinto de Tatames]<INFO>ama_dun01.gat,156,192,0,101,0</INFO></NAVI>.#
+Calabouço de Amatsu (1)#
 
-3520#Julgamento de Seoyeon (2)###
-Derrote 100 monstros de qualquer tipo no <NAVI>[Campo de Batalha da Floresta Subterrânea de Amatsu]<INFO>ama_dun02.gat,121,47,0,101,0</INFO></NAVI>.#
-Caçar 100 monstros#
+3520#Shinkiro & Shiranui###
+Derrote 100 monstros de qualquer tipo no <NAVI>[Floresta Subterrânea]<INFO>ama_dun02.gat,121,47,0,101,0</INFO></NAVI>.#
+Calabouço de Amatsu (2)#
 
-3521#Julgamento de Seoyeon (3)###
-Derrote 100 monstros de qualquer tipo no <NAVI>[Santuário Subterrâneo de Amatsu]<INFO>ama_dun03.gat,152,55,0,101,0</INFO></NAVI>.#
-Caçar 100 monstros#
+3521#Shinkiro & Shiranui###
+Derrote 100 monstros de qualquer tipo no <NAVI>[Templo Subterrâneo]<INFO>ama_dun03.gat,152,55,0,101,0</INFO></NAVI>.#
+Calabouço de Amatsu (3)#
 
-3522#Traços de Yeongwi###
-Vamos procurar vestígios de Yeongwi em algum lugar em <NAVI>[Campo de Batalha da Floresta Subterrânea de Amatsu]<INFO>ama_dun02.gat,121,47,0,101,0</INFO></NAVI>.#
-Localizar rastros#
+3522#Shinkiro & Shiranui###
+Vamos procurar vestígios de Yeongwi em algum lugar na <NAVI>[Floresta Subterrânea]<INFO>ama_dun02.gat,121,47,0,101,0</INFO></NAVI>.#
+Procure por vestígios#
 
-3523#Encontro com um antigo ninja###
+3523#Shinkiro & Shiranui###
 Vamos liberar a alma de Yeongwi e ganhar nova força.#
-Derrotar Yeongwi#
+Derrote Yeongwi#
 
-4000#Entrevista de emprego de Sherin###
+4000#Mudança de Classe: Caçador###
 Você precisa passar no teste de Sherin para dar um passo adiante.#
-#
+Entrevista de emprego de Sherin#
 
 4001#Mudança de Classe: Caçador###
 Encontre o Caçadora de Guilda para continuar o teste.#
@@ -6256,7 +6256,7 @@ Reseta 4 da manhã.#
 
 5304#Posto Policial###
 Você encontrou o Policial Kesler pela primeira vez.#
-Fale com o Polícia Kesler#
+Ajude o Chefe de Polícia Kesler#
 
 5305#Posto Policial###
 Você encontrou o Policial Salgran pela primeira vez.#
@@ -6278,29 +6278,29 @@ Fale com o Policial Piffs#
 O Chefe de Polícia quer saber se seus colegas estão com problemas. Você pode encontrar os policiais Salgran, Gerev e Seiden na Praça Central de Verus. O policial Piffs encontra-se próximo ao Chefe Kesler.#
 Ajude os policiais.#
 
-5310#O problema de Salgran###
-O policial Salgran parece ter um pequeno problema com as Propagandas Ilegais.#
-#
+5310#Policial Salgran###
+O policial Salgran parece ter um pequeno problema com as Propagandas Ilegais. Retorne ao Chefe quando falar com todos os policiais.#
+Complete a missão#
 
-5311#O problema de Gerev###
-O policial Gerev parece ter um pequeno problema com as Armadilhas.#
-#
+5311#Policial Gerev###
+O policial Gerev parece ter um pequeno problema com as Armadilhas. Retorne ao Chefe quando falar com todos os policiais.#
+Complete a missão#
 
-5312#O problema de Seiden###
-O policial Seiden parece ter um pequeno problema com as Pedras.#
-#
+5312#Policial Seiden###
+O policial Seiden parece ter um pequeno problema com as Pedras. Retorne ao Chefe quando falar com todos os policiais.#
+Complete a missão#
 
-5313#O problema de Piffs###
-O policial Piffs parece ter um pequeno problema com as Ervas.#
-#
+5313#Policial Piffs###
+O policial Piffs parece ter um pequeno problema com as Ervas. Retorne ao Chefe quando falar com todos os policiais.#
+Complete a missão#
 
 5314#Solicitação de Salgran###
 Os Adoradores do Infortúnio estão sujando a praça central de Verus com Propagandas Ilegais! É melhor você remover esses panfletos imediatamente antes que eles fiquem colados no chão permanentemente.#
-Elimine 10 Propagandas Ilegais#
+Propagandas Ilegais#
 
 5315#Solicitação de Gerev###
 Alguns viajantes e historiadores estão sendo vítimas das armadilhas colocadas pelos Adoradores do Infortúnio! É melhor você removê-las antes que causem mais problemas!#
-#
+Desarme 10 armadilhas#
 
 5316#Solicitação de Seiden###
 Os destroços da cidade estão servindo como pedra para os Adoradores do Infortúnio atirarem contra os policiais! Recolha essas pedras do chão para garantir que os Adoradores não as peguem primeiro!#
@@ -8218,49 +8218,49 @@ Volte para Mejai#
 Você recebeu um comprovante confirmando a entrega de Flor Bicolor. Mostre este documento a <NAVI>[Chefe Mejai]<INFO>rachel,70,135,0,101,0</INFO></NAVI>#
 Volte para Mejai#
 
-5950#Hiper Aprendiz###
-Se você estiver interessado em Hyper Aprendiz, fale com Grape.#
-#
+5950#Mudança de Classe: Hiperaprendiz###
+Se você tiver interesse nos Hiperaprendizes, fale com Uvo.#
+Fale com Uvo#
 
-5951#Hiper Aprendiz###
-De acordo com a ideologia do Clube dos Aprendizes, que busca a liberdade, desafiar o Hyper Novice é considerado liberdade. Para desafiar, fale com Grape.#
-#
+5951#Mudança de Classe: Hiperaprendiz###
+De acordo com a ideologia do Clube dos Aprendizes, que busca a liberdade, desafiar o Hiperaprendiz é considerado liberdade. Para desafiar, fale com Uvo.#
+Fale com Uvo#
 
-5952#Hiper Aprendiz###
+5952#Mudança de Classe: Hiperaprendiz###
 O desafio de se tornar um Hiperaprendiz! As Memórias do Aprendiz podem ser repetidas a cada hora.#
 Tempo de espera 1 hora#
 
-5953#Hiper Aprendiz###
+5953#Mudança de Classe: Hiperaprendiz###
 O desafio de se tornar um Hiperaprendiz! As Memórias do Aprendiz podem ser repetidas a cada hora.#
 Tempo de espera 1 hora#
 
-5954#Hiper Aprendiz###
+5954#Mudança de Classe: Hiperaprendiz###
 O desafio de se tornar um Hiperaprendiz! As Memórias do Aprendiz podem ser repetidas a cada hora.#
 Tempo de espera 1 hora#
 
-5955#Hiper Aprendiz###
+5955#Mudança de Classe: Hiperaprendiz###
 O desafio de se tornar um Hiperaprendiz! As Memórias do Aprendiz podem ser repetidas a cada hora.#
 Tempo de espera 1 hora#
 
-5956#Hiper Aprendiz###
+5956#Mudança de Classe: Hiperaprendiz###
 O desafio de se tornar um Hiperaprendiz! As Memórias do Aprendiz podem ser repetidas a cada hora.#
 Tempo de espera 1 hora#
 
-5957#Memórias de um Aprendiz (1)###
-O progresso da masmorra foi salvo nas Memórias do Novato.#
-#
+5957#Mudança de Classe: Hiperaprendiz###
+Seu progresso na instância [Memórias do Aprendiz] foi salvo.#
+Progresso 1 salvo#
 
-5958#Memórias de um Aprendiz (2)###
-O progresso da masmorra foi salvo nas Memórias do Novato.#
-#
+5958#Mudança de Classe: Hiperaprendiz###
+Seu progresso na instância [Memórias do Aprendiz] foi salvo.#
+Progresso 2 salvo#
 
-5959#Memórias de um Aprendiz (3)###
-O progresso da masmorra foi salvo nas Memórias do Novato.#
-#
+5959#Mudança de Classe: Hiperaprendiz###
+Seu progresso na instância [Memórias do Aprendiz] foi salvo.#
+Progresso 3 salvo#
 
-5960#Hiper Novato###
-Sinto que obtive tudo o que precisava das Memórias da Noviça. Vamos sair e conhecer a Grape.#
-#
+5960#Mudança de Classe: Hiperaprendiz###
+Sinto que obtive tudo o que precisava das Memórias do Aprendiz. Vamos sair e conhecer a Uvo.#
+Fale com Uvo#
 
 5961#[Espera] Refeição do Diabo###
 Hoje, servi uma refeição para o <NAVI>[Diabo na Caixa]<INFO>c_tower1,243,202,0,101,0</INFO></NAVI>. Vamos retornar amanhã.#
@@ -8359,7 +8359,7 @@ Leve a carta para o Sr. Sábio Chifre de Touro em Payon.#
 Ao Sábio Chifre de Touro#
 
 6021#Mudança de Classe: Justiceiro###
-Posso fazer um amuleto que vai demonstrar o seu desejo de se tornar um guerreiro da terra, para que você apresente aos treinadores de Justiceiros.' Traga os itens: 3 Erva Verde 3 Esporo de Cogumelo#
+Posso fazer um amuleto que vai demonstrar o seu desejo de se tornar um guerreiro da terra, para que você apresente aos treinadores de Justiceiros. Traga os itens: 3 Erva Verde 3 Esporo de Cogumelo#
 Traga os itens#
 
 6022#Mudança de Classe: Justiceiro###
@@ -12367,7 +12367,7 @@ Traga ^ff000020 Cristais Azuis, 1 Solução de Payon, 1 Solução de Morroc ^000
 Volte para Mishuna com os materiais.#
 
 8190#Piscar de olhos encantador###
-Traga ^FF00001 Espelho de Cristal^0000000! Essa ferramenta é muito importante para essa lição, então traga-me isso rápido!#
+Traga ^FF00001 Espelho de Cristal^000000! Essa ferramenta é muito importante para essa lição, então me traga rápido!#
 Traga 1 Espelho de Cristal para Canell.#
 
 8191#Assessor Charmoso###
@@ -12766,9 +12766,9 @@ Já ouviu falar do Melão Suspeito?#
 O tamanho do Melão Suspeito já foi mensurado. Posso tentar participar novamente amanhã.#
 #
 
-8323#Contratação de um funcionário de banca de rua - em espera###
-O Departamento de Recursos Humanos da Guilda dos Mercadores comissiona apenas uma missão por semana para proteger a privacidade do cliente. Aguarde até a próxima missão.#
-#
+8323#[Espera] Gestão de Lojas###
+O Centro de Gestão das Lojinhas de Rua aceita missões 1 vez por semana. É melhor esperar.#
+Aguarde 7 dias#
 
 8324#Entrega para Prontera###
 Masha, do Departamento de Recursos Humanos da Guilda dos Mercadores de Alberta, quer que você entregue uma ^4D4DFFCaixa Desgastada^000000 para a Ovelhinha de Prontera.#
@@ -13897,6 +13897,62 @@ Kung Fu Panda#
 8954#[Espera] Treino de Shifu###
 O treino de hoje acabou! Para refazer a missão, volte amanhã ao Mestre <NAVI>[Shifu]<INFO>prontera,153,224,0,101,0</INFO></NAVI>.#
 Volte amanhã 4:00#
+
+8986#Conversar com o Bebê Tubarão###
+Conversou com o Bebê Tubarão que apareceu em Comodo.#
+Conversar com o Bebê Tubarão (Concluído)#
+
+8987#Pedido do Bebê Tubarão###
+<NAVI>[Bebê Tubarão]<INFO>comodo,199,145,0,101,0</INFO></NAVI>, que apareceu em Cômodo, pediu para que você derrote 20 monstros que estão causando problemas no Parquinho do Baby Shark.#
+Derrote 20 monstros no mapa#
+
+8988#Onde o Bebê Tubarão se escondeu?###
+Se você encontrar o Bebê Tubarão três vezes, poderá receber <ITEM>[Moeda Baby Shark]<INFO>1002959</INFO></ITEM>.#
+Encontre o Bebê Tubarão#
+
+8989#Pedido do Bebê Tubarão (Nv. 200)###
+<NAVI>[Bebê Tubarão]<INFO>comodo,199,145,0,101,0</INFO></NAVI>, que apareceu em Comodo, pediu para que você derrote 300 monstros do tipo Peixe de nível 200 ou superior.#
+Derrote 300 monstros do tipo Peixe de nível 200 ou superior#
+
+8990#[Espera] Pedido do Bebê Tubarão###
+Hoje você derrotou monstros o suficiente que estavam incomodando o Bebê Tubarão e seus amigos. Vamos verificar amanhã se há mais deles.#
+Reinicia às 04:00#
+
+8991#Caça ao Tesouro com o Bebê Tubarão###
+Hoje é dia de caça ao tesouro.#
+Brincar com o Bebê Tubarão#
+
+8992#Esconde-esconde com o Bebê Tubarão###
+Hoje é dia de esconde-esconde.#
+Brincar com o Bebê Tubarão#
+
+8993#Procurando a Família Tubarão###
+Hoje é dia de encontrar a família.#
+Brincar com o Bebê Tubarão#
+
+8994#[Espera] Brincar com o Bebê Tubarão###
+Hoje você já brincou com o Bebê Tubarão. Vamos brincar de novo amanhã!#
+Reinicia às 04:00#
+
+8995#Vamos encontrar as conchas!###
+O Bebê Tubarão escondeu tesouros por toda parte. Mas as caixas de tesouro estão um pouco estranhas...#
+Conversar com as caixas de tesouro#
+
+8996#Conseguimos todas as conchas!###
+Você resolveu todos os enigmas. Vamos levar as conchas ao Bebê Tubarão.#
+Falar com o Bebê Tubarão#
+
+8997#Encontre a Mamãe Tubarão!###
+Eu ia brincar com o Bebê Tubarão, mas de repente começamos a brincar de esconde-esconde com a Mamãe Tubarão. Vamos encontrar a Mamãe Tubarão!#
+Encontrar Mamãe Tubarão#
+
+8998#Encontre o Papai Tubarão!###
+Eu ia brincar com o Bebê Tubarão, mas de repente começamos a brincar de esconde-esconde com o Papai Tubarão. Vamos encontrar o Papai Tubarão!#
+Encontrar Papai Tubarão#
+
+8999#Encontre a Vovó Tubarão!###
+Eu ia brincar com o Bebê Tubarão, mas de repente começamos a brincar de esconde-esconde com a Vovó Tubarão. Vamos encontrar a Vovó Tubarão!#
+Encontrar Vovó Tubarão#
 
 9000#Mudança de classe para Knight###
 Herman, Capitão da Cavalaria, diz que você precisa obter aprovações de outros Cavaleiros para se tornar um.#
@@ -18618,61 +18674,61 @@ Derrotar ratos#
 Eu derrotei What a cheap Rat. Vamos visitá-lo novamente amanhã.#
 Reseta 4 da manhã.#
 
-11769#Mudança de emprego do Spirit Handler!###
-Hyeonrok deixou uma carta dizendo obrigado por ajudar. Vamos falar com Chulho em <NAVI>[Deep Forest Entrance]<INFO>pay_fild09,108,346,0,101,0</INFO></NAVI>.#
-Fale com Chulho#
+11769#Mudança de Classe: Animista###
+Hyeonrok deixou uma carta agradecendo pela ajuda. Vamos falar com Cheol-ho na <NAVI>[Floresta Profunda]<INFO>pay_fild09,108,346,0,101,0</INFO></NAVI>.#
+Fale com Cheol-ho#
 
-11770#Espíritos Amigos (1)###
-Há uma solicitação da loja de madeira para lenha de Payon. Vamos visitar <NAVI>[Firewood Woodworking Shop]<INFO>payon,252,297,0,101,0</INFO></NAVI> e verificar a solicitação.#
-Visite o Workshop#
+11770#Mudança de Classe: Animista###
+Há uma solicitação da Carpintaria de Payon. Vamos visitar a <NAVI>[Carpintaria]<INFO>payon,252,297,0,101,0</INFO></NAVI>.#
+Visite a Carpintaria#
 
-11771#Espíritos Amigos (2)###
-A pessoa que coloca a comissão parece estar na ^ff3456Payon Forest^000000. Vamos nos encontrar <NAVI>[Firewood]<INFO>pay_fild08,157,129,0,101,0</INFO></NAVI> lá.#
-Fale com a Firewood#
+11771#Mudança de Classe: Animista###
+A pessoa que coloca a comissão parece estar na ^FF3456Floresta de Payon^000000. Vamos nos encontrar o sr. <NAVI>[Carvalho]<INFO>pay_fild08,157,129,0,101,0</INFO></NAVI>#
+Fale com Carvalho#
 
-11772#Espíritos Amigos (3)###
-A lenha parece ter sofrido muitos danos causados por animais selvagens. Vamos examinar as <NAVI>[ferramentas]<INFO>pay_fild08,155,128,0,101,0</INFO></NAVI> quebradas pelos animais selvagens.#
-Investigar ferramentas quebradas#
+11772#Mudança de Classe: Animista###
+A lenha parece ter sofrido muitos danos causados por animais selvagens. Vamos examinar as <NAVI>[Ferramentas Quebradas]<INFO>pay_fild08,155,128,0,101,0</INFO></NAVI>#
+Ferramentas Quebradas#
 
-11773#Espíritos Amigos (4)###
-Há pegadas de animais espalhadas pelas ferramentas quebradas. Seria uma boa ideia verificar <NAVI>[Messy Traces]<INFO>pay_fild08,153,116,0,101,0</INFO></NAVI> ao seu redor.#
-Verificar rastros#
+11773#Mudança de Classe: Animista###
+Há pegadas de animais espalhadas pelas ferramentas quebradas. Seria uma boa ideia verificar os <NAVI>[Vestígios Confusos]<INFO>pay_fild08,153,116,0,101,0</INFO></NAVI>#
+Verificar vestígios#
 
-11774#Espíritos Amigos (5)###
-Há pegadas semelhantes às encontradas ao lado da caixa de ferramentas. Vamos <NAVI>[mover]<INFO>pay_fild08,137,88,0,101,0</INFO></NAVI> seguir o rastro.#
-Verificar rastros#
+11774#Mudança de Classe: Animista###
+Há pegadas semelhantes às encontradas ao lado da caixa de ferramentas. Vamos <NAVI>[seguir o rastro]<INFO>pay_fild08,137,88,0,101,0</INFO></NAVI>#
+Verificar vestígios#
 
-11775#Espíritos Amigos (6)###
-A julgar pelas pegadas grandes e profundas dos cascos, parece ser um herbívoro de grande porte. Vamos continuar <NAVI>[em movimento]<INFO>pay_fild08,165,68,0,101,0</INFO></NAVI> ao longo da trilha.#
-Verificar rastros#
+11775#Mudança de Classe: Animista###
+A julgar pelas pegadas grandes e profundas dos cascos, parece ser um herbívoro de grande porte. Vamos continuar a <NAVI>[seguir o rastro]<INFO>pay_fild08,165,68,0,101,0</INFO></NAVI>#
+Verificar vestígios#
 
-11776#Espíritos Amigos (7)###
-Olhando para as densas pegadas de cascos, parece que há mais do que apenas um ou dois animais. Vamos continuar <NAVI>[em movimento]<INFO>pay_fild08,214,89,0,101,0</INFO></NAVI> ao longo da trilha.#
-Verificar rastros#
+11776#Mudança de Classe: Animista###
+Olhando para as densas pegadas de cascos, parece que há mais do que apenas um ou dois animais. Vamos continuar a <NAVI>[seguir o rastro]<INFO>pay_fild08,214,89,0,101,0</INFO></NAVI>#
+Verificar vestígios#
 
-11777#Espíritos Amigos (8)###
-Os animais parecem ter se deslocado diretamente para a oficina de lenha ao longo da estrada. Vamos continuar <NAVI>[movendo-se]<INFO>pay_fild09,31,87,0,101,0</INFO></NAVI> ao longo da trilha.#
-Verificar rastros#
+11777#Mudança de Classe: Animista###
+Os animais parecem ter se deslocado diretamente para a oficina de lenha ao longo da estrada. Vamos continuar a <NAVI>[seguir o rastro]<INFO>pay_fild09,31,87,0,101,0</INFO></NAVI>#
+Verificar vestígios#
 
-11778#Espíritos Amigos (9)###
-Parece que os animais da montanha ficaram sem comida ao longo do caminho. Vamos voltar para <NAVI>[Firewood]<INFO>pay_fild08,157,129,0,101,0</INFO></NAVI> e relatar a situação.#
-Fale com a Firewood#
+11778#Mudança de Classe: Animista###
+Parece que os animais da montanha ficaram sem comida ao longo do caminho. Vamos voltar para relatar ao sr. <NAVI>[Carvalho]<INFO>pay_fild08,157,129,0,101,0</INFO></NAVI>#
+Fale com Carvalho#
 
-11779#Espíritos Amigos (10)###
-Parece que alguém deixou comida na oficina de lenha. Vamos dar uma olhada mais de perto nas <NAVI>[ferramentas quebradas]<INFO>pay_fild08,155,128,0,101,0</INFO></NAVI> para encontrar uma pista.#
+11779#Mudança de Classe: Animista###
+Parece que alguém deixou comida na oficina de lenha. Vamos dar uma olhada mais de perto nas <NAVI>[Ferramentas Quebradas]<INFO>pay_fild08,155,128,0,101,0</INFO></NAVI>#
 Verifique ao redor#
 
-11780#Espíritos Amigos (11)###
-Em troca de receber o morango, Chulho diz que lhe dirá de onde vem o <NAVI>[cheiro delicioso]<INFO>payon,233,159,0,101,0</INFO></NAVI>. Vamos seguir Chulho.#
-Seguir Chulho#
+11780#Mudança de Classe: Animista###
+Em troca de receber o morango, Cheol-ho diz que lhe dirá de onde vem o <NAVI>[cheiro delicioso]<INFO>payon,233,159,0,101,0</INFO></NAVI>. Vamos seguir Cheol-ho.#
+Seguir Cheol-ho#
 
-11781#Espíritos Amigos (12)###
-A pessoa que arruinou o trabalho de Firewood foi Idegam, que encomendou o trabalho. Parece que alguém está muito chateado com isso, então vamos seguir <NAVI>[Chulho]<INFO>pay_fild09,108,346,0,101,0</INFO></NAVI>.#
-Seguir Chulho#
+11781#Mudança de Classe: Animista###
+A pessoa que arruinou o trabalho de Carvalho foi o Senhor Lee, que encomendou o trabalho. Parece que alguém está muito chateado com isso, então vamos seguir <NAVI>[Cheol-ho]<INFO>pay_fild09,108,346,0,101,0</INFO></NAVI>.#
+Seguir Cheol-ho#
 
-11782#Espíritos Amigos (13)###
-Vamos falar com Chulho dentro da <NAVI>[Floresta Profunda]<INFO>pay_fild09,108,346,0,101,0</INFO></NAVI>.#
-Fale com Chulho#
+11782#Mudança de Classe: Animista###
+Vamos falar com Cheol-ho dentro da <NAVI>[Floresta Profunda]<INFO>pay_fild09,108,346,0,101,0</INFO></NAVI>.#
+Fale com Cheol-ho#
 
 11783#A História Aconchegante de Jakk e Jakk Estranho###
 Para ajudar o Strange Jakk, vamos pedir ajuda a <NAVI>[Jakk]<INFO>Nifflheim,265,275,0,101,0</INFO></NAVI> em Nifflheim.#
@@ -25474,20 +25530,20 @@ Fale com Tite#
 Todas as crianças de Mazmorra de la mina de Einbech, piso 3 foram encontradas. Após caçar também 100 criaturas de Mazmorra de la mina de Einbech, piso 3, volte para <NAVI>[Suan]<INFO>einbroch,178,148,0,101,0</INFO></NAVI> e faça seu relatório.#
 Fale com Suan#
 
-16601#Caminho da Patrulha Noturna###
-Para saber mais sobre a Patrulha da Noite, vamos ouvir a história de <NAVI>[Illya]<INFO>einbroch,315,322,0,101,0</INFO></NAVI>.#
-Fale com Illya#
+16601#Mudança de Classe: Guerrilheiro###
+Para saber mais sobre os Guerrilheiros, vamos ouvir a história de <NAVI>[Ilya]<INFO>einbroch,315,322,0,101,0</INFO></NAVI>.#
+Fale com Ilya#
 
-16602#Caminho da Patrulha Noturna###
-Para fazer o exame Night Watch, vamos falar com <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI> que está esperando.#
+16602#Mudança de Classe: Guerrilheiro###
+Para fazer o exame dos Guerrilheiros, vamos falar com <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI>#
 Fale com Elena#
 
-16603#Caminho da Patrulha Noturna###
-Fale com <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI> e entre no Night Watch Advancement Test Center para fazer o teste.#
-Passar no teste#
+16603#Mudança de Classe: Guerrilheiro###
+Fale com <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI>. Junte-se ao time dos Guerrilheiros completando o teste.#
+Passe no teste#
 
-16604#Caminho da Patrulha Noturna###
-Você passou no teste e é hora de mudar de emprego. Vamos falar com <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI> e prosseguir com a mudança.#
+16604#Mudança de Classe: Guerrilheiro###
+Você passou no teste e é hora de mudar de classe. Vamos falar com <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI>.#
 Fale com Elena#
 
 17000#Crise na Rekenber###
@@ -26355,7 +26411,7 @@ Então está decidido, vamos nos apressar. Diga para se reunirem <NAVI>[em frent
 Executar o protesto!#
 
 17520#Lobo em Pele de Cordeiro###
-Participe do protesto no <NAVI>[templo]<INFO>rachel,169,245,0,101,0</INFO></NAVI>.#
+Participe do protesto no <NAVI>[santuário]<INFO>rachel,169,245,0,101,0</INFO></NAVI>.#
 Para o templo#
 
 17521#Quando É Preciso Conversar###
@@ -26385,6 +26441,46 @@ Reportar a Sacerdote#
 17527#[Espera] Purificação do Santuário###
 Agradecemos pela cooperação do aventureiro. Descanse hoje e contamos com sua ajuda novamente amanhã! - <NAVI>[Sacerdote]<INFO>rachel,169,245,0,101,0</INFO></NAVI>#
 Reinicia às 04:00#
+
+17528#Entrega de Equipamento Básico do Grupo Éden###
+Vá conhecer os administradores que continuarão fornecendo equipamentos para você. Primeiro, seria bom falar com o administrador <NAVI>[Thorn]<INFO>moc_para01,110,87,0,101,0,</INFO></NAVI>, responsável pelas armaduras.#
+Administrador Thorn#
+
+17529#Entrega de Equipamento Básico do Grupo Éden###
+Em seguida, vá falar com <NAVI>[Michael]<INFO>moc_para01,110,83,0,101,0,</INFO></NAVI>, responsável pelas armas avançadas.#
+Administrador Michael#
+
+17530#Entrega de Equipamento Básico do Grupo Éden###
+Agora é hora de receber equipamentos que você já pode usar. Vá falar com <NAVI>[BK]<INFO>moc_para01,110,79,0,101,0,</INFO></NAVI>.#
+Administrador BK#
+
+17531#Entrega de Equipamento Básico do Grupo Éden###
+Vá até <NAVI>[Ur]<INFO>moc_para01,23,31,0,101,0,</INFO></NAVI> e diga que já recebeu todos os equipamentos básicos.#
+Fale com o Instrutor Ur#
+
+17532#Entrega de Equipamento Sombrio do Grupo Éden###
+Se quiser receber equipamentos adicionais, converse com <NAVI>[Boya]<INFO>moc_para01,25,31,0,101,0,</INFO></NAVI>.#
+Converse com o Instrutor Boya#
+
+17533#Entrega de Equipamento Sombrio do Grupo Éden###
+Se precisar de Equipamentos Sombrios, vá falar com o administrador <NAVI>[Emil]<INFO>moc_para01,110,91,0,101,0,</INFO></NAVI> no arsenal.#
+Administrador Emil#
+
+17534#Entrega de Equipamento Sombrio do Grupo Éden###
+Informe a <NAVI>[Boya]<INFO>moc_para01,25,31,0,101,0,</INFO></NAVI> que você recebeu os Equipamentos Sombrios. Seria um problema se a entrega não fosse registrada.#
+Fale com o Instrutor Boya#
+
+17535#Entrega de Equipamento Básico do Grupo Éden###
+Se você não tiver nenhum equipamento básico decente, converse sobre isso com o instrutor <NAVI>[Ur]<INFO>moc_para01,23,31,0,101,0,</INFO></NAVI>, que está aqui ao lado.#
+Converse com o Instrutor Ur#
+
+17536#Entrega de Equipamento Avançado do Grupo Éden###
+Leve 15 Faixas Elásticas e 3 Pelos Azuis para <NAVI>[Thorn]<INFO>moc_para01,110,87,0,101,0,</INFO></NAVI> e você receberá uma armadura avançada.#
+Materiais da Armadura#
+
+17537#Entrega de Equipamento Avançado do Grupo Éden###
+Leve 15 Picaretas Velhas para <NAVI>[Michael]<INFO>moc_para01,110,83,0,101,0,</INFO></NAVI> e você receberá uma arma avançada.#
+Materiais da Arma#
 
 17538#Mudança de Classe: Mestre Celestial###
 Aqueles que pensam que são melhores e têm mais habilidades do que os outros devem provar sua vontade vindo até <NAVI>[mim]<INFO>mjolnir_03,280,252,0,101,0,</INFO></NAVI>!#
@@ -27102,220 +27198,484 @@ Fale com Tess#
 Uma série de incidentes foi concluída. Vamos ver como está agora o <NAVI>[Nihil]<INFO>prt_cas_q,21,39,0,101,0</INFO></NAVI>. Vamos para o Palácio de Prontera verificar!#
 Fale com Nihil#
 
-19066#A história do investigador Rudolf###
-Ouvi a história do Investigador Rudolf. Agora posso ter missões da Juno Monster Society que vieram para uma viagem de negócios em locais de eventos.#
-#
+19000#[É] Campo Florescente###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Campo Florescente]<INFO>ecl_fild01,182,93,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Arredores de Eclage#
 
-19067#[Favor do Rudolf###
-Posso fazer o favor de um Rudolf apenas uma vez por dia. Mas se eu der um pouco de <ITEM>[Sparkling Carbonated Water]<INFO>1000374</INFO></ITEM> para ele? Vamos falar com Rudolf novamente. ¡¡ <NAVI>[January Rudolf]<INFO>malangdo,209,151,0,101,0</INFO></NAVI> / <NAVI>[February Rudolf]<INFO>prontera,163,92,0,101,0</INFO></NAVI> / <NAVI>[March Rudolf]<INFO>yuno,180,145,0,101,0</INFO></NAVI> <NAVI>[April Rudolf]<INFO>prontera,170,288,0,101,0</INFO></NAVI> / <NAVI>[May Rudolf]<INFO>geffen,74,42,0,101,0</INFO></NAVI> / <NAVI>[June Rudolf]<INFO>comodo,248,128,0,101,0</INFO></NAVI> <NAVI>[July Rudolf]<INFO>lasagna,87,206,0,101,0</INFO></NAVI> / <NAVI>[August Rudolf]<INFO>prontera,149,305,0,101,0</INFO></NAVI> / <NAVI>[September Rudolf]<INFO>alberta,131,174,0,101,0</INFO></NAVI> <NAVI>[October Rudolf]<INFO>Nifflheim,198,238,0,101,0</INFO></NAVI> / <NAVI>[November Rudolf]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI> / <NAVI>[December Rudolf]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI>#
+19001#[Espera] Campo Florescente###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19002#[É] Sauna Meditatio###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Sauna Meditatio]<INFO>ba_bath,160,29,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Mansão de Varmunt#
+
+19003#[Espera] Sauna Meditatio###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19004#[É] Corredor das Memórias###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Corredor das Memórias]<INFO>ba_lib,160,13,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Biblioteca de Varmunt#
+
+19005#[Espera] Corredor das Memórias###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19006#[É] Estação de Esgoto###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Estação de Esgoto]<INFO>ba_pw02,276,22,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Arredores da Mansão#
+
+19007#[Espera] Estação de Esgoto###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19008#[É] Usina Mágica I###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Usina Mágica 1º andar]<INFO>ba_pw01,17,116,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Usina de Varmunt#
+
+19009#[Espera] Usina Mágica I###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19010#[É] Ninho do Dragão I###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Ninho do Dragão 2º andar]<INFO>lasa_dun02,25,171,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Caverna de Lasagna#
+
+19011#[Espera] Ninho do Dragão I###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19012#[É] Torre de Bifrost###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre de Bifrost]<INFO>ecl_tdun01,56,18,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Caverna de Eclage#
+
+19013#[Espera] Torre de Bifrost###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19014#[É] Ninho do Dragão II###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Ninho do Dragão 3º andar]<INFO>lasa_dun03,190,22,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Caverna de Lasagna#
+
+19015#[Espera] Ninho do Dragão II###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19016#[É] Prisão de Prontera###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Prisão Subterrânea de Prontera]<INFO>prt_prison,161,290,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Calabouço do Palácio#
+
+19017#[Espera] Prisão de Prontera###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19018#[É] Prontera Destruída###
+A pedido do Grupo do Éden, elimine os monstros do mapa ^0000FFProntera Destruída^000000. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Invasão em Prontera#
+
+19019#[Espera] Prontera Destruída###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19020#[É] Minas de Rockridge###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Mina de Rockridge]<INFO>rockmi1,245,22,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Na Ilha Nação#
+
+19021#[Espera] Minas de Rockridge###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19022#[É] Castelo Maldito###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Castelo Amaldiçoado]<INFO>gl_cas02_,104,32,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Modo Pesadelo#
+
+19023#[Espera] Castelo Maldito###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19024#[É] Abrigo Subterrâneo###
+A pedido do Grupo do Éden, elimine os monstros do mapa ^0000FFAbrigo Subterrâneo^000000. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Caça - Caverna de Verus#
+
+19025#[Espera] Abrigo Subterrâneo###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reinicia às 04:00#
+
+19026#[É] Optatio###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Optatio]<INFO>verus01,240,63,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Arredores de Verus#
+
+19027#[Espera] Optatio###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19028#[É] Torre Distorcida I###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre Distorcida 2º andar]<INFO>c_tower2_,269,26,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Modo Pesadelo#
+
+19029#[Espera] Torre Distorcida I###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19030#[É] Estufa de Pitayas###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Estufa de Pitayas]<INFO>ba_lost,162,41,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Jardins de Varmunt#
+
+19031#[Espera] Estufa de Pitayas###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19032#[É] Torre Distorcida II###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre Distorcida 3º andar]<INFO>c_tower3_,64,148,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Modo Pesadelo#
+
+19033#[Espera] Torre Distorcida II###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19034#[É] Arredores de Rachel###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Desfiladeiro de Oz]<INFO>ra_fild10,378,284,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Desfiladeiro de Oz#
+
+19035#[Espera] Arredores de Rachel###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19036#[É] Depósito Rudus I###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Depósito Rudus 2º andar]<INFO>sp_rudus2,186,257,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Rudus 2º andar#
+
+19037#[Espera] Depósito Rudus I###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19038#[É] Oeste de Juperos###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Ruína Oeste de Juperos]<INFO>ver_eju,17,148,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Dentro das Ruínas#
+
+19039#[Espera] Oeste de Juperos###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19040#[É] Cidade de Verus###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Cidade de Verus]<INFO>verus02,72,23,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Instituto WISH#
+
+19041#[Espera] Cidade de Verus###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19042#[É] Armazém Tártaro I###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Armazém Tártaro 1º andar]<INFO>ba_2whs01,156,34,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Mansão de Varmunt#
+
+19043#[Espera] Armazém Tártaro I###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19044#[É] Labirinto de Oz###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Labirinto de Oz 1º andar]<INFO>oz_dun01,284,171,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Arredores da Aldeia#
+
+19045#[Espera] Labirinto de Oz###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19046#[É] Depósito Rudus II###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Depósito Rudus 3º andar]<INFO>sp_rudus3,364,207,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Rudus 3º andar#
+
+19047#[Espera] Depósito Rudus II###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19048#[É] Noggroad###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Noggroad]<INFO>mag_dun03,119,123,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Caverna de Magma#
+
+19049#[Espera] Noggroad###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19050#[É] Armazém Tártaro II###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Armazém Tártaro 2º andar]<INFO>ba_2whs02,337,331,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Mansão de Varmunt#
+
+19051#[Espera] Armazém Tártaro II###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19052#[É] Porões de Glastheim###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Porões de Glastheim]<INFO>gl_cas01_,200,33,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Subsolo do Castelo#
+
+19053#[Espera] Porões de Glastheim###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19054#[É] Lobo Cinzento I###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Floresta do Lobo Cinzento 1]<INFO>gw_fild01,274,337,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Arredores da Aldeia#
+
+19055#[Espera] Lobo Cinzento I###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19056#[É] Lobo Cinzento II###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Floresta do Lobo Cinzento 2]<INFO>gw_fild02,122,384,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Profundezas da Floresta#
+
+19057#[Espera] Lobo Cinzento II###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19058#[É] Profundezas da Mina###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Mina de Einbech 3º andar]<INFO>ein_dun03,268,277,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Calabouço da Mina#
+
+19059#[Espera] Profundezas da Mina###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19060#[É] Passado do Templo###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Antigo Templo de Odin]<INFO>odin_past,291,230,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Tempos Antigos#
+
+19061#[Espera] Passado do Templo###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19062#[É] Profundezas do Lago###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Subterrâneo do Lago 4º andar]<INFO>abyss_04,168,162,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Lago do Abismo#
+
+19063#[Espera] Profundezas do Lago###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19064#[É] Usina Mágica II###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Usina de Energia 2º andar]<INFO>ba_pw03,17,115,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+Mansão de Varmunt#
+
+19065#[Espera] Usina Mágica II###
+Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
+Reseta 4 da manhã.#
+
+19066#Agente Backseo###
+Ouvi a proposta de Backseo. Agora posso explorar melhor os eventos e receber EXP do Agente.#
+Primeira conversa#
+
+19067#[Espera] Agente Backseo###
+Esta é uma missão dirária. Pode ser repetida ao trazer 3 <ITEM>[Água Mineral]<INFO>1000374</INFO></ITEM> para o Agente Backseo. O Agente Backseo aparece em eventos anuais: <NAVI>[Janeiro]<INFO>malangdo,209,151,0,101,0</INFO></NAVI> <NAVI>[Chocomania]<INFO>prontera,163,92,0,101,0</INFO></NAVI> <NAVI>[Festival das Mascotes]<INFO>yuno,180,145,0,101,0</INFO></NAVI> <NAVI>[Festival das Cerejeiras]<INFO>prontera,170,288,0,101,0</INFO></NAVI> <NAVI>[Feira do Melão]<INFO>geffen,74,42,0,101,0</INFO></NAVI> <NAVI>[Festa da Pipoca]<INFO>comodo,248,128,0,101,0</INFO></NAVI> <NAVI>[Festival do Macarrão]<INFO>lasagna,87,206,0,101,0</INFO></NAVI> <NAVI>[Agosto]<INFO>prontera,149,305,0,101,0</INFO></NAVI> <NAVI>[Festival da Colheita]<INFO>alberta,131,174,0,101,0</INFO></NAVI> <NAVI>[Halloween]<INFO>nifflheim,198,238,0,101,0</INFO></NAVI> <NAVI>[Caçada Real]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI> <NAVI>[Festival da Neve]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI>#
 Reseta às 4 da manhã.#
 
-19068#Favor do Rudolf Nv1###
-100 monstros peixes de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>malangdo,209,151,0,101,0</INFO></NAVI> para receber as recompensas.#
+19068#Agente Backseo (Nv.50)###
+Elimine 100 monstros da raça Peixe de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>malangdo,209,151,0,101,0</INFO></NAVI>#
+Evento de Janeiro#
+
+19069#Agente Backseo (Nv.100)###
+Elimine 100 monstros da raça Peixe de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>malangdo,209,151,0,101,0</INFO></NAVI>#
+Evento de Janeiro#
+
+19070#Agente Backseo (Nv.150)###
+Elimine 100 monstros da raça Peixe de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>malangdo,209,151,0,101,0</INFO></NAVI>#
+Evento de Janeiro#
+
+19071#Agente Backseo (Nv.200)###
+Elimine 100 monstros da raça Peixe de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>malangdo,209,151,0,101,0</INFO></NAVI>#
+Evento de Janeiro#
+
+19072#Agente Backseo (Nv.50)###
+Elimine 100 monstros de tamanho Pequeno de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,163,92,0,101,0</INFO></NAVI>#
+Chocomania#
+
+19073#Agente Backseo (Nv.100)###
+Elimine 100 monstros de tamanho Pequeno de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,163,92,0,101,0</INFO></NAVI>#
+Chocomania#
+
+19074#Agente Backseo (Nv.150)###
+Elimine 100 monstros de tamanho Pequeno de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,163,92,0,101,0</INFO></NAVI>#
+Chocomania#
+
+19075#Agente Backseo (Nv.200)###
+Elimine 100 monstros de tamanho Pequeno de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,163,92,0,101,0</INFO></NAVI>#
+Chocomania#
+
+19076#Agente Backseo (Nv.50)###
+Elimine 100 monstros da raça Amorfo de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>yuno,180,145,0,101,0</INFO></NAVI>#
+Festival das Mascotes#
+
+19077#Agente Backseo (Nv.100)###
+Elimine 100 monstros da raça Amorfo de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>yuno,180,145,0,101,0</INFO></NAVI>#
+Festival das Mascotes#
+
+19078#Agente Backseo (Nv.150)###
+Elimine 100 monstros da raça Amorfo de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>yuno,180,145,0,101,0</INFO></NAVI>#
+Festival das Mascotes#
+
+19079#Agente Backseo (Nv.200)###
+Elimine 100 monstros da raça Amorfo de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>yuno,180,145,0,101,0</INFO></NAVI>#
+Festival das Mascotes#
+
+19080#Agente Backseo (Nv.50)###
+Elimine 100 monstros da propriedade Terra de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,170,288,0,101,0</INFO></NAVI>#
+Festival das Cerejeiras#
+
+19081#Agente Backseo (Nv.100)###
+Elimine 100 monstros da propriedade Terra de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,170,288,0,101,0</INFO></NAVI>#
+Festival das Cerejeiras#
+
+19082#Agente Backseo (Nv.150)###
+Elimine 100 monstros da propriedade Terra de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,170,288,0,101,0</INFO></NAVI>#
+Festival das Cerejeiras#
+
+19083#Agente Backseo (Nv.200)###
+Elimine 100 monstros da propriedade Terra de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,170,288,0,101,0</INFO></NAVI>#
+Festival das Cerejeiras#
+
+19084#Agente Backseo (Nv.50)###
+Elimine 100 monstros de tamanho Grande de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>geffen,74,42,0,101,0</INFO></NAVI>#
+Feira do Melão#
+
+19085#Agente Backseo (Nv.100)###
+Elimine 100 monstros de tamanho Grande de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>geffen,74,42,0,101,0</INFO></NAVI>#
+Feira do Melão#
+
+19086#Agente Backseo (Nv.150)###
+Elimine 100 monstros de tamanho Grande de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>geffen,74,42,0,101,0</INFO></NAVI>#
+Feira do Melão#
+
+19087#Agente Backseo (Nv.200)###
+Elimine 100 monstros de tamanho Grande de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>geffen,74,42,0,101,0</INFO></NAVI>#
+Feira do Melão#
+
+19088#Agente Backseo (Nv.50)###
+Elimine 100 monstros da propriedade Fogo de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>comodo,248,128,0,101,0</INFO></NAVI>#
+Festa da Pipoca#
+
+19089#Agente Backseo (Nv.100)###
+Elimine 100 monstros da propriedade Fogo de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>comodo,248,128,0,101,0</INFO></NAVI>#
+Festa da Pipoca#
+
+19090#Agente Backseo (Nv.150)###
+Elimine 100 monstros da propriedade Fogo de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>comodo,248,128,0,101,0</INFO></NAVI>#
+Festa da Pipoca#
+
+19091#Agente Backseo (Nv.200)###
+Elimine 100 monstros da propriedade Fogo de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>comodo,248,128,0,101,0</INFO></NAVI>#
+Festa da Pipoca#
+
+19092#Agente Backseo (Nv.50)###
+Elimine 100 monstros da propriedade Fantasma de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>lasagna,87,206,0,101,0</INFO></NAVI>#
+Festival do Macarrão#
+
+19093#Agente Backseo (Nv.100)###
+Elimine 100 monstros da propriedade Fantasma de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>lasagna,87,206,0,101,0</INFO></NAVI>#
+Festival do Macarrão#
+
+19094#Agente Backseo (Nv.150)###
+Elimine 100 monstros da propriedade Fantasma de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>lasagna,87,206,0,101,0</INFO></NAVI>#
+Festival do Macarrão#
+
+19095#Agente Backseo (Nv.200)###
+Elimine 100 monstros da propriedade Fantasma de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>lasagna,87,206,0,101,0</INFO></NAVI>#
+Festival do Macarrão#
+
+19096#Agente Backseo (Nv.50)###
+Elimine 100 monstros de tamanho Médio de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,149,305,0,101,0</INFO></NAVI>#
+Evento de Agosto#
+
+19097#Agente Backseo (Nv.100)###
+Elimine 100 monstros de tamanho Médio de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,149,305,0,101,0</INFO></NAVI>#
+Evento de Agosto#
+
+19098#Agente Backseo (Nv.150)###
+Elimine 100 monstros de tamanho Médio de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,149,305,0,101,0</INFO></NAVI>#
+Evento de Agosto#
+
+19099#Agente Backseo (Nv.200)###
+Elimine 100 monstros de tamanho Médio de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prontera,149,305,0,101,0</INFO></NAVI>#
+Evento de Agosto#
+
+19100#Agente Backseo (Nv.50)###
+Elimine 100 monstros da raça Planta de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>alberta,131,174,0,101,0</INFO></NAVI>#
+Festival da Colheita#
+
+19101#Agente Backseo (Nv.100)###
+Elimine 100 monstros da raça Planta de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>alberta,131,174,0,101,0</INFO></NAVI>#
+Festival da Colheita#
+
+19102#Agente Backseo (Nv.150)###
+Elimine 100 monstros da raça Planta de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>alberta,131,174,0,101,0</INFO></NAVI>#
+Festival da Colheita#
+
+19103#Agente Backseo (Nv.200)###
+Elimine 100 monstros da raça Planta de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>alberta,131,174,0,101,0</INFO></NAVI>#
+Festival da Colheita#
+
+19104#Agente Backseo (Nv.50)###
+Elimine 100 monstros da raça Demônio de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>niflheim,198,238,0,101,0</INFO></NAVI>#
+Halloween#
+
+19105#Agente Backseo (Nv.100)###
+Elimine 100 monstros da raça Demônio de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>niflheim,198,238,0,101,0</INFO></NAVI>#
+Halloween#
+
+19106#Agente Backseo (Nv.150)###
+Elimine 100 monstros da raça Demônio de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>niflheim,198,238,0,101,0</INFO></NAVI>#
+Halloween#
+
+19107#Agente Backseo (Nv.200)###
+Elimine 100 monstros da raça Demônio de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>niflheim,198,238,0,101,0</INFO></NAVI>#
+Halloween#
+
+19108#Agente Backseo (Nv.50)###
+Elimine 100 monstros de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI>#
+Caçada Real#
+
+19109#Agente Backseo (Nv.100)###
+Elimine 100 monstros de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI>#
+Caçada Real#
+
+19110#Agente Backseo (Nv.150)###
+Elimine 100 monstros de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI>#
+Caçada Real#
+
+19111#Agente Backseo (Nv.200)###
+Elimine 100 monstros de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI>#
+Caçada Real#
+
+19112#Agente Backseo (Nv.50)###
+Elimine 100 monstros da propriedade Água de nível 50 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI>#
+Festival da Neve#
+
+19113#Agente Backseo (Nv.100)###
+Elimine 100 monstros da propriedade Água de nível 100 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI>#
+Festival da Neve#
+
+19114#Agente Backseo (Nv.150)###
+Elimine 100 monstros da propriedade Água de nível 150 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI>#
+Festival da Neve#
+
+19115#Agente Backseo (Nv.200)###
+Elimine 100 monstros da propriedade Água de nível 200 ou mais Ao completar, reporte para <NAVI>[Agente Backseo]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI>#
+Festival da Neve#
+
+19116#Pesquisa de Pisrick (1)###
+Se você entregar os materiais de que preciso agora, em troca eu lhe ensinarei o que estou fabricando. Os materiais necessários agora são... <ITEM>[Gema Amarela]<INFO>715</INFO></ITEM> 5 unidades, <ITEM>[Garrafa de Poção Vazia]<INFO>1093</INFO></ITEM> 4 unidades, <ITEM>[Coração de Sereia]<INFO>950</INFO></ITEM> 10 unidades, <ITEM>[Pó de Asa de Mariposa]<INFO>1057</INFO></ITEM> 10 unidades  Quando conseguir todos os materiais, leve-os a <NAVI>[Pisrick]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>.#
 #
 
-19069#Favor do Rudolf Nv2###
-100 monstros peixes de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>malangdo,209,151,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19070#Favor do Rudolf Nv3###
-Derrote 100 monstros peixes de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>malangdo,209,151,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19071#Favor do Rudolf Nv4###
-Derrote 100 monstros peixes de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>malangdo,209,151,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19072#Favor do Rudolf Nv1###
-Derrote 100 monstros pequenos de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,163,92,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19073#Favor do Rudolf Nv2###
-Derrote 100 monstros pequenos de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,163,92,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19074#Favor do Rudolf Nv3###
-Derrote 100 monstros pequenos de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,163,92,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19075#Favor do Rudolf Nv4###
-Derrote 100 monstros pequenos de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,163,92,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19076#Favor do Rudolf Nv1###
-Derrote 100 monstros sem forma que sejam de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>yuno,180,145,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19077#Favor do Rudolf Nv2###
-Derrote 100 monstros sem forma que sejam de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>yuno,180,145,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19078#Favor do Rudolf Nv3###
-Derrote 100 monstros sem forma que sejam de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>yuno,180,145,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19079#Favor do Rudolf Nv4###
-Derrote 100 monstros sem forma que sejam de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>yuno,180,145,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19080#Favor do Rudolf Nv1###
-Derrote 100 monstros de propriedade da Terra de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,170,288,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19081#Favor do Rudolf Nv2###
-Derrote 100 monstros de propriedade da Terra de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,170,288,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19082#Favor do Rudolf Nv3###
-Derrote 100 monstros de propriedade da Terra de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,170,288,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19083#Favor do Rudolf Nv4###
-Derrote 100 monstros de propriedade da Terra de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,170,288,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19084#Favor do Rudolf Nv1###
-Derrote 100 monstros grandes de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>geffen,74,42,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19085#Favor do Rudolf Nv2###
-Derrote 100 monstros grandes de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>geffen,74,42,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19086#Favor do Rudolf Nv3###
-Derrote 100 monstros grandes de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>geffen,74,42,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19087#Favor do Rudolf Nv4###
-Derrote 100 monstros grandes de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>geffen,74,42,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19088#Favor do Rudolf Nv1###
-Derrote 100 monstros de propriedade do fogo de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>comodo,248,128,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19089#Favor do Rudolf Nv2###
-Derrote 100 monstros de propriedade do fogo de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>comodo,248,128,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19090#Favor do Rudolf Nv3###
-Derrote 100 monstros de propriedade do fogo de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>comodo,248,128,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19091#Favor do Rudolf Nv4###
-Derrote 100 monstros de propriedade do fogo de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>comodo,248,128,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19092#Favor do Rudolf Nv1###
-Derrote 100 monstros da propriedade Fantasma que sejam de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>lasagna,87,206,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19093#Favor do Rudolf Nv2###
-Derrote 100 monstros da propriedade Fantasma que sejam de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>lasagna,87,206,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19094#Favor do Rudolf Nv3###
-Derrote 100 monstros da propriedade Fantasma que sejam de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>lasagna,87,206,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19095#Favor do Rudolf Nv4###
-Derrote 100 monstros da propriedade Fantasma que sejam de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>lasagna,87,206,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19096#Favor do Rudolf Nv1###
-Derrote 100 monstros de tamanho médio de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,149,305,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19097#Favor do Rudolf Nv2###
-Derrote 100 monstros de tamanho médio de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,149,305,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19098#Favor do Rudolf Nv3###
-Derrote 100 monstros de tamanho médio de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,149,305,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19099#Favor do Rudolf Nv4###
-Derrote 100 monstros de tamanho médio de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prontera,149,305,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19100#Favor do Rudolf Nv1###
-Derrote 100 monstros de plantas de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>alberta,131,174,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19101#Favor do Rudolf Nv2###
-Derrote 100 monstros de plantas de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>alberta,131,174,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19102#Favor do Rudolf Nv3###
-Derrote 100 monstros de plantas com nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>alberta,131,174,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19103#Favor do Rudolf Nv4###
-Derrote 100 monstros de plantas com nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>alberta,131,174,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19104#Favor do Rudolf Nv1###
-Derrote 100 Monstros Demoníacos de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>Nifflheim,198,238,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19105#Favor do Rudolf Nv2###
-Derrote 100 Monstros Demoníacos de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>Nifflheim,198,238,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19106#Favor do Rudolf Nv3###
-Derrote 100 Monstros Demoníacos de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>Nifflheim,198,238,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19107#Favor do Rudolf Nv4###
-Derrote 100 Monstros Demoníacos de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>Nifflheim,198,238,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19108#Favor do Rudolf Nv1###
-Derrote 100 monstros de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19109#Favor do Rudolf Nv2###
-Derrote 100 monstros de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19110#Favor do Rudolf Nv3###
-Derrote 100 monstros de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19111#Favor do Rudolf Nv4###
-Derrote 100 monstros de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>prt_fild01,108,173,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19112#Favor do Rudolf Nv1###
-Derrote 100 monstros de propriedade da água de nível 50 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19113#Favor do Rudolf Nv2###
-Derrote 100 monstros de propriedade da água de nível 100 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19114#Favor do Rudolf Nv3###
-Derrote 100 monstros de propriedade da água de nível 150 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19115#Favor do Rudolf Nv4###
-Derrote 100 monstros de propriedade da água de nível 200 ou superior e volte para <NAVI>[Investigador Rudolf]<INFO>aldebaran,171,153,0,101,0</INFO></NAVI> para receber as recompensas.#
-#
-
-19116#Pesquisa de Pisruik (1)###
-Se você entregar os materiais de que preciso agora, em troca eu lhe ensinarei o que estou fabricando. Os materiais necessários agora são... <ITEM>[Gema Amarela]<INFO>715</INFO></ITEM> 5 unidades, <ITEM>[Garrafa de Poção Vazia]<INFO>1093</INFO></ITEM> 4 unidades, <ITEM>[Coração de Sereia]<INFO>950</INFO></ITEM> 10 unidades, <ITEM>[Pó de Asa de Mariposa]<INFO>1057</INFO></ITEM> 10 unidades  Quando conseguir todos os materiais, leve-os a <NAVI>[Pisruik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>.#
-#
-
-19117#Pesquisa de Pisruik (2-1)###
-Preciso de cerca de 20 <ITEM>[Flor de Planta Carnívora]<INFO>1032</INFO></ITEM> para testar minha teoria... Pode cuidar disso também?  Quando conseguir todos os materiais, leve-os a <NAVI>[Pisruik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>.#
+19117#Pesquisa de Pisrick (2-1)###
+Preciso de cerca de 20 <ITEM>[Flor de Planta Carnívora]<INFO>1032</INFO></ITEM> para testar minha teoria... Pode cuidar disso também?  Quando conseguir todos os materiais, leve-os a <NAVI>[Pisrick]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>.#
 20 Flor de Planta Carnívora#
 
-19118#Pesquisa de Pisruik (2-2)###
-O experimento não está dando certo como imaginei... Pode conseguir só mais 1 <ITEM>[Flor de Planta Carnívora]<INFO>1032</INFO></ITEM>? Por favor.  Quando conseguir todos os materiais, leve-os a <NAVI>[Pisruik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>.#
+19118#Pesquisa de Pisrick (2-2)###
+O experimento não está dando certo como imaginei... Pode conseguir só mais 1 <ITEM>[Flor de Planta Carnívora]<INFO>1032</INFO></ITEM>? Por favor.  Quando conseguir todos os materiais, leve-os a <NAVI>[Pisrick]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>.#
 1 Flor de Planta Carnívora#
 
-19119#Pesquisa de Pisruik (3)###
-Ei... Desculpe, mas poderia conseguir óculos iguais aos que eu usava? Não consigo me mexer porque não enxergo, então eu ficaria muito grato se você pudesse buscá-los por mim.  Consiga <ITEM>[Quatro-Olhos]<INFO>2243</INFO></ITEM> e leve a <NAVI>[Pisruik]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>. ^FF0000? Tome cuidado para não haver outro Quatro-Olhos em uso na sua bolsa.^000000#
+19119#Pesquisa de Pisrick (3)###
+Ei... Desculpe, mas poderia conseguir óculos iguais aos que eu usava? Não consigo me mexer porque não enxergo, então eu ficaria muito grato se você pudesse buscá-los por mim.  Consiga <ITEM>[Quatro-Olhos]<INFO>2243</INFO></ITEM> e leve a <NAVI>[Pisrick]<INFO>yuno_in04,33,108,0,101,0</INFO></NAVI>. ^FF0000 Tome cuidado para não haver outro Quatro-Olhos em uso na sua bolsa.^000000#
 1 Quatro-Olhos#
 
 19120#Canção do Menestrel (1)###
@@ -27327,7 +27687,7 @@ O Bardo <NAVI>[Riot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>, que encontrei 
 #
 
 19122#Canção do Menestrel (2)###
-Riot... Quer dizer que não vai ensinar facilmente? Um lugar acessível por cipós? Niflhiem? Ele quer que eu consiga cinco ovos de Yhelle em Niflhiem?  Procure Yhelle em Niflhiem, consiga cinco <ITEM>[ovos]<INFO>574</INFO></ITEM> e leve-os a <NAVI>[Riot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>.  Regiões onde Yhelle aparece <NAVI>[Local]<INFO>niflheim,239,70,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,185,205,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,85,203,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,149,81,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,209,144,0,101,0</INFO></NAVI> ^FF0000? Na cidade dos mortos, não há orientação de caminho para sair.^000000#
+Riot... Quer dizer que não vai ensinar facilmente? Um lugar acessível por cipós? Niflheim? Ele quer que eu consiga cinco ovos de Yhelle em Niflheim?  Procure Yhelle em Niflheim, consiga cinco <ITEM>[ovos]<INFO>574</INFO></ITEM> e leve-os a <NAVI>[Riot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>.  Regiões onde Yhelle aparece <NAVI>[Local]<INFO>niflheim,239,70,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,185,205,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,85,203,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,149,81,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,209,144,0,101,0</INFO></NAVI> ^FF0000? Na cidade dos mortos, não há orientação de caminho para sair.^000000#
 5 ovos de Yhelle#
 
 19123#Canção do Menestrel (2)###
@@ -27351,7 +27711,7 @@ Dizem que ferimentos causados pelo veneno de Goblin de Adaga não cicatrizam sem
 #
 
 19128#Notícia Inesquecível (5)###
-<NAVI>[Arthur]<INFO>prt_church,87,125,0,101,0</INFO></NAVI> disse que precisa dos materiais do antídoto contra veneno de Goblin e informou quais são. Consiga os materiais e leve-os a ele.  Materiais do antídoto <ITEM>[Uvas]<INFO>514</INFO></ITEM> 1 unidade, <ITEM>[Maçã verde]<INFO>619</INFO></ITEM> 1 unidade, <ITEM>[Garrafa Vazia]<INFO>713</INFO></ITEM> 3 unidades, <ITEM>[Jellopy]<INFO>909</INFO></ITEM> 5 unidades, <ITEM>[Muco Pegajoso]<INFO>938</INFO></ITEM> 20 unidades, <ITEM>[Carvão]<INFO>1003</INFO></ITEM> 1 unidade, <ITEM>[Cyfar]<INFO>7053</INFO></ITEM> 3 unidades#
+<NAVI>[Arthur]<INFO>prt_church,87,125,0,101,0</INFO></NAVI> disse que precisa dos materiais do antídoto contra veneno de Goblin e informou quais são. Consiga os materiais e leve-os até ele.  Materiais do antídoto <ITEM>[Uvas]<INFO>514</INFO></ITEM> 1 unidade, <ITEM>[Maçã verde]<INFO>619</INFO></ITEM> 1 unidade, <ITEM>[Garrafa Vazia]<INFO>713</INFO></ITEM> 3 unidades, <ITEM>[Jellopy]<INFO>909</INFO></ITEM> 5 unidades, <ITEM>[Muco Pegajoso]<INFO>938</INFO></ITEM> 20 unidades, <ITEM>[Carvão]<INFO>1003</INFO></ITEM> 1 unidade, <ITEM>[Cyfar]<INFO>7053</INFO></ITEM> 3 unidades#
 Materiais do antídoto#
 
 19129#Notícia Inesquecível (6)###
@@ -27379,7 +27739,7 @@ Skrajjad apresentou Keshibien, que conhece em detalhes a habilidade ^FF0000Despe
 #
 
 19135#Bioética (4)###
-Por fim, Keshibien apresentou Broncher, que conhece em detalhes a habilidade FF0000Ressuscitar Homúnculo^000000.  Pergunte a <NAVI>[Broncher]<INFO>lhz_in02,278,273,0,101,0</INFO></NAVI> sobre Ressuscitar Homunculus.#
+Por fim, Keshibien apresentou Broncher, que conhece em detalhes a habilidade ^4D4DFFRessuscitar Homúnculo^000000.  Pergunte a <NAVI>[Broncher]<INFO>lhz_in02,278,273,0,101,0</INFO></NAVI> sobre Ressuscitar Homunculus.#
 #
 
 19136#Bioética (5)###
@@ -31137,6 +31497,10 @@ Procurando Joe#
 24148#[Espera] Por favor, eu imploro!###
 Joe está em segurança.#
 Procurando Joe#
+
+25000#Encontre o Vovô Tubarão!###
+Eu ia brincar com o Bebê Tubarão, mas de repente comecamos a brincar de esconde-esconde com o Vovô Tubarão. Vamos encontrar o Vovô Tubarão!#
+Encontrar Vovô Tubarão#
 
 40000#Lighthalzen Pickpocket###
 Espere pelo menos 5 minutos antes de tentar falar com o "Suspicious Guy" novamente.#
@@ -40956,6 +41320,10 @@ Reinicia às 04:00#
 
 295529#[Espera] Loja da Máquina Tlim-tlim###
 Você usou todas as redefinições da loja diária. Você poderá usá-la novamente após às 04:00 através de <NAVI>[Máquina Tlim-tlim]<INFO>prontera,164,282,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
+
+295582#Vila da Decepção - Uso do Remédio para Efeitos Colaterais###
+Você tomou um remédio altamente tóxico para tratar os efeitos colaterais. Devido à sua forte toxicidade, ele só pode ser usado uma vez por dia.#
 Reinicia às 04:00#
 
 297001#Fale com o Soldado Woods Goofus###
