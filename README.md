@@ -29,11 +29,8 @@ Principais servidores para o **público brasileiro**:
 
 | Servidor| Descrição | Proteção | Status | Apoiador |
 | --- | --- | --- | --- | --- |
-| [bRO](https://playragnarokonlinebr.com/) | Brasil Ragnarök Online | nProtect GameGuard| ? | ? |
 | [ROla](https://www.gnjoylatam.com/) | Ragnarök Online LATAM | nProtect GameGuard | Funcional | ? |
-| [Landverse LATAM](https://rola.maxion.gg/) | Ragnarök Landverse LATAM | Proprietária | Funcional | ? |
-
-**¹A tabela acima refere-se ao status de funcionamento (capacidade de usar o OpenKore) e não ao funcionamento deste repositório nos servidores mencionados!**
+| [Landverse LATAM](https://rola.maxion.gg/) | Ragnarök Landverse LATAM | nProtect GameGuard | Funcional | ? |
 
 ## Contribua
 
