@@ -529,10 +529,65 @@ sub parseChat {
 	}
 }
 
+# XKore en ROla a menudo deja $char->{name} vacío. El nombre está en la party o en el paquete.
+sub _idIs {
+	my ($candidate, $target) = @_;
+	return 0 unless defined $candidate && defined $target && $target ne '';
+	return 1 if $candidate eq $target;
+	if ($candidate =~ /^\d+$/ && length($target) >= 4) {
+		return 1 if pack('V', $candidate) eq substr($target, 0, 4);
+	}
+	if (length($candidate) >= 4 && length($target) >= 4) {
+		return 1 if substr($candidate, 0, 4) eq substr($target, 0, 4);
+	}
+	return 0;
+}
+
+sub _chatSelfName {
+	my ($args) = @_;
+	my $clean = sub {
+		my ($n) = @_;
+		return '' unless defined $n;
+		$n =~ s/^\s+|\s+$//g;
+		return $n;
+	};
+
+	my $name = $clean->($char && $char->{name});
+	return $name if $name ne '';
+
+	$name = $clean->($args && $args->{name});
+	return $name if $name ne '';
+
+	if (defined $config{char} && $chars[$config{char}] && $chars[$config{char}]{name}) {
+		$name = $clean->($chars[$config{char}]{name});
+		return $name if $name ne '';
+	}
+
+	my $users = $char && $char->{party} && $char->{party}{users};
+	if ($users && ref $users eq 'HASH') {
+		for my $key (keys %$users) {
+			my $cand = $users->{$key};
+			next unless $cand && ref $cand;
+			my $n = $clean->($cand->{name});
+			next if $n eq '';
+			if (_idIs($key, $accountID) || _idIs($key, $charID)
+				|| _idIs($cand->{ID}, $accountID) || _idIs($cand->{ID}, $charID)
+				|| _idIs($cand->{charID}, $accountID) || _idIs($cand->{charID}, $charID)
+				|| _idIs($cand->{GID}, $accountID) || _idIs($cand->{GID}, $charID)) {
+				return $n;
+			}
+		}
+	}
+	return '';
+}
+
 sub reconstructChat {
 	my ($self, $args) = @_;
+	# En ROla $char->{name} llega vacío. El nombre va delante, el texto queda limpio.
+	my $name = _chatSelfName($args);
+	$char->{name} = $name if $char && $name ne '' && !$char->{name};
 	$args->{message} = '|00' . $args->{message} if $masterServer->{chatLangCode};
-	$args->{message} = stringToBytes($char->{name}) . ' : ' . stringToBytes($args->{message});
+	$args->{message} = stringToBytes($name) . ' : ' . stringToBytes($args->{message});
 }
 
 1;

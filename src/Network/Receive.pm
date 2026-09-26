@@ -8283,13 +8283,57 @@ sub party_allow_invite {
 	}
 }
 
+# ROla manda el chat como " : texto". Si el nombre viene vacío, se toma del actor o de la party.
+sub chatSpeakerName {
+	my ($self, $parsed, $id) = @_;
+	$parsed =~ s/^\s+|\s+$//g if defined $parsed;
+	return $parsed if defined $parsed && $parsed ne '';
+
+	if ($char && $char->{name} && (!$id || ($accountID && $id eq $accountID))) {
+		my $name = $char->{name};
+		$name =~ s/^\s+|\s+$//g;
+		return $name if $name ne '';
+	}
+
+	return '' unless $id;
+
+	my $actor = Actor::get($id);
+	if ($actor && !$actor->isa('Actor::Unknown') && $actor->{name}) {
+		my $name = $actor->{name};
+		$name =~ s/^\s+|\s+$//g;
+		return $name if $name ne '';
+	}
+
+	my $users = $char && $char->{party} && $char->{party}{users};
+	return '' unless $users;
+
+	my $u = $users->{$id};
+	if (!$u) {
+		for my $cand (values %$users) {
+			next unless $cand && ref($cand);
+			if (($cand->{ID} && $cand->{ID} eq $id) || ($cand->{charID} && $cand->{charID} eq $id)) {
+				$u = $cand;
+				last;
+			}
+		}
+	}
+	return '' unless $u && $u->{name};
+
+	my $name = $u->{name};
+	$name =~ s/^\s+|\s+$//g;
+	return $name;
+}
+
 sub party_chat {
 	my ($self, $args) = @_;
 	my $msg = bytesToString($args->{message});
 
 	# Type: String
 	my ($chatMsgUser, $chatMsg) = $msg =~ /(.*?) : (.*)/;
-	$chatMsgUser =~ s/ $//;
+	if (defined $chatMsgUser) {
+		$chatMsgUser =~ s/ $//;
+		$chatMsgUser = $self->chatSpeakerName($chatMsgUser, $args->{ID});
+	}
 
 	stripLanguageCode(\$chatMsg);
 	my $parsed_msg = solveMessage($chatMsg);
@@ -11447,6 +11491,7 @@ sub self_chat {
 	# eAthena servers: it uses this packet for non-chat server messages.
 
 	if (defined $chatMsgUser) {
+		$chatMsgUser = $self->chatSpeakerName($chatMsgUser, $accountID);
 		stripLanguageCode(\$chatMsg);
 		my $parsed_msg = solveMessage($chatMsg);
 		$message = $chatMsgUser . " : " . $parsed_msg;
