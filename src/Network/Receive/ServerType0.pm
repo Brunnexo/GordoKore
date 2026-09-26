@@ -1164,6 +1164,7 @@ sub public_chat {
 	if ($message =~ / : /) {
 		($chatMsgUser, $chatMsg) = split / : /, $message, 2;
 		$chatMsgUser =~ s/ $//;
+		$chatMsgUser = $self->chatSpeakerName($chatMsgUser, $args->{ID});
 		$chatMsg =~ s/^ //;
 		stripLanguageCode(\$chatMsg);
 

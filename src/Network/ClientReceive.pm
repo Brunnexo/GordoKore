@@ -11,7 +11,7 @@ use strict;
 use Modules 'register';
 use Time::HiRes qw(time);
 
-use Globals qw($packetParser $incomingMessages %config $char %ai_v %timeout $shopstarted $firstLoginMap $sentWelcomeMessage @lastpm %lastpm);
+use Globals qw($packetParser $incomingMessages %config $char %ai_v %timeout $shopstarted $firstLoginMap $sentWelcomeMessage @lastpm %lastpm $masterServer);
 use Misc qw(configModify visualDump);
 use Log qw(message debug warning);
 use Translation;
@@ -92,7 +92,8 @@ sub actor_action {
 sub public_chat {
 	my ($self, $args) = @_;
 	
-	$self->handleChat($args, $args->{message});
+	return if $self->handleChat($args, $args->{message});
+	$args->{mangle} = 1 if $masterServer && $masterServer->{serverType} eq 'ROla';
 }
 
 sub private_message {
@@ -128,7 +129,8 @@ sub restart {
 sub party_chat {
 	my ($self, $args) = @_;
 	
-	$self->handleChat($args, $args->{message});
+	return if $self->handleChat($args, $args->{message});
+	$args->{mangle} = 1 if $masterServer && $masterServer->{serverType} eq 'ROla';
 }
 
 sub alignment {
