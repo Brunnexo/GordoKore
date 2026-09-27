@@ -571,7 +571,9 @@ sub initHandlers {
 			["draft", T("show draft rodex mail before sending")],
 			["send", T("send finished rodex mail")],
 			["cancel", T("close rodex mail write box")],
-			["delete <mail_# | mail_id>", T("delete selected rodex mail")]
+			["delete <mail_# | mail_id>", T("delete selected rodex mail")],
+			["acceptall", T("accept all rodex mails (ROla)")],
+			["rejectall", T("reject all rodex mails (ROla)")]
 			], \&cmdRodex],
 		['roulette', [
 			T("Roulette System."),
@@ -7394,6 +7396,9 @@ sub cmdRodex {
 		}
 		$rodexCurrentType = $type;
 		$messageSender->rodex_open_mailbox($type,0,0);
+
+	} elsif ($arg1 eq 'acceptall' || $arg1 eq 'rejectall') {
+		$messageSender->rodex_accept_all($arg1 eq 'acceptall');
 
 	} elsif ($arg1 eq 'close') {
 		if (!defined $rodexList) {

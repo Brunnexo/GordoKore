@@ -1628,6 +1628,17 @@ sub rodex_open_mailbox {
 	}));
 }
 
+# 0B93 (ROla): accept (1) or reject (0) all rodex mails
+sub rodex_accept_all {
+	my ($self, $accept) = @_;
+	$self->sendToServer($self->reconstruct({
+		switch => 'rodex_accept_all',
+		type => 0,
+		unknown => 1,
+		accept => $accept ? 1 : 0,
+	}));
+}
+
 sub rodex_close_mailbox {
 	my ($self) = @_;
 	$self->sendToServer($self->reconstruct({

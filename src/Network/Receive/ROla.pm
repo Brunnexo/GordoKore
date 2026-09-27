@@ -4,7 +4,8 @@ use strict;
 use base qw(Network::Receive::ServerType0);
 use Globals qw($char $messageSender);
 use I18N qw(bytesToString);
-use Log qw(debug);
+use Log qw(debug message);
+use Translation qw(T);
 
 sub new {
 	my ( $class ) = @_;
@@ -24,6 +25,7 @@ sub new {
 		'0A0B' => [ 'cart_item_added',      'a2 V V C4 a16 a25',                                           [qw(ID amount nameID type identified broken upgrade cards options)] ],
 		'0A37' => [ 'inventory_item_added', 'a2 v V C3 a16 V C2 a4 v a25 C v',                             [qw(ID amount nameID identified broken upgrade cards type_equip type fail expire unknown options favorite viewID)] ],
 		'0ADD' => [ 'item_appeared',        'a4 V v C v2 C2 v C v',                                        [qw(ID nameID type identified x y subx suby amount show_effect effect_type)] ],
+		'0B94' => [ 'rodex_accept_all_result', 'V3',                                                   [qw(unknown1 unknown2 accept)] ],                                                                                                                                                                                                                                  # 14
 		'0C32' => [ 'account_server_info',  'v a4 a4 a4 a4 a26 C x17 a*',                                  [qw(len sessionID accountID sessionID2 lastLoginIP lastLoginTime accountSex serverInfo)] ],
 	);
 
@@ -46,6 +48,12 @@ sub new {
 	$self->{rodex_read_mail_item_pack}    = 'v V C3 a16 a4 C a4 a25';
 
 	return $self;
+}
+
+# 0B94
+sub rodex_accept_all_result {
+	my ($self, $args) = @_;
+	message $args->{accept} ? T("All rodex mails accepted.\n") : T("All rodex mails rejected.\n"), "info";
 }
 
 sub guild_name {

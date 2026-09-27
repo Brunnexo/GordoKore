@@ -13,6 +13,7 @@ sub new {
 		'0C26' => [ 'master_login', 'a4 Z51 a32 a5',        [qw(game_code username password_rijndael flag)] ],
 		'0825' => [ 'token_login',  'v V C Z51 a17 a15 a*', [qw(len version master_version username mac_hyphen_separated ip token)] ],
 		'0436' => [ 'map_login',    'a4 a4 a4 V V C',       [qw(accountID charID sessionID unknown tick sex)] ],
+		'0B93' => [ 'rodex_accept_all', 'v V2',             [qw(type unknown accept)] ], # 12
 	);
 
 	$self->{packet_list}{$_} = $packets{$_} for keys %packets;
@@ -50,6 +51,7 @@ sub new {
 		master_login 0C26
 		rodex_open_mailbox 0AC0
 		rodex_refresh_maillist 0AC1
+		rodex_accept_all 0B93
 	);
 
 	$self->{packet_lut}{$_} = $handlers{$_} for keys %handlers;

@@ -13806,6 +13806,27 @@ msgstr "O arquivo [%s] não pôde ser criado: $!"
 msgid "File [%s] does not exist."
 msgstr "O arquivo [%s] não existe."
 
+#: ../Network/Receive.pm:3762
+#, perl-format
+msgid "Sold: %s x %s\n"
+msgstr "Vendido: %s x %s\n"
+
+#: ../Network/Receive/ROla.pm:60
+msgid "All rodex mails accepted.\n"
+msgstr "Todos os rodex foram aceitos.\n"
+
+#: ../Network/Receive/ROla.pm:60
+msgid "All rodex mails rejected.\n"
+msgstr "Todos os rodex foram rejeitados.\n"
+
+#: ../Commands.pm:576
+msgid "accept all rodex mails (ROla)"
+msgstr "aceita todos os rodex (ROla)"
+
+#: ../Commands.pm:577
+msgid "reject all rodex mails (ROla)"
+msgstr "rejeita todos os rodex (ROla)"
+
 #, perl-format
 #~ msgid "No LOS from %s (%d, %d) to target %s (%d, %d) (distance: %d)"
 #~ msgstr ""

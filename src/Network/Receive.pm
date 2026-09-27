@@ -3759,7 +3759,7 @@ sub inventory_item_removed {
 		} elsif ($reason == 5) {
 			debug TF("%s was moved to the cart\n", $item->{name}), "inventory", 1;
 		} elsif ($reason == 6) {
-			debug TF("%s was sold\n", $item->{name}), "inventory", 1;
+			debug TF("%s was sold\n", $item->{name}), "inventory", 1; 
 		} elsif ($reason == 7) {
 			debug TF("%s was consumed by Four Spirit Analysis skill\n", $item->{name}), "inventory", 1;
 		} else {
@@ -9618,7 +9618,7 @@ sub sell_result {
 	if ($args->{fail}) {
 		error T("Sell failed.\n");
 	} else {
-		message TF("Sold %s items.\n", @sellList.""), "success";
+		message TF("Sold %s items.\n", @sellList.""), "success" if (@sellList);
 		message T("Sell completed.\n"), "success";
 	}
 	@sellList = ();
