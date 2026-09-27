@@ -464,6 +464,14 @@ sub recv {
 				return undef;
 			}
 			$self->{clientPackets} .= $msg;
+		} elsif ($type eq "C") {
+			# The real client sent this packet to the server on its own (Kore-Bridge
+			# and similar DLLs only, frame kind 'C'). This is telemetry only: kore
+			# never acts on it and must never re-send it - the client already sent
+			# it for real over its own connection. Plugins that want to observe
+			# real in-game actions (as opposed to commands kore itself issues) can
+			# hook this.
+			Plugins::callHook('Network::clientSend/observed', {msg => $msg});
 		} elsif ($type eq "K") {
 			# Keep-alive... useless.
 		}
