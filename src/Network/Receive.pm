@@ -3651,10 +3651,12 @@ sub arrow_equipped {
 	my ($self, $args) = @_;
 	return unless changeToInGameState();
 	return unless $args->{ID};
+	my $item = $char->inventory->getByID($args->{ID});
+	# some servers (ROla) send an unrelated ID here (helmet/armor/nothing)
+	return unless $item && ($item->{type_equip} || 0) == 32768;
 	$char->{arrow} = $args->{ID};
 
-	my $item = $char->inventory->getByID($args->{ID});
-	if ($item && $char->{equipment}{arrow} != $item) {
+	if ($char->{equipment}{arrow} != $item) {
 		$char->{equipment}{arrow} = $item;
 		$item->{equipped} = 32768;
 		$ai_v{temp}{waitForEquip}-- if $ai_v{temp}{waitForEquip};

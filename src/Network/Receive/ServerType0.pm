@@ -1012,7 +1012,9 @@ sub parse_items_nonstackable {
 		# Non stackable items now have no amount normally given in the
 		# packet, so we must assume one.  We'll even play it safe, and
 		# not change the amount if it's already a non-zero value.
-		$item->{amount} = 1 unless ($item->{amount});
+		# Ammunition (types 10, 16, 17, 19) is also sent here without an amount (0B39),
+		# don't overwrite the real amount received in the stackable list (0B09).
+		$item->{amount} = 1 unless ($item->{amount} || existsInList("10, 16, 17, 19", $item->{type}));
 		$item->{broken} = $item->{identified} & (1 << 1) unless exists $item->{broken};
 		$item->{identified} = $item->{identified} & (1 << 0);
 	})
