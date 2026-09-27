@@ -3951,7 +3951,7 @@ sub vender_items_list {
 	for (my $i = 0; $i < $item_list_len; $i+=$item_len) {
 		my $item = Actor::Item->new;
 
- 		@$item{qw( price amount ID type nameID identified broken upgrade cards options location sprite_id )} = unpack $item_pack, substr $args->{itemList}, $i, $item_len;
+ 		@$item{qw( price amount ID type nameID identified broken upgrade cards options location sprite_id grade )} = unpack $item_pack, substr $args->{itemList}, $i, $item_len;
 
 		$item->{name} = itemName($item);
 		# Ensure unique ID for vendor items by using item index as ID

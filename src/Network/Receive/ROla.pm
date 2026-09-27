@@ -44,7 +44,7 @@ sub new {
 	$self->{makable_item_list_pack}       = "V4";
 	$self->{npc_market_info_pack}         = "V C V2 v";
 	$self->{npc_store_info_pack}          = "V V C V";
-	$self->{vender_items_list_item_pack}  = 'V v2 C V C3 a16 a25 V v';
+	$self->{vender_items_list_item_pack}  = 'V v2 C V C3 a16 a25 V v C'; # trailing C = enchant grade
 	$self->{rodex_read_mail_item_pack}    = 'v V C3 a16 a4 C a4 a25';
 
 	return $self;

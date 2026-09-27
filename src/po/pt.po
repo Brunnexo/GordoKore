@@ -11042,7 +11042,7 @@ msgstr "Jogador não ignorado.\n"
 #: ../Network/Receive.pm:5430
 #, perl-format
 msgid "You used Item: %s (%d) x %d - %d left\n"
-msgstr "Você usou o item: %s (%d) x %d - restám %d\n"
+msgstr "Você usou o item: %s (%d) x %d - %d restante(s)\n"
 
 #: ../Network/Receive.pm:5441
 #, perl-format
@@ -11052,17 +11052,17 @@ msgstr "Você falhou ao usar o item: %s (%d)\n"
 #: ../Network/Receive.pm:5445
 #, perl-format
 msgid "You used unknown item #%d - %d left\n"
-msgstr "Você usou um item desconhecido #%d - restám %d\n"
+msgstr "Você usou um item desconhecido #%d - %d restante(s)\n"
 
 #: ../Network/Receive.pm:5447
 #, perl-format
 msgid "You failed to use unknown item #%d - %d left\n"
-msgstr "Você falhou ao usar um item desconhecido #%d - restám %d\n"
+msgstr "Você falhou ao usar um item desconhecido #%d - %d restante(s)\n"
 
 #: ../Network/Receive.pm:5453
 #, perl-format
 msgid "%s used Item: %s - %s left\n"
-msgstr "%s usou o Item: %s - restám %s\n"
+msgstr "%s usou o Item: %s - %s restante(s)\n"
 
 #: ../Network/Receive.pm:5462
 #, perl-format
