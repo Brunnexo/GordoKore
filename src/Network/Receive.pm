@@ -1341,7 +1341,34 @@ sub map_load_error {
 }
 
 our %stat_info_handlers = (
-	VAR_SPEED, sub { $_[0]{walk_speed} = $_[1] / 1000 },
+	VAR_SPEED, sub {
+		my ($actor, $value) = @_;
+		my $new_speed = $value / 1000;
+
+		# A speed buff/debuff (eg. Cart Boost) landing mid-walk leaves time_move_calc
+		# stale: it's a fixed duration computed once at the OLD speed, and every
+		# "are we still walking" check (Task::Route, AI::Attack, Misc::...) times
+		# out against it. At a faster speed the character physically arrives before
+		# that stale duration elapses, so those checks keep thinking it's still
+		# walking - stop/lag/stop until the old timer finally catches up. Resync
+		# immediately from wherever the character actually is right now, the same
+		# way a fresh move packet would (Receive::character_moves).
+		if (UNIVERSAL::isa($actor, 'Actor::You') && $field
+			&& ($actor->{pos}{x} != $actor->{pos_to}{x} || $actor->{pos}{y} != $actor->{pos_to}{y}))
+		{
+			my $current_pos = calcPosFromPathfinding($field, $actor);
+			$actor->{walk_speed} = $new_speed;
+			if ($current_pos->{x} != $actor->{pos_to}{x} || $current_pos->{y} != $actor->{pos_to}{y}) {
+				$actor->{pos} = {x => $current_pos->{x}, y => $current_pos->{y}};
+				$actor->{time_move} = time;
+				$actor->{solution} = get_solution($field, $actor->{pos}, $actor->{pos_to});
+				$actor->{time_move_calc} = calcTimeFromSolution($actor->{solution}, $new_speed);
+				debug "Speed changed mid-walk to $new_speed, resynced from ($actor->{pos}{x}, $actor->{pos}{y})\n", "parseMsg_move";
+			}
+		} else {
+			$actor->{walk_speed} = $new_speed;
+		}
+	},
 	VAR_EXP, sub {
 		my ($actor, $value) = @_;
 
