@@ -3499,6 +3499,29 @@ sub sendMarketClose {
 	debug "Sent Market Close\n", "sendPacket";
 }
 
+# Buy item(s) from an NPC Expanded Barter Market (item currency, optionally combined with zeny).
+# Confirmed packet struct (PACKET_CZ_NPC_EXPANDED_BARTER_MARKET_PURCHASE):
+#   uint32 itemId; uint32 shopIndex; uint32 amount;
+# 0B57
+sub sendNpcExpandedBarterMarketPurchase {
+	my ($self, $items) = @_;
+	return unless ($items && ref($items) eq 'ARRAY' && scalar @$items);
+
+	$self->sendToServer($self->reconstruct({
+		switch => 'npc_expanded_barter_market_purchase',
+		items => $items,
+	}));
+
+	debug("Sent expanded barter market purchase: itemId $_->{itemId} x $_->{amount} (shop index $_->{shopIndex})\n", "sendPacket", 2) foreach (@{$items});
+}
+
+sub reconstruct_npc_expanded_barter_market_purchase {
+	my ($self, $args) = @_;
+	my $pack_item = 'V3'; # itemId, shopIndex, amount
+
+	$args->{itemList} = pack "(a*)*", map { pack($pack_item, $_->{itemId}, $_->{shopIndex}, $_->{amount}) } @{$args->{items}};
+}
+
 # Request Inventory Expansion
 # 0B14
 sub sendInventoryExpansionRequest {

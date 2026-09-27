@@ -644,6 +644,7 @@ sub finalInitialization {
 	$buyerItemList = InventoryList->new;
 	$storeList = InventoryList->new;
 	$cashList = InventoryList->new;
+	$barterMarketList = InventoryList->new;
 	foreach my $list ($itemsList, $monstersList, $playersList, $petsList, $npcsList, $portalsList, $slavesList, $elementalsList) {
 		$list->onAdd()->add(undef, \&actorAdded);
 		$list->onRemove()->add(undef, \&actorRemoved);

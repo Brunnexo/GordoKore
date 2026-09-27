@@ -7828,6 +7828,145 @@ sub npc_market_purchase_result {
 	$ai_v{'npc_talk'}{'time'} = time;
 }
 
+# Presents list of items that can be bought in an NPC Barter Market (paid with items instead of zeny)
+# 0B78
+sub npc_barter_market_iteminfo {
+	my ($self, $args) = @_;
+
+	my $pack = $self->{npc_barter_market_iteminfo_pack} || 'V C V V V V V v V';
+	my $keys = [qw(nameID type amount currencyNameID currencyAmount weight index sprite_id location)];
+	my $item_len = length pack $pack;
+	my $item_list_len = length $args->{itemList};
+
+	my $index = 0;
+	my $msg = center(T(" Barter Market Item List "), 100, '-') . "\n" .
+		T("#  Name                                       Currency                Cost      Zeny  Amount\n");
+
+	$barterMarketList->clear;
+
+	for (my $i = 0; $i < $item_list_len; $i += $item_len) {
+		my $item = Actor::Item->new;
+		@$item{@$keys} = unpack $pack, substr($args->{itemList}, $i, $item_len);
+
+		$item->{name} = itemName($item);
+		$item->{currencyName} = itemNameSimple($item->{currencyNameID});
+		$item->{ID} = $index;
+		$item->{price} = 0;
+		$item->{amount} = 30000 if $item->{amount} > 30000;
+
+		$barterMarketList->add($item);
+
+		$msg .= swrite(
+			"@< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<< @>>>>>>>>>>>> @>>>>>>>>> @<<<<<<",
+			[$index, $item->{name}, $item->{currencyName}, formatNumber($item->{currencyAmount}), formatNumber($item->{price}), formatNumber($item->{amount})]
+		);
+
+		Plugins::callHook('packet_barter_market_item', { item => $item, index => $index });
+		$index++;
+	}
+
+	$ai_v{'npc_talk'}{'talk'} = 'store';
+	$ai_v{'npc_talk'}{'time'} = time;
+
+	message $msg, "list";
+	Plugins::callHook('packet_barter_market_itemlist', { itemList => $barterMarketList, count => $index });
+}
+
+# Presents list of items that can be bought in an NPC Barter Market, extended variant that also
+# supports an optional zeny cost alongside the item currency (e.g. "3 Oridecon + 50000z").
+# 0B79
+sub npc_barter_market_iteminfo2 {
+	my ($self, $args) = @_;
+
+	my $pack = $self->{npc_barter_market_iteminfo2_pack} || 'V v x4 v x2 v x2 V x4 x2 V V x2 v x2 v';
+	my $keys = [qw(nameID type weight index price amount currencyNameID currencyAmount location)];
+	my $item_len = length pack $pack;
+
+	my $count = unpack('V', substr($args->{itemList}, 0, 4));
+
+	my $index = 0;
+	my $msg = center(T(" Barter Market Item List "), 100, '-') . "\n" .
+		T("#  Name                                       Currency                Cost      Zeny  Amount\n");
+
+	$barterMarketList->clear;
+
+	for (my $i = 0; $i < $count; $i++) {
+		my $offset = 4 + $i * $item_len;
+		last if ($offset + $item_len > length($args->{itemList}));
+
+		my $item = Actor::Item->new;
+		@$item{@$keys} = unpack $pack, substr($args->{itemList}, $offset, $item_len);
+
+		$item->{name} = itemName($item);
+		$item->{currencyName} = itemNameSimple($item->{currencyNameID});
+		$item->{ID} = $index;
+
+		$barterMarketList->add($item);
+
+		$msg .= swrite(
+			"@< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<< @>>>>>>>>>>>> @>>>>>>>>> @<<<<<<",
+			[$index, $item->{name}, $item->{currencyName}, formatNumber($item->{currencyAmount}), formatNumber($item->{price}), formatNumber($item->{amount})]
+		);
+
+		Plugins::callHook('packet_barter_market_item', { item => $item, index => $index });
+		$index++;
+	}
+
+	$ai_v{'npc_talk'}{'talk'} = 'store';
+	$ai_v{'npc_talk'}{'time'} = time;
+
+	message $msg, "list";
+	Plugins::callHook('packet_barter_market_itemlist', { itemList => $barterMarketList, count => $index });
+}
+
+# Presents list of items that can be bought in an NPC Market shop (newer variant with 32-bit item IDs and location field)
+# 0B7A
+sub npc_market_open {
+	my ($self, $args) = @_;
+
+	my $pack = $self->{npc_market_open_pack} || 'V C V V v V';
+	my $keys = [qw(nameID type price amount weight location)];
+	my $item_len = length pack $pack;
+	my $item_list_len = length $args->{itemList};
+
+	my $index = 0;
+	my $msg = center(T(" Market Store Item List "), 100, '-') . "\n" .
+		T("#  Name                                           Price       Amount\n");
+
+	$storeList->clear;
+
+	for (my $i = 0; $i < $item_list_len; $i += $item_len) {
+		my $item = Actor::Item->new;
+		@$item{@$keys} = unpack $pack, substr($args->{itemList}, $i, $item_len);
+
+		$item->{name} = itemName($item);
+		$item->{ID} = $index;
+
+		$item->{amount} = 30000 if $item->{amount} > 30000;
+
+		$storeList->add($item);
+
+		$msg .= swrite(
+			"@< @<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @>>>>>>>>>>>> @<<<<<<",
+			[$index, $item->{name}, formatNumber($item->{price}), formatNumber($item->{amount})]
+		);
+
+		Plugins::callHook('packet_market_open_item', { item => $item, index => $index });
+		$index++;
+	}
+
+	return if !$storeList->size;
+
+	if (AI::action() ne 'buyAuto') {
+		Commands::run('store');
+	}
+
+	$in_market = 1;
+
+	message $msg, "list";
+	Plugins::callHook('packet_market_open_itemlist', { itemList => $storeList, count => $index });
+}
+
 sub deal_add_you {
 	my ($self, $args) = @_;
 

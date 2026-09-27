@@ -6,6 +6,8 @@ use Globals qw($char $messageSender);
 use I18N qw(bytesToString);
 use Log qw(debug message);
 use Translation qw(T);
+use AI;
+use Plugins;
 
 sub new {
 	my ( $class ) = @_;
@@ -76,6 +78,25 @@ sub guild_name {
 	$messageSender->sendGuildRequestInfo(3);
 	$messageSender->sendGuildRequestInfo(1);		# Requests for Members list, list job title
 
+}
+
+# ROla's private server repurposes 'fail' code 12 on the classic buy_result (00CA)
+# to report a successful Barter Market exchange (items/currency were confirmed to
+# actually transfer when this code was observed). Everything else falls back to the
+# stock behavior.
+sub buy_result {
+	my ($self, $args) = @_;
+
+	if ($args->{fail} == 12) {
+		message T("Barter Market exchange completed.\n"), "success";
+		if (AI::is("buyAuto")) {
+			AI::args()->{recv_buy_packet} = 1;
+		}
+		Plugins::callHook('buy_result', {fail => $args->{fail}});
+		return;
+	}
+
+	return $self->SUPER::buy_result($args);
 }
 
 1;

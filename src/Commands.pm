@@ -113,6 +113,10 @@ sub initHandlers {
 			], \&cmdChat],
 		['bl', undef, \&cmdBuyerList],
 		['booking', T("Interact with a group booking"), \&cmdBooking],
+		['barter', [
+			T("Buy an item from the current NPC Barter Market"),
+			[T("<barter item #>[,<amount>]"), T("buy <amount> (default 1) of a single item from the Barter Market list")]
+			], \&cmdBarter],
 		['buy', [
 			T("Buy an item from the current NPC shop"),
 			[T("<store item #> [<amount>]"), T("buy <amount> items from the 'store' list")]
@@ -1447,6 +1451,34 @@ sub cmdBuy {
 	}
 
 	completeNpcBuy(\@bulkitemlist);
+}
+
+sub cmdBarter {
+	if (!$net || $net->getState() != Network::IN_GAME) {
+		error TF("You must be logged in the game to use this command '%s'\n", shift);
+		return;
+	}
+
+	my (undef, $args) = @_;
+	# Only one item per call: comma or space both separate the index from the amount
+	# (unlike 'buy', this does NOT support multiple items in a single packet).
+	my ($index, $amount) = $args =~ /^\s*(\d+)\s*[, ]?\s*(\d*)\s*$/;
+
+	if (!defined $index || $index eq "") {
+		error T("Syntax Error in function 'barter' (Barter Market Purchase)\n" .
+			"Usage: barter <item #>[,<amount>]\n");
+		return;
+
+	} elsif (!$barterMarketList->get($index)) {
+		error TF("Error in function 'barter' (Barter Market Purchase)\n" .
+			"Barter Market Item %s does not exist.\n", $index);
+		return;
+	}
+
+	$amount = 1 if ($amount eq "" || $amount <= 0);
+
+	my $itemId = $barterMarketList->get($index)->{nameID};
+	$messageSender->sendNpcExpandedBarterMarketPurchase([{ itemId => $itemId, shopIndex => $index, amount => $amount }]);
 }
 
 sub cmdCard {

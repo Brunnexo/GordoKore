@@ -739,6 +739,15 @@ sub iterate {
 	# UPDATE: not sending 'talk cancel' breaks autostorage on iRO.
 	# This needs more investigation.
 	} elsif ($self->{stage} == AFTER_NPC_CLOSE) {
+		# Some custom NPC scripts send ZC_CLOSE_DIALOG (00B6) right before opening a
+		# shop/market window (e.g. a Barter Market), instead of after it like usual.
+		# If a shopping state was set in the meantime, treat this like a normal
+		# shopping session instead of auto-cancelling the talk.
+		if ($ai_v{'npc_talk'}{'talk'} =~ /^(buy_or_sell|store|sell|cash)$/) {
+			$self->conversation_end;
+			return;
+		}
+
 		return unless (timeOut($self->{time}, $ai_npc_talk_wait_after_close_to_cancel));
 		#Now 'n' step is totally unnecessary as we always send it but this must be done for backwards compatibility
 		if ( $self->{steps}[0] =~ /^n/i ) {
