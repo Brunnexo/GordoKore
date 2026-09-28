@@ -562,7 +562,7 @@ sub parseShopControl {
 sub parseItemsControl {
 	my ($file, $r_hash) = @_;
 	undef %{$r_hash};
-	my ($key, $args_text, %cache);
+	my ($key, $altKey, $args_text, %cache);
 
 	my $reader = new Utils::TextReader($file);
 	until ($reader->eof) {
@@ -570,7 +570,14 @@ sub parseItemsControl {
 		chomp $line;
 		next if $line =~ /^\s*#/;
 
-		if($line =~ /^[\s0-9]+/) {
+		$altKey = undef;
+
+		if ($line =~ /^(.+?)#(\d+)#\s*(.*)$/) {
+			# "Item Name#nameID#" syntax: register the entry under both
+			# the item name and the nameID, so control matches either.
+			($altKey, $key, $args_text) = ($1, $2, $3);
+			$altKey =~ s/\s+$//;
+		} elsif($line =~ /^[\s0-9]+/) {
 			($key, $args_text) = $line =~ /^(\d+)\s(.*)$/;
 		} elsif(($key, $args_text) = extract_delimited($line) and $key) {
 			$key =~ s/^.|.$//g;
@@ -596,7 +603,9 @@ sub parseItemsControl {
 		chomp $args_text;
 		my @args = split /\s+/, $args_text;
 		# Cache similar entries to save memory.
-		$r_hash->{$key} = $cache{$args_text} ||= { map {$_ => shift @args} qw(keep storage sell cart_add cart_get) };
+		my $control = $cache{$args_text} ||= { map {$_ => shift @args} qw(keep storage sell cart_add cart_get) };
+		$r_hash->{$key} = $control;
+		$r_hash->{$altKey} = $control if defined $altKey && $altKey ne '';
 	}
 	return 1;
 }
