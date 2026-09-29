@@ -8,6 +8,7 @@ Grava ações do jogador num arquivo texto e reproduz depois, em qualquer instâ
 | `stepmacro stoprec` | para e salva em `control/actions/<nome>.txt` |
 | `stepmacro start <nome>` | reproduz o arquivo |
 | `stepmacro stop` | aborta a reprodução |
+| `atkid <nameID>` | ataca o monstro na tela com esse nameID (usado nos arquivos gravados, mas funciona direto no console também) |
 
 ## Por que isso observa principalmente as respostas do servidor (e uma coisa que não precisa mais)
 
@@ -36,6 +37,14 @@ pelo OpenKore, e inferindo a ação a partir delas:
 - **`buy`/`sell`/`store`**: só quando digitado no console/macro - clicar na
   janela da loja não é gravado (precisaria decodificar o protocolo de lista de
   itens da loja, fora de escopo por enquanto).
+
+- **Ataque em monstro**: tanto o clique real (via `Network::clientSend/observed`,
+  precisa da DLL - ver abaixo) quanto o comando digitado `a <#>` são gravados
+  como `atkid <nameID>`, usando o ID da espécie do monstro (ex.: Poring = 1002),
+  que é estável entre sessões - diferente do ID de instância, que muda a cada
+  spawn. `atkid` é um comando novo, registrado por este plugin: na reprodução,
+  ele procura na tela um monstro com esse nameID e ataca. Se nenhum estiver por
+  perto no momento, dá erro e o `startaction` segue pra próxima linha.
 
 Movimentação crua nunca é gravada.
 

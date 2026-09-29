@@ -11,10 +11,15 @@
 # passam. Por isso a maior parte da gravação funciona observando as RESPOSTAS
 # DO SERVIDOR (que sempre passam pelo OpenKore) e inferindo o que o jogador
 # deve ter feito:
-#   - Commands::run/pre : comandos digitados no console/macro (buy, sell, store)
+#   - Commands::run/pre : comandos digitados no console/macro (buy, sell, store, a)
 #   - configModify      : mudanças de configuração via console ou GUI
 #   - packet_useitem, packet_charStats, packet/skill_update : confirmação do
 #     servidor de que um item foi usado / um ponto de atributo ou skill foi gasto
+#   - Network::clientSend/observed com 'actor_action' (ataque real de clique,
+#     via DLL como o Kore-Bridge - ver mais abaixo): grava "atkid <nameID>",
+#     usando o ID da espécie do monstro (estável), não o ID de instância (que
+#     muda a cada spawn). O comando 'atkid' (registrado por este plugin) acha
+#     o monstro certo na tela pelo nameID e ataca na reprodução.
 #   - npc_talk, packet/npc_talk_continue, packet/npc_talk_responses,
 #     packet/npc_talk_number, packet/npc_talk_text, npc_talk_done : o próprio
 #     fluxo do diálogo do NPC. Isso mostra quando um "continuar" foi necessário,
@@ -42,7 +47,7 @@ use Globals;
 use Utils;
 use Misc;
 use Network;
-use Network::PacketParser qw(STATUS_STR STATUS_AGI STATUS_VIT STATUS_INT STATUS_DEX STATUS_LUK);
+use Network::PacketParser qw(STATUS_STR STATUS_AGI STATUS_VIT STATUS_INT STATUS_DEX STATUS_LUK ACTION_ATTACK);
 use I18N qw(bytesToString);
 use Log qw(message error warning);
 use Translation qw/T TF/;
@@ -84,6 +89,7 @@ my $hooks = Plugins::addHooks(
 );
 my $chooks = Commands::register(
 	['stepmacro', 'record/replay player actions', \&cmdStepMacro],
+	['atkid', 'attack the nearest monster with the given nameID', \&cmdAttackByNameID],
 );
 
 sub Unload {
@@ -95,6 +101,38 @@ sub addLine {
 	my $line = shift;
 	push @recLines, $line;
 	message TF("[stepMacro] recorded: %s\n", $line), 'success';
+}
+
+# nameID é o ID da espécie do monstro (ex.: Poring = 1002) - estável entre
+# sessões, ao contrário do ID de instância (GID), que muda a cada spawn.
+sub findMonsterByNameID {
+	my $nameID = shift;
+	for my $m (@$monstersList) {
+		return $m if defined $m->{nameID} && $m->{nameID} == $nameID;
+	}
+	return;
+}
+
+# Grava um ataque como "atkid <nameID>", com um comentário legível acima.
+sub addAttackLine {
+	my $monster = shift;
+	addLine("# ataca: $monster->{name} ($monster->{nameID})");
+	addLine("atkid $monster->{nameID}");
+}
+
+sub cmdAttackByNameID {
+	my (undef, $args) = @_;
+	my ($nameID) = defined($args) ? $args =~ /^(\d+)/ : ();
+	if (!defined $nameID) {
+		error T("Usage: atkid <nameID>\n");
+		return;
+	}
+	my $monster = findMonsterByNameID($nameID);
+	if (!$monster) {
+		error TF("[stepMacro] nenhum monstro com nameID %s por perto\n", $nameID);
+		return;
+	}
+	main::attack($monster->{ID});
 }
 
 sub flushTalk {
@@ -172,7 +210,7 @@ sub resolveLastStep {
 # placeholder pra edição manual.
 sub onClientSendObserved {
 	my (undef, $args) = @_;
-	return unless defined $recName && !defined $playName && %pendingTalk;
+	return unless defined $recName && !defined $playName;
 	my $msg = $args->{msg};
 	return unless $messageSender && defined $msg && length($msg) >= 2;
 
@@ -182,6 +220,13 @@ sub onClientSendObserved {
 	my %f;
 	@f{@$varNames} = unpack("x2 $packString", $msg) if $packString;
 
+	if ($name eq 'actor_action' && defined $f{type} && $f{type} == ACTION_ATTACK) {
+		my $monster = $monstersList && $monstersList->getByID($f{targetID});
+		addAttackLine($monster) if $monster && defined $monster->{nameID};
+		return;
+	}
+
+	return unless %pendingTalk;
 	if ($name eq 'npc_talk_response' && defined $pendingTalk{lastMenuCount}) {
 		my $choice = $f{response} - 1;
 		if ($choice >= 0 && $choice < $pendingTalk{lastMenuCount}) {
@@ -228,6 +273,19 @@ sub onConfigModify {
 sub onCommand {
 	my (undef, $args) = @_;
 	return unless defined $recName && !defined $playName;
+
+	# 'a <binID>' (ataque digitado) - o binID é só um índice temporário na
+	# lista de monstros na tela, então traduz pro nameID (estável) antes de gravar.
+	if ($args->{switch} eq 'a') {
+		my ($binID) = defined($args->{args}) ? $args->{args} =~ /^(\d+)$/ : ();
+		return unless defined $binID;
+		my $ID = $monstersID[$binID];
+		return unless defined $ID && $ID ne '';
+		my $monster = $monstersList && $monstersList->getByID($ID);
+		addAttackLine($monster) if $monster && defined $monster->{nameID};
+		return;
+	}
+
 	my $filter = $recordable{$args->{switch}} or return;
 	my $line = $args->{args};
 	$line = '' unless defined $line;

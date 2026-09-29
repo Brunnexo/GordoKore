@@ -483,7 +483,7 @@ sub processPortalRecording {
 	my $first = 1;
 	my ($foundID, $smallDist, $dist);
 
-	if (!$field->baseName) {
+	if (!$field || !$field->baseName) {
 		debug "Field name not known - abort\n", "portalRecord";
 		return;
 	}
@@ -3410,6 +3410,37 @@ sub processItemsTake {
 		AI::dequeue;
 		ai_clientSuspend(0, $timeout{ai_attack_waitAfterKill}{timeout}) unless (ai_getAggressives());
 	}
+	# Greedy mode: the client allows sending multiple "take" packets back-to-back
+	# with no delay, as long as each item is within a 5x5 cell radius (blockDistance <= 2)
+	# of the character. Bypasses the queued one-at-a-time "take" AI action entirely.
+	if (AI::action eq "items_take" && $config{itemsTakeAuto_greedy}
+	 && timeOut(AI::args->{ai_items_take_start})) {
+		my $found;
+
+		foreach (@itemsID) {
+			next unless $_;
+			my $item = $items{$_};
+			next if (pickupitems($item->{name}, $item->{nameID}) eq "0" || pickupitems($item->{name}, $item->{nameID}) == -1);
+			next if ($item->{take_failed} || $item->{ai_items_take_greedy_sent});
+			next if (blockDistance($item->{pos}, $char->{pos}) > 2);
+
+			$item->{ai_items_take_greedy_sent} = 1;
+			$messageSender->sendTake($_);
+			debug "Greedy picking up: $item->{name} ($item->{binID})\n", "items_take";
+			$found = 1;
+		}
+
+		AI::args->{ai_items_take_end}{time} = time if $found;
+		AI::args->{started} = 1 if $found;
+		Plugins::callHook('ai_items_take') if $found;
+
+		if (!$found && (AI::args->{started} || timeOut(AI::args->{ai_items_take_end}))) {
+			$timeout{'ai_attack_auto'}{'time'} = 0;
+			AI::dequeue;
+		}
+		return;
+	}
+
 	if (AI::action eq "items_take" && timeOut(AI::args->{ai_items_take_start})
 	 && timeOut(AI::args->{ai_items_take_delay})) {
 		my $foundID;
@@ -3443,47 +3474,67 @@ sub processItemsTake {
 ##### ITEMS AUTO-GATHER #####
 sub processItemsAutoGather {
 	return if (AI::inQueue("take", "items_gather"));
-	if ( (AI::isIdle || AI::action eq "follow"
+	return unless ( (AI::isIdle || AI::action eq "follow"
 		|| ( AI::is("route", "mapRoute") && (!AI::args->{ID} || $config{'itemsGatherAuto'} >= 2) ))
 	  && $config{'itemsGatherAuto'}
 	  && (!$config{itemsGatherAuto_notInTown} || !$field->isCity)
 	  && !$ai_v{sitAuto_forcedBySitCommand}
 	  && ($config{'itemsGatherAuto'} >= 2 || !ai_getAggressives())
-	  && percent_weight($char) < $config{'itemsMaxWeight'}
-	  && timeOut($timeout{ai_items_gather_auto}) ) {
+	  && percent_weight($char) < $config{'itemsMaxWeight'} );
 
-		my $bestItem;
-		my $smallestDist;
-		my $myPos = calcPosition($char);
-		my $minPlayerDist = $config{itemsGatherAutoMinPlayerDistance} || 6;
-		my $minPortalDist = $config{itemsGatherAutoMinPortalDistance} || 5;
+	my $myPos = calcPosition($char);
+	my $minPlayerDist = $config{itemsGatherAutoMinPlayerDistance} || 6;
+	my $minPortalDist = $config{itemsGatherAutoMinPortalDistance} || 5;
 
+	# Greedy mode: same trick as itemsTakeAuto_greedy in processItemsTake() -
+	# send "take" immediately (no route, no queued items_gather action) for
+	# every eligible item already within pickup range (blockDistance <= 2).
+	if ($config{itemsGatherAuto_greedy}) {
 		foreach (@itemsID) {
 			next unless $_;
 			my $item = $items{$_};
-			next if (!timeOut($item->{appear_time}, $timeout{ai_items_gather_start}{timeout})
-				|| $item->{take_failed} >= 1
-				|| pickupitems($item->{name}, $item->{nameID}) eq "0"
-				|| pickupitems($item->{name}, $item->{nameID}) == -1 );
-			if (!positionNearPlayer($item->{pos}, $minPlayerDist) &&
-			    !positionNearPortal($item->{pos}, $minPortalDist)) {
-				my $pos = calcPosition($item);
-				my $dist = adjustedBlockDistance($myPos, $pos);
-				if (!defined($bestItem)) {
-					$smallestDist = $dist;
-					$bestItem = $item;
-				} elsif ( $dist < $smallestDist ) {
-					$smallestDist = $dist;
-					$bestItem = $item;
-				}
+			next if ($item->{take_failed} || $item->{ai_items_gather_greedy_sent});
+			next if (pickupitems($item->{name}, $item->{nameID}) eq "0" || pickupitems($item->{name}, $item->{nameID}) == -1);
+			next if (positionNearPlayer($item->{pos}, $minPlayerDist) || positionNearPortal($item->{pos}, $minPortalDist));
+			next if (blockDistance($item->{pos}, $char->{pos}) > 2);
+
+			$item->{ai_items_gather_greedy_sent} = 1;
+			$messageSender->sendTake($_);
+			debug "Greedy gathering: $item->{name} ($item->{binID})\n", "items_gather";
+		}
+	}
+
+	return unless timeOut($timeout{ai_items_gather_auto});
+
+	my $bestItem;
+	my $smallestDist;
+	foreach (@itemsID) {
+		next unless $_;
+		my $item = $items{$_};
+		# With itemsGatherAuto_greedy on, don't also wait out the normal
+		# "let it settle" delay before walking to a dropped item.
+		next if (!timeOut($item->{appear_time}, $config{itemsGatherAuto_greedy} ? 0 : $timeout{ai_items_gather_start}{timeout})
+			|| $item->{take_failed} >= 1
+			|| pickupitems($item->{name}, $item->{nameID}) eq "0"
+			|| pickupitems($item->{name}, $item->{nameID}) == -1 );
+		if (!positionNearPlayer($item->{pos}, $minPlayerDist) &&
+		    !positionNearPortal($item->{pos}, $minPortalDist)) {
+			my $pos = calcPosition($item);
+			my $dist = adjustedBlockDistance($myPos, $pos);
+			if (!defined($bestItem)) {
+				$smallestDist = $dist;
+				$bestItem = $item;
+			} elsif ( $dist < $smallestDist ) {
+				$smallestDist = $dist;
+				$bestItem = $item;
 			}
 		}
+	}
 
-		if (defined($bestItem)) {
-			message TF("Gathering: %s (%s)\n", $bestItem->{name}, $bestItem->{binID});
-			gather($bestItem->{ID});
-			$timeout{ai_items_gather_auto}{time} = time;
-		}
+	if (defined($bestItem)) {
+		message TF("Gathering: %s (%s)\n", $bestItem->{name}, $bestItem->{binID});
+		gather($bestItem->{ID});
+		$timeout{ai_items_gather_auto}{time} = time;
 	}
 }
 

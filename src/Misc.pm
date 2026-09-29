@@ -4679,7 +4679,7 @@ sub checkSelfCondition {
 	if ($config{$prefix . "_inTown"} > 0) { return 0 unless ($field->isCity); }
     if (defined $config{$prefix . "_monstersCount"}) {
 		my $nowMonsters = $monstersList->size();
-			if ($nowMonsters > 0 && $config{$prefix . "_notMonsters"}) {
+			if ($nowMonsters > 0 && ($config{$prefix . "_notMonsters"} || $config{$prefix . "_monstersCountDist"})) {
 				for my $monster (@$monstersList) {
 					$nowMonsters-- if (existsInList($config{$prefix . "_notMonsters"}, $monster->{name}) ||
 										existsInList($config{$prefix . "_notMonsters"}, $monster->{nameID}) ||

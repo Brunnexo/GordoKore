@@ -551,7 +551,10 @@ sub ai_items_take {
 	$args{ai_items_take_end}{time} = time;
 	$args{ai_items_take_end}{timeout} = $timeout{ai_items_take_end}{timeout};
 	$args{ai_items_take_start}{time} = time;
-	$args{ai_items_take_start}{timeout} = $timeout{ai_items_take_start}{timeout};
+	# Greedy mode fires "take" for every item in range back-to-back anyway
+	# (CoreLogic::processItemsTake); no reason to also wait out the normal
+	# post-kill delay before starting.
+	$args{ai_items_take_start}{timeout} = $config{itemsTakeAuto_greedy} ? 0 : $timeout{ai_items_take_start}{timeout};
 	$args{ai_items_take_delay}{timeout} = $timeout{ai_items_take_delay}{timeout};
 	AI::queue("items_take", \%args);
 }
