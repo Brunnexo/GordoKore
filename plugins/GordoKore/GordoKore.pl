@@ -2,16 +2,21 @@
 #
 # Ponto unico de comunicacao entre a DLL do Kore-Bridge e o OpenKore.
 #
-# Lista de venda: espelha a "Lista de venda" do Kore-Bridge (janela no cliente) com os itens a
-# venda do items_control.txt (coluna auto-sell = 1).
+# Lista de venda (janela no cliente) = editor do items_control.txt e da coleta do pickupitems.txt.
 #
 # A DLL manda frames 'C' (hook 'Network::clientSend/observed'):
-#   "GKSQ"                 pede a lista atual
-#   "GKSL" + uint32 LE...  lista inteira desejada (botao "Salvar venda")
-# e recebe de volta um frame 'X' "GKSL" + uint32 LE com os IDs a venda.
+#   "GKSQ"                 pede os itens
+#   "GKIC" + registros     lista inteira desejada (botao "Salvar")
+# e recebe de volta um frame 'X' "GKIC" + registros com os itens do items_control.txt.
+# Registro (10 bytes, LE): uint32 ID, int32 minimo, uint8 flags (bit 0 guardar, 1 vender,
+# 2 por no carrinho, 3 pegar do carrinho), int8 coleta (-1..2 ou 127 = sem linha no pickupitems).
 #
-# Salvar marca os IDs da lista pra vender e desmarca os que sairam dela, via
-# comando iconf (plugin xConf); as outras colunas da linha sao mantidas.
+# Salvar reescreve os dois arquivos de uma vez (guarda um .bak antes):
+#   items_control.txt: atualiza as linhas dos itens da lista (mantendo o nome/ID e o comentario
+#   da linha), tira as dos itens que sairam dela e acrescenta os novos ("ID ... #Nome").
+#   A linha "all", comentarios e linhas cujo item nao se acha na tabela ficam como estao.
+#   pickupitems.txt: so mexe nos itens da lista (127 tira a linha); o resto fica.
+# Linhas por nome, por ID ou "Nome#ID#" valem igual (o items_control.txt aceita os tres).
 #
 # NPC de venda:
 #   "GKNP"                 (DLL) o proximo NPC clicado no cliente vira o NPC de venda
@@ -28,18 +33,23 @@
 package GordoKore;
 
 use strict;
+use File::Copy qw(copy);
 use Plugins;
 use Commands;
-use Globals qw(%items_control %items_lut %config $net $npcsList $field $char $messageSender %talk %ai_v);
+use Settings;
+use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $npcsList $field $char $messageSender %talk %ai_v);
 use Log qw(message error warning);
-use Misc qw(configModify);
+use Misc qw(configModify parseReload);
 
 use constant QUERY      => 'GKSQ';
-use constant LIST       => 'GKSL';
+use constant ITEMS      => 'GKIC';
 use constant PICK_NPC   => 'GKNP';
 use constant NPC        => 'GKNS';
 use constant NAVI       => 'GKNV';
 use constant PICK_TIMEOUT => 120; # segundos esperando o clique
+use constant NO_PICKUP  => 127;   # sem linha no pickupitems.txt
+use constant RECORD     => 'V l C c';
+use constant RECORD_SIZE => 10;
 
 Plugins::register('GordoKore', 'Kore-Bridge: toda a comunicacao da DLL com o OpenKore', \&Unload, \&Unload);
 
@@ -58,58 +68,156 @@ sub Unload {
 	Plugins::delHooks($hooks);
 }
 
-# { id => chave no items_control } dos itens com auto-sell = 1
-sub itemsForSale {
-	my %id_of_name;
+sub clientAlive {
+	return $net && $net->can('clientAlive') && $net->clientAlive;
+}
+
+sub sendToClient {
+	my ($payload) = @_;
+	$net->{client}->send('X' . pack('v', length $payload) . $payload) if clientAlive();
+}
+
+# ---------------------------------------------------------------------------
+# items_control.txt / pickupitems.txt
+# ---------------------------------------------------------------------------
+
+# { nome em minusculas (com e sem "[slots]") => ID }
+sub idsByName {
+	my %ids;
 	while (my ($id, $name) = each %items_lut) {
-		$id_of_name{lc $name} //= $id;
+		$ids{lc $name} //= $id;
+		$ids{lc "$name [$itemSlotCount_lut{$id}]"} //= $id if $itemSlotCount_lut{$id};
 	}
-
-	my %sale;
-	while (my ($key, $control) = each %items_control) {
-		next if $key eq 'all' || !$control->{sell};
-		my $id = $key =~ /^\d+$/ ? $key : $id_of_name{$key};
-		$sale{$id} //= $key if defined $id;
-	}
-	return \%sale;
+	return \%ids;
 }
 
-sub sendList {
-	return unless $net && $net->can('clientAlive') && $net->clientAlive;
-	my @ids = sort { $a <=> $b } keys %{itemsForSale()};
-	my $payload = LIST . pack('V*', @ids);
-	$net->{client}->send('X' . pack('v', length $payload) . $payload);
+# Linha de controle -> (chave como esta no arquivo, valores, comentario do fim, ID)
+# Chave "Nome#ID#", ID ou nome (como o xConf: a chave vai ate o primeiro numero)
+sub parseLine {
+	my ($line, $ids) = @_;
+	return if $line =~ /^\s*(#|$)/;
+	my ($key, $rest) = $line =~ /^\s*(.+?)\s+(-?\d.*)$/ or return;
+	my ($values, $comment) = $rest =~ /^(.*?)(\s*#.*)?$/;
+	my $id;
+	if ($key =~ /#(\d+)#\s*$/) {
+		$id = $1;
+	} elsif ($key =~ /^\d+$/) {
+		$id = $key;
+	} else {
+		$id = $ids->{lc $key};
+	}
+	return ($key, [split ' ', $values], $comment // '', $id);
 }
 
-sub applyList {
-	my @ids = @_;
-	unless (Plugins::registered('xConf')) {
-		error "[GordoKore] plugin xConf nao carregado (loadPlugins_list); lista de venda ignorada\n";
+sub controlFile {
+	return Settings::getControlFilename($_[0]);
+}
+
+sub readLines {
+	my ($file) = @_;
+	open(my $in, '<:encoding(UTF-8)', controlFile($file)) or return;
+	my @lines = <$in>;
+	close $in;
+	s/[\r\n]+$// for @lines;
+	return @lines;
+}
+
+sub writeLines {
+	my ($file, @lines) = @_;
+	my $path = controlFile($file);
+	copy($path, "$path.bak");
+	open(my $out, '>:utf8', $path) or do {
+		error "[GordoKore] nao consegui gravar $path: $!\n";
 		return;
-	}
-
-	my %wanted = map { $_ => 1 } @ids;
-	my $sale = itemsForSale();
-
-	# Sairam da lista: desmarca a venda, mantendo as outras colunas
-	foreach my $id (grep { !$wanted{$_} } keys %$sale) {
-		my $control = $items_control{$sale->{$id}};
-		Commands::run(join ' ', 'iconf', $id, map { $_ // 0 } @{$control}{qw(keep storage)}, 0, @{$control}{qw(cart_add cart_get)});
-	}
-
-	# Entraram: marca pra vender (mantem o resto se ja existia linha)
-	foreach my $id (grep { !$sale->{$_} } @ids) {
-		my $control = $items_control{$id} || {};
-		Commands::run(join ' ', 'iconf', $id, map { $_ // 0 } @{$control}{qw(keep storage)}, 1, map { $_ // 0 } @{$control}{qw(cart_add cart_get)});
-	}
-
-	message "[GordoKore] " . scalar(@ids) . " item(s) a venda\n", 'success';
+	};
+	print $out join("\n", @lines), "\n";
+	close $out;
+	parseReload($file);
 }
+
+sub pickupOf {
+	my ($id) = @_;
+	my $name = lc($items_lut{$id} // '');
+	return $pickupitems{$name} if $name ne '' && exists $pickupitems{$name};
+	return $pickupitems{$id} if exists $pickupitems{$id};
+	return NO_PICKUP;
+}
+
+# Itens do items_control.txt na ordem do arquivo (um por ID)
+sub readItems {
+	my $ids = idsByName();
+	my (@items, %seen);
+	foreach my $line (readLines('items_control.txt')) {
+		my ($key, $values, undef, $id) = parseLine($line, $ids);
+		next if !defined $key || lc $key eq 'all' || !defined $id || $seen{$id}++;
+		my ($keep, $storage, $sell, $cart_add, $cart_get) = map { $_ // 0 } @{$values}[0 .. 4];
+		push @items, {
+			id => $id, keep => $keep, storage => $storage, sell => $sell,
+			cart_add => $cart_add, cart_get => $cart_get, pickup => pickupOf($id),
+		};
+	}
+	return @items;
+}
+
+sub sendItems {
+	my $payload = ITEMS;
+	foreach my $item (readItems()) {
+		my $flags = ($item->{storage} ? 1 : 0) | ($item->{sell} ? 2 : 0) | ($item->{cart_add} ? 4 : 0) | ($item->{cart_get} ? 8 : 0);
+		$payload .= pack(RECORD, $item->{id}, $item->{keep}, $flags, $item->{pickup});
+	}
+	sendToClient($payload);
+}
+
+sub applyItems {
+	my ($data) = @_;
+	my (@wanted, %wanted);
+	for (my $at = 0; $at + RECORD_SIZE <= length $data; $at += RECORD_SIZE) {
+		my ($id, $keep, $flags, $pickup) = unpack(RECORD, substr($data, $at, RECORD_SIZE));
+		next if $wanted{$id};
+		$wanted{$id} = {
+			values => join(' ', $keep, map { ($flags >> $_) & 1 } 0 .. 3), # minimo guardar vender carrinho+ carrinho-
+			pickup => $pickup,
+		};
+		push @wanted, $id;
+	}
+	my $ids = idsByName();
+
+	# items_control.txt: troca os valores, tira quem saiu, acrescenta os novos
+	my (@lines, %written);
+	foreach my $line (readLines('items_control.txt')) {
+		my ($key, undef, $comment, $id) = parseLine($line, $ids);
+		if (!defined $key || lc $key eq 'all' || !defined $id) {
+			push @lines, $line;
+		} elsif ($wanted{$id} && !$written{$id}++) {
+			push @lines, "$key $wanted{$id}{values}$comment";
+		}
+	}
+	push @lines, "$_ $wanted{$_}{values} #" . ($items_lut{$_} // '') for grep { !$written{$_} } @wanted;
+	writeLines('items_control.txt', @lines);
+
+	# pickupitems.txt: so os itens da lista (127 = sem linha); o resto fica
+	my (@pickup, %done);
+	foreach my $line (readLines('pickupitems.txt')) {
+		my ($key, undef, $comment, $id) = parseLine($line, $ids);
+		if (!defined $key || lc $key eq 'all' || !defined $id || !$wanted{$id}) {
+			push @pickup, $line;
+		} elsif ($wanted{$id}{pickup} != NO_PICKUP && !$done{$id}++) {
+			push @pickup, "$key $wanted{$id}{pickup}$comment";
+		}
+	}
+	push @pickup, "$_ $wanted{$_}{pickup} #" . ($items_lut{$_} // '')
+		for grep { !$done{$_} && $wanted{$_}{pickup} != NO_PICKUP } @wanted;
+	writeLines('pickupitems.txt', @pickup);
+
+	message "[GordoKore] items_control.txt: " . scalar(@wanted) . " item(s) salvos\n", 'success';
+}
+
+# ---------------------------------------------------------------------------
+# NPC de venda
+# ---------------------------------------------------------------------------
 
 sub sendNpc {
-	return unless $net && $net->can('clientAlive') && $net->clientAlive;
-	my $payload = NPC . ($config{sellAuto_npc} // '');
-	$net->{client}->send('X' . pack('v', length $payload) . $payload);
+	sendToClient(NPC . ($config{sellAuto_npc} // ''));
 }
 
 sub onNpcContact {
@@ -154,6 +262,10 @@ sub setSellNpc {
 	sendNpc();
 }
 
+# ---------------------------------------------------------------------------
+# Frames da DLL
+# ---------------------------------------------------------------------------
+
 sub onClientSendObserved {
 	my (undef, $args) = @_;
 	my $msg = $args->{msg};
@@ -161,11 +273,11 @@ sub onClientSendObserved {
 
 	my $tag = substr($msg, 0, 4);
 	if ($tag eq QUERY) {
-		sendList();
+		sendItems();
 		sendNpc();
-	} elsif ($tag eq LIST) {
-		applyList(unpack('V*', substr($msg, 4)));
-		sendList();
+	} elsif ($tag eq ITEMS) {
+		applyItems(substr($msg, 4));
+		sendItems();
 	} elsif ($tag eq NAVI) {
 		my ($map, $x, $y) = split ' ', substr($msg, 4);
 		return unless defined $map && $map =~ /^[\w@.-]+$/; # vira comando do console: so nome de mapa
