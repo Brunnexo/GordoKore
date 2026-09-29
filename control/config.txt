@@ -217,7 +217,9 @@ followBot 0
 
 itemsTakeAuto 2
 itemsTakeAuto_party 0
+itemsTakeAuto_greedy 0
 itemsGatherAuto 2
+itemsGatherAuto_greedy 0
 itemsGatherAuto_notInTown 0
 itemsGatherAutoMinPlayerDistance 6
 itemsGatherAutoMinPortalDistance 5
