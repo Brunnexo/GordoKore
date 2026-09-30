@@ -18,14 +18,20 @@
 #   pickupitems.txt: so mexe nos itens da lista (127 tira a linha); o resto fica.
 # Linhas por nome, por ID ou "Nome#ID#" valem igual (o items_control.txt aceita os tres).
 #
-# NPC de venda:
-#   "GKNP"                 (DLL) o proximo NPC clicado no cliente vira o NPC de venda
-#   "GKNS" + "mapa x y"    (resposta 'X') sellAuto_npc atual, tambem enviado junto com a lista
-# O NPC e' pego na resposta do servidor ao clique (loja: npc_store_begin; dialogo:
-# npc_talk / npc_talk_responses). sellAuto_npc = posicao do NPC e sellAuto_standpoint =
-# posicao do personagem nesse momento (ele ja andou ate o NPC pra falar).
-# Depois fecha o que o clique abriu: dialogo com 0x0146 (a DLL fecha as janelas 16/17 e
-# repassa ao servidor) e loja com 0x09D4 (a DLL fecha 25/50 e segura o pacote).
+# NPC de venda / do armazem = o NPC mais proximo do personagem no mapa atual (qualquer um: nem so
+# Kafra guarda itens e os nomes dos vendedores variam):
+#   "GKNP" / "GKAP"                (DLL) escolhe o NPC mais proximo como NPC de venda / do armazem
+#   "GKNS" / "GKAS" + "mapa x y"   (resposta 'X') sellAuto_npc / storageAuto_npc atual, tambem enviado junto com a lista
+# Candidatos: os NPCs na tela ($npcsList, posicao real) e os do %npcs_lut (tables/npcs.txt: "mapa x y" =>
+# nome), menos os de nome so escondido ("#..."). Menor distancia em linha reta da posicao atual do
+# personagem (calcPosition); <prefixo>_standpoint fica vazio (o AI anda ate o NPC). O jeito de falar
+# com o NPC do armazem (storageAuto_npc_type / _steps) fica como esta no config.txt.
+#
+# Iniciar: "GKGO" + "sell" / "storage" (DLL) = comando autosell / autostorage.
+#
+# Relog: o comando "relog [segundos|a..b]" do OpenKore manda "GKRL" + segundos (resposta 'X') e a
+# DLL volta o cliente pro login e loga depois desse tempo (no XKore o relog do OpenKore sozinho nao
+# derruba o cliente). Sem argumento = 5, como o OpenKore; 0 = fica no login.
 #
 # Navegacao: "GKNV" + "mapa [x y]" (DLL) = /navi digitado no chat do cliente; o personagem
 # anda ate la com o AI em manual (ai manual + move).
@@ -37,7 +43,8 @@ use File::Copy qw(copy);
 use Plugins;
 use Commands;
 use Settings;
-use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $npcsList $field $char $messageSender %talk %ai_v);
+use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $char $npcsList %npcs_lut);
+use Utils qw(calcPosition);
 use Log qw(message error warning);
 use Misc qw(configModify parseReload);
 
@@ -45,21 +52,26 @@ use constant QUERY      => 'GKSQ';
 use constant ITEMS      => 'GKIC';
 use constant PICK_NPC   => 'GKNP';
 use constant NPC        => 'GKNS';
+use constant PICK_STORAGE_NPC => 'GKAP';
+use constant STORAGE_NPC      => 'GKAS';
+use constant START      => 'GKGO';
+use constant RELOG      => 'GKRL';
 use constant NAVI       => 'GKNV';
-use constant PICK_TIMEOUT => 120; # segundos esperando o clique
 use constant NO_PICKUP  => 127;   # sem linha no pickupitems.txt
 use constant RECORD     => 'V l C c';
 use constant RECORD_SIZE => 10;
 
 Plugins::register('GordoKore', 'Kore-Bridge: toda a comunicacao da DLL com o OpenKore', \&Unload, \&Unload);
 
-my $picking_since; # time() do "Selecionar NPC"; undef = fora do modo
+# Por tipo de NPC: prefixo no config.txt, tag da resposta e nome nas mensagens
+my %NPC_KIND = (
+	sell    => { config => 'sellAuto',    tag => NPC,         label => 'venda' },
+	storage => { config => 'storageAuto', tag => STORAGE_NPC, label => 'armazem' },
+);
 
 my $hooks = Plugins::addHooks(
 	['Network::clientSend/observed', \&onClientSendObserved, undef],
-	['packet/npc_store_begin',       \&onNpcContact, undef],
-	['packet/npc_talk',              \&onNpcContact, undef],
-	['packet/npc_talk_responses',    \&onNpcContact, undef],
+	['Commands::run/pre',            \&onCommand, undef],
 );
 
 message "[GordoKore] Plugin loaded!\n", 'success';
@@ -213,53 +225,85 @@ sub applyItems {
 }
 
 # ---------------------------------------------------------------------------
-# NPC de venda
+# NPC de venda / do armazem
 # ---------------------------------------------------------------------------
 
 sub sendNpc {
-	sendToClient(NPC . ($config{sellAuto_npc} // ''));
+	my ($kind) = @_;
+	sendToClient($NPC_KIND{$kind}{tag} . ($config{"$NPC_KIND{$kind}{config}_npc"} // ''));
 }
 
-sub onNpcContact {
-	my ($hook, $args) = @_;
-	return unless defined $picking_since;
-	if (time - $picking_since > PICK_TIMEOUT) {
-		undef $picking_since;
-		return;
+# Candidatos do mapa atual: os NPCs na tela (posicao real, vinda do servidor) e os do tables/npcs.txt
+# (que pode estar desatualizado ou nao ter todos); [nome, x, y]
+sub npcCandidates {
+	my ($map) = @_;
+	my @candidates;
+	if ($npcsList) {
+		foreach my $npc (@{$npcsList->getItems()}) {
+			my $pos = $npc->{pos_to} || $npc->{pos} or next;
+			push @candidates, [$npc->name, $pos->{x}, $pos->{y}];
+		}
 	}
-
-	undef $picking_since;
-	my $ID = $args->{ID} // substr($args->{RAW_MSG} // '', 4, 4);
-	setSellNpc($ID);
-
-	# Fecha o que o clique abriu (a DLL fecha as janelas ao ver o pacote)
-	if ($hook eq 'packet/npc_store_begin') {
-		$messageSender->sendSellBuyComplete;
-		# O npc_store_begin preencheu o %talk; sem limpar, o proximo TalkNPC (autosell) acha
-		# que ainda esta conversando com outro NPC ("Talking to wrong npc.")
-		undef %talk;
-		delete $ai_v{'npc_talk'};
-	} else {
-		$messageSender->sendTalkCancel($ID);
+	while (my ($key, $name) = each %npcs_lut) {
+		my ($npc_map, $x, $y) = split ' ', $key;
+		push @candidates, [$name, $x, $y] if defined $y && $npc_map eq $map;
 	}
+	return @candidates;
 }
 
-sub setSellNpc {
-	my ($ID) = @_;
-	my $npc = $npcsList ? $npcsList->getByID($ID) : undef;
-	unless ($npc && $field && $char) {
-		warning "[GordoKore] NPC clicado nao encontrado na lista de NPCs do OpenKore\n";
-		sendNpc(); # a janela volta a mostrar o NPC atual
-		return;
+# NPC mais proximo do personagem (posicao de agora, mesmo andando)
+sub setNearestNpc {
+	my ($kind) = @_;
+	my $info = $NPC_KIND{$kind};
+	unless ($field && $char && ($char->{pos_to} || $char->{pos})) {
+		warning "[GordoKore] Sem mapa/posicao do personagem pra procurar o NPC de $info->{label}\n";
+		return sendNpc($kind);
 	}
-
 	my $map = $field->baseName;
-	my $pos = $npc->{pos_to} || $npc->{pos};
-	my $stand = $char->{pos_to} || $char->{pos};
-	configModify('sellAuto_npc', "$map $pos->{x} $pos->{y}");
-	configModify('sellAuto_standpoint', "$map $stand->{x} $stand->{y}");
-	message "[GordoKore] NPC de venda: " . $npc->name . " ($map $pos->{x} $pos->{y})\n", 'success';
-	sendNpc();
+	my $here = calcPosition($char);
+	my ($best, $best_dist);
+	foreach my $candidate (npcCandidates($map)) {
+		my ($name, $x, $y) = @$candidate;
+		(my $shown = $name) =~ s/#.*$//; # parte escondida do nome ("Kafra#prt1")
+		next if $shown =~ /^\s*$/;        # so escondido ("#prtjm1"): NPC de efeito, nao se fala com ele
+		my $dist = sqrt(($x - $here->{x}) ** 2 + ($y - $here->{y}) ** 2);
+		($best, $best_dist) = ([$shown, $x, $y], $dist) if !defined $best_dist || $dist < $best_dist;
+	}
+	unless ($best) {
+		warning "[GordoKore] Nenhum NPC de $info->{label} em $map (na tela ou no tables/npcs.txt)\n";
+		return sendNpc($kind);
+	}
+	my ($name, $x, $y) = @$best;
+	configModify("$info->{config}_npc", "$map $x $y");
+	configModify("$info->{config}_standpoint", '');
+	message sprintf("[GordoKore] NPC de %s: %s (%s %d %d), a %.0f celulas de %d %d\n",
+		$info->{label}, $name, $map, $x, $y, $best_dist, $here->{x}, $here->{y}), 'success';
+	sendNpc($kind);
+}
+
+# ---------------------------------------------------------------------------
+# relog
+# ---------------------------------------------------------------------------
+
+# Mesmas regras do cmdRelog: vazio = 5, N, a..b = aleatorio entre a e b, 0 = fica offline
+sub onCommand {
+	my (undef, $args) = @_;
+	return unless $args->{switch} eq 'relog';
+	my $arg = $args->{args} // '';
+	$arg =~ s/^\s+|\s+$//g;
+	my $seconds;
+	if ($arg eq '') {
+		$seconds = 5;
+	} elsif ($arg =~ /^\d+$/) {
+		$seconds = $arg;
+	} elsif ($arg =~ /^(\d+)\.\.(\d+)$/ && $1 <= $2) {
+		$seconds = int(rand($2 - $1) + $1 + 0.5);
+	} else {
+		return; # o cmdRelog mostra o erro de sintaxe
+	}
+	return unless clientAlive();
+	sendToClient(RELOG . $seconds);
+	message "[GordoKore] Cliente voltando pro login" . ($seconds ? ", login em ${seconds}s" : '') . "\n", 'connection';
 }
 
 # ---------------------------------------------------------------------------
@@ -274,7 +318,7 @@ sub onClientSendObserved {
 	my $tag = substr($msg, 0, 4);
 	if ($tag eq QUERY) {
 		sendItems();
-		sendNpc();
+		sendNpc($_) for qw(sell storage);
 	} elsif ($tag eq ITEMS) {
 		applyItems(substr($msg, 4));
 		sendItems();
@@ -285,9 +329,14 @@ sub onClientSendObserved {
 		message "[GordoKore] /navi: $target\n", 'info';
 		Commands::run('ai manual');
 		Commands::run("move $target");
-	} elsif ($tag eq PICK_NPC) {
-		$picking_since = time;
-		message "[GordoKore] Clique no NPC de venda no cliente\n", 'info';
+	} elsif ($tag eq PICK_NPC || $tag eq PICK_STORAGE_NPC) {
+		setNearestNpc($tag eq PICK_NPC ? 'sell' : 'storage');
+	} elsif ($tag eq START) {
+		# So os dois comandos (o frame vem da DLL, nada de comando livre)
+		my %commands = (sell => 'autosell', storage => 'autostorage');
+		my $command = $commands{substr($msg, 4)} or return;
+		message "[GordoKore] $command\n", 'info';
+		Commands::run($command);
 	}
 }
 
