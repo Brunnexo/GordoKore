@@ -3,7 +3,7 @@
 
 ######## Login options and server-specific options ########
 
-master
+master Latam - ROla: Freya/Nidhogg/Yggdrasil
 server
 username
 password
@@ -30,9 +30,9 @@ checksum_port
 # 2 = act as stand-alone proxy
 # 3 = act as true proxy
 # https://openkore.com/wiki/XKore
-XKore 0
-XKore_hookIp 127.0.0.1
-XKore_port 2350
+XKore 1
+XKore_hookIp 172.65.175.70
+XKore_port 2349
 
 # If the current port is in use, connect using the next available port (XKore_port + 1...n)
 XKore_autoIncrementPort 1
