@@ -350,6 +350,98 @@ Caverna de Mors#
 Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
 Volte amanhã#
 
+1077#Liga dos Desbravadores###
+Em Ortus Aqua, elimine 1 Papilia Violeta.#
+Ortus Aqua#
+
+1078#[Espera] LD - Ortus Aqua###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1079#Liga dos Desbravadores###
+No Jardim Secreto, elimine 1 Pimentinha.#
+Jardim Secreto#
+
+1080#[Espera] LD - Jardim Secreto###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1081#Liga dos Desbravadores###
+Em Edda de Glastheim, elimine 1 Rei Schmidt.#
+Edda de Glastheim#
+
+1082#[Espera] LD - Edda de Glastheim###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1083#Liga dos Desbravadores###
+Na Mansão da Desilusão, elimine 1 Schulang.#
+Mansão da Desilusão#
+
+1084#[Espera] LD - Mansão da Desilusão###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1085#Liga dos Desbravadores###
+Em Glastheim Infernal, elimine 1 Miragem de Amdarais.#
+Glastheim Infernal#
+
+1086#[Espera] LD - Glastheim Infernal###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1087#Liga dos Desbravadores###
+Na instância Túmulo do Monarca, elimine 1 Monarca Lich.#
+Túmulo do Monarca#
+
+1088#[Espera] LD - Túmulo do Monarca###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1089#Liga dos Desbravadores###
+No Espaço Infinito, elimine 1 Tao Gunka Espacial.#
+Espaço Infinito#
+
+1090#[Espera] LD - Espaço Infinito###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1091#Liga dos Desbravadores###
+Na Fazenda de Pitayas, elimine 1 Árvore de Pitaya.#
+Fazenda de Pitayas#
+
+1092#[Espera] LD - Fazenda de Pitayas###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1093#Liga dos Desbravadores###
+No Santuário, elimine 5 Guarda do Templo e 5 Segurança do Templo.#
+Purificação do Santuário#
+
+1094#[Espera] LD - Purificação do Santuário###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1095#Liga dos Desbravadores###
+Em EDDA do Biolaboratório, elimine 1 Espadachim Anônima.#
+EDDA do Biolaboratório#
+
+1096#[Espera] LD - EDDA do Biolaboratório###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1097#Liga dos Desbravadores###
+Em Ortus Aqua, elimine 1 Papilia Rubra.#
+Ortus Aqua#
+
+1098#[Espera] LD - Ortus Aqua###
+Aguarde o período de descanso para retornar ao prédio da Liga dos Desbravadores!#
+Volte amanhã#
+
+1099#Liga dos Desbravadores###
+No Jardim Secreto, elimine 1 Pimentão (Difícil).#
+Jardim Secreto (Difícil)#
+
 1100#Treino solitário na Esfinge!###
 Treine na Esfinge caçando 20 Zerom.#
 Mate 20 Zeroms na caverna da Esfinge!#
@@ -8307,7 +8399,7 @@ Conheci um Diabo em uma caixa.#
 #
 
 6000#Mudança de Classe: Taekwon###
-Você escolheu o caminho do Taekwon. Você deve aumentar seu nível de base e voltar falar com <NAVI>[Fênix]<INFO>payon_in02,64,71,0,100,0,0</INFO></NAVI>.#
+Você escolheu o caminho do Taekwon. Você deve aumentar seu nível de base e voltar falar com <NAVI>[Fênix]<INFO>payon_in02,62,10,0,100,0,0</INFO></NAVI>.#
 Suba 1 nível#
 
 6001#Mudança de Classe: Taekwon###
@@ -13310,89 +13402,89 @@ Conclua a Instância#
 Você concluiu a tarefa. Reporte a situração para <NAVI>[Maura]<INFO>verus04,214,251,0,101,0</INFO></NAVI>.#
 Fale com Maura#
 
-8639#Salão de Banquetes nas profundezas do submundo###
-O acadêmico aposentado, Garim, quer saber se os mortos estão realmente realizando um banquete nas profundezas de Nifflheim. Nunca ouvi falar disso antes. Eu deveria ir a <NAVI>[Nifflheim]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> e procurar alguém que saiba.#
-Ouça as notícias em Nifflheim#
+8639#Calabouço de Niflheim###
+Garim, um velho professor, quer saber se os mortos estão realmente realizando um banquete nas profundezas de Niflheim. Você deve procurar alguém que saiba sobre o <NAVI>[Salão dos Mortos]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>#
+Visite o Salão dos Mortos#
 
-8640#Todo mundo está bêbado, vivo ou morto###
-Devo me reportar a <NAVI>[Garim]<INFO>moc_para01,14,19,0,101,0</INFO></NAVI> com o que ouvi e vi em Nifflheim. Além disso, posso me reportar à Milla para atender às suas solicitações diariamente.#
+8640#Calabouço de Niflheim###
+Com as informações sobre o Banquete em Niflheim, volte a falar com <NAVI>[Garim]<INFO>moc_para01,14,19,0,101,0</INFO></NAVI>, o velho professor. Além disso, você pode fazer as missões diárias de Milla, a Morta Exausta.#
 Reportar para Garim#
 
-8641#Looks enganosamente bonitos###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu bata em 15 Quves Fantasmas e 15 Lude Gals e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8641#Só Parece Fofo (1ª vez)###
+Elimine 15 Quves Fantasmas e 15 Lude Alhitas para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Salão dos Mortos#
 
-8642#[Espera] Looks enganosamente bonitos###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>.#
+8642#[Espera] Só Parece Fofo###
+Essa missão pode ser repetida após seu tempo de espera. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
 Reseta 4 da manhã#
 
-8643#Não é realmente bonito###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu bata em 15 Quves Fantasmas e 15 Lude Gals e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8643#Só Parece Fofo###
+Elimine 15 Quves Fantasmas e 15 Lude Alhitas para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Salão dos Mortos#
 
-8644#Não é um instrumento musical###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu dê uma surra em 10 Assassinos Brutais e 10 Gan Ceanns e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8644#Não é um Instrumento (1ª vez)###
+Elimine 10 Assassinos Brutais e 10 Gan Ceanns para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Salão dos Mortos#
 
-8645#[Espera] Não é um instrumento musical###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>.#
+8645#[Espera] Não é um Instrumento###
+Essa missão pode ser repetida após seu tempo de espera. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
 Reseta 4 da manhã#
 
-8646#Eu disse que não era um instrumento musical!###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu dê uma surra em 10 Assassinos Brutais e 10 Gan Ceanns e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8646#Não é um Instrumento###
+Elimine 10 Assassinos Brutais e 10 Gan Ceanns para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Salão dos Mortos#
 
-8647#Tocando Piano###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu toque o piano de cauda no meio do Salão de Banquetes dos Mortos. Mas isso não seria barulhento?#
-Tocar piano no Banquet Hall of the Dead (Salão de Banquetes dos Mortos)#
+8647#Tocar o Piano###
+Toque uma música no Piano no centro do Salão de Banquete dos Mortos à pedido de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+Encontre o Piano#
 
-8648#[Espera] Tocando Piano###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>.#
+8648#[Espera] Tocar o Piano###
+Essa missão pode ser repetida após seu tempo de espera. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
 Reseta 4 da manhã#
 
-8649#Foi um ótimo desempenho###
-Toquei o piano exatamente como <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> pediu. Ela deveria ter me ouvido, mas eu deveria ir avisá-la.#
-Reportar para Milla#
+8649#Bela Apresentação###
+Toquei o piano exatamente como <NAVI>[Milla]<INFO>nifflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta, pediu. Ela deveria ter me ouvido, mas eu deveria ir avisá-la.#
+Reporte para Milla#
 
-8650#Aqueles com cabelos descuidados###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu bata em 15 Disfarçados e 15 Loli Ruri Azuis e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8650#Crianças Cabeludas (1ª vez)###
+Elimine 15 Disfarçados e 15 Loli Ruri Azuis para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Teatro em Ruínas#
 
-8651#[Espera] Aqueles com cabelos desgrenhados###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>.#
+8651#[Espera] Crianças Cabeludas###
+Essa missão pode ser repetida após seu tempo de espera. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
 Reseta 4 da manhã#
 
-8652#Aqueles com cabelo espesso###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu bata em 15 Disfarçados e 15 Loli Ruri Azuis e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8652#Crianças Cabeludas###
+Elimine 15 Disfarçados e 15 Loli Ruri Azuis para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Teatro em Ruínas#
 
-8653#Aqueles com bonecas###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu bata em 10 Grotes e 10 Pierrotzoists e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8653#Crianças Penduradas (1ª vez)###
+Elimine 10 Grotes e 10 Pierrotzoists para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Teatro em Ruínas#
 
-8654#[Espera] Aqueles com bonecas###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>.#
+8654#[Espera] Crianças Penduradas###
+Essa missão pode ser repetida após seu tempo de espera. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
 Reseta 4 da manhã#
 
-8655#Você sabe, aqueles com bonecas###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu bata em 10 Grotes e 10 Pierrotzoists e os mande para casa, para que ela possa dormir.#
-Caçar os monstros selecionados#
+8655#Crianças Penduradas###
+Elimine 10 Grotes e 10 Pierrotzoists para <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+No Teatro em Ruínas#
 
 8656#Acorde-os###
-<NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI> quer que eu acorde dois fantasmas que roncam nos porta-retratos da Casa de Ópera Desmoronada torcendo seus narizes. Posso ao menos tocar em seus narizes? Os porta-retratos são <NAVI>[aqui]<INFO>nif_dun02,249,221,0,101,0</INFO></NAVI> e <NAVI>[lá]<INFO>nif_dun02,37,221,0,101,0</INFO></NAVI>.#
-Fale com os porta-retratos na Casa de Ópera#
+Há dois fantasmas presos em quadros espalhados no Teatro em Ruínas. <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta, quer que você os acorde torcendo seus narizes. Os quadros estão <NAVI>[aqui]<INFO>nif_dun02,249,221,0,101,0</INFO></NAVI> e <NAVI>[aqui]<INFO>nif_dun02,37,221,0,101,0</INFO></NAVI>.#
+Fale com os Quadros#
 
-8657#[Espera] Wake Them Up###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>.#
+8657#[Espera] Acorde-os###
+Essa missão pode ser repetida após seu tempo de espera. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
 Reseta 4 da manhã#
 
-8658#Desculpe-me por ter cochilado (1)###
-Acordei um fantasma de porta-retratos a pedido de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>. Eu deveria acordar os dois fantasmas e depois voltar para ela.#
-#
+8658#Fantasma Acordado 1###
+Você acordou um fantasma preso num Quadro no Teatro em Ruínas. É importante acordar 2 fantasmas à pedido de <NAVI>[Milla]<INFO>nifflheim,164,102,0,101,0</INFO></NAVI>#
+Você acordou alguém!#
 
-8659#Desculpe-me por ter cochilado (2)###
-Acordei um fantasma de porta-retratos a pedido de <NAVI>[Milla]<INFO>Nifflheim,164,102,0,101,0</INFO></NAVI>. Eu deveria acordar os dois fantasmas e depois voltar para ela.#
-#
+8659#Fantasma Acordado 2###
+Você acordou um fantasma preso num Quadro no Teatro em Ruínas. É importante acordar 2 fantasmas à pedido de <NAVI>[Milla]<INFO>nifflheim,164,102,0,101,0</INFO></NAVI>#
+Você acordou alguém!#
 
 8660#[SJM] Audhumbla-3###
 <NAVI>[Agente Siaro]<INFO>ra_fild01,224,319,0,101,0</INFO></NAVI> deseja que você elimine 80 monstros no mapa em que se encontra.#
@@ -13718,6 +13810,14 @@ Aquisição de Materiais para Experimento#
 Mimi e Soi, aspirantes a Musa, foram informadas de que em breve haveria uma apresentação da excepcional Wanderer Kim Dancer em frente ao <NAVI>[Árvore]<INFO>xmas,132,143,0,101,0</INFO></NAVI>.#
 Ir até a frente da árvore#
 
+8773#As preocupa??es do Professor Worm###
+<NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI> parece estar tentando se lembrar de algo que esqueceu novamente. Tente tranquiliz?-lo.#
+Fale com o Professor Worm#
+
+8774#O caminho mais r?pido para o Novo Mundo###
+A alian?a das tr?s na??es j? est? consolidada, ent?o n?o ? necess?rio encontrar seus l?deres nem fazer um teste. Fale com <NAVI>[Capit?o da Guarda Seobuk]<INFO>moc_fild22b,230,197,0,101,0</INFO></NAVI> perto da fenda dimensional.#
+Fale com o Capit?o da Guarda Seobuk na fenda#
+
 8859#Recuperou 5 coisas presas em armadilhas###
 Recuperou cinco coisas presas em armadilhas.#
 Converse com Eruin#
@@ -13810,29 +13910,29 @@ Derrote o Dr. Eggman#
 Esta missão é diária e quando o tempo de espera expirar, você poderá ler o <NAVI>[Livro Fantástico]<INFO>prt_in,40,35,0,101,0</INFO></NAVI> novamente.#
 Reinício às 4h#
 
-8895#Ruído entre pisos sem classe (curto)###
-A <NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> do Niflheim não gosta de barulho. Se tiver tempo, pede para você eliminar cerca de 300 mortos barulhentos do <NAVI>[Teatro de Ópera Ruído]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
-Derrote 300 inimigos no 2º andar do Niflheim (Dungeon 2)#
+8895#Peça Teatral Curta (1ª vez)###
+<NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta, não gosta de barulho. Para ajudá-la, você eliminar cerca de 300 monstros do <NAVI>[Teatro em Ruínas]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
+No Teatro em Ruínas#
 
-8896#Ruído entre pisos sem classe (curto) - Espera###
-Esta missão é uma missão diária; quando o tempo de espera expirar, você pode aceitá-la novamente com <NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> para então executá-la novamente.#
-Reset às 04:00#
+8896#[Espera] Peça Teatral Curta###
+Essa missão pode ser repetida após seu tempo de espera. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+Reseta 4 da manhã#
 
-8897#Ruído entre pisos sem classe (curto)###
-A <NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> do Niflheim não gosta de barulho. Se tiver tempo, pede para você eliminar cerca de 300 mortos barulhentos do <NAVI>[Teatro de Ópera Ruído]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
-Derrote 300 inimigos no 2º andar do Niflheim (Dungeon 2)#
+8897#Peça Teatral Curta###
+<NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta, não gosta de barulho. Para ajudá-la, você eliminar cerca de 300 monstros do <NAVI>[Teatro em Ruínas]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
+No Teatro em Ruínas#
 
-8898#Ruído entre pisos sem classe (longo)###
-A <NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> do Niflheim não gosta de barulho. Se tiver tempo, pede para você eliminar cerca de 1500 mortos barulhentos do <NAVI>[Teatro de Ópera Ruído]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
-Derrote 1500 inimigos no 2º andar do Niflheim (Dungeon 2)#
+8898#Peça Teatral Longa (1ª vez)###
+<NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta, não gosta de barulho. Para ajudá-la, você eliminar cerca de 1.500 monstros do <NAVI>[Teatro em Ruínas]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
+No Teatro em Ruínas#
 
-8899#Ruído entre pisos sem classe (longo) - Espera###
-Esta missão é semanal: o tempo de espera expira na sexta-feira às 04:00. Depois disso, você pode aceitá-la novamente com <NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> para executá-la novamente.#
-Reset às 04:00 de sexta-feira#
+8899#[Espera] Peça Teatral Longa###
+Essa missão pode ser repetida após as 4 da manhã de toda Sexta-Feira. Você pode aceitá-la através de <NAVI>[Milla]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta.#
+Reseta na Sexta-feira#
 
-8900#Ruído entre pisos sem classe (longo)###
-A <NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI> do Niflheim não gosta de barulho. Se tiver tempo, pede para você eliminar cerca de 1500 mortos barulhentos do <NAVI>[Teatro de Ópera Ruído]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
-Derrote 1500 inimigos no 2º andar do Niflheim (Dungeon 2)#
+8900#Peça Teatral Longa###
+<NAVI>[Mila]<INFO>niflheim,164,102,0,101,0</INFO></NAVI>, a Morta Exausta, não gosta de barulho. Para ajudá-la, você eliminar cerca de 1.500 monstros do <NAVI>[Teatro em Ruínas]<INFO>nif_dun02,149,26,0,101,0</INFO></NAVI>.#
+No Teatro em Ruínas#
 
 8938#Kung Fu Panda###
 Falei com Po, em Prontera.#
@@ -15200,7 +15300,7 @@ Cace Guerreiro Wootan e Artilheiro Wootan no Campo de Umbala para coletar 150 Fr
 
 9381#As Profecias de K###
 Vá para Einbroch e encontre a pessoa com a energia do Macaco#
-Alguém com com a energia do Macaco#
+Alguém com a energia do Macaco#
 
 9382#As Profecias de K###
 Colete 20 Corações Glaciais na Caverna de Gelo e 20 Corações Incandescentes na Caverna de Magma. Depois retorne para Mark Han e entregue-os.#
@@ -15211,19 +15311,19 @@ Volte ao Profeta K, conte toda a situação e receba sua recompensa#
 Volte ao Profeta K#
 
 9384#As Profecias de K###
-Cace Pickys no Deserto Sograt, perto de Morroc, para coletar 100 Fragmento de Alma de Galo#
-100 Fragmento de Alma de Galo#
+Cace Pickys no Deserto de Sograt, perto de Morroc, para coletar 100 Fragmentos de Alma de Galo#
+100 Fragmentos de Alma de Galo#
 
 9385#As Profecias de K###
-Cace Grand Pecos no Campo da Academia Kiel Hyre, perto de Juno, para coletar 150 Fragmento de Alma de Galo#
-150 Fragmento de Alma de Galo#
+Cace Grand Pecos no Campo da Academia Kiel Hyre, perto de Juno, para coletar 150 Fragmentos de Alma de Galo#
+150 Fragmentos de Alma de Galo#
 
 9386#As Profecias de K###
 Vá para Geffen e encontre a pessoa com a energia do Galo#
-Alguém com Fragmento de Alma de Galo#
+Alguém com a energa do Galo#
 
 9387#As Profecias de K###
-Vá de Izlude para a Ilha Byalan e depois para o Túnel Submarino. Cace Cornutus e Vadons, colete 20 Conchas e 20 Pinças cada e leve-as para Balen Gray#
+Vá de Izlude para a Ilha Byalan e depois para o Túnel Submarino. Cace Cornutus e Vadons, colete 20 Conchas e 20 Garra de Crustáceo e leve-as para Balen Gray#
 Conquiste Balen Gray#
 
 9388#As Profecias de K###
@@ -15378,7 +15478,7 @@ Encontrar Wyatt Warp#
 Vá para o <NAVI>[Esgoto]<INFO>harboro2,329,187,0,101,0</INFO></NAVI> da vila de Rockridge e remova as <NAVI>[Anêmonas]<INFO>SEAANEMONE,0,0,3,-222,1</INFO></NAVI> grudadas nos canos. Depois, reporte para <NAVI>[Donovan]<INFO>harboro1,138,157,0,101,0</INFO></NAVI>.#
 Remover 20 Anêmonas#
 
-9459#Aguardar: A Limpeza dos Canos Ainda Não###
+9459#[Espera] Limpeza dos Canos###
 Dizem que ainda não há muitas anêmonas. Visite <NAVI>[Donovan]<INFO>harboro1,138,157,0,101,0</INFO></NAVI> novamente após um certo tempo para limpar os canos de novo.#
 Reseta 4 da manhã.#
 
@@ -17783,15 +17883,15 @@ Descanse se estiver cansado#
 Obtenha um Ramo Branco Fino#
 
 11485#O Gato de Jakk###
-Parece que o gatinho surpreso fugiu quando Jakk foi capturado. Pergunte a Harorong, que estava com Jakk.#
+Quando Jakk foi pego, o gatinho assustado pareceu fugir. Pergunte a Harorong quem estava com Jakk.#
 Fale com Harorong#
 
 11486#O Gato de Jakk###
-Nibble, na entrada, pode ter visto o gatinho. Fale com Nibble na entrada oeste de Nifflheim.#
-Nibble no oeste de Nifflheim#
+Nibble, na entrada, pode ter visto o gatinho. Fale com Nibble na entrada oeste de Niflheim.#
+Nibble a oeste de Niflheim#
 
 11487#O Gato de Jakk###
-Um objeto pequeno e branco passou rapidamente pela entrada há pouco tempo. Eles não têm certeza se era um gato. Vamos perguntar ao cara que está do lado de fora da entrada.#
+Algo pequeno e branco passou rapidamente pela entrada há pouco tempo. Eles não têm certeza se era um gato. Vamos perguntar ao cara que está do lado de fora da entrada.#
 Fale com Jakk Trêmulo#
 
 11488#O Gato de Jakk###
@@ -17800,34 +17900,34 @@ Fale com Jakk#
 
 11489#O Gato de Jakk###
 Parece que o gatinho de Jakk foi para Midgard através do caule de Yggdrasil. Ele provavelmente passou por Umbala. Vamos investigar.#
-Investigação na entrada norte de Umbala#
+Investigar a entrada norte de Umbala#
 
 11490#O Gato de Jakk###
 O pesquisador diz que disse à coisa pequena e branca como chegar a Morroc. Vamos investigar a entrada norte próxima de Morroc.#
-Investigação sobre a entrada de Morroc#
+Investigar a entrada de Morroc#
 
 11491#O Gato de Jakk###
 O Mercador diz que contou a alguém como chegar a Alberta. Vamos investigar a entrada norte próxima em Alberta.#
-Investigação sobre a entrada de Alberta#
+Investigar a entrada de Alberta#
 
 11492#O Gato de Jakk###
-Se você for perto do porto, poderá encontrar muitos gatos que querem pegar peixes de você. Vamos investigar perto do porto.#
-Investigação sobre o porto de Alberta#
+Se você for perto do porto, poderá encontrar muitos gatos que querem pegar peixes. Vamos investigar perto do porto.#
+Procure pelo porto de Alberta#
 
 11493#O Gato de Jakk###
 Você encontrou um gato branco, mas ele não se parece com o gatinho de Jakk. O monte de areia atrás dele é suspeito. Vamos investigar.#
-Investigação sobre o pilha de areia#
+Investigação sobre o Monte de Areia#
 
 11494#O Gato de Jakk###
 Na areia, você encontrou ossos que parecem ser de um pequeno animal. Você também encontrou um colar vermelho com um sino. Vamos voltar para Jakk.#
-Fale com Jakk em Nifflheim#
+Fale com Jakk em Niflheim#
 
 11495#Olá! Eu sou a Frimi!###
 Oi, eu sou a Frimi! Prazer em conhecê-la~~~>.<#
 Olá...! >w<)/#
 
 11498#Jakk e sua História###
-Quando acordei com o som de fantasmas sussurrando, cheguei a Nifflheim, a cidade dos mortos. Vamos ouvir as histórias de fantasmas.#
+Quando acordei com o som de fantasmas sussurrando, cheguei a Niflheim, a cidade dos mortos. Vamos ouvir algumas histórias de fantasmas.#
 Fale com Hororong#
 
 11499#Jakk e sua História###
@@ -17839,31 +17939,31 @@ Ouvi falar do lugar onde Jakk estava. Volte e conte para Hururong.#
 Fale com Hururong#
 
 11501#Jakk e os Jakks###
-Pegue 10 Jakks Fugitivos pelos mapas ou masmorras e traga 10 Decorações de Abóboras e 20 Ramo Branco Fino para Hororong.#
+Pegue 10x Jakk Fugitivo pelos mapas ou masmorras e traga 10x Decoração de Abóbora e 20x Ramo Branco Fino para Hororong.#
 Traga Jakk para Nifflheim#
 
-11502#Jakk e os Jakks - Espera###
-Eu trouxe Jakk para Nifflheim. De acordo com os fantasmas, Jakk diz que se ele ficar muito tempo na terra dos vivos, o caule crescerá, então vamos descansar por hora.#
-Reseta às 4 da manhã#
+11502#[Espera] Jakk e os Jakks###
+Eu trouxe Jakk para Niflheim. De acordo com os fantasmas, Jakk diz que se ele ficar muito tempo na terra dos vivos, o caule crescerá, então vamos descansar por hora.#
+Reinicia às 04:00#
 
 11503#Jakk e os Jakks###
-Pegue 10 Jakks Fugitivos pelos mapas ou masmorras e traga 10 Decorações de Abóboras e 20 Ramo Branco Fino para Hororong.#
-Traga Jakk para Nifflheim#
+Pegue 10x Jakk Fugitivo pelos mapas ou masmorras e traga 10x Decoração de Abóbora e 20x Ramo Branco Fino para Hororong.#
+Traga Jakk para Niflheim#
 
 11504#O Gato de Jakk###
 É difícil de entender, mas parece que você precisa obter um Ramo Branco Fino e voltar para Jakk.#
 Obtenha um Ramo Branco Fino#
 
 11505#O Gato de Jakk###
-Quando Jakk foi pego, o gatinho assustado pareceu fugir. Pergunte a Harolong quem estava com Jakk.#
+Quando Jakk foi pego, o gatinho assustado pareceu fugir. Pergunte a Harorong quem estava com Jakk.#
 Fale com Harorong#
 
 11506#O Gato de Jakk###
-Dizem que Nibble, na entrada, pode ter visto o gatinho. Fale com Nibble na entrada oeste de Nifflheim.#
-Vá para Nibble a oeste de Nifflheim#
+Nibble, na entrada, pode ter visto o gatinho. Fale com Nibble na entrada oeste de Niflheim.#
+Nibble a oeste de Niflheim#
 
 11507#O Gato de Jakk###
-Não sei se é um gatinho ou não, mas dizem que um objeto branco, pequeno e rápido passou pela entrada recentemente. Pergunte ao cara do lado de fora da entrada.#
+Algo pequeno e branco passou rapidamente pela entrada há pouco tempo. Eles não têm certeza se era um gato. Vamos perguntar ao cara que está do lado de fora da entrada.#
 Fale com Jakk Trêmulo#
 
 11508#O Gato de Jakk###
@@ -17871,27 +17971,27 @@ Dizem que o gatinho de Jakk foi para um lugar chamado lá. Informe a Jakk que es
 Fale com Jakk#
 
 11509#O Gato de Jakk###
-Parece que o gatinho de Jakk atravessou o tronco de Yggdrasil até Midgard. Parece que estamos passando por Umbala, então vamos investigar.#
+Parece que o gatinho de Jakk foi para Midgard através do caule de Yggdrasil. Ele provavelmente passou por Umbala. Vamos investigar.#
 Investigar a entrada norte de Umbala#
 
 11510#O Gato de Jakk###
-O pesquisador disse que ele explicou para o gatinho como chegar até Morroc. Vamos <NAVI>[investigar]<INFO>morocc,154,248,0,101,0</INFO></NAVI>  perto da entrada Norte de Morroc.#
+O pesquisador diz que disse à coisa pequena e branca como chegar a Morroc. Vamos investigar a entrada norte próxima de Morroc.#
 Investigar a entrada de Morroc#
 
 11511#O Gato de Jakk###
-Dizem que o Mercador mostrou a alguém o caminho para Alberta. Investigue a entrada norte de Alberta.#
+O Mercador diz que contou a alguém como chegar a Alberta. Vamos investigar a entrada norte próxima em Alberta.#
 Investigar a entrada de Alberta#
 
 11512#O Gato de Jakk###
-Dizem que, se você for ao porto, há muitos gatinhos tentando pegar peixes. Vamos investigar a área do porto.#
+Se você for perto do porto, poderá encontrar muitos gatos que querem pegar peixes. Vamos investigar perto do porto.#
 Procure pelo porto de Alberta#
 
 11513#O Gato de Jakk###
-Encontrei um gatinho branco, mas não parece ser o gatinho do Jakk. O monte de areia atrás dele é suspeito, então vamos investigar.#
-Investigue a pilha de areia#
+Você encontrou um gato branco, mas ele não se parece com o gatinho de Jakk. O monte de areia atrás dele é suspeito. Vamos investigar.#
+Investigação sobre o Monte de Areia#
 
 11514#O Gato de Jakk###
-Em uma pilha de areia, encontrei um colar vermelho com ossos e sinos que pareciam pertencer a um pequeno animal. Vamos voltar para Jakk.#
+Na areia, você encontrou ossos que parecem ser de um pequeno animal. Você também encontrou um colar vermelho com um sino. Vamos voltar para Jakk.#
 Fale com Jakk em Nifflheim#
 
 11515#O Vento das Colinas Negras###
@@ -20713,6 +20813,58 @@ Vamos descer logo.#
 12543####
 #
 #
+
+12544#Converse sobre um contrato com o Agente Gyaruk###
+Encontre o Agente Gyaruk e fa?a um contrato com a Guilda de Mercadores M?o de Gato. <NAVI>[Acampamento da Alian?a de Midgard]<INFO>mid_camp,70,95,0,101,0</INFO></NAVI>#
+Encontre Gyaruk#
+
+12545#Visite o Agente M?o de Gato###
+Encontre o <NAVI>[Agente M?o de Gato]<INFO>mid_camp,61,122,0,101,0</INFO></NAVI> no Acampamento da Alian?a de Midgard e depois volte at? <NAVI>[Gyaruk Fofinho]<INFO>mid_camp,70,95,0,101,0</INFO></NAVI>.#
+Visite o Agente M?o de Gato e retorne#
+
+12546#Encontro com Gorureung###
+Encontre <NAVI>[Gorureung]<INFO>mid_camp,67,142,0,101,0</INFO></NAVI> no Acampamento da Alian?a de Midgard para melhorar sua rela??o com a Guilda de Mercadores M?o de Gato.#
+Encontre Gorureung#
+
+12547#O local de pesca de Gorureung###
+Pesque 10 <NAVI>[Gorureung]<INFO>mid_camp,67,142,0,101,0</INFO></NAVI> e leve-os at? <ITEM>[Peda?os de Peixe]<INFO>6039</INFO></ITEM> no Acampamento da Alian?a de Midgard. <NAVI>[Ponto 1]<INFO>mid_camp,71,129,0,101,0</INFO></NAVI><NAVI>[Ponto 2]<INFO>spl_fild02,321,166,0,101,0</INFO></NAVI><NAVI>[Ponto 3]<INFO>spl_fild02,326,168,0,101,0</INFO></NAVI> <NAVI>[Ponto 4]<INFO>spl_fild02,314,162,0,101,0</INFO></NAVI><NAVI>[Ponto 5]<INFO>spl_fild03,226,151,0,101,0</INFO></NAVI><NAVI>[Ponto 6]<INFO>spl_fild03,268,230,0,101,0</INFO></NAVI> <NAVI>[Ponto 7]<INFO>spl_fild03,293,253,0,101,0</INFO></NAVI><NAVI>[Ponto 8]<INFO>spl_fild03,165,100,0,101,0</INFO></NAVI><NAVI>[Ponto 9]<INFO>spl_fild03,317,190,0,101,0</INFO></NAVI> <NAVI>[Ponto 10]<INFO>spl_fild01,41,118,0,101,0</INFO></NAVI><NAVI>[Ponto 11]<INFO>spl_fild01,317,361,0,101,0</INFO></NAVI><NAVI>[Ponto 12]<INFO>spl_fild01,55,269,0,101,0</INFO></NAVI> <NAVI>[Ponto 13]<INFO>spl_fild01,332,131,0,101,0</INFO></NAVI><NAVI>[Ponto 14]<INFO>spl_fild01,170,74,0,101,0</INFO></NAVI>#
+Pesque nos locais de pesca#
+
+12548#Ajude o Agente de Minera??o###
+Extraia 3 <NAVI>[Agente de Minera??o M?o de Gato]<INFO>mid_camp,86,98,0,101,0</INFO></NAVI> e leve-os ao <ITEM>[Min?rio N?o Identificado]<INFO>6048</INFO></ITEM> no Acampamento da Alian?a de Midgard. <NAVI>[Ponto 1]<INFO>man_fild01,178,170,0,101,0</INFO></NAVI><NAVI>[Ponto 2]<INFO>man_fild01,147,160,0,101,0</INFO></NAVI><NAVI>[Ponto 3]<INFO>man_fild01,112,174,0,101,0</INFO></NAVI> <NAVI>[Ponto 4]<INFO>man_fild01,92,159,0,101,0</INFO></NAVI><NAVI>[Ponto 5]<INFO>man_fild01,170,315,0,101,0</INFO></NAVI><NAVI>[Ponto 6]<INFO>man_fild01,146,267,0,101,0</INFO></NAVI> <NAVI>[Ponto 7]<INFO>man_fild01,118,236,0,101,0</INFO></NAVI><NAVI>[Ponto 8]<INFO>man_fild01,70,243,0,101,0</INFO></NAVI><NAVI>[Ponto 9]<INFO>man_fild01,64,194,0,101,0</INFO></NAVI> <NAVI>[Ponto 10]<INFO>man_fild03,82,133,0,101,0</INFO></NAVI><NAVI>[Ponto 11]<INFO>man_fild03,67,159,0,101,0</INFO></NAVI><NAVI>[Ponto 12]<INFO>man_fild03,66,169,0,101,0</INFO></NAVI> <NAVI>[Ponto 13]<INFO>man_fild03,81,196,0,101,0</INFO></NAVI><NAVI>[Ponto 14]<INFO>man_fild03,82,214,0,101,0</INFO></NAVI><NAVI>[Ponto 15]<INFO>man_fild03,98,224,0,101,0</INFO></NAVI> <NAVI>[Ponto 16]<INFO>man_fild03,104,246,0,101,0</INFO></NAVI><NAVI>[Ponto 17]<INFO>man_fild03,91,270,0,101,0</INFO></NAVI><NAVI>[Ponto 18]<INFO>man_fild03,95,300,0,101,0</INFO></NAVI> <NAVI>[Ponto 19]<INFO>man_fild02,143,78,0,101,0</INFO></NAVI><NAVI>[Ponto 20]<INFO>man_fild02,144,148,0,101,0</INFO></NAVI><NAVI>[Ponto 21]<INFO>man_fild02,85,262,0,101,0</INFO></NAVI> <NAVI>[Ponto 22]<INFO>man_fild02,146,365,0,101,0</INFO></NAVI><NAVI>[Ponto 23]<INFO>man_fild02,336,305,0,101,0</INFO></NAVI><NAVI>[Ponto 24]<INFO>man_fild02,252,124,0,101,0</INFO></NAVI> <NAVI>[Ponto 25]<INFO>man_fild02,285,115,0,101,0</INFO></NAVI><NAVI>[Ponto 26]<INFO>man_fild02,346,116,0,101,0</INFO></NAVI><NAVI>[Ponto 27]<INFO>man_fild02,358,174,0,101,0</INFO></NAVI> <NAVI>[Ponto 28]<INFO>man_fild02,241,227,0,101,0</INFO></NAVI>#
+Extraia min?rio nos pontos de minera??o#
+
+12549#O local de pesca de Gorureung###
+Pesque 10 <NAVI>[Gorureung]<INFO>mid_camp,67,142,0,101,0</INFO></NAVI> e leve-os at? <ITEM>[Peda?os de Peixe]<INFO>6039</INFO></ITEM> no Acampamento da Alian?a de Midgard. <NAVI>[Ponto 1]<INFO>mid_camp,71,129,0,101,0</INFO></NAVI><NAVI>[Ponto 2]<INFO>spl_fild02,321,166,0,101,0</INFO></NAVI><NAVI>[Ponto 3]<INFO>spl_fild02,326,168,0,101,0</INFO></NAVI> <NAVI>[Ponto 4]<INFO>spl_fild02,314,162,0,101,0</INFO></NAVI><NAVI>[Ponto 5]<INFO>spl_fild03,226,151,0,101,0</INFO></NAVI><NAVI>[Ponto 6]<INFO>spl_fild03,268,230,0,101,0</INFO></NAVI> <NAVI>[Ponto 7]<INFO>spl_fild03,293,253,0,101,0</INFO></NAVI><NAVI>[Ponto 8]<INFO>spl_fild03,165,100,0,101,0</INFO></NAVI><NAVI>[Ponto 9]<INFO>spl_fild03,317,190,0,101,0</INFO></NAVI> <NAVI>[Ponto 10]<INFO>spl_fild01,41,118,0,101,0</INFO></NAVI><NAVI>[Ponto 11]<INFO>spl_fild01,317,361,0,101,0</INFO></NAVI><NAVI>[Ponto 12]<INFO>spl_fild01,55,269,0,101,0</INFO></NAVI> <NAVI>[Ponto 13]<INFO>spl_fild01,332,131,0,101,0</INFO></NAVI><NAVI>[Ponto 14]<INFO>spl_fild01,170,74,0,101,0</INFO></NAVI>#
+Pesque nos locais de pesca#
+
+12550#Ajude o Agente de Minera??o###
+Extraia 3 <NAVI>[Agente de Minera??o M?o de Gato]<INFO>mid_camp,86,98,0,101,0</INFO></NAVI> e leve-os ao <ITEM>[Min?rio N?o Identificado]<INFO>6048</INFO></ITEM> no Acampamento da Alian?a de Midgard. <NAVI>[Ponto 1]<INFO>man_fild01,178,170,0,101,0</INFO></NAVI><NAVI>[Ponto 2]<INFO>man_fild01,147,160,0,101,0</INFO></NAVI><NAVI>[Ponto 3]<INFO>man_fild01,112,174,0,101,0</INFO></NAVI> <NAVI>[Ponto 4]<INFO>man_fild01,92,159,0,101,0</INFO></NAVI><NAVI>[Ponto 5]<INFO>man_fild01,170,315,0,101,0</INFO></NAVI><NAVI>[Ponto 6]<INFO>man_fild01,146,267,0,101,0</INFO></NAVI> <NAVI>[Ponto 7]<INFO>man_fild01,118,236,0,101,0</INFO></NAVI><NAVI>[Ponto 8]<INFO>man_fild01,70,243,0,101,0</INFO></NAVI><NAVI>[Ponto 9]<INFO>man_fild01,64,194,0,101,0</INFO></NAVI> <NAVI>[Ponto 10]<INFO>man_fild03,82,133,0,101,0</INFO></NAVI><NAVI>[Ponto 11]<INFO>man_fild03,67,159,0,101,0</INFO></NAVI><NAVI>[Ponto 12]<INFO>man_fild03,66,169,0,101,0</INFO></NAVI> <NAVI>[Ponto 13]<INFO>man_fild03,81,196,0,101,0</INFO></NAVI><NAVI>[Ponto 14]<INFO>man_fild03,82,214,0,101,0</INFO></NAVI><NAVI>[Ponto 15]<INFO>man_fild03,98,224,0,101,0</INFO></NAVI> <NAVI>[Ponto 16]<INFO>man_fild03,104,246,0,101,0</INFO></NAVI><NAVI>[Ponto 17]<INFO>man_fild03,91,270,0,101,0</INFO></NAVI><NAVI>[Ponto 18]<INFO>man_fild03,95,300,0,101,0</INFO></NAVI> <NAVI>[Ponto 19]<INFO>man_fild02,143,78,0,101,0</INFO></NAVI><NAVI>[Ponto 20]<INFO>man_fild02,144,148,0,101,0</INFO></NAVI><NAVI>[Ponto 21]<INFO>man_fild02,85,262,0,101,0</INFO></NAVI> <NAVI>[Ponto 22]<INFO>man_fild02,146,365,0,101,0</INFO></NAVI><NAVI>[Ponto 23]<INFO>man_fild02,336,305,0,101,0</INFO></NAVI><NAVI>[Ponto 24]<INFO>man_fild02,252,124,0,101,0</INFO></NAVI> <NAVI>[Ponto 25]<INFO>man_fild02,285,115,0,101,0</INFO></NAVI><NAVI>[Ponto 26]<INFO>man_fild02,346,116,0,101,0</INFO></NAVI><NAVI>[Ponto 27]<INFO>man_fild02,358,174,0,101,0</INFO></NAVI> <NAVI>[Ponto 28]<INFO>man_fild02,241,227,0,101,0</INFO></NAVI>#
+Extraia min?rio nos pontos de minera??o#
+
+12551#Encontre o agente no acampamento tempor?rio###
+Encontre o Agente M?o de Gato no acampamento tempor?rio e fa?a um contrato com a guilda de mercadores. Destino: <NAVI>[Acampamento da Alian?a de Midgard]<INFO>mid_camp,62,123,0,101,0</INFO></NAVI>#
+Encontre o Agente M?o de Gato#
+
+12552#Primeiro encontro com Kokkirin###
+Voc? concluiu sua primeira conversa com Kokkirin.#
+Encontre Kokkirin#
+
+12553#Primeiro encontro com Hatcha###
+Voc? concluiu sua primeira conversa com Hatcha.#
+Encontre Hatcha#
+
+12554#Primeiro encontro com Meong-Mung###
+Voc? concluiu sua primeira conversa com Meong-Mung.#
+Encontre Meong-Mung#
+
+12555#Primeiro encontro com Keong-Eureung###
+Voc? concluiu sua primeira conversa com Keong-Eureung.#
+Encontre Keong-Eureung#
+
+12556#Primeiro encontro com o Guia das Almas###
+Voc? concluiu sua primeira conversa com o Guia das Almas.#
+Encontre o Guia das Almas#
 
 13000#Reunião de cartões da RWC 2011###
 Pegue todas as cartas para completar a palavra 'RWC2011'#
@@ -25210,105 +25362,105 @@ Reseta 4 da manhã#
 #
 #
 
-16521#Planta de descarte de resíduos de laboratório Rudus Piso 4###
-Yulma me falou sobre a Usina de Descarte de Resíduos Laboratoriais Rudus Piso 4. Eu deveria ir até <NAVI>[Paian]<INFO>sp_rudus3,380,42,0,101,0</INFO></NAVI> e dar uma olhada no local.#
+16521#O 4º andar de Rudus###
+Yulma falou sobre Rudus, a Usina de Descarte de Resíduos Laboratoriais. Você deve ir até <NAVI>[Paian]<INFO>sp_rudus3,380,42,0,101,0</INFO></NAVI>.#
 Fale com Paian#
 
-16522#Planta de descarte de resíduos de laboratório Rudus Piso 4###
-Conversei com Paian e explorei o Rudus Floor 4. Devo voltar para <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>.#
+16522#O 4º andar de Rudus###
+Conversei com Paian e explorei o 4º andar de Rudus. Devo voltar para <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>.#
 Fale com Yulma#
 
 16523#[Espera] Solidão abissal###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> em Einbroch.#
+Essa missão pode ser repetida após seu tempo de espera. Para consegui-la novamente, fale com <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
 16524#Solidão abissal###
-Devo caçar 10 Dolorians, 10 Plagarions e 10 Deadres e, em seguida, retornar a <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> para relatório.#
-#
+Elimine 10 Dolorians, 10 Plagarions e 10 Deadres e retorne a <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> para relatório.#
+Em Rudus 4#
 
-16525#[Espera] Modificação e desenvolvimento###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> em Einbroch.#
+16525#[Espera] Transformação e Evolução###
+Essa missão pode ser repetida após seu tempo de espera. Para consegui-la novamente, fale com <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
 16526#Modificação e desenvolvimento###
-Eu deveria caçar 15 Giant Kaputs e 15 Venedis, e depois retornar a <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> para relatório.#
-#
+Elimine 15 Caput Gigante e 15 Venedis e retorne a <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> para relatório.#
+Em Rudus 4#
 
-16527#[Espera] Backup de dados###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI> em Einbroch.#
+16527#[Espera] Backup de Dados###
+Essa missão pode ser repetida após seu tempo de espera. Para consegui-la novamente, fale com <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-16528#Backup de dados###
-Preciso manter meu chip todos os dias. Devo ir com o  <NAVI>[Pesquisador]<INFO>sp_rudus4,192,204,0,101,0</INFO></NAVI> do Vento Secreto.#
-Fale com o Pesquisador#
+16528#Backup de Dados###
+Mantenha o chip de dados no corpo e procure um <NAVI>[Pesquisador]<INFO>sp_rudus4,192,204,0,101,0</INFO></NAVI>.#
+Ache o Pesquisador#
 
-16529#Laboratório abandonado Amicitia###
+16529#Laboratório Amicitia###
 Coletei informações sobre Amicitia, o laboratório abandonado, dos membros da Rebelião no Miado de Bala.#
 #
 
 16530#[Espera] Terra e Fogo###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> em Einbroch.#
+Essa missão pode ser refeita após seu tempo de espera acabar. Para repeti-la, fale com <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-16531#Terra e fogo###
-Eu deveria caçar as quimeras mutantes, Amitias e Fillias, 15 de cada, e depois me reportar ao <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> da Rebelião.#
-#
+16531#Terra e Fogo###
+Seu objetivo é eliminar as Quimeras Mutantes, 15 Amitera e 15 Fillia. Depois, reporte para <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Em Amicitia 1#
 
-16532#[Espera] Água e vento###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> em Einbroch.#
+16532#[Espera] Água e Vento###
+Essa missão pode ser refeita após seu tempo de espera acabar. Para repeti-la, fale com <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-16533#Água e vento###
-Eu deveria caçar as quimeras mutantes, Lituses e Vanilaquses, 15 de cada, e depois me reportar ao <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> da Rebelião.#
-#
+16533#Água e Vento###
+Seu objetivo é eliminar as Quimeras Mutantes, 15 Litus e 15 Vanilaqus. Depois, reporte para <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Em Amicitia 1#
 
 16534#[Espera] Rastros de Werner###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> em Einbroch.#
+Essa missão pode ser refeita após seu tempo de espera acabar. Para repeti-la, fale com <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
 16535#Rastros de Werner###
-Encontre os rastros de Werner no Piso 1 do Laboratório Abandonado de Amicitia e, em seguida, leve-os para o <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI> da Rebellion.#
-Fale com Ansuriya#
+Encontre os rastros de Werner no 1º andar do Laboratório Abandonado de Amicitia. Depois, reporte para <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Em Amicitia 1#
 
-16536#[Espera] Imitação e autenticidade###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Gervena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI> em Einbroch.#
+16536#[Espera] Imitação e Realidade###
+Essa missão pode ser refeita após seu tempo de espera acabar. Para repeti-la, fale com <NAVI>[Gervena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>.#
 Reseta 4 da manhã#
 
-16537#Imitação e autenticidade###
-Devo caçar as quimeras mutantes, Napeoes e Galensises, 15 de cada, e depois me reportar ao <NAVI>[Gervena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI> da Rebelião.#
-#
+16537#Imitação e Realidade###
+Seu objetivo é eliminar as Quimeras Mutantes, 15 Napeo e 15 Galensis. Depois, reporte para <NAVI>[Gervena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>.#
+Em Amicitia 2#
 
 16538#[Espera] Mudança Natural###
-Uma missão diária. Pode ser repetida após seu tempo de espera. Aceite-a por meio de <NAVI>[Gerbena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI> em Einbroch.#
-Reinício às 4:00 (UTC-3)#
+Essa missão pode ser refeita após seu tempo de espera acabar. Para repeti-la, fale com <NAVI>[Gervena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>.#
+Reseta 4 da manhã#
 
 16539#Mudança natural###
-Devo caçar as quimeras mutantes, os Lava Eaters e os Fulgors, 15 de cada, e depois me reportar ao <NAVI>[Gerbena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI> da Rebelião.#
-#
+Seu objetivo é eliminar as Quimeras Mutantes, 15 Lava e 15 Fulgor. Depois, reporte para <NAVI>[Gerbena]<INFO>pub_cat,89,32,0,101,0</INFO></NAVI>.#
+Em Amicitia 2#
 
-16540#Backup de dados###
-Mantive minha ficha para o dia. Devo retornar ao <NAVI>[Julma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>.#
-Fale com Julma#
+16540#Backup de Dados###
+O Pesquisador da Vento Secreto foi encontrado. Retorne para <NAVI>[Yulma]<INFO>pub_cat,94,43,0,101,0</INFO></NAVI>.#
+Fale com Yulma#
 
 16541#Rastros de Werner###
-Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
-Fale com Ansuriya#
+Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Fale com Ansuria#
 
 16542#Rastros de Werner###
-Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
-Fale com Ansuriya#
+Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Fale com Ansuria#
 
 16543#Rastros de Werner###
-Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
-Fale com Ansuriya#
+Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Fale com Ansuria#
 
 16544#Rastros de Werner###
-Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
-Fale com Ansuriya#
+Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Fale com Ansuria#
 
 16545#Rastros de Werner###
-Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuriya]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
-Fale com Ansuriya#
+Encontrei os rastros de Werner. Devo retornar a <NAVI>[Ansuria]<INFO>pub_cat,86,33,0,101,0</INFO></NAVI>.#
+Fale com Ansuria#
 
 16546#Ajuda na Fazenda###
 Você ajudou com todo o trabalho da fazenda. Volte para o <NAVI>[Trabalhador da Fazenda]<INFO>sp_cor,246,97,0,101,0</INFO></NAVI>.#
@@ -25491,27 +25643,27 @@ Encontre <NAVI>[Maria]<INFO>nif_dun01,213,148,0,101,0</INFO></NAVI>, que foi atr
 Fale com Maria#
 
 16591#Banquete dos Mortos, o Chamado dos Vivos###
-Encontre <NAVI>[Blue]<INFO>nif_dun01,160,183,0,101,0</INFO></NAVI>, que foi atraído pelo Banquete dos Mortos e acabou entrando no salão, e leve-o de volta.#
-Fale com Blue#
+Encontre <NAVI>[Azulia]<INFO>nif_dun01,160,183,0,101,0</INFO></NAVI>, que foi atraída pelo Banquete dos Mortos e acabou entrando no salão, e leve-a de volta.#
+Fale com Azulia#
 
 16592#Banquete dos Mortos, o Fim da Noite de Festa###
 Para impedir que mais vivos sejam atraídos pelo Banquete dos Mortos, expulse 100 mortos que vagam pelo <NAVI>[Salão do Banquete dos Mortos]<INFO>nif_dun01,145,85,0,101,0</INFO></NAVI>.#
 #
 
 16593#O Esconde-Esconde dos Travessos, a Aflição dos Adultos###
-Encontre o travesso <NAVI>[Las]<INFO>ein_dun03,148,221,0,101,0</INFO></NAVI>, que se escondeu em Mazmorra de la mina de Einbech, piso 3, e mande-o de volta para casa.#
+Encontre o travesso <NAVI>[Las]<INFO>ein_dun03,148,221,0,101,0</INFO></NAVI>, que se escondeu em Calabouço da Mina (3), e mande-o de volta para casa.#
 Fale com Las#
 
 16594#O Esconde-Esconde dos Travessos, a Aflição dos Adultos###
-Encontre o travesso <NAVI>[Minas]<INFO>ein_dun03,38,152,0,101,0</INFO></NAVI>, que se escondeu em Mazmorra de la mina de Einbech, piso 3, e mande-o de volta para casa.#
-Fale com Minas#
+Encontre o travesso <NAVI>[Minassi]<INFO>ein_dun03,38,152,0,101,0</INFO></NAVI>, que se escondeu em Calabouço da Mina (3) e mande-o de volta para casa.#
+Fale com Minassi#
 
 16595#O Esconde-Esconde dos Travessos, a Aflição dos Adultos###
-Encontre o travesso <NAVI>[Tiris]<INFO>ein_dun03,234,20,0,101,0</INFO></NAVI>, que se escondeu em Mazmorra de la mina de Einbech, piso 3, e mande-o de volta para casa.#
+Encontre o travesso <NAVI>[Tiris]<INFO>ein_dun03,234,20,0,101,0</INFO></NAVI>, que se escondeu em Calabouço da Mina (3) e mande-o de volta para casa.#
 Fale com Tiris#
 
 16596#O Esconde-Esconde dos Travessos, Sinais Desesperados de Socorro###
-Para evitar que os travessos escondidos em <NAVI>[Mazmorra de la mina de Einbech, piso 3]<INFO>ein_dun03,268,279,0,101,0</INFO></NAVI> sejam feridos, cace 100 criaturas de Mazmorra de la mina de Einbech, piso 3.#
+Para evitar que os travessos escondidos em <NAVI>[Calabouço da Mina, piso 3]<INFO>ein_dun03,268,279,0,101,0</INFO></NAVI> sejam feridos, cace 100 criaturas de Calabouço da Mina (3).#
 #
 
 16597#Retorne à Catedral de Prontera###
@@ -25527,7 +25679,7 @@ As três pessoas enfeitiçadas pelo Banquete dos Mortos foram encontradas. Após
 Fale com Tite#
 
 16600#Retorno Seguro após Concluir a Missão###
-Todas as crianças de Mazmorra de la mina de Einbech, piso 3 foram encontradas. Após caçar também 100 criaturas de Mazmorra de la mina de Einbech, piso 3, volte para <NAVI>[Suan]<INFO>einbroch,178,148,0,101,0</INFO></NAVI> e faça seu relatório.#
+Todas as crianças de Calabouço da Mina, piso 3 foram encontradas. Após caçar também 100 criaturas de Calabouço da Mina (3) volte para <NAVI>[Suan]<INFO>einbroch,178,148,0,101,0</INFO></NAVI> e faça seu relatório.#
 Fale com Suan#
 
 16601#Mudança de Classe: Guerrilheiro###
@@ -25545,6 +25697,34 @@ Passe no teste#
 16604#Mudança de Classe: Guerrilheiro###
 Você passou no teste e é hora de mudar de classe. Vamos falar com <NAVI>[Elena Bolkova]<INFO>einbech,237,79,0,101,0</INFO></NAVI>.#
 Fale com Elena#
+
+16626#Mensageiro - O pedido de Ark###
+Voc? encontrou vest?gios de uma luta nos campos perto de Splendide. O rastro segue para <NAVI>[o norte]<INFO>spl_fild01,341,109,0,101,0</INFO></NAVI>. Continue procurando.#
+Encontre vest?gios de Terra#
+
+16627#Mensageiro - O pedido de Ark###
+Os vest?gios de uma luta nos campos perto de Splendide seguem em dire??o a <NAVI>[as ra?zes de uma ?rvore gigante]<INFO>spl_fild01,375,109,0,101,0</INFO></NAVI>. Continue procurando.#
+Encontre vest?gios de Terra#
+
+16628#Mensageiro - O pedido de Ark###
+Ao seguir o rastro de Terra nos campos perto de Splendide, voc? caiu entre as ra?zes de uma ?rvore gigante. V? para <NAVI>[dentro]<INFO>nyd_dun01,60,222,0,101,0</INFO></NAVI>.#
+Encontre vest?gios de Terra#
+
+16629#Mensageiro - O paradeiro de Terra###
+Procure mais <NAVI>[Frutos de Yggdrasil]<INFO>spl_fild01,312,77,0,101,0</INFO></NAVI> nos campos perto de Splendide.#
+Colete Frutos de Yggdrasil#
+
+16630#Mensageiro - O paradeiro de Terra###
+Procure mais <NAVI>[Frutos de Yggdrasil]<INFO>spl_fild01,331,28,0,101,0</INFO></NAVI> nos campos perto de Splendide.#
+Colete Frutos de Yggdrasil#
+
+16631#Mensageiro - O paradeiro de Terra###
+Entre <NAVI>[na parte interna]<INFO>man_in01,17,128,0,101,0</INFO></NAVI> da pris?o de Manuk e descubra quem ? a Laphine aprisionada.#
+Fale com Snorren dentro da pris?o#
+
+16632#Mensageiro - Comprovando a verdade###
+Conte a hist?ria de Terra a <NAVI>[Luik]<INFO>man_in01,19,126,0,101,0</INFO></NAVI> na Vila de Manuk.#
+Fale com Luik#
 
 17000#Crise na Rekenber###
 <NAVI>[Nalandro]<INFO>pub_cat,105,58,0,101,0</INFO></NAVI> recusou-se a falar com o vice-presidente da Rekenber, Kaya Toss. Vamos perguntar qual é a história.#
@@ -26475,7 +26655,7 @@ Se você não tiver nenhum equipamento básico decente, converse sobre isso com 
 Converse com o Instrutor Ur#
 
 17536#Entrega de Equipamento Avançado do Grupo Éden###
-Leve 15 Faixas Elásticas e 3 Pelos Azuis para <NAVI>[Thorn]<INFO>moc_para01,110,87,0,101,0,</INFO></NAVI> e você receberá uma armadura avançada.#
+Leve 15 Elásticos e 3 Cabelo Azul para <NAVI>[Thorn]<INFO>moc_para01,110,87,0,101,0,</INFO></NAVI> e você receberá uma armadura avançada.#
 Materiais da Armadura#
 
 17537#Entrega de Equipamento Avançado do Grupo Éden###
@@ -26613,6 +26793,54 @@ Pesquisa encerrada#
 17571#Caminho do Céu: Ponto Marcado###
 A busca na área marcada foi concluída.#
 Pesquisa encerrada#
+
+17578#Hora da an?lise###
+<NAVI>[Uhari]<INFO>eclage,282,255,0,101,0,</INFO></NAVI> recebeu o documento de pesquisa, mas diz que ele ? t?o complexo que a an?lise levar? algum tempo. Aguarde em Eclage e fale com ele novamente daqui a pouco.#
+Fale com Uhari#
+
+17579#Coleta de informa??es conclu?da###
+Parece que voc? n?o conseguir? mais informa??es dos Sapha. Volte at? <NAVI>[Shay]<INFO>dic_in01,245,119,0,101,0,</INFO></NAVI> na taverna de El Dicastes e relate suas descobertas.#
+Fale com Shay#
+
+17580#Ap?s a hipnose###
+Ap?s tentar hipnotizar voc? repetidamente em seu escrit?rio em El Dicastes, Ahat diz para seguir as instru??es de <NAVI>[Cheshire]<INFO>dic_in01,294,276,0,101,0,</INFO></NAVI> de agora em diante. Fale com Cheshire.#
+Fale com Cheshire#
+
+17581#A convoca??o de Cheshire foi conclu?da###
+Ao voltar para El Dicastes e mostrar a Cheshire as provas de que os vest?gios foram eliminados, ele ficou muito satisfeito. Fale com <NAVI>[Ahat]<INFO>dic_in01,300,280,0,101,0,</INFO></NAVI>.#
+Fale com Ahat#
+
+17582#Preparando o relat?rio###
+Por enquanto, parece melhor continuar indo a El Dicastes e seguindo as instru??es de Cheshire para que acreditem que voc? ainda est? hipnotizado. Seus afazeres aqui terminaram, ent?o v? para <NAVI>[fora]<INFO>dic_in01,138,188,0,101,0,</INFO></NAVI>.#
+Saia#
+
+17583#Ap?s organizar seus pensamentos###
+Depois de ver as provas que voc? apresentou em El Dicastes, <NAVI>[Hesranta]<INFO>dic_in01,158,188,0,101,0,</INFO></NAVI> parece fazer uma pausa na conversa para organizar seus pensamentos.#
+Fale com Hesranta#
+
+17584#Aproxime-se###
+Surpreendentemente, o famoso ministro de El Dicastes ? um humano, n?o um Sapha. <NAVI>[Ahat]<INFO>dic_in01,300,280,0,101,0,</INFO></NAVI> pediu que voc? se aproximasse para conversar.#
+Fale com Ahat#
+
+17585#O emiss?rio de Manuk###
+O <NAVI>[Membro da Expedi??o]<INFO>mid_campin,93,114,0,101,0,</INFO></NAVI> enviado a Manuk voltou ao Acampamento da Alian?a com o emiss?rio de Manuk. Que tal encontr?-los?#
+Entre#
+
+17586#O convite dos Sapha###
+Surpreendentemente, <NAVI>[Bihanus]<INFO>mid_campin,110,120,0,101,0,</INFO></NAVI>, que est? no Acampamento da Alian?a, ? um Sapha de sua capital, El Dicastes. O Sapha Ravail abriu a capital aos humanos e os convidou formalmente. Quando estiver pronto, pergunte o que precisa fazer.#
+Fale com Bihanus#
+
+17587#Inspetor Doha###
+O Inspetor <NAVI>[Doha]<INFO>mid_campin,168,170,0,101,0,</INFO></NAVI>, que est? no Acampamento da Alian?a, come?ou a falar sobre o incidente do relat?rio e sua testemunha.#
+Fale com Doha#
+
+17588#A colabora??o de B.K.###
+<NAVI>[B.K.]<INFO>dic_fild01,231,174,0,101,0,</INFO></NAVI>, da Guilda de Mercadores M?o de Gato ao p? do Monte Kamidal, s? fornecer? informa??es em troca de Certificados Sapha. Continue entregando certificados at? obter informa??es suficientes.#
+Fale com B.K.#
+
+17589#Finja estar hipnotizado###
+<NAVI>[Ahat]<INFO>dic_in01,300,280,0,101,0,</INFO></NAVI> continuou tentando hipnotizar voc? em seu escrit?rio em El Dicastes. Fingir estar hipnotizado durante a conversa pode ajudar a obter informa??es.#
+Fale com Ahat#
 
 17596#Concurso de Bonecos###
 Ajude os participantes do <NAVI>[Concurso]<INFO>aldebaran,122,112,0,101,0</INFO></NAVI> com seus Bonecos de Neve.#
@@ -27200,7 +27428,7 @@ Fale com Nihil#
 
 19000#[É] Campo Florescente###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Campo Florescente]<INFO>ecl_fild01,182,93,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Arredores de Eclage#
+Arredores de Eclage#
 
 19001#[Espera] Campo Florescente###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27208,7 +27436,7 @@ Reinicia às 04:00#
 
 19002#[É] Sauna Meditatio###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Sauna Meditatio]<INFO>ba_bath,160,29,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Mansão de Varmunt#
+Mansão de Varmunt#
 
 19003#[Espera] Sauna Meditatio###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27216,7 +27444,7 @@ Reinicia às 04:00#
 
 19004#[É] Corredor das Memórias###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Corredor das Memórias]<INFO>ba_lib,160,13,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Biblioteca de Varmunt#
+Biblioteca de Varmunt#
 
 19005#[Espera] Corredor das Memórias###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27224,7 +27452,7 @@ Reinicia às 04:00#
 
 19006#[É] Estação de Esgoto###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Estação de Esgoto]<INFO>ba_pw02,276,22,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Arredores da Mansão#
+Arredores da Mansão#
 
 19007#[Espera] Estação de Esgoto###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27240,7 +27468,7 @@ Reinicia às 04:00#
 
 19010#[É] Ninho do Dragão I###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Ninho do Dragão 2º andar]<INFO>lasa_dun02,25,171,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Caverna de Lasagna#
+Caverna de Lasagna#
 
 19011#[Espera] Ninho do Dragão I###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27248,7 +27476,7 @@ Reinicia às 04:00#
 
 19012#[É] Torre de Bifrost###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre de Bifrost]<INFO>ecl_tdun01,56,18,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Caverna de Eclage#
+Caverna de Eclage#
 
 19013#[Espera] Torre de Bifrost###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27256,7 +27484,7 @@ Reinicia às 04:00#
 
 19014#[É] Ninho do Dragão II###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Ninho do Dragão 3º andar]<INFO>lasa_dun03,190,22,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Caverna de Lasagna#
+Caverna de Lasagna#
 
 19015#[Espera] Ninho do Dragão II###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27264,7 +27492,7 @@ Reinicia às 04:00#
 
 19016#[É] Prisão de Prontera###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Prisão Subterrânea de Prontera]<INFO>prt_prison,161,290,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Calabouço do Palácio#
+Calabouço do Palácio#
 
 19017#[Espera] Prisão de Prontera###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27272,7 +27500,7 @@ Reinicia às 04:00#
 
 19018#[É] Prontera Destruída###
 A pedido do Grupo do Éden, elimine os monstros do mapa ^0000FFProntera Destruída^000000. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Invasão em Prontera#
+Invasão em Prontera#
 
 19019#[Espera] Prontera Destruída###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27280,7 +27508,7 @@ Reinicia às 04:00#
 
 19020#[É] Minas de Rockridge###
 A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Mina de Rockridge]<INFO>rockmi1,245,22,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Na Ilha Nação#
+Na Ilha Nação#
 
 19021#[Espera] Minas de Rockridge###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
@@ -27296,171 +27524,171 @@ Reinicia às 04:00#
 
 19024#[É] Abrigo Subterrâneo###
 A pedido do Grupo do Éden, elimine os monstros do mapa ^0000FFAbrigo Subterrâneo^000000. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
-Caça - Caverna de Verus#
+Caverna de Verus#
 
 19025#[Espera] Abrigo Subterrâneo###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
 Reinicia às 04:00#
 
-19026#[É] Optatio###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Optatio]<INFO>verus01,240,63,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+19026#[É] Laboratório OPTATIO###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Laboratório OPTATIO]<INFO>verus01,240,63,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Arredores de Verus#
 
-19027#[Espera] Optatio###
+19027#[Espera] Laboratório OPTATIO###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19028#[É] Torre Distorcida I###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre Distorcida 2º andar]<INFO>c_tower2_,269,26,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre Distorcida 2º andar]<INFO>c_tower2_,269,26,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Modo Pesadelo#
 
 19029#[Espera] Torre Distorcida I###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19030#[É] Estufa de Pitayas###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Estufa de Pitayas]<INFO>ba_lost,162,41,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Estufa de Pitayas]<INFO>ba_lost,162,41,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Jardins de Varmunt#
 
 19031#[Espera] Estufa de Pitayas###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19032#[É] Torre Distorcida II###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre Distorcida 3º andar]<INFO>c_tower3_,64,148,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Torre Distorcida 3º andar]<INFO>c_tower3_,64,148,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Modo Pesadelo#
 
 19033#[Espera] Torre Distorcida II###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19034#[É] Arredores de Rachel###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Desfiladeiro de Oz]<INFO>ra_fild10,378,284,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Desfiladeiro de Oz]<INFO>ra_fild10,378,284,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Desfiladeiro de Oz#
 
 19035#[Espera] Arredores de Rachel###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19036#[É] Depósito Rudus I###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Depósito Rudus 2º andar]<INFO>sp_rudus2,186,257,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Depósito Rudus 2º andar]<INFO>sp_rudus2,186,257,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Rudus 2º andar#
 
 19037#[Espera] Depósito Rudus I###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19038#[É] Oeste de Juperos###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Ruína Oeste de Juperos]<INFO>ver_eju,17,148,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Ruína Oeste de Juperos]<INFO>ver_eju,17,148,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Dentro das Ruínas#
 
 19039#[Espera] Oeste de Juperos###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19040#[É] Cidade de Verus###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Cidade de Verus]<INFO>verus02,72,23,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Cidade de Verus - Instituto WISH]<INFO>verus02,72,23,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Instituto WISH#
 
 19041#[Espera] Cidade de Verus###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19042#[É] Armazém Tártaro I###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Armazém Tártaro 1º andar]<INFO>ba_2whs01,156,34,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Armazém Tártaro 1º andar]<INFO>ba_2whs01,156,34,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Mansão de Varmunt#
 
 19043#[Espera] Armazém Tártaro I###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19044#[É] Labirinto de Oz###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Labirinto de Oz 1º andar]<INFO>oz_dun01,284,171,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Labirinto de Oz 1º andar]<INFO>oz_dun01,284,171,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Arredores da Aldeia#
 
 19045#[Espera] Labirinto de Oz###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19046#[É] Depósito Rudus II###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Depósito Rudus 3º andar]<INFO>sp_rudus3,364,207,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Depósito Rudus 3º andar]<INFO>sp_rudus3,364,207,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Rudus 3º andar#
 
 19047#[Espera] Depósito Rudus II###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19048#[É] Noggroad###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Noggroad]<INFO>mag_dun03,119,123,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Caverna de Magma]<INFO>mag_dun03,119,123,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Caverna de Magma#
 
 19049#[Espera] Noggroad###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19050#[É] Armazém Tártaro II###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Armazém Tártaro 2º andar]<INFO>ba_2whs02,337,331,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Armazém Tártaro 2º andar]<INFO>ba_2whs02,337,331,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Mansão de Varmunt#
 
 19051#[Espera] Armazém Tártaro II###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
-19052#[É] Porões de Glastheim###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Porões de Glastheim]<INFO>gl_cas01_,200,33,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
-Subsolo do Castelo#
+19052#[É] Porão de Glastheim###
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Porão de Glastheim]<INFO>gl_cas01_,200,33,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
+Porão do Castelo#
 
-19053#[Espera] Porões de Glastheim###
+19053#[Espera] Porão de Glastheim###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19054#[É] Lobo Cinzento I###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Floresta do Lobo Cinzento 1]<INFO>gw_fild01,274,337,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Floresta do Lobo Cinzento 1]<INFO>gw_fild01,274,337,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Arredores da Aldeia#
 
 19055#[Espera] Lobo Cinzento I###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19056#[É] Lobo Cinzento II###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Floresta do Lobo Cinzento 2]<INFO>gw_fild02,122,384,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Floresta do Lobo Cinzento 2]<INFO>gw_fild02,122,384,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Profundezas da Floresta#
 
 19057#[Espera] Lobo Cinzento II###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19058#[É] Profundezas da Mina###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Mina de Einbech 3º andar]<INFO>ein_dun03,268,277,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Mina de Einbech 3º andar]<INFO>ein_dun03,268,277,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Calabouço da Mina#
 
 19059#[Espera] Profundezas da Mina###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19060#[É] Passado do Templo###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Antigo Templo de Odin]<INFO>odin_past,291,230,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Antigo Templo de Odin]<INFO>odin_past,291,230,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Tempos Antigos#
 
 19061#[Espera] Passado do Templo###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19062#[É] Profundezas do Lago###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Subterrâneo do Lago 4º andar]<INFO>abyss_04,168,162,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Subterrâneo do Lago 4º andar]<INFO>abyss_04,168,162,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Lago do Abismo#
 
 19063#[Espera] Profundezas do Lago###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19064#[É] Usina Mágica II###
-A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Usina de Energia 2º andar]<INFO>ba_pw03,17,115,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000× Pode haver requisito de acesso ao mapa.^000000#
+A pedido do Grupo do Éden, elimine os monstros do mapa <NAVI>[Usina de Energia 2º andar]<INFO>ba_pw03,17,115,0,101,0</INFO></NAVI>. Quando finalizar, reporte para o quadro de Missões Avançadas. ^FF0000*Pode haver requisito de acesso ao mapa.^000000#
 Mansão de Varmunt#
 
 19065#[Espera] Usina Mágica II###
 Esta é uma missão diária. Aguarde o tempo de espera para refazê-la. Você pode repetir a missão no quadro de Missões Avançadas dentro do Grupo do Éden.#
-Reseta 4 da manhã.#
+Reinicia às 04:00#
 
 19066#Agente Backseo###
 Ouvi a proposta de Backseo. Agora posso explorar melhor os eventos e receber EXP do Agente.#
@@ -40862,6 +41090,74 @@ Missão cumprida!#
 #
 #
 
+100100#LD - Oculto###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100101#Liga dos Desbravadores###
+Derrote 1 Schmidt Corrompido a pedido da Liga dos Desbravadores.#
+Edda de Glastheim#
+
+100102#[Espera] LD - Edda de GH###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100103#Liga dos Desbravadores###
+Derrote 1 Shulang a pedido da Liga dos Desbravadores.#
+Mansão da Desilusão#
+
+100104#[Espera] LD - Mansão da Desilusão###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100105#Liga dos Desbravadores###
+Derrote 1 Miragem de Himmelmez a pedido da Liga dos Desbravadores.#
+Glastheim Infernal#
+
+100106#[Espera] LD - Glastheim Infernal###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100107#Liga dos Desbravadores###
+Derrote 1 Monarca Lich a pedido da Liga dos Desbravadores.#
+Túmulo do Monarca#
+
+100108#[Espera] LD - Túmulo do Monarca###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100109#Liga dos Desbravadores###
+Derrote 10 Derretings a pedido da Liga dos Desbravadores.#
+Queda do Aeroplano#
+
+100110#[Espera] LD - Queda do Aeroplano###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100111#Liga dos Desbravadores###
+Derrote 1 Princesa Tiara a pedido da Liga dos Desbravadores.#
+Mausoléu das Mágoas#
+
+100112#[Espera] LD - Mausoléu das Mágoas###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100113#Liga dos Desbravadores###
+Derrote 1 Muliphen a pedido da Liga dos Desbravadores.#
+Arena Noturna#
+
+100114#[Espera] LD - Arena Noturna###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
+100115#Liga dos Desbravadores###
+Derrote 1 Fragmento de Thanatos a pedido da Liga dos Desbravadores.#
+Memórias de Thanatos#
+
+100116#[Espera] LD - Memórias de Thanatos###
+Você concluiu o pedido da Liga dos Desbravadores. Poderá aceitar o pedido novamente quando o tempo de espera terminar.#
+#
+
 291000####
 #
 Volte amanhã.#
@@ -41073,6 +41369,14 @@ Caverna de Malangdo#
 291525#Passe Diário: Dia 10###
 Elimine 30 monstros na Caverna de Porto Malaya (ma_dun01) e retorne ao <NAVI>[Folclorista]<INFO>brasilis,191,219,0,101,0</INFO></NAVI>.#
 Caverna de Malaya#
+
+291531#[Espera/Evento] Mansão da Desilusão 1###
+Você usou o serviço de reset da instância. Você pode usar mais uma vez falando com <NAVI>[Aira]<INFO>wolfvill,79,260,0,101,0</INFO></NAVI>.#
+4 da manhã.#
+
+291532#[Espera/Evento] Mansão da Desilusão 2###
+Você usou o serviço de reset da instância. Você só pode usar o serviço novamente amanhã, falando com <NAVI>[Aira]<INFO>wolfvill,79,260,0,101,0</INFO></NAVI>.#
+4 da manhã.#
 
 293428#Viagem a outro mundo###
 Durante uma viagem a outro mundo, fui separado de meu grupo. Vamos até <NAVI>[Moscovia]<INFO>moscovia,215,210,0,101,0</INFO></NAVI> para nos reunirmos novamente ao grupo. Se você não concluir a missão até as 4 horas da manhã, terá de fazê-la novamente.#
