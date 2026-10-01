@@ -4468,4 +4468,6 @@ mid_camp 13 143 spl_fild02 379 143 c r0 # Ash Vacuum para Campos Esplendidos (2)
 mid_camp 336 171 man_fild01 36 235 c r0 # Ash Vacuum para Campos Manuka (1) [man_fild01]
 man_fild01 36 233 mid_camp 341 176 # Campos Manuka (1) [man_fild01] para Ash Vacuum [mid_camp]
 man_fild01 103 55 man_fild03 84 366 # Campos Manuka (1) [man_fild01] para Campos Manuka (3) [man_fild03]
-man_fild03 84 369 man_fild01 103 58 # Campos Manuka (3) [man_fild03] para Campos Manuka (1) [man_fild01]
+man_fild03 84 369 man_fild01 103 58 # Campos Manuka (3) [man_fild03] para Campos Manuka (1) [man_fild01]job3_gen01 71 56 job3_gen01 7 59
+job3_gen01 7 59 job3_gen01 72 52
+job3_gen01 71 56 job3_gen01 7 59
