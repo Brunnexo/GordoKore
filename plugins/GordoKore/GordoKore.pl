@@ -35,6 +35,24 @@
 #
 # Navegacao: "GKNV" + "mapa [x y]" (DLL) = /navi digitado no chat do cliente; o personagem
 # anda ate la com o AI em manual (ai manual + move).
+#
+# Mapa alvo: "GKLM" + "mapa" (DLL, botao direito no mapa-mundi) = lockMap do config.txt.
+#
+# Selecao de monstros (janela no cliente, so os monstros do mapa atual):
+#   "GKMQ"                      (DLL) pede o mapa atual e as regras
+#   "GKMC" + "ID estado nome"   (DLL) muda a regra de um monstro (nome em CP1252, como o cliente mostra)
+#   "GKMS" + "mapa\nestado chave\n...\nM nameID nome\n..."  (resposta 'X', e de novo a cada troca de mapa e a cada
+#                               monstro novo na tela) mapa atual, regras (chave = ID ou nome em minusculas, CP1252,
+#                               da linha do mon_control) e os monstros ja vistos no mapa ("M": eventos, que nao
+#                               estao na tabela de navegacao do cliente)
+# Estados: 0 padrao, 1 atacar, 2 so se agredido, 3 ignorar, 4 fugir (ignora e teleporta).
+# As regras ficam no mon_control.txt do OpenKore, que o plugin reescreve (guarda um .bak antes e recarrega):
+# muda so <attack> e <teleport> da linha do monstro. A chave e' o nome (o que o OpenKore ve e consulta antes do
+# ID; o ID da tabela de navegacao do cliente nem sempre e' o nameID do servidor); sem nome, o ID.
+# Linha nova herda os campos do "all" (<search> inclusive: com 0 o OpenKore deixa de contar o monstro no
+# teleportAuto_search e teleporta atras de outro). Padrao tira as linhas por nome e por ID do monstro (vale o
+# "all"; o .bak guarda o arquivo de antes).
+# O estado mostrado vem do que esta carregado: linhas com outros valores (atacar 2/3, teleporte 2..) ficam em padrao.
 
 package GordoKore;
 
@@ -43,7 +61,8 @@ use File::Copy qw(copy);
 use Plugins;
 use Commands;
 use Settings;
-use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $char $npcsList %npcs_lut);
+use Encode qw(decode encode);
+use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $char $npcsList $monstersList %npcs_lut %mon_control %monsters_lut);
 use Utils qw(calcPosition);
 use Log qw(message error warning);
 use Misc qw(configModify parseReload);
@@ -57,6 +76,10 @@ use constant STORAGE_NPC      => 'GKAS';
 use constant START      => 'GKGO';
 use constant RELOG      => 'GKRL';
 use constant NAVI       => 'GKNV';
+use constant LOCK_MAP   => 'GKLM';
+use constant MONSTER_QUERY => 'GKMQ';
+use constant MONSTER_SET   => 'GKMC';
+use constant MONSTERS      => 'GKMS';
 use constant NO_PICKUP  => 127;   # sem linha no pickupitems.txt
 use constant RECORD     => 'V l C c';
 use constant RECORD_SIZE => 10;
@@ -72,6 +95,8 @@ my %NPC_KIND = (
 my $hooks = Plugins::addHooks(
 	['Network::clientSend/observed', \&onClientSendObserved, undef],
 	['Commands::run/pre',            \&onCommand, undef],
+	['Network::Receive::map_changed', \&onMapChanged, undef],
+	['objectAdded',                  \&onObjectAdded, undef],
 );
 
 message "[GordoKore] Plugin loaded!\n", 'success';
@@ -282,6 +307,154 @@ sub setNearestNpc {
 }
 
 # ---------------------------------------------------------------------------
+# Selecao de monstros
+# ---------------------------------------------------------------------------
+
+my %MONSTER_RULES = (
+	1 => [1,  0],  # atacar
+	2 => [0,  0],  # so se agredido
+	3 => [-1, 0],  # ignorar
+	4 => [-1, 1],  # fugir (ignora e teleporta)
+);
+
+# Linha do mon_control.txt -> (chave em minusculas, campos), como o parseMonControl; nada se for comentario ou vazia
+sub monLine {
+	my ($line) = @_;
+	return if $line =~ /^#/;
+	(my $body = $line) =~ s/\s*#.*//;
+	$body =~ s/\s+$//;
+	return unless length $body;
+	my ($key, $args);
+	if ($body =~ /\t/) {
+		($key, $args) = split /\t+/, lc($body);
+	} else {
+		($key, $args) = lc($body) =~ /([\s\S]+?) ([\-\d\.]+[\s\S]*)/;
+	}
+	return unless defined $key && length $key;
+	return ($key, [split / /, $args // '']);
+}
+
+# Campos <search> ... <weight> de uma linha nova: os do "all" (o <search> = 1 do "all" faz o monstro contar pro
+# teleportAuto_search; com 0 o OpenKore ignora o monstro e teleporta atras de outro)
+sub inheritedFields {
+	my $all = $mon_control{all} || {};
+	return (map { $all->{$_} // 0 } qw(teleport_search skillcancel_auto attack_lvl attack_jlvl attack_hp attack_sp)), $all->{weight} // 1;
+}
+
+# Mesma linha com <attack> e <teleport> trocados (chave, separador, demais campos e comentario ficam). Linha de
+# antes do plugin herdar do "all" (6 zeros e peso 1) ganha o <search> do "all"
+sub rewriteMonLine {
+	my ($line, $attack, $teleport) = @_;
+	my ($body, $comment) = $line =~ /^(.*?)(\s*#.*)?$/;
+	my ($key, $sep, $args) = $body =~ /\t/ ? $body =~ /^(.*?)(\t+)(.*)$/ : $body =~ /^(.+?)( )(-?[\d.].*)$/;
+	my @fields = split ' ', $args // '';
+	@fields[0, 1] = ($attack, $teleport);
+	if (@fields == 9 && !grep({ $_ ne '0' } @fields[2 .. 7]) && $fields[8] eq '1') {
+		$fields[2] = (inheritedFields())[0];
+	}
+	return "$key$sep" . join(' ', @fields) . ($comment // '');
+}
+
+# Estado (1..4) de uma regra carregada; nada se nao e' nenhum dos quatro
+sub ruleState {
+	my ($rule) = @_;
+	my ($attack, $teleport) = ($rule->{attack_auto}, $rule->{teleport_auto} // 0);
+	return unless defined $attack && $attack =~ /^-?\d+$/ && $teleport =~ /^-?\d+$/;
+	return 1 if $attack == 1  && $teleport == 0;
+	return 2 if $attack == 0  && $teleport == 0;
+	return 3 if $attack == -1 && $teleport == 0;
+	return 4 if $attack == -1 && $teleport == 1;
+	return;
+}
+
+# Chave do %mon_control (texto, em minusculas Unicode) -> CP1252 pra DLL (o cliente usa Windows-1252)
+sub keyForClient {
+	my ($key) = @_;
+	return encode('cp1252', $key);
+}
+
+# [estado, chave] de tudo que esta carregado no %mon_control e cabe nos quatro estados ("all" nao conta)
+sub monsterStates {
+	my @states;
+	foreach my $key (sort keys %mon_control) {
+		next if $key eq 'all';
+		my $state = ruleState($mon_control{$key});
+		push @states, [$state, keyForClient($key)] if defined $state;
+	}
+	return @states;
+}
+
+# Monstros que ja apareceram na tela neste mapa (mapa => { nome minusculo => [nameID, nome] }): os de evento nao
+# estao na tabela de navegacao do cliente, entao a janela soma estes a lista dela
+my %seen_monsters;
+
+sub rememberMonster {
+	my ($monster) = @_;
+	return 0 unless $field && $monster && $monster->{nameID};
+	my $name = $monster->name;
+	return 0 unless defined $name && length $name && $name !~ /^Unknown/i && $name !~ /[\t\n]/;
+	my $seen = $seen_monsters{$field->baseName} //= {};
+	return 0 if exists $seen->{lc $name} || keys %$seen >= 300;
+	$seen->{lc $name} = [$monster->{nameID}, $name];
+	return 1;
+}
+
+sub onObjectAdded {
+	my (undef, $args) = @_;
+	return unless $args->{type} eq 'monster';
+	sendMonsters() if rememberMonster($args->{obj}) && clientAlive();
+}
+
+sub sendMonsters {
+	my $map = $field ? $field->baseName : '';
+	rememberMonster($_) for $monstersList ? @{$monstersList->getItems} : ();
+	my @seen = map { "M $_->[0] " . encode('cp1252', $_->[1]) } sort { $a->[0] <=> $b->[0] } values %{$seen_monsters{$map} // {}};
+	my $payload = MONSTERS . join("\n", $map, (map { "$_->[0] $_->[1]" } monsterStates()), @seen);
+	sendToClient(length $payload < 60000 ? $payload : MONSTERS . $map); # o frame leva ate 64 KB
+}
+
+sub setMonsterState {
+	my ($id, $state, $client_name) = @_;
+	return unless $id =~ /^\d+$/ && $state =~ /^[0-4]$/;
+	my $name = decode('cp1252', $client_name // '');
+	$name = $monsters_lut{$id} // '' if $name eq '';
+	$name =~ s/^\s+|\s+$//g;
+	$name = '' if $name =~ /[#\t]/; # quebraria a linha do arquivo
+	my $key = lc $name;
+
+	my @lines = readLines('mon_control.txt');
+	my ($by_id, $by_name);
+	for my $i (0 .. $#lines) {
+		my ($line_key) = monLine($lines[$i]) or next;
+		$by_id = $i if $line_key eq $id;
+		$by_name = $i if length $key && $line_key eq $key;
+	}
+
+	my ($attack, $teleport) = @{$MONSTER_RULES{$state} // [1, 0]};
+	if (defined $by_name) {
+		$lines[$by_name] = $state ? rewriteMonLine($lines[$by_name], $attack, $teleport) : undef;
+		$lines[$by_id] = $state ? rewriteMonLine($lines[$by_id], $attack, $teleport) : undef if defined $by_id;
+	} elsif (defined $by_id) {
+		$lines[$by_id] = $state ? rewriteMonLine($lines[$by_id], $attack, $teleport) : undef;
+	}
+	if ($state && !defined $by_name && length $name) {
+		# Linha por nome (o OpenKore consulta antes do ID); a por ID, se havia, segue igual
+		push @lines, join(' ', $name, $attack, $teleport, inheritedFields());
+	} elsif ($state && !defined $by_name && !defined $by_id) {
+		push @lines, join(' ', $id, $attack, $teleport, inheritedFields());
+	}
+	writeLines('mon_control.txt', grep { defined } @lines);
+
+	my @labels = ('padrao', 'atacar', 'so se agredido', 'ignorar', 'fugir');
+	message "[GordoKore] Monstro " . (length $name ? $name : "#$id") . " ($id): $labels[$state]\n", 'info'; # o log ja converte texto
+	sendMonsters();
+}
+
+sub onMapChanged {
+	sendMonsters() if clientAlive();
+}
+
+# ---------------------------------------------------------------------------
 # relog
 # ---------------------------------------------------------------------------
 
@@ -319,6 +492,16 @@ sub onClientSendObserved {
 	if ($tag eq QUERY) {
 		sendItems();
 		sendNpc($_) for qw(sell storage);
+	} elsif ($tag eq MONSTER_QUERY) {
+		sendMonsters();
+	} elsif ($tag eq MONSTER_SET) {
+		my ($id, $state, $name) = substr($msg, 4) =~ /^(\d+) (\d)(?: (.*))?$/s;
+		setMonsterState($id, $state, $name) if defined $state;
+	} elsif ($tag eq LOCK_MAP) {
+		my $map = substr($msg, 4);
+		return unless $map =~ /^[\w@.-]+$/; # vai pro config.txt: so nome de mapa
+		configModify('lockMap', $map);
+		message "[GordoKore] Mapa alvo (lockMap): $map\n", 'success';
 	} elsif ($tag eq ITEMS) {
 		applyItems(substr($msg, 4));
 		sendItems();
