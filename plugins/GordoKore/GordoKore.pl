@@ -75,7 +75,7 @@
 #   "GKKQ" + ID                                (DLL) pede o attackSkillSlot da habilidade
 #   "GKKC" + "ID achada SP monstros tentativas usos"  (DLL) salva (0 = sem a condicao)
 #   "GKKD" + ID                                (DLL) tira o attackSkillSlot da habilidade
-#   "GKKS" + "ID achada SP monstros tentativas usos alcance alvo"  (resposta 'X', tambem apos salvar/remover; alvo: 1 inimigo, 2 local, 4 si mesmo, 16 ator)
+#   "GKKS" + "ID achada SP monstros tentativas usos alcance alvo x y"  (resposta 'X', tambem apos salvar/remover; alvo: 1 inimigo, 2 local, 4 si mesmo, 16 ator; x y = celula do personagem)
 # Fica no config.txt como o bloco attackSkillSlot do proprio OpenKore, com o nome da habilidade:
 #   attackSkillSlot Tornado de Carrinho {
 #       sp >= 30                (SP minimo)
@@ -749,7 +749,8 @@ sub sendSkill {
 	my $skill = eval { Skill->new(idn => $idn) };
 	my $range = $skill ? int(($skill->getRange // 0) + 0.5) : 0;
 	my $target = $skill ? ($skill->getTargetType // 0) : 0;
-	sendToClient(SKILL . join(' ', $idn, $block ? 1 : 0, @values, $range, $target));
+	my $pos = $char && $char->{pos_to} ? $char->{pos_to} : {};
+	sendToClient(SKILL . join(' ', $idn, $block ? 1 : 0, @values, $range, $target, $pos->{x} // 0, $pos->{y} // 0));
 }
 
 # Habilidades com attackSkillSlot, na ordem do config.txt (a barra da janela)
