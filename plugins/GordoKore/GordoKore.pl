@@ -53,6 +53,38 @@
 # teleportAuto_search e teleporta atras de outro). Padrao tira as linhas por nome e por ID do monstro (vale o
 # "all"; o .bak guarda o arquivo de antes).
 # O estado mostrado vem do que esta carregado: linhas com outros valores (atacar 2/3, teleporte 2..) ficam em padrao.
+#
+# Cura automatica (janela no cliente: itens de cura de HP e de SP e a porcentagem de cada um):
+#   "GKHQ"                           (DLL) pede as regras
+#   "GKHC" + "H|S porcentagem ID..." (uma linha por tipo)  (DLL) salva as regras de HP (H) e/ou de SP (S); IDs na ordem de prioridade
+#   "GKHS" + "H porcentagem ID...\nS porcentagem ID..."  (resposta 'X', tambem apos salvar) regras atuais
+# Ficam no config.txt como um bloco useSelf_item do proprio OpenKore por tipo (nada de opcoes extras), com os itens em
+# ordem de prioridade (o OpenKore usa o primeiro da lista que houver no inventario):
+#   useSelf_item Red Potion, Orange Potion, Yellow Potion {
+#       hp < 40%          (ou sp < 40%)
+#   }
+# Item entra pelo nome; se o nome nao e' unico na tabela de itens, pelo ID. Um bloco e' da janela quando so tem essa
+# condicao (timeout e disabled tambem valem); blocos com outras condicoes ficam como estao. Salvar reescreve so o bloco do
+# tipo (HP ou SP): troca a lista e a porcentagem mantendo as outras opcoes dele, junta blocos da janela que ja existiam
+# e tira o bloco se a lista ficar vazia (guarda um .bak antes e recarrega o config.txt). Porcentagem 0 deixa o bloco
+# com "disabled 1" (a lista continua la).
+#
+# Habilidades automaticas (barra de habilidades; clicar numa abre o Automatizar):
+#   "GKKL"                                    (DLL) pede as habilidades que tem attackSkillSlot
+#   "GKKA" + "ID ID ..."                       (resposta 'X', tambem apos salvar/remover) na ordem do config.txt (prioridade)
+#   "GKKQ" + ID                                (DLL) pede o attackSkillSlot da habilidade
+#   "GKKC" + "ID achada SP monstros tentativas usos"  (DLL) salva (0 = sem a condicao)
+#   "GKKD" + ID                                (DLL) tira o attackSkillSlot da habilidade
+#   "GKKS" + "ID achada SP monstros tentativas usos alcance alvo"  (resposta 'X', tambem apos salvar/remover; alvo: 1 inimigo, 2 local, 4 si mesmo, 16 ator)
+# Fica no config.txt como o bloco attackSkillSlot do proprio OpenKore, com o nome da habilidade:
+#   attackSkillSlot Tornado de Carrinho {
+#       sp >= 30                (SP minimo)
+#       monstersCount >= 2      (quantidade minima de monstros)
+#       maxAttempts 4           (tentativas, com ou sem sucesso)
+#       maxUses 3               (usos com sucesso)
+#   }
+# Salvar so mexe nessas quatro linhas (as outras opcoes do bloco ficam; "sp > 30" vale 31); sem bloco, cria um depois do
+# ultimo attackSkillSlot. Remover tira o bloco inteiro. Guarda um .bak antes e recarrega o config.txt.
 
 package GordoKore;
 
@@ -66,6 +98,7 @@ use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $c
 use Utils qw(calcPosition);
 use Log qw(message error warning);
 use Misc qw(configModify parseReload);
+use Skill;
 
 use constant QUERY      => 'GKSQ';
 use constant ITEMS      => 'GKIC';
@@ -80,6 +113,17 @@ use constant LOCK_MAP   => 'GKLM';
 use constant MONSTER_QUERY => 'GKMQ';
 use constant MONSTER_SET   => 'GKMC';
 use constant MONSTERS      => 'GKMS';
+use constant HEAL_QUERY    => 'GKHQ';
+use constant HEAL_SET      => 'GKHC';
+use constant HEAL          => 'GKHS';
+use constant HEAL_MAX_ITEMS => 16;
+use constant SKILL_QUERY   => 'GKKQ';
+use constant SKILL_SET     => 'GKKC';
+use constant SKILL_REMOVE  => 'GKKD';
+use constant SKILL         => 'GKKS';
+use constant SKILL_LIST    => 'GKKL';
+use constant SKILLS        => 'GKKA';
+use constant SKILL_MAX     => 18;
 use constant NO_PICKUP  => 127;   # sem linha no pickupitems.txt
 use constant RECORD     => 'V l C c';
 use constant RECORD_SIZE => 10;
@@ -455,6 +499,325 @@ sub onMapChanged {
 }
 
 # ---------------------------------------------------------------------------
+# Cura automatica
+# ---------------------------------------------------------------------------
+
+# Tipos: letra no protocolo, condicao do useSelf_item e rotulo
+my @HEAL_KINDS = (
+	{ letter => 'H', key => 'hp', label => 'HP' },
+	{ letter => 'S', key => 'sp', label => 'SP' },
+);
+
+# Nome do bloco + condicoes (condicao => valor) -> (tipo, [IDs na ordem], porcentagem; 0 se desligado) quando e' um bloco
+# da janela: lista de itens conhecidos (nome ou ID) e so "hp < N%" ou "sp < N%" (timeout e disabled tambem valem)
+sub healBlock {
+	my ($name, $conditions, $ids) = @_;
+	return if !defined $name || $name eq '';
+	my @items;
+	foreach my $token (split / *, */, $name) {
+		my $id = $token =~ /^\d+$/ ? $token + 0 : $ids->{lc $token};
+		return unless $id;
+		push @items, $id;
+	}
+	return unless @items;
+	my %set = map { $_ => $conditions->{$_} } grep { defined $conditions->{$_} && $conditions->{$_} ne '' } keys %$conditions;
+	my $disabled = delete $set{disabled};
+	delete $set{timeout};
+	delete $set{$_} for grep { $_ ne 'hp' && $_ ne 'sp' && $set{$_} eq '0' } keys %set;
+	my @kinds = grep { exists $set{$_->{key}} } @HEAL_KINDS;
+	return unless @kinds == 1 && keys %set == 1;
+	my ($percent) = $set{$kinds[0]{key}} =~ /^<=?\s*(\d+)%$/ or return;
+	return ($kinds[0], \@items, $disabled ? 0 : $percent + 0);
+}
+
+# Blocos "<nome do bloco> <nome> {" do config.txt: { first, last (indices das linhas), name, conditions }
+sub configBlocks {
+	my ($lines, $block_name) = @_;
+	my (@blocks, $current);
+	for my $i (0 .. $#$lines) {
+		my $line = $lines->[$i];
+		if (!$current && $line =~ /^\s*\Q$block_name\E(?:\s+(.*?))?\s*\{\s*$/) {
+			$current = { first => $i, name => $1 // '', conditions => {} };
+		} elsif ($current && $line =~ /^\s*\}\s*$/) {
+			$current->{last} = $i;
+			push @blocks, $current;
+			undef $current;
+		} elsif ($current && $line =~ /^\s*([^#\s]\S*)(?:\s+(.*?))?\s*$/) {
+			$current->{conditions}{$1} = $2 // '';
+		}
+	}
+	return @blocks;
+}
+
+sub itemBlocks {
+	return configBlocks($_[0], 'useSelf_item');
+}
+
+sub readConfigLines {
+	my ($path) = @_;
+	open(my $in, '<:encoding(UTF-8)', $path) or return;
+	my @lines = <$in>;
+	close $in;
+	s/[\r\n]+$// for @lines;
+	return @lines;
+}
+
+# Linhas do config.txt sem os blocos dados (e sem a linha em branco depois de cada um), com @insert no indice $at
+sub replaceBlocks {
+	my ($lines, $drop_blocks, $at, @insert) = @_;
+	my %drop;
+	foreach my $block (@$drop_blocks) {
+		$drop{$_} = 1 for $block->{first} .. $block->{last};
+		$drop{$block->{last} + 1} = 1 if defined $lines->[$block->{last} + 1] && $lines->[$block->{last} + 1] =~ /^\s*$/;
+	}
+	my @result;
+	for my $i (0 .. scalar @$lines) {
+		push @result, @insert if $i == $at;
+		push @result, $lines->[$i] if $i < @$lines && !$drop{$i};
+	}
+	return @result;
+}
+
+# Grava o config.txt (com .bak) e recarrega
+sub writeConfigLines {
+	my ($path, @lines) = @_;
+	copy($path, "$path.bak");
+	open(my $out, '>:utf8', $path) or do {
+		error "[GordoKore] nao consegui gravar $path: $!\n";
+		return 0;
+	};
+	print $out join("\n", @lines), "\n";
+	close $out;
+	parseReload(quotemeta $path);
+	return 1;
+}
+
+# Regras de cada tipo no config.txt: porcentagem (a do primeiro bloco ligado) e IDs na ordem dos blocos e das listas
+sub currentHeal {
+	my %rules = map { ($_->{key}, { percent => 0, items => [] }) } @HEAL_KINDS;
+	my $path = Settings::getConfigFilename();
+	my @lines = defined $path ? readConfigLines($path) : ();
+	my $ids = idsByName();
+	foreach my $block (itemBlocks(\@lines)) {
+		my ($kind, $block_ids, $percent) = healBlock($block->{name}, $block->{conditions}, $ids) or next;
+		my $rule = $rules{$kind->{key}};
+		foreach my $id (@$block_ids) {
+			push @{$rule->{items}}, $id unless @{$rule->{items}} >= HEAL_MAX_ITEMS || grep { $_ == $id } @{$rule->{items}};
+		}
+		$rule->{percent} ||= $percent;
+	}
+	return \%rules;
+}
+
+sub sendHeal {
+	my $rules = currentHeal();
+	sendToClient(HEAL . join("\n", map { my $rule = $rules->{$_->{key}}; "$_->{letter} " . join(' ', $rule->{percent}, @{$rule->{items}}) } @HEAL_KINDS));
+}
+
+# Troca (ou acrescenta antes do "}") a opcao de um bloco dado como lista de linhas
+sub setBlockOption {
+	my ($text, $key, $value) = @_;
+	for my $i (1 .. $#$text - 1) {
+		if ($text->[$i] =~ /^\s*\Q$key\E(?:\s|$)/) {
+			$text->[$i] = "\t$key $value";
+			return;
+		}
+	}
+	splice(@$text, $#$text, 0, "\t$key $value");
+}
+
+# Bloco da lista de cura: o que ja existe (mantem as outras opcoes) ou um novo, com o nome/lista dos itens
+sub healBlockText {
+	my ($old, $lines, $kind, $names, $percent) = @_;
+	my @text = $old ? @{$lines}[$old->{first} .. $old->{last}] : ('', "\t$kind->{key} < 0%", '}');
+	$text[0] = "useSelf_item $names {";
+	if ($percent > 0) {
+		setBlockOption(\@text, $kind->{key}, "< ${percent}%");
+		setBlockOption(\@text, 'disabled', 0) if grep { /^\s*disabled(?:\s|$)/ } @text;
+	} else {
+		setBlockOption(\@text, 'disabled', 1);
+	}
+	return @text;
+}
+
+# Como o item entra na lista do bloco: o nome (se levar de volta ao mesmo ID) ou o ID
+sub healItemName {
+	my ($id, $ids) = @_;
+	my $name = $items_lut{$id};
+	return $id unless defined $name && $name !~ /[,#{}\r\n]/ && $name =~ /\S/ && ($ids->{lc $name} // 0) == $id;
+	return $name;
+}
+
+# "H 50 501 502" da DLL -> bloco useSelf_item do config.txt
+sub applyHeal {
+	my ($body) = @_;
+	my ($letter, $percent, $list) = $body =~ /^([HS]) (\d{1,3})((?: \d+)*)\s*$/ or return;
+	my ($kind) = grep { $_->{letter} eq $letter } @HEAL_KINDS;
+	$percent = 100 if $percent > 100;
+	$percent += 0;
+	my %seen;
+	my @wanted = grep { $_ > 0 && !$seen{$_}++ } split ' ', $list;
+	splice(@wanted, HEAL_MAX_ITEMS) if @wanted > HEAL_MAX_ITEMS;
+
+	my $path = Settings::getConfigFilename();
+	my @lines = defined $path ? readConfigLines($path) : ();
+	unless (@lines) {
+		error "[GordoKore] nao consegui ler o config.txt\n";
+		return;
+	}
+	my $ids = idsByName();
+	my @blocks = itemBlocks(\@lines);
+
+	# Blocos da janela deste tipo, na ordem do arquivo
+	my @old = grep {
+		my ($block_kind) = healBlock($_->{name}, $_->{conditions}, $ids);
+		$block_kind && $block_kind->{key} eq $kind->{key};
+	} @blocks;
+
+	my @insert = @wanted ? (healBlockText($old[0], \@lines, $kind, join(', ', map { healItemName($_, $ids) } @wanted), $percent), '') : ();
+
+	# Os blocos antigos saem; o novo entra onde estava o primeiro, ou depois do ultimo useSelf_item
+	my $at = @old ? $old[0]{first} : @blocks ? $blocks[-1]{last} + 1 : scalar @lines;
+	unshift @insert, '' if @insert && !@old && $at > 0;
+
+	writeConfigLines($path, replaceBlocks(\@lines, \@old, $at, @insert)) or return;
+
+	message sprintf("[GordoKore] useSelf_item de %s: %s, %d item(s)\n", $kind->{label}, $percent ? "abaixo de $percent%" : 'desligado', scalar @wanted), 'success';
+}
+
+# ---------------------------------------------------------------------------
+# Habilidades automaticas (attackSkillSlot)
+# ---------------------------------------------------------------------------
+
+# Opcoes do bloco que a janela edita (na ordem do protocolo): chave, formato gravado e se vale ">= N" / "> N" (compare)
+my @SKILL_OPTIONS = (
+	{ key => 'sp',            format => '>= %d', compare => 1, label => 'SP' },
+	{ key => 'monstersCount', format => '>= %d', compare => 1, label => 'monstros' },
+	{ key => 'maxAttempts',   format => '%d',    compare => 0, label => 'tentativas' },
+	{ key => 'maxUses',       format => '%d',    compare => 0, label => 'usos' },
+);
+
+# Valor de uma opcao como a janela mostra (sem a linha = 0); undef se o texto tem outra forma (intervalo, porcentagem...)
+sub skillOptionValue {
+	my ($option, $text) = @_;
+	return 0 if !defined $text || $text eq '';
+	if ($option->{compare}) {
+		return $1 + 0 if $text =~ /^>=\s*(\d+)$/;
+		return $1 + 1 if $text =~ /^>\s*(\d+)$/;
+		return undef;
+	}
+	return $text =~ /^\d+$/ ? $text + 0 : undef;
+}
+
+# ID da habilidade pelo nome (ou handle/ID) que esta no config.txt
+sub skillIdn {
+	my ($name) = @_;
+	return unless defined $name && $name ne '';
+	my $skill = eval { Skill->new(auto => $name) } or return;
+	return $skill->getIDN;
+}
+
+# Primeiro bloco attackSkillSlot da habilidade
+sub findSkillBlock {
+	my ($lines, $idn) = @_;
+	foreach my $block (configBlocks($lines, 'attackSkillSlot')) {
+		my $block_idn = skillIdn($block->{name});
+		return $block if defined $block_idn && $block_idn == $idn;
+	}
+	return;
+}
+
+sub removeBlockOption {
+	my ($text, $key) = @_;
+	@$text = ($text->[0], (grep { $_ !~ /^\s*\Q$key\E(?:\s|$)/ } @{$text}[1 .. $#$text - 1]), $text->[-1]);
+}
+
+sub readConfig {
+	my $path = Settings::getConfigFilename();
+	return ($path, defined $path ? readConfigLines($path) : ());
+}
+
+sub sendSkill {
+	my ($idn) = @_;
+	my (undef, @lines) = readConfig();
+	my $block = findSkillBlock(\@lines, $idn);
+	my @values;
+	foreach my $option (@SKILL_OPTIONS) {
+		push @values, $block ? (skillOptionValue($option, $block->{conditions}{$option->{key}}) // 0) : 0;
+	}
+	# Alcance e tipo de alvo que o servidor mandou (a janela simula o uso da habilidade com eles)
+	my $skill = eval { Skill->new(idn => $idn) };
+	my $range = $skill ? int(($skill->getRange // 0) + 0.5) : 0;
+	my $target = $skill ? ($skill->getTargetType // 0) : 0;
+	sendToClient(SKILL . join(' ', $idn, $block ? 1 : 0, @values, $range, $target));
+}
+
+# Habilidades com attackSkillSlot, na ordem do config.txt (a barra da janela)
+sub sendSkillList {
+	my (undef, @lines) = readConfig();
+	my (@ids, %seen);
+	foreach my $block (configBlocks(\@lines, 'attackSkillSlot')) {
+		my $idn = skillIdn($block->{name});
+		push @ids, $idn if defined $idn && !$seen{$idn}++;
+	}
+	splice(@ids, SKILL_MAX) if @ids > SKILL_MAX;
+	sendToClient(SKILLS . join(' ', @ids));
+}
+
+# "ID achada SP monstros tentativas usos" da DLL -> attackSkillSlot do config.txt; devolve o ID (pra responder)
+sub applySkill {
+	my ($body) = @_;
+	my ($idn, @desired) = $body =~ /^(\d+) [01] (\d{1,4}) (\d{1,4}) (\d{1,4}) (\d{1,4})\s*$/ or return;
+
+	my $name = eval { Skill->new(idn => $idn)->getName };
+	if (!defined $name || $name =~ /^Unknown / || $name =~ /[#{}\r\n]/) {
+		warning "[GordoKore] Habilidade $idn sem nome valido na tabela de habilidades: nao da pra criar attackSkillSlot\n";
+		return $idn;
+	}
+	my ($path, @lines) = readConfig();
+	unless (@lines) {
+		error "[GordoKore] nao consegui ler o config.txt\n";
+		return $idn;
+	}
+
+	my $block = findSkillBlock(\@lines, $idn);
+	my @text = $block ? @lines[$block->{first} .. $block->{last}] : ("attackSkillSlot $name {", '}');
+	my $changed = !$block;
+	for my $i (0 .. $#SKILL_OPTIONS) {
+		my ($option, $value) = ($SKILL_OPTIONS[$i], $desired[$i] + 0);
+		my $current = $block ? skillOptionValue($option, $block->{conditions}{$option->{key}}) : 0;
+		next if defined $current ? $current == $value : $value == 0; # ja esta assim (ou forma que a janela nao mostra e ficou 0)
+		$changed = 1;
+		if ($value > 0) {
+			setBlockOption(\@text, $option->{key}, sprintf($option->{format}, $value));
+		} else {
+			removeBlockOption(\@text, $option->{key});
+		}
+	}
+	return $idn unless $changed;
+
+	# Bloco existente: no mesmo lugar (e com a linha em branco que vinha depois); novo: depois do ultimo attackSkillSlot
+	my @slots = configBlocks(\@lines, 'attackSkillSlot');
+	my $blank_after = $block && defined $lines[$block->{last} + 1] && $lines[$block->{last} + 1] =~ /^\s*$/;
+	my @insert = $block ? ($blank_after ? (@text, '') : @text) : ('', @text);
+	my $at = $block ? $block->{first} : @slots ? $slots[-1]{last} + 1 : scalar @lines;
+	writeConfigLines($path, replaceBlocks(\@lines, $block ? [$block] : [], $at, @insert)) or return $idn;
+
+	message sprintf("[GordoKore] attackSkillSlot %s: %s\n", $name, join(', ', map { "$SKILL_OPTIONS[$_]{label} $desired[$_]" } 0 .. $#SKILL_OPTIONS)), 'success';
+	return $idn;
+}
+
+# Tira o attackSkillSlot da habilidade
+sub removeSkill {
+	my ($idn) = @_;
+	my ($path, @lines) = readConfig();
+	my $block = @lines ? findSkillBlock(\@lines, $idn) : undef;
+	return unless $block;
+	writeConfigLines($path, replaceBlocks(\@lines, [$block], $block->{first})) or return;
+	message "[GordoKore] attackSkillSlot de $block->{name} removido\n", 'success';
+}
+
+# ---------------------------------------------------------------------------
 # relog
 # ---------------------------------------------------------------------------
 
@@ -494,6 +857,26 @@ sub onClientSendObserved {
 		sendNpc($_) for qw(sell storage);
 	} elsif ($tag eq MONSTER_QUERY) {
 		sendMonsters();
+	} elsif ($tag eq HEAL_QUERY) {
+		sendHeal();
+	} elsif ($tag eq HEAL_SET) {
+		applyHeal($_) for split /\n/, substr($msg, 4);
+		sendHeal();
+	} elsif ($tag eq SKILL_QUERY) {
+		my $idn = substr($msg, 4);
+		sendSkill($idn) if $idn =~ /^\d+$/;
+	} elsif ($tag eq SKILL_SET) {
+		my $idn = applySkill(substr($msg, 4));
+		sendSkill($idn) if defined $idn;
+		sendSkillList();
+	} elsif ($tag eq SKILL_REMOVE) {
+		my $idn = substr($msg, 4);
+		return unless $idn =~ /^\d+$/;
+		removeSkill($idn);
+		sendSkill($idn);
+		sendSkillList();
+	} elsif ($tag eq SKILL_LIST) {
+		sendSkillList();
 	} elsif ($tag eq MONSTER_SET) {
 		my ($id, $state, $name) = substr($msg, 4) =~ /^(\d+) (\d)(?: (.*))?$/s;
 		setMonsterState($id, $state, $name) if defined $state;
