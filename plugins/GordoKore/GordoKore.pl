@@ -78,10 +78,8 @@
 #                                              primeira linha) = habilidade nova na barra: cria o bloco do tipo que combina com o
 #                                              alvo (si mesmo/ator = suporte, o resto = ofensiva)
 #   "GKKD" + "ID tipo"                         (DLL) tira o bloco do tipo da habilidade (tipo 2 = os dois)
-#   "GKKS" + "ID tipo achada alcance alvo x y" e linhas "opcao valor"  (resposta 'X', tambem apos salvar/remover; alvo: 1 inimigo,
-#                                              2 local, 4 si mesmo, 16 ator; x y = celula do personagem)
-#                                              e "look classe cabelo cor_cabelo cor_roupa arma escudo baixo topo meio capa sexo
-#                                              nivel nome" (aparencia do personagem pro teste)
+#   "GKKS" + "ID tipo achada alcance alvo" e linhas "opcao valor"  (resposta 'X', tambem apos salvar/remover; alvo: 1 inimigo,
+#                                              2 local, 4 si mesmo, 16 ator)
 # Ofensiva = bloco attackSkillSlot do proprio OpenKore e suporte = useSelf_skill, com o nome da habilidade; as opcoes vao como
 # o OpenKore escreve (texto em CP1252 na ida e na volta):
 #   attackSkillSlot Tornado de Carrinho {
@@ -748,7 +746,7 @@ sub readConfig {
 	return ($path, defined $path ? readConfigLines($path) : ());
 }
 
-# "ID tipo achada alcance alvo x y" e as opcoes conhecidas do bloco; alcance, alvo e posicao a janela usa no teste
+# "ID tipo achada alcance alvo" e as opcoes conhecidas do bloco; alcance e alvo a janela usa no teste
 sub sendSkill {
 	my ($idn, $kind) = @_;
 	my (undef, @lines) = readConfig();
@@ -756,17 +754,7 @@ sub sendSkill {
 	my $skill = eval { Skill->new(idn => $idn) };
 	my $range = $skill ? int(($skill->getRange // 0) + 0.5) : 0;
 	my $target = $skill ? ($skill->getTargetType // 0) : 0;
-	my $pos = $char && $char->{pos_to} ? $char->{pos_to} : {};
-	my @text = (join(' ', $idn, $kind, $block ? 1 : 0, $range, $target, $pos->{x} // 0, $pos->{y} // 0));
-	# Aparencia do personagem: o teste da janela usa uma copia dele
-	if ($char && defined $char->{jobID}) {
-		my $head = $char->{headgear} // {};
-		push @text, join(' ', 'look', map({ int($_ // 0) } $char->{jobID}, $char->{hair_style}, $char->{hair_color} // $char->{hair_pallete},
-			$char->{clothes_color}, $char->{weapon}, $char->{shield}, $head->{low}, $head->{top}, $head->{mid}, $char->{robe}, $char->{sex},
-			$char->{lv}), encode('cp1252', $char->{name} // ''));
-	}
-	# Tamanho do mapa: a copia do teste fica longe da tela sem sair dele
-	push @text, join(' ', 'map', $field->width, $field->height) if $field && $field->can('width');
+	my @text = (join(' ', $idn, $kind, $block ? 1 : 0, $range, $target));
 	if ($block) {
 		foreach my $key (@{$SKILL_KINDS[$kind]{options}}) {
 			my $value = $block->{conditions}{$key};
