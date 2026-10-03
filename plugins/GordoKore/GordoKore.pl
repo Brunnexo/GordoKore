@@ -74,27 +74,23 @@
 #   "GKKA" + "ID:tipos ..."                    (resposta 'X', tambem apos salvar/remover) tipos: 1 ofensiva, 2 suporte, 3 as duas;
 #                                              na ordem do config.txt (attackSkillSlot primeiro, depois useSelf_skill)
 #   "GKKQ" + "ID tipo"                         (DLL) pede o bloco do tipo da habilidade
-#   "GKKC" + "ID tipo achada v1 v2 v3 v4"      (DLL) salva (0 = sem a condicao); tipo 2 = habilidade nova na barra: cria o bloco do
-#                                              tipo que combina com o alvo (si mesmo/ator = suporte, o resto = ofensiva)
+#   "GKKC" + "ID tipo" e linhas "opcao valor"  (DLL) salva; valor vazio tira a linha, as outras linhas do bloco ficam. Tipo 2 (so a
+#                                              primeira linha) = habilidade nova na barra: cria o bloco do tipo que combina com o
+#                                              alvo (si mesmo/ator = suporte, o resto = ofensiva)
 #   "GKKD" + "ID tipo"                         (DLL) tira o bloco do tipo da habilidade (tipo 2 = os dois)
-#   "GKKS" + "ID tipo achada v1 v2 v3 v4 alcance alvo x y"  (resposta 'X', tambem apos salvar/remover; alvo: 1 inimigo, 2 local,
-#                                              4 si mesmo, 16 ator; x y = celula do personagem)
-# Ofensiva = bloco attackSkillSlot do proprio OpenKore, com o nome da habilidade (v1..v4 = SP, monstros, tentativas, usos):
+#   "GKKS" + "ID tipo achada alcance alvo x y" e linhas "opcao valor"  (resposta 'X', tambem apos salvar/remover; alvo: 1 inimigo,
+#                                              2 local, 4 si mesmo, 16 ator; x y = celula do personagem)
+#                                              e "look classe cabelo cor_cabelo cor_roupa arma escudo baixo topo meio capa sexo
+#                                              nivel nome" (aparencia do personagem pro teste)
+# Ofensiva = bloco attackSkillSlot do proprio OpenKore e suporte = useSelf_skill, com o nome da habilidade; as opcoes vao como
+# o OpenKore escreve (texto em CP1252 na ida e na volta):
 #   attackSkillSlot Tornado de Carrinho {
-#       sp >= 30                (SP minimo)
-#       monstersCount >= 2      (quantidade minima de monstros)
-#       maxAttempts 4           (tentativas, com ou sem sucesso)
-#       maxUses 3               (usos com sucesso)
+#       sp > 30
+#       monstersCount >= 2
+#       whenStatusInactive Blessing
 #   }
-# Suporte = bloco useSelf_skill (v1..v4 = HP, SP, monstros agressivos, intervalo):
-#   useSelf_skill Bencao {
-#       hp <= 50%               (HP no maximo)
-#       sp >= 30                (SP minimo)
-#       aggressives >= 2        (monstros agressivos no minimo)
-#       timeout 30              (segundos entre usos)
-#   }
-# Salvar so mexe nessas quatro linhas (as outras opcoes do bloco ficam; "sp > 30" vale 31); sem bloco, cria um depois do
-# ultimo do tipo. Remover tira o bloco inteiro. Guarda um .bak antes e recarrega o config.txt.
+# So entram as opcoes conhecidas de cada bloco (@SKILL_KINDS). Sem bloco, cria um depois do ultimo do tipo. Remover tira o
+# bloco inteiro. Guarda um .bak antes e recarrega o config.txt.
 package GordoKore;
 
 use strict;
@@ -698,51 +694,30 @@ sub applyHeal {
 # Habilidades automaticas: ofensivas (attackSkillSlot) e de suporte (useSelf_skill)
 # ---------------------------------------------------------------------------
 
-# Tipos na ordem do protocolo (0 = ofensiva, 1 = suporte; 2 = "o plugin decide" ao adicionar). Opcoes: as da janela, na ordem do
-# protocolo; min = ">= N", max_percent = "<= N%", plain = N
+# Tipos na ordem do protocolo (0 = ofensiva, 1 = suporte; 2 = "o plugin decide" ao adicionar) e as opcoes que a janela pode
+# gravar em cada bloco (as do proprio OpenKore)
 my @SKILL_KINDS = (
 	{
 		block   => 'attackSkillSlot',
-		options => [
-			{ key => 'sp',            type => 'min',   label => 'SP' },
-			{ key => 'monstersCount', type => 'min',   label => 'monstros' },
-			{ key => 'maxAttempts',   type => 'plain', label => 'tentativas' },
-			{ key => 'maxUses',       type => 'plain', label => 'usos' },
-		],
+		options => [qw(lvl dist maxDist maxCastTime minCastTime hp sp ap onAction inQueue notInQueue whenStatusActive
+			whenStatusInactive whenFollowing spirit amuletType aggressives previousDamage stopWhenHit inLockOnly notInTown timeout
+			disabled monsters notMonsters monstersCount monstersCountDist maxAttempts maxUses target_hp target_whenStatusActive
+			target_whenStatusInactive target_deltaHp whenPartyMembersNear whenPartyMembersNearDist inInventory isSelfSkill
+			isStartSkill manualAI)],
 	},
 	{
 		block   => 'useSelf_skill',
-		options => [
-			{ key => 'hp',          type => 'max_percent', label => 'HP' },
-			{ key => 'sp',          type => 'min',         label => 'SP' },
-			{ key => 'aggressives', type => 'min',         label => 'agressivos' },
-			{ key => 'timeout',     type => 'plain',       label => 'intervalo' },
-		],
+		options => [qw(lvl maxCastTime minCastTime hp sp ap onAction inQueue notInQueue whenStatusActive whenStatusInactive
+			whenFollowing spirit amuletType aggressives monsters notMonsters monstersCount monstersCountDist stopWhenHit inLockOnly
+			notWhileSitting notInTown timeout disabled whenPartyMembersNear whenPartyMembersNearDist inInventory manualAI)],
 	},
 );
 use constant SKILL_KIND_AUTO => 2;
+use constant SKILL_VALUE_MAX => 60;
 
-# Valor de uma opcao como a janela mostra (sem a linha = 0); undef se o texto tem outra forma (intervalo, status...)
-sub skillOptionValue {
-	my ($option, $text) = @_;
-	return 0 if !defined $text || $text eq '';
-	if ($option->{type} eq 'min') {
-		return $1 + 0 if $text =~ /^>=\s*(\d+)$/;
-		return $1 + 1 if $text =~ /^>\s*(\d+)$/;
-	} elsif ($option->{type} eq 'max_percent') {
-		return $1 + 0 if $text =~ /^<=\s*(\d+)\s*%$/;
-		return $1 - 1 if $text =~ /^<\s*([1-9]\d*)\s*%$/;
-	} elsif ($text =~ /^\d+$/) {
-		return $text + 0;
-	}
-	return undef;
-}
-
-sub skillOptionText {
-	my ($option, $value) = @_;
-	return ">= $value" if $option->{type} eq 'min';
-	return "<= ${value}%" if $option->{type} eq 'max_percent';
-	return "$value";
+sub skillOptionAllowed {
+	my ($kind, $key) = @_;
+	return scalar grep { $_ eq $key } @{$SKILL_KINDS[$kind]{options}};
 }
 
 # ID da habilidade pelo nome (ou handle/ID) que esta no config.txt
@@ -773,20 +748,32 @@ sub readConfig {
 	return ($path, defined $path ? readConfigLines($path) : ());
 }
 
-# "ID tipo achada v1 v2 v3 v4 alcance alvo x y": o bloco do tipo e o que o servidor mandou da habilidade (a janela usa no teste)
+# "ID tipo achada alcance alvo x y" e as opcoes conhecidas do bloco; alcance, alvo e posicao a janela usa no teste
 sub sendSkill {
 	my ($idn, $kind) = @_;
 	my (undef, @lines) = readConfig();
 	my $block = findSkillBlock(\@lines, $idn, $kind);
-	my @values;
-	foreach my $option (@{$SKILL_KINDS[$kind]{options}}) {
-		push @values, $block ? (skillOptionValue($option, $block->{conditions}{$option->{key}}) // 0) : 0;
-	}
 	my $skill = eval { Skill->new(idn => $idn) };
 	my $range = $skill ? int(($skill->getRange // 0) + 0.5) : 0;
 	my $target = $skill ? ($skill->getTargetType // 0) : 0;
 	my $pos = $char && $char->{pos_to} ? $char->{pos_to} : {};
-	sendToClient(SKILL . join(' ', $idn, $kind, $block ? 1 : 0, @values, $range, $target, $pos->{x} // 0, $pos->{y} // 0));
+	my @text = (join(' ', $idn, $kind, $block ? 1 : 0, $range, $target, $pos->{x} // 0, $pos->{y} // 0));
+	# Aparencia do personagem: o teste da janela usa uma copia dele
+	if ($char && defined $char->{jobID}) {
+		my $head = $char->{headgear} // {};
+		push @text, join(' ', 'look', map({ int($_ // 0) } $char->{jobID}, $char->{hair_style}, $char->{hair_color} // $char->{hair_pallete},
+			$char->{clothes_color}, $char->{weapon}, $char->{shield}, $head->{low}, $head->{top}, $head->{mid}, $char->{robe}, $char->{sex},
+			$char->{lv}), encode('cp1252', $char->{name} // ''));
+	}
+	# Tamanho do mapa: a copia do teste fica longe da tela sem sair dele
+	push @text, join(' ', 'map', $field->width, $field->height) if $field && $field->can('width');
+	if ($block) {
+		foreach my $key (@{$SKILL_KINDS[$kind]{options}}) {
+			my $value = $block->{conditions}{$key};
+			push @text, "$key " . encode('cp1252', $value) if defined $value && $value ne '';
+		}
+	}
+	sendToClient(SKILL . join("\n", @text));
 }
 
 # Habilidades da barra: as dos blocos attackSkillSlot e useSelf_skill do config.txt, "ID:tipos" (1 = ofensiva, 2 = suporte,
@@ -806,11 +793,12 @@ sub sendSkillList {
 	sendToClient(SKILLS . join(' ', map { "$_:$kinds{$_}" } @ids));
 }
 
-# "ID tipo achada v1 v2 v3 v4" da DLL -> bloco do tipo no config.txt; devolve (ID, tipo) pra responder.
+# "ID tipo" e linhas "opcao valor" da DLL -> bloco do tipo no config.txt; devolve (ID, tipo) pra responder.
 # Tipo 2 (habilidade nova na barra): cria o bloco do tipo que combina com o alvo da habilidade, se ela ainda nao tem nenhum
 sub applySkill {
 	my ($body) = @_;
-	my ($idn, $kind, @desired) = $body =~ /^(\d+) ([012]) [01] (\d{1,4}) (\d{1,4}) (\d{1,4}) (\d{1,4})\s*$/ or return;
+	my ($header, @option_lines) = split /\r?\n/, $body;
+	my ($idn, $kind) = ($header // '') =~ /^(\d+) ([012])\s*$/ or return;
 
 	my $name = eval { Skill->new(idn => $idn)->getName };
 	if (!defined $name || $name =~ /^Unknown / || $name =~ /[#{}\r\n]/) {
@@ -829,24 +817,31 @@ sub applySkill {
 		}
 		my $target = eval { Skill->new(idn => $idn)->getTargetType } // 0;
 		$kind = $target == Skill::TARGET_SELF || $target == Skill::TARGET_ACTORS ? 1 : 0;
+		@option_lines = ();
 	}
 
-	my @options = @{$SKILL_KINDS[$kind]{options}};
 	my $block_name = $SKILL_KINDS[$kind]{block};
 	my $block = findSkillBlock(\@lines, $idn, $kind);
 	my @text = $block ? @lines[$block->{first} .. $block->{last}] : ("$block_name $name {", '}');
 	my $changed = !$block;
-	for my $i (0 .. $#options) {
-		my ($option, $value) = ($options[$i], $desired[$i] + 0);
-		$value = 100 if $option->{type} eq 'max_percent' && $value > 100;
-		$desired[$i] = $value;
-		my $current = $block ? skillOptionValue($option, $block->{conditions}{$option->{key}}) : 0;
-		next if defined $current ? $current == $value : $value == 0; # ja esta assim (ou forma que a janela nao mostra e ficou 0)
+	my @changes;
+	foreach my $line (@option_lines) {
+		my ($key, $value) = $line =~ /^([A-Za-z_]+)(?: (.*))?$/ or next;
+		next unless skillOptionAllowed($kind, $key);
+		$value = decode('cp1252', $value // '');
+		$value =~ s/[{}#\t]//g;
+		$value =~ s/^\s+|\s+$//g;
+		$value = substr($value, 0, SKILL_VALUE_MAX);
+		my $current = $block ? $block->{conditions}{$key} : undef;
+		$current = '' unless defined $current;
+		$current =~ s/^\s+|\s+$//g;
+		next if $current eq $value;
 		$changed = 1;
-		if ($value > 0) {
-			setBlockOption(\@text, $option->{key}, skillOptionText($option, $value));
+		push @changes, $value eq '' ? "-$key" : "$key $value";
+		if ($value ne '') {
+			setBlockOption(\@text, $key, $value);
 		} else {
-			removeBlockOption(\@text, $option->{key});
+			removeBlockOption(\@text, $key);
 		}
 	}
 	return ($idn, $kind) unless $changed;
@@ -858,7 +853,7 @@ sub applySkill {
 	my $at = $block ? $block->{first} : @slots ? $slots[-1]{last} + 1 : scalar @lines;
 	writeConfigLines($path, replaceBlocks(\@lines, $block ? [$block] : [], $at, @insert)) or return ($idn, $kind);
 
-	message sprintf("[GordoKore] %s %s: %s\n", $block_name, $name, join(', ', map { "$options[$_]{label} $desired[$_]" } 0 .. $#options)), 'success';
+	message sprintf("[GordoKore] %s %s: %s\n", $block_name, $name, @changes ? join(', ', @changes) : 'criado'), 'success';
 	return ($idn, $kind);
 }
 
