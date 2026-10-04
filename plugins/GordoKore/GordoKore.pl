@@ -36,15 +36,15 @@
 # Navegacao: "GKNV" + "mapa [x y]" (DLL) = /navi digitado no chat do cliente; o personagem
 # anda ate la com o AI em manual (ai manual + move).
 #
-# Mapa alvo: "GKLM" + "mapa" (DLL, botao direito no mapa-mundi) = lockMap do config.txt.
+# Mapa alvo: "GKLM" + "mapa" (DLL, janela de monstros) = lockMap do config.txt.
 #
-# Selecao de monstros (janela no cliente, so os monstros do mapa atual):
+# Selecao de monstros (janela no cliente, monstros de qualquer mapa da tabela do cliente):
 #   "GKMQ"                      (DLL) pede o mapa atual e as regras
 #   "GKMC" + "ID estado nome"   (DLL) muda a regra de um monstro (nome em CP1252, como o cliente mostra)
 #   "GKMS" + "mapa\nestado chave\n...\nM nameID nome\n..."  (resposta 'X', e de novo a cada troca de mapa e a cada
 #                               monstro novo na tela) mapa atual, regras (chave = ID ou nome em minusculas, CP1252,
 #                               da linha do mon_control) e os monstros ja vistos no mapa ("M": eventos, que nao
-#                               estao na tabela de navegacao do cliente)
+#                               estao na tabela de navegacao do cliente) e "L mapa" (lockMap atual)
 # Estados: 0 padrao, 1 atacar, 2 so se agredido, 3 ignorar, 4 fugir (ignora e teleporta).
 # As regras ficam no mon_control.txt do OpenKore, que o plugin reescreve (guarda um .bak antes e recarrega):
 # muda so <attack> e <teleport> da linha do monstro. A chave e' o nome (o que o OpenKore ve e consulta antes do
@@ -456,7 +456,8 @@ sub sendMonsters {
 	my $map = $field ? $field->baseName : '';
 	rememberMonster($_) for $monstersList ? @{$monstersList->getItems} : ();
 	my @seen = map { "M $_->[0] " . encode('cp1252', $_->[1]) } sort { $a->[0] <=> $b->[0] } values %{$seen_monsters{$map} // {}};
-	my $payload = MONSTERS . join("\n", $map, (map { "$_->[0] $_->[1]" } monsterStates()), @seen);
+	my @lock = $config{lockMap} ? ("L $config{lockMap}") : (); # mapa de trabalho atual
+	my $payload = MONSTERS . join("\n", $map, (map { "$_->[0] $_->[1]" } monsterStates()), @lock, @seen);
 	sendToClient(length $payload < 60000 ? $payload : MONSTERS . $map); # o frame leva ate 64 KB
 }
 
@@ -924,6 +925,7 @@ sub onClientSendObserved {
 		return unless $map =~ /^[\w@.-]+$/; # vai pro config.txt: so nome de mapa
 		configModify('lockMap', $map);
 		message "[GordoKore] Mapa alvo (lockMap): $map\n", 'success';
+		sendMonsters(); # a janela de monstros mostra o mapa de trabalho
 	} elsif ($tag eq ITEMS) {
 		applyItems(substr($msg, 4));
 		sendItems();
