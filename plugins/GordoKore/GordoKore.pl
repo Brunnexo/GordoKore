@@ -97,7 +97,7 @@ use Plugins;
 use Commands;
 use Settings;
 use Encode qw(decode encode);
-use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $char $npcsList $monstersList %npcs_lut %mon_control %monsters_lut);
+use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $char $npcsList $monstersList %npcs_lut %mon_control %monsters_lut %maps_lut);
 use Utils qw(calcPosition);
 use Log qw(message error warning);
 use Misc qw(configModify parseReload);
@@ -112,6 +112,9 @@ use constant STORAGE_NPC      => 'GKAS';
 use constant START      => 'GKGO';
 use constant RELOG      => 'GKRL';
 use constant NAVI       => 'GKNV';
+use constant NAVI_ARROWS   => 'GKNF'; # + mapa: o OpenKore nao achou rota, a DLL passa a seguir as setas do navi do jogo
+use constant NAVI_STEP     => 'GKNW'; # + linhas "tipo mapa x y [destino]": plano das setas (W portal, N NPC + mapa para onde leva, F destino final)
+use constant NAVI_NPC_MENUS => 5;     # menus do NPC de teleporte respondidos (principal, cidades, confirmacao...)
 use constant LOCK_MAP   => 'GKLM';
 use constant MONSTER_QUERY => 'GKMQ';
 use constant MONSTER_SET   => 'GKMC';
@@ -148,6 +151,7 @@ my $hooks = Plugins::addHooks(
 	['Network::Receive::map_changed', \&onMapChanged, undef],
 	['objectAdded',                  \&onObjectAdded, undef],
 	['mainLoop_post',                \&onMainLoop, undef],
+	['fail_calc_map_route',          \&onRouteFail, undef],
 );
 
 message "[GordoKore] Plugin loaded!\n", 'success';
@@ -504,6 +508,99 @@ sub setMonsterState {
 
 sub onMapChanged {
 	sendMonsters() if clientAlive();
+	naviMapChanged();
+}
+
+# ---------------------------------------------------------------------------
+# Navi: sem rota no OpenKore (portals.txt), segue as setas do navi do jogo
+# ---------------------------------------------------------------------------
+
+my $naviTarget; # mapa do ultimo /navi (o OpenKore ainda calcula a rota)
+my $naviFollow; # mapa do /navi sendo seguido pelas setas
+my $naviPlan;   # pontos das setas mandados pela DLL: [{ kind, map, x, y, dest }], o destino (F) por ultimo
+my $naviApplied; # ponto ja seguido neste mapa ("tipo mapa x y"): a DLL reenvia o plano quando a rota muda
+my $naviTalkCont; # autoTalkCont original enquanto conversa com NPC das setas (undef = nao conversando)
+
+# Conversa com NPC das setas terminou (troca de mapa ou fim das setas): volta o autoTalkCont do config.txt
+sub endNaviTalk {
+	return unless defined $naviTalkCont;
+	$config{autoTalkCont} = $naviTalkCont;
+	undef $naviTalkCont;
+	AI::clear('NPC');
+}
+
+# Resposta de menu do NPC de teleporte: o destino (codigo do mapa ou nome de exibicao), a opcao de
+# teletransporte do menu principal ou a confirmacao. Sem espacos: o talknpc separa os passos por espaco
+sub naviNpcRegex {
+	my ($dest) = @_;
+	my @words = ($dest);
+	my $display = $maps_lut{"$dest.rsw"};
+	push @words, (split /\s+/, $display)[0] if defined $display && length $display;
+	push @words, qw(Teletransporte Teleporte Teleport Transporte Viajar Warp);
+	my $words = join '|', map { quotemeta } grep { length } @words;
+	$words =~ s/\\? /\\s/g;
+	# Confirmacao: palavra inteira (sem \b no "Si" com acento: fora do utf8 o i acentuado nao e' letra para o \b)
+	return "r~/(?:$words|\\b(?:Sim|Yes)\\b|(?<![a-z])S\x{ED}(?![a-z]))/i";
+}
+
+sub onRouteFail {
+	my (undef, $args) = @_;
+	return unless defined $naviTarget && defined $args->{map_to} && $args->{map_to} eq $naviTarget;
+	$naviFollow = $naviTarget;
+	undef $naviTarget;
+	undef $naviPlan;
+	undef $naviApplied;
+	message "[GordoKore] OpenKore sem rota para $naviFollow: seguindo as setas do navi do jogo\n", 'info';
+	sendToClient(NAVI_ARROWS . $naviFollow);
+}
+
+# Mapa novo: sobra da conversa com o NPC sai (ele ja teleportou) e vale o ponto das setas daqui
+sub naviMapChanged {
+	endNaviTalk();
+	undef $naviApplied;
+	applyNaviPlan();
+}
+
+# Ponto das setas no mapa atual: no mapa do destino, o destino; senao o ultimo passo da rota neste mapa.
+# Portal: anda ate ele (troca de mapa). NPC de teleporte: conversa escolhendo o destino. Destino: anda e encerra
+sub applyNaviPlan {
+	return unless $naviPlan && $naviFollow && $field;
+	my $here = $field->baseName;
+	my ($final) = grep { $_->{kind} eq 'F' } @$naviPlan;
+	my $step = $final && $final->{map} eq $here ? $final : (grep { $_->{kind} ne 'F' && $_->{map} eq $here } @$naviPlan)[-1];
+	unless ($step) {
+		my $maps = join ' ', map { $_->{map} } @$naviPlan;
+		warning "[GordoKore] Setas do navi: nenhum ponto da rota em $here (rota: $maps)\n";
+		return;
+	}
+	my ($kind, $x, $y, $dest) = @{$step}{qw(kind x y dest)};
+	my $key = "$kind $here $x $y";
+	return if defined $naviApplied && $naviApplied eq $key;
+	$naviApplied = $key;
+	endNaviTalk();
+
+	if ($kind eq 'F') {
+		Commands::run("move $x $y") if $x > 0 && $y > 0;
+		message "[GordoKore] Setas do navi: chegando ao destino em $naviFollow\n", 'success';
+		undef $naviFollow;
+		undef $naviPlan;
+		return;
+	}
+	return unless $x > 0 && $y > 0;
+	if ($kind eq 'N' && defined $dest) {
+		# NPC de teleporte: anda ate ele e responde os menus (autoTalkCont so durante a conversa)
+		$naviTalkCont = $config{autoTalkCont} // 0;
+		$config{autoTalkCont} = 1;
+		my $sequence = join ' ', (naviNpcRegex($dest)) x NAVI_NPC_MENUS;
+		message "[GordoKore] Setas do navi: falando com o NPC em ($x, $y) para ir a $dest\n", 'info';
+		Commands::run("talknpc $x $y $sequence");
+	} elsif ($kind eq 'N') {
+		Commands::run("move $x $y");
+		message "[GordoKore] Setas do navi: o proximo passo e' um NPC em ($x, $y). Fale com ele para continuar.\n", 'info';
+	} else {
+		message "[GordoKore] Setas do navi: indo ao portal em ($x, $y)\n", 'info';
+		Commands::run("move $x $y");
+	}
 }
 
 # ---------------------------------------------------------------------------
@@ -920,6 +1017,20 @@ sub onClientSendObserved {
 	if ($tag eq QUERY) {
 		sendItems();
 		sendNpc($_) for qw(sell storage);
+	} elsif ($tag eq NAVI_STEP) {
+		return unless defined $naviFollow;
+		my @plan;
+		for (split /\n/, substr($msg, 4)) {
+			my ($kind, $map, $x, $y, $dest) = /^([WNF]) ([\w@.-]+) (-?\d+) (-?\d+)(?: ([\w@.-]+))?$/ or next;
+			push @plan, { kind => $kind, map => $map, x => $x, y => $y, dest => $dest };
+		}
+		unless (@plan) {
+			warning "[GordoKore] Setas do navi: plano da DLL sem pontos validos\n";
+			return;
+		}
+		$naviPlan = \@plan;
+		message "[GordoKore] Setas do navi: rota com " . scalar(@plan) . " ponto(s), " . join(', ', map { "$_->{kind} $_->{map}" } @plan) . "\n", 'info';
+		applyNaviPlan();
 	} elsif ($tag eq AI_QUERY) {
 		sendAiState(1);
 	} elsif ($tag eq MONSTER_QUERY) {
@@ -960,6 +1071,11 @@ sub onClientSendObserved {
 		return unless defined $map && $map =~ /^[\w@.-]+$/; # vira comando do console: so nome de mapa
 		my $target = (defined $y && $x =~ /^\d+$/ && $y =~ /^\d+$/) ? "$map $x $y" : $map;
 		message "[GordoKore] /navi: $target\n", 'info';
+		$naviTarget = $map; # sem rota no OpenKore: onRouteFail passa para as setas do jogo
+		undef $naviFollow;
+		undef $naviPlan;
+		undef $naviApplied;
+		endNaviTalk();
 		Commands::run('ai manual');
 		Commands::run("move $target");
 	} elsif ($tag eq PICK_NPC || $tag eq PICK_STORAGE_NPC) {
