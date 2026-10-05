@@ -126,7 +126,9 @@ use constant SKILL_REMOVE  => 'GKKD';
 use constant SKILL         => 'GKKS';
 use constant SKILL_LIST    => 'GKKL';
 use constant SKILLS        => 'GKKA';
-use constant COMMAND       => 'GKCM'; # comando do console vindo de uma janela de modulo (SDK)
+use constant COMMAND       => 'GKCM'; # comando do console (janela Situacao do GordoKore e modulos do SDK)
+use constant AI_QUERY      => 'GKAQ'; # a DLL pede o estado da IA
+use constant AI_STATE      => 'GKAI'; # "modo acao": modo 0 desligada, 1 manual, 2 ligada; acao do topo da fila
 use constant SKILL_MAX     => 9;
 use constant NO_PICKUP  => 127;   # sem linha no pickupitems.txt
 use constant RECORD     => 'V l C c';
@@ -145,6 +147,7 @@ my $hooks = Plugins::addHooks(
 	['Commands::run/pre',            \&onCommand, undef],
 	['Network::Receive::map_changed', \&onMapChanged, undef],
 	['objectAdded',                  \&onObjectAdded, undef],
+	['mainLoop_post',                \&onMainLoop, undef],
 );
 
 message "[GordoKore] Plugin loaded!\n", 'success';
@@ -885,6 +888,26 @@ sub onCommand {
 }
 
 # ---------------------------------------------------------------------------
+# Estado da IA (janela Situacao do GordoKore)
+# ---------------------------------------------------------------------------
+
+my $lastAiState = '';
+
+# Manda so quando muda (o laco principal roda o tempo todo); $force responde ao pedido da DLL
+sub sendAiState {
+	my ($force) = @_;
+	my $state = AI::state() . ' ' . (AI::action() // '');
+	return if !$force && $state eq $lastAiState;
+	return unless clientAlive();
+	$lastAiState = $state;
+	sendToClient(AI_STATE . $state);
+}
+
+sub onMainLoop {
+	sendAiState(0);
+}
+
+# ---------------------------------------------------------------------------
 # Frames da DLL
 # ---------------------------------------------------------------------------
 
@@ -897,6 +920,8 @@ sub onClientSendObserved {
 	if ($tag eq QUERY) {
 		sendItems();
 		sendNpc($_) for qw(sell storage);
+	} elsif ($tag eq AI_QUERY) {
+		sendAiState(1);
 	} elsif ($tag eq MONSTER_QUERY) {
 		sendMonsters();
 	} elsif ($tag eq HEAL_QUERY) {
@@ -946,7 +971,7 @@ sub onClientSendObserved {
 		message "[GordoKore] $command\n", 'info';
 		Commands::run($command);
 	} elsif ($tag eq COMMAND) {
-		# Modulos do SDK sao DLLs instaladas pelo proprio usuario: comando livre, uma linha
+		# Campo "Enviar comando" da janela de IA e modulos do SDK (DLLs do proprio usuario): comando livre, uma linha
 		my $command = substr($msg, 4);
 		return unless length $command && $command !~ /[\r\n]/;
 		message "[GordoKore] $command\n", 'info';
