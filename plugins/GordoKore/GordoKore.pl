@@ -126,6 +126,7 @@ use constant SKILL_REMOVE  => 'GKKD';
 use constant SKILL         => 'GKKS';
 use constant SKILL_LIST    => 'GKKL';
 use constant SKILLS        => 'GKKA';
+use constant COMMAND       => 'GKCM'; # comando do console vindo de uma janela de modulo (SDK)
 use constant SKILL_MAX     => 9;
 use constant NO_PICKUP  => 127;   # sem linha no pickupitems.txt
 use constant RECORD     => 'V l C c';
@@ -942,6 +943,12 @@ sub onClientSendObserved {
 		# So os dois comandos (o frame vem da DLL, nada de comando livre)
 		my %commands = (sell => 'autosell', storage => 'autostorage');
 		my $command = $commands{substr($msg, 4)} or return;
+		message "[GordoKore] $command\n", 'info';
+		Commands::run($command);
+	} elsif ($tag eq COMMAND) {
+		# Modulos do SDK sao DLLs instaladas pelo proprio usuario: comando livre, uma linha
+		my $command = substr($msg, 4);
+		return unless length $command && $command !~ /[\r\n]/;
 		message "[GordoKore] $command\n", 'info';
 		Commands::run($command);
 	}
