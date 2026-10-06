@@ -5,7 +5,7 @@ use base qw(Network::Receive::ServerType0);
 use Globals qw($char $messageSender);
 use I18N qw(bytesToString);
 use Log qw(debug message);
-use Translation qw(T);
+use Translation qw(T TF);
 use AI;
 use Plugins;
 
@@ -27,7 +27,10 @@ sub new {
 		'0A0B' => [ 'cart_item_added',      'a2 V V C4 a16 a25',                                           [qw(ID amount nameID type identified broken upgrade cards options)] ],
 		'0A37' => [ 'inventory_item_added', 'a2 v V C3 a16 V C2 a4 v a25 C v',                             [qw(ID amount nameID identified broken upgrade cards type_equip type fail expire unknown options favorite viewID)] ],
 		'0ADD' => [ 'item_appeared',        'a4 V v C v2 C2 v C v',                                        [qw(ID nameID type identified x y subx suby amount show_effect effect_type)] ],
+		'0B40' => [ 'vending_start',        'v a4 a*',                                                     [qw(len accountID itemList)] ],  # -1: lista da propria loja (itens de 58 bytes)
 		'0B94' => [ 'rodex_accept_all_result', 'V3',                                                   [qw(unknown1 unknown2 accept)] ],                                                                                                                                                                                                                                  # 14
+		'0B95' => [ 'rodex_settings',       'v a*',                                                        [qw(len settings)] ],  # -1: pares V2 (chave 1 = aceita correio de qualquer um); so o cliente usa
+		'0BC9' => [ 'config_info_all',      'C4 V',                                                        [qw(open_equip call_deny pet_autofeed homun_autofeed costume)] ],  # 10: configuracoes ao entrar no mapa; so o cliente usa
 		'0C32' => [ 'account_server_info',  'v a4 a4 a4 a4 a26 C x17 a*',                                  [qw(len sessionID accountID sessionID2 lastLoginIP lastLoginTime accountSex serverInfo)] ],
 	);
 
@@ -47,6 +50,7 @@ sub new {
 	$self->{npc_market_info_pack}         = "V C V2 v";
 	$self->{npc_store_info_pack}          = "V V C V";
 	$self->{vender_items_list_item_pack}  = 'V v2 C V C3 a16 a25 V v C'; # trailing C = enchant grade
+	$self->{vender_items_list_item_pack_self} = 'V v2 C V C2 @56 C @15 a16 a25 @57 C'; # 0B40 (sub_5C3EF0): refino em +56, depois das opcoes; os @ poem os campos na ordem do vending_start
 	$self->{rodex_read_mail_item_pack}    = 'v V C3 a16 a4 C a4 a25';
 
 	return $self;
@@ -56,6 +60,30 @@ sub new {
 sub rodex_accept_all_result {
 	my ($self, $args) = @_;
 	message $args->{accept} ? T("All rodex mails accepted.\n") : T("All rodex mails rejected.\n"), "info";
+}
+
+# 0B95: configuracoes do RODEX ao entrar no mapa (o cliente marca a janela do correio); so mostra
+sub rodex_settings {
+	my ($self, $args) = @_;
+	my @pairs = unpack '(V2)*', $args->{settings};
+	while (my ($key, $value) = splice @pairs, 0, 2) {
+		if ($key == 1) {
+			message $value ? T("Rodex: mail from any player is allowed.\n") : T("Rodex: mail from unknown players is blocked.\n"), "info";
+		} else {
+			message TF("Rodex: unknown setting %d = %d\n", $key, $value), "info";
+		}
+	}
+}
+
+# 0BC9: equipamento publico, chamada por habilidade, alimentacao de mascote/homunculo, trajes (sub_5B94C0); so mostra
+sub config_info_all {
+	my ($self, $args) = @_;
+	message TF("Settings: %s, %s, %s, %s, costume option %d.\n",
+		$args->{open_equip} ? T("equipment shown to others") : T("equipment hidden from others"),
+		$args->{call_deny} ? T("skill summons blocked") : T("skill summons allowed"),
+		$args->{pet_autofeed} == 1 ? T("pet autofeed on") : T("pet autofeed off"),
+		$args->{homun_autofeed} == 1 ? T("homunculus autofeed on") : T("homunculus autofeed off"),
+		$args->{costume}), "info";
 }
 
 sub guild_name {

@@ -13811,13 +13811,63 @@ msgstr "O arquivo [%s] não existe."
 msgid "Sold: %s x %s\n"
 msgstr "Vendido: %s x %s\n"
 
-#: ../Network/Receive/ROla.pm:60
+#: ../Network/Receive/ROla.pm:62
 msgid "All rodex mails accepted.\n"
 msgstr "Todos os rodex foram aceitos.\n"
 
-#: ../Network/Receive/ROla.pm:60
+#: ../Network/Receive/ROla.pm:62
 msgid "All rodex mails rejected.\n"
 msgstr "Todos os rodex foram rejeitados.\n"
+
+#: ../Network/Receive/ROla.pm:71
+msgid "Rodex: mail from any player is allowed.\n"
+msgstr "Rodex: correio de qualquer jogador é aceito.\n"
+
+#: ../Network/Receive/ROla.pm:71
+msgid "Rodex: mail from unknown players is blocked.\n"
+msgstr "Rodex: correio de jogadores desconhecidos é bloqueado.\n"
+
+#: ../Network/Receive/ROla.pm:73
+#, perl-format
+msgid "Rodex: unknown setting %d = %d\n"
+msgstr "Rodex: configuração desconhecida %d = %d\n"
+
+#: ../Network/Receive/ROla.pm:81
+#, perl-format
+msgid "Settings: %s, %s, %s, %s, costume option %d.\n"
+msgstr "Configurações: %s, %s, %s, %s, opção de trajes %d.\n"
+
+#: ../Network/Receive/ROla.pm:82
+msgid "equipment shown to others"
+msgstr "equipamentos visíveis aos outros"
+
+#: ../Network/Receive/ROla.pm:82
+msgid "equipment hidden from others"
+msgstr "equipamentos ocultos aos outros"
+
+#: ../Network/Receive/ROla.pm:83
+msgid "skill summons blocked"
+msgstr "chamadas por habilidade bloqueadas"
+
+#: ../Network/Receive/ROla.pm:83
+msgid "skill summons allowed"
+msgstr "chamadas por habilidade permitidas"
+
+#: ../Network/Receive/ROla.pm:84
+msgid "pet autofeed on"
+msgstr "alimentação automática do mascote ligada"
+
+#: ../Network/Receive/ROla.pm:84
+msgid "pet autofeed off"
+msgstr "alimentação automática do mascote desligada"
+
+#: ../Network/Receive/ROla.pm:85
+msgid "homunculus autofeed on"
+msgstr "alimentação automática do homúnculo ligada"
+
+#: ../Network/Receive/ROla.pm:85
+msgid "homunculus autofeed off"
+msgstr "alimentação automática do homúnculo desligada"
 
 #: ../Commands.pm:576
 msgid "accept all rodex mails (ROla)"
