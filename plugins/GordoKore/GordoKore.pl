@@ -56,8 +56,8 @@
 #
 # Cura automatica (janela no cliente: itens de cura de HP e de SP e a porcentagem de cada um):
 #   "GKHQ"                           (DLL) pede as regras
-#   "GKHC" + "H|S porcentagem ID..." (uma linha por tipo)  (DLL) salva as regras de HP (H) e/ou de SP (S); IDs na ordem de prioridade
-#   "GKHS" + "H porcentagem ID...\nS porcentagem ID..."  (resposta 'X', tambem apos salvar) regras atuais
+#   "GKHC" + "H|S porcentagem s<sentar> ID..." (uma linha por tipo)  (DLL) salva HP (H) e/ou SP (S); s<N> = sitAuto_<key>_lower; IDs na ordem de prioridade
+#   "GKHS" + "H porcentagem s<sentar> ID...\nS porcentagem s<sentar> ID..."  (resposta 'X', tambem apos salvar) regras atuais
 # Ficam no config.txt como um bloco useSelf_item do proprio OpenKore por tipo (nada de opcoes extras), com os itens em
 # ordem de prioridade (o OpenKore usa o primeiro da lista que houver no inventario):
 #   useSelf_item Red Potion, Orange Potion, Yellow Potion {
@@ -804,9 +804,10 @@ sub writeConfigLines {
 	return 1;
 }
 
-# Regras de cada tipo no config.txt: porcentagem (a do primeiro bloco ligado) e IDs na ordem dos blocos e das listas
+# Regras de cada tipo no config.txt: porcentagem de cura (a do primeiro bloco ligado), de sentar (sitAuto_<key>_lower)
+# e IDs na ordem dos blocos e das listas
 sub currentHeal {
-	my %rules = map { ($_->{key}, { percent => 0, items => [] }) } @HEAL_KINDS;
+	my %rules = map { ($_->{key}, { percent => 0, sit => $config{"sitAuto_$_->{key}_lower"} + 0, items => [] }) } @HEAL_KINDS;
 	my $path = Settings::getConfigFilename();
 	my @lines = defined $path ? readConfigLines($path) : ();
 	my $ids = idsByName();
@@ -823,7 +824,7 @@ sub currentHeal {
 
 sub sendHeal {
 	my $rules = currentHeal();
-	sendToClient(HEAL . join("\n", map { my $rule = $rules->{$_->{key}}; "$_->{letter} " . join(' ', $rule->{percent}, @{$rule->{items}}) } @HEAL_KINDS));
+	sendToClient(HEAL . join("\n", map { my $rule = $rules->{$_->{key}}; "$_->{letter} " . join(' ', $rule->{percent}, "s$rule->{sit}", @{$rule->{items}}) } @HEAL_KINDS));
 }
 
 # Troca (ou acrescenta antes do "}") a opcao de um bloco dado como lista de linhas
@@ -863,10 +864,17 @@ sub healItemName {
 # "H 50 501 502" da DLL -> bloco useSelf_item do config.txt
 sub applyHeal {
 	my ($body) = @_;
-	my ($letter, $percent, $list) = $body =~ /^([HS]) (\d{1,3})((?: \d+)*)\s*$/ or return;
+	my ($letter, $percent, $sit, $list) = $body =~ /^([HS]) (\d{1,3})(?: s(\d{1,3}))?((?: \d+)*)\s*$/ or return;
 	my ($kind) = grep { $_->{letter} eq $letter } @HEAL_KINDS;
 	$percent = 100 if $percent > 100;
 	$percent += 0;
+
+	# Sentar quando abaixo de (0 = desligado): sitAuto_<key>_lower
+	if (defined $sit) {
+		$sit = 100 if $sit > 100;
+		configModify("sitAuto_$kind->{key}_lower", $sit + 0);
+	}
+
 	my %seen;
 	my @wanted = grep { $_ > 0 && !$seen{$_}++ } split ' ', $list;
 	splice(@wanted, HEAL_MAX_ITEMS) if @wanted > HEAL_MAX_ITEMS;
