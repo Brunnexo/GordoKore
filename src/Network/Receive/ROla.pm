@@ -49,7 +49,11 @@ sub new {
 	$self->{makable_item_list_pack}       = "V4";
 	$self->{npc_market_info_pack}         = "V C V2 v";
 	$self->{npc_store_info_pack}          = "V V C V";
-	$self->{vender_items_list_item_pack}  = 'V v2 C V C3 a16 a25 V v C'; # trailing C = enchant grade
+	# Lista de loja de outro jogador: item de 64 bytes. Layout confirmado com os bytes brutos do pacote (out/2026):
+	# as cartas (4x4) vem logo depois de identified/broken (offset 15, NAO ha byte de refino ali) e refino/grau so
+	# aparecem no fim, depois de location (V) e sprite_id (v). Com o layout padrao o refino saia como +236 e as cartas viravam lixo.
+	$self->{vender_items_list_item_pack}  = 'V v2 C V C2 a16 a25 V v C C';
+	$self->{vender_items_list_item_fields} = [qw( price amount ID type nameID identified broken cards options location sprite_id upgrade grade )];
 	$self->{vender_items_list_item_pack_self} = 'V v2 C V C2 @56 C @15 a16 a25 @57 C'; # 0B40 (sub_5C3EF0): refino em +56, depois das opcoes; os @ poem os campos na ordem do vending_start
 	$self->{rodex_read_mail_item_pack}    = 'v V C3 a16 a4 C a4 a25';
 
