@@ -36,6 +36,11 @@
 # linha (pode ter espaco); nome de perfil so de numeros nao serve (e' o tempo). "relog teste", "relog teste 30",
 # "relog 30 teste". Perfil que nao existe: a DLL nao faz nada e responde "GKRF" + motivo, que sai no console.
 #
+# Perfil em uso: o plugin pergunta "GKFQ" (resposta 'X') e a DLL responde "GKFL" + "perfil\tindice do servidor" (o perfil do
+# autologin.ini em uso: o do -autologin ou o do ultimo relog; vazio = sem autologin). Outros plugins leem com
+# GordoKore::currentProfile() (lista: perfil, indice do servidor), pedem a atualizacao com GordoKore::requestProfile() e
+# podem ouvir o hook 'gordokore/profile' ({ profile => ..., server => ... }), chamado quando a resposta chega.
+#
 # Navegacao: "GKNV" + "mapa [x y]" (DLL) = /navi digitado no chat do cliente; o personagem
 # anda ate la com o AI em manual (ai manual + move).
 #
@@ -115,6 +120,8 @@ use constant PICK_STORAGE_NPC => 'GKAP';
 use constant STORAGE_NPC      => 'GKAS';
 use constant START      => 'GKGO';
 use constant RELOG      => 'GKRL';
+use constant PROFILE_QUERY => 'GKFQ';
+use constant PROFILE    => 'GKFL'; # + "perfil\tindice do servidor": o perfil do autologin em uso
 use constant RELOG_FAIL => 'GKRF'; # + texto: a DLL nao fez o relog (perfil que nao existe, sem autologin)
 use constant NAVI       => 'GKNV';
 use constant NAVI_ARROWS   => 'GKNF'; # + mapa: o OpenKore nao achou rota, a DLL passa a seguir as setas do navi do jogo
@@ -1178,8 +1185,38 @@ sub sendAiState {
 	sendToClient(AI_STATE . $state);
 }
 
+# ---------------------------------------------------------------------------
+# Perfil do autologin em uso (para outros plugins, como o ParamercadoLogger)
+# ---------------------------------------------------------------------------
+
+my ($autologinProfile, $autologinServer, $profileAsked);
+
+# (perfil, indice do servidor) em lista; so o perfil em contexto escalar. Vazio/undef ate a DLL responder (ou sem autologin).
+sub currentProfile {
+	return wantarray ? ($autologinProfile, $autologinServer) : $autologinProfile;
+}
+
+# Pede a DLL o perfil em uso; a resposta chega depois (hook 'gordokore/profile' e currentProfile()). 1 se pediu.
+sub requestProfile {
+	return 0 unless clientAlive();
+	sendToClient(PROFILE_QUERY);
+	return 1;
+}
+
+sub onProfile {
+	my ($body) = @_;
+	my ($name, $server) = split /\t/, $body, 2;
+	$name = '' unless defined $name;
+	$server = defined $server && $server =~ /^\d+$/ ? int($server) : undef;
+	my $changed = !defined $autologinProfile || $autologinProfile ne $name;
+	($autologinProfile, $autologinServer) = ($name, $server);
+	message "[GordoKore] Perfil do autologin: " . ($name ne '' ? "'$name'" . (defined $server ? " (servidor $server)" : '') : 'nenhum') . "\n", 'connection' if $changed;
+	Plugins::callHook('gordokore/profile', { profile => $name, server => $server });
+}
+
 sub onMainLoop {
 	installRelogCommand(); # so na 1a vez: o "relog <perfil>" ja' vale antes de o 1o comando ser digitado
+	$profileAsked = 1 if !$profileAsked && requestProfile(); # o perfil em uso, uma vez, assim que o cliente estiver na linha
 	sendAiState(0);
 	flushPortals();
 }
@@ -1197,6 +1234,8 @@ sub onClientSendObserved {
 	if ($tag eq QUERY) {
 		sendItems();
 		sendNpc($_) for qw(sell storage);
+	} elsif ($tag eq PROFILE) {
+		onProfile(substr($msg, 4));
 	} elsif ($tag eq RELOG_FAIL) {
 		error "[GordoKore] Relog: " . substr($msg, 4) . "\n";
 	} elsif ($tag eq NAVI_STEP) {
