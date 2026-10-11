@@ -29,9 +29,12 @@
 #
 # Iniciar: "GKGO" + "sell" / "storage" (DLL) = comando autosell / autostorage.
 #
-# Relog: o comando "relog [segundos|a..b]" do OpenKore manda "GKRL" + segundos (resposta 'X') e a
-# DLL volta o cliente pro login e loga depois desse tempo (no XKore o relog do OpenKore sozinho nao
-# derruba o cliente). Sem argumento = 5, como o OpenKore; 0 = fica no login.
+# Relog: o comando "relog [perfil] [segundos|a..b]" do OpenKore manda "GKRL" + segundos [+ " perfil"] (resposta 'X')
+# e a DLL volta o cliente pro login e loga depois desse tempo, com o perfil pedido do autologin.ini (sem perfil, o
+# atual; o perfil fica valendo nos proximos logins). No XKore o relog do OpenKore sozinho nao derruba o cliente.
+# Sem tempo = 5, como o OpenKore; 0 = fica no login. O tempo pode vir antes ou depois do perfil, que e' o resto da
+# linha (pode ter espaco); nome de perfil so de numeros nao serve (e' o tempo). "relog teste", "relog teste 30",
+# "relog 30 teste". Perfil que nao existe: a DLL nao faz nada e responde "GKRF" + motivo, que sai no console.
 #
 # Navegacao: "GKNV" + "mapa [x y]" (DLL) = /navi digitado no chat do cliente; o personagem
 # anda ate la com o AI em manual (ai manual + move).
@@ -112,6 +115,7 @@ use constant PICK_STORAGE_NPC => 'GKAP';
 use constant STORAGE_NPC      => 'GKAS';
 use constant START      => 'GKGO';
 use constant RELOG      => 'GKRL';
+use constant RELOG_FAIL => 'GKRF'; # + texto: a DLL nao fez o relog (perfil que nao existe, sem autologin)
 use constant NAVI       => 'GKNV';
 use constant NAVI_ARROWS   => 'GKNF'; # + mapa: o OpenKore nao achou rota, a DLL passa a seguir as setas do navi do jogo
 use constant NAVI_STEP     => 'GKNW'; # + linhas "tipo mapa x y [destino]": plano das setas (W portal, N NPC + mapa para onde leva, F destino final)
@@ -163,6 +167,7 @@ message "[GordoKore] Plugin loaded!\n", 'success';
 
 sub Unload {
 	Plugins::delHooks($hooks);
+	restoreRelogCommand();
 }
 
 sub clientAlive {
@@ -1078,25 +1083,83 @@ sub removeSkill {
 # relog
 # ---------------------------------------------------------------------------
 
-# Mesmas regras do cmdRelog: vazio = 5, N, a..b = aleatorio entre a e b, 0 = fica offline
+# "relog [perfil] [segundos|a..b]": (1, segundos, perfil|undef), ou () se a sintaxe nao vale. Os segundos seguem as regras do
+# cmdRelog: vazio = 5, N, a..b = aleatorio entre a e b, 0 = fica offline. O perfil e' o resto da linha (nao so numeros)
+sub parseRelogArgs {
+	my ($arg) = @_;
+	$arg = '' unless defined $arg;
+	$arg =~ s/^\s+|\s+$//g;
+
+	my $time = qr/\d+(?:\.\.\d+)?/;
+	my ($spec, $profile);
+	if ($arg =~ /^($time)$/) {
+		$spec = $1;
+	} elsif ($arg =~ /^($time)\s+(\S.*)$/) {
+		($spec, $profile) = ($1, $2);
+	} elsif ($arg =~ /^(\S.*?)\s+($time)$/) {
+		($profile, $spec) = ($1, $2);
+	} elsif ($arg ne '') {
+		$profile = $arg;
+	}
+	return if defined $profile && $profile =~ /^$time$/; # "relog 5 10": dois tempos
+
+	my $seconds = 5;
+	if (defined $spec) {
+		if ($spec =~ /^(\d+)\.\.(\d+)$/) {
+			return unless $1 <= $2;
+			$seconds = $1 + int(rand($2 - $1 + 1)); # inteiro de a a b (rand(0) seria rand(1): a..a dava a+1)
+		} else {
+			$seconds = $spec + 0;
+		}
+	}
+	return (1, $seconds, $profile);
+}
+
 sub onCommand {
 	my (undef, $args) = @_;
 	return unless $args->{switch} eq 'relog';
-	my $arg = $args->{args} // '';
-	$arg =~ s/^\s+|\s+$//g;
-	my $seconds;
-	if ($arg eq '') {
-		$seconds = 5;
-	} elsif ($arg =~ /^\d+$/) {
-		$seconds = $arg;
-	} elsif ($arg =~ /^(\d+)\.\.(\d+)$/ && $1 <= $2) {
-		$seconds = int(rand($2 - $1) + $1 + 0.5);
-	} else {
-		return; # o cmdRelog mostra o erro de sintaxe
-	}
+	installRelogCommand(); # o hook roda depois de o OpenKore registrar os comandos dele
+	my ($ok, $seconds, $profile) = parseRelogArgs($args->{args});
+	return unless $ok; # o cmdRelog mostra o erro de sintaxe
 	return unless clientAlive();
-	sendToClient(RELOG . $seconds);
-	message "[GordoKore] Cliente voltando pro login" . ($seconds ? ", login em ${seconds}s" : '') . "\n", 'connection';
+	sendToClient(RELOG . $seconds . (defined $profile ? " $profile" : ''));
+	message "[GordoKore] Cliente voltando pro login" . (defined $profile ? ", perfil '$profile'" : '') . ($seconds ? ", login em ${seconds}s" : '') . "\n", 'connection';
+}
+
+# O cmdRelog do OpenKore recusa "relog <perfil>" com erro de sintaxe, mesmo o pedido ja' tendo ido pra DLL (onCommand).
+# Este 'relog' no lugar dele deixa passar o que e' do OpenKore e, com perfil, so repassa o tempo
+my $relogCommand;
+
+sub installRelogCommand {
+	return if $relogCommand;
+	Commands::run(' '); # nao executa nada; o 1o run registra os comandos do OpenKore (se ainda nao registrou, o registro apagaria o nosso)
+	Commands::unregister(['relog']); # sem o aviso de "Command 'relog' will be overriden"
+	$relogCommand = Commands::register(['relog', [
+		'Volta pro login e loga de novo (GordoKore: com o perfil do autologin.ini).',
+		['', 'sai e loga depois de 5 segundos'],
+		['<segundos>', 'sai e loga depois de <segundos>'],
+		['<min>..<max>', 'sai e loga depois de um tempo aleatorio'],
+		['<perfil> [segundos]', 'sai e loga com o perfil do autologin.ini (tambem "<segundos> <perfil>")'],
+	], \&cmdRelog]);
+}
+
+sub restoreRelogCommand {
+	return unless $relogCommand;
+	Commands::unregister($relogCommand);
+	undef $relogCommand;
+	Commands::register(['relog', [
+		'Log out then log in again.',
+		['', 'logout and login after 5 seconds'],
+		['<seconds>', 'logout and login after <seconds>'],
+		['<min>..<max>', 'logout and login after random seconds'],
+	], \&Commands::cmdRelog]);
+}
+
+sub cmdRelog {
+	my ($switch, $arg) = @_;
+	my ($ok, $seconds, $profile) = parseRelogArgs($arg);
+	return Commands::cmdRelog($switch, $arg) unless $ok && defined $profile;
+	Commands::cmdRelog($switch, $seconds);
 }
 
 # ---------------------------------------------------------------------------
@@ -1116,6 +1179,7 @@ sub sendAiState {
 }
 
 sub onMainLoop {
+	installRelogCommand(); # so na 1a vez: o "relog <perfil>" ja' vale antes de o 1o comando ser digitado
 	sendAiState(0);
 	flushPortals();
 }
@@ -1133,6 +1197,8 @@ sub onClientSendObserved {
 	if ($tag eq QUERY) {
 		sendItems();
 		sendNpc($_) for qw(sell storage);
+	} elsif ($tag eq RELOG_FAIL) {
+		error "[GordoKore] Relog: " . substr($msg, 4) . "\n";
 	} elsif ($tag eq NAVI_STEP) {
 		return unless defined $naviFollow;
 		my @plan;
