@@ -3486,39 +3486,39 @@ Curdie voltou sã e salva à cidade. O que quer que seja, aquele lugar está esc
 Abidal, tem algo a lhe dizer. O comandante da missão tem uma tarefa importante para mim.#
 #
 
-3086#Relatório ao Velho Mundo###
+3086#Reportar ao Velho Mundo###
 Ele quer que você entregue o relatório da expedição aos três países de Rune Midgard. Você precisa confirmar a missão com o comandante.#
 #
 
-3087#Relatório ao Velho Mundo###
-Relatório ao Velho Mundo#
+3087#Reportar ao Velho Mundo###
+Reportar ao Velho Mundo#
 #
 
-3088#Informe ao continente - Acidente!###
+3088#Reportar ao Continente - Acidente!###
 Você é atacado em torno da lacuna espacial e perde o relatório. É melhor retornar ao comandante e explicar a ele o que aconteceu.#
 #
 
-3089#Reportar para o continente - Como restaurar###
+3089#Reportar ao Continente - Como restaurar###
 O comandante ordena que você restaure o relatório junto com Abidal.#
 #
 
-3090#Reportar para o continente - Localização dos relatórios###
+3090#Reportar ao Continente - Localização dos relatórios###
 Tente encontrar os relatórios espalhados pelo Ash Vacuum. É possível que os monstros daqui os tenham levado. Obtenha informações com os batedores daqui.#
 #
 
-3091#Reportar para o continente - Localização dos relatórios###
+3091#Reportar ao Continente - Localização dos relatórios###
 Tente encontrar os relatórios espalhados pelo Ash Vacuum. É possível que os monstros daqui os tenham levado. Obtenha informações com os batedores daqui.#
 #
 
-3092#Reportar para o continente - Sucesso na restauração!###
+3092#Reportar ao Continente - Sucesso na restauração!###
 Finalmente, você restaurou o rascunho do relatório com Abidal. Você deve ir até o comandante para fazer o relatório.#
 #
 
-3093#Reportar para o continente - Reportar para o continente###
+3093#Reportar ao Continente - Reportar para o continente###
 Você deve entregar 3 relatórios para 3 países. Os destinatários são Laur em Prontera, Nuria em Rachel e Gerhart na República de Schwaltzval.#
 #
 
-3094#Reportar para o continente - Retorno à expedição###
+3094#Reportar ao Continente - Retorno à expedição###
 Você terminou de entregar os relatórios. Retorne ao comandante e informe.#
 #
 
@@ -8398,6 +8398,102 @@ Reportar para o Diabo na Caixa#
 Conheci um Diabo em uma caixa.#
 #
 
+5972#Patrulha da Águia###
+Entrei para a Patrulha da Águia. Quando estiver pronto para sair em patrulha, vá até <NAVI>[Capitão da Patrulha]<INFO>icecastle,23,115,0,101,0</INFO></NAVI>.#
+#
+
+5973#[Em espera] Patrulha com Arwin###
+Com a Patrulha da Águia Concluí a patrulha na Colina de Escamas Congeladas. Para participar da patrulha novamente amanhã, procure <NAVI>[Capitão da Patrulha]<INFO>icecastle,23,115,0,101,0</INFO></NAVI>.#
+Reinicia às 04h#
+
+5974#Patrulha com Arwin (1)###
+Saí em patrulha pela Colina de Escamas Congeladas com a Patrulha da Águia.#
+#
+
+5975#Patrulha com Arwin (2)###
+Concluí a patrulha pela Colina de Escamas Congeladas com a Patrulha da Águia. Receba a recompensa de Capitão da Patrulha, que veio nos receber.#
+#
+
+5976#Oficial de Suprimentos Gorir###
+Encontrei o Oficial de Suprimentos Gorir e fui obrigado a aceitar um pedido.#
+#
+
+5977#[Em espera] Não Alimente os Animais###
+A pedido do Oficial de Suprimentos, recolhi a comida que alguém deixou para os animais selvagens. Como é relativamente simples e a recompensa não é ruim, procure <NAVI>[Oficial de Suprimentos Gorir]<INFO>icecastle,97,177,0,101,0</INFO></NAVI> novamente amanhã. - ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
+Reinicia às 04h#
+
+5978#Não Alimente os Animais (1)###
+Recebi um pedido do Oficial de Suprimentos Gorir. Faça isso durante a patrulha com a Patrulha da Águia ou, quando tiver tempo, recolha em <NAVI>[Colina de Escamas Congeladas]<INFO>jor_back1,380,229,0,101,0</INFO></NAVI> a comida que alguém deixou para os animais selvagens.#
+#
+
+5979#Não Alimente os Animais (2)###
+Recolhi a comida que alguém deixou para os animais selvagens. Informe <NAVI>[Oficial de Suprimentos Gorir]<INFO>icecastle,97,177,0,101,0</INFO></NAVI>. - ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
+#
+
+5980#Diversão às Escondidas###
+Encontrei o Soldado Horiryu no quartel da Patrulha da Águia.#
+#
+
+5981#[Em espera] Diversão às Escondidas###
+Dizem que as penas entregues são trocadas discretamente por suprimentos. Amanhã, leve-as discretamente novamente para <NAVI>[Soldado Horiryu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI>.#
+Reinicia às 04h#
+
+5982#Diversão às Escondidas###
+Parece que <NAVI>[Soldado Horiryu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI> precisa de penas quentes para suportar o frio. Leve 10 penas de um dos tipos da lista abaixo. - <ITEM>[Pluma Arredondada]<INFO>6393</INFO></ITEM> <ITEM>[Pena Macia]<INFO>7063</INFO></ITEM> <ITEM>[Pluma Flamejante]<INFO>6691</INFO></ITEM> <ITEM>[Pena Vermelha]<INFO>7440</INFO></ITEM> <ITEM>[Plumas de Ave]<INFO>916</INFO></ITEM> <ITEM>[Pena de Cendrawish]<INFO>6405</INFO></ITEM> <ITEM>[Pena de Grand Peco]<INFO>7101</INFO></ITEM> <ITEM>[Pena Azul]<INFO>7441</INFO></ITEM> <ITEM>[Pena de Harpia]<INFO>7115</INFO></ITEM>#
+#
+
+5983#Encontro com a Cobaia 210426###
+Durante a patrulha, encontrei um jovem misterioso, mas ele logo desapareceu. Ele disse que estava indo na direção da {{P:^000000}}[Planície de Escamas Congeladas]{{P:^FFFFFF}}, certo? Se tiver tempo, procure-o. - ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
+#
+
+5984#Pergaminho de Transformação em Regan###
+Jeomsim, que encontrei na Planície de Escamas Congeladas, parece conseguir se transformar e assumir outra aparência. O <ITEM>[Pergaminho de Transformação em Regan]<INFO>101162</INFO></ITEM> obtido de Jeomsim parece útil, então volte ao <NAVI>[Castelo de Gelo]<INFO>icecastle,27,126,0,101,0</INFO></NAVI> e faça o relatório.#
+Para o Castelo de Gelo..#
+
+5985#[Em espera] Escolha do Cardápio de Jeomsim###
+Preparei a refeição de <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>. Se tiver tempo, talvez seja bom preparar outra amanhã também.#
+Reinicia às 04h#
+
+5986#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Jarro de Saquê hoje. Leve 10 <ITEM>[Jarro de Saquê]<INFO>7158</INFO></ITEM>.#
+Jarro de Saquê 10#
+
+5987#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Jarro de Nuvem hoje. Leve 10 <ITEM>[Jarro de Nuvem]<INFO>7162</INFO></ITEM>.#
+Jarro de Nuvem 10#
+
+5988#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Cesto de Palha hoje. Leve 10 <ITEM>[Cesto de Palha]<INFO>7299</INFO></ITEM>.#
+Cesto de Palha 10#
+
+5989#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Dentadura da Máscara do Dragão hoje. Leve 10 <ITEM>[Dentadura da Máscara do Dragão]<INFO>7266</INFO></ITEM>.#
+Dentadura da Máscara do Dragão 10#
+
+5990#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pilão Yaga hoje. Leve 10 <ITEM>[Pilão Yaga]<INFO>7762</INFO></ITEM>.#
+Pilão Yaga 10#
+
+5991#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pele de Leopardo hoje. Leve 10 <ITEM>[Pele de Leopardo]<INFO>7171</INFO></ITEM>.#
+Pele de Leopardo 10#
+
+5992#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pena de Cendrawish hoje. Leve 10 <ITEM>[Pena de Cendrawish]<INFO>6405</INFO></ITEM>.#
+Pena de Cendrawish 10#
+
+5993#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Jejellopy hoje. Leve 10 <ITEM>[Jejellopy]<INFO>6498</INFO></ITEM>.#
+Jejellopy 10#
+
+5994#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Cauda de Gabiru hoje. Leve 10 <ITEM>[Cauda de Gabiru]<INFO>25285</INFO></ITEM>.#
+Cauda de Gabiru 10#
+
+5995#Escolha do Cardápio de Jeomsim###
+Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pedaço de Bambu hoje. Leve 10 <ITEM>[Pedaço de Bambu]<INFO>7150</INFO></ITEM>.#
+Pedaço de Bambu 10#
+
 6000#Mudança de Classe: Taekwon###
 Você escolheu o caminho do Taekwon. Você deve aumentar seu nível de base e voltar falar com <NAVI>[Fênix]<INFO>payon_in02,62,10,0,100,0,0</INFO></NAVI>.#
 Suba 1 nível#
@@ -9226,7 +9322,7 @@ Conhecendo o Inspetor Doha#
 Doha disse que está investigando um caso de roubo. Ele me ordenou secretamente para que eu consiga informações enquanto permanecer em El Dicastes, fazendo uma investigação sobre os suspeitos. O suspeito possui orelhas de animal.#
 #
 
-7187#Ordem secreta de Doha - Shay###
+7187#Ordem Secreta de Doha - Shay###
 Shay é o gerente de um bar chamado 'El Borracho', em El Dicastes. Ele sugeriu que eu conseguisse informações sobre o 'cara com orelhas de animal' com os cidadãos Manuks que vivem na capital.#
 Mantenha contato com alguns cidadãos de Manuks para conseguir informações#
 
@@ -9286,13 +9382,13 @@ Aguarde o cronômetro e fale com Cheshire.#
 Trabalhe removendo os vestígios todos os dias sob as ordens de Ahat e Cheshire. Como de costume, recolha os 10 itens de cada vestígio.#
 #
 
-7202#Ordem secreta de Doha - Coletando Provas###
+7202#Ordem Secreta de Doha - Coletando Provas###
 Sem avisar Cheshire e Ahat, esconda cada um dos vestígios e entregue-os para Doha como provas para serem adicionados ao relatório. Recolha 1 Sangue Pisado, 1 Pedaço de Pele Congelada e 1 Pedra mágica com evidências#
 #
 
-7203#Ordem secreta de Doha - Relatório Final###
+7203#Ordem Secreta de Doha - Relatório Final###
 Converse com outra sábia chamada Heslanta sobre esses assuntos. Depois de conversar com Heslanta e chegar a uma conclusão, escreva o relatório para Doha.#
-Relatório final para Doha#
+Leve o relatório final para Doha.#
 
 7204#Spring Bringing Flower###
 ‘Bomy’, a pequena menina de Lutie, quer saber sobre as flores da primavera. Você prometeu que traria as tais flores. Entretanto aqueles 5 Enorme Galho de Cerejeira...#
@@ -10766,7 +10862,7 @@ Avant pediu para você coletar os Cristais Congelados daquelas criaturas estranh
 Os Demônios vão desviar mana para manter sua força. Você decidiu voltar todos os dias para ajuda-lo a coletar os cristais de mana.#
 Espere o próximo dia.#
 
-7593#Caçada Final ao Demônio Rei###
+7593#Caçada Final ao Rei Demônio###
 É hora de terminar o trablaho: elimine Morroc no Templo do Demônio Rei.#
 Elimine Morroc#
 
@@ -10782,7 +10878,7 @@ Colete Manas#
 Para você entrar no Templo do Demônio Rei você precisará de uma chave. Elimine os Guardas Ahat e Shenime, e use suas almas para abrirem o templo.#
 1 Alma de Ahat e 1 Alma de Shenime#
 
-7597#Queda do Demônio Rei###
+7597#Queda do Rei Demônio###
 Você derrotou o Demônio rei Morroc, aquele que queria criar um novo mundo e brincar de Deus nele. Reporte o feito ao Hibba Agip.#
 Reporte o feito ao Comandante#
 
@@ -13818,6 +13914,90 @@ Fale com o Professor Worm#
 A alian?a das tr?s na??es j? est? consolidada, ent?o n?o ? necess?rio encontrar seus l?deres nem fazer um teste. Fale com <NAVI>[Capit?o da Guarda Seobuk]<INFO>moc_fild22b,230,197,0,101,0</INFO></NAVI> perto da fenda dimensional.#
 Fale com o Capit?o da Guarda Seobuk na fenda#
 
+8784#Ajuda na pesca de Moryara###
+Depois de ter minha habilidade para pescar algas reconhecida, passei a caçar Alga Brilhante. Derrote 20 e depois volte até <NAVI>[Moryara]<INFO>jor_tail,48,241,0,101,0</INFO></NAVI> em Cauda Congelada.#
+Derrote Alga Brilhante#
+
+8785#Ajuda na pesca de Moryara - Em espera###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível recebê-la novamente de <NAVI>[Moryara]<INFO>jor_tail,48,241,0,101,0</INFO></NAVI> e realizá-la.#
+Reinicia às 04h#
+
+8786#Ajuda na pesca de Moryara###
+Como não tenho confiança para pescar bem neste ambiente, derrote 20 Alga Brilhante e depois volte até <NAVI>[Moryara]<INFO>jor_tail,48,241,0,101,0</INFO></NAVI> em Cauda Congelada.#
+Derrote Alga Brilhante#
+
+8787#Um agradável momento de Jeomsim com Joryara###
+Achei que ajudaria Joryara a cozinhar… mas acabei tendo de providenciar cascas de Palha de Gelo, das quais as crianças Arwin gostam. Basta levar 15 <ITEM>[Casca Fina e Resistente]<INFO>1000830</INFO></ITEM> para <NAVI>[Joryara]<INFO>icas_in,241,66,0,101,0</INFO></NAVI>, no refeitório do Castelo de Gelo.#
+Providencie 15 Casca Fina e Resistente#
+
+8788#Um agradável momento de Jeomsim com Joryara - Em espera###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível recebê-la novamente de <NAVI>[Moryara]<INFO>jor_tail,48,241,0,101,0</INFO></NAVI> e realizá-la.#
+Reinicia às 04h#
+
+8789#Um agradável momento de Jeomsim com Joryara###
+É preciso levar 15 <ITEM>[Casca Fina e Resistente]<INFO>1000830</INFO></ITEM>, das quais as crianças Arwin gostam, para <NAVI>[Joryara]<INFO>icas_in,241,66,0,101,0</INFO></NAVI>, no refeitório do Castelo de Gelo.#
+Providencie 15 Casca Fina e Resistente#
+
+8790#Sacerdote, tenha piedade?###
+<NAVI>[Pabuyasabigand]<INFO>jor_nest,235,57,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu trouxesse <ITEM>[cascas]<INFO>1000822</INFO></ITEM> de fora. Cerca de 30 devem ser suficientes.#
+Providencie 30 cascas#
+
+8791#Sacerdote, tenha piedade? - Em espera###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível recebê-la novamente de <NAVI>[Pabuyasabigand]<INFO>jor_nest,235,57,0,101,0</INFO></NAVI> e realizá-la.#
+Reinicia às 04h#
+
+8792#Sacerdote, tenha piedade??###
+<NAVI>[Pabuyasabigand]<INFO>jor_nest,235,57,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu trouxesse <ITEM>[cascas]<INFO>1000822</INFO></ITEM> de fora. Cerca de 30 devem ser suficientes.#
+Providencie 30 cascas#
+
+8793#Algo que quero saber###
+<NAVI>[Delpanagand]<INFO>jor_nest,239,239,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu converse com os Regan Intermediários que trabalham no incubatório: <NAVI>[o obediente]<INFO>jor_nest,277,257,0,101,0</INFO></NAVI>, <NAVI>[o preguiçoso]<INFO>jor_nest,220,279,0,101,0</INFO></NAVI> e <NAVI>[o desobediente]<INFO>jor_nest,274,199,0,101,0</INFO></NAVI>.#
+Converse com os Regan Intermediários#
+
+8794#Serpente Idosa###
+<NAVI>[Alleigand]<INFO>jor_nest,74,100,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu traga 15 <ITEM>[Núcleo Mágico Inferior de Regan]<INFO>1000707</INFO></ITEM>.#
+Providencie Núcleo Mágico Inferior de Regan#
+
+8795#Doutrina e Sermão###
+Quando o sermão de Bernagand terminou no Ninho da Serpente, <NAVI>[Yuramigand]<INFO>jor_nest,18,92,0,101,0</INFO></NAVI> chamou o aventureiro que estava com a aparência de Rgan.#
+Converse com Yuramigand#
+
+8796#Nunca vi esse antes###
+<NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu cace 20 Regan Primitivo.#
+Derrote Regan Primitivo#
+
+8797#Rgan que Dá Ordens - Em espera###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível recebê-la novamente de <NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI> e realizá-la.#
+Reinicia às 04h#
+
+8798#Rgan que Dá Ordens###
+<NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI>, um Regan de nível mais alto, pediu que eu cace 20 Regan Primitivo.#
+Derrote Regan Primitivo#
+
+8799#Rgan do Incubatório (1)###
+No Ninho da Serpente, preciso conversar com <NAVI>[o obediente]<INFO>jor_nest,277,257,0,101,0</INFO></NAVI>, <NAVI>[o preguiçoso]<INFO>jor_nest,220,279,0,101,0</INFO></NAVI> e <NAVI>[o desobediente]<INFO>jor_nest,274,199,0,101,0</INFO></NAVI>.#
+Converse com os Regan Intermediários#
+
+8800#Rgan do Incubatório (2)###
+No Ninho da Serpente, preciso conversar com <NAVI>[o obediente]<INFO>jor_nest,277,257,0,101,0</INFO></NAVI>, <NAVI>[o preguiçoso]<INFO>jor_nest,220,279,0,101,0</INFO></NAVI> e <NAVI>[o desobediente]<INFO>jor_nest,274,199,0,101,0</INFO></NAVI>.#
+Converse com os Regan Intermediários#
+
+8801#Rgan do Incubatório (3)###
+Verifiquei todos os pedidos de <NAVI>[Delpanagand]<INFO>jor_nest,239,239,0,101,0</INFO></NAVI> no Ninho da Serpente. Preciso falar com ele novamente.#
+Converse com Delpanagand#
+
+8802#1º Rgan do Incubatório###
+#
+#
+
+8803#2º Rgan do Incubatório###
+#
+#
+
+8804#3º Rgan do Incubatório###
+#
+#
+
 8859#Recuperou 5 coisas presas em armadilhas###
 Recuperou cinco coisas presas em armadilhas.#
 Converse com Eruin#
@@ -16322,15 +16502,15 @@ Mensagem entregue. Nove mensagem para Nagash.#
 .....Oh~ muito obrigado!#
 Nagash Arses parece estar muito feliz. Conte a boa notícia para Song Zhi Du.#
 
-11084#Novos ambientes###
+11084#Novos Ambientes###
 Se você é novo por aqui, vá conhecer o ^0000FFInstrutor Lugen^000000. Poderá ser de muita ajuda para se familializar com o novo ambiente.^0000FFInstrutor Lugen^000000 está aguardando pela direita.#
 Conheça o instrutor Lugen#
 
-11085#Novos ambientes###
+11085#Novos Ambientes###
 O registro é bastante simples. Apenas vá falar com o pessoal de registros no prédio na área central.#
 Agora volte até ele!#
 
-11086#Novos ambientes###
+11086#Novos Ambientes###
 Você terminou o registro rapidamente com uma equipe de funcionários não-liberais, Apenas volte a falar com o Instrutor Lugen.#
 Volte para o instrutor Lugen.#
 
@@ -17478,11 +17658,11 @@ Volte amanhã.#
 O grupo descobriu a última sala do abrigo subterrâneo! Quais segredos você encontrará por aqui? O que você descobrir, conte para Fruit lá fora... isso se você conseguir sobreviver!#
 Elimine T_W_O.#
 
-11381#Investigando o Passado###
+11381#Vestígios###
 Os arqueólogos de Verus disseram que existe um abrigo subterrâneo no centro desse lugar. É melhor investigarmos.#
 Fale com Fruit.#
 
-11382#Investigando o Passado###
+11382#Vestígios###
 Fruit quer que você investigue o abrigo subterrâneo. Parece que alguém ficará encarregado de te guiar pelo lugar!#
 Fale com Verity.#
 
@@ -17735,11 +17915,11 @@ Dizem que o Jakk que está na praça pode saber alguma coisa. Vamos perguntar ao
 Fale com Jakk#
 
 11448#Jakk e os Dias Jakky do Jakk###
-Você ouviu falar sobre o lugar onde Jakk costumava ficar. Vamos voltar para Hooroorong.#
-Fale com Hooroorong#
+Você ouviu falar sobre o lugar onde Jakk costumava ficar. Vamos voltar para Hururong.#
+Fale com Hururong#
 
 11449#Jakk e os Dias Jakky do Jakk###
-Em algum lugar no campo e na masmorra, capture cerca de 10 Jakks que estão fugindo. Traga 10 Pumpkin_Decorations e 20 Dry_White_Stems para Hororong. Eles são descartados quando você captura os Jakks.#
+Em algum lugar no campo e na masmorra, capture cerca de 10 Jakks que estão fugindo. Traga 10x Decoração de Abóbora e 20x Ramo Branco Seco para Hororong. Eles são derrubados quando você captura Jakk.#
 Enviar Jakk para Nifflheim#
 
 11450#Jakk e os Dias Jakky do Jakk###
@@ -17747,7 +17927,7 @@ Você trouxe Jakk para Nifflheim. De acordo com os fantasmas, o caule de Jakk po
 O descanso de Jakk#
 
 11451#Jakk e os Dias Jakky do Jakk###
-Em algum lugar no campo e na masmorra, capture cerca de 10 Jakks que estão fugindo. Traga 10 Decoração de Abóbora e 20 Ramo Branco Fino para Hororing. Eles são descartados quando você captura os Jakks.#
+Em algum lugar no campo e na masmorra, capture cerca de 10 Jakks que estão fugindo. Traga 10x Decoração de Abóbora e 20x Ramo Branco Seco para Hororing. Eles são derrubados quando você captura Jakk.#
 Enviar Jakk para Nifflheim#
 
 11452####
@@ -17995,20 +18175,20 @@ Na areia, você encontrou ossos que parecem ser de um pequeno animal. Você tamb
 Fale com Jakk em Nifflheim#
 
 11515#O Vento das Colinas Negras###
-O gatinho de Jakk parece estar em um estado estranho. Encontre ele ao sul de Jakk.#
+O gatinho de Jakk parece estar meio estranho. Encontre ele ao sul de onde Jakk está.#
 Fale com o gatinho de Jakk#
 
 11516#O Vento das Colinas Negras###
-Gatinho aprendeu muito com suas aventuras anteriores e se transformou em um Zumbichano de Juba. Diga a Jakk que ele mudou tanto que não pode voltar atrás.#
+Gatinho aprendeu muito com suas aventuras anteriores e se transformou em um Zumbichano de Juba. Diga a Jakk que ele mudou tanto que não pode mais voltar.#
 Fale com Jakk#
 
 11517#O Vento das Colinas Negras###
-Dizem que há muitos gatinhos no centro do Valley of Gyoll. Vá até o centro do Valley of Gyoll e encontre o Gatinho.#
+Dizem que há muitos gatinhos no centro do Vale de Gyoll. Vá até o centro do Vale de Gyoll e encontre o Gatinho.#
 Encontre o Gatinho#
 
 11518#O Vento das Colinas Negras###
-Encontrei muitos Zumbichanos no centro do Vale de Gyoll, mas todos parecem estar em más condições. Obtenha 5^0000ff Pelugens Negras ^000000para aquece-los. As Pelugens Negras podem ser obtidas dos monstros de Nifflheim.#
-5 Pelugem Negras#
+Encontrei muitos Zumbichanos no centro do Vale de Gyoll, mas todos parecem estar em más condições. Obtenha 5x ^0000FFPelugens Negras^000000 para aquecê-los. As Pelugens Negras podem ser obtidas dos monstros de Nifflheim.#
+5x Pelugem Negras#
 
 11519#O Vento das Colinas Negras###
 Acho que o Zumbichano está muito agitado para falar mais. Vamos voltar ao Jakk.#
@@ -18016,38 +18196,38 @@ Fale com Jakk#
 
 11520#O Vento das Colinas Negras###
 Jakk gosta de seu próprio gatinho, não de outros. Fale com o Zumbichano de Juba novamente.#
-Fale com o Zumbichano#
+Fale com o Zumbichano de Juba#
 
 11521#O Vento das Colinas Negras###
 O Zumbichano de Juba não quer mais conversar. Vamos voltar para Jakk.#
 Fale com Jakk#
 
 11522#O Vento das Colinas Negras###
-Jakk pediu para cuidar dos novos gatinhos enquanto espera por seu gatinho.^ff0000 Colete 10 Ramos Brancos Finos^000000 e ajude os Zumbichanos no Vale de Gyoll.#
+Jakk pediu para cuidar dos novos gatinhos enquanto espera por seu gatinho.^FF0000 Colete 10x Ramos Brancos Finos^000000 e ajude os Zumbichanos no Vale de Gyoll.#
 Para o Vale de Gyoll#
 
 11523#O Vento das Colinas Negras###
-O Zumbichano parece estar com fome.^ff0000 Obtenha 10 Peixes Frescos^000000.#
-10 Peixes Frescos#
+O Zumbichano parece estar com fome.^FF0000 Obtenha 10x Peixe Fresco^000000.#
+10x Peixe Fresco#
 
 11524#O Vento das Colinas Negras###
-Zumbichano quer que você consiga mais^ff0000 20 Ramos Brancos Finos^000000. Vamos atrás deles.#
-20 Ramos Brancos Finos#
+Zumbichano quer que você consiga mais ^FF000020x Ramo Branco Fino^000000. Vamos atrás deles.#
+20x Ramo Branco Fino#
 
 11525#O Vento das Colinas Negras###
-Senti a mesma energia que do Zumbichano de Juba nesse Zumbichano. Vá até o Zumbichano de Juba e o questione.#
+Senti a mesma energia do Zumbichano de Juba nesse Zumbichano. Vá até o Zumbichano de Juba e o questione.#
 Fale com o Zumbichano em Nifflheim#
 
 11526#O Vento das Colinas Negras###
 O Zumbichano de Juba diz que vai partir em uma aventura. Vamos falar com Jakk.#
 Fale com Jakk#
 
-11527#O Vento das Colinas Negras - Espera###
+11527#[Espera] O Vento das Colinas Negras###
 Parece que Jakk está cansado. Volte depois.#
-Reseta às 4 da manhã.#
+Reinicia às 04:00#
 
 11528#O Vento das Colinas Negras###
-Consiga ^ff000010 Pelugens Negras^000000 no Vale de Gyoll e retorne para Jakk com elas.#
+Consiga ^FF000010x Pelugens Negras^000000 no Vale de Gyoll e retorne para Jakk com elas.#
 Colete Pelugem Negra#
 
 11539#Buscando o Sabor da Terra Natal###
@@ -18271,16 +18451,16 @@ Você encontrou o amuleto de Dien. Volte para os arredores de Einbroch 03, entre
 Volte para Dien#
 
 11604#Jakk, a Abóbora Gigante###
-Dizem que é necessário a madeira de ^ff000010 Salgueiros Anciões^000000 para concluir o Festival de Halloween. Cace Salgueiros Anciões e retorne a Hurarang.#
-10 Salgueiro Ancião#
+Dizem que é necessário a madeira de ^FF000010x Salgueiro Ancião^000000 para concluir o Festival de Halloween. Cace Salgueiros Anciões e retorne a Hurarong.#
+10x Salgueiro Ancião#
 
 11605#Jakk, a Abóbora Gigante###
 Visite o Festival de Halloween e complete o ^ff0000Pega-Pega com Jakk^000000. O Festival de Halloween pode ser acessado pelo Anunciante do Festival. ^ff0000A caixa de recompensa será aberta automaticamente após a aquisição.^000000#
 Pegando Jakk, o Gigante#
 
-11606#Jakk, a Abóbora Gigante - Em espera###
+11606#[Espera] Jakk, a Abóbora Gigante###
 Se você quiser ir ao Festival de Halloween, volte depois das 4:00.#
-Reseta às 4 da manhã.#
+Reinicia às 04:00#
 
 11607####
 #
@@ -18414,45 +18594,45 @@ Jardim da Mansão#
 Essa missão pode ser refeita diariamente falando com o <NAVI>[Tamarin]<INFO>ba_maison,70,145,0,101,0</INFO></NAVI>.#
 Reseta às 4 da manhã.#
 
-11650#Jakk e a Pequena História Estranha do Jakk Esquisito###
-Hirurong diz que há um Jakk estranho. Vamos falar com Jakk.#
+11650#Jakk e a História de Jakk Estranhíssimo###
+Horirong diz que há um Jakk estranho. Vamos falar com Jakk.#
 Fale com Jakk#
 
-11651#Jakk e a Pequena História Estranha do Jakk Esquisito###
+11651#Jakk e a História de Jakk Estranhíssimo###
 Jakk disse que não viu o Jakk Estranhíssimo. Vamos perguntar a outro Jakk na entrada de Nifflheim.#
 Fale com Jakk em Nifflheim#
 
-11652#Jakk e a Pequena História Estranha do Jakk Esquisito###
+11652#Jakk e a História de Jakk Estranhíssimo###
 Jakk na entrada de Nifflheim pediu para perguntar a Jakk na praça. Vamos perguntar a ele.#
 Fale com Jakk na praça#
 
-11653#Jakk e a Pequena História Estranha do Jakk Esquisito###
-O Jakk da praça não viu o Jakk Estranhíssimo, mas disse que viu um Jakk Meio Estranho. Vamos falar com ele.#
+11653#Jakk e a História de Jakk Estranhíssimo###
+O Jakk da praça não viu o Jakk Estranhíssimo, mas disse que viu um Jakk Estranho. Vamos falar com ele.#
 Fale com Jakk Meio Estranho#
 
-11654#Jakk e a Pequena História Estranha do Jakk Esquisito###
-O Jakk Meio Estranho parece precisar de Asas de Borboleta para ir para casa. Vamos trazer uma para ele.#
-1 Asa de Borboleta#
+11654#Jakk e a História de Jakk Estranhíssimo###
+O Jakk Estranho parece precisar de Asas de Borboleta para ir para casa. Vamos trazer uma para ele.#
+1x Asa de Borboleta#
 
-11655#Jakk e a Pequena História Estranha do Jakk Esquisito###
-O Jakk Estranho diz que viu Jakks Estranhíssimos. Vamos falar com um deles.#
+11655#Jakk e a História de Jakk Estranhíssimo###
+O Jakk Estranho diz que viu Cavaleiros Estranhos. Vamos falar com um dos cavaleiros.#
 Fale com Jakk Estranhíssimo#
 
-11656#Jakk e a Pequena História Estranha do Jakk Esquisito###
-Os cavaleiros que usam abóboras disseram que estão com dificuldade para respirar devido ao aumento repentino de Alhorings. Vamos caçar 20 Alhorings e voltar.#
-Caçar 20 Alhorings#
+11656#Jakk e a História de Jakk Estranhíssimo###
+Os cavaleiros que usam abóboras disseram que estão com dificuldade para respirar devido ao aumento repentino de Alhorings. Vamos caçar 20x Alhoring e voltar.#
+Caçar 20x Alhoring#
 
-11657#Jakk e a Pequena História Estranha do Jakk Esquisito###
-Eu me livrei dos Alhorings, mas as coisas não parecem estar melhorando muito. Vamos avisar o Herorong.#
-Fale com Herorong#
+11657#Jakk e a História de Jakk Estranhíssimo###
+Eu me livrei dos Alhorings, mas as coisas não parecem estar melhorando muito. Vamos avisar o Horirong.#
+Fale com Horirong#
 
-11658#Jakk e a Pequena História Estranha do Jakk Esquisito###
-Herorong pede para ir caçar Alhorings para ajudar os Jakks. Vamos caçar 20 Alhorings e voltar.#
-Caçar 20 Alhorings#
+11658#Jakk e a História de Jakk Estranhíssimo###
+Horirong pede para ir caçar Alhorings para ajudar os Jakks. Vamos caçar 20x Alhoring e voltar.#
+Caçar 20x Alhoring#
 
-11659#Jakk e a Pequena História Estranha do Jakk Esquisito###
+11659#[Espera] Jakk e a História de Jakk Estranhíssimo###
 Alhorings caçados. Vamos voltar depois das 4h.#
-Reseta às 4 da manhã#
+Reinicia às 04:00#
 
 11668#Mudança de classe: Magus###
 A Mestre Egnoloria, que conheci em minha mudança de classe de Arcano, está se preparando para o seu sono profundo, e as fadas têm algumas coisas para fazer antes que ela adormeça. Eu deveria segui-las e encontrar Egnoloria.#
@@ -18518,53 +18698,53 @@ Convocar Shez e Ivein#
 Convoquei as duas fadas como Yoop pediu, mas estávamos fazendo tanto barulho que Egnoloria acordou.#
 Fale com a Mestre#
 
-11684#Os olhos estranhos de Jakk###
-Jakk, que parece triste, quer aprender como se tornar amigo de Miau, de Jakk ao sul de Nifflheim. Fale com Jakk ao sul de Nifflheim.#
+11684#Jakk e o Olho Misterioso###
+Jakk, que parece triste, quer saber de Jakk, ao sul de Nifflheim, como se tornar amigo de Gatinho. Fale com Jakk ao sul de Nifflheim.#
 Fale com Jakk em South of Nifflheim#
 
-11685#Os olhos estranhos de Jakk###
-Diz-se que o gato de Jakk seguiu Wiz. Fale com Wiz no caminho à esquerda.#
+11685#Jakk e o Olho Misterioso###
+Parece que o gato de Jakk seguiu Wiz. Fale com Wiz no caminho à esquerda.#
 Fale com Wiz#
 
-11686#Os olhos estranhos de Jakk###
-Se você quiser ouvir a história de Meow, pegue 2 Skeleton Bone para ele.#
-Obter 2 ossos de esqueleto#
+11686#Jakk e o Olho Misterioso###
+Se você quiser ouvir a história de Gatinho, traga 2x Osso para ele.#
+Obter 2x Osso#
 
-11687#Os olhos estranhos de Jakk###
-Wiz, que recebeu 1 Skeleton Bone, diz para você dar o Skeleton Bone restante para Jakk ao sul de Nifflheim.#
-Fale com Jakk em South of Nifflheim#
+11687#Jakk e o Olho Misterioso###
+Wiz, que recebeu 1x Osso, diz para você dar o Osso restante para Jakk ao sul de Nifflheim.#
+Fale com Jakk ao sul de Nifflheim#
 
-11688#Os olhos estranhos de Jakk###
-Não obtive nenhuma informação útil. Infelizmente, vamos voltar ao Sad Looking Jakk.#
-Fale com Jakk de aparência triste#
+11688#Jakk e o Olho Misterioso###
+Não obtive nenhuma informação útil, infelizmente. Vamos voltar ao Jakk Triste.#
+Fale com Jakk Triste#
 
-11689#Os olhos estranhos de Jakk###
-Vamos pegar o ^ff000010 Running Jakk^000000 e trazer ^ff00005 Pumpkin Decorations and Dry White Stem^000000.#
-Fale com Jakk de aparência triste#
+11689#Jakk e o Olho Misterioso###
+Vamos pegar ^FF000010x Jakk Fugitivo^000000 e trazer ^FF00005x Decoração de Abóbora e Ramo Branco Fino^000000.#
+Fale com Jakk Triste#
 
-11690#Os olhos estranhos de Jakk - Esperando###
+11690#[Espera] Jakk e o Olho Misterioso###
 Vamos conversar com Jakk novamente amanhã.#
-Reinicio às 04:00#
+Reinicia às 04:00#
 
-11691#Os olhos estranhos de Jakk###
-Vamos pegar o ^ff000010 Running Jakk^000000 e trazer ^ff00005 Pumpkin Decorations and Dry White Stem^000000.#
-Fale com Jakk de aparência triste#
+11691#Jakk e o Olho Misterioso###
+Vamos pegar ^FF000010x Jakk Fugitivo^000000 e trazer ^FF00005x Decoração de Abóbora e Ramo Branco Fino^000000.#
+Fale com Jakk Triste#
 
-11692#Os olhos estranhos de Jakk###
-Vamos pegar o ^ff000010 Running Jakk^000000 e trazer ^ff00005 Pumpkin Decorations and Dry White Stem^000000.#
-Fale com Jakk de aparência triste#
+11692#Jakk e o Olho Misterioso###
+Vamos pegar ^FF000010x Jakk Fugitivo^000000 e trazer ^FF00005x Decoração de Abóbora e Ramo Branco Fino^000000.#
+Fale com Jakk Triste#
 
-11693#Os olhos estranhos de Jakk###
-Vamos pegar o ^ff000010 Running Jakk^000000 e trazer ^ff00005 Pumpkin Decorations and Dry White Stem^000000.#
-Fale com Jakk de aparência triste#
+11693#Jakk e o Olho Misterioso###
+Vamos pegar ^FF000010x Jakk Fugitivo^000000 e trazer ^FF00005x Decoração de Abóbora e Ramo Branco Fino^000000.#
+Fale com Jakk Triste#
 
-11694#Os olhos estranhos de Jakk###
-Vamos pegar o ^ff000010 Running Jakk^000000 e trazer ^ff00005 Pumpkin Decorations and Dry White Stem^000000.#
-Fale com Jakk de aparência triste#
+11694#Jakk e o Olho Misterioso###
+Vamos pegar ^FF000010x Jakk Fugitivo^000000 e trazer ^FF00005x Decoração de Abóbora e Ramo Branco Fino^000000.#
+Fale com Jakk Triste#
 
-11695#Os olhos estranhos de Jakk###
-Vamos pegar o ^ff000010 Running Jakk^000000 e trazer ^ff00005 Pumpkin Decorations and Dry White Stem^000000.#
-Fale com Jakk de aparência triste#
+11695#Jakk e o Olho Misterioso###
+Vamos pegar ^FF000010x Jakk Fugitivo^000000 e trazer ^FF00005x Decoração de Abóbora e Ramo Branco Fino^000000.#
+Fale com Jakk Triste#
 
 11696#O Pedido de Niren###
 Parece que Dent, da guarda, tem sofrido bastante com a situação atual em Rachel. Escute o que <NAVI>[outro guarda]<INFO>ra_temin,174,38,0,101,0</INFO></NAVI>] tem a dizer.#
@@ -18831,48 +19011,312 @@ Vamos falar com Cheol-ho dentro da <NAVI>[Floresta Profunda]<INFO>pay_fild09,108
 Fale com Cheol-ho#
 
 11783#A História Aconchegante de Jakk e Jakk Estranho###
-Para ajudar o Strange Jakk, vamos pedir ajuda a <NAVI>[Jakk]<INFO>Nifflheim,265,275,0,101,0</INFO></NAVI> em Nifflheim.#
+Para ajudar o Jakk Estranho, vamos pedir ajuda ao <NAVI>[Jakk]<INFO>niflheim,265,275,0,101,0</INFO></NAVI>, que está em Niflheim.#
 Fale com Jakk#
 
 11784#A História Aconchegante de Jakk e Jakk Estranho###
-Jakk não parece saber nada sobre os estranhos sintomas. Vamos perguntar a outro <NAVI>[Jakk]<INFO>Nifflheim,288,249,0,101,0</INFO></NAVI> em Nifflheim.#
+Jakk não parece saber nada sobre os estranhos sintomas. Vamos perguntar a outro <NAVI>[Jakk]<INFO>niflheim,288,249,0,101,0</INFO></NAVI>, em Niflheim.#
 Fale com Jakk#
 
 11785#A História Aconchegante de Jakk e Jakk Estranho###
-Jakk disse que recebeu ajuda de <NAVI>[Lilles]<INFO>Nifflheim,343,277,0,101,0</INFO></NAVI> no canto de Nifflheim. Vamos até Lilles e pedir ajuda.#
+Jakk disse que recebeu ajuda de <NAVI>[Lilles]<INFO>niflheim,343,277,0,101,0</INFO></NAVI>, em um canto de Niflheim. Vamos até Lilles pedir ajuda.#
 Fale com Lilles#
 
 11786#A História Aconchegante de Jakk e Jakk Estranho###
-É difícil entender o que ele está dizendo, mas acho que ele está me dizendo para pegar 2 Alhorings. Vamos falar com <NAVI>[Lilles]<INFO>Nifflheim,343,277,0,101,0</INFO></NAVI> depois.#
-Caçar 2 Alhorings#
+É difícil entender o que ele está dizendo, mas acho que ele está me pedindo para pegar 2x Alhoring. Vamos caçar e depois falar com <NAVI>[Lilles]<INFO>niflheim,343,277,0,101,0</INFO></NAVI>.#
+Caçar 2x Alhoring#
 
 11787#A História Aconchegante de Jakk e Jakk Estranho###
-Ainda é difícil entender o que ele está dizendo, mas parece estar me indicando a direção a seguir. Vamos ouvir informações de <NAVI>[Uma pessoa em uma encruzilhada]<INFO>nif_fild01,187,117,0,101,0</INFO></NAVI> na remota vila de Skellington.#
+Ainda é difícil entender o que ele está dizendo, mas parece estar me indicando a direção a seguir. Vamos ouvir informações de <NAVI>[Uma pessoa em uma encruzilhada]<INFO>nif_fild01,187,117,0,101,0</INFO></NAVI>, na remota vila de Skellington.#
 Fale com [Uma pessoa em uma encruzilhada].#
 
 11788#A História Aconchegante de Jakk e Jakk Estranho###
-Siga o caminho indicado pela pessoa na encruzilhada até a Hoomga Jungle e fale com <NAVI>[One full of joy]<INFO>um_fild04,188,119,0,101,0</INFO></NAVI>.#
-Fale com [Um cheio de alegria].#
+Siga o caminho indicado pela pessoa na encruzilhada até a Selva de Hoomga e fale com <NAVI>[Alguém cheio de alegria]<INFO>um_fild04,188,119,0,101,0</INFO></NAVI>.#
+Fale com [Alguém cheio de alegria].#
 
 11789#A História Aconchegante de Jakk e Jakk Estranho###
-Será que ele finalmente faleceu? Vamos retornar a <NAVI>[Lilles]<INFO>Nifflheim,343,277,0,101,0</INFO></NAVI> em Nifflheim.#
+Será que ele finalmente encontrou a paz? Vamos retornar a <NAVI>[Lilles]<INFO>niflheim,343,277,0,101,0</INFO></NAVI>, em Niflheim.#
 Fale com Lilles#
 
 11790#A História Aconchegante de Jakk e Jakk Estranho###
-Lilles diz que as almas de ^ff3456Nifflheim^000000 devem ser liberadas. Mas será que podemos fazer isso? Vamos caçar 20 monstros em ^ff3456Nifflheim^000000 e retornar a <NAVI>[Lilles ]<INFO>Nifflheim,343,277,0,101,0</INFO></NAVI>.#
-Derrote os monstros em Nifflheim#
+Lilles diz que as almas de ^FF3456Niflheim^000000 devem ser liberadas. Mas será que podemos fazer isso? Vamos caçar 20 monstros em ^FF3456Niflheim^000000 e retornar a <NAVI>[Lilles]<INFO>niflheim,343,277,0,101,0</INFO></NAVI>.#
+Derrote os monstros em Niflheim#
 
 11791#A História Aconchegante de Jakk e Jakk Estranho###
-Isso funciona? Vamos falar com <NAVI>[Lilles]<INFO>Nifflheim,343,277,0,101,0</INFO></NAVI> em Nifflheim novamente amanhã.#
-Reinicio às 04:00#
+Será que funcionou? Vamos falar com <NAVI>[Lilles]<INFO>niflheim,343,277,0,101,0</INFO></NAVI>, em Niflheim, amanhã novamente.#
+Reinicia às 04:00#
 
 11792#A História Aconchegante de Jakk e Jakk Estranho###
-Lilles diz que as almas de ^ff3456Skellington^000000 devem ser liberadas. Mas será que podemos fazer isso? Vamos caçar 20 monstros em ^ff3456Skellington^000000 e retornar a <NAVI>[Lilles ]<INFO>Nifflheim,343,277,0,101,0</INFO></NAVI>.#
+Lilles diz que as almas de ^FF3456Skellington^000000 devem ser liberadas. Mas será que podemos fazer isso? Vamos caçar 20 monstros em ^FF3456Skellington^000000 e retornar a <NAVI>[Lilles ]<INFO>niflheim,343,277,0,101,0</INFO></NAVI>.#
 Derrote os monstros em Skellington#
 
 11793#A História Aconchegante de Jakk e Jakk Estranho###
-Lilles diz que as almas de ^ff3456Vally of Gyoll^000000 devem ser liberadas. Mas será que podemos fazer isso? Vamos caçar 20 monstros em ^ff3456Vally of Gyoll^000000 e retornar a <NAVI>[Lilles ]<INFO>Nifflheim,343,277,0,101,0</INFO></NAVI>.#
-Derrote os monstros em Vally of Gyoll#
+Lilles diz que as almas de ^FF3456Vale de Gyoll^000000 devem ser liberadas. Mas será que podemos fazer isso? Vamos caçar 20 monstros em ^FF3456Vale de Gyoll^000000 e retornar a <NAVI>[Lilles ]<INFO>niflheim,343,277,0,101,0</INFO></NAVI>.#
+Derrote os monstros em Vale de Gyoll#
+
+11794#Santa da Purificação###
+Voglinde parece estar procurando um certo Cardeal. Vamos perguntar aos <NAVI>[amigos]<INFO>icas_in,130,201,0,101,0</INFO></NAVI> que vieram de aeronave conosco até o Castelo de Gelo sobre o paradeiro do Cardeal.#
+Converse com Maram#
+
+11795#Santa da Purificação###
+Maram disse que não viu o Cardeal que Voglinde está procurando. Vamos perguntar sobre o Cardeal a <NAVI>[Lehar]<INFO>icas_in,136,197,0,101,0</INFO></NAVI>, que acabou de voltar ao Castelo de Gelo.#
+Converse com Lehar#
+
+11796#Santa da Purificação###
+Lehar também parece não saber onde está Santa. Vamos informar <NAVI>[Voglinde]<INFO>icas_in,164,228,0,101,0</INFO></NAVI>, no Interior do Castelo de Gelo.#
+Converse com Voglinde#
+
+11797#Santa da Purificação###
+Precisamos voltar a Midgard para procurar Santa. Vamos procurar <NAVI>[Hellok]<INFO>jor_tail,211,63,0,101,0</INFO></NAVI> em Cauda Congelada.#
+Converse com Hellok#
+
+11798#Santa da Purificação###
+Cheguei a Al De Baran no trenó de Hellok. Vamos falar novamente com <NAVI>[Hellok]<INFO>aldebaran,102,103,0,101,0</INFO></NAVI>.#
+Converse com Hellok#
+
+11799#Santa da Purificação###
+Vamos encontrar <NAVI>[Oficial de Cópias Alice]<INFO>prontera,254,309,0,101,0</INFO></NAVI> em Prontera para obter informações sobre Santa.#
+Converse com Alice#
+
+11800#Santa da Purificação###
+Vamos seguir Alice até <NAVI>[os aposentos de Santa]<INFO>prt_cas,20,32,0,101,0</INFO></NAVI>.#
+Em Busca de Santa#
+
+11801#Santa da Purificação###
+Encontrei <NAVI>[Santa]<INFO>prt_cas,18,32,0,101,0</INFO></NAVI> no Palácio Real de Prontera. Parece estar preparando a bagagem para ir a Isgard, então vamos esperar até Alice, que foi buscar carregadores, voltar.#
+Converse com Santa#
+
+11802#Santa da Purificação###
+Alice voltou ao Palácio Real de Prontera com carregadores, mas a bagagem de Friederike ainda está toda desorganizada e parece ser muita coisa. Vamos verificar <NAVI>[Bolsa de Viagem]<INFO>prt_cas,15,31,0,101,0</INFO></NAVI> para reduzir a bagagem.#
+Verifique Bolsa de Viagem#
+
+11803#Santa da Purificação###
+Vamos verificar também outra <NAVI>[Bolsa de Viagem]<INFO>prt_cas,16,27,0,101,0</INFO></NAVI> nos aposentos de Friederike, dentro do Palácio Real de Prontera.#
+Verifique Bolsa de Viagem#
+
+11804#Santa da Purificação###
+Vamos verificar também outra <NAVI>[Bolsa de Viagem]<INFO>prt_cas,26,27,0,101,0</INFO></NAVI> nos aposentos de Friederike, dentro do Palácio Real de Prontera.#
+Verifique Bolsa de Viagem#
+
+11805#Santa da Purificação###
+Vamos verificar também outra <NAVI>[Bolsa de Viagem]<INFO>prt_cas,23,36,0,101,0</INFO></NAVI> nos aposentos de Friederike, dentro do Palácio Real de Prontera.#
+Verifique Bolsa de Viagem#
+
+11806#Santa da Purificação###
+Vamos verificar também outra <NAVI>[Bolsa de Viagem]<INFO>prt_cas,22,30,0,101,0</INFO></NAVI> nos aposentos de Friederike, dentro do Palácio Real de Prontera.#
+Verifique Bolsa de Viagem#
+
+11807#Santa da Purificação###
+Terminamos de arrumar a bagagem. Vamos conversar com <NAVI>[Oficial de Cópias Alice]<INFO>prt_cas,21,31,0,101,0</INFO></NAVI>, nos aposentos de Friederike, dentro do Palácio Real de Prontera.#
+Converse com Alice#
+
+11808#Santa da Purificação###
+Os preparativos para partir rumo a Isgard estão concluídos. Vamos encontrar <NAVI>[Hellok]<INFO>aldebaran,102,103,0,101,0</INFO></NAVI> em Al De Baran e seguir para Isgard.#
+Converse com Hellok#
+
+11809#Santa da Purificação###
+Chegamos novamente a Isgard. Vamos levar Friederike até <NAVI>[Castelo de Gelo]<INFO>icecastle,23,123,0,101,0</INFO></NAVI>.#
+Para o Castelo de Gelo#
+
+11810#Santa da Purificação###
+Vamos até o quarto de <NAVI>[Friederike]<INFO>icecastle,59,213,0,101,0</INFO></NAVI> preparado no Castelo de Gelo.#
+Converse com Friederike#
+
+11811#Santa da Purificação###
+Voglinde, que foi até o quarto de Friederike no Castelo de Gelo, confirmou que Friederike chegou em segurança e foi embora. Parece que o próximo assunto ficou por conta de <NAVI>[Lehar]<INFO>icas_in,35,118,0,101,0</INFO></NAVI>, então vamos falar com ele.#
+Converse com Lehar#
+
+11812#Um Dia de Friederike###
+<NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>, que passou a ficar em seu quarto no Castelo de Gelo, disse que recebeu de Voglinde a missão de purificar Núcleo Mágico de Regan. Vamos ouvir mais.#
+Converse com Friederike#
+
+11813#Um Dia de Friederike###
+Derrote 10 Regan Primitivo e 10 Regan de Nível Mais Baixo no Calor do Deus Serpente, colete 10 Núcleo Mágico de Regan e volte até <NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>.#
+Colete Núcleo Mágico de Regan#
+
+11814#Um Dia de Friederike - Em espera###
+Ajudei Friederike em seu trabalho. Vamos tentar novamente amanhã.#
+Reinicia às 04h#
+
+11815#Mar Congelado###
+Tataring, trazido por Syurur ao quarto de Friederike no Castelo de Gelo, foi purificado pelo poder de Friederike. Vamos ouvir de <NAVI>[Tataring]<INFO>icas_in,28,119,0,101,0</INFO></NAVI>, que despertou, o que aconteceu.#
+Converse com Tataring#
+
+11816#Mar Congelado###
+Tataring disse que é preciso investigar o poço em que caiu. Antes disso, vamos examinar <NAVI>[Armadilha de Caça]<INFO>jor_back1,300,272,0,101,0</INFO></NAVI> nos arredores da Colina de Escamas Congeladas para ver se há algo estranho.#
+Investigue Armadilha de Caça#
+
+11817#Mar Congelado###
+Não havia nada de errado com Armadilha de Caça. Vamos investigar outra <NAVI>[Armadilha de Caça]<INFO>jor_back2,346,203,0,101,0</INFO></NAVI> na Colina de Escamas Congeladas para ver se há algo estranho.#
+Investigue Armadilha de Caça#
+
+11818#Mar Congelado###
+Não havia nada de errado com Armadilha de Caça. Vamos investigar <NAVI>[Armadilha de Caça]<INFO>jor_back2,260,294,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas, onde fica o poço.#
+Investigue Armadilha de Caça#
+
+11819#Mar Congelado###
+Foram encontrados indícios de decomposição em Armadilha de Caça. Vamos relatar sobre Armadilha de Caça a <NAVI>[Syurur]<INFO>jor_back2,255,312,0,101,0</INFO></NAVI>, perto do poço na Planície de Escamas Congeladas.#
+Converse com Syurur#
+
+11820#Mar Congelado###
+Disseram que o poço em que Tataring caiu estava tomado por uma toxicidade tão forte que não era possível entrar nem com roupa de mergulho. Vamos voltar até <NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>, no quarto dela no Castelo de Gelo, e pedir ajuda.#
+Converse com Friederike#
+
+11821#Mar Congelado###
+Consegui convencer Friederike. Vamos voltar ao <NAVI>[poço]<INFO>jor_back2,258,314,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas e purificar a toxicidade.#
+De Volta ao Poço#
+
+11822#Mar Congelado###
+Purificamos o poço. Para se precaver contra possíveis perigos, Syurur, usando uma roupa de mergulho, disse que vai investigar primeiro. Enquanto Syurur investiga o poço, derrote 10 monstros nos arredores da Planície de Escamas Congeladas para impedir que se aproximem, colete 3 Carne Congelada e depois converse com <NAVI>[Syurur]<INFO>jor_back2,255,312,0,101,0</INFO></NAVI>, quando ele terminar a investigação.#
+3 Carne Congelada#
+
+11823#Mar Congelado###
+Syurur, na Planície de Escamas Congeladas, contou o que descobriu ao investigar o <NAVI>[poço]<INFO>jor_back2,258,314,0,101,0</INFO></NAVI> e sugeriu que descêssemos juntos.#
+Vá até o Poço#
+
+11824#Mar Congelado###
+Descemos ao poço. Vamos conversar com <NAVI>[Alp]<INFO>jor_ab01,115,14,0,101,0</INFO></NAVI>, que chegou primeiro.#
+Converse com Alp#
+
+11825#Mar Congelado###
+Derrote 5 monstros nos arredores do Poço Abandonado 1º Andar e investigue o próximo <NAVI>[Vestígio Suspeito]<INFO>jor_ab01,222,107,0,101,0</INFO></NAVI>.#
+Investigue Vestígio Suspeito#
+
+11826#Mar Congelado###
+Derrote 5 monstros nos arredores do Poço Abandonado 1º Andar e investigue o próximo <NAVI>[Vestígio Suspeito]<INFO>jor_ab01,104,270,0,101,0</INFO></NAVI>.#
+Investigue Vestígio Suspeito#
+
+11827#Mar Congelado###
+Encontrei uma passagem que leva ao Poço Abandonado 2º Andar. Derrote 5 monstros no Poço Abandonado 1º Andar, colete 2 Carne Congelada e depois <NAVI>[vá para a próxima área]<INFO>jor_ab01,16,235,0,101,0</INFO></NAVI>.#
+Vá para Outra Área#
+
+11828#Mar Congelado###
+Cheguei ao Poço Abandonado 2º Andar. Derrote 10 monstros no Poço Abandonado 2º Andar, colete 2 Carne Congelada e depois <NAVI>[verifique]<INFO>jor_ab02,28,253,0,101,0</INFO></NAVI> se há outra passagem conectada.#
+Investigue Fim do Poço#
+
+11829#Mar Congelado###
+Terminamos a investigação do poço abandonado. Vamos voltar ao Castelo de Gelo e entregar os materiais coletados a <NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>.#
+Converse com Friederike#
+
+11830#Poço Abandonado###
+<NAVI>[Syurur]<INFO>icas_in,27,116,0,101,0</INFO></NAVI> falou sobre os perigos do poço abandonado e disse que parece ser necessária uma investigação adicional.#
+Converse com Syurur#
+
+11831#Um Lugar que Merece ser Abandonado###
+<NAVI>[Syurur]<INFO>icas_in,27,116,0,101,0</INFO></NAVI> pediu que eu derrote ^e5555ecerca de 40 monstros^000000 no ^e5555ePoço Abandonado 1º Andar^000000 e traga ^e5555ecerca de 20^000000 ^e5555eCarne Congelada^000000.#
+20 Carne Congelada#
+
+11832#Um Lugar que Merece ser Abandonado (1) - Em espera###
+Ajudei Syurur a investigar o poço. Vamos nos esforçar novamente amanhã!#
+Reinicia às 04h#
+
+11833#Um Lugar que Merece ser Abandonado###
+<NAVI>[Syurur]<INFO>icas_in,27,116,0,101,0</INFO></NAVI> pediu que eu derrote ^e5555ecerca de 40 monstros^000000 no ^e5555ePoço Abandonado 2º Andar^000000 e traga ^e5555ecerca de 20^000000 ^e5555eCarne Congelada^000000.#
+20 Carne Congelada#
+
+11834#Um Lugar que Merece ser Abandonado (2) - Em espera###
+Ajudei Syurur a investigar o poço. Vamos nos esforçar novamente amanhã!#
+Reinicia às 04h#
+
+11835#Cavar e Cavar###
+Disseram que Alp saiu antes para investigar o poço abandonado. Vamos encontrar <NAVI>[Alp]<INFO>jor_ab01,115,14,0,101,0</INFO></NAVI> no poço abandonado e conversar com ele.#
+Converse com Alp#
+
+11836#Cavar e Cavar###
+Alp pediu que eu investigue Vestígio Sinistro. Quando terminar toda a investigação, vamos relatar a <NAVI>[Syurur]<INFO>icas_in,27,116,0,101,0</INFO></NAVI>.#
+Investigue Vestígio Sinistro#
+
+11837#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab01,163,253,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11838#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab01,117,141,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11839#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab01,222,125,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11840#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab01,196,260,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11841#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab01,112,62,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11842#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab01,25,265,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11843#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab02,151,272,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11844#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab02,139,148,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11845#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab02,182,83,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11846#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab02,48,27,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11847#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab02,208,48,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11848#Cavar e Cavar###
+Vamos encontrar e investigar <NAVI>[Vestígio Sinistro]<INFO>jor_ab02,201,184,0,101,0</INFO></NAVI> mencionado por Alp no poço abandonado.#
+Investigue Vestígio Sinistro#
+
+11849#Cavar e Cavar###
+Investiguei os vestígios sinistros no poço abandonado. Vamos voltar até <NAVI>[Syurur]<INFO>icas_in,27,116,0,101,0</INFO></NAVI> e informar o resultado da investigação.#
+Converse com Syurur#
+
+11850#Cavar e Cavar - Em espera###
+Ajudei Syurur a investigar o poço. Vamos nos esforçar novamente amanhã!#
+Reinicia às 04h#
+
+11851#Precisa de uma Geladeira?###
+<NAVI>[Tataring]<INFO>icas_in,28,119,0,101,0</INFO></NAVI>, no Castelo de Gelo, parece estar muito preocupado com a coleta de alimentos.#
+Converse com Tataring#
+
+11852#Precisa de uma Geladeira?###
+Vamos ajudar <NAVI>[Tataring]<INFO>icas_in,28,119,0,101,0</INFO></NAVI>, que está doente no Castelo de Gelo, caçando ^e5555epelo menos 20 monstros^000000 na ^e5555ePlanície de Escamas Congeladas^000000 e obtendo ^e5555epelo menos 10^000000 ^e5555eCarne Congelada^000000.#
+10 Carne Congelada#
+
+11853#Precisa de uma Geladeira? - Em espera###
+Ajudei Tataring a coletar alimentos no Castelo de Gelo. Vamos voltar amanhã.#
+Reinicia às 04h#
+
+11854#Ferramenta Crocante###
+Tataring, no Castelo de Gelo, está preocupado que as armadilhas de caça sejam danificadas pelo frio. Vamos verificar <NAVI>[Armadilha Congelada]<INFO>jor_back2,367,36,0,101,0</INFO></NAVI>.#
+Verifique Armadilha Congelada#
+
+11855#Ferramenta Crocante###
+Tataring, no Castelo de Gelo, está preocupado que as armadilhas de caça sejam danificadas pelo frio. Vamos verificar <NAVI>[Armadilha Congelada]<INFO>jor_back2,84,88,0,101,0</INFO></NAVI>.#
+Verifique Armadilha Congelada#
+
+11856#Ferramenta Crocante###
+Tataring, no Castelo de Gelo, está preocupado que as armadilhas de caça sejam danificadas pelo frio. Vamos verificar <NAVI>[Armadilha Congelada]<INFO>jor_back2,158,320,0,101,0</INFO></NAVI>.#
+Verifique Armadilha Congelada#
+
+11857#Ferramenta Crocante###
+Tataring, no Castelo de Gelo, está preocupado que as armadilhas de caça sejam danificadas pelo frio. Vamos verificar <NAVI>[Armadilha Congelada]<INFO>jor_back2,190,184,0,101,0</INFO></NAVI>.#
+Verifique Armadilha Congelada#
+
+11858#Ferramenta Crocante###
+Verifiquei as armadilhas congeladas. Vamos voltar até <NAVI>[Tataring]<INFO>icas_in,28,119,0,101,0</INFO></NAVI>.#
+Converse com Tataring#
+
+11859#Ferramenta Crocante - Em espera###
+Ajudei Tataring a consertar as armadilhas de caça no Castelo de Gelo. Vamos voltar amanhã.#
+Reinicia às 04h#
 
 11860#Retrato que repele a má sorte###
 A equipe do Malangdo Octopus Festival apresentará o mascote de 2022, ChulHo.#
@@ -20010,13 +20454,13 @@ Um favor indesejado#
 Esperto sabe várias fofocas. Já que seu conhecimento pode ser útil no futuro, vamos ouvi-las. Talvez alguma informação seja útil.#
 Gossip king Clever.#
 
-12283#O pesquisador da Fenda###
-Há um Dona chamado ^000099Hiel^000000 que está encarregado da pesquisa dos Fragmentos da Fenda. Procure o Pesquisador.#
-O pesquisador da Fenda#
+12283#A Pesquisadora da Fenda###
+^000099Hiel^000000 é uma jovem moça que está encarregada de pesquisar os fragmentos da fenda. Procure por ela.#
+Procure a pesquisadora.#
 
-12284#A fonte de informações de um Mercador de gatos###
-Os gatos disseram que há um Gato que parece saber muita coisa sobre as investigações da Fenda. Procure pelo Gato.#
-A fonte de informações de um Mercador de gatos.#
+12284#Fonte de Informações de um Mercador Doram###
+Os gatos mercadores disseram que um deles que parece saber muita coisa sobre as investigações da fenda em Midgard. Procure pelo Gato.#
+Encontre o Gato.#
 
 12285#Uma maneira de acalmar um gato###
 Esses gatos não param de brigar, assim não consigo as informações que preciso. Como posso acalmar esses gatos? Será se consigo usando ^000099Peixes Enlatados de Malangdo?^000000?#
@@ -20865,6 +21309,14 @@ Encontre Keong-Eureung#
 12556#Primeiro encontro com o Guia das Almas###
 Voc? concluiu sua primeira conversa com o Guia das Almas.#
 Encontre o Guia das Almas#
+
+12560#Em espera: Neutralização da Aeronave###
+Conseguimos neutralizar a aeronave a ponto de impossibilitar sua operação por algum tempo. Se houver sinais de que ela está prestes a voltar a funcionar, talvez seja necessário nos infiltrar novamente.#
+Reinicia às 04h#
+
+12561#Neutralização do Núcleo###
+Ainda não é possível avaliar os riscos de destruir completamente a aeronave. Por enquanto, vamos neutralizar o núcleo que contém a lógica responsável pela operação da aeronave.#
+Neutralização do Núcleo#
 
 13000#Reunião de cartões da RWC 2011###
 Pegue todas as cartas para completar a palavra 'RWC2011'#
@@ -25726,6 +26178,118 @@ Fale com Snorren dentro da pris?o#
 Conte a hist?ria de Terra a <NAVI>[Luik]<INFO>man_in01,19,126,0,101,0</INFO></NAVI> na Vila de Manuk.#
 Fale com Luik#
 
+16636#Busca por Pistas - Laboratório de Juncea###
+Enquanto não há ninguém por perto, vamos entrar no <NAVI>[laboratório de Juncea]<INFO>jor_nest,51,152,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente, e investigar.#
+Investigue o laboratório de Juncea#
+
+16637#Busca por Pistas - Laboratório de Bagot###
+Enquanto não há ninguém por perto, vamos entrar no <NAVI>[Laboratório de Bagot]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente, e investigar.#
+Investigue Laboratório de Bagot#
+
+16638#Busca por Pistas - Guardas Rgan###
+Enquanto não há ninguém por perto, vamos investigar os arredores dos <NAVI>[guardas Rgan]<INFO>jor_nest,177,176,0,101,0</INFO></NAVI> dentro do Ninho da Serpente.#
+Investigue os guardas Rgan#
+
+16639#Laboratório de Juncea###
+Vamos vasculhar a <NAVI>[pilha de documentos]<INFO>jor_nest,19,142,0,101,0</INFO></NAVI> no laboratório de Juncea, dentro do Ninho da Serpente.#
+Investigue a pilha de documentos#
+
+16640#Laboratório de Juncea###
+Vamos vasculhar a <NAVI>[pilha de documentos]<INFO>jor_nest,21,195,0,101,0</INFO></NAVI> no laboratório de Juncea, dentro do Ninho da Serpente.#
+Investigue a pilha de documentos#
+
+16641#Laboratório de Bagot###
+Vamos vasculhar a pilha de documentos no <NAVI>[Laboratório de Bagot]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente.#
+Investigue a pilha de documentos#
+
+16642#Laboratório de Bagot###
+Vamos vasculhar a pilha de documentos no <NAVI>[Laboratório de Bagot]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente.#
+Investigue a pilha de documentos#
+
+16643#Guardas Rgan###
+Há alguns documentos que parecem ser um <NAVI>[livro contábil]<INFO>jor_nest,181,173,0,101,0</INFO></NAVI> perto dos guardas Rgan dentro do Ninho da Serpente. Vamos dar uma olhada.#
+Investigue a pilha de documentos#
+
+16644#Guardas Rgan###
+Vamos escutar discretamente a conversa dos <NAVI>[guardas Rgan]<INFO>jor_nest,173,177,0,101,0</INFO></NAVI> dentro do Ninho da Serpente.#
+Ouça a conversa dos guardas Rgan#
+
+16645#Compartilhar Pistas###
+Já reuni algumas pistas. Vamos voltar até <NAVI>[Nalandro]<INFO>jor_nest,127,207,0,101,0</INFO></NAVI>, que está transformado em Rgan dentro do Ninho da Serpente, compartilhar as pistas reunidas e trocar opiniões.#
+Converse com Nalandro#
+
+16646#Infiltrando-se em Silêncio###
+Vamos até o laboratório de Juncea, dentro do Ninho da Serpente, e converse com <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> para ganhar sua confiança.#
+Converse com Juncea#
+
+16647#Infiltrando-se em Silêncio###
+Juncea parece estar com vontade de comer algo doce. Vamos voltar ao <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> e procurar algum lugar onde possamos conseguir algo doce.#
+Converse com o aventureiro#
+
+16648#Infiltrando-se em Silêncio###
+Vamos até o laboratório de Juncea, dentro do Ninho da Serpente, e entregar Doce de Gelo a <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>.#
+Converse com Juncea#
+
+16649#Infiltrando-se em Silêncio###
+Leve para <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, que está esperando dentro do Ninho da Serpente, 1 doce de gelo obtido no <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> ou 10 <ITEM>[Núcleo Mágico Inferior de Regan]<INFO>1000707</INFO></ITEM>.#
+Atenda ao pedido de Juncea#
+
+16650#Infiltrando-se em Silêncio###
+Leve para <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, que está esperando dentro do Ninho da Serpente, 1 doce de gelo obtido no <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> ou 10 <ITEM>[Núcleo Mágico Inferior de Regan]<INFO>1000707</INFO></ITEM>.#
+Atenda novamente ao pedido de Juncea#
+
+16651#Infiltrando-se em Silêncio###
+Vamos mostrar a <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, no laboratório de Juncea dentro do Ninho da Serpente, o livro contábil obtido dos guardas Rgan.#
+Converse com Juncea#
+
+16652#Infiltrando-se em Silêncio###
+Bagot apareceu no laboratório de Juncea, dentro do Ninho da Serpente. Vamos contornar bem a situação para que ele não perceba que estávamos tentando convencer <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>.#
+Converse com Juncea#
+
+16653#Suspeitas Acumuladas###
+Vamos voltar ao Castelo de Gelo e trocar com <NAVI>[Nalandro]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> os resultados obtidos até agora.#
+Converse com Nalandro#
+
+16654#Suspeitas Acumuladas###
+No Castelo de Gelo, vamos continuar a conversa com Nalandro e <NAVI>[Miriam]<INFO>icas_in,249,199,0,101,0</INFO></NAVI>.#
+Converse com Miriam#
+
+16655#Por Um Triz###
+Decidimos acelerar o plano. Vamos ao <NAVI>[laboratório de Juncea]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente, e tentar convencer Juncea.#
+Visite o laboratório de Juncea#
+
+16656#Por Um Triz###
+No laboratório de Juncea, dentro do Ninho da Serpente, há líquido derramado ao redor de uma caixa que não estava ali antes. Vamos procurar um <NAVI>[recipiente]<INFO>jor_nest,20,194,0,101,0</INFO></NAVI> para coletá-lo.#
+Obtenha Tubo de Ensaio de Juncea#
+
+16657#Por Um Triz###
+No laboratório de Juncea, dentro do Ninho da Serpente, coloquei em um tubo de ensaio vazio um pouco do líquido acumulado ao redor da <NAVI>[caixa]<INFO>jor_nest,19,190,0,101,0</INFO></NAVI>.#
+Obtenha Tubo de Ensaio com Líquido Vermelho#
+
+16658#Por Um Triz###
+Enquanto tentava sair escondido do laboratório de Juncea, dentro do Ninho da Serpente, fui descoberto por um <NAVI>[Rgan]<INFO>jor_nest,24,185,0,101,0</INFO></NAVI> desconhecido. Ele disse que tem algo a dizer, então vamos ouvi-lo.#
+Converse com Rgan#
+
+16659#Por Um Triz###
+Disseram que Juncea está esperando no <NAVI>[Laboratório de Bagot]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente.#
+Converse com Juncea#
+
+16660#Por Um Triz###
+Vamos conversar com Juncea no <NAVI>[Laboratório de Bagot]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente.#
+Converse com Juncea#
+
+16661#Por Um Triz###
+Vamos levar Juncea, que se transformou em monstro e perdeu a consciência, de volta à vila e conversar com <NAVI>[Horur]<INFO>icecastle,27,126,0,101,0</INFO></NAVI>.#
+Retorne à vila#
+
+16662#Batalha de Simulação###
+Ao conversar com <NAVI>[Arorong]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, que está esperando em frente ao Laboratório de Bagot, no Ninho da Serpente, será possível enfrentar Juncea de Simulação, criado com base nos dados virtuais de Juncea.#
+Converse com o aventureiro#
+
+16663#Batalha de Simulação - Em espera###
+Se derrotou Juncea de Simulação, descanse por cerca de um dia. Depois de descansar o suficiente, volte até <NAVI>[Arorong]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, que está esperando em frente ao Laboratório de Bagot, no Ninho da Serpente, para enfrentar a batalha novamente.#
+Reinicia às 04h#
+
 17000#Crise na Rekenber###
 <NAVI>[Nalandro]<INFO>pub_cat,105,58,0,101,0</INFO></NAVI> recusou-se a falar com o vice-presidente da Rekenber, Kaya Toss. Vamos perguntar qual é a história.#
 Fale com Nalandro#
@@ -26930,6 +27494,182 @@ Visite o Castelo de Juno#
 Uma correspondência de orientação para mudança de emprego foi enviada para aqueles que podem mudar para o próximo emprego de maior expansão.#
 Correio enviado#
 
+17619#Estratagema de Nalandro###
+Decidimos usar Pergaminho de Transformação em Regan para nos infiltrar na <NAVI>[base]<INFO>jor_back3,98,318,0,101,0</INFO></NAVI> de Rgan. Não esqueça de levar o pergaminho de transformação.#
+Para a base de Rgan#
+
+17620#Infiltração no Ninho da Serpente###
+Aventureiro, ao entrar no <NAVI>[covil]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI> das serpentes, finja ser um Rgan recém-nascido.#
+Finja ser um bebê Rgan#
+
+17621#Infiltração no Ninho da Serpente###
+Vocês não deveriam estar em um lugar como este. Vou levá-los para a parte <NAVI>[superior]<INFO>jor_nest,184,49,0,101,0</INFO></NAVI> do ninho. Sigam-me direito.#
+Para a área superior#
+
+17622#Infiltração no Ninho da Serpente###
+Antes de irmos receber o batismo de bênção do senhor Lasgand, vou mostrar primeiro o <NAVI>[incubatório de ovos]<INFO>jor_nest,196,202,0,101,0</INFO></NAVI> superiores do ninho.#
+Para o incubatório de ovos superiores#
+
+17623#Infiltração no Ninho da Serpente###
+No caminho, passaremos pela <NAVI>[moradia]<INFO>jor_nest,115,187,0,101,0</INFO></NAVI> de um forasteiro no ninho. Vou mostrar onde fica, então não entrem lá nem por engano.#
+Moradia do forasteiro#
+
+17624#Infiltração no Ninho da Serpente###
+Agora sim, precisamos ir receber o batismo de bênção do senhor Lasgand. Vamos subir um pouco mais para a parte <NAVI>[superior]<INFO>jor_nest,53,244,0,101,0</INFO></NAVI> do ninho.#
+Moradia de Lasgand#
+
+17625#Infiltração no Ninho da Serpente###
+Se não tiver para onde ir, por que não visita o laboratório de Ilusión no ninho? Peça a <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> para fazer ao menos um exame médico.#
+Até Juncea#
+
+17626#Infiltração no Ninho da Serpente###
+Já descansou? Então vamos ao trabalho. O Ninho da Serpente ainda é estranho para você? Chegue um pouco mais <NAVI>[perto de mim]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> para eu poder examiná-lo.#
+Converse com Juncea#
+
+17627#Infiltração no Ninho da Serpente###
+A <NAVI>[casca do ovo]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI> de onde você nasceu ainda deve servir. Traga Casca de Ovo de Regan Superior. Quero estudar o ovo e o poder mágico que restou nele. Você disse que nasceu no Calor do Deus Serpente, certo?#
+Para onde eu nasci#
+
+17628#Infiltração no Ninho da Serpente###
+Parece que os ovos superiores são separados à parte. Vá até <NAVI>[Ninho da Serpente]<INFO>jor_nest,23,58,0,101,0</INFO></NAVI>.#
+Para o incubatório de ovos superiores#
+
+17629#Infiltração no Ninho da Serpente###
+Consegui obter Casca de Ovo de Regan Superior em segurança. Vamos voltar até <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI>, no Ninho da Serpente, e mostrar a casca do ovo.#
+Converse com Juncea#
+
+17630#Infiltração no Ninho da Serpente###
+Bagot apareceu na moradia de Ilusión dentro do Ninho da Serpente. Vamos ouvir qual é o objetivo de <NAVI>[Bagot]<INFO>jor_nest,26,142,0,101,0</INFO></NAVI>.#
+Converse com Bagot#
+
+17631#Infiltração no Ninho da Serpente###
+<NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> está furioso com a notificação unilateral de Bagot, que apareceu no Ninho da Serpente. O que aconteceu?#
+Converse com Juncea#
+
+17632#Relatório Intermediário da Operação de Infiltração###
+Não há mais nada para ouvir de Juncea. Por enquanto, vamos sair <NAVI>[do ninho]<INFO>jor_nest,87,164,0,101,0</INFO></NAVI> e trocar opiniões com o Sr. Rage.#
+Para fora#
+
+17633#Relatório Intermediário da Operação de Infiltração###
+Primeiro, vamos verificar a <NAVI>[aeronave]<INFO>jor_nest,24,252,0,101,0</INFO></NAVI> que dizem estar dentro do Ninho da Serpente. Precisamos descobrir sua localização e quantos guardas há por perto.#
+Verifique a aeronave#
+
+17634#Relatório Intermediário da Operação de Infiltração###
+Agora que sabemos onde está a aeronave, vamos voltar e elaborar um plano. Em seguida, precisamos ir até o <NAVI>[Calor do Deus Serpente]<INFO>jor_dun02,153,239,0,101,0</INFO></NAVI> e resgatar nosso grupo, certo?#
+Resgate o grupo na área inferior#
+
+17635#Relatório Intermediário da Operação de Infiltração###
+Não disse que levaria os <NAVI>[sacerdotes]<INFO>jor_dun02,150,269,0,101,0</INFO></NAVI> que estão fazendo trabalho forçado no Calor do Deus Serpente? Apresse-se e leve-os.#
+Para o interior#
+
+17636#Relatório Intermediário da Operação de Infiltração###
+Temos muito a fazer. Vamos voltar logo ao <NAVI>[Castelo de Gelo]<INFO>icas_in,34,189,0,101,0</INFO></NAVI> e elaborar um plano.#
+Para o Castelo de Gelo#
+
+17637#Operação de Destruição da Aeronave###
+Precisamos neutralizar a <NAVI>[aeronave]<INFO>jor_nest,22,254,0,101,0</INFO></NAVI> dentro do Ninho da Serpente para impedir que eles se desloquem. Vamos examiná-la com cuidado.#
+Para a aeronave#
+
+17638#Investigação de Vulnerabilidades###
+Vamos voltar ao <NAVI>[Ninho da Serpente]<INFO>jor_nest,127,207,0,101,0</INFO></NAVI> e investigar as vulnerabilidades com mais atenção.#
+De volta ao Ninho da Serpente#
+
+17639#Acompanhamento do Relatório de Reconhecimento###
+Também estou a caminho do Castelo de Gelo, então vamos juntos. A esta altura, já devem ter terminado a refeição e estar no <NAVI>[refeitório]<INFO>icas_in,34,189,0,101,0</INFO></NAVI>.#
+Para o refeitório do Castelo de Gelo#
+
+17640#Ninho da Serpente Caótico###
+Quem é esse Rgan que está carregando? Minha <NAVI>[casa]<INFO>icas_in,247,116,0,101,0</INFO></NAVI> no Castelo de Gelo fica perto daqui, então vamos primeiro para lá.#
+Para a casa de Horur#
+
+17641#Ninho da Serpente Caótico###
+Vou preparar um antídoto, então traga 20 Núcleo Mágico Inferior de Regan e venha até <NAVI>[Castelo de Gelo]<INFO>icas_in,247,116,0,101,0</INFO></NAVI>.#
+20 Núcleo Mágico Inferior de Regan#
+
+17642#Ninho da Serpente Caótico###
+<NAVI>[Juncea]<INFO>icas_in,243,117,0,101,0</INFO></NAVI>, que despertou na casa de Horur no Castelo de Gelo, parece estar refletindo. A essa altura, acho que está quase convencido.#
+Convença Juncea#
+
+17643#Ninho da Serpente Caótico###
+<NAVI>[Aurelie]<INFO>icas_in,249,113,0,101,0</INFO></NAVI> apareceu pessoalmente na casa de Horur, no Castelo de Gelo, para trazer notícias. Será que aconteceu algo grave?#
+Converse com Aurelie#
+
+17644#Ninho da Serpente Caótico###
+Houve um relatório da equipe de reconhecimento dizendo que os movimentos dos Regan estão suspeitos. Parece ser uma boa oportunidade para agirmos também. É melhor irmos ao <NAVI>[covil das serpentes]<INFO>jor_que,271,88,0,101,0</INFO></NAVI>.#
+Para o Ninho da Serpente#
+
+17645#Ninho da Serpente Caótico###
+Vamos dividir o grupo e verificar a situação na região do <NAVI>[Calor do Deus Serpente]<INFO>jor_que,144,253,0,101,0</INFO></NAVI>. Talvez ainda haja Regan superiores por lá.#
+Investigue o Ninho da Serpente#
+
+17646#Ninho da Serpente Caótico###
+Aqui só há rastros de uma movimentação rápida. Talvez exista alguém no Calor do Deus Serpente que <NAVI>[saiba o que aconteceu]<INFO>jor_que,131,148,0,101,0</INFO></NAVI>.#
+Alguém que saiba o que aconteceu#
+
+17647#Ninho da Serpente Caótico###
+Os nobres... todos reunidos...... Não nós... na parte <NAVI>[superior]<INFO>jor_que,32,37,0,101,0</INFO></NAVI> do ninho... então depressa...... os nobres também... precisam ir, rápido......#
+Para a área superior#
+
+17648#Ninho da Serpente Caótico###
+Então precisamos romper a parede que bloqueia a <NAVI>[entrada]<INFO>jor_que,32,37,0,101,0</INFO></NAVI> do ninho e derrotar o Rgan que está do outro lado para encontrarmos Lasgand, certo?#
+Entre no Ninho da Serpente#
+
+17649#Os que Desapareceram###
+Não há como abrir esta porta, então só nos resta colocar um vigia aqui e observá-la. Por enquanto, vamos voltar ao <NAVI>[Castelo de Gelo]<INFO>icas_in,34,189,0,101,0</INFO></NAVI>.#
+Para o Castelo de Gelo#
+
+17650#Procurando o Esconderijo Subterrâneo pela Superfície###
+Agradeço por aceitar ajudar de bom grado. Em vez de perdermos tempo aqui, vamos sair <NAVI>[do Castelo de Gelo]<INFO>icecastle,27,126,0,101,0</INFO></NAVI> e discutir como faremos a busca.#
+Para fora#
+
+17651#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,222,123,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17652#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,49,175,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17653#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,309,99,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17654#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,113,235,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17655#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,279,307,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17656#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,152,359,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17657#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,328,277,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17658#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,128,138,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17659#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,264,133,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17660#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,46,324,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre a antena no local marcado#
+
+17661#Procurando o Esconderijo Subterrâneo pela Superfície###
+Enterrei todas as Antena Superpotente nos locais indicados. Vamos voltar e informar o Sr. <NAVI>[Horur]<INFO>icecastle,27,126,0,101,0</INFO></NAVI>, no Castelo de Gelo.#
+Informe o Sr. Horur#
+
+17662#Em espera: Procurando o Esconderijo Subterrâneo pela Superfície###
+Depois do amanhecer, as baterias também estarão descarregadas. Quando isso acontecer, volte aqui ao Castelo de Gelo para substituí-las. Por hoje, descanse. - <NAVI>[Horur]<INFO>icecastle,27,126,0,101,0</INFO></NAVI>#
+Reinicia às 04h#
+
 17849####
 #
 #
@@ -27406,17 +28146,109 @@ Fale com o Sr. Ibanoff assim que tiver reunido todos os materiais.#
 Aguarde pacientemente enquanto o velho cria seu instrumento musical.#
 Estranho Idoso#
 
-18119#Gusli###
-Agora você tem um Gusli! Você realmente deveria aprender a tocá-lo antes de mostrá-lo ao Csar como prova!#
-Estranho Idoso#
+18119#Visitante Trazido pelo Vento Norte 1###
+Ao saber que já reunimos algumas informações sobre as terras do norte, decidi ir à Mansão de Varmundt com Maram e Miriam. Vamos conversar sobre os próximos planos com <NAVI>[Eli]<INFO>ba_in01,384,114,0,101,0</INFO></NAVI>, que deve estar esperando na sala de recepção da Mansão de Varmundt.#
+Para a Mansão de Varmundt#
 
-18120#Gusli###
-Lindo! Você sabe tocar o Gusli! Agora é hora de mostrar suas habilidades musicais para o Czar de Moscóvia, permitindo que ele veja a evidência da existência da Ilha das Baleias!#
-Csar Aleksay III#
+18120#Visitante Trazido pelo Vento Norte 2###
+Decidimos obter informações sobre Isgard no Palácio Real de Prontera. Na Mansão de Varmundt, siga as orientações de <NAVI>[Crux]<INFO>ba_in01,386,110,0,101,0</INFO></NAVI> e vá até o Palácio Real de Prontera.#
+Para o Palácio Real de Prontera#
 
-18121#Shafka###
-Se você quiser um chapéu Shafka, traga os materiais solicitados pela Irina para que ela possa fazer um para você!#
-20 Nine Tails, 10 Yarn, 10 Soft Silk, 20 Sea-otter Fur, 1 Spool#
+18121#Caixa do Guardião e Convite 1###
+Lehar disse que precisamos obter a permissão dos guardiões de Isgard por meio da Caixa do Guardião. Decidimos usar a caixa guardada no quarto de <NAVI>[Nihill]<INFO>prt_cas,331,343,0,101,0</INFO></NAVI>, no Palácio Real de Prontera, para receber um convite.#
+Converse com Nihill no quarto de Nihill#
+
+18122#Caixa do Guardião e Convite 2###
+Recebi o convite. Vamos voltar à <NAVI>[Mansão de Varmundt]<INFO>ba_maison,186,251,0,101,0</INFO></NAVI> e nos juntar ao grupo.#
+Para a Mansão de Varmundt#
+
+18123#Caixa do Guardião e Convite 3###
+Ao chegar à Mansão de Varmundt, disseram que podemos partir a qualquer momento do <NAVI>[hangar de aeronaves]<INFO>ba_in01,30,264,0,101,0</INFO></NAVI>. Embarque na aeronave e entregue o convite a Saenggangi.#
+Converse com Saenggangi#
+
+18124#Caixa do Guardião e Convite 5###
+A aeronave Ifho recebeu a magia protetora do convite e aterrissou em segurança em Isgard. Desembarque, observe os arredores e siga as orientações de <NAVI>[Lehar]<INFO>jor_tail,221,53,0,101,0</INFO></NAVI>.#
+Converse com Lehar#
+
+18125#Para o Castelo de Gelo###
+Seguindo as orientações de Lehar, decidimos ir a um lugar chamado Castelo de Gelo. Ao chegar, peça a <NAVI>[Lehar]<INFO>icas_in,141,216,0,101,0</INFO></NAVI> que apresente os guardiões.#
+Converse com Lehar#
+
+18126#Encontro no Castelo de Gelo###
+No Castelo de Gelo de Isgard, os guardiões Leon e Aurelie vigiavam o selo junto com os Arwin. Continue conversando com <NAVI>[Leon]<INFO>icas_in,138,220,0,101,0</INFO></NAVI>.#
+Converse com Leon#
+
+18127#Encontre a Patrulha Arwin.###
+Leon aconselhou que seria útil encontrar a Patrulha Arwin, que patrulha regularmente a região de Isgard. Vamos encontrar <NAVI>[Capitão da Patrulha]<INFO>icecastle,23,115,0,101,0</INFO></NAVI> na entrada do Castelo de Gelo.#
+Converse com a Patrulha Arwin#
+
+18128#Encontre Voglinde.###
+Voglinde parece ter algumas perguntas. Vamos encontrar <NAVI>[Voglinde]<INFO>icas_in,162,224,0,101,0</INFO></NAVI>, que está esperando dentro do Castelo de Gelo.#
+Converse com Voglinde#
+
+18129#Caixa do Guardião e Convite 4###
+Converse com os companheiros a bordo da aeronave Ifho até a chegada.#
+Converse com os companheiros#
+
+18130#Obtenção de Materiais de Pesquisa para Vellgunde###
+Vellgunde, que pesquisa a Maldição de Jormungand no Castelo de Gelo, precisa de uma grande quantidade de Núcleo Mágico Purificado como material. Purifique com Friederike as pedras mágicas inferiores obtidas ao derrotar Rgan e depois leve-as para Vellgunde.#
+3 Núcleo Mágico Purificado#
+
+18131#Obtenção de Materiais de Pesquisa para Vellgunde - Em espera###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível realizá-la novamente. A missão pode ser recebida de <NAVI>[Vellgunde]<INFO>icas_in,185,63,0,101,0</INFO></NAVI>, no Castelo de Gelo.#
+Reinicia às 04h#
+
+18132#Precisamos de Ajuda.###
+Lehar, que encontrei no saguão do Castelo de Gelo, disse que Leon está procurando alguém para ajudá-lo com urgência. Vamos encontrar <NAVI>[Veleon]<INFO>icas_in,42,252,0,101,0</INFO></NAVI> e ouvir o que ele tem a dizer.#
+Converse com Leon#
+
+18133#A História de Leon###
+Vamos discutir em detalhes com <NAVI>[Miriam]<INFO>icas_in,48,252,0,101,0</INFO></NAVI> como resgatar as pessoas perdidas que devem estar vagando pelas severas planícies geladas de Isgard.#
+Converse com Miriam#
+
+18134#Busca por Desaparecidos - Geleira Congelada###
+Decidimos dividir as áreas com Miriam para procurar e resgatar os habitantes do continente sequestrados para Isgard. Procure desaparecidos na Geleira de Escamas Congeladas.#
+Procure desaparecidos#
+
+18135#Busca por Desaparecidos - Planície Congelada###
+Decidimos dividir as áreas com Miriam para procurar e resgatar os habitantes do continente sequestrados para Isgard. Procure desaparecidos na Planície de Escamas Congeladas.#
+Procure desaparecidos#
+
+18136#Resgate dos Desaparecidos Concluído###
+Encontrei um habitante do continente de Midgard que havia sido sequestrado para Isgard e estava perdido. Volte ao Castelo de Gelo e entregue-o a <NAVI>[Maram]<INFO>icas_in,262,179,0,101,0</INFO></NAVI>.#
+Converse com Maram#
+
+18137#Busca por Desaparecidos - Em espera###
+Decidimos interromper por enquanto a busca pelos habitantes do continente sequestrados para Isgard. Quando chegar a hora combinada, procure <NAVI>[Miriam]<INFO>icas_in,48,252,0,101,0</INFO></NAVI> para dividir novamente as áreas de busca.#
+Reinicia às 04h#
+
+18138#Um Modo Especial de Sobreviver###
+<NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI>, que encontrei no Ninho da Serpente, pediu que eu recupere núcleos mágicos dos pecadores que não receberam a graça. Parece que os pecadores são Regan Primitivo e Regan de Nível Mais Baixo. Derrote-os e recupere 10 Núcleo Mágico Inferior de Regan.#
+10 Núcleo Mágico Inferior de Regan#
+
+18139#Nosso Precioso Alimento###
+<NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI>, que encontrei no Ninho da Serpente, ainda quer recuperar o poder mágico dos pecadores. Derrote Regan Primitivo e Regan de Nível Mais Baixo e recupere 30 Núcleo Mágico Inferior de Regan.#
+30 Núcleo Mágico Inferior de Regan#
+
+18140#Nosso Precioso Alimento - Em espera###
+No Ninho da Serpente de Isgard, os núcleos mágicos parecem servir como alimento e precisam ser coletados todos os dias. Se tiver devoção, ajude <NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI> novamente quando algum tempo tiver passado.#
+Reinicia às 04h#
+
+18141#Passatempo Refinado###
+<NAVI>[Berbergand]<INFO>jor_nest,37,75,0,101,0</INFO></NAVI>, que fabrica acessórios como passatempo no Ninho da Serpente, pediu que eu reúna materiais. São necessários 10 de cada: Calapi, líquido fluorescente, Flor-Isca de Bolhas e Casca Fina e Resistente. Eles podem ser obtidos dos monstros das planícies glaciais.#
+Após coletar os materiais, converse com Berbergand#
+
+18142#Passatempo Refinado - Em espera###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível realizá-la novamente. A missão pode ser recebida de <NAVI>[Berbergand]<INFO>jor_nest,37,75,0,101,0</INFO></NAVI> no Ninho da Serpente.#
+Reinicia às 04h#
+
+18143#Por um Trabalho Seguro###
+<NAVI>[Hanadeosaragand]<INFO>jor_nest,257,26,0,101,0</INFO></NAVI>, responsável pela coleta de gelo no Ninho da Serpente, disse que está difícil coletar gelo por causa da ameaça de criaturas externas. Derrote Limacina e Calamaring que vagam pela geleira.#
+Derrote os monstros da região glacial#
+
+18144#Por um Trabalho Seguro - Em espera###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível realizá-la novamente. A missão pode ser recebida de <NAVI>[Hanadeosaragand]<INFO>jor_nest,257,26,0,101,0</INFO></NAVI> no Ninho da Serpente.#
+Reinicia às 04h#
 
 18218#Terra Gloria###
 Por favor, venha até a entrada do  <NAVI>[Laboratório Clandestino]<INFO>que_swat,145,57,0,101,0</INFO></NAVI>. Tenho algo urgente para dizer.#
@@ -27915,7 +28747,7 @@ O Bardo <NAVI>[Riot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>, que encontrei 
 #
 
 19122#Canção do Menestrel (2)###
-Riot... Quer dizer que não vai ensinar facilmente? Um lugar acessível por cipós? Niflheim? Ele quer que eu consiga cinco ovos de Yhelle em Niflheim?  Procure Yhelle em Niflheim, consiga cinco <ITEM>[ovos]<INFO>574</INFO></ITEM> e leve-os a <NAVI>[Riot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>.  Regiões onde Yhelle aparece <NAVI>[Local]<INFO>niflheim,239,70,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,185,205,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,85,203,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,149,81,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,209,144,0,101,0</INFO></NAVI> ^FF0000? Na cidade dos mortos, não há orientação de caminho para sair.^000000#
+Riot... Quer dizer que não vai ensinar facilmente? Um lugar acessível por cipós? Niflheim? Ele quer que eu consiga cinco ovos de Yhelle em Niflheim?  Procure Yhelle em Niflheim, consiga cinco <ITEM>[Ovos]<INFO>574</INFO></ITEM> e leve-os a <NAVI>[Riot]<INFO>morocc_in,169,72,0,101,0</INFO></NAVI>.  Regiões onde Yhelle aparece <NAVI>[Local]<INFO>niflheim,239,70,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,185,205,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,85,203,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,149,81,0,101,0</INFO></NAVI>/<NAVI>[Local]<INFO>niflheim,209,144,0,101,0</INFO></NAVI> ^FF0000Na cidade dos mortos, não há orientação de caminho para sair.^000000#
 5 ovos de Yhelle#
 
 19123#Canção do Menestrel (2)###
@@ -27963,11 +28795,11 @@ Para receber de Kellasus a transmissão da técnica de Homúnculo, parece que pr
 #
 
 19134#Bioética (3)###
-Skrajjad apresentou Keshibien, que conhece em detalhes a habilidade ^FF0000Despertar Homunculus^000000.  Pergunte a <NAVI>[Keshibien]<INFO>lhz_in01,204,138,0,101,0</INFO></NAVI> sobre Despertar Homunculus.#
+Skrajjad apresentou Keshibien, que conhece em detalhes a habilidade ^FF0000Despertar Homunculus^000000.  Pergunte a <NAVI>[Keshibian]<INFO>lhz_in01,204,138,0,101,0</INFO></NAVI> sobre Despertar Homunculus.#
 #
 
 19135#Bioética (4)###
-Por fim, Keshibien apresentou Broncher, que conhece em detalhes a habilidade ^4D4DFFRessuscitar Homúnculo^000000.  Pergunte a <NAVI>[Broncher]<INFO>lhz_in02,278,273,0,101,0</INFO></NAVI> sobre Ressuscitar Homunculus.#
+Por fim, Keshibian apresentou Broncher, que conhece em detalhes a habilidade ^4D4DFFRessuscitar Homúnculo^000000.  Pergunte a <NAVI>[Broncher]<INFO>lhz_in02,278,273,0,101,0</INFO></NAVI> sobre Ressuscitar Homunculus.#
 #
 
 19136#Bioética (5)###

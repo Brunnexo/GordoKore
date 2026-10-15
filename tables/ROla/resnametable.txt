@@ -2241,3 +2241,4 @@ pbse.gnd#cmd_bhole.gnd#
 pbse.gat#cmd_bhole.gat#
 pbse.rsw#cmd_bhole.rsw#
 유저인터페이스\map\pbse.bmp#유저인터페이스\map\cmd_bhole.bmp#
+1@iwp.gnd#1@iwp.gnd#

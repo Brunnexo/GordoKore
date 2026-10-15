@@ -2489,7 +2489,7 @@ A Floresta do Labirinto, um inferno caótico que havia engolido inúmeros aventu
 Only numbers can be input.#
 You cannot withdraw while exchange window and shop are activated.#
 Atalho#
-Item Comparison#
+Comparação de Itens#
 Esta Arma não é adequada para o tipo de Projétil equipado.#
 Este Projétil não é adequado para o tipo de Arma equipada.#
 Você não cadastrou nenhum item para venda. Por favor, cadastre os itens que deseja vender.#

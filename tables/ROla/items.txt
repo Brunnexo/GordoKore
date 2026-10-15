@@ -9671,6 +9671,14 @@
 24770#Manopla Sombria de EXP#
 24792#Manopla Sombria Magistral#
 24793#Escudo Sombrio Magistral#
+24872#Malha Sombria POD#
+24873#Greva Sombria POD#
+24874#Malha Sombria CRV#
+24875#Greva Sombria CRV#
+24876#Colar Sombrio CON#
+24877#Brinco Sombrio CON#
+24878#Colar Sombrio STA#
+24879#Brinco Sombrio STA#
 24883#Malha Sombria FEI#
 24884#Greva Sombria FEI#
 24885#Colar Sombrio CON#
@@ -11555,7 +11563,7 @@
 31906#Gorro do Gatinho Amoroso#
 31907#Capuz Felino#
 31911#Jardim Miniatura#
-31912#Véu Obscuro#
+31912#[Visual] Véu da Llorona#
 31916#[Visual] Gravata Chique#
 31921#[Visual] Mechas Onduladas (Rosa)#
 31923#Bebê Polar#
@@ -11589,6 +11597,7 @@
 31970#[Visual] Peruca com Rabo de Cavalo (Castanho)#
 31971#[Visual] Peruca com Rabo de Cavalo (Branco)#
 31974#[Visual] Melofone#
+31975#Visual Batata-doce na Boca#
 32000#Lança de Oxum#
 32005#Bardiche Ilusional#
 32006#Lança de Xangô #
@@ -12128,6 +12137,7 @@
 101180#Caderno de Talentos#
 101181#Combinador da Recarga#
 101182#Combinador dos Feitiços#
+101186#Aprimoramento de Arma Glacial#
 101189#Martelo de Refino Primordial VI#
 101190#Reformador Primordial VI#
 101194#Pacote de Cordões#
@@ -12159,6 +12169,7 @@
 101367#[Especial] Poção Menor de Mana#
 101389#Martelo de Refino da Fé#
 101390#Martelo de Refino do Relógio#
+101399#Envelope de Encantos#
 101456#Máscaras Dínamo Selecionáveis#
 101457#Cachecóis Dínamo Selecionáveis#
 101470#Poção Menos Selecionáveis#
@@ -12167,6 +12178,16 @@
 101482#Cubo Reforçado do Bastão#
 101483#Cubo Reforçado da Faca#
 101484#Favor Divino#
+101542#Penetrante Selecionável#
+101543#Caixa de Brinco Penetrante#
+101544#Caixa de Colar Penetrante#
+101545#Caixa de Malha Penetrante#
+101546#Caixa de Greva Penetrante#
+101547#Tempestivo Selecionável#
+101548#Caixa de Brinco Tempestivo#
+101549#Caixa de Colar Tempestivo#
+101550#Caixa de Malha Tempestiva#
+101551#Caixa de Greva Tempestiva#
 101552#Durável Selecionável#
 101553#Caixa de Manopla Durável#
 101554#Caixa de Escudo Durável#
@@ -12175,6 +12196,10 @@
 101557#Caixa de Escudo Pontual#
 101564#Caderno de Atributos#
 101565#Caixa de Fascículos Selecionáveis#
+101637#Dispositivo de Aprimoramento do Glaciar Sombrio#
+101638#Aprimoramento de Arma do Glaciar Sombrio#
+101639#Extrator do Glaciar Sombrio#
+101653#Caixa da Fé#
 101665#Combinador de EXP II#
 101666#Caixa de Cadernos#
 101670#Pano para Lentes#
@@ -12192,6 +12217,12 @@
 101727#Mastodonte Selecionável#
 101728#Feitiço Selecionável#
 101783#Baú Prateado da Lili (5 dias)#
+101806#Fugaz Selecionável#
+101807#Caixa de Manopla Fugaz#
+101808#Caixa de Escudo Fugaz#
+101862#Infinito Selecionável#
+101863#Caixa de Manopla do Infinito#
+101864#Caixa de Escudo do Infinito#
 101942#Combinador Antigo de Pedras Visuais#
 101947#[Conquista] Goma de Mascar#
 101948#[Conquista] Cx. Goma de Mascar (10)#
@@ -12202,6 +12233,13 @@
 102073#Martelo de Refino Infernal#
 102213#Reformador Primordial Selecionável#
 102214#Martelos Primordiais Selecionáveis#
+102217#Ancestrais Selecionáveis I#
+102218#Ancestrais Selecionáveis II#
+102219#Ancestrais Selecionáveis III#
+102220#Ancestrais Selecionáveis IV#
+102221#Ancestrais Selecionáveis V#
+102222#Ancestrais Selecionáveis VI#
+102223#Ancestrais Selecionáveis VII#
 102224#Reformador Ancestral#
 102246#Cartão VIP Premium#
 102249#Presente VIP Premium#
@@ -12209,6 +12247,7 @@
 102278#Moeda Poderosa de Loki#
 102342#Fofoca de Loki#
 102343#Moeda Certeira de Loki#
+102485#Caixa de Âmagos Sombrios#
 102544#Embalagem de Minérios#
 102545#Embalagem de Virtudes#
 102546#Embalagem de Pecados#
@@ -12466,6 +12505,9 @@
 105386#3º Lugar do Torneio de Clãs#
 105387#Prêmio de Participação do Torneio de Clãs#
 105388#Prêmio de Consolação do Torneio de Clãs#
+105407#Bolsa Gastronômica Pequena#
+105408#Bolsa Gastronômica Média#
+105409#Bolsa Gastronômica Grande#
 105430#Artefato Oval Titereiro#
 105431#[Evento] Artefato Oval Titereiro#
 105432#Bolsa Sangrenta#
@@ -13028,6 +13070,21 @@
 108234#Caixa de 500% (7)#
 108235#Caixa de 1.000% (7)#
 108236#[Set] Caixa de Manuais#
+108311#Artefato Oval Gourmet#
+108312#[Evento] Artefato Oval Gourmet#
+108313#Bolsa de Artefato Oval Gourmet#
+108314#Cubo Sombrio Talentoso#
+108315#Caixa Consagrada#
+108316#[Out] Pacote de Caça 1#
+108317#[Out] Pacote de Caça 2#
+108318#[Out] Caixa de Combate#
+108319#[Out] Caixa de Consumíveis#
+108320#Pacote de Pedra Visual XVI#
+108321#Grande Pacote de Pedra Visual XVI#
+108322#Pacote Gastronômico I#
+108323#Pacote Gastronômico II#
+108324#Pacote Gastronômico III#
+108333#Pacote Especial ROS Festa 2026#
 200001#Cx. Expansor de Inventário (10)#
 200031#[Edição Limitada] Pacote MiauMiau I#
 200074#[Edição Limitada] Pacote de Combate#
@@ -13357,6 +13414,30 @@
 300295#Carta General Orc#
 300296#Carta Sieglouse#
 300297#Carta Rei Goblin#
+300359#Carta Bola de Gelo#
+300360#Carta Alga Brilhante#
+300361#Carta Canudo de Gelo#
+300362#Carta Flor que Não Congela#
+300363#Carta Remakina#
+300364#Carta Calamaring#
+300365#Carta Rgan Primitivo#
+300366#Carta Rgan Inferior#
+300367#Carta Rgan de Baixo Nível#
+300368#Carta Rgan Intermediário#
+300369#Carta Rgan Primitivo Descartado#
+300370#Carta Rgan Intermediário Descartado#
+300371#Carta Calamaring da Caverna#
+300372#Carta Imobilizador da Caverna#
+300373#Carta Filhote de Hallucigenia#
+300374#Carta Hallucigenia#
+300375#Carta Dolocaris de Um Olho#
+300376#Carta Dolocaris de Dois Olhos#
+300377#Carta Ultra Remakina#
+300378#Carta Juncea da Simulação#
+300379#Carta Rgan de Alto Nível Modificado#
+300380#Carta Rgan Intermediário Enredado#
+300381#Carta Caçador de Corações AT#
+300382#Carta Aquila#
 300385#Gráfico: Popstar#
 300419#Gráfico: Camélia#
 300618#Carta Kung Fu Panda#
@@ -13992,6 +14073,12 @@
 311089#T.CRÍT +2#
 311090#C.Mais +1#
 311091#C.Mais +2#
+311138#Feitiço da Flor de Gelo (Sopro Dracônico)#
+311144#Feitiço da Flor de Gelo (Canhão Propulsor)#
+311145#Feitiço da Flor de Gelo (Bumerangue Vulcano)#
+311146#Feitiço da Flor de Gelo (Golpe Tornado)#
+311147#Feitiço da Flor de Gelo (Tornado Infernal)#
+311149#Feitiço da Flor de Gelo (Explosão Ácida)#
 311367#Cinzas do Guerreiro 1#
 311368#Cinzas do Guerreiro 2#
 311369#Cinzas do Guerreiro 3#
@@ -14018,7 +14105,7 @@
 311391#Pedra do Mágico 3#
 311392#Pedra do Mágico 4#
 311393#Pedra do Mágico 5#
-311394#Atraso pós-ataque Nv. 5#
+311394#Anti-Atraso 5#
 311395#Pedra da Precisão 1#
 311396#Pedra da Precisão 2#
 311397#Pedra da Precisão 3#
@@ -14029,6 +14116,22 @@
 311402#Pedra da Variação 3#
 311403#Pedra da Variação 4#
 311404#Pedra da Variação 5#
+311443#Feitiço da Flor de Neve (Sopro Dracônico)#
+311444#Feitiço da Flor de Neve (Explosão de Faísca)#
+311445#Feitiço da Flor de Neve (Laser Triplo)#
+311446#Feitiço da Flor de Neve (Golpe Poderoso)#
+311447#Feitiço da Flor de Neve (Pó Explosivo)#
+311448#Feitiço da Flor de Neve (Mayhemic Thorns)#
+311449#Feitiço da Flor de Neve (Grau Físico) Nv. 1#
+311450#Feitiço da Flor de Neve (Grau Físico) Nv. 2#
+311451#Feitiço da Flor de Neve (Grau Físico) Nv. 3#
+311452#Feitiço da Flor de Neve (Grau Físico) Nv. 4#
+311453#Feitiço da Flor de Neve (Grau Físico) Nv. 5#
+311454#Feitiço da Flor de Neve (Grau Mágico) Nv. 1#
+311455#Feitiço da Flor de Neve (Grau Mágico) Nv. 2#
+311456#Feitiço da Flor de Neve (Grau Mágico) Nv. 3#
+311457#Feitiço da Flor de Neve (Grau Mágico) Nv. 4#
+311458#Feitiço da Flor de Neve (Grau Mágico) Nv. 5#
 311926#Gráfico: Rosas Românticas#
 312189#POD +3#
 312190#STA +3#
@@ -14274,6 +14377,7 @@
 400759#Gorro Felino Mágico#
 400789#[Visual] Consecrate Fides Vermelha#
 400790#[Visual] Bravura dos Einherjar#
+400791#Chapéu da Banda Infernal-LT#
 400793#[Visual] Coroa Satânica#
 400794#[Visual] Coroa de Mil Rosas#
 400799#[Visual] Capuz de Kumamon#
@@ -14390,6 +14494,9 @@
 410201#[Visual] Livro dos Mortos#
 410202#Lambreta Elétrica do Poring#
 410212#[Visual] Rei Dragão#
+410213#Orelhas Sanguinárias#
+410215#Orelhas Espirituais#
+410216#Orelhas Abissais#
 410217#[Visual] Cartas Mágicas#
 410218#[Visual] Bola de Futebol#
 410219#[Visual] Coelho Gigante#
@@ -14853,6 +14960,7 @@
 480083#Sobrepeliz das Marés#
 480084#Manto De Fafnir#
 480085#Manto Maligno#
+480087#Escudo Formoso#
 480088#Manto Ultio-OS#
 480090#Sobrepeliz do Lobo Cinzento#
 480091#Capa do Lobo Cinzento#
@@ -15146,6 +15254,15 @@
 491014#Anulus Ira#
 491084#Amuleto de Lobo Físico#
 491085#Amuleto de Lobo Mágico#
+491111#Colar Consagrado: Coragem#
+491112#Colar Consagrado: Amizade#
+491113#Colar Consagrado: Pureza#
+491114#Colar Consagrado: Conhecimento#
+491115#Colar Consagrado: Confiança#
+491116#Colar Consagrado: Luz#
+491117#Colar Consagrado: Amor#
+491118#Colar Consagrado: Esperança#
+491119#Colar Consagrado: Destino#
 500003#Vingadora Ancestral#
 500004#Lâmina Ancestral#
 500005#Lâmina do Infinito#
@@ -15179,6 +15296,8 @@
 500045#Espada Malevolente#
 500046#Paenitentia Orbis#
 500051#Rapieira-OSAD#
+500054#Espada do Glaciar Sombrio#
+500055#Espada Básica do Glaciar Sombrio#
 500063#Sabre Celestial#
 500072#Espada Infernal#
 500109#Espada Dínamo#
@@ -15218,6 +15337,8 @@
 510070#Faca Ancestral#
 510071#Faca Primordial#
 510072#Faca Primordial-LT#
+510075#Adaga de Renegado do Glaciar Sombrio#
+510076#Adaga Básica do Glaciar Sombrio#
 510091#Púgio Infernal#
 510206#Aikuchi-OS#
 510207#Peixeira#
@@ -15228,6 +15349,7 @@
 520010#Machado do Grupo do Éden#
 520011#Machado Ferreiro do Éden#
 520012#Machado Mecânico do Éden#
+520021#Machado do Glaciar Sombrio#
 530002#Arpão Glutonia#
 530005#Lança de Apoio Hoplita#
 530006#Lança Primordial#
@@ -15242,6 +15364,7 @@
 530019#Lança Primordial-LT#
 530023#Pique Solidificado#
 530031#Propulsora-OSAD#
+530034#Lança de Uma Mão do Glaciar Sombrio#
 530045#Lança Celestial#
 530067#Lança Dínamo#
 540004#Caderno Acedia#
@@ -15278,6 +15401,7 @@
 540048#Enciclopédia Primordial-LT#
 540051#Placa-Mãe-OSAD#
 540053#Bíblia Infernal#
+540056#Livro do Glaciar Sombrio#
 540059#Livro Infernal#
 540099#Caderno Dínamo#
 540127#Livro Muscular#
@@ -15340,6 +15464,8 @@
 550080#Bastão Ancestral#
 550081#Bastão Primordial#
 550082#Bastão Primordial-LT#
+550089#Varinha do Glaciar Sombrio#
+550090#Cauda de Raposa do Glaciar Sombrio#
 550115#Cauda de Gato Infernal#
 550160#Cetro Dínamo#
 550161#Báculo Dínamo#
@@ -15370,6 +15496,8 @@
 560027#Soqueira Primordial-LT#
 560030#Punho Consertado#
 560034#Incendiária-OSAD#
+560036#Manopla Infernal#
+560037#Soco do Glaciar Sombrio#
 560073#Punho Dínamo#
 570002#Ocarina Ancestral#
 570005#Guitarra Pigritia#
@@ -15388,6 +15516,7 @@
 570023#Harpa Ressoante do Éden#
 570027#Ocarina Primordial-LT#
 570028#Violino Consertado#
+570032#Violino do Glaciar Sombrio#
 570037#Harpa Celestial#
 570079#Violino Dínamo#
 570083#Violino Aprimorável#
@@ -15408,6 +15537,7 @@
 580023#Chicote Ressonante do Éden#
 580027#Concertina Primordial-LT#
 580028#Chicote Consertado#
+580033#Chicote do Glaciar Sombrio#
 580038#Chicote Celestial#
 580080#Chicote Dínamo#
 580083#Chicote Aprimorável#
@@ -15438,6 +15568,8 @@
 590043#Safira-OSAD#
 590044#Ultio-OSAD#
 590045#Clava Celestial#
+590047#Maça do Glaciar Sombrio#
+590048#Maça de Mecânico do Glaciar Sombrio#
 600004#Bastarda Ancestral#
 600008#Lâmina Hypocritae#
 600009#Espada Primordial#
@@ -15453,6 +15585,7 @@
 600023#Espada Primordial-LT#
 600024#Bastarda Primordial-LT#
 600028#Claymore-OSAD#
+600030#Espada de Duas Mãos do Glaciar Sombrio#
 600066#Claymore Dínamo#
 610003#Jur Ancestral#
 610006#Metal Avaritia#
@@ -15476,6 +15609,8 @@
 610034#Jur Primordial-LT#
 610035#Katar Malevolente#
 610039#Meuchler-OSAD#
+610041#Katar do Glaciar Sombrio#
+610045#Katar Celestial#
 610078#Katar Dínamo#
 620003#Machado de Apoio Corporal#
 620004#Cutelo Primordial#
@@ -15488,6 +15623,7 @@
 620015#Cutelo Primordial-LT#
 620016#Machado Malevolente#
 620018#Blasti-OSAD#
+620019#Machado de Mecânico do Glaciar Sombrio#
 620046#Machado Dínamo#
 630003#Perfurador Luxuriae#
 630006#Brionac Ilusional#
@@ -15498,6 +15634,7 @@
 630013#Arpão Vivatus Fides#
 630014#Lança Cavaleira do Éden#
 630015#Lança Rúnica do Éden#
+630019#Lança do Glaciar Sombrio#
 630027#Tridente Celestial#
 640004#Báculo Ancestral#
 640005#Báculo Superbia#
@@ -15520,6 +15657,8 @@
 640027#Cetro Primordial-LT#
 640028#Báculo Primordial-LT#
 640031#Báculo Solidificado#
+640034#Cajado do Glaciar Sombrio#
+640036#Foice Infernal#
 640037#Báculo Celestial#
 640059#Cajado Dínamo#
 650003#Roda Furiae#
@@ -15535,6 +15674,8 @@
 650021#Shuriken Vivatus Fides#
 650022#Huuma Vivatus Fides#
 650024#Shuriken Huuma Primordial-LT#
+650028#Shuriken Huuma do Glaciar Sombrio#
+650034#Shuriken Celestial#
 650056#Huuma Dínamo#
 700003#Gakkung Ancestral#
 700007#Arco Superbia#
@@ -15574,6 +15715,7 @@
 700054#Virtual-OSAD#
 700055#MH-P89-OSAD#
 700056#AC-B44-OSAD#
+700059#Arco do Glaciar Sombrio#
 700066#Arco Infernal#
 700110#Arco Dínamo#
 700111#Balista Dínamo#
@@ -15589,6 +15731,7 @@
 800011#Paenitentia Flama#
 800012#Revólver Vivatus Fides#
 800013#Revólver Primordial-LT#
+800015#Revólver do Glaciar Sombrio#
 810000#Rifle Luxuriae#
 810001#Rifle Primordial#
 810002#Rifle Adulter Fides#
@@ -15599,6 +15742,7 @@
 810008#Rifle Vivatus Fides#
 810009#Rifle Primordial-LT#
 810013#HR-S55-OSAD#
+810015#Rifle do Glaciar Sombrio#
 820000#Escopeta Luxuriae#
 820001#Escopeta Primordial#
 820002#Espingarda Adulter Fides#
@@ -15606,6 +15750,7 @@
 820005#Retalhador Descartado#
 820006#Espingarda Vivatus Fides#
 820007#Escopeta Primordial-LT#
+820011#Espingarda do Glaciar Sombrio#
 830001#Metralhadora Luxuriae#
 830002#Gatling Primordial#
 830003#Metralhadora Adulter Fides#
@@ -15615,6 +15760,7 @@
 830010#Paenitentia Veloci#
 830011#Metralhadora Vivatus Fides#
 830012#Gatling Primordial-LT#
+830015#Metralhadora Gatling do Glaciar Sombrio#
 830042#Metralhadora Dínamo#
 840000#Arsenal Luxuriae#
 840001#Lança-Granadas Primordial#
@@ -15624,6 +15770,7 @@
 840006#Paenitentia Ruina#
 840007#Granadeira Vivatus Fides#
 840008#Lança-Granadas Primordial-LT#
+840010#Lança-Granadas do Glaciar Sombrio#
 1000000#IDTest_ÀâÅÛ#
 1000006#Ticket de Armadura de Apoio#
 1000008#Pedra de Atirador de Elite II (Topo)#
@@ -16008,7 +16155,7 @@
 1000672#Pedra de Feiticeiro (Topo)#
 1000673#Pedra de Feiticeiro (Meio)#
 1000674#Pedra de Feiticeiro (Baixo)#
-1000675#Pedra de Pós (Dual)#
+1000675#Pedra de Demora (Dual)#
 1000676#Pedra de CRV (Dual)#
 1000680#Pedaço de Chumbo#
 1000681#Engrenagem de Relógio#
@@ -16027,6 +16174,12 @@
 1000695#Esboço de Varinha#
 1000696#Esboço de Rabo-de-Gato#
 1000697#Esboço de Cauda de Gato#
+1000757#Pedra Mágica da Flor de Gelo (Sopro Dracônico)#
+1000763#Pedra Mágica da Flor de Gelo (Canhão Propulsor)#
+1000764#Pedra Mágica da Flor de Gelo (Bumerangue Vulcano)#
+1000765#Pedra Mágica da Flor de Gelo (Golpe Tornado)#
+1000766#Pedra Mágica da Flor de Gelo (Tornado Infernal)#
+1000768#Pedra Mágica da Flor de Gelo (Explosão Ácida)#
 1000815#Ticket de Mascote Zumbichano#
 1000855#Pedra de Critical (Dual)#
 1000856#Pedra de CON (Dual)#
@@ -16039,6 +16192,15 @@
 1000924#Marcador Fantástico#
 1000925#Cartão Fantástico#
 1000988#Passe do Episódio 19#
+1001029#Pedra da Fonte Mágica Corrompida#
+1001030#Pedra da Fonte Mágica Purificada#
+1001031#Cristal Mágico Corrompido#
+1001032#Cristal Mágico Purificado#
+1001033#Magia Corrompida#
+1001034#Extrato de Pedra Mágica da Flor de Neve#
+1001035#Extrato de Pedra Mágica Brilhante da Flor de Neve#
+1001036#Extrato de Pedra Mágica Radiante da Flor de Neve#
+1001037#Extrato Glacial#
 1001055#Pedra de POD (Dual)#
 1001060#Ticket de Mascote Pesar Noturno#
 1001061#Ticket de Mascote Hodremlin#
@@ -16111,6 +16273,8 @@
 1002239#Pedra de Pegada: Pegadas do Banguela (Capa#
 1002240#Pedra de Pegada: Pulinhos do Banguela (Capa)#
 1002293#Pedra Gráfica: Ventania (Baixo)#
+1002368#Moeda Gastronômica de Prata#
+1002369#Moeda Gastronômica de Ouro#
 1002381#Pólvora Midga#
 1002382#Botão Míssil Midga#
 1002585#Pedra Gráfica: Espaço Digital (Baixo)#

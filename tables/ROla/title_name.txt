@@ -36,3 +36,23 @@
 1045 Ilusionista
 1046 Maioral
 9979 Influencer
+9980 Lunar
+9981 Talento de 2020
+9982 Talento de 2019
+9983 Fã de Feira
+9984 Genial
+9985 Entusiasta
+9986 Algazarra
+9987 Barista 2019
+9988 Cineasta
+9989 Fashionista
+9990 Confiável
+9991 Temível
+9992 Talento de 2018
+9993 Cosplayer
+9994 Fã de Porings
+9995 Piadista
+9996 Barista
+9997 Titular
+9998 Pirata
+9999 Talento Nato
