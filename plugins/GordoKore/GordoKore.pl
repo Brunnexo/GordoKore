@@ -36,7 +36,7 @@
 # linha (pode ter espaco); nome de perfil so de numeros nao serve (e' o tempo). "relog teste", "relog teste 30",
 # "relog 30 teste". Perfil que nao existe: a DLL nao faz nada e responde "GKRF" + motivo, que sai no console.
 #
-# Perfil em uso: o plugin pergunta "GKFQ" (resposta 'X') e a DLL responde "GKFL" + "perfil\tindice do servidor" (o perfil do
+# Perfil em uso: o plugin pergunta "GKFQ" (resposta 'X') e a DLL responde "GKFL" + "perfil	indice do servidor" (o perfil do
 # autologin.ini em uso: o do -autologin ou o do ultimo relog; vazio = sem autologin). Outros plugins leem com
 # GordoKore::currentProfile() (lista: perfil, indice do servidor), pedem a atualizacao com GordoKore::requestProfile() e
 # podem ouvir o hook 'gordokore/profile' ({ profile => ..., server => ... }), chamado quando a resposta chega.
@@ -49,7 +49,11 @@
 # Selecao de monstros (janela no cliente, monstros de qualquer mapa da tabela do cliente):
 #   "GKMQ"                      (DLL) pede o mapa atual e as regras
 #   "GKMC" + "ID estado nome"   (DLL) muda a regra de um monstro (nome em CP1252, como o cliente mostra)
-#   "GKMS" + "mapa\nestado chave\n...\nM nameID nome\n..."  (resposta 'X', e de novo a cada troca de mapa e a cada
+#   "GKMS" + "mapa
+#                               estado chave
+#                               ...
+#                               M nameID nome
+#                               ..."  (resposta 'X', e de novo a cada troca de mapa e a cada
 #                               monstro novo na tela) mapa atual, regras (chave = ID ou nome em minusculas, CP1252,
 #                               da linha do mon_control) e os monstros ja vistos no mapa ("M": eventos, que nao
 #                               estao na tabela de navegacao do cliente) e "L mapa" (lockMap atual)
@@ -65,7 +69,8 @@
 # Cura automatica (janela no cliente: itens de cura de HP e de SP e a porcentagem de cada um):
 #   "GKHQ"                           (DLL) pede as regras
 #   "GKHC" + "H|S porcentagem s<sentar> ID..." (uma linha por tipo)  (DLL) salva HP (H) e/ou SP (S); s<N> = sitAuto_<key>_lower; IDs na ordem de prioridade
-#   "GKHS" + "H porcentagem s<sentar> ID...\nS porcentagem s<sentar> ID..."  (resposta 'X', tambem apos salvar) regras atuais
+#   "GKHS" + "H porcentagem s<sentar> ID...
+#                               S porcentagem s<sentar> ID..."  (resposta 'X', tambem apos salvar) regras atuais
 # Ficam no config.txt como um bloco useSelf_item do proprio OpenKore por tipo (nada de opcoes extras), com os itens em
 # ordem de prioridade (o OpenKore usa o primeiro da lista que houver no inventario):
 #   useSelf_item Red Potion, Orange Potion, Yellow Potion {
@@ -121,7 +126,7 @@ use constant STORAGE_NPC      => 'GKAS';
 use constant START      => 'GKGO';
 use constant RELOG      => 'GKRL';
 use constant PROFILE_QUERY => 'GKFQ';
-use constant PROFILE    => 'GKFL'; # + "perfil\tindice do servidor": o perfil do autologin em uso
+use constant PROFILE    => 'GKFL'; # + "perfil	indice do servidor": o perfil do autologin em uso
 use constant RELOG_FAIL => 'GKRF'; # + texto: a DLL nao fez o relog (perfil que nao existe, sem autologin)
 use constant NAVI       => 'GKNV';
 use constant NAVI_ARROWS   => 'GKNF'; # + mapa: o OpenKore nao achou rota, a DLL passa a seguir as setas do navi do jogo
