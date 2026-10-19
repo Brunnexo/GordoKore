@@ -1,0 +1,24 @@
+# Publica uma release com o zip que o src/Utils/Updater.pm consome.
+# Uso: git tag v1.0.0 && git push origin v1.0.0
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zip da arvore versionada (+ VERSION)
+        run: |
+          echo -n "$GITHUB_REF_NAME" > VERSION
+          git archive --format=zip --add-file=VERSION -o GordoKore.zip HEAD
+      - name: Criar release
+        run: gh release create "$GITHUB_REF_NAME" GordoKore.zip --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}

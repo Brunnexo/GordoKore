@@ -16,6 +16,15 @@ use lib "$RealBin";
 use lib "$RealBin/src";
 use lib "$RealBin/src/deps";
 
+# Auto-update (GitHub Releases). Tem que rodar antes do "use XSTools" abaixo,
+# que carrega a DLL e o Windows passa a travar os arquivos dela.
+BEGIN {
+	if (!defined($ENV{INTERPRETER}) && !$ENV{NO_AUTOSTART}) {
+		eval { require Utils::Updater; Utils::Updater::run($RealBin, $0, @ARGV); 1 }
+			or print "[update] fail: " . ($@ =~ s/\s+$//r) . ". Ignoring...\n";
+	}
+}
+
 use Time::HiRes qw(time usleep);
 use Carp::Assert;
 
