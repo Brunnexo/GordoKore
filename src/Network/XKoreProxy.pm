@@ -332,6 +332,8 @@ sub onClientData {
 	while (my $message = $self->{tokenizer}->readNext(\$type)) {
 		$msg .= $message;
 	}
+	# Empty or 1-byte client frame has no message ID; skip it so the crypt key does not advance.
+	return if length($msg) < 2;
 	$self->decryptMessageID(\$msg);
 
 	$msg = $self->{tokenizer}->slicePacket($msg, \$additional_data); # slice packet if needed

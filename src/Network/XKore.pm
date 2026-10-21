@@ -438,17 +438,17 @@ sub recv {
 	$self->{incomingPackets} .= $msg;
 
 	while ($self->{incomingPackets} ne "") {
-		last if (!length($self->{incomingPackets}));
+		# Frame = [type:1][len:2 LE][payload:len]. TCP can split a frame across
+		# recv() calls: wait for the full header and payload before consuming it.
+		last if (length($self->{incomingPackets}) < 3);
 
 		my $type = substr($self->{incomingPackets}, 0, 1);
 		my $len = unpack("v",substr($self->{incomingPackets}, 1, 2));
 
-		last if ($len > length($self->{incomingPackets}));
+		last if (length($self->{incomingPackets}) < $len + 3);
 
 		$msg = substr($self->{incomingPackets}, 3, $len);
-		$self->{incomingPackets} = (length($self->{incomingPackets}) - $len - 3)?
-			substr($self->{incomingPackets}, $len + 3, length($self->{incomingPackets}) - $len - 3)
-			: "";
+		substr($self->{incomingPackets}, 0, $len + 3, '');
 		if ($type eq "R") {
 			# Client-bound (or "from server") packets
 			my $switch = uc(unpack("H2", substr($msg, 1, 1))) . uc(unpack("H2", substr($msg, 0, 1)));
@@ -620,6 +620,8 @@ sub onClientData {
 	while (my $message = $self->{tokenizer}->readNext(\$type)) {
 		$msg .= $message;
 	}
+	# Empty or 1-byte client frame has no message ID; skip it so the crypt key does not advance.
+	return if length($msg) < 2;
 	$self->decryptMessageID(\$msg);
 
 	$msg = $self->{tokenizer}->slicePacket($msg, \$additional_data);
