@@ -110,7 +110,7 @@ use Plugins;
 use Commands;
 use Settings;
 use Encode qw(decode encode);
-use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $char $npcsList $monstersList %npcs_lut %mon_control %monsters_lut %maps_lut %portals_lut);
+use Globals qw(%items_lut %itemSlotCount_lut %pickupitems %config $net $field $char $npcsList $monstersList %npcs_lut %mon_control %monsters_lut %maps_lut %portals_lut %shop $shopstarted @articles $messageSender);
 use POSIX ();
 use Utils qw(calcPosition);
 use Log qw(message error warning);
@@ -153,6 +153,12 @@ use constant SKILLS        => 'GKKA';
 use constant COMMAND       => 'GKCM'; # comando do console (janela Situacao do GordoKore e modulos do SDK)
 use constant AI_QUERY      => 'GKAQ'; # a DLL pede o estado da IA
 use constant AI_STATE      => 'GKAI'; # "modo acao": modo 0 desligada, 1 manual, 2 ligada; acao do topo da fila
+use constant SHOP_QUERY    => 'GKOQ'; # a DLL pede a foto do jogo da loja automatica: "IDs dos itens"
+use constant SHOP_STATE    => 'GKOS'; # + a foto (11 campos separados por tab): a resposta ao SHOP_QUERY
+use constant SHOP_OPEN     => 'GKOP'; # + "titulo ID preco quantidade ID...": monta o %shop com os itens do carrinho e abre a loja
+use constant SHOP_CART     => 'GKOC'; # + "ID quantidade": inventario -> carrinho
+use constant SHOP_MESSAGE  => 'GKOM'; # + texto: mostra no console
+use constant SHOP_CONTROL  => 'GKOG'; # + start|stop|status|price: o comando gshop
 use constant SKILL_MAX     => 9;
 use constant NO_PICKUP  => 127;   # sem linha no pickupitems.txt
 use constant RECORD     => 'V l C c';
@@ -1140,7 +1146,7 @@ sub onCommand {
 
 # O cmdRelog do OpenKore recusa "relog <perfil>" com erro de sintaxe, mesmo o pedido ja' tendo ido pra DLL (onCommand).
 # Este 'relog' no lugar dele deixa passar o que e' do OpenKore e, com perfil, so repassa o tempo
-my $relogCommand;
+my ($relogCommand, $shopCommand);
 
 sub installRelogCommand {
 	return if $relogCommand;
@@ -1153,12 +1159,30 @@ sub installRelogCommand {
 		['<min>..<max>', 'sai e loga depois de um tempo aleatorio'],
 		['<perfil> [segundos]', 'sai e loga com o perfil do autologin.ini (tambem "<segundos> <perfil>")'],
 	], \&cmdRelog]);
+	$shopCommand = Commands::register(['gshop', [
+		'Loja automatica do GordoKore (a DLL decide, a loja vem de GordoKore\shop.txt na pasta do jogo).',
+		['start', 'leva o personagem ao ponto, poe os itens no carrinho e abre a loja'],
+		['stop', 'fecha a loja e devolve a IA ao modo de antes'],
+		['status', 'mostra a fase e os precos'],
+		['price', 'consulta o preco no Paramercado agora (com a loja aberta)'],
+	], \&cmdGshop]);
+}
+
+sub cmdGshop {
+	my (undef, $arg) = @_;
+	$arg = lc(defined $arg ? $arg : '');
+	$arg =~ s/^\s+|\s+$//g;
+	return error "[GordoKore] use: gshop start | stop | status | price\n" unless $arg =~ /^(?:start|stop|status|price)$/;
+	return error "[GordoKore] a DLL nao esta conectada\n" unless clientAlive();
+	sendToClient(SHOP_CONTROL . $arg);
 }
 
 sub restoreRelogCommand {
 	return unless $relogCommand;
 	Commands::unregister($relogCommand);
+	Commands::unregister($shopCommand) if $shopCommand;
 	undef $relogCommand;
+	undef $shopCommand;
 	Commands::register(['relog', [
 		'Log out then log in again.',
 		['', 'logout and login after 5 seconds'],
@@ -1224,6 +1248,68 @@ sub onMainLoop {
 	$profileAsked = 1 if !$profileAsked && requestProfile(); # o perfil em uso, uma vez, assim que o cliente estiver na linha
 	sendAiState(0);
 	flushPortals();
+}
+
+# ---------------------------------------------------------------------------
+# Loja automatica (gshop): a DLL decide tudo (GordoKore\shop.txt, corte de preco, fases); aqui so se conta o que o OpenKore ve
+# e se executa o que ela pede (mover pro carrinho, abrir a loja). Os outros comandos chegam como COMMAND (move, closeshop, ai...)
+# ---------------------------------------------------------------------------
+
+# A foto do jogo que a DLL pediu (SHOP_QUERY "IDs dos itens"): 11 campos separados por tab, na ordem do parse_shop_state da DLL
+sub shopObserve {
+	my ($ids) = @_;
+	return unless clientAlive();
+	$ids = '' unless defined $ids;
+
+	unless ($net && $net->getState() == Network::IN_GAME() && $char && $field) {
+		sendToClient(SHOP_STATE . join("\t", 0, '', (0) x 6, 2, '', ''));
+		return;
+	}
+
+	my $cart = $char->cartActive ? 1 : 0;
+	my @counts;
+	foreach my $id (grep { /^\d+$/ } split /,/, $ids) {
+		push @counts, join(':', $id, $char->inventory->sumByNameID($id, 1) // 0, $cart ? ($char->cart->sumByNameID($id, 1) // 0) : 0);
+	}
+
+	my $name = $char->{name} // '';
+	$name =~ s/[\t\r\n]//g;
+	sendToClient(SHOP_STATE . join("\t",
+		1, $field->baseName, $char->{dead} ? 1 : 0, $char->{sitting} ? 1 : 0, $shopstarted ? 1 : 0,
+		scalar(grep { $_ && ($_->{quantity} // 0) > 0 } @articles), $cart,
+		$char->{skills}{MC_VENDING}{lv} // 0, AI::state(), $name, join(',', @counts)));
+}
+
+# SHOP_OPEN "titulo ID preco quantidade ID...": o %shop que o makeShop do OpenKore le (a mesma estrutura do shop.txt) com os
+# itens do carrinho, e abre pelo openshop (a Venda e os 5 s de espera do shop_useSkill)
+sub shopOpen {
+	my ($body) = @_;
+	return unless $net && $net->getState() == Network::IN_GAME() && $char && $char->cartActive;
+	my ($title, @rest) = split /\t/, $body, -1;
+	return unless defined $title && length $title && @rest && @rest % 3 == 0;
+	my @items;
+	while (my ($id, $price, $amount) = splice(@rest, 0, 3)) {
+		next unless $id =~ /^\d+$/ && $price =~ /^\d+$/ && $amount =~ /^\d+$/;
+		my $cartItem = $char->cart->getByNameID($id, 1) or next;
+		push @items, {name => $cartItem->{name}, price => $price + 0, priceMax => 0, amount => $amount + 0};
+	}
+	unless (@items) {
+		error "[GordoKore] Loja automatica: o carrinho nao tem os itens pedidos\n";
+		return;
+	}
+	$shop{title_line} = $title;
+	$shop{items} = \@items;
+	Commands::run('openshop');
+}
+
+# SHOP_CART "ID quantidade": do inventario para o carrinho
+sub shopCart {
+	my ($body) = @_;
+	my ($id, $amount) = split /\t/, $body;
+	return unless defined $amount && $id =~ /^\d+$/ && $amount =~ /^\d+$/ && $amount > 0;
+	return unless $net && $net->getState() == Network::IN_GAME() && $char && $char->cartActive;
+	my $item = $char->inventory->getByNameID($id, 1) or return;
+	$messageSender->sendCartAdd($item->{ID}, $amount);
 }
 
 # ---------------------------------------------------------------------------
@@ -1317,6 +1403,14 @@ sub onClientSendObserved {
 		my $command = $commands{substr($msg, 4)} or return;
 		message "[GordoKore] $command\n", 'info';
 		Commands::run($command);
+	} elsif ($tag eq SHOP_QUERY) {
+		shopObserve(substr($msg, 4));
+	} elsif ($tag eq SHOP_OPEN) {
+		shopOpen(substr($msg, 4));
+	} elsif ($tag eq SHOP_CART) {
+		shopCart(substr($msg, 4));
+	} elsif ($tag eq SHOP_MESSAGE) {
+		message "[GordoShop] " . substr($msg, 4) . "\n", 'info';
 	} elsif ($tag eq COMMAND) {
 		# Campo "Enviar comando" da janela de IA e modulos do SDK (DLLs do proprio usuario): comando livre, uma linha
 		my $command = substr($msg, 4);
