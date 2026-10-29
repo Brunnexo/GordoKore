@@ -455,7 +455,7 @@ Seu acesso está bloqueado até %s. Acesse o site e consulte a lista de punidos 
  Mineral#
 210.14.27.200#
 6900#
-https://www.gnjoylatam.com/#
+gnjoyamericas.com#
 Desconectar %s#
  Forte#
  Muito Forte#
@@ -3443,7 +3443,7 @@ Nomes que contenham palavras impróprias não podem ser pesquisados.#
 O líder do grupo não pode aceitar pedidos agora.#
 Nenhum grupo encontrado.#
 Atacante#
-https://gnjoylatam.com#
+https://gamelogin.gnjoyamericas.com/#
 +#
 -#
 Já é amigo#
@@ -4383,3 +4383,5 @@ Falha ao abrir o armazém.#
 Este armazém já está em uso.#
 Aguarde um momento.#
 Número de armazém inválido.#
+Sua tentativa de conexão foi bloqueada pelas políticas de segurança do servidor.\n
+O acesso ao jogo não é permitido a partir da região identificada para sua conexão.#

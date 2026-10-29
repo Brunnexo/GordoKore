@@ -3978,9 +3978,9 @@ Aguarde 90 minutos para repetir os efeitos da <NAVI>[Fogueira Especial]<INFO>com
 Para fazer o Visual da Festa da Pipoca, traga ^4d4dff50 Piroclastos^000000 para <NAVI>[Kerline]<INFO>comodo,262,126,0,101,0</INFO></NAVI>.#
 50 Piroclastos#
 
-3364#Festival da Colheita###
-Traga para <NAVI>[Lana]<INFO>alberta,138,169,0,101,0</INFO></NAVI> os seguintes ingredientes: 1 <ITEM>[Flecha de Fogo]<INFO>1752</INFO></ITEM>, 10 <ITEM>[Raizes de Árvore]<INFO>902</INFO></ITEM> e 5 <ITEM>[Lenhas de Qualidade]<INFO>25391</INFO></ITEM> adquiridas com o monstro Lenha Viva.#
-Coletar os itens#
+3364#[Evento] Festival da Colheita###
+Traga para <NAVI>[Lana]<INFO>alberta,138,169,0,101,0</INFO></NAVI> os seguintes ingredientes: 1 <ITEM>[Flecha de Fogo]<INFO>1752</INFO></ITEM>, 10 <ITEM>[Raizes de Árvore]<INFO>902</INFO></ITEM>, e 5 <ITEM>[Lenhas de Qualidade]<INFO>25391</INFO></ITEM>, adquiridas do monstro Lenha Viva. adquiridas com o monstro Lenha Viva.#
+Colete os itens indicados.#
 
 3365#[Evento] Kadu, o Mago###
 Conheça <NAVI>[Kadu]<INFO>alberta,134,162,0,101,0</INFO></NAVI> o Mago-Bombeiro do Festival da Colheita.#
@@ -3998,85 +3998,85 @@ Fale com Songhwa#
 Reserva de Espaço#
 Reserva de Espaço#
 
-3369#[Diária] Lenha Viva###
-Elimine 10 Lenhas Vivas e traga 10 Lenhas de Qualidade para <NAVI>[Kadu]<INFO>alberta,134,162,0,101,0</INFO></NAVI> no Festival da Colheita.#
-10 Lenha de Qualidade#
+3369#[Diária] Coleta de Lenha###
+Elimine 10 Lenhas Vivas e traga 10 Lenhas de Qualidade para <NAVI>[Kadu]<INFO>alberta,134,162,0,101,0</INFO></NAVI>, no Festival da Colheita.#
+Colete 10 Lenhas de Qualidade#
 
-3370#[Espera] Lenha Viva###
+3370#[Espera] Coleta de Lenha###
 Você completou uma missão diária do Festival da Colheita. Após as 4 horas da manhã, fale com <NAVI>[Kadu]<INFO>alberta,134,162,0,101,0</INFO></NAVI>#
-Reseta 4 da manhã#
+Reinicia às 04:00#
 
-3371#[Diária] Capturando Selvagens###
-Use a Armadilha de Selvagem nos monstros [Selvagens Famintos] até conseguir 10 Selvagem Capturado. Leve-os parta <NAVI>[Serena]<INFO>alberta,152,198,0,101,0</INFO></NAVI> no Festival da Colheita.#
-10 Selvagem Capturado#
+3371#[Diária] Capturando Selvagens Famintos###
+Use a Armadilha de Selvagem nos monstros [Selvagens Famintos] até conseguir 10 Selvagem Capturado. Leve-os para <NAVI>[Serena]<INFO>alberta,152,198,0,101,0</INFO></NAVI>, no Festival da Colheita.#
+Capture 10 Selvagens Famintos#
 
-3372#[Espera] Capturando Selvagens###
+3372#[Espera] Capturando Selvagens Famintos###
 Você completou uma missão diária do Festival da Colheita. Após as 4 horas da manhã, fale com <NAVI>[Serena]<INFO>alberta,152,198,0,101,0</INFO></NAVI>#
-Reseta 4 da manhã#
+Reinicia às 04:00#
 
-3373#Comidas Típicas: Brasilis###
+3373#[Diária] Comidas Típicas: Songpyeon###
 Traga 1 <ITEM>[Sacola de Grãos]<INFO>577</INFO></ITEM>, 3 <ITEM>[Mel]<INFO>518</INFO></ITEM> e 10 <ITEM>[Erva Verde]<INFO>511</INFO></ITEM> para <NAVI>[Songhwa]<INFO>alberta,119,193,0,101,0</INFO></NAVI>#
-Grão, Mel e Erva#
+Colete ingredientes.#
 
-3374#Comidas Típicas: Louyang###
-Traga 1 <ITEM>[Condimento Amarelo]<INFO>7452</INFO></ITEM> e 3 <ITEM>[Tronco]<INFO>511</INFO></ITEM> para <NAVI>[Songhwa]<INFO>alberta,119,193,0,101,0</INFO></NAVI>#
-Tronco e Condimento#
+3374#[Diária] Comidas Típicas: Bolinhos Lunares###
+Traga 1 <ITEM>[Condimento Amarelo]<INFO>7452</INFO></ITEM> e 3 <ITEM>[Tronco]<INFO>1019 </INFO></ITEM> para <NAVI>[Songhwa]<INFO>alberta,119,193,0,101,0</INFO></NAVI>#
+Colete ingredientes.#
 
-3375#Comidas Típicas: Peru###
-Traga 10 <ITEM>[Cenoura]</ITEM>, 3 <ITEM>[Limão]</ITEM> e 1 <ITEM>[Molho Saboroso]</ITEM> para <NAVI>[Songhwa]<INFO>alberta,119,193,0,101,0</INFO></NAVI>#
-Cenoura, Limão e Molho#
+3375#[Diária] Comidas Típicas: Peru Assado###
+Traga 10 <ITEM>[Molho Saboroso]<INFO>7454</INFO></ITEM>, 3 <ITEM>[Limão]<INFO>568</INFO></ITEM> e 1 <ITEM>[Cenoura<INFO>515</INFO></ITEM> para <NAVI>[Songhwa]<INFO>alberta,119,193,0,101,0</INFO></NAVI>#
+Colete ingredientes.#
 
-3376#[Espera] Comidas Típicas###
+3376#[Espera] Comidas Típicas: Comida do Festival###
 Você completou uma missão diária do Festival da Colheita. Após as 4 horas da manhã, fale com <NAVI>[Songhwa]<INFO>alberta,119,193,0,101,0</INFO></NAVI>#
-Reseta 4 da manhã#
+Reinicia às 04:00#
 
-3377#Pedido de Louise###
+3377#[Evento] Pedido de Louise###
 <NAVI>[Louise]<INFO>alberta,115,198,0,101,0</INFO></NAVI> quer ajuda.#
-Fale com Louise#
+Fale com Louise.#
 
-3378#Alimentar o Peru###
-Perus comem comem 30 <ITEM>[Perna de Gafanhoto]<INFO>940</INFO></ITEM>, 20 <ITEM>[Erva Verde]<INFO>511</INFO></ITEM> e 20 <ITEM>[Biscoito Outonal]<INFO>11613</INFO></ITEM>#
-Coletar itens#
+3378#[Evento] Alimentar o Peru###
+Perus precisam de comida. Entregue 30 <ITEM>[Perna de Gafanhoto]<INFO>940</INFO></ITEM>, 20 <ITEM>[Erva Verde]<INFO>511</INFO></ITEM> e 20 <ITEM>[Biscoito Outonal]<INFO>11613</INFO></ITEM>#
+Colete ingredientes.#
 
 3379#[Diária] Alimentar o Peru###
-Perus comem comem 30 <ITEM>[Perna de Gafanhoto]<INFO>940</INFO></ITEM>, 20 <ITEM>[Erva Verde]<INFO>511</INFO></ITEM> e 20 <ITEM>[Biscoito Outonal]<INFO>11613</INFO></ITEM>#
-Coletar itens#
+Perus precisam de comida. Entregue 30 <ITEM>[Perna de Gafanhoto]<INFO>940</INFO></ITEM>, 20 <ITEM>[Erva Verde]<INFO>511</INFO></ITEM> e 20 <ITEM>[Biscoito Outonal]<INFO>11613</INFO></ITEM>#
+Colete ingredientes.#
 
-3380#[Diária] Alimentar o Peru###
-Perus comem comem 30 <ITEM>[Perna de Gafanhoto]<INFO>940</INFO></ITEM>, 20 <ITEM>[Erva Verde]<INFO>511</INFO></ITEM> e 20 <ITEM>[Biscoito Outonal]<INFO>11613</INFO></ITEM>#
-Reseta 4 da manhã#
+3380#[Espera] Alimentar o Peru###
+Já temos comida o suficiente por hoje. Volte amanhã para ajudar novamente <NAVI>[Louise]<INFO>alberta,115,198,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
 
 3381#[Evento] Negócios do Sr. Kim###
 <NAVI>[Sr. Kim]<INFO>alberta,119,198,0,101,0</INFO></NAVI> parece precisar de ajuda. Vamos falar com ele.#
-Fale com Sr. Kim#
+Fale com o Sr. Kim#
 
 3382#[Evento] Saudades da Família###
-Traga 2 <ITEM>[Vale-Viagem]<INFO>25392</INFO></ITEM> para <NAVI>[Seu Alberto]<INFO>alberta,119,198,0,101,0</INFO></NAVI>.#
-2 Vale-Viagem#
+Traga 2 <ITEM>[Vale-Viagem]<INFO>25392</INFO></ITEM> para <NAVI>[Sr. Kim]<INFO>alberta,119,198,0,101,0</INFO></NAVI>.#
+2 Vale-Viagem para o Sr. Kim#
 
 3383#[Diário] Saudades da Família###
-Traga 2 <ITEM>[Vale-Viagem]<INFO>25392</INFO></ITEM> para <NAVI>[Seu Alberto]<INFO>alberta,119,198,0,101,0</INFO></NAVI>.#
-2 Vale-Viagem#
+Traga 2 <ITEM>[Vale-Viagem]<INFO>25392</INFO></ITEM> para <NAVI>[Sr. Kim]<INFO>alberta,119,198,0,101,0</INFO></NAVI>.#
+2 Vale-Viagem para o Sr. Kim#
 
 3384#[Espera] Saudades da Família###
-Você completou uma missão diária do Festival da Colheita. Após as 4 horas da manhã, fale com Seu Alberto#
-Reseta 4 da manhã#
+Você completou uma missão diária do Festival da Colheita. Após as 4 horas da manhã, fale com Sr. Kim#
+Reinicia às 04:00#
 
 3385#[Evento] Pedido de Eunwol###
 <NAVI>[Eunwol]<INFO>alberta,117,198,0,101,0</INFO></NAVI> quer ajuda.#
 Fale com Eunwol#
 
-3386#[Evento] Delivery de Biscoitos###
-Traga 10 <ITEM>[Biscoitos Outonais]<INFO>11613</INFO></ITEM> para Eunwol.#
-10 Biscoitos Outonais#
+3386#[Evento] Entrega de Biscoitos###
+Traga para Eunwol 10 <ITEM>[Biscoitos Outonais]<INFO>11613</INFO></ITEM>.#
+Entregue 10 Biscoitos Outonais#
 
-3387#[DIária] Delivery de Biscoitos###
+3387#[DIária] Entrega de Biscoitos###
 Traga 10 <ITEM>[Biscoitos Outonais]<INFO>11613</INFO></ITEM> para Eunwol.#
-10 Biscoitos Outonais#
+Entregue 10 Biscoitos Outonais#
 
-3388#[Espera] Delivery de Biscoitos###
+3388#[Espera] Entrega de Biscoitos###
 Você completou uma missão diária do Festival da Colheita. Após as 4 horas da manhã, fale com Eunwol.#
-Reseta 4 da manhã#
+Reinicia às 04:00#
 
 3389#Interferência Bioeletrônica###
 A remoção do chip foi bem-sucedida, permitindo uma comunicação fluida com Eorfa.#
@@ -8402,15 +8402,15 @@ Conheci um Diabo em uma caixa.#
 Entrei para a Patrulha da Águia. Quando estiver pronto para sair em patrulha, vá até <NAVI>[Capitão da Patrulha]<INFO>icecastle,23,115,0,101,0</INFO></NAVI>.#
 #
 
-5973#[Em espera] Patrulha com Arwin###
+5973#[Espera] Patrulha da Águia###
 Com a Patrulha da Águia Concluí a patrulha na Colina de Escamas Congeladas. Para participar da patrulha novamente amanhã, procure <NAVI>[Capitão da Patrulha]<INFO>icecastle,23,115,0,101,0</INFO></NAVI>.#
-Reinicia às 04h#
+Reinicia às 04:00#
 
-5974#Patrulha com Arwin (1)###
+5974#Patrulha da Águia (1)###
 Saí em patrulha pela Colina de Escamas Congeladas com a Patrulha da Águia.#
 #
 
-5975#Patrulha com Arwin (2)###
+5975#Patrulha da Águia (2)###
 Concluí a patrulha pela Colina de Escamas Congeladas com a Patrulha da Águia. Receba a recompensa de Capitão da Patrulha, que veio nos receber.#
 #
 
@@ -8418,81 +8418,85 @@ Concluí a patrulha pela Colina de Escamas Congeladas com a Patrulha da Águia. 
 Encontrei o Oficial de Suprimentos Gorir e fui obrigado a aceitar um pedido.#
 #
 
-5977#[Em espera] Não Alimente os Animais###
-A pedido do Oficial de Suprimentos, recolhi a comida que alguém deixou para os animais selvagens. Como é relativamente simples e a recompensa não é ruim, procure <NAVI>[Oficial de Suprimentos Gorir]<INFO>icecastle,97,177,0,101,0</INFO></NAVI> novamente amanhã. - ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
-Reinicia às 04h#
+5977#[Espera] Não Alimente os Animais###
+A pedido do Oficial de Suprimentos, recolhi a comida que alguém deixou para os animais selvagens. Como a tarefa é simples e a recompensa não é ruim, procure [<NAVI>Oficial de Suprimentos Gorir<INFO>icecastle,97,177,0,101,0</INFO></NAVI>] novamente amanhã.  * Caso esteja dentro de uma Instância, a orientação de rota pode não funcionar corretamente. ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
+Reinicia às 04:00#
 
 5978#Não Alimente os Animais (1)###
-Recebi um pedido do Oficial de Suprimentos Gorir. Faça isso durante a patrulha com a Patrulha da Águia ou, quando tiver tempo, recolha em <NAVI>[Colina de Escamas Congeladas]<INFO>jor_back1,380,229,0,101,0</INFO></NAVI> a comida que alguém deixou para os animais selvagens.#
+Recebi um pedido do Oficial de Suprimentos Gorir. Durante a patrulha com a Patrulha da Águia ou, quando tiver tempo, recolha a comida que alguém deixou para os animais selvagens em <NAVI>[Colina de Escamas Congeladas]<INFO>jor_back1,380,229,0,101,0</INFO></NAVI>.#
 #
 
 5979#Não Alimente os Animais (2)###
-Recolhi a comida que alguém deixou para os animais selvagens. Informe <NAVI>[Oficial de Suprimentos Gorir]<INFO>icecastle,97,177,0,101,0</INFO></NAVI>. - ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
+Recolhi a comida que alguém deixou para os animais selvagens. Informe o <NAVI>[Oficial de Suprimentos Gorir]<INFO>icecastle,97,177,0,101,0</INFO></NAVI>.  * Caso esteja dentro de uma Instância, a orientação de rota pode não funcionar corretamente.#
 #
 
 5980#Diversão às Escondidas###
 Encontrei o Soldado Horiryu no quartel da Patrulha da Águia.#
 #
 
-5981#[Em espera] Diversão às Escondidas###
-Dizem que as penas entregues são trocadas discretamente por suprimentos. Amanhã, leve-as discretamente novamente para <NAVI>[Soldado Horiryu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI>.#
-Reinicia às 04h#
+5981#[Espera] Diversão às Escondidas###
+Dizem que as penas entregues são trocadas discretamente por suprimentos. Amanhã, leve mais algumas discretamente para o <NAVI>[Soldado Horiryu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI>. para <NAVI>[Soldado Horiryu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI>.#
+Reinicia às 04:00#
 
 5982#Diversão às Escondidas###
-Parece que <NAVI>[Soldado Horiryu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI> precisa de penas quentes para suportar o frio. Leve 10 penas de um dos tipos da lista abaixo. - <ITEM>[Pluma Arredondada]<INFO>6393</INFO></ITEM> <ITEM>[Pena Macia]<INFO>7063</INFO></ITEM> <ITEM>[Pluma Flamejante]<INFO>6691</INFO></ITEM> <ITEM>[Pena Vermelha]<INFO>7440</INFO></ITEM> <ITEM>[Plumas de Ave]<INFO>916</INFO></ITEM> <ITEM>[Pena de Cendrawish]<INFO>6405</INFO></ITEM> <ITEM>[Pena de Grand Peco]<INFO>7101</INFO></ITEM> <ITEM>[Pena Azul]<INFO>7441</INFO></ITEM> <ITEM>[Pena de Harpia]<INFO>7115</INFO></ITEM>#
+Parece que <NAVI>[Soldado Horiryu]<INFO>icas_in,34,56,0,101,0</INFO></NAVI> precisa de penas quentes para suportar o frio. Leve 10 penas de um dos tipos da lista abaixo. - <ITEM>[Pluma Arredondada]<INFO>6393</INFO></ITEM> <ITEM>[Pena Macia]<INFO>7063</INFO></ITEM> <ITEM>[Pluma Flamejante]<INFO>6691</INFO></ITEM> <ITEM>[Pena Vermelha]<INFO>7440</INFO></ITEM> <ITEM>[Plumas de Ave]<INFO>916</INFO></ITEM> <ITEM>[Pena de Cendrawasih]<INFO>6405</INFO></ITEM> <ITEM>[Pena de Grand Peco]<INFO>7101</INFO></ITEM> <ITEM>[Pena Azul]<INFO>7441</INFO></ITEM> <ITEM>[Pena de Harpia]<INFO>7115</INFO></ITEM>#
 #
 
 5983#Encontro com a Cobaia 210426###
-Durante a patrulha, encontrei um jovem misterioso, mas ele logo desapareceu. Ele disse que estava indo na direção da {{P:^000000}}[Planície de Escamas Congeladas]{{P:^FFFFFF}}, certo? Se tiver tempo, procure-o. - ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
+Durante a patrulha, encontrei um jovem misterioso, mas ele logo desapareceu. Ele disse que estava indo na direção da <NAVI>[Planície de Escamas Congeladas]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>. Vamos procurá-lo assim que tivermos tempo.  * Caso esteja dentro de uma Instância, a orientação de rota pode não funcionar corretamente. ? Caso esteja dentro de uma Masmorra Memorial, a orientação de rota pode não funcionar corretamente.#
 #
 
-5984#Pergaminho de Transformação em Regan###
-Jeomsim, que encontrei na Planície de Escamas Congeladas, parece conseguir se transformar e assumir outra aparência. O <ITEM>[Pergaminho de Transformação em Regan]<INFO>101162</INFO></ITEM> obtido de Jeomsim parece útil, então volte ao <NAVI>[Castelo de Gelo]<INFO>icecastle,27,126,0,101,0</INFO></NAVI> e faça o relatório.#
+5984#Pergaminho de Transformação em Rgan###
+Jeomsim, que encontrei na Planície de Escamas Congeladas, parece conseguir se transformar e assumir outra aparência. O <ITEM>[Pergaminho de Transformação em Rgan]<INFO>101162</INFO></ITEM> obtido de Jeomsim parece útil, então volte ao <NAVI>[Castelo de Gelo]<INFO>icecastle,27,126,0,101,0</INFO></NAVI> e faça o relatório.#
 Para o Castelo de Gelo..#
 
-5985#[Em espera] Escolha do Cardápio de Jeomsim###
-Preparei a refeição de <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>. Se tiver tempo, talvez seja bom preparar outra amanhã também.#
-Reinicia às 04h#
+5985#[Espera] Escolha do Cardápio de Jeomsim###
+Preparei a refeição de [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>]. Se tiver tempo, talvez seja bom preparar outra amanhã também.#
+Reinicia às 04:00#
 
 5986#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Jarro de Saquê hoje. Leve 10 <ITEM>[Jarro de Saquê]<INFO>7158</INFO></ITEM>.#
-Jarro de Saquê 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Jarro de Saquê hoje. Leve 10x <ITEM>[Jarro de Saquê]<INFO>7158</INFO></ITEM>.#
+10x Jarro de Saquê#
 
 5987#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Jarro de Nuvem hoje. Leve 10 <ITEM>[Jarro de Nuvem]<INFO>7162</INFO></ITEM>.#
-Jarro de Nuvem 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Jarro de Nuvem hoje. Leve 10x <ITEM>[Jarro de Nuvem]<INFO>7162</INFO></ITEM>.#
+10x Jarro de Nuvem#
 
 5988#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Cesto de Palha hoje. Leve 10 <ITEM>[Cesto de Palha]<INFO>7299</INFO></ITEM>.#
-Cesto de Palha 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Cesto de Palha hoje. Leve 10x <ITEM>[Cesto de Palha]<INFO>7299</INFO></ITEM>.#
+10x Cesto de Palha#
 
 5989#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Dentadura da Máscara do Dragão hoje. Leve 10 <ITEM>[Dentadura da Máscara do Dragão]<INFO>7266</INFO></ITEM>.#
-Dentadura da Máscara do Dragão 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Dentadura da Máscara do Dragão hoje. Leve 10x <ITEM>[Dentadura da Máscara do Dragão]<INFO>7266</INFO></ITEM>.#
+10x Dentadura da Máscara do Dragão#
 
 5990#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pilão Yaga hoje. Leve 10 <ITEM>[Pilão Yaga]<INFO>7762</INFO></ITEM>.#
-Pilão Yaga 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Pilão Yaga hoje. Leve 10x <ITEM>[Pilão Yaga]<INFO>7762</INFO></ITEM>.#
+10x Pilão Yaga#
 
 5991#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pele de Leopardo hoje. Leve 10 <ITEM>[Pele de Leopardo]<INFO>7171</INFO></ITEM>.#
-Pele de Leopardo 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Pele de Leopardo hoje. Leve 10x <ITEM>[Pele de Leopardo]<INFO>7171</INFO></ITEM>.#
+10x Pele de Leopardo#
 
 5992#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pena de Cendrawish hoje. Leve 10 <ITEM>[Pena de Cendrawish]<INFO>6405</INFO></ITEM>.#
-Pena de Cendrawish 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Pena de Cendrawasih hoje. Leve 10x <ITEM>[Pena de Cendrawasih]<INFO>6405</INFO></ITEM>.#
+10x Pena de Cendrawasih#
 
 5993#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Jejellopy hoje. Leve 10 <ITEM>[Jejellopy]<INFO>6498</INFO></ITEM>.#
-Jejellopy 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Jejellopy hoje. Leve 10x <ITEM>[Jejellopy]<INFO>6498</INFO></ITEM>.#
+10x Jejellopy#
 
 5994#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Cauda de Gabiru hoje. Leve 10 <ITEM>[Cauda de Gabiru]<INFO>25285</INFO></ITEM>.#
-Cauda de Gabiru 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Cauda de Gabiru hoje. Leve 10x <ITEM>[Cauda de Gabiru]<INFO>25285</INFO></ITEM>.#
+10x Cauda de Gabiru#
 
 5995#Escolha do Cardápio de Jeomsim###
-Parece que <NAVI>[Jeomsim]<INFO>jor_back2,250,30,0,101,0</INFO></NAVI> quer comer Pedaço de Bambu hoje. Leve 10 <ITEM>[Pedaço de Bambu]<INFO>7150</INFO></ITEM>.#
-Pedaço de Bambu 10#
+Parece que [<NAVI>Jeomsim<INFO>jor_back2,250,30,0,101,0</INFO></NAVI>] quer comer Pedaço de Bambu hoje. Leve 10x <ITEM>[Pedaço de Bambu]<INFO>7150</INFO></ITEM>.#
+10x Pedaço de Bambu#
+
+5996#Iguaria do Demônio###
+O <NAVI>[Demônio da Caixa]<INFO>c_tower1,243,202,0,101,0</INFO></NAVI> exige uma iguaria mais ou menos uma vez por semana. Segundo ele, os restos das almas de 3.000 monstros do <NAVI>[Subsolo Desconhecido da Torre do Relógio]<INFO>clock_01,84,44,0,101,0</INFO></NAVI> seriam suficientes para preparar uma iguaria.#
+Derrote 3.000 monstros no Subsolo Desconhecido da Torre do Relógio#
 
 6000#Mudança de Classe: Taekwon###
 Você escolheu o caminho do Taekwon. Você deve aumentar seu nível de base e voltar falar com <NAVI>[Fênix]<INFO>payon_in02,62,10,0,100,0,0</INFO></NAVI>.#
@@ -13951,36 +13955,36 @@ Reinicia às 04h#
 Providencie 30 cascas#
 
 8793#Algo que quero saber###
-<NAVI>[Delpanagand]<INFO>jor_nest,239,239,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu converse com os Regan Intermediários que trabalham no incubatório: <NAVI>[o obediente]<INFO>jor_nest,277,257,0,101,0</INFO></NAVI>, <NAVI>[o preguiçoso]<INFO>jor_nest,220,279,0,101,0</INFO></NAVI> e <NAVI>[o desobediente]<INFO>jor_nest,274,199,0,101,0</INFO></NAVI>.#
-Converse com os Regan Intermediários#
+<NAVI>[Delpanagand]<INFO>jor_nest,239,239,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu converse com os Rgan Intermediários que trabalham no incubatório: <NAVI>[o obediente]<INFO>jor_nest,277,257,0,101,0</INFO></NAVI>, <NAVI>[o preguiçoso]<INFO>jor_nest,220,279,0,101,0</INFO></NAVI> e <NAVI>[o desobediente]<INFO>jor_nest,274,199,0,101,0</INFO></NAVI>.#
+Converse com os Rgan Intermediários#
 
 8794#Serpente Idosa###
-<NAVI>[Alleigand]<INFO>jor_nest,74,100,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu traga 15 <ITEM>[Núcleo Mágico Inferior de Regan]<INFO>1000707</INFO></ITEM>.#
-Providencie Núcleo Mágico Inferior de Regan#
+<NAVI>[Alleigand]<INFO>jor_nest,74,100,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu traga 15 <ITEM>[Núcleo Mágico Inferior de Rgan]<INFO>1000707</INFO></ITEM>.#
+Providencie Núcleo Mágico Inferior de Rgan#
 
 8795#Doutrina e Sermão###
 Quando o sermão de Bernagand terminou no Ninho da Serpente, <NAVI>[Yuramigand]<INFO>jor_nest,18,92,0,101,0</INFO></NAVI> chamou o aventureiro que estava com a aparência de Rgan.#
 Converse com Yuramigand#
 
 8796#Nunca vi esse antes###
-<NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu cace 20 Regan Primitivo.#
-Derrote Regan Primitivo#
+<NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI>, do Ninho da Serpente, pediu que eu cace 20 Rgan Primitivo.#
+Derrote Rgan Primitivo#
 
 8797#Rgan que Dá Ordens - Em espera###
 Esta é uma missão diária. Quando o tempo de espera terminar, será possível recebê-la novamente de <NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI> e realizá-la.#
 Reinicia às 04h#
 
 8798#Rgan que Dá Ordens###
-<NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI>, um Regan de nível mais alto, pediu que eu cace 20 Regan Primitivo.#
-Derrote Regan Primitivo#
+<NAVI>[Sidrugand]<INFO>jor_nest,239,244,0,101,0</INFO></NAVI>, um Rgan de nível mais alto, pediu que eu cace 20 Rgan Primitivo.#
+Derrote Rgan Primitivo#
 
 8799#Rgan do Incubatório (1)###
 No Ninho da Serpente, preciso conversar com <NAVI>[o obediente]<INFO>jor_nest,277,257,0,101,0</INFO></NAVI>, <NAVI>[o preguiçoso]<INFO>jor_nest,220,279,0,101,0</INFO></NAVI> e <NAVI>[o desobediente]<INFO>jor_nest,274,199,0,101,0</INFO></NAVI>.#
-Converse com os Regan Intermediários#
+Converse com os Rgan Intermediários#
 
 8800#Rgan do Incubatório (2)###
 No Ninho da Serpente, preciso conversar com <NAVI>[o obediente]<INFO>jor_nest,277,257,0,101,0</INFO></NAVI>, <NAVI>[o preguiçoso]<INFO>jor_nest,220,279,0,101,0</INFO></NAVI> e <NAVI>[o desobediente]<INFO>jor_nest,274,199,0,101,0</INFO></NAVI>.#
-Converse com os Regan Intermediários#
+Converse com os Rgan Intermediários#
 
 8801#Rgan do Incubatório (3)###
 Verifiquei todos os pedidos de <NAVI>[Delpanagand]<INFO>jor_nest,239,239,0,101,0</INFO></NAVI> no Ninho da Serpente. Preciso falar com ele novamente.#
@@ -15511,19 +15515,19 @@ Volte ao Profeta K, conte toda a situação e receba sua recompensa#
 Volte ao Profeta K#
 
 9389#As Profecias de K###
-Cace Lobos no Deserto Sograt, perto de Payon, para coletar 100 Fragmento de Alma de Cão#
-100 Fragmento de Alma de Cão#
+Cace Lobos no Deserto Sograt, perto de Payon, para coletar 100 Fragmentos de Alma de Cão#
+100 Fragmentos de Alma de Cão#
 
 9390#As Profecias de K###
-Cace Lobos do Deserto no Campo de Rachel para coletar 150 Fragmento de Alma de Cão#
-150 Fragmento de Alma de Cão#
+Cace Lobos do Deserto no Campo de Rachel para coletar 150 Fragmentos de Alma de Cão#
+150 Fragmentos de Alma de Cão#
 
 9391#As Profecias de K###
 Vá para Payon e encontre a pessoa com a energia de Cão#
-Alguém com Fragmento de Alma de Cão#
+Alguém com a energia de Cão#
 
 9392#As Profecias de K###
-Cace Yoyos no Campo acima de Prontera e Escorpiões no Deserto Sograt (abaixo de Morroc), e leve 20 Caudas de Yoyo e 20 Caudas de Escorpião para Spark Lee#
+Cace Yoyos no Campo acima de Prontera e Escorpiões no Deserto Sograt abaixo de Morroc, e leve 20 Caudas de Yoyo e 20 Caudas de Escorpião para Spark Lee#
 Conquiste Spark Lee#
 
 9393#As Profecias de K###
@@ -15540,7 +15544,7 @@ Vá para a área sul do Monte Mjolnir, perto de Geffen, e cace Selvagens para co
 
 9396#As Profecias de K###
 Vá para fora do Portão Principal de Prontera e encontre a pessoa com a energia do Porco#
-Alguém com Fragmento de Alma de Porco#
+Alguém com a energia de Porco#
 
 9397#As Profecias de K###
 Cace Kokos no Campo de Geffen e Salgueiro Ancião no Campo de Prontera e leve 20 Avelãs e 20 Resinas para Fate Jun#
@@ -19127,12 +19131,12 @@ Voglinde, que foi até o quarto de Friederike no Castelo de Gelo, confirmou que 
 Converse com Lehar#
 
 11812#Um Dia de Friederike###
-<NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>, que passou a ficar em seu quarto no Castelo de Gelo, disse que recebeu de Voglinde a missão de purificar Núcleo Mágico de Regan. Vamos ouvir mais.#
+<NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>, que passou a ficar em seu quarto no Castelo de Gelo, disse que recebeu de Voglinde a missão de purificar Núcleo Mágico de Rgan. Vamos ouvir mais.#
 Converse com Friederike#
 
 11813#Um Dia de Friederike###
-Derrote 10 Regan Primitivo e 10 Regan de Nível Mais Baixo no Calor do Deus Serpente, colete 10 Núcleo Mágico de Regan e volte até <NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>.#
-Colete Núcleo Mágico de Regan#
+Derrote 10 Rgan Primitivo e 10 Rgan de Nível Mais Baixo no Calor do Deus Serpente, colete 10 Núcleo Mágico de Rgan e volte até <NAVI>[Friederike]<INFO>icas_in,32,120,0,101,0</INFO></NAVI>.#
+Colete Núcleo Mágico de Rgan#
 
 11814#Um Dia de Friederike - Em espera###
 Ajudei Friederike em seu trabalho. Vamos tentar novamente amanhã.#
@@ -26151,31 +26155,31 @@ Você passou no teste e é hora de mudar de classe. Vamos falar com <NAVI>[Elena
 Fale com Elena#
 
 16626#Mensageiro - O pedido de Ark###
-Voc? encontrou vest?gios de uma luta nos campos perto de Splendide. O rastro segue para <NAVI>[o norte]<INFO>spl_fild01,341,109,0,101,0</INFO></NAVI>. Continue procurando.#
-Encontre vest?gios de Terra#
+Você encontrou vestígios de uma luta nos campos perto de Esplendor. O rastro segue para <NAVI>[o norte]<INFO>spl_fild01,341,109,0,101,0</INFO></NAVI>. Continue procurando.#
+Encontre vestígios de Terra#
 
 16627#Mensageiro - O pedido de Ark###
-Os vest?gios de uma luta nos campos perto de Splendide seguem em dire??o a <NAVI>[as ra?zes de uma ?rvore gigante]<INFO>spl_fild01,375,109,0,101,0</INFO></NAVI>. Continue procurando.#
-Encontre vest?gios de Terra#
+Os vestígios de uma luta nos campos perto de Esplendor seguem em direção a <NAVI>[raízes de uma árvore gigante]<INFO>spl_fild01,375,109,0,101,0</INFO></NAVI>. Continue procurando.#
+Encontre vestígios de Terra#
 
 16628#Mensageiro - O pedido de Ark###
-Ao seguir o rastro de Terra nos campos perto de Splendide, voc? caiu entre as ra?zes de uma ?rvore gigante. V? para <NAVI>[dentro]<INFO>nyd_dun01,60,222,0,101,0</INFO></NAVI>.#
-Encontre vest?gios de Terra#
+Ao seguir o rastro de Terra nos campos perto de Esplendor, você caiu entre as raízes de uma árvore gigante. Investigue o <NAVI>[interior]<INFO>nyd_dun01,60,222,0,101,0</INFO></NAVI>.#
+Encontre vestígios de Terra#
 
 16629#Mensageiro - O paradeiro de Terra###
-Procure mais <NAVI>[Frutos de Yggdrasil]<INFO>spl_fild01,312,77,0,101,0</INFO></NAVI> nos campos perto de Splendide.#
+Procure mais [<NAVI>Frutos de Yggdrasil<INFO>spl_fild01,312,77,0,101,0</INFO></NAVI>] nos campos perto de Esplendor.#
 Colete Frutos de Yggdrasil#
 
 16630#Mensageiro - O paradeiro de Terra###
-Procure mais <NAVI>[Frutos de Yggdrasil]<INFO>spl_fild01,331,28,0,101,0</INFO></NAVI> nos campos perto de Splendide.#
+Procure mais [<NAVI>Frutos de Yggdrasil<INFO>spl_fild01,331,28,0,101,0</INFO></NAVI>] nos campos perto de Esplendor.#
 Colete Frutos de Yggdrasil#
 
 16631#Mensageiro - O paradeiro de Terra###
-Entre <NAVI>[na parte interna]<INFO>man_in01,17,128,0,101,0</INFO></NAVI> da pris?o de Manuk e descubra quem ? a Laphine aprisionada.#
-Fale com Snorren dentro da pris?o#
+Vá para [<NAVI>o interior<INFO>man_in01,17,128,0,101,0</INFO></NAVI>] da prisão de Manuk e descubra quem é a Laphine aprisionada.#
+Fale com Snorren dentro da prisão#
 
 16632#Mensageiro - Comprovando a verdade###
-Conte a hist?ria de Terra a <NAVI>[Luik]<INFO>man_in01,19,126,0,101,0</INFO></NAVI> na Vila de Manuk.#
+Conte a história de Terra a <NAVI>[Luik]<INFO>man_in01,19,126,0,101,0</INFO></NAVI>, na Vila de Manuk.#
 Fale com Luik#
 
 16636#Busca por Pistas - Laboratório de Juncea###
@@ -26187,15 +26191,15 @@ Enquanto não há ninguém por perto, vamos entrar no <NAVI>[Laboratório de Bag
 Investigue Laboratório de Bagot#
 
 16638#Busca por Pistas - Guardas Rgan###
-Enquanto não há ninguém por perto, vamos investigar os arredores dos <NAVI>[guardas Rgan]<INFO>jor_nest,177,176,0,101,0</INFO></NAVI> dentro do Ninho da Serpente.#
+Enquanto não há ninguém por perto, vamos investigar a área ao redor dos <NAVI>[Guardas Rgan]<INFO>jor_nest,177,176,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente.#
 Investigue os guardas Rgan#
 
 16639#Laboratório de Juncea###
-Vamos vasculhar a <NAVI>[pilha de documentos]<INFO>jor_nest,19,142,0,101,0</INFO></NAVI> no laboratório de Juncea, dentro do Ninho da Serpente.#
+Vamos vasculhar a [<NAVI>pilha de documentos<INFO>jor_nest,19,142,0,101,0</INFO></NAVI>] no laboratório de Juncea, dentro do Ninho da Serpente.#
 Investigue a pilha de documentos#
 
 16640#Laboratório de Juncea###
-Vamos vasculhar a <NAVI>[pilha de documentos]<INFO>jor_nest,21,195,0,101,0</INFO></NAVI> no laboratório de Juncea, dentro do Ninho da Serpente.#
+Vamos vasculhar a [<NAVI>pilha de documentos<INFO>jor_nest,21,195,0,101,0</INFO></NAVI>] no laboratório de Juncea, dentro do Ninho da Serpente.#
 Investigue a pilha de documentos#
 
 16641#Laboratório de Bagot###
@@ -26207,47 +26211,47 @@ Vamos vasculhar a pilha de documentos no <NAVI>[Laboratório de Bagot]<INFO>jor_
 Investigue a pilha de documentos#
 
 16643#Guardas Rgan###
-Há alguns documentos que parecem ser um <NAVI>[livro contábil]<INFO>jor_nest,181,173,0,101,0</INFO></NAVI> perto dos guardas Rgan dentro do Ninho da Serpente. Vamos dar uma olhada.#
+Há alguns documentos que parecem ser um [<NAVI>livro de registros<INFO>jor_nest,181,173,0,101,0</INFO></NAVI>] perto dos guardas Rgan dentro do Ninho da Serpente. Vamos dar uma olhada.#
 Investigue a pilha de documentos#
 
 16644#Guardas Rgan###
-Vamos escutar discretamente a conversa dos <NAVI>[guardas Rgan]<INFO>jor_nest,173,177,0,101,0</INFO></NAVI> dentro do Ninho da Serpente.#
+Vamos escutar discretamente a conversa dos <NAVI>[guardas Rgan]<INFO>jor_nest,173,177,0,101,0</INFO></NAVI>, dentro do Ninho da Serpente.#
 Ouça a conversa dos guardas Rgan#
 
 16645#Compartilhar Pistas###
-Já reuni algumas pistas. Vamos voltar até <NAVI>[Nalandro]<INFO>jor_nest,127,207,0,101,0</INFO></NAVI>, que está transformado em Rgan dentro do Ninho da Serpente, compartilhar as pistas reunidas e trocar opiniões.#
+Já reuni algumas pistas. Vamos voltar até <NAVI>[Nalandro]<INFO>jor_nest,127,207,0,101,0</INFO></NAVI>, que está disfarçado de Rgan dentro do Ninho da Serpente, para compartilhar as pistas reunidas.#
 Converse com Nalandro#
 
-16646#Infiltrando-se em Silêncio###
-Vamos até o laboratório de Juncea, dentro do Ninho da Serpente, e converse com <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI> para ganhar sua confiança.#
+16646#Infiltração Silenciosa###
+Vamos até o laboratório de Juncea, dentro do Ninho da Serpente, para conversar com <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, a fim de ganhar sua confiança.#
 Converse com Juncea#
 
-16647#Infiltrando-se em Silêncio###
-Juncea parece estar com vontade de comer algo doce. Vamos voltar ao <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> e procurar algum lugar onde possamos conseguir algo doce.#
+16647#Infiltração Silenciosa###
+Juncea parece estar com vontade de comer algo doce. Vamos voltar ao [<NAVI>Castelo de Gelo<INFO>icas_in,245,197,0,101,0</INFO></NAVI>] e procurar algum lugar onde possamos conseguir algo doce.#
 Converse com o aventureiro#
 
-16648#Infiltrando-se em Silêncio###
-Vamos até o laboratório de Juncea, dentro do Ninho da Serpente, e entregar Doce de Gelo a <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>.#
+16648#Infiltração Silenciosa###
+Vamos até o laboratório de Juncea, dentro do Ninho da Serpente, e entregue o Doce de Gelo a <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>.#
 Converse com Juncea#
 
-16649#Infiltrando-se em Silêncio###
-Leve para <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, que está esperando dentro do Ninho da Serpente, 1 doce de gelo obtido no <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> ou 10 <ITEM>[Núcleo Mágico Inferior de Regan]<INFO>1000707</INFO></ITEM>.#
+16649#Infiltração Silenciosa###
+Leve para <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, que está esperando dentro do Ninho da Serpente, 1x Doce de Gelo obtido no <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI>, ou 10 <ITEM>[Núcleo Mágico Inferior de Rgan]<INFO>1000707</INFO></ITEM>.#
 Atenda ao pedido de Juncea#
 
-16650#Infiltrando-se em Silêncio###
-Leve para <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, que está esperando dentro do Ninho da Serpente, 1 doce de gelo obtido no <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> ou 10 <ITEM>[Núcleo Mágico Inferior de Regan]<INFO>1000707</INFO></ITEM>.#
+16650#Infiltração Silenciosa###
+Leve para <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, que está esperando dentro do Ninho da Serpente, 1 doce de gelo obtido no <NAVI>[Castelo de Gelo]<INFO>icas_in,245,197,0,101,0</INFO></NAVI>, ou 10 <ITEM>[Núcleo Mágico Inferior de Rgan]<INFO>1000707</INFO></ITEM>.#
 Atenda novamente ao pedido de Juncea#
 
-16651#Infiltrando-se em Silêncio###
-Vamos mostrar a <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, no laboratório de Juncea dentro do Ninho da Serpente, o livro contábil obtido dos guardas Rgan.#
+16651#Infiltração Silenciosa###
+Vamos mostrar a <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>, no laboratório de Juncea dentro do Ninho da Serpente, o livro de registros obtido dos guardas Rgan.#
 Converse com Juncea#
 
-16652#Infiltrando-se em Silêncio###
-Bagot apareceu no laboratório de Juncea, dentro do Ninho da Serpente. Vamos contornar bem a situação para que ele não perceba que estávamos tentando convencer <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>.#
+16652#Infiltração Silenciosa###
+Bagot apareceu no laboratório de Juncea, dentro do Ninho da Serpente. Vamos contornar a situação para que ele não perceba que estávamos tentando convencer <NAVI>[Juncea]<INFO>jor_nest,31,140,0,101,0</INFO></NAVI>.#
 Converse com Juncea#
 
 16653#Suspeitas Acumuladas###
-Vamos voltar ao Castelo de Gelo e trocar com <NAVI>[Nalandro]<INFO>icas_in,245,197,0,101,0</INFO></NAVI> os resultados obtidos até agora.#
+Vamos voltar ao Castelo de Gelo e trocas as informações conseguidas até agora com <NAVI>[Nalandro]<INFO>icas_in,245,197,0,101,0</INFO></NAVI>.#
 Converse com Nalandro#
 
 16654#Suspeitas Acumuladas###
@@ -26259,7 +26263,7 @@ Decidimos acelerar o plano. Vamos ao <NAVI>[laboratório de Juncea]<INFO>jor_nes
 Visite o laboratório de Juncea#
 
 16656#Por Um Triz###
-No laboratório de Juncea, dentro do Ninho da Serpente, há líquido derramado ao redor de uma caixa que não estava ali antes. Vamos procurar um <NAVI>[recipiente]<INFO>jor_nest,20,194,0,101,0</INFO></NAVI> para coletá-lo.#
+No laboratório de Juncea, dentro do Ninho da Serpente, há líquido derramado ao redor de uma caixa que não estava ali antes. Vamos procurar um [<NAVI>recipiente<INFO>jor_nest,20,194,0,101,0</INFO></NAVI>] para coletá-lo.#
 Obtenha Tubo de Ensaio de Juncea#
 
 16657#Por Um Triz###
@@ -26267,7 +26271,7 @@ No laboratório de Juncea, dentro do Ninho da Serpente, coloquei em um tubo de e
 Obtenha Tubo de Ensaio com Líquido Vermelho#
 
 16658#Por Um Triz###
-Enquanto tentava sair escondido do laboratório de Juncea, dentro do Ninho da Serpente, fui descoberto por um <NAVI>[Rgan]<INFO>jor_nest,24,185,0,101,0</INFO></NAVI> desconhecido. Ele disse que tem algo a dizer, então vamos ouvi-lo.#
+Enquanto tentava sair escondido do laboratório de Juncea, dentro do Ninho da Serpente, fui descoberto por um <NAVI>[Rgan]<INFO>jor_nest,24,185,0,101,0</INFO></NAVI>. Ele disse que tem algo a dizer, então vamos ouvi-lo.#
 Converse com Rgan#
 
 16659#Por Um Triz###
@@ -26286,7 +26290,7 @@ Retorne à vila#
 Ao conversar com <NAVI>[Arorong]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, que está esperando em frente ao Laboratório de Bagot, no Ninho da Serpente, será possível enfrentar Juncea de Simulação, criado com base nos dados virtuais de Juncea.#
 Converse com o aventureiro#
 
-16663#Batalha de Simulação - Em espera###
+16663#[Espera] Batalha de Simulação###
 Se derrotou Juncea de Simulação, descanse por cerca de um dia. Depois de descansar o suficiente, volte até <NAVI>[Arorong]<INFO>jor_nest,66,260,0,101,0</INFO></NAVI>, que está esperando em frente ao Laboratório de Bagot, no Ninho da Serpente, para enfrentar a batalha novamente.#
 Reinicia às 04h#
 
@@ -27495,47 +27499,47 @@ Uma correspondência de orientação para mudança de emprego foi enviada para a
 Correio enviado#
 
 17619#Estratagema de Nalandro###
-Decidimos usar Pergaminho de Transformação em Regan para nos infiltrar na <NAVI>[base]<INFO>jor_back3,98,318,0,101,0</INFO></NAVI> de Rgan. Não esqueça de levar o pergaminho de transformação.#
+Decidimos usar Pergaminho de Transformação em Rgan para nos infiltrar na <NAVI>[base dos Rgan]<INFO>jor_back3,98,318,0,101,0</INFO></NAVI>. Não esqueça de levar o pergaminho de transformação.#
 Para a base de Rgan#
 
 17620#Infiltração no Ninho da Serpente###
-Aventureiro, ao entrar no <NAVI>[covil]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI> das serpentes, finja ser um Rgan recém-nascido.#
+Aventureiro, ao entrar no <NAVI>[covil das serpentes]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI>, finja ser um Rgan recém-nascido.#
 Finja ser um bebê Rgan#
 
 17621#Infiltração no Ninho da Serpente###
-Vocês não deveriam estar em um lugar como este. Vou levá-los para a parte <NAVI>[superior]<INFO>jor_nest,184,49,0,101,0</INFO></NAVI> do ninho. Sigam-me direito.#
+Vocês não deveriam estar em um lugar como este. Vou levá-los para a parte <NAVI>[superior do ninho]<INFO>jor_nest,184,49,0,101,0</INFO></NAVI>. Sigam-me.#
 Para a área superior#
 
 17622#Infiltração no Ninho da Serpente###
-Antes de irmos receber o batismo de bênção do senhor Lasgand, vou mostrar primeiro o <NAVI>[incubatório de ovos]<INFO>jor_nest,196,202,0,101,0</INFO></NAVI> superiores do ninho.#
-Para o incubatório de ovos superiores#
+Antes de irmos receber o batismo de bênção do Lorde Rasgand, vou mostrar primeiro a <NAVI>[Câmara de Incubação de Ovos]<INFO>jor_nest,196,202,0,101,0</INFO></NAVI>, que fica no ninho.#
+Para a Câmara de Incubação de Ovos#
 
 17623#Infiltração no Ninho da Serpente###
-No caminho, passaremos pela <NAVI>[moradia]<INFO>jor_nest,115,187,0,101,0</INFO></NAVI> de um forasteiro no ninho. Vou mostrar onde fica, então não entrem lá nem por engano.#
+No caminho, passaremos pelo [<NAVI>alojamento<INFO>jor_nest,115,187,0,101,0</INFO></NAVI>] dos forasteiros no ninho. Vou mostrar onde fica, certifique-se de não entrar lá por engano.#
 Moradia do forasteiro#
 
 17624#Infiltração no Ninho da Serpente###
-Agora sim, precisamos ir receber o batismo de bênção do senhor Lasgand. Vamos subir um pouco mais para a parte <NAVI>[superior]<INFO>jor_nest,53,244,0,101,0</INFO></NAVI> do ninho.#
-Moradia de Lasgand#
+Agora sim, chegou a hora de receber o batismo de bênção do Lorde Rasgand. Vamos subir um pouco mais para a parte [<NAVI>superior<INFO>jor_nest,53,244,0,101,0</INFO></NAVI>] do ninho.#
+Alojamento de Rasgand#
 
 17625#Infiltração no Ninho da Serpente###
-Se não tiver para onde ir, por que não visita o laboratório de Ilusión no ninho? Peça a <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> para fazer ao menos um exame médico.#
+Se não tiver para onde ir, por que não visita o laboratório de Ilusión no ninho? Você poderia fazer um exame médico com a <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI>.#
 Até Juncea#
 
 17626#Infiltração no Ninho da Serpente###
-Já descansou? Então vamos ao trabalho. O Ninho da Serpente ainda é estranho para você? Chegue um pouco mais <NAVI>[perto de mim]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> para eu poder examiná-lo.#
+Já descansou? Então vamos ao trabalho. O Ninho da Serpente ainda é estranho para você? Chegue <NAVI>[mais perto]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI>, assim eu posso examiná-lo.#
 Converse com Juncea#
 
 17627#Infiltração no Ninho da Serpente###
-A <NAVI>[casca do ovo]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI> de onde você nasceu ainda deve servir. Traga Casca de Ovo de Regan Superior. Quero estudar o ovo e o poder mágico que restou nele. Você disse que nasceu no Calor do Deus Serpente, certo?#
-Para onde eu nasci#
+A <NAVI>[casca do ovo]<INFO>jor_dun02,263,170,0,101,0</INFO></NAVI>, de onde você nasceu, ainda deve servir. Traga Casca de Ovo de Rgan Superior. Quero estudar o ovo e o poder mágico que restou nele. Você disse que nasceu no Calor do Deus Serpente, certo?#
+Para o lugar que eu nasci#
 
 17628#Infiltração no Ninho da Serpente###
 Parece que os ovos superiores são separados à parte. Vá até <NAVI>[Ninho da Serpente]<INFO>jor_nest,23,58,0,101,0</INFO></NAVI>.#
-Para o incubatório de ovos superiores#
+Para a Câmara de Incubação de Ovos#
 
 17629#Infiltração no Ninho da Serpente###
-Consegui obter Casca de Ovo de Regan Superior em segurança. Vamos voltar até <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI>, no Ninho da Serpente, e mostrar a casca do ovo.#
+Consegui obter Casca de Ovo de Rgan Superior em segurança. Vamos voltar até <NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI>, no Ninho da Serpente, e mostrar a casca do ovo.#
 Converse com Juncea#
 
 17630#Infiltração no Ninho da Serpente###
@@ -27543,35 +27547,35 @@ Bagot apareceu na moradia de Ilusión dentro do Ninho da Serpente. Vamos ouvir q
 Converse com Bagot#
 
 17631#Infiltração no Ninho da Serpente###
-<NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> está furioso com a notificação unilateral de Bagot, que apareceu no Ninho da Serpente. O que aconteceu?#
+<NAVI>[Juncea]<INFO>jor_nest,22,141,0,101,0</INFO></NAVI> está furiosa com o anúncio unilateral de Bagot, que apareceu no Ninho da Serpente. O que aconteceu?#
 Converse com Juncea#
 
-17632#Relatório Intermediário da Operação de Infiltração###
-Não há mais nada para ouvir de Juncea. Por enquanto, vamos sair <NAVI>[do ninho]<INFO>jor_nest,87,164,0,101,0</INFO></NAVI> e trocar opiniões com o Sr. Rage.#
+17632#Relatório Parcial da Operação de Infiltração###
+Não há mais nada para ouvir de Juncea. Por enquanto, vamos [<NAVI>sair do ninho<INFO>jor_nest,87,164,0,101,0</INFO></NAVI>] e trocar opiniões com o Nalandro.#
 Para fora#
 
-17633#Relatório Intermediário da Operação de Infiltração###
-Primeiro, vamos verificar a <NAVI>[aeronave]<INFO>jor_nest,24,252,0,101,0</INFO></NAVI> que dizem estar dentro do Ninho da Serpente. Precisamos descobrir sua localização e quantos guardas há por perto.#
+17633#Relatório Parcial da Operação de Infiltração###
+Primeiro, vamos verificar o <NAVI>[aeroplano]<INFO>jor_nest,24,252,0,101,0</INFO></NAVI>, que dizem estar dentro do Ninho da Serpente. Precisamos descobrir sua localização e quantos guardas há por perto.#
 Verifique a aeronave#
 
-17634#Relatório Intermediário da Operação de Infiltração###
-Agora que sabemos onde está a aeronave, vamos voltar e elaborar um plano. Em seguida, precisamos ir até o <NAVI>[Calor do Deus Serpente]<INFO>jor_dun02,153,239,0,101,0</INFO></NAVI> e resgatar nosso grupo, certo?#
+17634#Relatório Parcial da Operação de Infiltração###
+Agora que sabemos onde está o aeroplano, vamos voltar e elaborar um plano. Em seguida, precisamos ir até o [<NAVI>Calor do Deus Serpente<INFO>jor_dun02,153,239,0,101,0</INFO></NAVI>] e resgatar nosso grupo, certo?#
 Resgate o grupo na área inferior#
 
-17635#Relatório Intermediário da Operação de Infiltração###
-Não disse que levaria os <NAVI>[sacerdotes]<INFO>jor_dun02,150,269,0,101,0</INFO></NAVI> que estão fazendo trabalho forçado no Calor do Deus Serpente? Apresse-se e leve-os.#
+17635#Relatório Parcial da Operação de Infiltração###
+Não disse que levaria os [<NAVI>sacerdotes<INFO>jor_dun02,150,269,0,101,0</INFO></NAVI>] que estão fazendo trabalho forçado no Calor do Deus Serpente? Apresse-se e leve-os.#
 Para o interior#
 
-17636#Relatório Intermediário da Operação de Infiltração###
-Temos muito a fazer. Vamos voltar logo ao <NAVI>[Castelo de Gelo]<INFO>icas_in,34,189,0,101,0</INFO></NAVI> e elaborar um plano.#
+17636#Relatório Parcial da Operação de Infiltração###
+Temos muito a fazer. Vamos voltar logo ao [<NAVI>Castelo de Gelo<INFO>icas_in,34,189,0,101,0</INFO></NAVI>] e elaborar um plano.#
 Para o Castelo de Gelo#
 
-17637#Operação de Destruição da Aeronave###
-Precisamos neutralizar a <NAVI>[aeronave]<INFO>jor_nest,22,254,0,101,0</INFO></NAVI> dentro do Ninho da Serpente para impedir que eles se desloquem. Vamos examiná-la com cuidado.#
-Para a aeronave#
+17637#Operação de Infiltração do Aeroplano###
+Precisamos neutralizar o <NAVI>[aeroplano]<INFO>jor_nest,22,254,0,101,0</INFO></NAVI>, que está dentro do Ninho da Serpente, para impedir que eles se desloquem. Vamos examiná-la com cuidado.#
+Para o Aeroplano#
 
 17638#Investigação de Vulnerabilidades###
-Vamos voltar ao <NAVI>[Ninho da Serpente]<INFO>jor_nest,127,207,0,101,0</INFO></NAVI> e investigar as vulnerabilidades com mais atenção.#
+Vamos voltar ao [<NAVI>Ninho da Serpente<INFO>jor_nest,127,207,0,101,0</INFO></NAVI>] e investigar as vulnerabilidades com mais atenção.#
 De volta ao Ninho da Serpente#
 
 17639#Acompanhamento do Relatório de Reconhecimento###
@@ -27579,27 +27583,27 @@ Também estou a caminho do Castelo de Gelo, então vamos juntos. A esta altura, 
 Para o refeitório do Castelo de Gelo#
 
 17640#Ninho da Serpente Caótico###
-Quem é esse Rgan que está carregando? Minha <NAVI>[casa]<INFO>icas_in,247,116,0,101,0</INFO></NAVI> no Castelo de Gelo fica perto daqui, então vamos primeiro para lá.#
+Quem é esse Rgan que está carregando? Minha [<NAVI>casa<INFO>icas_in,247,116,0,101,0</INFO></NAVI>] no Castelo de Gelo fica perto daqui, então vamos primeiro para lá.#
 Para a casa de Horur#
 
 17641#Ninho da Serpente Caótico###
-Vou preparar um antídoto, então traga 20 Núcleo Mágico Inferior de Regan e venha até <NAVI>[Castelo de Gelo]<INFO>icas_in,247,116,0,101,0</INFO></NAVI>.#
-20 Núcleo Mágico Inferior de Regan#
+Vou preparar um antídoto, então traga 20x Núcleo Mágico Rgan de Baixa Qualidade e venha até <NAVI>[Castelo de Gelo]<INFO>icas_in,247,116,0,101,0</INFO></NAVI>.#
+20x Núcleo Mágico Rgan de Baixa Qualidade#
 
 17642#Ninho da Serpente Caótico###
-<NAVI>[Juncea]<INFO>icas_in,243,117,0,101,0</INFO></NAVI>, que despertou na casa de Horur no Castelo de Gelo, parece estar refletindo. A essa altura, acho que está quase convencido.#
+<NAVI>[Juncea]<INFO>icas_in,243,117,0,101,0</INFO></NAVI>, que despertou na casa de Horur no Castelo de Gelo, parece estar refletindo. A essa altura, acho que está quase se convencendo.#
 Convença Juncea#
 
 17643#Ninho da Serpente Caótico###
-<NAVI>[Aurelie]<INFO>icas_in,249,113,0,101,0</INFO></NAVI> apareceu pessoalmente na casa de Horur, no Castelo de Gelo, para trazer notícias. Será que aconteceu algo grave?#
+[<NAVI>Aurelie<INFO>icas_in,249,113,0,101,0</INFO></NAVI>] apareceu pessoalmente na casa de Horuru, no Castelo de Gelo, para trazer notícias. Será que aconteceu algo grave?#
 Converse com Aurelie#
 
 17644#Ninho da Serpente Caótico###
-Houve um relatório da equipe de reconhecimento dizendo que os movimentos dos Regan estão suspeitos. Parece ser uma boa oportunidade para agirmos também. É melhor irmos ao <NAVI>[covil das serpentes]<INFO>jor_que,271,88,0,101,0</INFO></NAVI>.#
+Houve um relatório da equipe de reconhecimento dizendo que os movimentos dos Rgan estão suspeitos. Parece ser uma boa oportunidade para agirmos também. É melhor irmos ao <NAVI>[covil das serpentes]<INFO>jor_que,271,88,0,101,0</INFO></NAVI>.#
 Para o Ninho da Serpente#
 
 17645#Ninho da Serpente Caótico###
-Vamos dividir o grupo e verificar a situação na região do <NAVI>[Calor do Deus Serpente]<INFO>jor_que,144,253,0,101,0</INFO></NAVI>. Talvez ainda haja Regan superiores por lá.#
+Vamos dividir o grupo e verificar a situação na região do <NAVI>[Calor do Deus Serpente]<INFO>jor_que,144,253,0,101,0</INFO></NAVI>. Talvez ainda haja Rgan Superiores por lá.#
 Investigue o Ninho da Serpente#
 
 17646#Ninho da Serpente Caótico###
@@ -27607,11 +27611,11 @@ Aqui só há rastros de uma movimentação rápida. Talvez exista alguém no Cal
 Alguém que saiba o que aconteceu#
 
 17647#Ninho da Serpente Caótico###
-Os nobres... todos reunidos...... Não nós... na parte <NAVI>[superior]<INFO>jor_que,32,37,0,101,0</INFO></NAVI> do ninho... então depressa...... os nobres também... precisam ir, rápido......#
+Os nobres... todos reunidos...... Não nós... na parte <NAVI>[superior]<INFO>jor_que,32,37,0,101,0</INFO></NAVI>... do ninho... então depressa...... os nobres também... precisam ir, rápido......#
 Para a área superior#
 
 17648#Ninho da Serpente Caótico###
-Então precisamos romper a parede que bloqueia a <NAVI>[entrada]<INFO>jor_que,32,37,0,101,0</INFO></NAVI> do ninho e derrotar o Rgan que está do outro lado para encontrarmos Lasgand, certo?#
+Então precisamos romper a parede que bloqueia a [<NAVI>entrada<INFO>jor_que,32,37,0,101,0</INFO>]</NAVI> do ninho e derrotar o Rgan que está do outro lado para encontrarmos Rasgand, certo?#
 Entre no Ninho da Serpente#
 
 17649#Os que Desapareceram###
@@ -27619,56 +27623,56 @@ Não há como abrir esta porta, então só nos resta colocar um vigia aqui e obs
 Para o Castelo de Gelo#
 
 17650#Procurando o Esconderijo Subterrâneo pela Superfície###
-Agradeço por aceitar ajudar de bom grado. Em vez de perdermos tempo aqui, vamos sair <NAVI>[do Castelo de Gelo]<INFO>icecastle,27,126,0,101,0</INFO></NAVI> e discutir como faremos a busca.#
+Agradeço por aceitar ajudar de bom grado. Em vez de perdermos tempo aqui, vamos [<NAVI>sair<INFO>icecastle,27,126,0,101,0</INFO></NAVI>] do Castelo de Gelo e discutir como faremos a busca.#
 Para fora#
 
 17651#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,222,123,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back2,222,123,0,101,0</INFO></NAVI>] na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17652#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,49,175,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back2,49,175,0,101,0</INFO></NAVI>] na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17653#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,309,99,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back2,309,99,0,101,0</INFO></NAVI>] na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17654#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,113,235,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back2,113,235,0,101,0</INFO></NAVI>] na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17655#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back2,279,307,0,101,0</INFO></NAVI> na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back2,279,307,0,101,0</INFO></NAVI>] na Planície de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17656#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,152,359,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back3,152,359,0,101,0</INFO></NAVI>] na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17657#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,328,277,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back3,328,277,0,101,0</INFO></NAVI>] na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17658#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,128,138,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back3,128,138,0,101,0</INFO></NAVI>] na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17659#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,264,133,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back3,264,133,0,101,0</INFO></NAVI>] na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17660#Procurando o Esconderijo Subterrâneo pela Superfície###
-Enterre esta Antena Superpotente em um <NAVI>[local]<INFO>jor_back3,46,324,0,101,0</INFO></NAVI> na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
+Enterre esta Antena Superpotente em um [<NAVI>local<INFO>jor_back3,46,324,0,101,0</INFO></NAVI>] na Geleira de Escamas Congeladas onde um Rgan possa aparecer. Já deixei o local marcado, então será fácil encontrá-lo.#
 Enterre a antena no local marcado#
 
 17661#Procurando o Esconderijo Subterrâneo pela Superfície###
 Enterrei todas as Antena Superpotente nos locais indicados. Vamos voltar e informar o Sr. <NAVI>[Horur]<INFO>icecastle,27,126,0,101,0</INFO></NAVI>, no Castelo de Gelo.#
 Informe o Sr. Horur#
 
-17662#Em espera: Procurando o Esconderijo Subterrâneo pela Superfície###
+17662#[Espera] Procurando o Esconderijo Subterrâneo pela Superfície###
 Depois do amanhecer, as baterias também estarão descarregadas. Quando isso acontecer, volte aqui ao Castelo de Gelo para substituí-las. Por hoje, descanse. - <NAVI>[Horur]<INFO>icecastle,27,126,0,101,0</INFO></NAVI>#
-Reinicia às 04h#
+Reinicia às 04:00#
 
 17849####
 #
@@ -28147,11 +28151,11 @@ Aguarde pacientemente enquanto o velho cria seu instrumento musical.#
 Estranho Idoso#
 
 18119#Visitante Trazido pelo Vento Norte 1###
-Ao saber que já reunimos algumas informações sobre as terras do norte, decidi ir à Mansão de Varmundt com Maram e Miriam. Vamos conversar sobre os próximos planos com <NAVI>[Eli]<INFO>ba_in01,384,114,0,101,0</INFO></NAVI>, que deve estar esperando na sala de recepção da Mansão de Varmundt.#
-Para a Mansão de Varmundt#
+Ao saber que já reunimos algumas informações sobre as terras do norte, decidi ir à Mansão de Varmunt com Maram e Miriam. Vamos conversar sobre os próximos planos com <NAVI>[Elly]<INFO>ba_in01,384,114,0,101,0</INFO></NAVI>, que deve estar esperando na sala de recepção da Mansão de Varmunt.#
+Para a Mansão de Varmunt#
 
 18120#Visitante Trazido pelo Vento Norte 2###
-Decidimos obter informações sobre Isgard no Palácio Real de Prontera. Na Mansão de Varmundt, siga as orientações de <NAVI>[Crux]<INFO>ba_in01,386,110,0,101,0</INFO></NAVI> e vá até o Palácio Real de Prontera.#
+Decidimos obter informações sobre Isgard no Palácio Real de Prontera. Na Mansão de Varmunt, siga as orientações de <NAVI>[Crux]<INFO>ba_in01,386,110,0,101,0</INFO></NAVI>, e vá até o Palácio Real de Prontera.#
 Para o Palácio Real de Prontera#
 
 18121#Caixa do Guardião e Convite 1###
@@ -28159,51 +28163,51 @@ Lehar disse que precisamos obter a permissão dos guardiões de Isgard por meio 
 Converse com Nihill no quarto de Nihill#
 
 18122#Caixa do Guardião e Convite 2###
-Recebi o convite. Vamos voltar à <NAVI>[Mansão de Varmundt]<INFO>ba_maison,186,251,0,101,0</INFO></NAVI> e nos juntar ao grupo.#
-Para a Mansão de Varmundt#
+Recebi o convite. Vamos voltar à [<NAVI>Mansão de Varmunt<INFO>ba_maison,186,251,0,101,0</INFO></NAVI>] e nos juntar ao grupo.#
+Para a Mansão de Varmunt#
 
 18123#Caixa do Guardião e Convite 3###
-Ao chegar à Mansão de Varmundt, disseram que podemos partir a qualquer momento do <NAVI>[hangar de aeronaves]<INFO>ba_in01,30,264,0,101,0</INFO></NAVI>. Embarque na aeronave e entregue o convite a Saenggangi.#
-Converse com Saenggangi#
+Ao chegar à Mansão de Varmunt, disseram que podemos partir a qualquer momento do <NAVI>[hangar do aeroplano]<INFO>ba_in01,30,264,0,101,0</INFO></NAVI>. Embarque no aeroplano e entregue o convite a Ginger.#
+Converse com Ginger#
 
 18124#Caixa do Guardião e Convite 5###
-A aeronave Ifho recebeu a magia protetora do convite e aterrissou em segurança em Isgard. Desembarque, observe os arredores e siga as orientações de <NAVI>[Lehar]<INFO>jor_tail,221,53,0,101,0</INFO></NAVI>.#
+O Aeroplano IF recebeu a magia protetora do convite e aterrissou em segurança em Isgard. Desembarque, observe os arredores e siga as orientações de <NAVI>[Lehar]<INFO>jor_tail,221,53,0,101,0</INFO></NAVI>.#
 Converse com Lehar#
 
 18125#Para o Castelo de Gelo###
-Seguindo as orientações de Lehar, decidimos ir a um lugar chamado Castelo de Gelo. Ao chegar, peça a <NAVI>[Lehar]<INFO>icas_in,141,216,0,101,0</INFO></NAVI> que apresente os guardiões.#
+Seguindo as orientações de Lehar, decidimos ir a um lugar chamado Castelo de Gelo. Ao chegar, peça a [<NAVI>Lehar<INFO>icas_in,141,216,0,101,0</INFO></NAVI>] que apresente os guardiões.#
 Converse com Lehar#
 
 18126#Encontro no Castelo de Gelo###
 No Castelo de Gelo de Isgard, os guardiões Leon e Aurelie vigiavam o selo junto com os Arwin. Continue conversando com <NAVI>[Leon]<INFO>icas_in,138,220,0,101,0</INFO></NAVI>.#
 Converse com Leon#
 
-18127#Encontre a Patrulha Arwin.###
-Leon aconselhou que seria útil encontrar a Patrulha Arwin, que patrulha regularmente a região de Isgard. Vamos encontrar <NAVI>[Capitão da Patrulha]<INFO>icecastle,23,115,0,101,0</INFO></NAVI> na entrada do Castelo de Gelo.#
-Converse com a Patrulha Arwin#
+18127#Encontre a Patrulha da Águia.###
+Leon aconselhou que seria útil encontrar a Patrulha da Águia, que patrulha regularmente a região de Isgard. Vamos encontrar <NAVI>[Capitão da Patrulha]<INFO>icecastle,23,115,0,101,0</INFO></NAVI>, na entrada do Castelo de Gelo.#
+Converse com o Capitão da Patrulha#
 
 18128#Encontre Voglinde.###
 Voglinde parece ter algumas perguntas. Vamos encontrar <NAVI>[Voglinde]<INFO>icas_in,162,224,0,101,0</INFO></NAVI>, que está esperando dentro do Castelo de Gelo.#
 Converse com Voglinde#
 
 18129#Caixa do Guardião e Convite 4###
-Converse com os companheiros a bordo da aeronave Ifho até a chegada.#
+Converse com os companheiros a bordo do Aeroplano IF até a chegada.#
 Converse com os companheiros#
 
 18130#Obtenção de Materiais de Pesquisa para Vellgunde###
 Vellgunde, que pesquisa a Maldição de Jormungand no Castelo de Gelo, precisa de uma grande quantidade de Núcleo Mágico Purificado como material. Purifique com Friederike as pedras mágicas inferiores obtidas ao derrotar Rgan e depois leve-as para Vellgunde.#
-3 Núcleo Mágico Purificado#
+3x Núcleo Mágico Purificado#
 
-18131#Obtenção de Materiais de Pesquisa para Vellgunde - Em espera###
+18131#[Espera] Obtenção de Materiais de Pesquisa para Vellgunde###
 Esta é uma missão diária. Quando o tempo de espera terminar, será possível realizá-la novamente. A missão pode ser recebida de <NAVI>[Vellgunde]<INFO>icas_in,185,63,0,101,0</INFO></NAVI>, no Castelo de Gelo.#
-Reinicia às 04h#
+Reinicia às 04:00#
 
 18132#Precisamos de Ajuda.###
-Lehar, que encontrei no saguão do Castelo de Gelo, disse que Leon está procurando alguém para ajudá-lo com urgência. Vamos encontrar <NAVI>[Veleon]<INFO>icas_in,42,252,0,101,0</INFO></NAVI> e ouvir o que ele tem a dizer.#
+Lehar, que encontrei no saguão do Castelo de Gelo, disse que Leon está procurando alguém para ajudá-lo com urgência. Vamos encontrar [<NAVI>Leon<INFO>icas_in,42,252,0,101,0</INFO></NAVI>] e ouvir o que ele tem a dizer.#
 Converse com Leon#
 
 18133#A História de Leon###
-Vamos discutir em detalhes com <NAVI>[Miriam]<INFO>icas_in,48,252,0,101,0</INFO></NAVI> como resgatar as pessoas perdidas que devem estar vagando pelas severas planícies geladas de Isgard.#
+Vamos discutir em detalhes com [<NAVI>Miriam<INFO>icas_in,48,252,0,101,0</INFO></NAVI>] como resgatar as pessoas perdidas que devem estar vagando pelas severas planícies geladas de Isgard.#
 Converse com Miriam#
 
 18134#Busca por Desaparecidos - Geleira Congelada###
@@ -28218,37 +28222,37 @@ Procure desaparecidos#
 Encontrei um habitante do continente de Midgard que havia sido sequestrado para Isgard e estava perdido. Volte ao Castelo de Gelo e entregue-o a <NAVI>[Maram]<INFO>icas_in,262,179,0,101,0</INFO></NAVI>.#
 Converse com Maram#
 
-18137#Busca por Desaparecidos - Em espera###
-Decidimos interromper por enquanto a busca pelos habitantes do continente sequestrados para Isgard. Quando chegar a hora combinada, procure <NAVI>[Miriam]<INFO>icas_in,48,252,0,101,0</INFO></NAVI> para dividir novamente as áreas de busca.#
-Reinicia às 04h#
+18137#[Espera] Busca por Desaparecidos###
+Decidimos interromper por enquanto a busca pelos habitantes do continente sequestrados para Isgard. Quando chegar a hora combinada, procure [<NAVI>Miriam<INFO>icas_in,48,252,0,101,0</INFO></NAVI>] para dividir novamente as áreas de busca.#
+Reinicia às 04:00#
 
 18138#Um Modo Especial de Sobreviver###
-<NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI>, que encontrei no Ninho da Serpente, pediu que eu recupere núcleos mágicos dos pecadores que não receberam a graça. Parece que os pecadores são Regan Primitivo e Regan de Nível Mais Baixo. Derrote-os e recupere 10 Núcleo Mágico Inferior de Regan.#
-10 Núcleo Mágico Inferior de Regan#
+<NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI>, que encontrei no Ninho da Serpente, pediu que eu recupere núcleos mágicos dos pecadores que não receberam a graça. Parece que os pecadores são Rgan Primitivo e Rgan Ínfimo. Derrote-os e recupere 10x Núcleo Mágico Inferior de Rgan.#
+10x Núcleo Mágico Inferior de Rgan#
 
 18139#Nosso Precioso Alimento###
-<NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI>, que encontrei no Ninho da Serpente, ainda quer recuperar o poder mágico dos pecadores. Derrote Regan Primitivo e Regan de Nível Mais Baixo e recupere 30 Núcleo Mágico Inferior de Regan.#
-30 Núcleo Mágico Inferior de Regan#
+<NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI>, que encontrei no Ninho da Serpente, ainda quer recuperar o poder mágico dos pecadores. Derrote Rgan Primitivo e Rgan Ínfimo e recupere 30x Núcleo Mágico Inferior de Rgan.#
+30x Núcleo Mágico Inferior de Rgan#
 
 18140#Nosso Precioso Alimento - Em espera###
-No Ninho da Serpente de Isgard, os núcleos mágicos parecem servir como alimento e precisam ser coletados todos os dias. Se tiver devoção, ajude <NAVI>[Mimirgand]<INFO>jor_nest,34,79,0,101,0</INFO></NAVI> novamente quando algum tempo tiver passado.#
-Reinicia às 04h#
+No Ninho da Serpente de Isgard, os núcleos mágicos parecem servir como alimento e precisam ser coletados todos os dias. Se tiver devoção, ajude [<NAVI>Mimirgand<INFO>jor_nest,34,79,0,101,0</INFO></NAVI>] novamente quando algum tempo tiver passado.#
+Reinicia às 04:00#
 
 18141#Passatempo Refinado###
-<NAVI>[Berbergand]<INFO>jor_nest,37,75,0,101,0</INFO></NAVI>, que fabrica acessórios como passatempo no Ninho da Serpente, pediu que eu reúna materiais. São necessários 10 de cada: Calapi, líquido fluorescente, Flor-Isca de Bolhas e Casca Fina e Resistente. Eles podem ser obtidos dos monstros das planícies glaciais.#
+<NAVI>[Berbergand]<INFO>jor_nest,37,75,0,101,0</INFO></NAVI>, que fabrica acessórios como passatempo no Ninho da Serpente, pediu que eu reúna materiais. São necessários 10x Calapi, 10x Líquido Fluorescente, 10x Flor-Sino de Isca e 10x Casco Fino e Resistente. Eles podem ser obtidos dos monstros das planícies glaciais.#
 Após coletar os materiais, converse com Berbergand#
 
-18142#Passatempo Refinado - Em espera###
+18142#[Espera] Passatempo Refinado###
 Esta é uma missão diária. Quando o tempo de espera terminar, será possível realizá-la novamente. A missão pode ser recebida de <NAVI>[Berbergand]<INFO>jor_nest,37,75,0,101,0</INFO></NAVI> no Ninho da Serpente.#
-Reinicia às 04h#
+Reinicia às 04:00#
 
 18143#Por um Trabalho Seguro###
 <NAVI>[Hanadeosaragand]<INFO>jor_nest,257,26,0,101,0</INFO></NAVI>, responsável pela coleta de gelo no Ninho da Serpente, disse que está difícil coletar gelo por causa da ameaça de criaturas externas. Derrote Limacina e Calamaring que vagam pela geleira.#
 Derrote os monstros da região glacial#
 
-18144#Por um Trabalho Seguro - Em espera###
-Esta é uma missão diária. Quando o tempo de espera terminar, será possível realizá-la novamente. A missão pode ser recebida de <NAVI>[Hanadeosaragand]<INFO>jor_nest,257,26,0,101,0</INFO></NAVI> no Ninho da Serpente.#
-Reinicia às 04h#
+18144#[Espera] Por um Trabalho Seguro###
+Esta é uma missão diária. Quando o tempo de espera terminar, será possível realizá-la novamente. A missão pode ser recebida de <NAVI>[Hanadeosaragand]<INFO>jor_nest,257,26,0,101,0</INFO></NAVI>, no Ninho da Serpente.#
+Reinicia às 04:00#
 
 18218#Terra Gloria###
 Por favor, venha até a entrada do  <NAVI>[Laboratório Clandestino]<INFO>que_swat,145,57,0,101,0</INFO></NAVI>. Tenho algo urgente para dizer.#

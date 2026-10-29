@@ -637,6 +637,7 @@
 1326#Machado Ilusional#
 1333#Ferramenta Dourada#
 1336#Machado Real#
+1341#Destruidor Infernal#
 1351#Machado de Batalha#
 1352#Machado de Batalha#
 1353#Machado de Batalha#
@@ -3722,7 +3723,7 @@
 6402#Fruto da palmeira#
 6403#Couro de Comodo#
 6404#Punho do Afago#
-6405#Pena de Cendrawish#
+6405#Pena de Cendrawasih#
 6406#Pena Reluzente de Cendrawasih#
 6413#Seguro Estendido#
 6415#Embrião Estranho#
@@ -4059,7 +4060,7 @@
 6949#Pedra de VIT (Meio)#
 6950#Pedra de SOR (Meio)#
 6951#Pedra de HP máx 1 (Baixo)#
-6954#Fragmento de Alma de Cachorro#
+6954#Fragmento de Alma de Cão#
 6955#Fragmento de Alma de Porco#
 6956#Carneiro Capturado#
 6957#Lã Macia#
@@ -4903,6 +4904,7 @@
 9131#Ovo de Golem de Fogo#
 9132#Ovo de Cavaleiro do Abismo#
 9133#Ovo de Cavaleiro Mutante#
+9134#Ovo de Cavaleiro Branco#
 9137#Ovo de Bafomé#
 9138#Ovo de Familiar#
 9139#Ovo de Ilusão das Trevas#
@@ -4910,10 +4912,13 @@
 9141#Ovo de Rosa Selvagem#
 9142#Ovo de Eddga#
 9148#Ovo de Senhor das Trevas#
+9155#Ovo de Zangão#
 9156#Ovo de Chao#
 9169#Ovo de Gerente#
+9170#Ovo de Angelgolt#
 9171#Ovo de Vigia do Tempo#
 9187#Ovo de Skeggiold#
+9190#Ovo de Relógio#
 9192#Ovo de Zangão Gigante#
 9193#Ovo de Abelha-Rainha#
 9510#Baú de Pedras Visuais 17#
@@ -6397,7 +6402,7 @@
 14860#Sharel Set B#
 14873#[Promo] Goma de Mascar#
 14887#[Evento] Néctar Divino#
-14908#[Evento] Arroz Coreano#
+14908#[Evento] Bolinho Songpyeon#
 14909#Spring Scroll#
 14910#Blessing Scroll#
 14914#Ribbon Scroll TH#
@@ -7526,7 +7531,7 @@
 19603#[Visual] Óculos Invisível#
 19604#[Visual] Máscara Invisível#
 19605#[Visual] Lenço de Rosto (Vermelho)#
-19606#Pergaminho Místico#
+19606#[Visual] Pergaminho Ninja#
 19607#Filhote de Fênix#
 19608#Pintinho Decorativo#
 19612#Fones Audio-Poring#
@@ -7824,6 +7829,7 @@
 20069#[Visual] Tiara de Grifo#
 20070#Capuz de Alpaca Fofinha#
 20071#[Visual] Filhote de Worg#
+20075#[Visual] Chapéu do Doram de Botas#
 20077#[Visual] Óculos Alados#
 20078#Boina de Penas#
 20080#Visual de Plumas e Paetês#
@@ -7894,7 +7900,7 @@
 20183#Presença Misteriosa#
 20188#Faixa de Morpheus#
 20190#[Visual] Cocoricuca#
-20191#Chapéu da Guarda Doram#
+20191#[Visual] Boina Felina Preta#
 20194#Traje de Leão#
 20195#Gato Rabugento#
 20196#Gorro de Leopardo#
@@ -8121,7 +8127,7 @@
 20535#[Visual] Holograma Futurista#
 20537#Folhas Dançantes#
 20538#Círculo Arco-íris#
-20541#Asas Etéreas#
+20541#[Visual] Laços Angelicais#
 20543#Mochila de Poring Assombrado#
 20545#[Visual] Asas de Natal#
 20546#[Visual] Sino Espalhafatoso#
@@ -8157,9 +8163,9 @@
 20598#Miau-chila de Bichano Mágico#
 20599#[Visual] Asas de Sakura#
 20602#[Visual] Voo dos Jotun#
-20603#Asas Camaleônicas#
+20603#[Visual] Asas de Monarca Azul#
 20604#Véu Abençoado#
-20605#Folha-chuva#
+20605#[Visual] Guarda-chuva de Folha#
 20607#Voo de Baldur#
 20612#Escudo de Oridecon#
 20613#Pernas de Aranha#
@@ -8469,7 +8475,7 @@
 22548#[Evento] Água Amaldiçoada#
 22549#[Evento] Garrafa de Veneno#
 22550#[Evento] Sacola de Biscoitos#
-22551#[Evento] Docinhos de leite#
+22551#[Evento] Docinho Dasik#
 22552#[Evento] Biscoito de Mel#
 22553#[Evento] Bolo Arco-íris#
 22554#[Evento] Kit de Primeiros Socorros#
@@ -11102,6 +11108,7 @@
 31027#Orelhas de Urso Enfeitadas#
 31028#Sobrepeliz de Gatinho#
 31029#Fuça de Porco#
+31032#[Visual] Boneco de Loomin#
 31036#[Visual] Chapéu de Ministro#
 31038#Bandana Xadrez#
 31039#Coroa de Folhas do Outono#
@@ -11252,7 +11259,7 @@
 31263#Balde de Pipoca#
 31264#Asinhas Elegantes (Baixo)#
 31289#Asinhas Estilosas (Baixo)#
-31290#Quepe com Asinhas#
+31290#[Visual] Boné do Bom Aluno#
 31291#Diaboina#
 31293#Coroa de Pétalas de Lavanda#
 31295#Boina Emplumada#
@@ -11285,7 +11292,7 @@
 31368#[Visual] Chapéu do Festival da Colheita#
 31373#Coroa de Ramos Verdejantes#
 31379#Gira-Cocuruto#
-31380#Corvo Fofoqueiro#
+31380#[Visual] Corvo#
 31381#Gola Diabólica#
 31382#[Visual] Touca de Patinhas#
 31383#Peruca Azul de Waifu#
@@ -11380,7 +11387,7 @@
 31531#Chapéu Mágico Duas-Pontas#
 31532#Presilha Maravilha#
 31533#[Visual] Gatchecol Preto#
-31534#Tiara Colorida#
+31534#[Visual] Tiara Arco-íris#
 31535#[Visual] Chapéu Cheiroso#
 31536#Belzebu de Estimação#
 31538#[Visual] Aura do Amor#
@@ -11575,7 +11582,7 @@
 31937#Adorno de Unicórnio#
 31938#Peruca de Trança Dupla#
 31939#[Visual] Coroa de Flores Vermelhas#
-31943#Touquinha de Sapo#
+31943#[Visual] Capuz de Sapo#
 31947#[Visual] Chifres Rochosos#
 31950#Cabeção de Esquilo#
 31951#[Visual] Felina Cauda-Longa#
@@ -11597,7 +11604,7 @@
 31970#[Visual] Peruca com Rabo de Cavalo (Castanho)#
 31971#[Visual] Peruca com Rabo de Cavalo (Branco)#
 31974#[Visual] Melofone#
-31975#Visual Batata-doce na Boca#
+31975#[Visual] Batata Quente#
 32000#Lança de Oxum#
 32005#Bardiche Ilusional#
 32006#Lança de Xangô #
@@ -11998,7 +12005,11 @@
 100887#Combinador Pontual#
 100888#Combinador Durável#
 100890#Trocador Sombrio II#
+100900#Asas de Teleporte do Castelo de Gelo#
 100901#Asas de Teleporte da Vila do Lobo Cinzento#
+100902#Asas de Teleporte da Mansão de Varmundt#
+100903#Asas de Teleporte da Área Fronteiriça de Cor#
+100904#Asas de Teleporte da Base Militar#
 100913#Manual Kafra (7 Dias)#
 100917#Martelo de Refino Primordial IV#
 100918#Reformador Primordial IV#
@@ -12130,6 +12141,7 @@
 101120#Manuscritos da Neve#
 101121#Manuscritos da Terra#
 101122#Manuscritos da Trovoada#
+101162#Disfarce de Rgan#
 101168#[Evento] Poção Enhumasoh#
 101177#Caderno Tempeste Penetrante#
 101178#Caderno de Recarga#
@@ -12137,10 +12149,19 @@
 101180#Caderno de Talentos#
 101181#Combinador da Recarga#
 101182#Combinador dos Feitiços#
-101186#Aprimoramento de Arma Glacial#
+101183#Extrator de Flores Invernais#
+101184#Extrator de Peças Invernais#
+101185#Encantador de Equipamentos Invernais#
+101186#Encantador de Armas Invernais#
+101187#Refinador de Armadura Invernal +9#
+101188#Refinador de Arma Invernal +9#
 101189#Martelo de Refino Primordial VI#
 101190#Reformador Primordial VI#
 101194#Pacote de Cordões#
+101217#Encantador de Capas Invernais#
+101218#Encantador de Calçados Invernais#
+101219#Encantador de Acessórios Invernais I#
+101220#Encantador de Acessórios Invernais II#
 101238#[Evento] Manual Kafra (7 dias)#
 101257#Combinador do Portador#
 101258#Combinador Mega Repente#
@@ -12197,9 +12218,17 @@
 101564#Caderno de Atributos#
 101565#Caixa de Fascículos Selecionáveis#
 101637#Dispositivo de Aprimoramento do Glaciar Sombrio#
-101638#Aprimoramento de Arma do Glaciar Sombrio#
-101639#Extrator do Glaciar Sombrio#
+101638#Encantador de Arma Vil Invernal#
+101639#Combinador Vil Invernal#
 101653#Caixa da Fé#
+101654#Total Selecionável#
+101655#Caixa de Brinco Total#
+101656#Caixa de Colar Total#
+101657#Pedra Preciosa Selecionável#
+101658#Caixa de Brinco de Pedras Preciosas#
+101659#Caixa de Colar de Pedras Preciosas#
+101660#Caixa de Greva de Pedras Preciosas#
+101661#Caixa de Malha de Pedras Preciosas#
 101665#Combinador de EXP II#
 101666#Caixa de Cadernos#
 101670#Pano para Lentes#
@@ -12214,9 +12243,17 @@
 101722#Caixa de Colar dos Feitiços#
 101723#Caixa de Malha dos Feitiços#
 101724#Caixa de Greva dos Feitiços#
+101725#Caixa de Manopla de Absorção#
+101726#Caixa de Escudo de Absorção#
 101727#Mastodonte Selecionável#
 101728#Feitiço Selecionável#
+101729#Absorção Selecionável#
 101783#Baú Prateado da Lili (5 dias)#
+101801#Portador Selecionável#
+101802#Caixa de Brinco do Portador#
+101803#Caixa de Colar do Portador#
+101804#Caixa de Malha do Portador#
+101805#Caixa de Greva do Portador#
 101806#Fugaz Selecionável#
 101807#Caixa de Manopla Fugaz#
 101808#Caixa de Escudo Fugaz#
@@ -12241,6 +12278,7 @@
 102222#Ancestrais Selecionáveis VI#
 102223#Ancestrais Selecionáveis VII#
 102224#Reformador Ancestral#
+102238#Martelo de Refino de Issgard#
 102246#Cartão VIP Premium#
 102249#Presente VIP Premium#
 102277#Aviso de Loki#
@@ -12254,6 +12292,7 @@
 102547#Embalagem de Fragmentos#
 102676#Moeda Vital de Loki#
 102677#Cochicho de Loki#
+102732#Coroa Invernal Selecionável#
 102733#Caixa de Ás Selecionável#
 102734#Caixa de Moeda Selecionável#
 102735#Caixa de Loki Selecionável#
@@ -13085,6 +13124,41 @@
 108323#Pacote Gastronômico II#
 108324#Pacote Gastronômico III#
 108333#Pacote Especial ROS Festa 2026#
+108347#Caixa Jcoin Rush 1#
+108348#Caixa Jcoin Rush 2#
+108349#Caixa Jcoin Rush 3#
+108350#Caixa Jcoin Rush 4#
+108351#Caixa Jcoin Rush 5#
+108367#[Roleta] Prêmio de Novembro 1#
+108368#[Roleta] Prêmio de Novembro 2#
+108369#[Roleta] Prêmio de Novembro 3#
+108370#[Roleta] Prêmio de Novembro 4#
+108371#[Roleta] Prêmio de Novembro 5#
+108372#[Roleta] Prêmio de Novembro 6#
+108373#[Roleta] Prêmio de Novembro 7#
+108374#[Roleta] Prêmio de Novembro 8#
+108375#[Roleta] Prêmio de Novembro 9#
+108376#[Roleta] Prêmio de Novembro 10#
+108377#[Roleta] Prêmio de Novembro 11#
+108379#[Roleta] Prêmio de Novembro 12#
+108380#[Roleta] Prêmio de Novembro 13#
+108381#[Roleta] Prêmio de Novembro 14#
+108382#[Roleta] Prêmio de Novembro 15#
+108383#[Roleta] Prêmio de Novembro 16#
+108436#Artefato Oval Diabólico#
+108437#[Evento] Artefato Oval Diabólico#
+108438#Bolsa de Artefato Diabólico#
+108439#[Nov] Caixa de Ovos Pequena#
+108440#[Nov] Caixa de Ovos Grande#
+108441#[Nov] Caixa de Combate#
+108442#[Nov] Caixa de Vida#
+108443#Pacote de Pedras Visuais XVII#
+108444#Grande Pacote de Pedras Visuais XVII#
+108445#Mega Pacote de Pedras Visuais I#
+108491#Baú JCoin Rush I#
+108492#Baú JCoin Rush II#
+108493#Baú JCoin Rush III#
+108522#[Evento] Caixa de Slot Adicional#
 200001#Cx. Expansor de Inventário (10)#
 200031#[Edição Limitada] Pacote MiauMiau I#
 200074#[Edição Limitada] Pacote de Combate#
@@ -13228,6 +13302,7 @@
 201102#[Set] Caixa Grande de Ovos#
 201134#Pacote de Pedra Visual XV#
 201135#Grande Pacote de Pedra Visual XV#
+201163#[Nov] Caixa de Ovos Média#
 300001#Carta Nuvem Nociva#
 300002#Carta Nuvem Perigosa#
 300003#Carta Porcellio Albino#
@@ -13414,29 +13489,29 @@
 300295#Carta General Orc#
 300296#Carta Sieglouse#
 300297#Carta Rei Goblin#
-300359#Carta Bola de Gelo#
+300359#Carta Escaragélido#
 300360#Carta Alga Brilhante#
-300361#Carta Canudo de Gelo#
-300362#Carta Flor que Não Congela#
-300363#Carta Remakina#
+300361#Carta Minhogelix#
+300362#Carta Garoupa Glaciflor#
+300363#Carta Limacina#
 300364#Carta Calamaring#
 300365#Carta Rgan Primitivo#
-300366#Carta Rgan Inferior#
-300367#Carta Rgan de Baixo Nível#
+300366#Carta Rgan Ínfimo#
+300367#Carta Rgan Inferior#
 300368#Carta Rgan Intermediário#
 300369#Carta Rgan Primitivo Descartado#
 300370#Carta Rgan Intermediário Descartado#
-300371#Carta Calamaring da Caverna#
-300372#Carta Imobilizador da Caverna#
-300373#Carta Filhote de Hallucigenia#
+300371#Carta Calamaring Cavernoso#
+300372#Carta Garoupa Cavernosa#
+300373#Carta Bebê Hallucigenia#
 300374#Carta Hallucigenia#
-300375#Carta Dolocaris de Um Olho#
-300376#Carta Dolocaris de Dois Olhos#
-300377#Carta Ultra Remakina#
-300378#Carta Juncea da Simulação#
-300379#Carta Rgan de Alto Nível Modificado#
-300380#Carta Rgan Intermediário Enredado#
-300381#Carta Caçador de Corações AT#
+300375#Carta Dollocaris Monocular#
+300376#Carta Dollocaris Binocular#
+300377#Carta Ultra Limacina#
+300378#Carta Juncea de Simulação#
+300379#Carta Rgan Superior Modificado#
+300380#Carta Rgan Mediano Parasita#
+300381#Carta Caça-Coração AT#
 300382#Carta Aquila#
 300385#Gráfico: Popstar#
 300419#Gráfico: Camélia#
@@ -13826,6 +13901,7 @@
 310654#Vel.Atq +1 (Dual)#
 310658#Fixa -0,1 (Dual)#
 310660#Alcance (Dual)#
+310661#Corpo (Dual)#
 310662#Absorção de HP (Dual)#
 310663#Absorção de SP (Dual)#
 310674#Constelação do Poder 1#
@@ -14069,16 +14145,271 @@
 311085#CRV +2#
 311086#CON +1#
 311087#CON +2#
-311088#T.CRÍT +1#
+311088#Flor Invernal (FOR)#
 311089#T.CRÍT +2#
 311090#C.Mais +1#
 311091#C.Mais +2#
-311138#Feitiço da Flor de Gelo (Sopro Dracônico)#
-311144#Feitiço da Flor de Gelo (Canhão Propulsor)#
-311145#Feitiço da Flor de Gelo (Bumerangue Vulcano)#
-311146#Feitiço da Flor de Gelo (Golpe Tornado)#
-311147#Feitiço da Flor de Gelo (Tornado Infernal)#
-311149#Feitiço da Flor de Gelo (Explosão Ácida)#
+311092#Flor Invernal (FOR)#
+311093#Flor Invernal (DES)#
+311094#Flor Invernal (AGI)#
+311095#Flor Invernal (INT)#
+311096#Flor Invernal (VIT)#
+311097#Flor Invernal (SOR)#
+311098#Flor Invernal (DEF)#
+311099#Flor Invernal (DEFM)#
+311100#Flor Invernal (Atirador)#
+311101#Flor Invernal (Guerreiro)#
+311102#Flor Invernal (Mágico)#
+311103#Flor Invernal (Refletor)#
+311104#Flor Invernal (Híbrido)#
+311105#Flor Invernal (Pós)#
+311106#Flor Invernal (Veloz)#
+311107#Flor Invernal (Variável)#
+311108#Flor Invernal (Crítico)#
+311109#Flor Invernal (Precisão)#
+311110#Flor Invernal (Total)#
+311111#Flor Invernal (Dano)#
+311112#Flor Invernal (Espelho)#
+311113#Flor Invernal (HP)#
+311114#Flor Invernal (SP)#
+311115#Flor Invernal (Cura)#
+311116#Flor Invernal (Robusto)#
+311117#Flor Invernal (Fixa)#
+311118#Flor Invernal (Estatura)#
+311119#Flor Invernal (Tamanho)#
+311120#Flor Invernal (Eternidade)#
+311121#Flor Invernal (Sortilégio)#
+311122#Flor Invernal (Astúcia)#
+311123#Flor Invernal (Superpoder)#
+311124#Flor Invernal (Lampejo)#
+311125#Flor Invernal (Fortuna)#
+311126#Flor Invernal (Atraso)#
+311127#Flor Invernal (Mira)#
+311128#Flor Invernal (Fatal)#
+311129#Flor Invernal (Combate)#
+311130#Flor Invernal (Encanto)#
+311131#Flor Invernal (HPR)#
+311132#Flor Invernal (SPR)#
+311133#Flor Invernal (Conversão)#
+311134#Flor Invernal (Absorção)#
+311135#Flor Invernal (Vida)#
+311136#Flor Invernal (Mente)#
+311137#Flor Invernal (Geral)#
+311138#Flor Invernal (Dragão)#
+311139#Flor Invernal (Rúnico)#
+311140#Flor Invernal (Lança)#
+311141#Flor Invernal (Guardião)#
+311142#Flor Invernal (Hoplita)#
+311143#Flor Invernal (Domini)#
+311144#Flor Invernal (Canhão)#
+311145#Flor Invernal (Lenhador)#
+311146#Flor Invernal (Machado)#
+311147#Flor Invernal (Biologia)#
+311148#Flor Invernal (Física)#
+311149#Flor Invernal (Química)#
+311150#Flor Invernal (Lâminas)#
+311151#Flor Invernal (Loki)#
+311152#Flor Invernal (Duelista)#
+311153#Flor Invernal (Ofensiva)#
+311154#Flor Invernal (Desejo)#
+311155#Flor Invernal (Triplo)#
+311156#Flor Invernal (Místico)#
+311157#Flor Invernal (Arcanista)#
+311158#Flor Invernal (Imaterial)#
+311159#Flor Invernal (Tóxico)#
+311160#Flor Invernal (Psíquica)#
+311161#Flor Invernal (Feitiço)#
+311162#Flor Invernal (Exorcismo)#
+311163#Flor Invernal (Santo)#
+311164#Flor Invernal (Gemini)#
+311165#Flor Invernal (Lutador)#
+311166#Flor Invernal (Espiritual)#
+311167#Flor Invernal (Pugilista)#
+311168#Flor Invernal (Falcão)#
+311169#Flor Invernal (Tiro)#
+311170#Flor Invernal (Flecha)#
+311171#Flor Invernal (Musical)#
+311172#Flor Invernal (Temporal)#
+311173#Flor Invernal (Vulcão)#
+311174#Flor Invernal (Solar)#
+311175#Flor Invernal (Lunar)#
+311176#Flor Invernal (Estelar)#
+311177#Flor Invernal (Almas)#
+311178#Flor Invernal (Espírito)#
+311179#Flor Invernal (Sombrio)#
+311180#Flor Invernal (Revólver)#
+311181#Flor Invernal (Granada)#
+311182#Flor Invernal (Espingarda)#
+311183#Flor Invernal (Ninpou)#
+311184#Flor Invernal (Togatana)#
+311185#Flor Invernal (Shinobi)#
+311186#Flor Invernal (Fauna)#
+311187#Flor Invernal (Selva)#
+311188#Flor Invernal (Selvagem)#
+311189#Flor Invernal (Super)#
+311190#Flor Invernal (Hiper)#
+311191#Flor Invernal (Mega)#
+311192#Cristal Invernal (Dragão)#
+311193#Cristal Invernal (Vento Cortante)#
+311194#Cristal Invernal (Impacto Flamejante)#
+311195#Cristal Invernal (Mil Pontas)#
+311196#Cristal Invernal (Onda de Choque)#
+311197#Cristal Invernal (Lança do Destino)#
+311198#Cristal Invernal (Trindade)#
+311199#Cristal Invernal (Toque do Oblívio)#
+311200#Cristal Invernal (Disparo Perfurante)#
+311201#Cristal Invernal (Luz da Criação)#
+311202#Cristal Invernal (Escudo Compressor)#
+311203#Cristal Invernal (Aegis Inferi)#
+311204#Cristal Invernal (Punho Foguete)#
+311205#Cristal Invernal (Canhão)#
+311206#Cristal Invernal (Fúria do Furacão)#
+311207#Cristal Invernal (Brandir Machado)#
+311208#Cristal Invernal (Metralhadora)#
+311209#Cristal Invernal (Arremesso de Machado)#
+311210#Cristal Invernal (Tornado de Carrinho)#
+311211#Cristal Invernal (Prótons)#
+311212#Cristal Invernal (Esporo Explosivo)#
+311213#Cristal Invernal (Erva Daninha)#
+311214#Cristal Invernal (Castigo de Loki)#
+311215#Cristal Invernal (Lâminas de Loki)#
+311216#Cristal Invernal (Retaliação)#
+311217#Cristal Invernal (Lâminas Retalhadoras)#
+311218#Cristal Invernal (Ofensiva Fatal)#
+311219#Cristal Invernal (Disparo Triplo)#
+311220#Cristal Invernal (Cópia Explosiva)#
+311221#Cristal Invernal (Autoconjuração)#
+311222#Cristal Invernal (Magismo)#
+311223#Cristal Invernal (Impacto Espiritual)#
+311224#Cristal Invernal (Cometa)#
+311225#Cristal Invernal (Onda Psíquica)#
+311226#Cristal Invernal (Pó de Diamante)#
+311227#Cristal Invernal (Lanças dos Aesir)#
+311228#Cristal Invernal (Castigo de Nerthus)#
+311229#Cristal Invernal (Implosão Tóxica)#
+311230#Cristal Invernal (Adoramus)#
+311231#Cristal Invernal (Judex)#
+311232#Cristal Invernal (Gemini Lumen)#
+311233#Cristal Invernal (Garra de Tigre)#
+311234#Cristal Invernal (Explosão Espiritual)#
+311235#Cristal Invernal (Soco Furacão)#
+311236#Cristal Invernal (Tempestade Espiritual)#
+311237#Cristal Invernal (Pancada Corporal)#
+311238#Cristal Invernal (Disparo Certeiro)#
+311239#Cristal Invernal (Tempestade de Flechas)#
+311240#Cristal Invernal (Investida de Worg)#
+311241#Cristal Invernal (Temporal de Flechas)#
+311242#Cristal Invernal (Ruído Estridente)#
+311243#Cristal Invernal (Ressonância)#
+311244#Cristal Invernal (Sol)#
+311245#Cristal Invernal (Lua)#
+311246#Cristal Invernal (Estrela)#
+311247#Cristal Invernal (Espa)#
+311248#Cristal Invernal (Eswhoo)#
+311249#Cristal Invernal (Necroexplosão)#
+311250#Cristal Invernal (Descarregar Tambor)#
+311251#Cristal Invernal (Execução)#
+311252#Cristal Invernal (Lançar Míssil)#
+311253#Cristal Invernal (Rajada Estilhaçante)#
+311254#Cristal Invernal (Expurgar)#
+311255#Cristal Invernal (Impacto Cruzado)#
+311256#Cristal Invernal (Kagerou)#
+311257#Cristal Invernal (Oboro)#
+311258#Cristal Invernal (Ninja)#
+311259#Cristal Invernal (Turbilhão de Pétalas)#
+311260#Cristal Invernal (Lança Gateira)#
+311261#Cristal Invernal (Meteoros de Nepeta)#
+311262#Cristal Invernal (Cometas Lunáticos)#
+311263#Cristal Invernal (Chilique de Picky)#
+311264#Cristal Invernal (Ataque Selvagem)#
+311265#Cristal Invernal (Crux Divinum)#
+311266#Cristal Invernal (Apunhalar)#
+311267#Cristal Invernal (Escudo Bumerange)#
+311268#Cristal Invernal (Ira de Thor)#
+311269#Cristal Invernal (Trovão de Júpiter)#
+311270#Cristal Invernal (Chuva de Meteoros)#
+311271#Cristal Invernal (Nevasca)#
+311272#Cristal Invernal (Espada Alada)#
+311273#Cristal Invernal (Corte e Massacre)#
+311274#Cristal Invernal (Cólera Esmagadora)#
+311275#Cristal Invernal (Dilacerar)#
+311276#Cristal Invernal (Golpe do Destino)#
+311277#Cristal Invernal (Arremessar Escudo)#
+311278#Cristal Invernal (Crux Tempestas)#
+311279#Cristal Invernal (Machado Esmagador)#
+311280#Cristal Invernal (Atirar Ácido)#
+311281#Cristal Invernal (Impacto Selvagem)#
+311282#Cristal Invernal (Talho Eterno)#
+311283#Cristal Invernal (Impacto Cratera)#
+311285#Cristal Invernal (Ofensiva Abissal)#
+311286#Cristal Invernal (Disparo em Cadeia)#
+311287#Cristal Invernal (Rajada Frenética)#
+311288#Cristal Invernal (Fenda do Abismo)#
+311289#Cristal Invernal (Esfaquear)#
+311290#Cristal Invernal (Fogo)#
+311291#Cristal Invernal (Água)#
+311292#Cristal Invernal (Vento)#
+311293#Cristal Invernal (Terra)#
+311294#Cristal Invernal (Ilusionismo)#
+311295#Cristal Invernal (Execução Aurora)#
+311296#Cristal Invernal (Conflagração)#
+311297#Cristal Invernal (Tormenta)#
+311298#Cristal Invernal (Tremor de Terra)#
+311299#Cristal Invernal (Poço Venenoso)#
+311300#Cristal Invernal (Flamen)#
+311301#Cristal Invernal (Arbitrium)#
+311302#Cristal Invernal (Petitio)#
+311303#Cristal Invernal (Inquisição)#
+311304#Cristal Invernal (Julgamento)#
+311305#Cristal Invernal (Sentença)#
+311306#Cristal Invernal (Técnica)#
+311307#Cristal Invernal (Águia)#
+311308#Cristal Invernal (Vendaval de Flechas)#
+311309#Cristal Invernal (Tiro Crescente)#
+311310#Cristal Invernal (Fúria Estridente)#
+311311#Cristal Invernal (Disparo Rítmico)#
+311312#Cristal Invernal (Atirar Rosas)#
+311313#Cristal Invernal (Dia)#
+311314#Cristal Invernal (Noite)#
+311315#Cristal Invernal (Céu)#
+311316#Cristal Invernal (Talismã do Dragão)#
+311317#Cristal Invernal (Talismã do Tigre)#
+311318#Cristal Invernal (Talismã da Fênix)#
+311319#Cristal Invernal (Talismã do Jabuti)#
+311320#Cristal Invernal (Exorcizar Assombração)#
+311321#Cristal Invernal (Trevas)#
+311322#Cristal Invernal (Huuma)#
+311323#Cristal Invernal (Kunai)#
+311324#Cristal Invernal (Mahou)#
+311325#Cristal Invernal (Vigília Noturna)#
+311326#Cristal Invernal (Tiro Único)#
+311327#Cristal Invernal (Atirar em Espiral)#
+311328#Cristal Invernal (Artilharia Pesada)#
+311329#Cristal Invernal (Fogo de Supressão)#
+311330#Cristal Invernal (Explosivo)#
+311331#Cristal Invernal (Unhas de Tigre)#
+311332#Cristal Invernal (Patada Felina)#
+311333#Cristal Invernal (Brisa Silvestre)#
+311334#Cristal Invernal (Lança Galhada)#
+311335#Cristal Invernal (Golpe de Tyr)#
+311336#Cristal Invernal (Lâminas Devastadoras)#
+311337#Cristal Invernal (Choque Violento)#
+311338#Cristal Invernal (Cortar em Espiral)#
+311339#Cristal Invernal (Hipermagia)#
+311340#Cristal Invernal (Hiperfeitiço)#
+311341#Cristal Invernal (Hiperencanto)#
+311342#Cristal Invernal (ATQ)#
+311343#Cristal Invernal (ATQM)#
+311344#Cristal Invernal (CRÍT)#
+311345#Cristal Invernal (Conjuração)#
+311346#Cristal Invernal (Velocidade)#
+311347#Cristal Invernal (Pós-conjuração)#
+311348#Cristal Invernal (Raça Física)#
+311349#Cristal Invernal (Raça Mágica)#
+311350#Cristal Invernal (Tamanho Físico)#
+311351#Cristal Invernal (Tamanho Mágico)#
+311352#Cristal Invernal (Propriedade Física)#
+311353#Cristal Invernal (Propriedade Mágica)#
 311367#Cinzas do Guerreiro 1#
 311368#Cinzas do Guerreiro 2#
 311369#Cinzas do Guerreiro 3#
@@ -14116,22 +14447,22 @@
 311402#Pedra da Variação 3#
 311403#Pedra da Variação 4#
 311404#Pedra da Variação 5#
-311443#Feitiço da Flor de Neve (Sopro Dracônico)#
-311444#Feitiço da Flor de Neve (Explosão de Faísca)#
-311445#Feitiço da Flor de Neve (Laser Triplo)#
-311446#Feitiço da Flor de Neve (Golpe Poderoso)#
-311447#Feitiço da Flor de Neve (Pó Explosivo)#
-311448#Feitiço da Flor de Neve (Mayhemic Thorns)#
-311449#Feitiço da Flor de Neve (Grau Físico) Nv. 1#
-311450#Feitiço da Flor de Neve (Grau Físico) Nv. 2#
-311451#Feitiço da Flor de Neve (Grau Físico) Nv. 3#
-311452#Feitiço da Flor de Neve (Grau Físico) Nv. 4#
-311453#Feitiço da Flor de Neve (Grau Físico) Nv. 5#
-311454#Feitiço da Flor de Neve (Grau Mágico) Nv. 1#
-311455#Feitiço da Flor de Neve (Grau Mágico) Nv. 2#
-311456#Feitiço da Flor de Neve (Grau Mágico) Nv. 3#
-311457#Feitiço da Flor de Neve (Grau Mágico) Nv. 4#
-311458#Feitiço da Flor de Neve (Grau Mágico) Nv. 5#
+311443#Cristal Invernal (Baforada Draconiana)#
+311444#Cristal Invernal (Explosão de Faíscas)#
+311445#Cristal Invernal (Laser Triplo)#
+311446#Cristal Invernal (Poder Esmagador)#
+311447#Cristal Invernal (Pólen Explosivo)#
+311448#Cristal Invernal (Espinhos Furiosos)#
+311449#Cristal Invernal (Grau Físico 1)#
+311450#Cristal Invernal (Grau Físico 2)#
+311451#Cristal Invernal (Grau Físico 3)#
+311452#Cristal Invernal (Grau Físico 4)#
+311453#Cristal Invernal (Grau Físico 5)#
+311454#Cristal Invernal (Grau Mágico 1)#
+311455#Cristal Invernal (Grau Mágico 2)#
+311456#Cristal Invernal (Grau Mágico 3)#
+311457#Cristal Invernal (Grau Mágico 4)#
+311458#Cristal Invernal (Grau Mágico 5)#
 311926#Gráfico: Rosas Românticas#
 312189#POD +3#
 312190#STA +3#
@@ -14139,6 +14470,15 @@
 312192#FEI +3#
 312193#CON +3#
 312194#CRV +3#
+312306#Cristal de Issgard#
+312307#Cristal de Issgard (Guerreiro)#
+312308#Cristal de Issgard (Atirador)#
+312309#Cristal de Issgard (Mortal)#
+312310#Cristal de Issgard (Magia)#
+312311#Cristal de Issgard (Bárbaro)#
+312312#Cristal de Issgard (Artilheiro)#
+312313#Cristal de Issgard (Tirano)#
+312314#Cristal de Issgard (Arauto)#
 312406#Medalha de Experiência#
 312407#Medalha de Amorfo#
 312408#Medalha de Morto#
@@ -14217,6 +14557,9 @@
 400097#Protetor das Marés#
 400098#Espólio de Howard#
 400099#Espólio de Flamel#
+400105#Coroa Invernal Guerreira#
+400106#Coroa Invernal Mágica#
+400107#Coroa Invernal Atiradora#
 400109#Boneco de Boitatá#
 400110#Coroa de Belzebu#
 400111#Elmo de Vesper#
@@ -14261,7 +14604,8 @@
 400160#[Visual] Festa Macarrônica#
 400161#[Visual] Bandana Amarelada#
 400166#Capacete Aquático#
-400174#Chapéu de Sorveja#
+400172#[Visual] Cocar Ati-Atihan#
+400174#[Visual] Copo de Cerveja#
 400175#Chapéu Fogueira#
 400176#Cesta de Guloseimas#
 400178#Elmo da Fé Arcana#
@@ -14293,7 +14637,7 @@
 400218#Elmo da Fé Elemental#
 400219#Elmo da Fé Elemental II#
 400221#Diadema de Jasper#
-400224#Boina Militar#
+400224#[Visual] Boina Militar Azul#
 400225#[Visual] Capuz de Coelho Felpudo#
 400226#Elmo da Fé Valente#
 400227#Elmo da Fé Valente II#
@@ -14392,6 +14736,7 @@
 401205#Chapéu Carnavalesco#
 401206#Tiara Carnavalesca#
 401207#[Visual] Science Ninja Honorário#
+401213#[Visual] Jaow Pirun#
 401250#Ferramentas Agrícolas#
 401251#Elmo Mortal de Cinzas#
 401252#Elmo Mágico de Cinzas#
@@ -14474,6 +14819,7 @@
 410099#Bandagem Possuída#
 410103#[Visual] Ataduras#
 410108#[Visual] Filhote Shiba Inu#
+410121#[Visual] Elmo dos Guardiões#
 410122#Piscadela Rosa#
 410127#[Visual] Holofote#
 410128#Microfone de Mecânico#
@@ -14530,6 +14876,7 @@
 410458#[Visual] Brilho Divino#
 410491#[Visual] Estrela Cadente Violeta#
 410574#[Visual] Piscadela Chocolate#
+410576#[Visual] Olho do Necromante#
 410582#[Visual] Poring Enfermeiro#
 410599#Cesta de Mascotes#
 410609#[Visual] Demônio de Nove Caudas#
@@ -14562,7 +14909,7 @@
 420029#[Visual] Ombreiras Prateadas#
 420030#Pena de Águia#
 420031#Máscara Azulada#
-420046#Manta Digníssima#
+420046#[Visual] Manto da Nobreza#
 420047#[Visual] Capa de Cavaleiro#
 420050#[Visual] Peruca com Bao-Bao#
 420053#[Visual] Sombra de Deviruchi#
@@ -14647,6 +14994,7 @@
 420729#[Visual] Adeus, Gatchaman!#
 420730#[Visual] Avante! Ninja Team!#
 420731#[Visual] Comunicado Urgente do Doutor#
+420743#[Visual] Espíritos Felinos#
 420748#Cachecol Físico de Schmidt#
 420749#Cachecol Mágico de Schmidt#
 420752#Moranguinho#
@@ -14671,6 +15019,8 @@
 436003#Máscara de Odium#
 436004#Máscara de Despero#
 436005#Máscara de Maero#
+436006#[Visual] Disfarce de Rgan#
+436007#[Visual] Disfarce de Nevento#
 436008#Fantasia de Tigre Branco#
 436031#Máscara de Pesar#
 440001#Caixa Surpresa do Vário#
@@ -14839,6 +15189,8 @@
 450201#Armadura de Runas Vicejantes#
 450202#Armadura de Runas Mortais#
 450203#Armadura de Runas Gélidas#
+450206#Armadura Invernal#
+450207#Veste Invernal#
 450217#Traje de Freeoni#
 450405#Exoesqueleto Físico#
 450406#Exoesqueleto Mágico#
@@ -14913,6 +15265,8 @@
 470109#Greva de Runas Flamejantes#
 470110#Greva de Runas Mortais#
 470111#Greva de Runas Gélidas#
+470115#Bota Invernal#
+470116#Sapato Invernal#
 470122#Botas das Chamas#
 470204#Botas Decadentes#
 470346#Bota Evolutiva Física#
@@ -14999,6 +15353,8 @@
 480148#Manto de Runas Gélidas#
 480152#Talheres do Comilão#
 480158#Mochila Lunática#
+480159#Manto Invernal#
+480160#Sobrepeliz Invernal#
 480167#[Visual] Pirulito de Chocolate#
 480168#[Visual] Asas Musicais#
 480169#[Visual] Guitarra de Rock#
@@ -15022,6 +15378,7 @@
 480295#[Visual] Ramo de Cerejeira#
 480296#[Visual] Fragrância de Cerejeira#
 480297#Orelhas de Lebre#
+480298#[Visual] Aura das Maravilhas#
 480306#Manto Replicador#
 480310#Macabro Gigante#
 480315#Láctea#
@@ -15033,6 +15390,7 @@
 480335#[Visual] Prancha de Surf Poring#
 480336#[Visual] Rede de Caça#
 480337#Fuzil#
+480344#[Visual] Foice da Princesa Mestiça#
 480360#[Visual] Shuriken Ornamental#
 480361#[Visual] Lâminas do Espírito Maligno#
 480362#Nove-Caudas Branca#
@@ -15083,6 +15441,7 @@
 480658#[Visual] Arcanum Corvus Corax#
 480659#[Visual] Pipoqueira Ornamental#
 480683#Foice da Malícia#
+480725#[Visual] Sexto Sentido Satânico#
 480772#[Visual] Asas da Sorte#
 480801#[Visual] Mochila de Hatii#
 480802#[Visual] Tao Gunka Flutuante#
@@ -15212,6 +15571,10 @@
 490167#Cordão do Cientista#
 490171#Cordão do Elementalista#
 490172#Cordão do Artista#
+490176#Pingente Invernal#
+490177#Anel Invernal#
+490178#Colar Invernal#
+490179#Brinco Invernal#
 490180#Cordão do Engenheiro#
 490181#Cordão do Inquisidor#
 490184#Cordão do Ninja#
@@ -15295,10 +15658,13 @@
 500044#Gume Solidificado#
 500045#Espada Malevolente#
 500046#Paenitentia Orbis#
+500049#Flambergue Invernal#
+500050#Espada Invernal#
 500051#Rapieira-OSAD#
-500054#Espada do Glaciar Sombrio#
-500055#Espada Básica do Glaciar Sombrio#
+500054#Flambergue Vil Invernal#
+500055#Espada Vil Invernal#
 500063#Sabre Celestial#
+500066#Espada Celestial#
 500072#Espada Infernal#
 500109#Espada Dínamo#
 510006#Adaga Ancestral#
@@ -15333,12 +15699,14 @@
 510056#Paenitentia Sol#
 510057#Paenitentia Yana#
 510060#Wakizashi Primordial-LT#
+510061#Punhal Invernal#
+510062#Faca Invernal#
 510066#Kuroiro-OSAD#
 510070#Faca Ancestral#
 510071#Faca Primordial#
 510072#Faca Primordial-LT#
-510075#Adaga de Renegado do Glaciar Sombrio#
-510076#Adaga Básica do Glaciar Sombrio#
+510075#Punhal Vil Invernal#
+510076#Faca Vil Invernal#
 510091#Púgio Infernal#
 510206#Aikuchi-OS#
 510207#Peixeira#
@@ -15349,7 +15717,8 @@
 520010#Machado do Grupo do Éden#
 520011#Machado Ferreiro do Éden#
 520012#Machado Mecânico do Éden#
-520021#Machado do Glaciar Sombrio#
+520017#Lábris Invernal#
+520021#Lábris Vil Invernal#
 530002#Arpão Glutonia#
 530005#Lança de Apoio Hoplita#
 530006#Lança Primordial#
@@ -15363,8 +15732,9 @@
 530018#Lança Guardiã do Éden#
 530019#Lança Primordial-LT#
 530023#Pique Solidificado#
+530025#Espontão Invernal#
 530031#Propulsora-OSAD#
-530034#Lança de Uma Mão do Glaciar Sombrio#
+530034#Espontão Vil Invernal#
 530045#Lança Celestial#
 530067#Lança Dínamo#
 540004#Caderno Acedia#
@@ -15399,9 +15769,10 @@
 540045#Compêndio Vivatus Fides#
 540046#Manual Vivatus Fides#
 540048#Enciclopédia Primordial-LT#
+540049#Grimório Invernal#
 540051#Placa-Mãe-OSAD#
 540053#Bíblia Infernal#
-540056#Livro do Glaciar Sombrio#
+540056#Grimório Vil Invernal#
 540059#Livro Infernal#
 540099#Caderno Dínamo#
 540127#Livro Muscular#
@@ -15459,13 +15830,15 @@
 550066#Cauda de Gato Vivatus Fides#
 550067#Cauda de Gato Primordial-LT#
 550068#Pêndulo Primordial-LT#
+550069#Varinha Invernal#
+550070#Cauda de Gato Invernal#
 550075#Rutilus-OSAD#
 550076#Eletricauda-OSAD#
 550080#Bastão Ancestral#
 550081#Bastão Primordial#
 550082#Bastão Primordial-LT#
-550089#Varinha do Glaciar Sombrio#
-550090#Cauda de Raposa do Glaciar Sombrio#
+550089#Varinha Vil Invernal#
+550090#Cauda de Gato Vil Invernal#
 550115#Cauda de Gato Infernal#
 550160#Cetro Dínamo#
 550161#Báculo Dínamo#
@@ -15495,9 +15868,10 @@
 560026#Garra Primordial-LT#
 560027#Soqueira Primordial-LT#
 560030#Punho Consertado#
+560032#Soqueira Invernal#
 560034#Incendiária-OSAD#
 560036#Manopla Infernal#
-560037#Soco do Glaciar Sombrio#
+560037#Soqueira Vil Invernal#
 560073#Punho Dínamo#
 570002#Ocarina Ancestral#
 570005#Guitarra Pigritia#
@@ -15516,7 +15890,8 @@
 570023#Harpa Ressoante do Éden#
 570027#Ocarina Primordial-LT#
 570028#Violino Consertado#
-570032#Violino do Glaciar Sombrio#
+570029#Violino Invernal#
+570032#Violino Vil Invernal#
 570037#Harpa Celestial#
 570079#Violino Dínamo#
 570083#Violino Aprimorável#
@@ -15537,7 +15912,8 @@
 580023#Chicote Ressonante do Éden#
 580027#Concertina Primordial-LT#
 580028#Chicote Consertado#
-580033#Chicote do Glaciar Sombrio#
+580030#Chicote Invernal#
+580033#Chicote Vil Invernal#
 580038#Chicote Celestial#
 580080#Chicote Dínamo#
 580083#Chicote Aprimorável#
@@ -15565,11 +15941,13 @@
 590030#Clava Primordial-LT#
 590034#Maça Primordial-LT#
 590036#Cruz Malevolente#
+590038#Mangual Invernal#
+590039#Clava Invernal#
 590043#Safira-OSAD#
 590044#Ultio-OSAD#
 590045#Clava Celestial#
-590047#Maça do Glaciar Sombrio#
-590048#Maça de Mecânico do Glaciar Sombrio#
+590047#Mangual Vil Invernal#
+590048#Clava Vil Invernal#
 600004#Bastarda Ancestral#
 600008#Lâmina Hypocritae#
 600009#Espada Primordial#
@@ -15584,8 +15962,9 @@
 600021#Espada Rúnica do Éden#
 600023#Espada Primordial-LT#
 600024#Bastarda Primordial-LT#
+600027#Montante Invernal#
 600028#Claymore-OSAD#
-600030#Espada de Duas Mãos do Glaciar Sombrio#
+600030#Montante Vil Invernal#
 600066#Claymore Dínamo#
 610003#Jur Ancestral#
 610006#Metal Avaritia#
@@ -15608,8 +15987,9 @@
 610033#Katar Primordial-LT#
 610034#Jur Primordial-LT#
 610035#Katar Malevolente#
+610037#Katar Invernal#
 610039#Meuchler-OSAD#
-610041#Katar do Glaciar Sombrio#
+610041#Katar Vil Invernal#
 610045#Katar Celestial#
 610078#Katar Dínamo#
 620003#Machado de Apoio Corporal#
@@ -15622,8 +16002,9 @@
 620012#Lábris Mecânico do Éden#
 620015#Cutelo Primordial-LT#
 620016#Machado Malevolente#
+620017#Berdiche Invernal#
 620018#Blasti-OSAD#
-620019#Machado de Mecânico do Glaciar Sombrio#
+620019#Berdiche Vil Invernal#
 620046#Machado Dínamo#
 630003#Perfurador Luxuriae#
 630006#Brionac Ilusional#
@@ -15634,7 +16015,8 @@
 630013#Arpão Vivatus Fides#
 630014#Lança Cavaleira do Éden#
 630015#Lança Rúnica do Éden#
-630019#Lança do Glaciar Sombrio#
+630018#Lança Invernal#
+630019#Lança Vil Invernal#
 630027#Tridente Celestial#
 640004#Báculo Ancestral#
 640005#Báculo Superbia#
@@ -15657,7 +16039,8 @@
 640027#Cetro Primordial-LT#
 640028#Báculo Primordial-LT#
 640031#Báculo Solidificado#
-640034#Cajado do Glaciar Sombrio#
+640033#Báculo Invernal#
+640034#Báculo Vil Invernal#
 640036#Foice Infernal#
 640037#Báculo Celestial#
 640059#Cajado Dínamo#
@@ -15674,7 +16057,8 @@
 650021#Shuriken Vivatus Fides#
 650022#Huuma Vivatus Fides#
 650024#Shuriken Huuma Primordial-LT#
-650028#Shuriken Huuma do Glaciar Sombrio#
+650025#Huuma Invernal#
+650028#Huuma Vil Invernal#
 650034#Shuriken Celestial#
 650056#Huuma Dínamo#
 700003#Gakkung Ancestral#
@@ -15712,10 +16096,11 @@
 700046#Gakkung Primordial-LT#
 700049#Arco Primordial-LT#
 700050#Arco Consertado#
+700052#Arco Invernal#
 700054#Virtual-OSAD#
 700055#MH-P89-OSAD#
 700056#AC-B44-OSAD#
-700059#Arco do Glaciar Sombrio#
+700059#Arco Vil Invernal#
 700066#Arco Infernal#
 700110#Arco Dínamo#
 700111#Balista Dínamo#
@@ -15731,7 +16116,8 @@
 800011#Paenitentia Flama#
 800012#Revólver Vivatus Fides#
 800013#Revólver Primordial-LT#
-800015#Revólver do Glaciar Sombrio#
+800014#Revólver Invernal#
+800015#Revólver Vil Invernal#
 810000#Rifle Luxuriae#
 810001#Rifle Primordial#
 810002#Rifle Adulter Fides#
@@ -15741,8 +16127,9 @@
 810007#Paenitentia Penet#
 810008#Rifle Vivatus Fides#
 810009#Rifle Primordial-LT#
+810010#Carabina Invernal#
 810013#HR-S55-OSAD#
-810015#Rifle do Glaciar Sombrio#
+810015#Carabina Vil Invernal#
 820000#Escopeta Luxuriae#
 820001#Escopeta Primordial#
 820002#Espingarda Adulter Fides#
@@ -15750,7 +16137,8 @@
 820005#Retalhador Descartado#
 820006#Espingarda Vivatus Fides#
 820007#Escopeta Primordial-LT#
-820011#Espingarda do Glaciar Sombrio#
+820008#Fuzil Invernal#
+820011#Fuzil Vil Invernal#
 830001#Metralhadora Luxuriae#
 830002#Gatling Primordial#
 830003#Metralhadora Adulter Fides#
@@ -15760,7 +16148,8 @@
 830010#Paenitentia Veloci#
 830011#Metralhadora Vivatus Fides#
 830012#Gatling Primordial-LT#
-830015#Metralhadora Gatling do Glaciar Sombrio#
+830013#Metralhadora Invernal#
+830015#Metralhadora Vil Invernal#
 830042#Metralhadora Dínamo#
 840000#Arsenal Luxuriae#
 840001#Lança-Granadas Primordial#
@@ -15770,7 +16159,9 @@
 840006#Paenitentia Ruina#
 840007#Granadeira Vivatus Fides#
 840008#Lança-Granadas Primordial-LT#
-840010#Lança-Granadas do Glaciar Sombrio#
+840009#Lança-Granadas Invernal#
+840010#Lança-Granadas Vil Invernal#
+840020#Granadeira Infernal#
 1000000#IDTest_ÀâÅÛ#
 1000006#Ticket de Armadura de Apoio#
 1000008#Pedra de Atirador de Elite II (Topo)#
@@ -16124,6 +16515,11 @@
 1000569#Bruma da Trovoada#
 1000571#Botão de Estrela#
 1000572#Ticket de Classe do Aniversário#
+1000604#Tubo de Ensaio de Juncea#
+1000605#Tubo de Ensaio com Líquido Vermelho#
+1000606#Casca de Ovo Rgan Superior#
+1000607#Convite do Guardião#
+1000608#Pétala de Flor Invernal#
 1000610#Pedra de Cavaleiro Rúnico (Topo)#
 1000611#Pedra de Cavaleiro Rúnico (Meio)#
 1000612#Pedra de Cavaleiro Rúnico (Baixo)#
@@ -16174,13 +16570,131 @@
 1000695#Esboço de Varinha#
 1000696#Esboço de Rabo-de-Gato#
 1000697#Esboço de Cauda de Gato#
-1000757#Pedra Mágica da Flor de Gelo (Sopro Dracônico)#
-1000763#Pedra Mágica da Flor de Gelo (Canhão Propulsor)#
-1000764#Pedra Mágica da Flor de Gelo (Bumerangue Vulcano)#
-1000765#Pedra Mágica da Flor de Gelo (Golpe Tornado)#
-1000766#Pedra Mágica da Flor de Gelo (Tornado Infernal)#
-1000768#Pedra Mágica da Flor de Gelo (Explosão Ácida)#
+1000705#Núcleo Mágico Rgan#
+1000706#Núcleo Mágico Purificado#
+1000707#Núcleo Mágico Rgan de Baixa Qualidade#
+1000708#Carne Congelada#
+1000711#Peça de Flor Invernal (FOR)#
+1000712#Peça de Flor Invernal (DES)#
+1000713#Peça de Flor Invernal (AGI)#
+1000714#Peça de Flor Invernal (INT)#
+1000715#Peça de Flor Invernal (VIT)#
+1000716#Peça de Flor Invernal (SOR)#
+1000717#Peça de Flor Invernal (DEF)#
+1000718#Peça de Flor Invernal (DEFM)#
+1000719#Peça de Flor Invernal (Atirador)#
+1000720#Peça de Flor Invernal (Guerreiro)#
+1000721#Peça de Flor Invernal (Mágico)#
+1000722#Peça de Flor Invernal (Refletor)#
+1000723#Peça de Flor Invernal (Híbrido)#
+1000724#Peça de Flor Invernal (Pós)#
+1000725#Peça de Flor Invernal (Veloz)#
+1000726#Peça de Flor Invernal (Variável)#
+1000727#Peça de Flor Invernal (Crítico)#
+1000728#Peça de Flor Invernal (Precisão)#
+1000729#Peça de Flor Invernal (Total)#
+1000730#Peça de Flor Invernal (Dano)#
+1000731#Peça de Flor Invernal (Espelho)#
+1000732#Peça de Flor Invernal (HP)#
+1000733#Peça de Flor Invernal (SP)#
+1000734#Peça de Flor Invernal (Cura)#
+1000735#Peça de Flor Invernal (Robusto)#
+1000736#Peça de Flor Invernal (Fixa)#
+1000737#Peça de Flor Invernal (Estatura)#
+1000738#Peça de Flor Invernal (Tamanho)#
+1000739#Peça de Flor Invernal (Eternidade)#
+1000740#Peça de Flor Invernal (Sortilégio)#
+1000741#Peça de Flor Invernal (Astúcia)#
+1000742#Peça de Flor Invernal (Superpoder)#
+1000743#Peça de Flor Invernal (Lampejo)#
+1000744#Peça de Flor Invernal (Fortuna)#
+1000745#Peça de Flor Invernal (Atraso)#
+1000746#Peça de Flor Invernal (Mira)#
+1000747#Peça de Flor Invernal (Fatal)#
+1000748#Peça de Flor Invernal (Combate)#
+1000749#Peça de Flor Invernal (Encanto)#
+1000750#Peça de Flor Invernal (HPR)#
+1000751#Peça de Flor Invernal (SPR)#
+1000752#Peça de Flor Invernal (Conversão)#
+1000753#Peça de Flor Invernal (Absorção)#
+1000754#Peça de Flor Invernal (Vida)#
+1000755#Peça de Flor Invernal (Mente)#
+1000756#Peça de Flor Invernal (Geral)#
+1000757#Peça de Flor Invernal (Dragão)#
+1000758#Peça de Flor Invernal (Rúnico)#
+1000759#Peça de Flor Invernal (Lança)#
+1000760#Peça de Flor Invernal (Guardião)#
+1000761#Peça de Flor Invernal (Hoplita)#
+1000762#Peça de Flor Invernal (Domini)#
+1000763#Peça de Flor Invernal (Canhão)#
+1000764#Peça de Flor Invernal (Lenhador)#
+1000765#Peça de Flor Invernal (Machado)#
+1000766#Peça de Flor Invernal (Biologia)#
+1000767#Peça de Flor Invernal (Física)#
+1000768#Peça de Flor Invernal (Química)#
+1000769#Peça de Flor Invernal (Lâminas)#
+1000770#Peça de Flor Invernal (Loki)#
+1000771#Peça de Flor Invernal (Duelista)#
+1000772#Peça de Flor Invernal (Ofensiva)#
+1000773#Peça de Flor Invernal (Desejo)#
+1000774#Peça de Flor Invernal (Triplo)#
+1000775#Peça de Flor Invernal (Místico)#
+1000776#Peça de Flor Invernal (Arcanista)#
+1000777#Peça de Flor Invernal (Imaterial)#
+1000778#Peça de Flor Invernal (Tóxico)#
+1000779#Peça de Flor Invernal (Psíquica)#
+1000780#Peça de Flor Invernal (Feitiço)#
+1000781#Peça de Flor Invernal (Exorcismo)#
+1000782#Peça de Flor Invernal (Santo)#
+1000783#Peça de Flor Invernal (Gemini)#
+1000784#Peça de Flor Invernal (Lutador)#
+1000785#Peça de Flor Invernal (Espiritual)#
+1000786#Peça de Flor Invernal (Pugilista)#
+1000787#Peça de Flor Invernal (Falcão)#
+1000788#Peça de Flor Invernal (Tiro)#
+1000789#Peça de Flor Invernal (Flecha)#
+1000790#Peça de Flor Invernal (Musical)#
+1000791#Peça de Flor Invernal (Temporal)#
+1000792#Peça de Flor Invernal (Vulcão)#
+1000793#Peça de Flor Invernal (Solar)#
+1000794#Peça de Flor Invernal (Lunar)#
+1000795#Peça de Flor Invernal (Estelar)#
+1000796#Peça de Flor Invernal (Almas)#
+1000797#Peça de Flor Invernal (Espírito)#
+1000798#Peça de Flor Invernal (Sombrio)#
+1000799#Peça de Flor Invernal (Revólver)#
+1000800#Peça de Flor Invernal (Granada)#
+1000801#Peça de Flor Invernal (Espingarda)#
+1000802#Peça de Flor Invernal (Ninpou)#
+1000803#Peça de Flor Invernal (Togatana)#
+1000804#Peça de Flor Invernal (Shinobi)#
+1000805#Peça de Flor Invernal (Fauna)#
+1000806#Peça de Flor Invernal (Selva)#
+1000807#Peça de Flor Invernal (Selvagem)#
+1000808#Peça de Flor Invernal (Super)#
+1000809#Peça de Flor Invernal (Hiper)#
+1000810#Peça de Flor Invernal (Mega)#
+1000811#Minério Mágico da Flor de Neve#
+1000812#Globo de Flor Invernal#
+1000813#Globo de Flor Invernal Brilhante#
+1000814#Globo de Flor Invernal Reluzente#
 1000815#Ticket de Mascote Zumbichano#
+1000822#Casco Rgan#
+1000823#Célula de Forma de Vida Estranha#
+1000824#Calapi#
+1000825#Cacalapi#
+1000826#Casco Espinhoso#
+1000827#Garra Esbelta#
+1000828#Casco Transparente#
+1000829#Flor-Sino de Isca#
+1000830#Casco Fino e Resistente#
+1000831#Caule de Alga Brilhante#
+1000832#Casco de Inseto Congelado#
+1000833#Corpo Luminoso Misterioso#
+1000834#Fragmento de Osso Longo e Afiado#
+1000842#Antena de Alta Sensibilidade#
+1000845#Livro-caixa#
+1000846#Petisco de Gelo#
 1000855#Pedra de Critical (Dual)#
 1000856#Pedra de CON (Dual)#
 1000867#Ticket de Mascote Freeoni#
@@ -16240,6 +16754,7 @@
 1001549#Emblema Sonic#
 1001578#Ticket de Mascote Abelha-Rainha#
 1001579#Ticket de Mascote Zangão Gigante#
+1001580#Ticket de Mascote Zangão#
 1001669#Vale-Presença#
 1001670#Passe do Episódio 20#
 1001675#Radiação Verde#
@@ -16252,9 +16767,11 @@
 1001753#Passe do Episódio 13#
 1001755#Passe do Episódio 14#
 1001756#Passe do Episódio 15#
+1001777#Ticket de Mascote Angelgolt Azul#
 1001778#Ticket de Mascote Skeggiold#
 1001782#Ticket de Mascote Vigia do Tempo#
 1001783#Ticket de Mascote Gerente#
+1001784#Ticket de Mascote Relógio#
 1001860#Lágrima Temporal Forte#
 1001861#Lágrima Temporal Fraca#
 1001886#Moeda Kung Fu Panda#
@@ -16289,10 +16806,12 @@
 1002877#Ticket de Mascote Lobo do Deserto#
 1002959#Moeda Baby Shark#
 1003095#Ticket de Mascote Eddga#
+1003337#Ticket de Mascote Cavaleiro Branco#
 1100000#IDTest_ÀâÅÛ#
 1100003#Elixir Vermelho#
 1100004#Elixir Azul#
 1100005#Elixir Dourado#
+1100006#Escaragélido Seco#
 1100028#Macarrão Delicioso#
 1100029#Bao Delicioso#
 1100036#Peixe Compartilhado#
