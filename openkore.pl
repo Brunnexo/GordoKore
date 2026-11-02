@@ -21,7 +21,7 @@ use lib "$RealBin/src/deps";
 BEGIN {
 	if (!defined($ENV{INTERPRETER}) && !$ENV{NO_AUTOSTART}) {
 		eval { require Utils::Updater; Utils::Updater::run($RealBin, $0, @ARGV); 1 }
-			or print "[update] fail: " . ($@ =~ s/\s+$//r) . ". Ignoring...\n";
+			or print "[update] fail: " . (split /\n/, $@)[0] . ". Ignoring...\n";
 	}
 }
 
