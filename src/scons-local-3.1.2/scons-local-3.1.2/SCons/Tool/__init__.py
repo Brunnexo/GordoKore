@@ -236,7 +236,9 @@ class Tool(object):
                 # Not sure what to do in the case that there already
                 # exists sys.modules[self.name] but the source file is
                 # different.. ?
-                module = spec.loader.load_module(spec.name)
+                # load_module() foi removido no Python 3.15; exec_module() existe desde o 3.4
+                sys.modules[spec.name] = module
+                spec.loader.exec_module(module)
 
                 sys.modules[found_name] = module
                 if add_to_scons_tools_namespace:
